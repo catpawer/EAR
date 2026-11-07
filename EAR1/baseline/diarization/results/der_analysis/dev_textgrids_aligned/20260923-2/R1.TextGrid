@@ -1,0 +1,4732 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1480.536667
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "P030"
+        xmin = 0
+        xmax = 1480.536667
+        intervals: size = 360
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 1.070000
+            text = ""
+        intervals [2]:
+            xmin = 1.070000
+            xmax = 2.100000
+            text = "大家。"
+        intervals [3]:
+            xmin = 2.100000
+            xmax = 2.560000
+            text = ""
+        intervals [4]:
+            xmin = 2.560000
+            xmax = 5.190000
+            text = "大家都看过仙剑奇侠传三吗？"
+        intervals [5]:
+            xmin = 5.190000
+            xmax = 5.260000
+            text = ""
+        intervals [6]:
+            xmin = 5.260000
+            xmax = 8.850000
+            text = "这个是我很喜欢的一部电视剧，虽然时间有点长了。"
+        intervals [7]:
+            xmin = 8.850000
+            xmax = 8.990000
+            text = ""
+        intervals [8]:
+            xmin = 8.990000
+            xmax = 10.300000
+            text = "但是，"
+        intervals [9]:
+            xmin = 10.300000
+            xmax = 10.950000
+            text = ""
+        intervals [10]:
+            xmin = 10.950000
+            xmax = 13.620000
+            text = "额，但现在还是一部经典。"
+        intervals [11]:
+            xmin = 13.620000
+            xmax = 13.680000
+            text = ""
+        intervals [12]:
+            xmin = 13.680000
+            xmax = 15.190000
+            text = "时不时的。"
+        intervals [13]:
+            xmin = 15.190000
+            xmax = 15.310000
+            text = ""
+        intervals [14]:
+            xmin = 15.310000
+            xmax = 17.560000
+            text = "还会重复去刷一下。"
+        intervals [15]:
+            xmin = 17.560000
+            xmax = 31.090000
+            text = ""
+        intervals [16]:
+            xmin = 31.090000
+            xmax = 35.130000
+            text = "对当时非常的火大家都以为之后仙侠剧都会。"
+        intervals [17]:
+            xmin = 35.130000
+            xmax = 35.240000
+            text = ""
+        intervals [18]:
+            xmin = 35.240000
+            xmax = 37.240000
+            text = "继续出很多呃出很多。"
+        intervals [19]:
+            xmin = 37.240000
+            xmax = 38.140000
+            text = ""
+        intervals [20]:
+            xmin = 38.140000
+            xmax = 40.280000
+            text = "呃，出很多。"
+        intervals [21]:
+            xmin = 40.280000
+            xmax = 40.640000
+            text = ""
+        intervals [22]:
+            xmin = 40.640000
+            xmax = 42.830000
+            text = "更火的。"
+        intervals [23]:
+            xmin = 42.830000
+            xmax = 42.940000
+            text = ""
+        intervals [24]:
+            xmin = 42.940000
+            xmax = 44.070000
+            text = "对，爆品。"
+        intervals [25]:
+            xmin = 44.070000
+            xmax = 44.340000
+            text = ""
+        intervals [26]:
+            xmin = 44.340000
+            xmax = 45.940000
+            text = "但是最后发现。"
+        intervals [27]:
+            xmin = 45.940000
+            xmax = 46.140000
+            text = ""
+        intervals [28]:
+            xmin = 46.140000
+            xmax = 48.630000
+            text = "就仙三之后再也没有更。"
+        intervals [29]:
+            xmin = 48.630000
+            xmax = 48.680000
+            text = ""
+        intervals [30]:
+            xmin = 48.680000
+            xmax = 50.210000
+            text = "更出彩的了。"
+        intervals [31]:
+            xmin = 50.210000
+            xmax = 50.760000
+            text = ""
+        intervals [32]:
+            xmin = 50.760000
+            xmax = 52.180000
+            text = "嗯..."
+        intervals [33]:
+            xmin = 52.180000
+            xmax = 63.250000
+            text = ""
+        intervals [34]:
+            xmin = 63.250000
+            xmax = 66.780000
+            text = "说现在让我想的话我也不太能够记起了，"
+        intervals [35]:
+            xmin = 66.780000
+            xmax = 66.860000
+            text = ""
+        intervals [36]:
+            xmin = 66.860000
+            xmax = 69.880000
+            text = "大概是在小学到初中那个那个阶段吧。"
+        intervals [37]:
+            xmin = 69.880000
+            xmax = 87.930000
+            text = ""
+        intervals [38]:
+            xmin = 87.930000
+            xmax = 92.510000
+            text = "嗯我当时就是随缘看的就是电视。"
+        intervals [39]:
+            xmin = 92.510000
+            xmax = 93.030000
+            text = ""
+        intervals [40]:
+            xmin = 93.030000
+            xmax = 96.000000
+            text = "呃，随机播放然后我并不。"
+        intervals [41]:
+            xmin = 96.000000
+            xmax = 96.240000
+            text = ""
+        intervals [42]:
+            xmin = 96.240000
+            xmax = 98.120000
+            text = "对对对对对。"
+        intervals [43]:
+            xmin = 98.120000
+            xmax = 98.300000
+            text = ""
+        intervals [44]:
+            xmin = 98.300000
+            xmax = 101.280000
+            text = "后来是看入迷了之后就开始。"
+        intervals [45]:
+            xmin = 101.280000
+            xmax = 101.560000
+            text = ""
+        intervals [46]:
+            xmin = 101.560000
+            xmax = 103.480000
+            text = "呃，等着那个频道。"
+        intervals [47]:
+            xmin = 103.480000
+            xmax = 103.600000
+            text = ""
+        intervals [48]:
+            xmin = 103.600000
+            xmax = 105.070000
+            text = "然后固定点儿去看。"
+        intervals [49]:
+            xmin = 105.070000
+            xmax = 105.970000
+            text = ""
+        intervals [50]:
+            xmin = 105.970000
+            xmax = 107.820000
+            text = "嗯，哈哈。"
+        intervals [51]:
+            xmin = 107.820000
+            xmax = 124.340000
+            text = ""
+        intervals [52]:
+            xmin = 124.340000
+            xmax = 125.780000
+            text = "嗯确实。"
+        intervals [53]:
+            xmin = 125.780000
+            xmax = 126.370000
+            text = ""
+        intervals [54]:
+            xmin = 126.370000
+            xmax = 127.860000
+            text = "呃仙剑三。"
+        intervals [55]:
+            xmin = 127.860000
+            xmax = 127.910000
+            text = ""
+        intervals [56]:
+            xmin = 127.910000
+            xmax = 130.350000
+            text = "它主要是以轮回跟救世为主题嘛。"
+        intervals [57]:
+            xmin = 130.350000
+            xmax = 130.370000
+            text = ""
+        intervals [58]:
+            xmin = 130.370000
+            xmax = 132.800000
+            text = "呃，主角景天还有。"
+        intervals [59]:
+            xmin = 132.800000
+            xmax = 133.050000
+            text = ""
+        intervals [60]:
+            xmin = 133.050000
+            xmax = 135.700000
+            text = "呃女主唐雪见呃。"
+        intervals [61]:
+            xmin = 135.700000
+            xmax = 136.250000
+            text = ""
+        intervals [62]:
+            xmin = 136.250000
+            xmax = 138.130000
+            text = "呃前呃在。"
+        intervals [63]:
+            xmin = 138.130000
+            xmax = 138.150000
+            text = ""
+        intervals [64]:
+            xmin = 138.150000
+            xmax = 141.990000
+            text = "前世他们就是天庭里面的那个飞蓬还有"
+        intervals [65]:
+            xmin = 141.990000
+            xmax = 143.510000
+            text = ""
+        intervals [66]:
+            xmin = 143.510000
+            xmax = 146.670000
+            text = "啊你啊对夕瑶夕瑶我我都忘记了。"
+        intervals [67]:
+            xmin = 146.670000
+            xmax = 148.220000
+            text = ""
+        intervals [68]:
+            xmin = 148.220000
+            xmax = 149.220000
+            text = "对对对。"
+        intervals [69]:
+            xmin = 149.220000
+            xmax = 200.930000
+            text = ""
+        intervals [70]:
+            xmin = 200.930000
+            xmax = 203.590000
+            text = "对，像现在流行的那种丧尸的感觉。"
+        intervals [71]:
+            xmin = 203.590000
+            xmax = 235.630000
+            text = ""
+        intervals [72]:
+            xmin = 235.630000
+            xmax = 237.650000
+            text = "确实仙剑的那个。"
+        intervals [73]:
+            xmin = 237.650000
+            xmax = 238.130000
+            text = ""
+        intervals [74]:
+            xmin = 238.130000
+            xmax = 241.400000
+            text = "呃主题曲确实是很出名也经常被人唱的，我记得。"
+        intervals [75]:
+            xmin = 241.400000
+            xmax = 241.470000
+            text = ""
+        intervals [76]:
+            xmin = 241.470000
+            xmax = 245.810000
+            text = "我记得现现在也经常有人拿出来去各种。"
+        intervals [77]:
+            xmin = 245.810000
+            xmax = 246.050000
+            text = ""
+        intervals [78]:
+            xmin = 246.050000
+            xmax = 248.780000
+            text = "视频里边儿配，对对对，去做配音嗯。"
+        intervals [79]:
+            xmin = 248.780000
+            xmax = 249.590000
+            text = ""
+        intervals [80]:
+            xmin = 249.590000
+            xmax = 251.060000
+            text = "嗯..."
+        intervals [81]:
+            xmin = 251.060000
+            xmax = 259.940000
+            text = ""
+        intervals [82]:
+            xmin = 259.940000
+            xmax = 261.970000
+            text = "对，恰到好处，让人印象深刻。"
+        intervals [83]:
+            xmin = 261.970000
+            xmax = 275.630000
+            text = ""
+        intervals [84]:
+            xmin = 275.630000
+            xmax = 277.460000
+            text = "嗯很虐心哈哈。"
+        intervals [85]:
+            xmin = 277.460000
+            xmax = 278.070000
+            text = ""
+        intervals [86]:
+            xmin = 278.070000
+            xmax = 279.760000
+            text = "就是。"
+        intervals [87]:
+            xmin = 279.760000
+            xmax = 281.110000
+            text = ""
+        intervals [88]:
+            xmin = 281.110000
+            xmax = 285.270000
+            text = "对于，呃徐长卿而言就是三次遗忘嘛。"
+        intervals [89]:
+            xmin = 285.270000
+            xmax = 285.350000
+            text = ""
+        intervals [90]:
+            xmin = 285.350000
+            xmax = 286.680000
+            text = "然后三次再回想。"
+        intervals [91]:
+            xmin = 286.680000
+            xmax = 286.700000
+            text = ""
+        intervals [92]:
+            xmin = 286.700000
+            xmax = 288.220000
+            text = "而紫萱就是一个人。"
+        intervals [93]:
+            xmin = 288.220000
+            xmax = 288.340000
+            text = ""
+        intervals [94]:
+            xmin = 288.340000
+            xmax = 290.460000
+            text = "一个人承受然后还要去让。"
+        intervals [95]:
+            xmin = 290.460000
+            xmax = 290.710000
+            text = ""
+        intervals [96]:
+            xmin = 290.710000
+            xmax = 291.550000
+            text = "嗯。"
+        intervals [97]:
+            xmin = 291.550000
+            xmax = 292.010000
+            text = ""
+        intervals [98]:
+            xmin = 292.010000
+            xmax = 295.060000
+            text = "还要去让徐长卿的转世重新认识他。"
+        intervals [99]:
+            xmin = 295.060000
+            xmax = 295.180000
+            text = ""
+        intervals [100]:
+            xmin = 295.180000
+            xmax = 296.760000
+            text = "我觉得双方。"
+        intervals [101]:
+            xmin = 296.760000
+            xmax = 297.130000
+            text = ""
+        intervals [102]:
+            xmin = 297.130000
+            xmax = 299.910000
+            text = "各有各，对，各有各的苦。"
+        intervals [103]:
+            xmin = 299.910000
+            xmax = 424.900000
+            text = ""
+        intervals [104]:
+            xmin = 424.900000
+            xmax = 429.160000
+            text = "我记我隐约记得在剧情里边紫萱是要过。"
+        intervals [105]:
+            xmin = 429.160000
+            xmax = 429.420000
+            text = ""
+        intervals [106]:
+            xmin = 429.420000
+            xmax = 431.440000
+            text = "就是已经因为。"
+        intervals [107]:
+            xmin = 431.440000
+            xmax = 431.480000
+            text = ""
+        intervals [108]:
+            xmin = 431.480000
+            xmax = 434.480000
+            text = "当时在呃生下了她的女儿嘛。"
+        intervals [109]:
+            xmin = 434.480000
+            xmax = 434.780000
+            text = ""
+        intervals [110]:
+            xmin = 434.780000
+            xmax = 435.520000
+            text = "然后。"
+        intervals [111]:
+            xmin = 435.520000
+            xmax = 435.590000
+            text = ""
+        intervals [112]:
+            xmin = 435.590000
+            xmax = 437.710000
+            text = "魔尊的心脏她也还回去了所以就。"
+        intervals [113]:
+            xmin = 437.710000
+            xmax = 438.010000
+            text = ""
+        intervals [114]:
+            xmin = 438.010000
+            xmax = 440.480000
+            text = "似乎是已经快要坚持不住了。"
+        intervals [115]:
+            xmin = 440.480000
+            xmax = 458.980000
+            text = ""
+        intervals [116]:
+            xmin = 458.980000
+            xmax = 459.910000
+            text = "对的。"
+        intervals [117]:
+            xmin = 459.910000
+            xmax = 470.600000
+            text = ""
+        intervals [118]:
+            xmin = 470.600000
+            xmax = 472.860000
+            text = "我当然记得那对。"
+        intervals [119]:
+            xmin = 472.860000
+            xmax = 473.390000
+            text = ""
+        intervals [120]:
+            xmin = 473.390000
+            xmax = 475.730000
+            text = "很让人痛心。"
+        intervals [121]:
+            xmin = 475.730000
+            xmax = 478.530000
+            text = ""
+        intervals [122]:
+            xmin = 478.530000
+            xmax = 482.430000
+            text = "不仅仅是茂茂割肉还有他景天的另一个。"
+        intervals [123]:
+            xmin = 482.430000
+            xmax = 483.590000
+            text = ""
+        intervals [124]:
+            xmin = 483.590000
+            xmax = 485.730000
+            text = "啊。必平哎我已经。"
+        intervals [125]:
+            xmin = 485.730000
+            xmax = 485.760000
+            text = ""
+        intervals [126]:
+            xmin = 485.760000
+            xmax = 487.700000
+            text = "有点记忆模糊了没有记清了。"
+        intervals [127]:
+            xmin = 487.700000
+            xmax = 502.120000
+            text = ""
+        intervals [128]:
+            xmin = 502.120000
+            xmax = 502.880000
+            text = "对啊。"
+        intervals [129]:
+            xmin = 502.880000
+            xmax = 506.770000
+            text = ""
+        intervals [130]:
+            xmin = 506.770000
+            xmax = 508.960000
+            text = "景天也寿命将尽了。"
+        intervals [131]:
+            xmin = 508.960000
+            xmax = 514.250000
+            text = ""
+        intervals [132]:
+            xmin = 514.250000
+            xmax = 516.220000
+            text = "哎。"
+        intervals [133]:
+            xmin = 516.220000
+            xmax = 522.040000
+            text = ""
+        intervals [134]:
+            xmin = 522.040000
+            xmax = 524.330000
+            text = "嗯..."
+        intervals [135]:
+            xmin = 524.330000
+            xmax = 525.470000
+            text = ""
+        intervals [136]:
+            xmin = 525.470000
+            xmax = 528.800000
+            text = "龙葵两次祭剑的话。"
+        intervals [137]:
+            xmin = 528.800000
+            xmax = 530.050000
+            text = ""
+        intervals [138]:
+            xmin = 530.050000
+            xmax = 531.490000
+            text = "我觉得他说的。"
+        intervals [139]:
+            xmin = 531.490000
+            xmax = 531.800000
+            text = ""
+        intervals [140]:
+            xmin = 531.800000
+            xmax = 534.050000
+            text = "也的确没有问题但是我觉得。"
+        intervals [141]:
+            xmin = 534.050000
+            xmax = 534.110000
+            text = ""
+        intervals [142]:
+            xmin = 534.110000
+            xmax = 537.280000
+            text = "多少也是有一种执念吧。"
+        intervals [143]:
+            xmin = 537.280000
+            xmax = 538.050000
+            text = ""
+        intervals [144]:
+            xmin = 538.050000
+            xmax = 539.850000
+            text = "就是他，他的。"
+        intervals [145]:
+            xmin = 539.850000
+            xmax = 539.930000
+            text = ""
+        intervals [146]:
+            xmin = 539.930000
+            xmax = 541.540000
+            text = "转世。"
+        intervals [147]:
+            xmin = 541.540000
+            xmax = 541.860000
+            text = ""
+        intervals [148]:
+            xmin = 541.860000
+            xmax = 544.180000
+            text = "呃转世的龙阳还是后来的。"
+        intervals [149]:
+            xmin = 544.180000
+            xmax = 547.130000
+            text = "景天都是想一开始都是想要保护龙葵的。"
+        intervals [150]:
+            xmin = 547.130000
+            xmax = 547.470000
+            text = ""
+        intervals [151]:
+            xmin = 547.470000
+            xmax = 550.240000
+            text = "不愿意让他就是以身祭奠或者是。"
+        intervals [152]:
+            xmin = 550.240000
+            xmax = 550.290000
+            text = ""
+        intervals [153]:
+            xmin = 550.290000
+            xmax = 552.020000
+            text = "涉险但是最后。"
+        intervals [154]:
+            xmin = 552.020000
+            xmax = 552.060000
+            text = ""
+        intervals [155]:
+            xmin = 552.060000
+            xmax = 554.590000
+            text = "龙葵还是更愿意去。"
+        intervals [156]:
+            xmin = 554.590000
+            xmax = 554.850000
+            text = ""
+        intervals [157]:
+            xmin = 554.850000
+            xmax = 558.190000
+            text = "牺牲自己保护呃他的哥哥。"
+        intervals [158]:
+            xmin = 558.190000
+            xmax = 559.170000
+            text = ""
+        intervals [159]:
+            xmin = 559.170000
+            xmax = 561.860000
+            text = "就对她而言可能就是更。"
+        intervals [160]:
+            xmin = 561.860000
+            xmax = 561.880000
+            text = ""
+        intervals [161]:
+            xmin = 561.880000
+            xmax = 564.910000
+            text = "就是不不愿意一直。"
+        intervals [162]:
+            xmin = 564.910000
+            xmax = 565.000000
+            text = ""
+        intervals [163]:
+            xmin = 565.000000
+            xmax = 568.180000
+            text = "就是被哥哥保护想要就是反馈。"
+        intervals [164]:
+            xmin = 568.180000
+            xmax = 624.070000
+            text = ""
+        intervals [165]:
+            xmin = 624.070000
+            xmax = 625.320000
+            text = "最后战死。"
+        intervals [166]:
+            xmin = 625.320000
+            xmax = 629.950000
+            text = ""
+        intervals [167]:
+            xmin = 629.950000
+            xmax = 630.850000
+            text = "嗯。"
+        intervals [168]:
+            xmin = 630.850000
+            xmax = 631.860000
+            text = ""
+        intervals [169]:
+            xmin = 631.860000
+            xmax = 634.370000
+            text = "我记得当时龙葵是在。"
+        intervals [170]:
+            xmin = 634.370000
+            xmax = 634.870000
+            text = ""
+        intervals [171]:
+            xmin = 634.870000
+            xmax = 637.540000
+            text = "海底的那个类似于大屏幕。"
+        intervals [172]:
+            xmin = 637.540000
+            xmax = 637.950000
+            text = ""
+        intervals [173]:
+            xmin = 637.950000
+            xmax = 642.500000
+            text = "就是可以看到未来的时候提前看对提前看到的那个结果。"
+        intervals [174]:
+            xmin = 642.500000
+            xmax = 646.810000
+            text = ""
+        intervals [175]:
+            xmin = 646.810000
+            xmax = 650.550000
+            text = "对然后也看到了就是自己献祭剑的结果。"
+        intervals [176]:
+            xmin = 650.550000
+            xmax = 652.300000
+            text = ""
+        intervals [177]:
+            xmin = 652.300000
+            xmax = 654.400000
+            text = "呃。"
+        intervals [178]:
+            xmin = 654.400000
+            xmax = 662.260000
+            text = ""
+        intervals [179]:
+            xmin = 662.260000
+            xmax = 672.020000
+            text = "我也不太清楚了是不是类似于剑灵的存在呀。"
+        intervals [180]:
+            xmin = 672.020000
+            xmax = 680.310000
+            text = ""
+        intervals [181]:
+            xmin = 680.310000
+            xmax = 682.330000
+            text = "嗯他哥。"
+        intervals [182]:
+            xmin = 682.330000
+            xmax = 682.930000
+            text = ""
+        intervals [183]:
+            xmin = 682.930000
+            xmax = 685.870000
+            text = "景天呃。"
+        intervals [184]:
+            xmin = 685.870000
+            xmax = 686.430000
+            text = ""
+        intervals [185]:
+            xmin = 686.430000
+            xmax = 690.230000
+            text = "景天死后还有下一世吗？也呵呵。"
+        intervals [186]:
+            xmin = 690.230000
+            xmax = 694.910000
+            text = ""
+        intervals [187]:
+            xmin = 694.910000
+            xmax = 697.320000
+            text = "回天界吗重回天界."
+        intervals [188]:
+            xmin = 697.320000
+            xmax = 727.610000
+            text = ""
+        intervals [189]:
+            xmin = 727.610000
+            xmax = 732.210000
+            text = "是有这种说法吧但是我觉得他个人情感上肯定也是有倾向的吧。"
+        intervals [190]:
+            xmin = 732.210000
+            xmax = 733.010000
+            text = ""
+        intervals [191]:
+            xmin = 733.010000
+            xmax = 735.350000
+            text = "是对的对的我觉得是这样。"
+        intervals [192]:
+            xmin = 735.350000
+            xmax = 747.180000
+            text = ""
+        intervals [193]:
+            xmin = 747.180000
+            xmax = 750.050000
+            text = "所以之后才会被邪剑仙捉住嘛。"
+        intervals [194]:
+            xmin = 750.050000
+            xmax = 767.440000
+            text = ""
+        intervals [195]:
+            xmin = 767.440000
+            xmax = 769.190000
+            text = "是因情所困。"
+        intervals [196]:
+            xmin = 769.190000
+            xmax = 770.670000
+            text = ""
+        intervals [197]:
+            xmin = 770.670000
+            xmax = 772.440000
+            text = "哎。"
+        intervals [198]:
+            xmin = 772.440000
+            xmax = 775.890000
+            text = ""
+        intervals [199]:
+            xmin = 775.890000
+            xmax = 777.430000
+            text = "战斗狂。"
+        intervals [200]:
+            xmin = 777.430000
+            xmax = 778.760000
+            text = ""
+        intervals [201]:
+            xmin = 778.760000
+            xmax = 780.110000
+            text = "嗯。"
+        intervals [202]:
+            xmin = 780.110000
+            xmax = 780.210000
+            text = ""
+        intervals [203]:
+            xmin = 780.210000
+            xmax = 783.780000
+            text = "说起来仙剑也有一个比较有意思的点就是。"
+        intervals [204]:
+            xmin = 783.780000
+            xmax = 784.270000
+            text = ""
+        intervals [205]:
+            xmin = 784.270000
+            xmax = 788.410000
+            text = "每个角色的很多角色的名字嘛都是根据药名。"
+        intervals [206]:
+            xmin = 788.410000
+            xmax = 788.490000
+            text = ""
+        intervals [207]:
+            xmin = 788.490000
+            xmax = 792.320000
+            text = "来这个改编或者说是就是直接就是药名的。"
+        intervals [208]:
+            xmin = 792.320000
+            xmax = 792.960000
+            text = ""
+        intervals [209]:
+            xmin = 792.960000
+            xmax = 794.600000
+            text = "这一点也挺有意思。"
+        intervals [210]:
+            xmin = 794.600000
+            xmax = 795.020000
+            text = ""
+        intervals [211]:
+            xmin = 795.020000
+            xmax = 795.840000
+            text = "但是。"
+        intervals [212]:
+            xmin = 795.840000
+            xmax = 797.010000
+            text = ""
+        intervals [213]:
+            xmin = 797.010000
+            xmax = 799.490000
+            text = "呃这样设定是有什么缘由的吗？"
+        intervals [214]:
+            xmin = 799.490000
+            xmax = 799.530000
+            text = ""
+        intervals [215]:
+            xmin = 799.530000
+            xmax = 802.390000
+            text = "你们有人清楚吗？"
+        intervals [216]:
+            xmin = 802.390000
+            xmax = 815.540000
+            text = ""
+        intervals [217]:
+            xmin = 815.540000
+            xmax = 818.300000
+            text = "嗯。"
+        intervals [218]:
+            xmin = 818.300000
+            xmax = 830.680000
+            text = ""
+        intervals [219]:
+            xmin = 830.680000
+            xmax = 833.420000
+            text = "寻找火灵珠，对。"
+        intervals [220]:
+            xmin = 833.420000
+            xmax = 853.370000
+            text = ""
+        intervals [221]:
+            xmin = 853.370000
+            xmax = 856.890000
+            text = "演戏骗眼泪最后不小心打翻了。"
+        intervals [222]:
+            xmin = 856.890000
+            xmax = 858.300000
+            text = ""
+        intervals [223]:
+            xmin = 858.300000
+            xmax = 861.360000
+            text = "还是呃男女主最后互相感动哭。"
+        intervals [224]:
+            xmin = 861.360000
+            xmax = 861.400000
+            text = ""
+        intervals [225]:
+            xmin = 861.400000
+            xmax = 863.820000
+            text = "流泪然后才浇灭了那个火焰。"
+        intervals [226]:
+            xmin = 863.820000
+            xmax = 864.040000
+            text = ""
+        intervals [227]:
+            xmin = 864.040000
+            xmax = 865.120000
+            text = "对对对。"
+        intervals [228]:
+            xmin = 865.120000
+            xmax = 874.680000
+            text = ""
+        intervals [229]:
+            xmin = 874.680000
+            xmax = 877.480000
+            text = "就是雪见是吗？嗯。"
+        intervals [230]:
+            xmin = 877.480000
+            xmax = 892.760000
+            text = ""
+        intervals [231]:
+            xmin = 892.760000
+            xmax = 894.380000
+            text = "实际上是天。"
+        intervals [232]:
+            xmin = 894.380000
+            xmax = 923.090000
+            text = ""
+        intervals [233]:
+            xmin = 923.090000
+            xmax = 924.520000
+            text = "对有的时候。"
+        intervals [234]:
+            xmin = 924.520000
+            xmax = 924.550000
+            text = ""
+        intervals [235]:
+            xmin = 924.550000
+            xmax = 926.680000
+            text = "短视频也会经常有。"
+        intervals [236]:
+            xmin = 926.680000
+            xmax = 927.000000
+            text = ""
+        intervals [237]:
+            xmin = 927.000000
+            xmax = 930.070000
+            text = "零零碎碎的去刷那些剧情就又回想起。"
+        intervals [238]:
+            xmin = 930.070000
+            xmax = 930.290000
+            text = ""
+        intervals [239]:
+            xmin = 930.290000
+            xmax = 931.540000
+            text = "当时的时候。"
+        intervals [240]:
+            xmin = 931.540000
+            xmax = 975.130000
+            text = ""
+        intervals [241]:
+            xmin = 975.130000
+            xmax = 977.380000
+            text = "上天呵上天赐予的."
+        intervals [242]:
+            xmin = 977.380000
+            xmax = 981.590000
+            text = ""
+        intervals [243]:
+            xmin = 981.590000
+            xmax = 983.110000
+            text = "所以一直很宠她吗."
+        intervals [244]:
+            xmin = 983.110000
+            xmax = 988.210000
+            text = ""
+        intervals [245]:
+            xmin = 988.210000
+            xmax = 989.570000
+            text = "我记我我。"
+        intervals [246]:
+            xmin = 989.570000
+            xmax = 989.610000
+            text = ""
+        intervals [247]:
+            xmin = 989.610000
+            xmax = 991.830000
+            text = "记得是他叔父。"
+        intervals [248]:
+            xmin = 991.830000
+            xmax = 991.860000
+            text = ""
+        intervals [249]:
+            xmin = 991.860000
+            xmax = 994.660000
+            text = "暗算的那个唐家主吧。然后。"
+        intervals [250]:
+            xmin = 994.660000
+            xmax = 995.700000
+            text = ""
+        intervals [251]:
+            xmin = 995.700000
+            xmax = 997.770000
+            text = "那个毒人似乎也跟他有关系。"
+        intervals [252]:
+            xmin = 997.770000
+            xmax = 999.650000
+            text = ""
+        intervals [253]:
+            xmin = 999.650000
+            xmax = 1001.180000
+            text = "想要夺权。"
+        intervals [254]:
+            xmin = 1001.180000
+            xmax = 1030.540000
+            text = ""
+        intervals [255]:
+            xmin = 1030.540000
+            xmax = 1032.610000
+            text = "是这个原因吗呵呵."
+        intervals [256]:
+            xmin = 1032.610000
+            xmax = 1036.649000
+            text = ""
+        intervals [257]:
+            xmin = 1036.649000
+            xmax = 1039.249000
+            text = "是有好像是有这种设定吧."
+        intervals [258]:
+            xmin = 1039.249000
+            xmax = 1051.190000
+            text = ""
+        intervals [259]:
+            xmin = 1051.190000
+            xmax = 1056.130000
+            text = "嗯就是当时一开始五毒兽还是个土豆没有孵出来吗？"
+        intervals [260]:
+            xmin = 1056.130000
+            xmax = 1057.630000
+            text = ""
+        intervals [261]:
+            xmin = 1057.630000
+            xmax = 1060.490000
+            text = "已已经出来了吗？"
+        intervals [262]:
+            xmin = 1060.490000
+            xmax = 1060.540000
+            text = ""
+        intervals [263]:
+            xmin = 1060.540000
+            xmax = 1062.180000
+            text = "我隐约记得是。"
+        intervals [264]:
+            xmin = 1062.180000
+            xmax = 1062.850000
+            text = ""
+        intervals [265]:
+            xmin = 1062.850000
+            xmax = 1067.640000
+            text = "毒人后后半段似乎然后这个五毒兽才孵化出来的。"
+        intervals [266]:
+            xmin = 1067.640000
+            xmax = 1074.720000
+            text = ""
+        intervals [267]:
+            xmin = 1074.720000
+            xmax = 1076.700000
+            text = "欸是吗？"
+        intervals [268]:
+            xmin = 1076.700000
+            xmax = 1081.240000
+            text = ""
+        intervals [269]:
+            xmin = 1081.240000
+            xmax = 1082.810000
+            text = "呃。"
+        intervals [270]:
+            xmin = 1082.810000
+            xmax = 1091.830000
+            text = ""
+        intervals [271]:
+            xmin = 1091.830000
+            xmax = 1095.250000
+            text = "所以是所有人都认你你才能。"
+        intervals [272]:
+            xmin = 1095.250000
+            xmax = 1097.610000
+            text = ""
+        intervals [273]:
+            xmin = 1097.610000
+            xmax = 1098.230000
+            text = "嗯"
+        intervals [274]:
+            xmin = 1098.230000
+            xmax = 1100.170000
+            text = ""
+        intervals [275]:
+            xmin = 1100.170000
+            xmax = 1102.340000
+            text = "哎。"
+        intervals [276]:
+            xmin = 1102.340000
+            xmax = 1121.350000
+            text = ""
+        intervals [277]:
+            xmin = 1121.350000
+            xmax = 1123.000000
+            text = "嗯应应该是。"
+        intervals [278]:
+            xmin = 1123.000000
+            xmax = 1123.050000
+            text = ""
+        intervals [279]:
+            xmin = 1123.050000
+            xmax = 1126.710000
+            text = "一整个团队的那个各种不好的情绪都被吸收了。"
+        intervals [280]:
+            xmin = 1126.710000
+            xmax = 1155.900000
+            text = ""
+        intervals [281]:
+            xmin = 1155.900000
+            xmax = 1159.080000
+            text = "有能力去蛊惑徐长卿。"
+        intervals [282]:
+            xmin = 1159.080000
+            xmax = 1173.430000
+            text = ""
+        intervals [283]:
+            xmin = 1173.430000
+            xmax = 1176.450000
+            text = "然后把她变成了树，变成了一棵树。"
+        intervals [284]:
+            xmin = 1176.450000
+            xmax = 1176.650000
+            text = ""
+        intervals [285]:
+            xmin = 1176.650000
+            xmax = 1178.330000
+            text = "然后认出来树还是。"
+        intervals [286]:
+            xmin = 1178.330000
+            xmax = 1178.570000
+            text = ""
+        intervals [287]:
+            xmin = 1178.570000
+            xmax = 1181.100000
+            text = "景天在雪见脸。"
+        intervals [288]:
+            xmin = 1181.100000
+            xmax = 1181.300000
+            text = ""
+        intervals [289]:
+            xmin = 1181.300000
+            xmax = 1183.880000
+            text = "上画的那个猪头。对。"
+        intervals [290]:
+            xmin = 1183.880000
+            xmax = 1185.850000
+            text = ""
+        intervals [291]:
+            xmin = 1185.850000
+            xmax = 1187.660000
+            text = "啊，对。"
+        intervals [292]:
+            xmin = 1187.660000
+            xmax = 1223.030000
+            text = ""
+        intervals [293]:
+            xmin = 1223.030000
+            xmax = 1226.770000
+            text = "溪风还有另一个碧瑶吗？"
+        intervals [294]:
+            xmin = 1226.770000
+            xmax = 1229.660000
+            text = ""
+        intervals [295]:
+            xmin = 1229.660000
+            xmax = 1231.870000
+            text = "神女呃。"
+        intervals [296]:
+            xmin = 1231.870000
+            xmax = 1233.130000
+            text = ""
+        intervals [297]:
+            xmin = 1233.130000
+            xmax = 1235.760000
+            text = "不太清楚呵呵。"
+        intervals [298]:
+            xmin = 1235.760000
+            xmax = 1240.580000
+            text = ""
+        intervals [299]:
+            xmin = 1240.580000
+            xmax = 1243.370000
+            text = "长相不好但是声音动听。"
+        intervals [300]:
+            xmin = 1243.370000
+            xmax = 1244.080000
+            text = ""
+        intervals [301]:
+            xmin = 1244.080000
+            xmax = 1246.360000
+            text = "但实际上对方并不在乎这一点。"
+        intervals [302]:
+            xmin = 1246.360000
+            xmax = 1254.470000
+            text = ""
+        intervals [303]:
+            xmin = 1254.470000
+            xmax = 1256.490000
+            text = "换的容貌嗯。"
+        intervals [304]:
+            xmin = 1256.490000
+            xmax = 1271.490000
+            text = ""
+        intervals [305]:
+            xmin = 1271.490000
+            xmax = 1272.530000
+            text = "嗯对的。"
+        intervals [306]:
+            xmin = 1272.530000
+            xmax = 1278.600000
+            text = ""
+        intervals [307]:
+            xmin = 1278.600000
+            xmax = 1280.650000
+            text = "说起仙剑三。"
+        intervals [308]:
+            xmin = 1280.650000
+            xmax = 1280.820000
+            text = ""
+        intervals [309]:
+            xmin = 1280.820000
+            xmax = 1284.800000
+            text = "像是紫萱的女儿青儿我记得似乎也是。"
+        intervals [310]:
+            xmin = 1284.800000
+            xmax = 1284.840000
+            text = ""
+        intervals [311]:
+            xmin = 1284.840000
+            xmax = 1288.290000
+            text = "关联后续的那个仙剑一跟二的剧情吧。"
+        intervals [312]:
+            xmin = 1288.290000
+            xmax = 1290.050000
+            text = ""
+        intervals [313]:
+            xmin = 1290.050000
+            xmax = 1292.410000
+            text = "嗯设定上来说似乎是。"
+        intervals [314]:
+            xmin = 1292.410000
+            xmax = 1292.580000
+            text = ""
+        intervals [315]:
+            xmin = 1292.580000
+            xmax = 1295.190000
+            text = "仙剑三是在仙剑一之前的。"
+        intervals [316]:
+            xmin = 1295.190000
+            xmax = 1298.380000
+            text = ""
+        intervals [317]:
+            xmin = 1298.380000
+            xmax = 1299.730000
+            text = "因为呃。"
+        intervals [318]:
+            xmin = 1299.730000
+            xmax = 1302.600000
+            text = ""
+        intervals [319]:
+            xmin = 1302.600000
+            xmax = 1305.080000
+            text = "对对对因为赵灵儿是青。"
+        intervals [320]:
+            xmin = 1305.080000
+            xmax = 1305.140000
+            text = ""
+        intervals [321]:
+            xmin = 1305.140000
+            xmax = 1306.570000
+            text = "青儿的女儿好像是。"
+        intervals [322]:
+            xmin = 1306.570000
+            xmax = 1306.630000
+            text = ""
+        intervals [323]:
+            xmin = 1306.630000
+            xmax = 1308.650000
+            text = "青儿又是紫萱的女儿。"
+        intervals [324]:
+            xmin = 1308.650000
+            xmax = 1309.280000
+            text = ""
+        intervals [325]:
+            xmin = 1309.280000
+            xmax = 1312.040000
+            text = "嗯然后李逍遥。"
+        intervals [326]:
+            xmin = 1312.040000
+            xmax = 1312.170000
+            text = ""
+        intervals [327]:
+            xmin = 1312.170000
+            xmax = 1316.460000
+            text = "当时虽然不太清楚是怎么过去的就是有穿越时空的能力。"
+        intervals [328]:
+            xmin = 1316.460000
+            xmax = 1317.280000
+            text = ""
+        intervals [329]:
+            xmin = 1317.280000
+            xmax = 1319.320000
+            text = "呃算是穿插过去吧。"
+        intervals [330]:
+            xmin = 1319.320000
+            xmax = 1326.050000
+            text = ""
+        intervals [331]:
+            xmin = 1326.050000
+            xmax = 1328.880000
+            text = "嗯一我也只是粗略的看过一点点。"
+        intervals [332]:
+            xmin = 1328.880000
+            xmax = 1328.950000
+            text = ""
+        intervals [333]:
+            xmin = 1328.950000
+            xmax = 1331.260000
+            text = "现在也是记忆模糊了。"
+        intervals [334]:
+            xmin = 1331.260000
+            xmax = 1332.820000
+            text = ""
+        intervals [335]:
+            xmin = 1332.820000
+            xmax = 1333.580000
+            text = "对的对的。"
+        intervals [336]:
+            xmin = 1333.580000
+            xmax = 1338.330000
+            text = ""
+        intervals [337]:
+            xmin = 1338.330000
+            xmax = 1338.960000
+            text = "对的。"
+        intervals [338]:
+            xmin = 1338.960000
+            xmax = 1344.980000
+            text = ""
+        intervals [339]:
+            xmin = 1344.980000
+            xmax = 1347.060000
+            text = "对到死才呃到死"
+        intervals [340]:
+            xmin = 1347.060000
+            xmax = 1347.340000
+            text = ""
+        intervals [341]:
+            xmin = 1347.340000
+            xmax = 1350.280000
+            text = "之后那会才知道那个孩子是他自己的"
+        intervals [342]:
+            xmin = 1350.280000
+            xmax = 1352.680000
+            text = ""
+        intervals [343]:
+            xmin = 1352.680000
+            xmax = 1355.290000
+            text = "嗯。"
+        intervals [344]:
+            xmin = 1355.290000
+            xmax = 1403.040000
+            text = ""
+        intervals [345]:
+            xmin = 1403.040000
+            xmax = 1403.480000
+            text = "对。"
+        intervals [346]:
+            xmin = 1403.480000
+            xmax = 1408.150000
+            text = ""
+        intervals [347]:
+            xmin = 1408.150000
+            xmax = 1408.790000
+            text = "对的。"
+        intervals [348]:
+            xmin = 1408.790000
+            xmax = 1410.720000
+            text = ""
+        intervals [349]:
+            xmin = 1410.720000
+            xmax = 1412.740000
+            text = "啊。 "
+        intervals [350]:
+            xmin = 1412.740000
+            xmax = 1440.160000
+            text = ""
+        intervals [351]:
+            xmin = 1440.160000
+            xmax = 1442.480000
+            text = "对一步一步往上走嘛。"
+        intervals [352]:
+            xmin = 1442.480000
+            xmax = 1454.130000
+            text = ""
+        intervals [353]:
+            xmin = 1454.130000
+            xmax = 1457.330000
+            text = "对呀哼很多时候儿是需要他斗底的。"
+        intervals [354]:
+            xmin = 1457.330000
+            xmax = 1463.840000
+            text = ""
+        intervals [355]:
+            xmin = 1463.840000
+            xmax = 1467.230000
+            text = "也是靠徐长卿钻入他肚子里面。"
+        intervals [356]:
+            xmin = 1467.230000
+            xmax = 1473.570000
+            text = ""
+        intervals [357]:
+            xmin = 1473.570000
+            xmax = 1475.320000
+            text = "那个手势。"
+        intervals [358]:
+            xmin = 1475.320000
+            xmax = 1476.950000
+            text = ""
+        intervals [359]:
+            xmin = 1476.950000
+            xmax = 1480.140000
+            text = "标记了一下弱点嘛这样景天才能把他。"
+        intervals [360]:
+            xmin = 1480.140000
+            xmax = 1480.536667
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "P029"
+        xmin = 0
+        xmax = 1480.536667
+        intervals: size = 647
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 17.710000
+            text = ""
+        intervals [2]:
+            xmin = 17.710000
+            xmax = 20.220000
+            text = "嗯这个剧我是很喜欢的。"
+        intervals [3]:
+            xmin = 20.220000
+            xmax = 20.390000
+            text = ""
+        intervals [4]:
+            xmin = 20.390000
+            xmax = 23.470000
+            text = "就是当时不是网上一直流传一句话说。"
+        intervals [5]:
+            xmin = 23.470000
+            xmax = 23.730000
+            text = ""
+        intervals [6]:
+            xmin = 23.730000
+            xmax = 27.770000
+            text = "以为仙剑三是仙侠剧的开端其实是顶峰。"
+        intervals [7]:
+            xmin = 27.770000
+            xmax = 28.300000
+            text = ""
+        intervals [8]:
+            xmin = 28.300000
+            xmax = 30.400000
+            text = "呃这个剧还是很有意思的。"
+        intervals [9]:
+            xmin = 30.400000
+            xmax = 69.700000
+            text = ""
+        intervals [10]:
+            xmin = 69.700000
+            xmax = 72.460000
+            text = "这个剧它刚出的时候。"
+        intervals [11]:
+            xmin = 72.460000
+            xmax = 72.650000
+            text = ""
+        intervals [12]:
+            xmin = 72.650000
+            xmax = 75.750000
+            text = "只放映的时候，我就被我姐拉着看了。"
+        intervals [13]:
+            xmin = 75.750000
+            xmax = 75.970000
+            text = ""
+        intervals [14]:
+            xmin = 75.970000
+            xmax = 79.400000
+            text = "就天天等它更新的那种程度。"
+        intervals [15]:
+            xmin = 79.400000
+            xmax = 79.640000
+            text = ""
+        intervals [16]:
+            xmin = 79.640000
+            xmax = 81.030000
+            text = "然后也是。"
+        intervals [17]:
+            xmin = 81.030000
+            xmax = 81.410000
+            text = ""
+        intervals [18]:
+            xmin = 81.410000
+            xmax = 82.970000
+            text = "也是在我的。"
+        intervals [19]:
+            xmin = 82.970000
+            xmax = 83.820000
+            text = ""
+        intervals [20]:
+            xmin = 83.820000
+            xmax = 85.410000
+            text = "童年里边。"
+        intervals [21]:
+            xmin = 85.410000
+            xmax = 85.660000
+            text = ""
+        intervals [22]:
+            xmin = 85.660000
+            xmax = 87.600000
+            text = "比较深刻的一部电视剧了。"
+        intervals [23]:
+            xmin = 87.600000
+            xmax = 143.630000
+            text = ""
+        intervals [24]:
+            xmin = 143.630000
+            xmax = 145.230000
+            text = "夕瑶夕瑶。"
+        intervals [25]:
+            xmin = 145.230000
+            xmax = 145.320000
+            text = ""
+        intervals [26]:
+            xmin = 145.320000
+            xmax = 147.610000
+            text = "但是雪见她不是。"
+        intervals [27]:
+            xmin = 147.610000
+            xmax = 147.670000
+            text = ""
+        intervals [28]:
+            xmin = 147.670000
+            xmax = 148.800000
+            text = "夕瑶的转世。"
+        intervals [29]:
+            xmin = 148.800000
+            xmax = 148.850000
+            text = ""
+        intervals [30]:
+            xmin = 148.850000
+            xmax = 150.660000
+            text = "她是夕瑶的圣女果实。"
+        intervals [31]:
+            xmin = 150.660000
+            xmax = 150.800000
+            text = ""
+        intervals [32]:
+            xmin = 150.800000
+            xmax = 152.340000
+            text = "她是圣女果变的。"
+        intervals [33]:
+            xmin = 152.340000
+            xmax = 152.620000
+            text = ""
+        intervals [34]:
+            xmin = 152.620000
+            xmax = 153.690000
+            text = "然后。"
+        intervals [35]:
+            xmin = 153.690000
+            xmax = 154.410000
+            text = ""
+        intervals [36]:
+            xmin = 154.410000
+            xmax = 155.420000
+            text = "额。"
+        intervals [37]:
+            xmin = 155.420000
+            xmax = 155.720000
+            text = ""
+        intervals [38]:
+            xmin = 155.720000
+            xmax = 158.810000
+            text = "其实我觉得仙剑三成功的点就在于他是。"
+        intervals [39]:
+            xmin = 158.810000
+            xmax = 158.950000
+            text = ""
+        intervals [40]:
+            xmin = 158.950000
+            xmax = 160.770000
+            text = "他每一个他是一个群像剧吗？"
+        intervals [41]:
+            xmin = 160.770000
+            xmax = 160.920000
+            text = ""
+        intervals [42]:
+            xmin = 160.920000
+            xmax = 162.100000
+            text = "他所有的人。"
+        intervals [43]:
+            xmin = 162.100000
+            xmax = 162.330000
+            text = ""
+        intervals [44]:
+            xmin = 162.330000
+            xmax = 164.470000
+            text = "人物形象是一个特别鲜明。"
+        intervals [45]:
+            xmin = 164.470000
+            xmax = 164.840000
+            text = ""
+        intervals [46]:
+            xmin = 164.840000
+            xmax = 165.640000
+            text = "比较。"
+        intervals [47]:
+            xmin = 165.640000
+            xmax = 165.890000
+            text = ""
+        intervals [48]:
+            xmin = 165.890000
+            xmax = 169.140000
+            text = "就是，对每个人都有每个人的灵魂特点。"
+        intervals [49]:
+            xmin = 169.140000
+            xmax = 171.220000
+            text = ""
+        intervals [50]:
+            xmin = 171.220000
+            xmax = 175.430000
+            text = "其实仙剑三对于我来说的话小时候也是我的童年阴影之一。"
+        intervals [51]:
+            xmin = 175.430000
+            xmax = 175.660000
+            text = ""
+        intervals [52]:
+            xmin = 175.660000
+            xmax = 178.060000
+            text = "就是，我当时看。"
+        intervals [53]:
+            xmin = 178.060000
+            xmax = 178.320000
+            text = ""
+        intervals [54]:
+            xmin = 178.320000
+            xmax = 181.500000
+            text = "土灵珠，找土灵珠那一块。"
+        intervals [55]:
+            xmin = 181.500000
+            xmax = 183.190000
+            text = ""
+        intervals [56]:
+            xmin = 183.190000
+            xmax = 184.860000
+            text = "不，猴子之前。"
+        intervals [57]:
+            xmin = 184.860000
+            xmax = 184.950000
+            text = ""
+        intervals [58]:
+            xmin = 184.950000
+            xmax = 185.640000
+            text = "她不是。"
+        intervals [59]:
+            xmin = 185.640000
+            xmax = 186.300000
+            text = ""
+        intervals [60]:
+            xmin = 186.300000
+            xmax = 189.020000
+            text = "哎不对，花楹是五毒兽是吧？"
+        intervals [61]:
+            xmin = 189.020000
+            xmax = 189.120000
+            text = ""
+        intervals [62]:
+            xmin = 189.120000
+            xmax = 190.860000
+            text = "就是在五毒兽那一段。"
+        intervals [63]:
+            xmin = 190.860000
+            xmax = 191.010000
+            text = ""
+        intervals [64]:
+            xmin = 191.010000
+            xmax = 192.150000
+            text = "对，她爷爷。"
+        intervals [65]:
+            xmin = 192.150000
+            xmax = 192.200000
+            text = ""
+        intervals [66]:
+            xmin = 192.200000
+            xmax = 193.840000
+            text = "对，唐家堡那一段。"
+        intervals [67]:
+            xmin = 193.840000
+            xmax = 193.950000
+            text = ""
+        intervals [68]:
+            xmin = 193.950000
+            xmax = 195.920000
+            text = "然后那个唐家堡那个毒人"
+        intervals [69]:
+            xmin = 195.920000
+            xmax = 195.970000
+            text = ""
+        intervals [70]:
+            xmin = 195.970000
+            xmax = 197.590000
+            text = "小时候真的看的我。"
+        intervals [71]:
+            xmin = 197.590000
+            xmax = 198.040000
+            text = ""
+        intervals [72]:
+            xmin = 198.040000
+            xmax = 200.690000
+            text = "真的很吓人我觉得就是。"
+        intervals [73]:
+            xmin = 200.690000
+            xmax = 201.230000
+            text = ""
+        intervals [74]:
+            xmin = 201.230000
+            xmax = 205.040000
+            text = "那种视觉冲击就是对很吓人很吓人。"
+        intervals [75]:
+            xmin = 205.040000
+            xmax = 205.220000
+            text = ""
+        intervals [76]:
+            xmin = 205.220000
+            xmax = 207.160000
+            text = "也就是我的童年阴影就是我。"
+        intervals [77]:
+            xmin = 207.160000
+            xmax = 207.450000
+            text = ""
+        intervals [78]:
+            xmin = 207.450000
+            xmax = 209.470000
+            text = "那段经那那一段"
+        intervals [79]:
+            xmin = 209.470000
+            xmax = 209.680000
+            text = ""
+        intervals [80]:
+            xmin = 209.680000
+            xmax = 211.370000
+            text = "在我看来还是比较。"
+        intervals [81]:
+            xmin = 211.370000
+            xmax = 211.870000
+            text = ""
+        intervals [82]:
+            xmin = 211.870000
+            xmax = 215.610000
+            text = "嗯对我对我幼小的心灵造成了不小的打击。"
+        intervals [83]:
+            xmin = 215.610000
+            xmax = 246.220000
+            text = ""
+        intervals [84]:
+            xmin = 246.220000
+            xmax = 247.490000
+            text = "二创，对。"
+        intervals [85]:
+            xmin = 247.490000
+            xmax = 250.750000
+            text = ""
+        intervals [86]:
+            xmin = 250.750000
+            xmax = 252.700000
+            text = "他这个音乐确实是。"
+        intervals [87]:
+            xmin = 252.700000
+            xmax = 252.980000
+            text = ""
+        intervals [88]:
+            xmin = 252.980000
+            xmax = 254.560000
+            text = "整部剧的点睛之笔。"
+        intervals [89]:
+            xmin = 254.560000
+            xmax = 254.940000
+            text = ""
+        intervals [90]:
+            xmin = 254.940000
+            xmax = 260.070000
+            text = "就是在关键的时刻想起关键的节点想起了关键的BGM。"
+        intervals [91]:
+            xmin = 260.070000
+            xmax = 260.190000
+            text = ""
+        intervals [92]:
+            xmin = 260.190000
+            xmax = 261.450000
+            text = "就是比较对。"
+        intervals [93]:
+            xmin = 261.450000
+            xmax = 261.510000
+            text = ""
+        intervals [94]:
+            xmin = 261.510000
+            xmax = 263.410000
+            text = "就是恰到好处会让。"
+        intervals [95]:
+            xmin = 263.410000
+            xmax = 263.700000
+            text = ""
+        intervals [96]:
+            xmin = 263.700000
+            xmax = 265.430000
+            text = "会让咱们观众的那个。"
+        intervals [97]:
+            xmin = 265.430000
+            xmax = 265.790000
+            text = ""
+        intervals [98]:
+            xmin = 265.790000
+            xmax = 267.470000
+            text = "呃印象更加深刻。"
+        intervals [99]:
+            xmin = 267.470000
+            xmax = 269.080000
+            text = ""
+        intervals [100]:
+            xmin = 269.080000
+            xmax = 270.200000
+            text = "关于。"
+        intervals [101]:
+            xmin = 270.200000
+            xmax = 270.320000
+            text = ""
+        intervals [102]:
+            xmin = 270.320000
+            xmax = 274.250000
+            text = "紫萱和徐长卿三世爱恋你们怎么看。"
+        intervals [103]:
+            xmin = 274.250000
+            xmax = 300.280000
+            text = ""
+        intervals [104]:
+            xmin = 300.280000
+            xmax = 303.340000
+            text = "呃，很有一个很有意思的剧情啊，就是在最后。"
+        intervals [105]:
+            xmin = 303.340000
+            xmax = 303.550000
+            text = ""
+        intervals [106]:
+            xmin = 303.550000
+            xmax = 305.680000
+            text = "呃，击败邪神仙之后。"
+        intervals [107]:
+            xmin = 305.680000
+            xmax = 305.840000
+            text = ""
+        intervals [108]:
+            xmin = 305.840000
+            xmax = 309.400000
+            text = "呃，击败邪神仙之后呃紫萱和徐长卿共共饮忘情水那一段儿。"
+        intervals [109]:
+            xmin = 309.400000
+            xmax = 309.950000
+            text = ""
+        intervals [110]:
+            xmin = 309.950000
+            xmax = 311.640000
+            text = "就是他们两个人都没有喝。"
+        intervals [111]:
+            xmin = 311.640000
+            xmax = 312.280000
+            text = ""
+        intervals [112]:
+            xmin = 312.280000
+            xmax = 315.290000
+            text = "呃，你们是怎么理解这一段儿的为什么他们没有喝。"
+        intervals [113]:
+            xmin = 315.290000
+            xmax = 322.690000
+            text = ""
+        intervals [114]:
+            xmin = 322.690000
+            xmax = 323.870000
+            text = "其实。"
+        intervals [115]:
+            xmin = 323.870000
+            xmax = 324.200000
+            text = ""
+        intervals [116]:
+            xmin = 324.200000
+            xmax = 325.860000
+            text = "呃，您先说完。"
+        intervals [117]:
+            xmin = 325.860000
+            xmax = 326.380000
+            text = ""
+        intervals [118]:
+            xmin = 326.380000
+            xmax = 328.470000
+            text = "好，其实我是反对态度。"
+        intervals [119]:
+            xmin = 328.470000
+            xmax = 328.610000
+            text = ""
+        intervals [120]:
+            xmin = 328.610000
+            xmax = 330.130000
+            text = "是为什么。"
+        intervals [121]:
+            xmin = 330.130000
+            xmax = 330.150000
+            text = ""
+        intervals [122]:
+            xmin = 330.150000
+            xmax = 331.590000
+            text = "就是"
+        intervals [123]:
+            xmin = 331.590000
+            xmax = 331.790000
+            text = ""
+        intervals [124]:
+            xmin = 331.790000
+            xmax = 332.790000
+            text = "他们都没有喝。"
+        intervals [125]:
+            xmin = 332.790000
+            xmax = 333.170000
+            text = ""
+        intervals [126]:
+            xmin = 333.170000
+            xmax = 334.840000
+            text = "呃，紫萱可能是。"
+        intervals [127]:
+            xmin = 334.840000
+            xmax = 335.640000
+            text = ""
+        intervals [128]:
+            xmin = 335.640000
+            xmax = 338.840000
+            text = "忘不掉，因为她已经三世的，就是她自个儿的。"
+        intervals [129]:
+            xmin = 338.840000
+            xmax = 339.070000
+            text = ""
+        intervals [130]:
+            xmin = 339.070000
+            xmax = 341.850000
+            text = "就是她自个儿的情感里边儿，已经爱了三三世的徐长卿了。"
+        intervals [131]:
+            xmin = 341.850000
+            xmax = 342.560000
+            text = ""
+        intervals [132]:
+            xmin = 342.560000
+            xmax = 345.690000
+            text = "然后对于徐长卿来说这一这一世他是要飞。"
+        intervals [133]:
+            xmin = 345.690000
+            xmax = 345.710000
+            text = ""
+        intervals [134]:
+            xmin = 345.710000
+            xmax = 346.770000
+            text = "飞升成仙的。"
+        intervals [135]:
+            xmin = 346.770000
+            xmax = 347.340000
+            text = ""
+        intervals [136]:
+            xmin = 347.340000
+            xmax = 348.350000
+            text = "然后。"
+        intervals [137]:
+            xmin = 348.350000
+            xmax = 348.400000
+            text = ""
+        intervals [138]:
+            xmin = 348.400000
+            xmax = 349.000000
+            text = "他。"
+        intervals [139]:
+            xmin = 349.000000
+            xmax = 349.140000
+            text = ""
+        intervals [140]:
+            xmin = 349.140000
+            xmax = 350.460000
+            text = "就意味着。"
+        intervals [141]:
+            xmin = 350.460000
+            xmax = 351.180000
+            text = ""
+        intervals [142]:
+            xmin = 351.180000
+            xmax = 353.410000
+            text = "嗯...如果他喝下了忘情水。"
+        intervals [143]:
+            xmin = 353.410000
+            xmax = 354.150000
+            text = ""
+        intervals [144]:
+            xmin = 354.150000
+            xmax = 356.320000
+            text = "后世还是会记得。"
+        intervals [145]:
+            xmin = 356.320000
+            xmax = 356.870000
+            text = ""
+        intervals [146]:
+            xmin = 356.870000
+            xmax = 358.930000
+            text = "就是，这是一个轮回嘛。"
+        intervals [147]:
+            xmin = 358.930000
+            xmax = 359.030000
+            text = ""
+        intervals [148]:
+            xmin = 359.030000
+            xmax = 360.810000
+            text = "就是，他喝下了忘情水。"
+        intervals [149]:
+            xmin = 360.810000
+            xmax = 361.000000
+            text = ""
+        intervals [150]:
+            xmin = 361.000000
+            xmax = 362.250000
+            text = "之后他忘记了。"
+        intervals [151]:
+            xmin = 362.250000
+            xmax = 362.900000
+            text = ""
+        intervals [152]:
+            xmin = 362.900000
+            xmax = 363.640000
+            text = "呃。"
+        intervals [153]:
+            xmin = 363.640000
+            xmax = 364.100000
+            text = ""
+        intervals [154]:
+            xmin = 364.100000
+            xmax = 366.010000
+            text = "他忘记了那个紫萱之后。"
+        intervals [155]:
+            xmin = 366.010000
+            xmax = 366.140000
+            text = ""
+        intervals [156]:
+            xmin = 366.140000
+            xmax = 368.950000
+            text = "他的下一世还是会一一样爱上紫萱"
+        intervals [157]:
+            xmin = 368.950000
+            xmax = 369.190000
+            text = ""
+        intervals [158]:
+            xmin = 369.190000
+            xmax = 371.190000
+            text = "飞升只要他不饮忘情水。"
+        intervals [159]:
+            xmin = 371.190000
+            xmax = 371.320000
+            text = ""
+        intervals [160]:
+            xmin = 371.320000
+            xmax = 373.860000
+            text = "然后飞升成仙，就。"
+        intervals [161]:
+            xmin = 373.860000
+            xmax = 374.220000
+            text = ""
+        intervals [162]:
+            xmin = 374.220000
+            xmax = 376.060000
+            text = "不会再有他们两个的"
+        intervals [163]:
+            xmin = 376.060000
+            xmax = 376.280000
+            text = ""
+        intervals [164]:
+            xmin = 376.280000
+            xmax = 378.980000
+            text = "情，情爱那个纠缠。"
+        intervals [165]:
+            xmin = 378.980000
+            xmax = 379.760000
+            text = ""
+        intervals [166]:
+            xmin = 379.760000
+            xmax = 383.710000
+            text = "所以我当就是我也是看了很多电影解说嘛，我当时就是想。"
+        intervals [167]:
+            xmin = 383.710000
+            xmax = 383.960000
+            text = ""
+        intervals [168]:
+            xmin = 383.960000
+            xmax = 386.750000
+            text = "嗯，没喝这个忘情水反倒是一种。"
+        intervals [169]:
+            xmin = 386.750000
+            xmax = 387.650000
+            text = ""
+        intervals [170]:
+            xmin = 387.650000
+            xmax = 392.660000
+            text = "嗯，对于双方都算是一种救赎。虽然他们俩不能在一块但是不会再经历。"
+        intervals [171]:
+            xmin = 392.660000
+            xmax = 393.510000
+            text = ""
+        intervals [172]:
+            xmin = 393.510000
+            xmax = 396.570000
+            text = "那个下一世的相见相爱然后再。"
+        intervals [173]:
+            xmin = 396.570000
+            xmax = 396.780000
+            text = ""
+        intervals [174]:
+            xmin = 396.780000
+            xmax = 397.720000
+            text = "到这个结局。"
+        intervals [175]:
+            xmin = 397.720000
+            xmax = 399.620000
+            text = ""
+        intervals [176]:
+            xmin = 399.620000
+            xmax = 401.400000
+            text = "就像那个。"
+        intervals [177]:
+            xmin = 401.400000
+            xmax = 401.740000
+            text = ""
+        intervals [178]:
+            xmin = 401.740000
+            xmax = 403.150000
+            text = "长留那个什么长留。"
+        intervals [179]:
+            xmin = 403.150000
+            xmax = 403.270000
+            text = ""
+        intervals [180]:
+            xmin = 403.270000
+            xmax = 406.030000
+            text = "那个嗯蜀山下的那场雪。"
+        intervals [181]:
+            xmin = 406.030000
+            xmax = 406.150000
+            text = ""
+        intervals [182]:
+            xmin = 406.150000
+            xmax = 407.210000
+            text = "然后。"
+        intervals [183]:
+            xmin = 407.210000
+            xmax = 407.280000
+            text = ""
+        intervals [184]:
+            xmin = 407.280000
+            xmax = 409.620000
+            text = "徐徐长卿舞剑送到了南疆。"
+        intervals [185]:
+            xmin = 409.620000
+            xmax = 410.150000
+            text = ""
+        intervals [186]:
+            xmin = 410.150000
+            xmax = 413.430000
+            text = "然后让紫萱见到了雪因为紫萱说她从没见过雪。"
+        intervals [187]:
+            xmin = 413.430000
+            xmax = 414.130000
+            text = ""
+        intervals [188]:
+            xmin = 414.130000
+            xmax = 416.040000
+            text = "然后也是。"
+        intervals [189]:
+            xmin = 416.040000
+            xmax = 417.400000
+            text = ""
+        intervals [190]:
+            xmin = 417.400000
+            xmax = 418.450000
+            text = "对这种。"
+        intervals [191]:
+            xmin = 418.450000
+            xmax = 418.900000
+            text = ""
+        intervals [192]:
+            xmin = 418.900000
+            xmax = 421.330000
+            text = "就是差一步美满的感觉吧就是他。"
+        intervals [193]:
+            xmin = 421.330000
+            xmax = 421.710000
+            text = ""
+        intervals [194]:
+            xmin = 421.710000
+            xmax = 423.700000
+            text = "把自个儿能做的也给紫萱做了。"
+        intervals [195]:
+            xmin = 423.700000
+            xmax = 434.340000
+            text = ""
+        intervals [196]:
+            xmin = 434.340000
+            xmax = 434.940000
+            text = "对。"
+        intervals [197]:
+            xmin = 434.940000
+            xmax = 436.790000
+            text = ""
+        intervals [198]:
+            xmin = 436.790000
+            xmax = 437.690000
+            text = "对对对。"
+        intervals [199]:
+            xmin = 437.690000
+            xmax = 439.240000
+            text = ""
+        intervals [200]:
+            xmin = 439.240000
+            xmax = 440.640000
+            text = "对，对对对。"
+        intervals [201]:
+            xmin = 440.640000
+            xmax = 441.790000
+            text = ""
+        intervals [202]:
+            xmin = 441.790000
+            xmax = 443.350000
+            text = "就是他的那个。"
+        intervals [203]:
+            xmin = 443.350000
+            xmax = 444.060000
+            text = ""
+        intervals [204]:
+            xmin = 444.060000
+            xmax = 446.150000
+            text = "呃，女娲后人在生完。"
+        intervals [205]:
+            xmin = 446.150000
+            xmax = 446.250000
+            text = ""
+        intervals [206]:
+            xmin = 446.250000
+            xmax = 448.550000
+            text = "孩子之后她会有她会急速衰老。"
+        intervals [207]:
+            xmin = 448.550000
+            xmax = 448.760000
+            text = ""
+        intervals [208]:
+            xmin = 448.760000
+            xmax = 449.910000
+            text = "然后她需要。"
+        intervals [209]:
+            xmin = 449.910000
+            xmax = 450.360000
+            text = ""
+        intervals [210]:
+            xmin = 450.360000
+            xmax = 454.550000
+            text = "呃，她不是她前段时间她之前也偷了魔宗重楼魔尊重楼的心吗？"
+        intervals [211]:
+            xmin = 454.550000
+            xmax = 454.880000
+            text = ""
+        intervals [212]:
+            xmin = 454.880000
+            xmax = 455.820000
+            text = "然后。"
+        intervals [213]:
+            xmin = 455.820000
+            xmax = 457.350000
+            text = ""
+        intervals [214]:
+            xmin = 457.350000
+            xmax = 458.990000
+            text = "因为这个事还被徐长卿误会了。"
+        intervals [215]:
+            xmin = 458.990000
+            xmax = 459.510000
+            text = ""
+        intervals [216]:
+            xmin = 459.510000
+            xmax = 462.420000
+            text = "后来把心还给了魔尊重楼之后她就急速的衰老。"
+        intervals [217]:
+            xmin = 462.420000
+            xmax = 462.700000
+            text = ""
+        intervals [218]:
+            xmin = 462.700000
+            xmax = 465.080000
+            text = "到结局的时候她已经满头白发了。"
+        intervals [219]:
+            xmin = 465.080000
+            xmax = 470.440000
+            text = ""
+        intervals [220]:
+            xmin = 470.440000
+            xmax = 472.380000
+            text = "啊那一段儿，太经典了。"
+        intervals [221]:
+            xmin = 472.380000
+            xmax = 482.940000
+            text = ""
+        intervals [222]:
+            xmin = 482.940000
+            xmax = 483.690000
+            text = "必平。"
+        intervals [223]:
+            xmin = 483.690000
+            xmax = 486.120000
+            text = ""
+        intervals [224]:
+            xmin = 486.120000
+            xmax = 488.950000
+            text = "呃必平必平为了。"
+        intervals [225]:
+            xmin = 488.950000
+            xmax = 489.040000
+            text = ""
+        intervals [226]:
+            xmin = 489.040000
+            xmax = 491.360000
+            text = "景天能赢赌局然后。"
+        intervals [227]:
+            xmin = 491.360000
+            xmax = 491.670000
+            text = ""
+        intervals [228]:
+            xmin = 491.670000
+            xmax = 494.440000
+            text = "耍小心思被邪剑仙发现之后丢下了山崖。"
+        intervals [229]:
+            xmin = 494.440000
+            xmax = 496.280000
+            text = ""
+        intervals [230]:
+            xmin = 496.280000
+            xmax = 497.620000
+            text = "他们都说什么。"
+        intervals [231]:
+            xmin = 497.620000
+            xmax = 497.990000
+            text = ""
+        intervals [232]:
+            xmin = 497.990000
+            xmax = 500.160000
+            text = "呃拯救天下苍生最后。"
+        intervals [233]:
+            xmin = 500.160000
+            xmax = 500.350000
+            text = ""
+        intervals [234]:
+            xmin = 500.350000
+            xmax = 502.050000
+            text = "死的只是永安当三个伙计。"
+        intervals [235]:
+            xmin = 502.050000
+            xmax = 503.600000
+            text = ""
+        intervals [236]:
+            xmin = 503.600000
+            xmax = 505.200000
+            text = "在结局的时候其实已经。"
+        intervals [237]:
+            xmin = 505.200000
+            xmax = 505.330000
+            text = ""
+        intervals [238]:
+            xmin = 505.330000
+            xmax = 508.150000
+            text = "天帝已经暗示了景天他最后的归宿了。"
+        intervals [239]:
+            xmin = 508.150000
+            xmax = 508.380000
+            text = ""
+        intervals [240]:
+            xmin = 508.380000
+            xmax = 509.810000
+            text = "他也寿元将近了。"
+        intervals [241]:
+            xmin = 509.810000
+            xmax = 510.270000
+            text = ""
+        intervals [242]:
+            xmin = 510.270000
+            xmax = 512.800000
+            text = "然后换了换了一个全天下都活过来的机会。"
+        intervals [243]:
+            xmin = 512.800000
+            xmax = 515.090000
+            text = ""
+        intervals [244]:
+            xmin = 515.090000
+            xmax = 517.810000
+            text = "你们怎么看待龙葵两次祭剑啊。"
+        intervals [245]:
+            xmin = 517.810000
+            xmax = 537.680000
+            text = ""
+        intervals [246]:
+            xmin = 537.680000
+            xmax = 538.950000
+            text = "呃。"
+        intervals [247]:
+            xmin = 538.950000
+            xmax = 569.830000
+            text = ""
+        intervals [248]:
+            xmin = 569.830000
+            xmax = 572.370000
+            text = "呃，我的印象里边。"
+        intervals [249]:
+            xmin = 572.370000
+            xmax = 573.080000
+            text = ""
+        intervals [250]:
+            xmin = 573.080000
+            xmax = 575.480000
+            text = "龙葵在第二次祭剑的时候说。"
+        intervals [251]:
+            xmin = 575.480000
+            xmax = 575.830000
+            text = ""
+        intervals [252]:
+            xmin = 575.830000
+            xmax = 577.660000
+            text = "因为第一次她。"
+        intervals [253]:
+            xmin = 577.660000
+            xmax = 577.720000
+            text = ""
+        intervals [254]:
+            xmin = 577.720000
+            xmax = 579.730000
+            text = "因为第一次是在姜国。"
+        intervals [255]:
+            xmin = 579.730000
+            xmax = 579.820000
+            text = ""
+        intervals [256]:
+            xmin = 579.820000
+            xmax = 581.740000
+            text = "灭国之后龙葵才祭的剑。"
+        intervals [257]:
+            xmin = 581.740000
+            xmax = 581.880000
+            text = ""
+        intervals [258]:
+            xmin = 581.880000
+            xmax = 585.080000
+            text = "她当时想祭剑但是当时的龙阳也就是后来的景天。"
+        intervals [259]:
+            xmin = 585.080000
+            xmax = 585.300000
+            text = ""
+        intervals [260]:
+            xmin = 585.300000
+            xmax = 587.040000
+            text = "他没有让龙葵祭剑。"
+        intervals [261]:
+            xmin = 587.040000
+            xmax = 587.320000
+            text = ""
+        intervals [262]:
+            xmin = 587.320000
+            xmax = 590.390000
+            text = "他说没有那把剑我照样可以歼灭敌军。"
+        intervals [263]:
+            xmin = 590.390000
+            xmax = 590.990000
+            text = ""
+        intervals [264]:
+            xmin = 590.990000
+            xmax = 593.240000
+            text = "嗯，在江城。"
+        intervals [265]:
+            xmin = 593.240000
+            xmax = 593.260000
+            text = ""
+        intervals [266]:
+            xmin = 593.260000
+            xmax = 595.180000
+            text = "国灭之后龙葵选择。"
+        intervals [267]:
+            xmin = 595.180000
+            xmax = 595.330000
+            text = ""
+        intervals [268]:
+            xmin = 595.330000
+            xmax = 597.110000
+            text = "跳进了那个祭剑坛。"
+        intervals [269]:
+            xmin = 597.110000
+            xmax = 597.470000
+            text = ""
+        intervals [270]:
+            xmin = 597.470000
+            xmax = 598.940000
+            text = "然后当第二次。"
+        intervals [271]:
+            xmin = 598.940000
+            xmax = 599.170000
+            text = ""
+        intervals [272]:
+            xmin = 599.170000
+            xmax = 600.080000
+            text = "在。"
+        intervals [273]:
+            xmin = 600.080000
+            xmax = 600.400000
+            text = ""
+        intervals [274]:
+            xmin = 600.400000
+            xmax = 601.870000
+            text = "要对付邪剑仙的时候。"
+        intervals [275]:
+            xmin = 601.870000
+            xmax = 602.150000
+            text = ""
+        intervals [276]:
+            xmin = 602.150000
+            xmax = 605.440000
+            text = "然后龙葵准备跳进祭剑池的时候。"
+        intervals [277]:
+            xmin = 605.440000
+            xmax = 606.010000
+            text = ""
+        intervals [278]:
+            xmin = 606.010000
+            xmax = 608.820000
+            text = "呃，景天也是不不允许的。"
+        intervals [279]:
+            xmin = 608.820000
+            xmax = 609.160000
+            text = ""
+        intervals [280]:
+            xmin = 609.160000
+            xmax = 612.750000
+            text = "但是，她第二次相当于完成了她第一次祭剑的那种遗憾。"
+        intervals [281]:
+            xmin = 612.750000
+            xmax = 613.080000
+            text = ""
+        intervals [282]:
+            xmin = 613.080000
+            xmax = 614.950000
+            text = "她为了她哥哥。"
+        intervals [283]:
+            xmin = 614.950000
+            xmax = 615.050000
+            text = ""
+        intervals [284]:
+            xmin = 615.050000
+            xmax = 616.950000
+            text = "为了她哥哥赢然后。"
+        intervals [285]:
+            xmin = 616.950000
+            xmax = 617.140000
+            text = ""
+        intervals [286]:
+            xmin = 617.140000
+            xmax = 619.440000
+            text = "献祭了自己，她第一次。"
+        intervals [287]:
+            xmin = 619.440000
+            xmax = 619.640000
+            text = ""
+        intervals [288]:
+            xmin = 619.640000
+            xmax = 621.780000
+            text = "想献祭的时候他哥哥并没有让。"
+        intervals [289]:
+            xmin = 621.780000
+            xmax = 621.990000
+            text = ""
+        intervals [290]:
+            xmin = 621.990000
+            xmax = 623.510000
+            text = "但是导致了她哥哥。"
+        intervals [291]:
+            xmin = 623.510000
+            xmax = 623.980000
+            text = ""
+        intervals [292]:
+            xmin = 623.980000
+            xmax = 626.040000
+            text = "战败然后姜国灭国。"
+        intervals [293]:
+            xmin = 626.040000
+            xmax = 626.170000
+            text = ""
+        intervals [294]:
+            xmin = 626.170000
+            xmax = 628.890000
+            text = "可能对于龙葵来说第二次祭剑反倒。"
+        intervals [295]:
+            xmin = 628.890000
+            xmax = 629.190000
+            text = ""
+        intervals [296]:
+            xmin = 629.190000
+            xmax = 629.990000
+            text = "一种解脱。"
+        intervals [297]:
+            xmin = 629.990000
+            xmax = 637.680000
+            text = ""
+        intervals [298]:
+            xmin = 637.680000
+            xmax = 638.950000
+            text = "对，海那个。"
+        intervals [299]:
+            xmin = 638.950000
+            xmax = 638.970000
+            text = ""
+        intervals [300]:
+            xmin = 638.970000
+            xmax = 641.240000
+            text = "圣灵珠对去找圣灵珠的时候对。"
+        intervals [301]:
+            xmin = 641.240000
+            xmax = 642.060000
+            text = ""
+        intervals [302]:
+            xmin = 642.060000
+            xmax = 644.290000
+            text = "对看到了已经已经看到了。"
+        intervals [303]:
+            xmin = 644.290000
+            xmax = 644.700000
+            text = ""
+        intervals [304]:
+            xmin = 644.700000
+            xmax = 646.840000
+            text = "当时邪剑仙出世的结果。"
+        intervals [305]:
+            xmin = 646.840000
+            xmax = 648.350000
+            text = ""
+        intervals [306]:
+            xmin = 648.350000
+            xmax = 649.710000
+            text = "自己祭剑，对。"
+        intervals [307]:
+            xmin = 649.710000
+            xmax = 656.660000
+            text = ""
+        intervals [308]:
+            xmin = 656.660000
+            xmax = 659.370000
+            text = "她祭剑之后。"
+        intervals [309]:
+            xmin = 659.370000
+            xmax = 660.080000
+            text = ""
+        intervals [310]:
+            xmin = 660.080000
+            xmax = 663.340000
+            text = "当时剧情是咋说的来着也我也记不太清了 。"
+        intervals [311]:
+            xmin = 663.340000
+            xmax = 666.650000
+            text = ""
+        intervals [312]:
+            xmin = 666.650000
+            xmax = 669.510000
+            text = " 应该是她应该不会。"
+        intervals [313]:
+            xmin = 669.510000
+            xmax = 670.080000
+            text = ""
+        intervals [314]:
+            xmin = 670.080000
+            xmax = 672.560000
+            text = "再去对没有转世了。"
+        intervals [315]:
+            xmin = 672.560000
+            xmax = 680.270000
+            text = ""
+        intervals [316]:
+            xmin = 680.270000
+            xmax = 681.970000
+            text = "他哥的下一世。"
+        intervals [317]:
+            xmin = 681.970000
+            xmax = 683.410000
+            text = ""
+        intervals [318]:
+            xmin = 683.410000
+            xmax = 686.100000
+            text = "他哥是龙阳龙阳的下一世不是景天吗？"
+        intervals [319]:
+            xmin = 686.100000
+            xmax = 688.400000
+            text = ""
+        intervals [320]:
+            xmin = 688.400000
+            xmax = 690.170000
+            text = "景天就没有下一世了。"
+        intervals [321]:
+            xmin = 690.170000
+            xmax = 691.020000
+            text = ""
+        intervals [322]:
+            xmin = 691.020000
+            xmax = 694.640000
+            text = "景天他死之后是是。"
+        intervals [323]:
+            xmin = 694.640000
+            xmax = 694.970000
+            text = ""
+        intervals [324]:
+            xmin = 694.970000
+            xmax = 696.840000
+            text = "重重回天庭的。"
+        intervals [325]:
+            xmin = 696.840000
+            xmax = 735.930000
+            text = ""
+        intervals [326]:
+            xmin = 735.930000
+            xmax = 737.050000
+            text = "他"
+        intervals [327]:
+            xmin = 737.050000
+            xmax = 737.860000
+            text = ""
+        intervals [328]:
+            xmin = 737.860000
+            xmax = 741.410000
+            text = "如果不因为喜欢紫萱，他是不会折断自己的双翼的。"
+        intervals [329]:
+            xmin = 741.410000
+            xmax = 742.020000
+            text = ""
+        intervals [330]:
+            xmin = 742.020000
+            xmax = 746.200000
+            text = "折断自己的双翼，他自己的战力也大大下降了。"
+        intervals [331]:
+            xmin = 746.200000
+            xmax = 751.140000
+            text = ""
+        intervals [332]:
+            xmin = 751.140000
+            xmax = 752.190000
+            text = "其实在。"
+        intervals [333]:
+            xmin = 752.190000
+            xmax = 752.300000
+            text = ""
+        intervals [334]:
+            xmin = 752.300000
+            xmax = 753.430000
+            text = "原本的。"
+        intervals [335]:
+            xmin = 753.430000
+            xmax = 753.550000
+            text = ""
+        intervals [336]:
+            xmin = 753.550000
+            xmax = 754.740000
+            text = "小说剧情里儿。"
+        intervals [337]:
+            xmin = 754.740000
+            xmax = 754.780000
+            text = ""
+        intervals [338]:
+            xmin = 754.780000
+            xmax = 757.510000
+            text = "游戏设定里边儿魔尊重楼是要比邪剑仙厉害的。"
+        intervals [339]:
+            xmin = 757.510000
+            xmax = 759.160000
+            text = ""
+        intervals [340]:
+            xmin = 759.160000
+            xmax = 761.730000
+            text = "但是关键就在于魔尊重楼为了。"
+        intervals [341]:
+            xmin = 761.730000
+            xmax = 762.770000
+            text = ""
+        intervals [342]:
+            xmin = 762.770000
+            xmax = 766.400000
+            text = "就是他心中那那那份喜欢吧然后断了自个儿的。"
+        intervals [343]:
+            xmin = 766.400000
+            xmax = 766.690000
+            text = ""
+        intervals [344]:
+            xmin = 766.690000
+            xmax = 768.370000
+            text = "双翼对。"
+        intervals [345]:
+            xmin = 768.370000
+            xmax = 771.510000
+            text = ""
+        intervals [346]:
+            xmin = 771.510000
+            xmax = 777.230000
+            text = "魔尊重楼只是一个一心想找飞蓬决战的。"
+        intervals [347]:
+            xmin = 777.230000
+            xmax = 801.700000
+            text = ""
+        intervals [348]:
+            xmin = 801.700000
+            xmax = 802.850000
+            text = "这个。"
+        intervals [349]:
+            xmin = 802.850000
+            xmax = 803.280000
+            text = ""
+        intervals [350]:
+            xmin = 803.280000
+            xmax = 806.610000
+            text = "还真不太清楚但是我确实知道它们都是。"
+        intervals [351]:
+            xmin = 806.610000
+            xmax = 806.940000
+            text = ""
+        intervals [352]:
+            xmin = 806.940000
+            xmax = 808.230000
+            text = "草药的名称。"
+        intervals [353]:
+            xmin = 808.230000
+            xmax = 808.860000
+            text = ""
+        intervals [354]:
+            xmin = 808.860000
+            xmax = 811.320000
+            text = "景天啊长卿啊它们都是。"
+        intervals [355]:
+            xmin = 811.320000
+            xmax = 812.370000
+            text = ""
+        intervals [356]:
+            xmin = 812.370000
+            xmax = 813.240000
+            text = "草药的名称。"
+        intervals [357]:
+            xmin = 813.240000
+            xmax = 818.570000
+            text = ""
+        intervals [358]:
+            xmin = 818.570000
+            xmax = 822.520000
+            text = "其实我觉得比较有意思的点就是在他们寻找。"
+        intervals [359]:
+            xmin = 822.520000
+            xmax = 822.990000
+            text = ""
+        intervals [360]:
+            xmin = 822.990000
+            xmax = 825.760000
+            text = "灵珠的那一那一大段剧情里边儿 。"
+        intervals [361]:
+            xmin = 825.760000
+            xmax = 826.230000
+            text = ""
+        intervals [362]:
+            xmin = 826.230000
+            xmax = 828.530000
+            text = "发生的一些故事还是比较有意思的。"
+        intervals [363]:
+            xmin = 828.530000
+            xmax = 828.630000
+            text = ""
+        intervals [364]:
+            xmin = 828.630000
+            xmax = 831.450000
+            text = "像我就比较喜欢寻找火灵珠的时候。"
+        intervals [365]:
+            xmin = 831.450000
+            xmax = 831.570000
+            text = ""
+        intervals [366]:
+            xmin = 831.570000
+            xmax = 833.370000
+            text = "在丰都吗在那个那个。"
+        intervals [367]:
+            xmin = 833.370000
+            xmax = 833.720000
+            text = ""
+        intervals [368]:
+            xmin = 833.720000
+            xmax = 835.720000
+            text = "那个去。"
+        intervals [369]:
+            xmin = 835.720000
+            xmax = 835.830000
+            text = ""
+        intervals [370]:
+            xmin = 835.830000
+            xmax = 838.300000
+            text = "火鬼王那边儿找那个。"
+        intervals [371]:
+            xmin = 838.300000
+            xmax = 838.730000
+            text = ""
+        intervals [372]:
+            xmin = 838.730000
+            xmax = 841.110000
+            text = "火灵珠然后景天跟。"
+        intervals [373]:
+            xmin = 841.110000
+            xmax = 841.860000
+            text = ""
+        intervals [374]:
+            xmin = 841.860000
+            xmax = 843.200000
+            text = "火鬼王假结婚。"
+        intervals [375]:
+            xmin = 843.200000
+            xmax = 843.680000
+            text = ""
+        intervals [376]:
+            xmin = 843.680000
+            xmax = 845.740000
+            text = "去骗他的火灵珠。"
+        intervals [377]:
+            xmin = 845.740000
+            xmax = 846.960000
+            text = ""
+        intervals [378]:
+            xmin = 846.960000
+            xmax = 847.610000
+            text = "嗯。"
+        intervals [379]:
+            xmin = 847.610000
+            xmax = 852.680000
+            text = ""
+        intervals [380]:
+            xmin = 852.680000
+            xmax = 854.710000
+            text = "对演戏骗眼泪是吗？"
+        intervals [381]:
+            xmin = 854.710000
+            xmax = 856.800000
+            text = ""
+        intervals [382]:
+            xmin = 856.800000
+            xmax = 857.220000
+            text = "对。"
+        intervals [383]:
+            xmin = 857.220000
+            xmax = 875.170000
+            text = ""
+        intervals [384]:
+            xmin = 875.170000
+            xmax = 877.050000
+            text = "嗯雪见对。"
+        intervals [385]:
+            xmin = 877.050000
+            xmax = 883.290000
+            text = ""
+        intervals [386]:
+            xmin = 883.290000
+            xmax = 885.590000
+            text = "当时说雪见的意中人。"
+        intervals [387]:
+            xmin = 885.590000
+            xmax = 886.150000
+            text = ""
+        intervals [388]:
+            xmin = 886.150000
+            xmax = 888.120000
+            text = "那个对抬头就能看见。"
+        intervals [389]:
+            xmin = 888.120000
+            xmax = 888.190000
+            text = ""
+        intervals [390]:
+            xmin = 888.190000
+            xmax = 891.610000
+            text = "然后当他遇到云霆的时候他以为抬头是云。"
+        intervals [391]:
+            xmin = 891.610000
+            xmax = 891.760000
+            text = ""
+        intervals [392]:
+            xmin = 891.760000
+            xmax = 893.770000
+            text = "云霆嘛然后雷灵珠嘛。"
+        intervals [393]:
+            xmin = 893.770000
+            xmax = 893.910000
+            text = ""
+        intervals [394]:
+            xmin = 893.910000
+            xmax = 896.460000
+            text = "实际上是天后来景天说。"
+        intervals [395]:
+            xmin = 896.460000
+            xmax = 899.820000
+            text = ""
+        intervals [396]:
+            xmin = 899.820000
+            xmax = 902.620000
+            text = "景天景天说其实抬头。"
+        intervals [397]:
+            xmin = 902.620000
+            xmax = 902.900000
+            text = ""
+        intervals [398]:
+            xmin = 902.900000
+            xmax = 905.100000
+            text = "其实不是每一次抬头都能看到云的。"
+        intervals [399]:
+            xmin = 905.100000
+            xmax = 905.540000
+            text = ""
+        intervals [400]:
+            xmin = 905.540000
+            xmax = 907.140000
+            text = "但是每一次抬头都能看到天。"
+        intervals [401]:
+            xmin = 907.140000
+            xmax = 909.960000
+            text = ""
+        intervals [402]:
+            xmin = 909.960000
+            xmax = 912.460000
+            text = "这个剧的经典程度。"
+        intervals [403]:
+            xmin = 912.460000
+            xmax = 912.620000
+            text = ""
+        intervals [404]:
+            xmin = 912.620000
+            xmax = 916.350000
+            text = "那也是深深的印进了每一个看过人的脑海里。"
+        intervals [405]:
+            xmin = 916.350000
+            xmax = 916.520000
+            text = ""
+        intervals [406]:
+            xmin = 916.520000
+            xmax = 919.690000
+            text = "我经常二刷就是一直刷一直刷。"
+        intervals [407]:
+            xmin = 919.690000
+            xmax = 919.760000
+            text = ""
+        intervals [408]:
+            xmin = 919.760000
+            xmax = 921.320000
+            text = "我剧荒的时候我可能。"
+        intervals [409]:
+            xmin = 921.320000
+            xmax = 921.670000
+            text = ""
+        intervals [410]:
+            xmin = 921.670000
+            xmax = 922.920000
+            text = "拿它出来下饭。"
+        intervals [411]:
+            xmin = 922.920000
+            xmax = 923.290000
+            text = ""
+        intervals [412]:
+            xmin = 923.290000
+            xmax = 925.390000
+            text = "然后吃饭的时候就对。"
+        intervals [413]:
+            xmin = 925.390000
+            xmax = 925.740000
+            text = ""
+        intervals [414]:
+            xmin = 925.740000
+            xmax = 927.240000
+            text = "对短视频会刷到。"
+        intervals [415]:
+            xmin = 927.240000
+            xmax = 943.560000
+            text = ""
+        intervals [416]:
+            xmin = 943.560000
+            xmax = 943.880000
+            text = "嗯."
+        intervals [417]:
+            xmin = 943.880000
+            xmax = 999.750000
+            text = ""
+        intervals [418]:
+            xmin = 999.750000
+            xmax = 1003.920000
+            text = "我记得我记得说的是其实真唐家。"
+        intervals [419]:
+            xmin = 1003.920000
+            xmax = 1004.200000
+            text = ""
+        intervals [420]:
+            xmin = 1004.200000
+            xmax = 1008.090000
+            text = "真正在意唐那个唐雪见的只有他爷爷。"
+        intervals [421]:
+            xmin = 1008.090000
+            xmax = 1008.280000
+            text = ""
+        intervals [422]:
+            xmin = 1008.280000
+            xmax = 1012.320000
+            text = "其他人都把唐雪见自始至终当成外人。"
+        intervals [423]:
+            xmin = 1012.320000
+            xmax = 1012.650000
+            text = ""
+        intervals [424]:
+            xmin = 1012.650000
+            xmax = 1014.970000
+            text = "然后所以说。"
+        intervals [425]:
+            xmin = 1014.970000
+            xmax = 1015.330000
+            text = ""
+        intervals [426]:
+            xmin = 1015.330000
+            xmax = 1017.630000
+            text = "在他爷爷被抓或者他爷爷重病的时候。"
+        intervals [427]:
+            xmin = 1017.630000
+            xmax = 1019.730000
+            text = ""
+        intervals [428]:
+            xmin = 1019.730000
+            xmax = 1021.890000
+            text = "唐雪见就被推出来就是去。"
+        intervals [429]:
+            xmin = 1021.890000
+            xmax = 1022.030000
+            text = ""
+        intervals [430]:
+            xmin = 1022.030000
+            xmax = 1024.960000
+            text = "她就失宠了吗相当于。"
+        intervals [431]:
+            xmin = 1024.960000
+            xmax = 1026.370000
+            text = ""
+        intervals [432]:
+            xmin = 1026.370000
+            xmax = 1029.160000
+            text = "对啊，五毒兽是因为是她爷爷的东西啊。"
+        intervals [433]:
+            xmin = 1029.160000
+            xmax = 1030.440000
+            text = ""
+        intervals [434]:
+            xmin = 1030.440000
+            xmax = 1031.500000
+            text = "是因为。"
+        intervals [435]:
+            xmin = 1031.500000
+            xmax = 1040.010000
+            text = ""
+        intervals [436]:
+            xmin = 1040.010000
+            xmax = 1042.520000
+            text = "五毒兽不是。"
+        intervals [437]:
+            xmin = 1042.520000
+            xmax = 1043.040000
+            text = ""
+        intervals [438]:
+            xmin = 1043.040000
+            xmax = 1045.770000
+            text = "唐雪见的爷爷给唐雪见的吗？"
+        intervals [439]:
+            xmin = 1045.770000
+            xmax = 1077.230000
+            text = ""
+        intervals [440]:
+            xmin = 1077.230000
+            xmax = 1081.970000
+            text = "就是相当于相当于你说你拿到了传国玉玺，你就一定是皇帝吗？"
+        intervals [441]:
+            xmin = 1081.970000
+            xmax = 1083.290000
+            text = ""
+        intervals [442]:
+            xmin = 1083.290000
+            xmax = 1086.530000
+            text = "就是别人别人如果都不认的话，那他拿。"
+        intervals [443]:
+            xmin = 1086.530000
+            xmax = 1086.610000
+            text = ""
+        intervals [444]:
+            xmin = 1086.610000
+            xmax = 1088.380000
+            text = "他即使他五毒兽真的在他手里边."
+        intervals [445]:
+            xmin = 1088.380000
+            xmax = 1088.600000
+            text = ""
+        intervals [446]:
+            xmin = 1088.600000
+            xmax = 1092.070000
+            text = "那他也不见得是唐家宝宝主如果其他人沆瀣一气的话。"
+        intervals [447]:
+            xmin = 1092.070000
+            xmax = 1092.620000
+            text = ""
+        intervals [448]:
+            xmin = 1092.620000
+            xmax = 1094.350000
+            text = "这个设定来说的话。"
+        intervals [449]:
+            xmin = 1094.350000
+            xmax = 1094.790000
+            text = ""
+        intervals [450]:
+            xmin = 1094.790000
+            xmax = 1097.590000
+            text = "所有人都不认你的话你有啥也没用。"
+        intervals [451]:
+            xmin = 1097.590000
+            xmax = 1099.980000
+            text = ""
+        intervals [452]:
+            xmin = 1099.980000
+            xmax = 1102.350000
+            text = "这就是当时雪见的处境。"
+        intervals [453]:
+            xmin = 1102.350000
+            xmax = 1108.460000
+            text = ""
+        intervals [454]:
+            xmin = 1108.460000
+            xmax = 1111.200000
+            text = "邪剑仙这个设定还是比较有意思的。"
+        intervals [455]:
+            xmin = 1111.200000
+            xmax = 1111.880000
+            text = ""
+        intervals [456]:
+            xmin = 1111.880000
+            xmax = 1115.150000
+            text = "吸收对五位长老的邪念。"
+        intervals [457]:
+            xmin = 1115.150000
+            xmax = 1115.480000
+            text = ""
+        intervals [458]:
+            xmin = 1115.480000
+            xmax = 1118.420000
+            text = "然后在寻找灵珠的过程中。"
+        intervals [459]:
+            xmin = 1118.420000
+            xmax = 1118.570000
+            text = ""
+        intervals [460]:
+            xmin = 1118.570000
+            xmax = 1121.010000
+            text = "龙葵的邪念龙葵的贪念。"
+        intervals [461]:
+            xmin = 1121.010000
+            xmax = 1121.240000
+            text = ""
+        intervals [462]:
+            xmin = 1121.240000
+            xmax = 1123.500000
+            text = "不能说是邪念对嫉妒。"
+        intervals [463]:
+            xmin = 1123.500000
+            xmax = 1125.410000
+            text = ""
+        intervals [464]:
+            xmin = 1125.410000
+            xmax = 1128.460000
+            text = "对他他是。"
+        intervals [465]:
+            xmin = 1128.460000
+            xmax = 1128.570000
+            text = ""
+        intervals [466]:
+            xmin = 1128.570000
+            xmax = 1131.660000
+            text = "因为因为龙葵嫉妒雪见和他哥哥的关系嘛。"
+        intervals [467]:
+            xmin = 1131.660000
+            xmax = 1132.000000
+            text = ""
+        intervals [468]:
+            xmin = 1132.000000
+            xmax = 1135.230000
+            text = "然后就被邪仙先利用了。"
+        intervals [469]:
+            xmin = 1135.230000
+            xmax = 1135.420000
+            text = ""
+        intervals [470]:
+            xmin = 1135.420000
+            xmax = 1136.800000
+            text = "加上后来。"
+        intervals [471]:
+            xmin = 1136.800000
+            xmax = 1137.090000
+            text = ""
+        intervals [472]:
+            xmin = 1137.090000
+            xmax = 1139.510000
+            text = "嗯长徐长卿。"
+        intervals [473]:
+            xmin = 1139.510000
+            xmax = 1139.940000
+            text = ""
+        intervals [474]:
+            xmin = 1139.940000
+            xmax = 1143.960000
+            text = "去把邪仙先放在天池的时候被邪仙先蛊惑。"
+        intervals [475]:
+            xmin = 1143.960000
+            xmax = 1144.140000
+            text = ""
+        intervals [476]:
+            xmin = 1144.140000
+            xmax = 1145.810000
+            text = "然后把邪仙先放了出来。"
+        intervals [477]:
+            xmin = 1145.810000
+            xmax = 1146.200000
+            text = ""
+        intervals [478]:
+            xmin = 1146.200000
+            xmax = 1149.790000
+            text = "这一系列其实都是环环相扣的。"
+        intervals [479]:
+            xmin = 1149.790000
+            xmax = 1151.210000
+            text = ""
+        intervals [480]:
+            xmin = 1151.210000
+            xmax = 1155.130000
+            text = "因为龙葵的嫉妒让邪剑仙越来越强大然后导致。"
+        intervals [481]:
+            xmin = 1155.130000
+            xmax = 1155.430000
+            text = ""
+        intervals [482]:
+            xmin = 1155.430000
+            xmax = 1157.210000
+            text = "嗯能力是对。"
+        intervals [483]:
+            xmin = 1157.210000
+            xmax = 1158.750000
+            text = ""
+        intervals [484]:
+            xmin = 1158.750000
+            xmax = 1160.690000
+            text = "对有能呃甚至他。"
+        intervals [485]:
+            xmin = 1160.690000
+            xmax = 1160.860000
+            text = ""
+        intervals [486]:
+            xmin = 1160.860000
+            xmax = 1164.000000
+            text = "当时都有能力召唤出分身去骗走雪见。"
+        intervals [487]:
+            xmin = 1164.000000
+            xmax = 1165.020000
+            text = ""
+        intervals [488]:
+            xmin = 1165.020000
+            xmax = 1167.180000
+            text = "对在寻找雷灵珠那一集。"
+        intervals [489]:
+            xmin = 1167.180000
+            xmax = 1167.390000
+            text = ""
+        intervals [490]:
+            xmin = 1167.390000
+            xmax = 1171.620000
+            text = "他和云云在云霆大婚之日然后邪剑仙化化成景天。"
+        intervals [491]:
+            xmin = 1171.620000
+            xmax = 1171.940000
+            text = ""
+        intervals [492]:
+            xmin = 1171.940000
+            xmax = 1173.430000
+            text = "然后把雪见带走。"
+        intervals [493]:
+            xmin = 1173.430000
+            xmax = 1174.220000
+            text = ""
+        intervals [494]:
+            xmin = 1174.220000
+            xmax = 1176.070000
+            text = "变成了一棵树。"
+        intervals [495]:
+            xmin = 1176.070000
+            xmax = 1181.210000
+            text = ""
+        intervals [496]:
+            xmin = 1181.210000
+            xmax = 1183.540000
+            text = "画那颗猪头对。"
+        intervals [497]:
+            xmin = 1183.540000
+            xmax = 1184.040000
+            text = ""
+        intervals [498]:
+            xmin = 1184.040000
+            xmax = 1186.150000
+            text = "在寻找火灵珠的时候。"
+        intervals [499]:
+            xmin = 1186.150000
+            xmax = 1186.450000
+            text = ""
+        intervals [500]:
+            xmin = 1186.450000
+            xmax = 1189.220000
+            text = "然后那个墨水是掉不了的。"
+        intervals [501]:
+            xmin = 1189.220000
+            xmax = 1189.590000
+            text = ""
+        intervals [502]:
+            xmin = 1189.590000
+            xmax = 1192.900000
+            text = "然后找到了那颗猪那个那个猪头的那棵树然后是。"
+        intervals [503]:
+            xmin = 1192.900000
+            xmax = 1192.980000
+            text = ""
+        intervals [504]:
+            xmin = 1192.980000
+            xmax = 1196.610000
+            text = "发发现他是雪见然后当然他就昏迷了嘛他们就上了天庭。"
+        intervals [505]:
+            xmin = 1196.610000
+            xmax = 1209.800000
+            text = ""
+        intervals [506]:
+            xmin = 1209.800000
+            xmax = 1212.480000
+            text = "其实寻找圣灵那一段的故事让我来。"
+        intervals [507]:
+            xmin = 1212.480000
+            xmax = 1212.510000
+            text = ""
+        intervals [508]:
+            xmin = 1212.510000
+            xmax = 1213.680000
+            text = "说也挺。"
+        intervals [509]:
+            xmin = 1213.680000
+            xmax = 1214.230000
+            text = ""
+        intervals [510]:
+            xmin = 1214.230000
+            xmax = 1215.420000
+            text = "觉得也挺有意思的。"
+        intervals [511]:
+            xmin = 1215.420000
+            xmax = 1215.780000
+            text = ""
+        intervals [512]:
+            xmin = 1215.780000
+            xmax = 1217.960000
+            text = "因为圣灵珠他是在海底嘛。"
+        intervals [513]:
+            xmin = 1217.960000
+            xmax = 1218.480000
+            text = ""
+        intervals [514]:
+            xmin = 1218.480000
+            xmax = 1220.450000
+            text = "是呃。"
+        intervals [515]:
+            xmin = 1220.450000
+            xmax = 1220.880000
+            text = ""
+        intervals [516]:
+            xmin = 1220.880000
+            xmax = 1223.270000
+            text = "魔尊重楼的手下溪风。"
+        intervals [517]:
+            xmin = 1223.270000
+            xmax = 1224.010000
+            text = ""
+        intervals [518]:
+            xmin = 1224.010000
+            xmax = 1226.200000
+            text = "神女碧瑶。"
+        intervals [519]:
+            xmin = 1226.200000
+            xmax = 1226.720000
+            text = ""
+        intervals [520]:
+            xmin = 1226.720000
+            xmax = 1227.860000
+            text = "是叫碧瑶吗？"
+        intervals [521]:
+            xmin = 1227.860000
+            xmax = 1233.550000
+            text = ""
+        intervals [522]:
+            xmin = 1233.550000
+            xmax = 1235.550000
+            text = "然后他们两个的。"
+        intervals [523]:
+            xmin = 1235.550000
+            xmax = 1235.880000
+            text = ""
+        intervals [524]:
+            xmin = 1235.880000
+            xmax = 1237.050000
+            text = "因为歌声。"
+        intervals [525]:
+            xmin = 1237.050000
+            xmax = 1237.410000
+            text = ""
+        intervals [526]:
+            xmin = 1237.410000
+            xmax = 1240.380000
+            text = "因为歌声然后下凡对。"
+        intervals [527]:
+            xmin = 1240.380000
+            xmax = 1241.450000
+            text = ""
+        intervals [528]:
+            xmin = 1241.450000
+            xmax = 1244.010000
+            text = "声音好对他不敢见。"
+        intervals [529]:
+            xmin = 1244.010000
+            xmax = 1244.100000
+            text = ""
+        intervals [530]:
+            xmin = 1244.100000
+            xmax = 1244.610000
+            text = "然后。"
+        intervals [531]:
+            xmin = 1244.610000
+            xmax = 1246.010000
+            text = ""
+        intervals [532]:
+            xmin = 1246.010000
+            xmax = 1247.860000
+            text = "对后来他找魔尊重楼。"
+        intervals [533]:
+            xmin = 1247.860000
+            xmax = 1248.240000
+            text = ""
+        intervals [534]:
+            xmin = 1248.240000
+            xmax = 1250.670000
+            text = "呃，交换用他。"
+        intervals [535]:
+            xmin = 1250.670000
+            xmax = 1250.960000
+            text = ""
+        intervals [536]:
+            xmin = 1250.960000
+            xmax = 1253.970000
+            text = "他以后成为魔尊重楼的仆人和他的声音。"
+        intervals [537]:
+            xmin = 1253.970000
+            xmax = 1254.590000
+            text = ""
+        intervals [538]:
+            xmin = 1254.590000
+            xmax = 1256.070000
+            text = "然后换成她的容貌。"
+        intervals [539]:
+            xmin = 1256.070000
+            xmax = 1259.400000
+            text = ""
+        intervals [540]:
+            xmin = 1259.400000
+            xmax = 1260.010000
+            text = "对。"
+        intervals [541]:
+            xmin = 1260.010000
+            xmax = 1265.830000
+            text = ""
+        intervals [542]:
+            xmin = 1265.830000
+            xmax = 1267.820000
+            text = "最后俩人也在海底相守。"
+        intervals [543]:
+            xmin = 1267.820000
+            xmax = 1268.740000
+            text = ""
+        intervals [544]:
+            xmin = 1268.740000
+            xmax = 1270.740000
+            text = "其实俩人最后也在海底相守。"
+        intervals [545]:
+            xmin = 1270.740000
+            xmax = 1321.720000
+            text = ""
+        intervals [546]:
+            xmin = 1321.720000
+            xmax = 1323.670000
+            text = "没有看过仙剑奇侠传一。"
+        intervals [547]:
+            xmin = 1323.670000
+            xmax = 1323.910000
+            text = ""
+        intervals [548]:
+            xmin = 1323.910000
+            xmax = 1325.330000
+            text = "只看过仙剑奇侠传三。"
+        intervals [549]:
+            xmin = 1325.330000
+            xmax = 1334.700000
+            text = ""
+        intervals [550]:
+            xmin = 1334.700000
+            xmax = 1337.240000
+            text = "青儿是紫萱和林业平的孩子。"
+        intervals [551]:
+            xmin = 1337.240000
+            xmax = 1337.770000
+            text = ""
+        intervals [552]:
+            xmin = 1337.770000
+            xmax = 1339.260000
+            text = "是吧我没记错吧。."
+        intervals [553]:
+            xmin = 1339.260000
+            xmax = 1340.770000
+            text = ""
+        intervals [554]:
+            xmin = 1340.770000
+            xmax = 1341.350000
+            text = "对。"
+        intervals [555]:
+            xmin = 1341.350000
+            xmax = 1344.770000
+            text = ""
+        intervals [556]:
+            xmin = 1344.770000
+            xmax = 1345.010000
+            text = "对。"
+        intervals [557]:
+            xmin = 1345.010000
+            xmax = 1355.770000
+            text = ""
+        intervals [558]:
+            xmin = 1355.770000
+            xmax = 1356.860000
+            text = "其实。"
+        intervals [559]:
+            xmin = 1356.860000
+            xmax = 1358.420000
+            text = ""
+        intervals [560]:
+            xmin = 1358.420000
+            xmax = 1361.280000
+            text = "整部剧下来他们这些。"
+        intervals [561]:
+            xmin = 1361.280000
+            xmax = 1361.450000
+            text = ""
+        intervals [562]:
+            xmin = 1361.450000
+            xmax = 1364.370000
+            text = "嗯演员也都因为这部剧大红大紫了。"
+        intervals [563]:
+            xmin = 1364.370000
+            xmax = 1364.930000
+            text = ""
+        intervals [564]:
+            xmin = 1364.930000
+            xmax = 1366.270000
+            text = "他们现在就是。"
+        intervals [565]:
+            xmin = 1366.270000
+            xmax = 1366.590000
+            text = ""
+        intervals [566]:
+            xmin = 1366.590000
+            xmax = 1367.330000
+            text = "什么。"
+        intervals [567]:
+            xmin = 1367.330000
+            xmax = 1367.560000
+            text = ""
+        intervals [568]:
+            xmin = 1367.560000
+            xmax = 1370.980000
+            text = "各大的颁奖晚会呀他们如果同框的话也都是一副。"
+        intervals [569]:
+            xmin = 1370.980000
+            xmax = 1371.190000
+            text = ""
+        intervals [570]:
+            xmin = 1371.190000
+            xmax = 1372.730000
+            text = "非常那个。"
+        intervals [571]:
+            xmin = 1372.730000
+            xmax = 1373.120000
+            text = ""
+        intervals [572]:
+            xmin = 1373.120000
+            xmax = 1376.050000
+            text = "包括胡歌包括。"
+        intervals [573]:
+            xmin = 1376.050000
+            xmax = 1376.160000
+            text = ""
+        intervals [574]:
+            xmin = 1376.160000
+            xmax = 1378.080000
+            text = "刘诗诗唐嫣。"
+        intervals [575]:
+            xmin = 1378.080000
+            xmax = 1378.500000
+            text = ""
+        intervals [576]:
+            xmin = 1378.500000
+            xmax = 1380.460000
+            text = "杨幂对霍建华他们。"
+        intervals [577]:
+            xmin = 1380.460000
+            xmax = 1381.960000
+            text = ""
+        intervals [578]:
+            xmin = 1381.960000
+            xmax = 1384.350000
+            text = "其实现在霍建华的。"
+        intervals [579]:
+            xmin = 1384.350000
+            xmax = 1385.080000
+            text = ""
+        intervals [580]:
+            xmin = 1385.080000
+            xmax = 1385.840000
+            text = "呃。"
+        intervals [581]:
+            xmin = 1385.840000
+            xmax = 1386.120000
+            text = ""
+        intervals [582]:
+            xmin = 1386.120000
+            xmax = 1387.320000
+            text = "路演绎之路"
+        intervals [583]:
+            xmin = 1387.320000
+            xmax = 1387.420000
+            text = ""
+        intervals [584]:
+            xmin = 1387.420000
+            xmax = 1390.310000
+            text = "不就是对于对于。"
+        intervals [585]:
+            xmin = 1390.310000
+            xmax = 1390.530000
+            text = ""
+        intervals [586]:
+            xmin = 1390.530000
+            xmax = 1393.560000
+            text = "胡歌他们来说的话是没有胡歌他们那么火的。"
+        intervals [587]:
+            xmin = 1393.560000
+            xmax = 1393.980000
+            text = ""
+        intervals [588]:
+            xmin = 1393.980000
+            xmax = 1395.880000
+            text = "胡歌算是。"
+        intervals [589]:
+            xmin = 1395.880000
+            xmax = 1397.910000
+            text = ""
+        intervals [590]:
+            xmin = 1397.910000
+            xmax = 1401.370000
+            text = "花千骨上但是你看他最近几年的戏和。"
+        intervals [591]:
+            xmin = 1401.370000
+            xmax = 1401.580000
+            text = ""
+        intervals [592]:
+            xmin = 1401.580000
+            xmax = 1402.890000
+            text = "胡歌他们就没有办法比了。"
+        intervals [593]:
+            xmin = 1402.890000
+            xmax = 1405.020000
+            text = ""
+        intervals [594]:
+            xmin = 1405.020000
+            xmax = 1407.880000
+            text = "胡歌还是很有人格魅力的。"
+        intervals [595]:
+            xmin = 1407.880000
+            xmax = 1416.350000
+            text = ""
+        intervals [596]:
+            xmin = 1416.350000
+            xmax = 1418.060000
+            text = "其实仙剑三整部。"
+        intervals [597]:
+            xmin = 1418.060000
+            xmax = 1418.140000
+            text = ""
+        intervals [598]:
+            xmin = 1418.140000
+            xmax = 1420.960000
+            text = "整部剧的那个设定就很有意思。"
+        intervals [599]:
+            xmin = 1420.960000
+            xmax = 1421.630000
+            text = ""
+        intervals [600]:
+            xmin = 1421.630000
+            xmax = 1422.530000
+            text = "是。"
+        intervals [601]:
+            xmin = 1422.530000
+            xmax = 1423.100000
+            text = ""
+        intervals [602]:
+            xmin = 1423.100000
+            xmax = 1427.860000
+            text = "讲的是三个小人就是三个小人物嘛原著的三个小人物就景天一个。"
+        intervals [603]:
+            xmin = 1427.860000
+            xmax = 1428.070000
+            text = ""
+        intervals [604]:
+            xmin = 1428.070000
+            xmax = 1429.680000
+            text = "一个。"
+        intervals [605]:
+            xmin = 1429.680000
+            xmax = 1430.200000
+            text = ""
+        intervals [606]:
+            xmin = 1430.200000
+            xmax = 1433.750000
+            text = "小小人物然后一步一步一步爬到那个。"
+        intervals [607]:
+            xmin = 1433.750000
+            xmax = 1433.940000
+            text = ""
+        intervals [608]:
+            xmin = 1433.940000
+            xmax = 1435.530000
+            text = "嗯拯救苍生的大英雄。"
+        intervals [609]:
+            xmin = 1435.530000
+            xmax = 1435.820000
+            text = ""
+        intervals [610]:
+            xmin = 1435.820000
+            xmax = 1438.580000
+            text = "这一个设定就是非常。"
+        intervals [611]:
+            xmin = 1438.580000
+            xmax = 1438.950000
+            text = ""
+        intervals [612]:
+            xmin = 1438.950000
+            xmax = 1440.280000
+            text = "励志的一个过程。"
+        intervals [613]:
+            xmin = 1440.280000
+            xmax = 1440.820000
+            text = ""
+        intervals [614]:
+            xmin = 1440.820000
+            xmax = 1442.830000
+            text = "加上他们去。"
+        intervals [615]:
+            xmin = 1442.830000
+            xmax = 1442.930000
+            text = ""
+        intervals [616]:
+            xmin = 1442.930000
+            xmax = 1445.170000
+            text = "寻找灵珠啊，然后。"
+        intervals [617]:
+            xmin = 1445.170000
+            xmax = 1445.500000
+            text = ""
+        intervals [618]:
+            xmin = 1445.500000
+            xmax = 1447.660000
+            text = "面对一些呃。"
+        intervals [619]:
+            xmin = 1447.660000
+            xmax = 1448.410000
+            text = ""
+        intervals [620]:
+            xmin = 1448.410000
+            xmax = 1451.250000
+            text = "妖怪啥的他们做出来的一些处理。"
+        intervals [621]:
+            xmin = 1451.250000
+            xmax = 1451.730000
+            text = ""
+        intervals [622]:
+            xmin = 1451.730000
+            xmax = 1454.150000
+            text = "不过徐长卿一直都是团队的大腿。"
+        intervals [623]:
+            xmin = 1454.150000
+            xmax = 1454.640000
+            text = ""
+        intervals [624]:
+            xmin = 1454.640000
+            xmax = 1456.210000
+            text = "到了，到了。"
+        intervals [625]:
+            xmin = 1456.210000
+            xmax = 1456.330000
+            text = ""
+        intervals [626]:
+            xmin = 1456.330000
+            xmax = 1458.480000
+            text = "最后，最后的最后。"
+        intervals [627]:
+            xmin = 1458.480000
+            xmax = 1458.700000
+            text = ""
+        intervals [628]:
+            xmin = 1458.700000
+            xmax = 1460.670000
+            text = "景天能够战胜邪剑仙也是。"
+        intervals [629]:
+            xmin = 1460.670000
+            xmax = 1460.910000
+            text = ""
+        intervals [630]:
+            xmin = 1460.910000
+            xmax = 1462.680000
+            text = "徐长卿也发挥了不可。"
+        intervals [631]:
+            xmin = 1462.680000
+            xmax = 1462.920000
+            text = ""
+        intervals [632]:
+            xmin = 1462.920000
+            xmax = 1465.060000
+            text = "磨灭的功劳。"
+        intervals [633]:
+            xmin = 1465.060000
+            xmax = 1465.750000
+            text = ""
+        intervals [634]:
+            xmin = 1465.750000
+            xmax = 1466.270000
+            text = "对。"
+        intervals [635]:
+            xmin = 1466.270000
+            xmax = 1467.180000
+            text = ""
+        intervals [636]:
+            xmin = 1467.180000
+            xmax = 1469.040000
+            text = "被吸进去之后然后在。"
+        intervals [637]:
+            xmin = 1469.040000
+            xmax = 1469.400000
+            text = ""
+        intervals [638]:
+            xmin = 1469.400000
+            xmax = 1471.410000
+            text = "在在他的那个身体里边。"
+        intervals [639]:
+            xmin = 1471.410000
+            xmax = 1471.730000
+            text = ""
+        intervals [640]:
+            xmin = 1471.730000
+            xmax = 1473.390000
+            text = "比出了他们经常比的。"
+        intervals [641]:
+            xmin = 1473.390000
+            xmax = 1473.590000
+            text = ""
+        intervals [642]:
+            xmin = 1473.590000
+            xmax = 1475.270000
+            text = "在欧耶的手势对然后对。"
+        intervals [643]:
+            xmin = 1475.270000
+            xmax = 1476.060000
+            text = ""
+        intervals [644]:
+            xmin = 1476.060000
+            xmax = 1476.870000
+            text = "然后。"
+        intervals [645]:
+            xmin = 1476.870000
+            xmax = 1477.570000
+            text = ""
+        intervals [646]:
+            xmin = 1477.570000
+            xmax = 1478.830000
+            text = "对。"
+        intervals [647]:
+            xmin = 1478.830000
+            xmax = 1480.536667
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "P031"
+        xmin = 0
+        xmax = 1480.536667
+        intervals: size = 133
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 54.560000
+            text = ""
+        intervals [2]:
+            xmin = 54.560000
+            xmax = 57.100000
+            text = "那你们都是多大岁数看的啊？"
+        intervals [3]:
+            xmin = 57.100000
+            xmax = 59.920000
+            text = ""
+        intervals [4]:
+            xmin = 59.920000
+            xmax = 62.780000
+            text = "刚出的时候你们多大啊。"
+        intervals [5]:
+            xmin = 62.780000
+            xmax = 165.790000
+            text = ""
+        intervals [6]:
+            xmin = 165.790000
+            xmax = 168.680000
+            text = "每个人都有每个人的特点。"
+        intervals [7]:
+            xmin = 168.680000
+            xmax = 175.710000
+            text = ""
+        intervals [8]:
+            xmin = 175.710000
+            xmax = 177.370000
+            text = "为什么会有阴影？"
+        intervals [9]:
+            xmin = 177.370000
+            xmax = 181.600000
+            text = ""
+        intervals [10]:
+            xmin = 181.600000
+            xmax = 183.250000
+            text = "那个猴子是吗？"
+        intervals [11]:
+            xmin = 183.250000
+            xmax = 184.780000
+            text = ""
+        intervals [12]:
+            xmin = 184.780000
+            xmax = 186.070000
+            text = "猴子之前？"
+        intervals [13]:
+            xmin = 186.070000
+            xmax = 188.790000
+            text = ""
+        intervals [14]:
+            xmin = 188.790000
+            xmax = 189.390000
+            text = "对。"
+        intervals [15]:
+            xmin = 189.390000
+            xmax = 190.380000
+            text = ""
+        intervals [16]:
+            xmin = 190.380000
+            xmax = 193.910000
+            text = "她爷爷被抓住的时候，嗯。"
+        intervals [17]:
+            xmin = 193.910000
+            xmax = 215.970000
+            text = ""
+        intervals [18]:
+            xmin = 215.970000
+            xmax = 219.490000
+            text = "小时候看的恐怖片还是少。"
+        intervals [19]:
+            xmin = 219.490000
+            xmax = 297.100000
+            text = ""
+        intervals [20]:
+            xmin = 297.100000
+            xmax = 299.060000
+            text = "都挺折磨。"
+        intervals [21]:
+            xmin = 299.060000
+            xmax = 315.620000
+            text = ""
+        intervals [22]:
+            xmin = 315.620000
+            xmax = 320.010000
+            text = "我觉得下意识他们谁都不愿意忘记谁吧。"
+        intervals [23]:
+            xmin = 320.010000
+            xmax = 320.990000
+            text = ""
+        intervals [24]:
+            xmin = 320.990000
+            xmax = 323.990000
+            text = "毕竟都已经三世了，然后。"
+        intervals [25]:
+            xmin = 323.990000
+            xmax = 325.650000
+            text = ""
+        intervals [26]:
+            xmin = 325.650000
+            xmax = 326.980000
+            text = "我说完了，哈哈。"
+        intervals [27]:
+            xmin = 326.980000
+            xmax = 434.360000
+            text = ""
+        intervals [28]:
+            xmin = 434.360000
+            xmax = 435.980000
+            text = "她就会变老。"
+        intervals [29]:
+            xmin = 435.980000
+            xmax = 467.680000
+            text = ""
+        intervals [30]:
+            xmin = 467.680000
+            xmax = 470.330000
+            text = "嗯，你们记得茂茂割肉那吗？"
+        intervals [31]:
+            xmin = 470.330000
+            xmax = 475.920000
+            text = ""
+        intervals [32]:
+            xmin = 475.920000
+            xmax = 479.870000
+            text = "最近这次看，我看到那就不看了。"
+        intervals [33]:
+            xmin = 479.870000
+            xmax = 519.200000
+            text = ""
+        intervals [34]:
+            xmin = 519.200000
+            xmax = 520.430000
+            text = "是为了她哥。"
+        intervals [35]:
+            xmin = 520.430000
+            xmax = 585.350000
+            text = ""
+        intervals [36]:
+            xmin = 585.350000
+            xmax = 587.180000
+            text = "他不同意。"
+        intervals [37]:
+            xmin = 587.180000
+            xmax = 675.960000
+            text = ""
+        intervals [38]:
+            xmin = 675.960000
+            xmax = 678.070000
+            text = "她哥的下一世。"
+        intervals [39]:
+            xmin = 678.070000
+            xmax = 685.970000
+            text = ""
+        intervals [40]:
+            xmin = 685.970000
+            xmax = 688.360000
+            text = "对啊，景天的下一世啊。"
+        intervals [41]:
+            xmin = 688.360000
+            xmax = 689.880000
+            text = ""
+        intervals [42]:
+            xmin = 689.880000
+            xmax = 692.190000
+            text = "就完了。"
+        intervals [43]:
+            xmin = 692.190000
+            xmax = 721.260000
+            text = ""
+        intervals [44]:
+            xmin = 721.260000
+            xmax = 723.550000
+            text = "动感情是因为。"
+        intervals [45]:
+            xmin = 723.550000
+            xmax = 723.940000
+            text = ""
+        intervals [46]:
+            xmin = 723.940000
+            xmax = 727.180000
+            text = "因为她的心在紫萱那。"
+        intervals [47]:
+            xmin = 727.180000
+            xmax = 862.030000
+            text = ""
+        intervals [48]:
+            xmin = 862.030000
+            xmax = 864.320000
+            text = "对，那个流的眼泪也算。"
+        intervals [49]:
+            xmin = 864.320000
+            xmax = 866.080000
+            text = ""
+        intervals [50]:
+            xmin = 866.080000
+            xmax = 870.000000
+            text = "应该他的应该他的那个。"
+        intervals [51]:
+            xmin = 870.000000
+            xmax = 870.240000
+            text = ""
+        intervals [52]:
+            xmin = 870.240000
+            xmax = 873.820000
+            text = "他不算人，他流的眼泪也可以。"
+        intervals [53]:
+            xmin = 873.820000
+            xmax = 875.650000
+            text = ""
+        intervals [54]:
+            xmin = 875.650000
+            xmax = 876.750000
+            text = "对"
+        intervals [55]:
+            xmin = 876.750000
+            xmax = 886.040000
+            text = ""
+        intervals [56]:
+            xmin = 886.040000
+            xmax = 887.970000
+            text = "抬头就能看见。"
+        intervals [57]:
+            xmin = 887.970000
+            xmax = 889.170000
+            text = ""
+        intervals [58]:
+            xmin = 889.170000
+            xmax = 891.510000
+            text = "她以为是，对对对。"
+        intervals [59]:
+            xmin = 891.510000
+            xmax = 895.000000
+            text = ""
+        intervals [60]:
+            xmin = 895.000000
+            xmax = 900.550000
+            text = "景天说天晴的时候天上一片白云都没有，抬头看见的就是天。"
+        intervals [61]:
+            xmin = 900.550000
+            xmax = 936.330000
+            text = ""
+        intervals [62]:
+            xmin = 936.330000
+            xmax = 938.440000
+            text = "他们三个小时候。"
+        intervals [63]:
+            xmin = 938.440000
+            xmax = 940.210000
+            text = ""
+        intervals [64]:
+            xmin = 940.210000
+            xmax = 941.250000
+            text = "一个茂茂。"
+        intervals [65]:
+            xmin = 941.250000
+            xmax = 941.540000
+            text = ""
+        intervals [66]:
+            xmin = 941.540000
+            xmax = 943.330000
+            text = "寄养在永安当吗？"
+        intervals [67]:
+            xmin = 943.330000
+            xmax = 943.840000
+            text = ""
+        intervals [68]:
+            xmin = 943.840000
+            xmax = 946.400000
+            text = "然后景天他爸。"
+        intervals [69]:
+            xmin = 946.400000
+            xmax = 946.640000
+            text = ""
+        intervals [70]:
+            xmin = 946.640000
+            xmax = 948.820000
+            text = "然后当的掌柜。"
+        intervals [71]:
+            xmin = 948.820000
+            xmax = 949.550000
+            text = ""
+        intervals [72]:
+            xmin = 949.550000
+            xmax = 952.020000
+            text = "然后当时他俩然后。"
+        intervals [73]:
+            xmin = 952.020000
+            xmax = 953.950000
+            text = ""
+        intervals [74]:
+            xmin = 953.950000
+            xmax = 957.420000
+            text = "也是一个雪天遇见了那个。"
+        intervals [75]:
+            xmin = 957.420000
+            xmax = 957.830000
+            text = ""
+        intervals [76]:
+            xmin = 957.830000
+            xmax = 962.220000
+            text = "放到了那个，不知道被谁放到了永安当门口。"
+        intervals [77]:
+            xmin = 962.220000
+            xmax = 963.260000
+            text = ""
+        intervals [78]:
+            xmin = 963.260000
+            xmax = 966.020000
+            text = "然后当时就是。"
+        intervals [79]:
+            xmin = 966.020000
+            xmax = 966.240000
+            text = ""
+        intervals [80]:
+            xmin = 966.240000
+            xmax = 967.920000
+            text = "雪见她爷爷刚。"
+        intervals [81]:
+            xmin = 967.920000
+            xmax = 968.560000
+            text = ""
+        intervals [82]:
+            xmin = 968.560000
+            xmax = 972.160000
+            text = "呃，丧失了他的儿子。"
+        intervals [83]:
+            xmin = 972.160000
+            xmax = 972.610000
+            text = ""
+        intervals [84]:
+            xmin = 972.610000
+            xmax = 974.880000
+            text = "然后就认为雪见是。"
+        intervals [85]:
+            xmin = 974.880000
+            xmax = 975.150000
+            text = ""
+        intervals [86]:
+            xmin = 975.150000
+            xmax = 980.530000
+            text = "上天送给他，也就是把她当他儿子的女儿。"
+        intervals [87]:
+            xmin = 980.530000
+            xmax = 984.270000
+            text = ""
+        intervals [88]:
+            xmin = 984.270000
+            xmax = 987.640000
+            text = "那为什么最后她会被逐出唐家堡。"
+        intervals [89]:
+            xmin = 987.640000
+            xmax = 1023.810000
+            text = ""
+        intervals [90]:
+            xmin = 1023.810000
+            xmax = 1027.410000
+            text = "但是五毒兽不是只认雪见吗？"
+        intervals [91]:
+            xmin = 1027.410000
+            xmax = 1031.190000
+            text = ""
+        intervals [92]:
+            xmin = 1031.190000
+            xmax = 1034.370000
+            text = "谁有，不是谁有五毒兽谁？"
+        intervals [93]:
+            xmin = 1034.370000
+            xmax = 1047.370000
+            text = ""
+        intervals [94]:
+            xmin = 1047.370000
+            xmax = 1050.140000
+            text = "对啊，那唐雪见不是理所当然吗？"
+        intervals [95]:
+            xmin = 1050.140000
+            xmax = 1050.690000
+            text = ""
+        intervals [96]:
+            xmin = 1050.690000
+            xmax = 1052.580000
+            text = "唐家堡的堂主。"
+        intervals [97]:
+            xmin = 1052.580000
+            xmax = 1056.360000
+            text = ""
+        intervals [98]:
+            xmin = 1056.360000
+            xmax = 1059.040000
+            text = "那会她已经出来了成那个精灵。"
+        intervals [99]:
+            xmin = 1059.040000
+            xmax = 1059.540000
+            text = ""
+        intervals [100]:
+            xmin = 1059.540000
+            xmax = 1063.400000
+            text = "会飞的那个精灵，因为就是她救得那个毒人吗？"
+        intervals [101]:
+            xmin = 1063.400000
+            xmax = 1068.390000
+            text = ""
+        intervals [102]:
+            xmin = 1068.390000
+            xmax = 1069.600000
+            text = "不是后边才成。"
+        intervals [103]:
+            xmin = 1069.600000
+            xmax = 1070.180000
+            text = ""
+        intervals [104]:
+            xmin = 1070.180000
+            xmax = 1071.000000
+            text = "那他就是。"
+        intervals [105]:
+            xmin = 1071.000000
+            xmax = 1071.680000
+            text = ""
+        intervals [106]:
+            xmin = 1071.680000
+            xmax = 1074.090000
+            text = "后边变成人了。"
+        intervals [107]:
+            xmin = 1074.090000
+            xmax = 1112.050000
+            text = ""
+        intervals [108]:
+            xmin = 1112.050000
+            xmax = 1115.380000
+            text = "五位长老的那个邪念。"
+        intervals [109]:
+            xmin = 1115.380000
+            xmax = 1121.480000
+            text = ""
+        intervals [110]:
+            xmin = 1121.480000
+            xmax = 1123.810000
+            text = "嫉妒他是嫉妒。"
+        intervals [111]:
+            xmin = 1123.810000
+            xmax = 1162.740000
+            text = ""
+        intervals [112]:
+            xmin = 1162.740000
+            xmax = 1165.670000
+            text = "对他都能化形了那会儿。"
+        intervals [113]:
+            xmin = 1165.670000
+            xmax = 1174.110000
+            text = ""
+        intervals [114]:
+            xmin = 1174.110000
+            xmax = 1176.040000
+            text = "好像是变成了一棵树。"
+        intervals [115]:
+            xmin = 1176.040000
+            xmax = 1181.200000
+            text = ""
+        intervals [116]:
+            xmin = 1181.200000
+            xmax = 1183.420000
+            text = "脖子上画了个猪。"
+        intervals [117]:
+            xmin = 1183.420000
+            xmax = 1248.770000
+            text = ""
+        intervals [118]:
+            xmin = 1248.770000
+            xmax = 1254.240000
+            text = "交换，用他的声音换他的容貌。"
+        intervals [119]:
+            xmin = 1254.240000
+            xmax = 1257.570000
+            text = ""
+        intervals [120]:
+            xmin = 1257.570000
+            xmax = 1260.530000
+            text = "然后跟在他身边500年才能送他回来。"
+        intervals [121]:
+            xmin = 1260.530000
+            xmax = 1265.750000
+            text = ""
+        intervals [122]:
+            xmin = 1265.750000
+            xmax = 1268.250000
+            text = "其实我觉得是不值。"
+        intervals [123]:
+            xmin = 1268.250000
+            xmax = 1330.800000
+            text = ""
+        intervals [124]:
+            xmin = 1330.800000
+            xmax = 1333.130000
+            text = "感觉青儿也是受害者。"
+        intervals [125]:
+            xmin = 1333.130000
+            xmax = 1338.590000
+            text = ""
+        intervals [126]:
+            xmin = 1338.590000
+            xmax = 1340.860000
+            text = "她她好像到死才知道。"
+        intervals [127]:
+            xmin = 1340.860000
+            xmax = 1341.440000
+            text = ""
+        intervals [128]:
+            xmin = 1341.440000
+            xmax = 1343.300000
+            text = "那个是她的。"
+        intervals [129]:
+            xmin = 1343.300000
+            xmax = 1343.590000
+            text = ""
+        intervals [130]:
+            xmin = 1343.590000
+            xmax = 1346.920000
+            text = "呃她怀了孩子到死才知道她怀了孩子嗯。"
+        intervals [131]:
+            xmin = 1346.920000
+            xmax = 1378.350000
+            text = ""
+        intervals [132]:
+            xmin = 1378.350000
+            xmax = 1380.200000
+            text = " 霍建华."
+        intervals [133]:
+            xmin = 1380.200000
+            xmax = 1480.536667
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "P033"
+        xmin = 0
+        xmax = 1480.536667
+        intervals: size = 35
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 107.810000
+            text = ""
+        intervals [2]:
+            xmin = 107.810000
+            xmax = 110.640000
+            text = "我第一次看仙剑三是小时候。"
+        intervals [3]:
+            xmin = 110.640000
+            xmax = 110.750000
+            text = ""
+        intervals [4]:
+            xmin = 110.750000
+            xmax = 112.940000
+            text = "那时候只是觉得剧情好看。"
+        intervals [5]:
+            xmin = 112.940000
+            xmax = 113.680000
+            text = ""
+        intervals [6]:
+            xmin = 113.680000
+            xmax = 116.060000
+            text = "特效精彩，人物很好看。"
+        intervals [7]:
+            xmin = 116.060000
+            xmax = 116.780000
+            text = ""
+        intervals [8]:
+            xmin = 116.780000
+            xmax = 118.300000
+            text = "但是长大之后。"
+        intervals [9]:
+            xmin = 118.300000
+            xmax = 118.360000
+            text = ""
+        intervals [10]:
+            xmin = 118.360000
+            xmax = 121.240000
+            text = "回头看才能看懂每个角色的无奈。"
+        intervals [11]:
+            xmin = 121.240000
+            xmax = 121.530000
+            text = ""
+        intervals [12]:
+            xmin = 121.530000
+            xmax = 123.060000
+            text = "遗憾和身不由己。"
+        intervals [13]:
+            xmin = 123.060000
+            xmax = 220.420000
+            text = ""
+        intervals [14]:
+            xmin = 220.420000
+            xmax = 223.320000
+            text = "除了人物仙剑三的音乐更是封神。"
+        intervals [15]:
+            xmin = 223.320000
+            xmax = 223.350000
+            text = ""
+        intervals [16]:
+            xmin = 223.350000
+            xmax = 225.590000
+            text = "生生世世爱，忘记时间。"
+        intervals [17]:
+            xmin = 225.590000
+            xmax = 225.620000
+            text = ""
+        intervals [18]:
+            xmin = 225.620000
+            xmax = 227.910000
+            text = "偏爱，这几首主题曲，插曲。"
+        intervals [19]:
+            xmin = 227.910000
+            xmax = 227.990000
+            text = ""
+        intervals [20]:
+            xmin = 227.990000
+            xmax = 229.570000
+            text = "每一首都超级经典。"
+        intervals [21]:
+            xmin = 229.570000
+            xmax = 229.820000
+            text = ""
+        intervals [22]:
+            xmin = 229.820000
+            xmax = 233.760000
+            text = "只要音乐一响就能回到追剧的青春时光。"
+        intervals [23]:
+            xmin = 233.760000
+            xmax = 511.610000
+            text = ""
+        intervals [24]:
+            xmin = 511.610000
+            xmax = 517.450000
+            text = "下人活过来的结局你们怎么看待文魁两次祭剑."
+        intervals [25]:
+            xmin = 517.450000
+            xmax = 703.270000
+            text = ""
+        intervals [26]:
+            xmin = 703.270000
+            xmax = 705.400000
+            text = "我特别喜欢重楼这个角色。"
+        intervals [27]:
+            xmin = 705.400000
+            xmax = 705.660000
+            text = ""
+        intervals [28]:
+            xmin = 705.660000
+            xmax = 708.820000
+            text = "是魔界至尊，魔力超强。"
+        intervals [29]:
+            xmin = 708.820000
+            xmax = 709.070000
+            text = ""
+        intervals [30]:
+            xmin = 709.070000
+            xmax = 711.710000
+            text = "霸气孤傲，一生只求对手。"
+        intervals [31]:
+            xmin = 711.710000
+            xmax = 711.840000
+            text = ""
+        intervals [32]:
+            xmin = 711.840000
+            xmax = 714.330000
+            text = "只求比武，可偏偏这么一"
+        intervals [33]:
+            xmin = 714.330000
+            xmax = 714.440000
+            text = ""
+        intervals [34]:
+            xmin = 714.440000
+            xmax = 717.950000
+            text = "厉害的一个人动了最纯粹的感情。"
+        intervals [35]:
+            xmin = 717.950000
+            xmax = 1480.536667
+            text = ""

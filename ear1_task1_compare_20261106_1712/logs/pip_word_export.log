@@ -1,0 +1,20 @@
+Collecting pypandoc_binary
+  Downloading pypandoc_binary-1.17-py3-none-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (18 kB)
+Collecting python-docx
+  Using cached python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting lxml>=3.1.0 (from python-docx)
+  Downloading lxml-6.1.3-cp314-cp314-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting typing_extensions>=4.9.0 (from python-docx)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading pypandoc_binary-1.17-py3-none-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (34.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.5/34.5 MB 10.4 MB/s  0:00:03
+Using cached python_docx-1.2.0-py3-none-any.whl (252 kB)
+Downloading lxml-6.1.3-cp314-cp314-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 10.8 MB/s  0:00:00
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing_extensions, pypandoc_binary, lxml, python-docx
+
+Successfully installed lxml-6.1.3 pypandoc_binary-1.17 python-docx-1.2.0 typing_extensions-4.16.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: /tmp/ear1-report-venv/bin/python -m pip install --upgrade pip

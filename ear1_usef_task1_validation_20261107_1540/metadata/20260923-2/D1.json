@@ -1,0 +1,42 @@
+{
+  "session": "20260923-2",
+  "track": "D1",
+  "audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260923-2/D1.WAV",
+  "sample_rate": 8000,
+  "samples": 11873810,
+  "enrollment_source": "diarizen_predictions_only",
+  "shared_gain": 1.0,
+  "targets": [
+    {
+      "speaker": "0",
+      "enrollment_status": "predicted_mixed_fallback",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260923-2/D1/0.wav",
+      "chunks": 297,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.17440035939216614,
+      "elapsed_s": 63.04,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260923-2/D1/0.wav"
+    },
+    {
+      "speaker": "1",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260923-2/D1/1.wav",
+      "chunks": 297,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.1324632316827774,
+      "elapsed_s": 62.53,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260923-2/D1/1.wav"
+    },
+    {
+      "speaker": "2",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260923-2/D1/2.wav",
+      "chunks": 297,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.18339866399765015,
+      "elapsed_s": 63.34,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260923-2/D1/2.wav"
+    }
+  ],
+  "elapsed_s": 191.5
+}

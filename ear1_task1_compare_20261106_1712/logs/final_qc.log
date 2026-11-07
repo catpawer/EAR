@@ -1,0 +1,4 @@
+diarizen_baseline 14/14 rows; 56 region rows; additive decomposition and DER passed
+nemotron3 14/14 rows; 56 region rows; additive decomposition and DER passed
+pyannote_community1 14/14 rows; 56 region rows; additive decomposition and DER passed
+funasr 14/14 rows; 56 region rows; additive decomposition and DER passed

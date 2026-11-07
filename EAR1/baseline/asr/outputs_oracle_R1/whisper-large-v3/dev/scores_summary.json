@@ -1,0 +1,26 @@
+{
+  "model": "openai/whisper-large-v3",
+  "split": "dev",
+  "eval_devices": [
+    "D1",
+    "R1"
+  ],
+  "ignored_non_eval_records": 0,
+  "session_averaged_cer": 0.5878656555689818,
+  "overall_cer": 0.5954493977144034,
+  "utterances": 4402,
+  "reference_characters": 48565,
+  "substitutions": 12532,
+  "deletions": 11709,
+  "insertions": 4677,
+  "scored_session_device_pairs": 7,
+  "skipped_session_device_pairs": 7,
+  "decoding": {
+    "language": "zh",
+    "task": "transcribe",
+    "num_beams": 1,
+    "max_length": 448
+  },
+  "text_normalization": "NFKC, lowercase, remove whitespace and Unicode punctuation",
+  "excluded_session_device_pairs": {}
+}

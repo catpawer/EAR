@@ -1,0 +1,52 @@
+{
+  "session": "20260908-1",
+  "track": "D1",
+  "audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260908-1/D1.WAV",
+  "sample_rate": 8000,
+  "samples": 11736847,
+  "enrollment_source": "diarizen_predictions_only",
+  "shared_gain": 1.0,
+  "targets": [
+    {
+      "speaker": "0",
+      "enrollment_status": "predicted_mixed_fallback",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/D1/0.wav",
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.4335907995700836,
+      "elapsed_s": 57.2,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/D1/0.wav"
+    },
+    {
+      "speaker": "1",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/D1/1.wav",
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.43555524945259094,
+      "elapsed_s": 60.02,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/D1/1.wav"
+    },
+    {
+      "speaker": "2",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/D1/2.wav",
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.41238412261009216,
+      "elapsed_s": 54.19,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/D1/2.wav"
+    },
+    {
+      "speaker": "3",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/D1/3.wav",
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 0.5293896198272705,
+      "elapsed_s": 48.14,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/D1/3.wav"
+    }
+  ],
+  "elapsed_s": 222.23
+}

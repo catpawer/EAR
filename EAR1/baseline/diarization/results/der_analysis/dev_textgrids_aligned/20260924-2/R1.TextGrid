@@ -1,0 +1,2374 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1428.192667
+tiers? <exists>
+size = 7
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "P036"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 177
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.850000
+            text = ""
+        intervals [2]:
+            xmin = 0.850000
+            xmax = 9.490000
+            text = "今天我想问一下大家对一些个明星网红或者说公众人物，有没有什么自己特别喜欢的或者说他为什么让你喜欢。"
+        intervals [3]:
+            xmin = 9.490000
+            xmax = 396.040000
+            text = ""
+        intervals [4]:
+            xmin = 396.040000
+            xmax = 397.910000
+            text = "我觉得你说的这个。"
+        intervals [5]:
+            xmin = 397.910000
+            xmax = 398.370000
+            text = ""
+        intervals [6]:
+            xmin = 398.370000
+            xmax = 404.640000
+            text = "当然这个事情是一个好的事情但是就，呃我据我所知道的吧。"
+        intervals [7]:
+            xmin = 404.640000
+            xmax = 404.990000
+            text = ""
+        intervals [8]:
+            xmin = 404.990000
+            xmax = 413.550000
+            text = "最开始蔡徐坤是我记得，我是我初中那年开始火初中初几我忘了开始火的，当时没有这么多人黑他这个梗也确实有人玩儿。"
+        intervals [9]:
+            xmin = 413.550000
+            xmax = 414.030000
+            text = ""
+        intervals [10]:
+            xmin = 414.030000
+            xmax = 414.780000
+            text = "额。"
+        intervals [11]:
+            xmin = 414.780000
+            xmax = 415.000000
+            text = ""
+        intervals [12]:
+            xmin = 415.000000
+            xmax = 420.670000
+            text = "过后这段时间其实那个梗火的时间不是很长一两三年之后他就不火了然后过了。"
+        intervals [13]:
+            xmin = 420.670000
+            xmax = 421.140000
+            text = ""
+        intervals [14]:
+            xmin = 421.140000
+            xmax = 430.830000
+            text = "过去一段时间就被又被人重新挖出来，然后这个梗又重新火的，我觉得其实你说的什么网暴啊，什么黑子我觉得这种这些人。"
+        intervals [15]:
+            xmin = 430.830000
+            xmax = 430.960000
+            text = ""
+        intervals [16]:
+            xmin = 430.960000
+            xmax = 437.640000
+            text = "都其实就是一群跟风的我觉得一群人都在说他。我觉得他长得帅，他是男的我就要我就要说他怎么怎么样的我觉得根本就不是说。"
+        intervals [17]:
+            xmin = 437.640000
+            xmax = 437.840000
+            text = ""
+        intervals [18]:
+            xmin = 437.840000
+            xmax = 440.710000
+            text = "甚至是没有了解，了解过这个明星。"
+        intervals [19]:
+            xmin = 440.710000
+            xmax = 440.960000
+            text = ""
+        intervals [20]:
+            xmin = 440.960000
+            xmax = 443.230000
+            text = "那我，说他们网，我觉得连。"
+        intervals [21]:
+            xmin = 443.230000
+            xmax = 443.530000
+            text = ""
+        intervals [22]:
+            xmin = 443.530000
+            xmax = 445.530000
+            text = "根本就算不上网暴，其实。"
+        intervals [23]:
+            xmin = 445.530000
+            xmax = 445.970000
+            text = ""
+        intervals [24]:
+            xmin = 445.970000
+            xmax = 452.800000
+            text = "就真的，不说什么律师函吧，就随便一个发个声闻或者都感觉能给能给能给那些人吓哭了。"
+        intervals [25]:
+            xmin = 452.800000
+            xmax = 453.160000
+            text = ""
+        intervals [26]:
+            xmin = 453.160000
+            xmax = 463.990000
+            text = "而且我们现在所说的什么什么小黑子，什么路转粉，还是那句话就是跟风，就是他可能连蔡徐坤的歌没听过，呃事情不知道呃，或者是。"
+        intervals [27]:
+            xmin = 463.990000
+            xmax = 464.260000
+            text = ""
+        intervals [28]:
+            xmin = 464.260000
+            xmax = 471.330000
+            text = "什么大概都没有了解就觉得就觉得这么多人都说路转粉了，这么多人都都说他那啥了，然后我也跟着转。"
+        intervals [29]:
+            xmin = 471.330000
+            xmax = 471.510000
+            text = ""
+        intervals [30]:
+            xmin = 471.510000
+            xmax = 480.960000
+            text = "觉得自己笑梗不笑人，觉得自己有有那个理解，有见解其实就是根根归根结底就两个字，从开始到结尾，从黑他到粉他，就是两个字跟风。"
+        intervals [31]:
+            xmin = 480.960000
+            xmax = 606.630000
+            text = ""
+        intervals [32]:
+            xmin = 606.630000
+            xmax = 612.250000
+            text = "我觉得你说的这个，首先篮确实因为篮球这个事情，其次。"
+        intervals [33]:
+            xmin = 612.250000
+            xmax = 612.570000
+            text = ""
+        intervals [34]:
+            xmin = 612.570000
+            xmax = 619.080000
+            text = "真正因为篮球黑他的人，就是真正黑他人可能只占百分之二十，上的百分之八十都是跟风黑他，觉得。"
+        intervals [35]:
+            xmin = 619.080000
+            xmax = 619.410000
+            text = ""
+        intervals [36]:
+            xmin = 619.410000
+            xmax = 625.340000
+            text = "就是觉得说白了，就好像我们喜欢很，呃当然我不是，很多男明星一样吧就是就是。"
+        intervals [37]:
+            xmin = 625.340000
+            xmax = 625.770000
+            text = ""
+        intervals [38]:
+            xmin = 625.770000
+            xmax = 633.070000
+            text = "就是跟风黑他，可能有百前那前百分之二十人是真的觉得他打篮球或怎么样觉得他真不行去骂他。"
+        intervals [39]:
+            xmin = 633.070000
+            xmax = 633.580000
+            text = ""
+        intervals [40]:
+            xmin = 633.580000
+            xmax = 639.920000
+            text = "其次就是他形象代言大使这个事情现在不止这一个，我觉得很越来越多的。"
+        intervals [41]:
+            xmin = 639.920000
+            xmax = 640.330000
+            text = ""
+        intervals [42]:
+            xmin = 640.330000
+            xmax = 651.910000
+            text = "因为这个事情人家不会看你会不会不会看你怎么样去选你，人家只看你有没有流量去选你，我觉得这个东西而且跟他本人，我觉得是没有什么关系的我觉得没有必要上升他本人，是他。"
+        intervals [43]:
+            xmin = 651.910000
+            xmax = 653.260000
+            text = ""
+        intervals [44]:
+            xmin = 653.260000
+            xmax = 653.980000
+            text = "就是。"
+        intervals [45]:
+            xmin = 653.980000
+            xmax = 654.350000
+            text = ""
+        intervals [46]:
+            xmin = 654.350000
+            xmax = 655.210000
+            text = "是。"
+        intervals [47]:
+            xmin = 655.210000
+            xmax = 655.610000
+            text = ""
+        intervals [48]:
+            xmin = 655.610000
+            xmax = 659.510000
+            text = "那个东西把他推到面前了，跟他本人没有关系。"
+        intervals [49]:
+            xmin = 659.510000
+            xmax = 660.160000
+            text = ""
+        intervals [50]:
+            xmin = 660.160000
+            xmax = 669.380000
+            text = "还有就是，不管是黑他还是粉他我觉得这就是大多数网民的现状，就是一堆人上去说怎么样我又要跟上去随大流，觉得觉得说他怎么样。"
+        intervals [51]:
+            xmin = 669.380000
+            xmax = 673.300000
+            text = ""
+        intervals [52]:
+            xmin = 673.300000
+            xmax = 677.060000
+            text = "然后我们大家有没有还有其他的明星喜欢的可以说一下。"
+        intervals [53]:
+            xmin = 677.060000
+            xmax = 682.360000
+            text = ""
+        intervals [54]:
+            xmin = 682.360000
+            xmax = 683.920000
+            text = "呃我喜欢。"
+        intervals [55]:
+            xmin = 683.920000
+            xmax = 684.880000
+            text = ""
+        intervals [56]:
+            xmin = 684.880000
+            xmax = 687.560000
+            text = "我喜欢谁，我喜欢一个叫做。"
+        intervals [57]:
+            xmin = 687.560000
+            xmax = 688.190000
+            text = ""
+        intervals [58]:
+            xmin = 688.190000
+            xmax = 690.710000
+            text = "虞文波的英雄联盟职业选手。"
+        intervals [59]:
+            xmin = 690.710000
+            xmax = 691.130000
+            text = ""
+        intervals [60]:
+            xmin = 691.130000
+            xmax = 691.780000
+            text = "对。"
+        intervals [61]:
+            xmin = 691.780000
+            xmax = 692.060000
+            text = ""
+        intervals [62]:
+            xmin = 692.060000
+            xmax = 694.350000
+            text = "对他的英文名字叫 J K love。"
+        intervals [63]:
+            xmin = 694.350000
+            xmax = 695.030000
+            text = ""
+        intervals [64]:
+            xmin = 695.030000
+            xmax = 701.020000
+            text = "有的人，呃其实也不是喜欢他吧我觉得可能有的人会觉得喜欢什么打游戏的，喜欢职业选手很可笑。"
+        intervals [65]:
+            xmin = 701.020000
+            xmax = 701.370000
+            text = ""
+        intervals [66]:
+            xmin = 701.370000
+            xmax = 710.210000
+            text = "其实我也不是喜欢他，我觉得就是他那种感觉怎么说呢他就是一开始在直播平台做主播嘛后来因为一句弹幕然后去打职业。"
+        intervals [67]:
+            xmin = 710.210000
+            xmax = 710.360000
+            text = ""
+        intervals [68]:
+            xmin = 710.360000
+            xmax = 711.010000
+            text = "然后。"
+        intervals [69]:
+            xmin = 711.010000
+            xmax = 711.170000
+            text = ""
+        intervals [70]:
+            xmin = 711.170000
+            xmax = 713.600000
+            text = "然后打了第二年吧就拿了冠军。"
+        intervals [71]:
+            xmin = 713.600000
+            xmax = 714.040000
+            text = ""
+        intervals [72]:
+            xmin = 714.040000
+            xmax = 715.290000
+            text = "只是这种感，就是。"
+        intervals [73]:
+            xmin = 715.290000
+            xmax = 715.530000
+            text = ""
+        intervals [74]:
+            xmin = 715.530000
+            xmax = 719.680000
+            text = "他当时的年龄我看他拿冠军的那个年龄的话，他是零。"
+        intervals [75]:
+            xmin = 719.680000
+            xmax = 719.900000
+            text = ""
+        intervals [76]:
+            xmin = 719.900000
+            xmax = 722.850000
+            text = "二零零一年的，我比他要小小个几岁。"
+        intervals [77]:
+            xmin = 722.850000
+            xmax = 723.020000
+            text = ""
+        intervals [78]:
+            xmin = 723.020000
+            xmax = 726.890000
+            text = "觉得当时，就当时我觉得他很帅当时他是一八年，他十七岁的时候。"
+        intervals [79]:
+            xmin = 726.890000
+            xmax = 727.090000
+            text = ""
+        intervals [80]:
+            xmin = 727.090000
+            xmax = 739.690000
+            text = "我觉得十七岁拿了冠军然后人长得又帅，然后又就是出道即巅峰玩的又好，就是就是我人生中我幻想的我自己该有的样子，其实这不能说是一种喜欢觉得就是。"
+        intervals [81]:
+            xmin = 739.690000
+            xmax = 740.220000
+            text = ""
+        intervals [82]:
+            xmin = 740.220000
+            xmax = 753.810000
+            text = "就是我幻想我自己能成为这个样子，就是就好像喜欢他，就像喜欢我一样，就像他代替了我站到了那个台前，就是我为什么喜欢他，而不是说因为他长得帅，因为他什么打游戏打得好，就喜欢他。"
+        intervals [83]:
+            xmin = 753.810000
+            xmax = 765.770000
+            text = ""
+        intervals [84]:
+            xmin = 765.770000
+            xmax = 769.210000
+            text = "知道，但是我觉得这个角色很多因为。"
+        intervals [85]:
+            xmin = 769.210000
+            xmax = 769.680000
+            text = ""
+        intervals [86]:
+            xmin = 769.680000
+            xmax = 779.390000
+            text = "首先这个游戏就是你说他拿手的几个角色是真正你会玩儿是没有用的，是能不能上场，你说这个拿手觉得没有必要。"
+        intervals [87]:
+            xmin = 779.390000
+            xmax = 788.110000
+            text = ""
+        intervals [88]:
+            xmin = 788.110000
+            xmax = 790.090000
+            text = "有，有一个。"
+        intervals [89]:
+            xmin = 790.090000
+            xmax = 790.850000
+            text = ""
+        intervals [90]:
+            xmin = 790.850000
+            xmax = 800.420000
+            text = "被说了今年算是八年的一个高光，然后现在说黑他的人也这么黑，就是向前闪现就很简单就是闪现大家都知道就是。"
+        intervals [91]:
+            xmin = 800.420000
+            xmax = 800.920000
+            text = ""
+        intervals [92]:
+            xmin = 800.920000
+            xmax = 806.300000
+            text = "那次，是半决赛对韩国队吗呃向前闪现。"
+        intervals [93]:
+            xmin = 806.300000
+            xmax = 806.620000
+            text = ""
+        intervals [94]:
+            xmin = 806.620000
+            xmax = 813.270000
+            text = "一玩一个A D C因为A D C这个游戏角色是很容易暴毙的，闪现过去a死三个人然后奠定了团战的胜利的基础。"
+        intervals [95]:
+            xmin = 813.270000
+            xmax = 813.520000
+            text = ""
+        intervals [96]:
+            xmin = 813.520000
+            xmax = 821.270000
+            text = "这也导致当时很多人夸他怎么样，但是他现在有的时候也会有这种操作，因为他的打法就是以激进著称，很多时候就是。"
+        intervals [97]:
+            xmin = 821.270000
+            xmax = 821.700000
+            text = ""
+        intervals [98]:
+            xmin = 821.700000
+            xmax = 828.940000
+            text = "说白了就是暴毙他会向前闪或者用带有什么位移的角色冲到对面的人堆里，这也是为什么很多人黑他的一个点。"
+        intervals [99]:
+            xmin = 828.940000
+            xmax = 846.410000
+            text = ""
+        intervals [100]:
+            xmin = 846.410000
+            xmax = 850.020000
+            text = "我觉得他没有打出，这个战绩啊他。"
+        intervals [101]:
+            xmin = 850.020000
+            xmax = 862.860000
+            text = ""
+        intervals [102]:
+            xmin = 862.860000
+            xmax = 865.850000
+            text = "我觉得这个东西首先，首先。"
+        intervals [103]:
+            xmin = 865.850000
+            xmax = 866.430000
+            text = ""
+        intervals [104]:
+            xmin = 866.430000
+            xmax = 875.690000
+            text = "低谷期，首先这个东西吧他从二零年就到现在就一直一个战队，你说的这个这个事件我不知道是什么时候的，但我印象里是没有的。"
+        intervals [105]:
+            xmin = 875.690000
+            xmax = 876.200000
+            text = ""
+        intervals [106]:
+            xmin = 876.200000
+            xmax = 878.670000
+            text = "然后其次你说的应对低谷期。"
+        intervals [107]:
+            xmin = 878.670000
+            xmax = 879.170000
+            text = ""
+        intervals [108]:
+            xmin = 879.170000
+            xmax = 890.660000
+            text = "就是他这个选手的人人格，有的人很很多人现在开玩笑说水哥伟大，无需无需多言。就是他的性格就好像不会去在乎那么些东西，就好像他有一个采访当时夺冠时候采访就说。"
+        intervals [109]:
+            xmin = 890.660000
+            xmax = 891.190000
+            text = ""
+        intervals [110]:
+            xmin = 891.190000
+            xmax = 901.720000
+            text = "我电子竞技嘛打的输了被菜打赢打赢了被喷，就就打打输了被喷菜打赢了就是被夸我觉得这很正常，他完全可以接受，很多人骂他甚至。"
+        intervals [111]:
+            xmin = 901.720000
+            xmax = 901.960000
+            text = ""
+        intervals [112]:
+            xmin = 901.960000
+            xmax = 914.710000
+            text = "我们开玩笑都说他自己就是最大自己最大的黑粉，他不会在乎那么些些感受，什么生涯低谷期高光他不会他不会在乎他只在乎，这一波操作我向前闪现向前位移能不能打赢这波团战，能不能赢这场胜利。"
+        intervals [113]:
+            xmin = 914.710000
+            xmax = 927.020000
+            text = ""
+        intervals [114]:
+            xmin = 927.020000
+            xmax = 931.150000
+            text = "我觉得，哎，怎么说呢我觉得现在。"
+        intervals [115]:
+            xmin = 931.150000
+            xmax = 931.620000
+            text = ""
+        intervals [116]:
+            xmin = 931.620000
+            xmax = 942.530000
+            text = "真的就是回首一望现在一看他已经打了很多很多打了八九年了，当时觉得真的感觉时间就很快过去了，所以我也不会再对他说因为毕竟这个东西冠军就是。"
+        intervals [117]:
+            xmin = 942.530000
+            xmax = 942.880000
+            text = ""
+        intervals [118]:
+            xmin = 942.880000
+            xmax = 951.640000
+            text = "一种他已经拿冠军了，可能我们说他可能想再冲击冠军如果有人这样说的话可以就会可能会说他不求上进怎么样但是我觉得。"
+        intervals [119]:
+            xmin = 951.640000
+            xmax = 952.370000
+            text = ""
+        intervals [120]:
+            xmin = 952.370000
+            xmax = 959.870000
+            text = "能打进世界赛本身就是在就是一种巨大的成功了，真的拿到了什么奖奖的话我觉得。"
+        intervals [121]:
+            xmin = 959.870000
+            xmax = 960.080000
+            text = ""
+        intervals [122]:
+            xmin = 960.080000
+            xmax = 968.290000
+            text = "那打赢了更好打输了我也不会太去怪什么，因为确实已经我觉得他这就年龄来说电子竞技这个年龄来说他已经算比较大的了。"
+        intervals [123]:
+            xmin = 968.290000
+            xmax = 981.990000
+            text = ""
+        intervals [124]:
+            xmin = 981.990000
+            xmax = 998.670000
+            text = "呃也不是，你年初那段时间是吧，年初那段时间他是没有再打比赛但是就最近这几个月他开始又重新复出，也不算复出吧就是休息回归来了然后打进世界赛，这段时间可能觉得他可能再打一两年就结束了，然后。"
+        intervals [125]:
+            xmin = 998.670000
+            xmax = 999.540000
+            text = ""
+        intervals [126]:
+            xmin = 999.540000
+            xmax = 1003.190000
+            text = "也应该也没有什么太大的去进取的进展了吧。"
+        intervals [127]:
+            xmin = 1003.190000
+            xmax = 1039.930000
+            text = ""
+        intervals [128]:
+            xmin = 1039.930000
+            xmax = 1044.860000
+            text = "我觉的，你说的，这个梦泪，怎么说呢。"
+        intervals [129]:
+            xmin = 1044.860000
+            xmax = 1045.230000
+            text = ""
+        intervals [130]:
+            xmin = 1045.230000
+            xmax = 1059.170000
+            text = "他和蔡徐坤一样但是也哎也不太一样，因为蔡徐坤他就是一个很公众很有名的人物，梦梦泪说白了一个打游戏的而且在游戏里面我觉得也没有那么火，没有这些个流量，这些个黑他，这些个做图的人。"
+        intervals [131]:
+            xmin = 1059.170000
+            xmax = 1059.400000
+            text = ""
+        intervals [132]:
+            xmin = 1059.400000
+            xmax = 1064.900000
+            text = "我觉得他会最后会查无此人，这个这些东西反倒救了他，但是蔡徐坤不会。"
+        intervals [133]:
+            xmin = 1064.900000
+            xmax = 1065.200000
+            text = ""
+        intervals [134]:
+            xmin = 1065.200000
+            xmax = 1069.970000
+            text = "他就是一个很有名的人物，很就是很多人会支持他会粉他。"
+        intervals [135]:
+            xmin = 1069.970000
+            xmax = 1150.000000
+            text = ""
+        intervals [136]:
+            xmin = 1150.000000
+            xmax = 1157.630000
+            text = "我觉得饭圈儿化严重或者说这个粉丝我觉得不能代表什么，我觉得最起码你要真正的去玩儿这个游戏。"
+        intervals [137]:
+            xmin = 1157.630000
+            xmax = 1157.870000
+            text = ""
+        intervals [138]:
+            xmin = 1157.870000
+            xmax = 1161.410000
+            text = "才能去，或者说看一些比赛才能发表一些评价。"
+        intervals [139]:
+            xmin = 1161.410000
+            xmax = 1161.870000
+            text = ""
+        intervals [140]:
+            xmin = 1161.870000
+            xmax = 1170.720000
+            text = "不只是K P L所有的游戏比赛，我觉得现在越去随着越来越大众越来越广泛，他就是会饭圈严重这个是无法避免的，不只是K P L 。"
+        intervals [141]:
+            xmin = 1170.720000
+            xmax = 1170.980000
+            text = ""
+        intervals [142]:
+            xmin = 1170.980000
+            xmax = 1180.720000
+            text = "所以说，只是我们可能很多人就是为什么讨厌的原因，就是有一个比如说有一个职业选手我我我其实不是讨厌他，但是。"
+        intervals [143]:
+            xmin = 1180.720000
+            xmax = 1180.920000
+            text = ""
+        intervals [144]:
+            xmin = 1180.920000
+            xmax = 1188.650000
+            text = "他不让我，不是让我很喜欢，因为不是因为他这个人而是因为他的粉丝群体让我很讨厌，我觉得，就这种粉丝。"
+        intervals [145]:
+            xmin = 1188.650000
+            xmax = 1188.880000
+            text = ""
+        intervals [146]:
+            xmin = 1188.880000
+            xmax = 1200.610000
+            text = "第一他们可能不玩游戏不看比赛他们只觉得这个人或者有谁跟风吹他嘛，他就觉得自己这个人啊应该挺厉害的，他就跟风吹他嘛，我觉得用这个来看粉丝体量的话是不切实际的。"
+        intervals [147]:
+            xmin = 1200.610000
+            xmax = 1259.740000
+            text = ""
+        intervals [148]:
+            xmin = 1259.740000
+            xmax = 1265.330000
+            text = "呃，现在我想问一下大家就是其他的喜欢的人就是为什么。"
+        intervals [149]:
+            xmin = 1265.330000
+            xmax = 1265.660000
+            text = ""
+        intervals [150]:
+            xmin = 1265.660000
+            xmax = 1279.200000
+            text = "说出来为什么喜欢他吧，或者说他的一些个性格呀个人的经历，我觉得大家有没有什么了解的，就是比如说我们现在很多明星单独去了解这个人了解他的经历他的性格为什么去了解他，我觉得大家有没有这种想法呢。"
+        intervals [151]:
+            xmin = 1279.200000
+            xmax = 1322.020000
+            text = ""
+        intervals [152]:
+            xmin = 1322.020000
+            xmax = 1324.890000
+            text = "好的，我想，我的意思是。"
+        intervals [153]:
+            xmin = 1324.890000
+            xmax = 1325.420000
+            text = ""
+        intervals [154]:
+            xmin = 1325.420000
+            xmax = 1330.610000
+            text = "当然你喜欢这个明星肯定是或者有学到一些什么东西，这个是一个好的方向吧。"
+        intervals [155]:
+            xmin = 1330.610000
+            xmax = 1331.190000
+            text = ""
+        intervals [156]:
+            xmin = 1331.190000
+            xmax = 1339.830000
+            text = "我要说的，就是其实这种明星他的什么代言品牌这种真正的比如说那些五年网暴什么黑子，其实对人家来说就不算，什么人家就是。"
+        intervals [157]:
+            xmin = 1339.830000
+            xmax = 1340.180000
+            text = ""
+        intervals [158]:
+            xmin = 1340.180000
+            xmax = 1342.630000
+            text = "真的就是不在乎。其次。"
+        intervals [159]:
+            xmin = 1342.630000
+            xmax = 1360.880000
+            text = ""
+        intervals [160]:
+            xmin = 1360.880000
+            xmax = 1363.150000
+            text = "我的意思是，当然这种。"
+        intervals [161]:
+            xmin = 1363.150000
+            xmax = 1363.720000
+            text = ""
+        intervals [162]:
+            xmin = 1363.720000
+            xmax = 1370.560000
+            text = "但是呃，首先这种出面的什么玩儿梗公开这种我觉得大多数。"
+        intervals [163]:
+            xmin = 1370.560000
+            xmax = 1370.950000
+            text = ""
+        intervals [164]:
+            xmin = 1370.950000
+            xmax = 1374.010000
+            text = "有，就算有本人的意愿吧但是我觉得大多数是不是的。"
+        intervals [165]:
+            xmin = 1374.010000
+            xmax = 1374.350000
+            text = ""
+        intervals [166]:
+            xmin = 1374.350000
+            xmax = 1375.420000
+            text = "然后其次。"
+        intervals [167]:
+            xmin = 1375.420000
+            xmax = 1375.710000
+            text = ""
+        intervals [168]:
+            xmin = 1375.710000
+            xmax = 1377.810000
+            text = "就是我的意思是有没有大家觉得这个。"
+        intervals [169]:
+            xmin = 1377.810000
+            xmax = 1377.970000
+            text = ""
+        intervals [170]:
+            xmin = 1377.970000
+            xmax = 1382.490000
+            text = "人真的发自内心的喜欢觉得他的性格和跟自己很合得来，或者说。"
+        intervals [171]:
+            xmin = 1382.490000
+            xmax = 1382.760000
+            text = ""
+        intervals [172]:
+            xmin = 1382.760000
+            xmax = 1389.800000
+            text = "他有自己值得学习的地方，我觉得这个就是我们现在追星我我也认识几个朋友，他们也喜欢一些个明星吧。"
+        intervals [173]:
+            xmin = 1389.800000
+            xmax = 1390.070000
+            text = ""
+        intervals [174]:
+            xmin = 1390.070000
+            xmax = 1400.660000
+            text = "他们就是觉得这个明星真的从小到大陪了我很长时间，或者说他的一些个性格，或者他做的一些事让我真的很喜欢，我觉得大大家有没有这种呢。"
+        intervals [175]:
+            xmin = 1400.660000
+            xmax = 1412.070000
+            text = ""
+        intervals [176]:
+            xmin = 1412.070000
+            xmax = 1423.910000
+            text = "嗯，就像我刚刚说的吧我就是那个职业选手嘛，其次就是他的性格，他的就是很简单就是一句话我幻想中的自己，我觉得这就是我为什么喜欢他。"
+        intervals [177]:
+            xmin = 1423.910000
+            xmax = 1428.192667
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "P030"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 59
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 10.420000
+            text = ""
+        intervals [2]:
+            xmin = 10.420000
+            xmax = 14.410000
+            text = "额，我来说一下我最喜欢的人物吧，哈。"
+        intervals [3]:
+            xmin = 14.410000
+            xmax = 15.000000
+            text = ""
+        intervals [4]:
+            xmin = 15.000000
+            xmax = 25.430000
+            text = "嗯，他是一个历史上的人物，是明朝正德年间的一个有名的圣人，叫王守仁，也就是大家常说的王阳明。"
+        intervals [5]:
+            xmin = 25.430000
+            xmax = 25.720000
+            text = ""
+        intervals [6]:
+            xmin = 25.720000
+            xmax = 27.180000
+            text = "啊我个人。"
+        intervals [7]:
+            xmin = 27.180000
+            xmax = 27.340000
+            text = ""
+        intervals [8]:
+            xmin = 27.340000
+            xmax = 33.040000
+            text = "主要是之前了解过历史然后还看过明朝那些事这本小说。"
+        intervals [9]:
+            xmin = 33.040000
+            xmax = 33.320000
+            text = ""
+        intervals [10]:
+            xmin = 33.320000
+            xmax = 35.000000
+            text = "所以对他比较了解。"
+        intervals [11]:
+            xmin = 35.000000
+            xmax = 35.180000
+            text = ""
+        intervals [12]:
+            xmin = 35.180000
+            xmax = 37.500000
+            text = "嗯，发现他是一个。"
+        intervals [13]:
+            xmin = 37.500000
+            xmax = 38.480000
+            text = ""
+        intervals [14]:
+            xmin = 38.480000
+            xmax = 40.770000
+            text = "品性坚韧。然后。"
+        intervals [15]:
+            xmin = 40.770000
+            xmax = 41.240000
+            text = ""
+        intervals [16]:
+            xmin = 41.240000
+            xmax = 44.430000
+            text = "额，又明白事理的一个。"
+        intervals [17]:
+            xmin = 44.430000
+            xmax = 46.020000
+            text = ""
+        intervals [18]:
+            xmin = 46.020000
+            xmax = 54.460000
+            text = "文物双全的人物吧，他最出名的事情就是龙场悟道，就是当时他被贬官，然后到。"
+        intervals [19]:
+            xmin = 54.460000
+            xmax = 54.960000
+            text = ""
+        intervals [20]:
+            xmin = 54.960000
+            xmax = 57.410000
+            text = "额，还有格格竹失败之后。"
+        intervals [21]:
+            xmin = 57.410000
+            xmax = 58.030000
+            text = ""
+        intervals [22]:
+            xmin = 58.030000
+            xmax = 60.610000
+            text = "在龙场那个地方，然后。"
+        intervals [23]:
+            xmin = 60.610000
+            xmax = 61.540000
+            text = ""
+        intervals [24]:
+            xmin = 61.540000
+            xmax = 69.070000
+            text = "额，明白了一个事理，发明了心学吗，之后他凭借着这个心境还有。"
+        intervals [25]:
+            xmin = 69.070000
+            xmax = 69.540000
+            text = ""
+        intervals [26]:
+            xmin = 69.540000
+            xmax = 71.390000
+            text = "额，见识。"
+        intervals [27]:
+            xmin = 71.390000
+            xmax = 72.120000
+            text = ""
+        intervals [28]:
+            xmin = 72.120000
+            xmax = 76.430000
+            text = "最后是，一步步往上走，然后完成了一番大事业。"
+        intervals [29]:
+            xmin = 76.430000
+            xmax = 85.110000
+            text = ""
+        intervals [30]:
+            xmin = 85.110000
+            xmax = 88.930000
+            text = "额，龙场悟道其实主要是他以前。"
+        intervals [31]:
+            xmin = 88.930000
+            xmax = 89.270000
+            text = ""
+        intervals [32]:
+            xmin = 89.270000
+            xmax = 97.930000
+            text = "最早学那个朱熹的理学，然后当时对他的见解是就是，里里，了解到这个格物这个词嘛。"
+        intervals [33]:
+            xmin = 97.930000
+            xmax = 98.090000
+            text = ""
+        intervals [34]:
+            xmin = 98.090000
+            xmax = 102.330000
+            text = "然后王阳明格竹，就在家里面一直看竹子想一个事情。"
+        intervals [35]:
+            xmin = 102.330000
+            xmax = 102.710000
+            text = ""
+        intervals [36]:
+            xmin = 102.710000
+            xmax = 106.780000
+            text = "然后他就钻了牛角尖，然后一直不明白，最后是。"
+        intervals [37]:
+            xmin = 106.780000
+            xmax = 107.030000
+            text = ""
+        intervals [38]:
+            xmin = 107.030000
+            xmax = 110.930000
+            text = "经历种种之后，他在龙场那里就是发现。"
+        intervals [39]:
+            xmin = 110.930000
+            xmax = 111.310000
+            text = ""
+        intervals [40]:
+            xmin = 111.310000
+            xmax = 116.850000
+            text = "额，这个事情并不是，格竹并不是格于外，而是格于内，也就是自己的内心。"
+        intervals [41]:
+            xmin = 116.850000
+            xmax = 117.260000
+            text = ""
+        intervals [42]:
+            xmin = 117.260000
+            xmax = 119.140000
+            text = "就是。"
+        intervals [43]:
+            xmin = 119.140000
+            xmax = 119.330000
+            text = ""
+        intervals [44]:
+            xmin = 119.330000
+            xmax = 123.260000
+            text = "更偏向于，唯心论的那种感觉，就是那个心学。"
+        intervals [45]:
+            xmin = 123.260000
+            xmax = 344.650000
+            text = ""
+        intervals [46]:
+            xmin = 344.650000
+            xmax = 351.560000
+            text = "蔡徐坤当初，额当初面对这个网暴的事情，最一开始他的态度是比较坚决的，就是。"
+        intervals [47]:
+            xmin = 351.560000
+            xmax = 351.880000
+            text = ""
+        intervals [48]:
+            xmin = 351.880000
+            xmax = 353.770000
+            text = "额，想要。"
+        intervals [49]:
+            xmin = 353.770000
+            xmax = 356.300000
+            text = ""
+        intervals [50]:
+            xmin = 356.300000
+            xmax = 360.080000
+            text = "对，想要自己维权，然后进行维护到底，但是后来。"
+        intervals [51]:
+            xmin = 360.080000
+            xmax = 360.300000
+            text = ""
+        intervals [52]:
+            xmin = 360.300000
+            xmax = 365.430000
+            text = "又转变了态度，就是接受了大家这种拿他开玩笑的那种状态，你怎么看。"
+        intervals [53]:
+            xmin = 365.430000
+            xmax = 1122.150000
+            text = ""
+        intervals [54]:
+            xmin = 1122.150000
+            xmax = 1123.690000
+            text = "嗯，梦泪的。"
+        intervals [55]:
+            xmin = 1123.690000
+            xmax = 1124.050000
+            text = ""
+        intervals [56]:
+            xmin = 1124.050000
+            xmax = 1131.430000
+            text = "额活度的话我感觉是更广泛的，像是一诺这种选手，可能在职业圈或者是，额。"
+        intervals [57]:
+            xmin = 1131.430000
+            xmax = 1132.070000
+            text = ""
+        intervals [58]:
+            xmin = 1132.070000
+            xmax = 1136.270000
+            text = "额技术，玩玩家那里名气会更高一点或者评价会更好一点。"
+        intervals [59]:
+            xmin = 1136.270000
+            xmax = 1428.192667
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "P032"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 21
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 77.240000
+            text = ""
+        intervals [2]:
+            xmin = 77.240000
+            xmax = 83.660000
+            text = "额，那我就要，额有一些疑问啊，就是他龙场悟道，到底是悟道的什么这您有了解吗。"
+        intervals [3]:
+            xmin = 83.660000
+            xmax = 124.650000
+            text = ""
+        intervals [4]:
+            xmin = 124.650000
+            xmax = 131.290000
+            text = "好，那我也说一下我喜欢的一个人，额我比较喜欢就是最近比较流行的那个，周杰伦。"
+        intervals [5]:
+            xmin = 131.290000
+            xmax = 131.640000
+            text = ""
+        intervals [6]:
+            xmin = 131.640000
+            xmax = 138.670000
+            text = "额，因为我一，我很喜欢他的歌曲而且我对他的那些个童年经历，说实话我也。"
+        intervals [7]:
+            xmin = 138.670000
+            xmax = 139.180000
+            text = ""
+        intervals [8]:
+            xmin = 139.180000
+            xmax = 149.630000
+            text = "额，那个感觉比较好的，因为他之前不是他想学那个音乐，然后他家里就，他妈妈吧，反正我咋记得是，他妈妈是比较支持他。"
+        intervals [9]:
+            xmin = 149.630000
+            xmax = 150.340000
+            text = ""
+        intervals [10]:
+            xmin = 150.340000
+            xmax = 161.790000
+            text = "额比较支持他的，但是，然后他一步一步然后就是达到这个成就嘛，就是，一开始一开始是那样，然后其实我也想走这条路，但是确实是家里。"
+        intervals [11]:
+            xmin = 161.790000
+            xmax = 161.920000
+            text = ""
+        intervals [12]:
+            xmin = 161.920000
+            xmax = 162.680000
+            text = "不太支持。"
+        intervals [13]:
+            xmin = 162.680000
+            xmax = 173.490000
+            text = ""
+        intervals [14]:
+            xmin = 173.490000
+            xmax = 177.040000
+            text = "额但是他家里还是对他比较支持的吧。"
+        intervals [15]:
+            xmin = 177.040000
+            xmax = 177.560000
+            text = ""
+        intervals [16]:
+            xmin = 177.560000
+            xmax = 178.340000
+            text = "噢。"
+        intervals [17]:
+            xmin = 178.340000
+            xmax = 178.610000
+            text = ""
+        intervals [18]:
+            xmin = 178.610000
+            xmax = 180.460000
+            text = "对，就是这个态度我确实。"
+        intervals [19]:
+            xmin = 180.460000
+            xmax = 919.330000
+            text = ""
+        intervals [20]:
+            xmin = 919.330000
+            xmax = 925.410000
+            text = "听说他今年是进那个十六强了，你对他今年的世界赛额表现有什么期望。"
+        intervals [21]:
+            xmin = 925.410000
+            xmax = 1428.192667
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "P034"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 77.640000
+            text = ""
+        intervals [2]:
+            xmin = 77.640000
+            xmax = 83.310000
+            text = "额，那我就要，额有一些疑问啊，就是他龙场悟道，到底是悟道的什么这您有了解吗。"
+        intervals [3]:
+            xmin = 83.310000
+            xmax = 124.910000
+            text = ""
+        intervals [4]:
+            xmin = 124.910000
+            xmax = 131.140000
+            text = "好，那我也说一下我喜欢的一个人，额我比较喜欢就是最近比较流行的那个，周杰伦。"
+        intervals [5]:
+            xmin = 131.140000
+            xmax = 131.510000
+            text = ""
+        intervals [6]:
+            xmin = 131.510000
+            xmax = 138.650000
+            text = "额，因为我一，我很喜欢他的歌曲而且我对他的那些个童年经历，说实话我也。"
+        intervals [7]:
+            xmin = 138.650000
+            xmax = 139.480000
+            text = ""
+        intervals [8]:
+            xmin = 139.480000
+            xmax = 149.730000
+            text = "额，那个感觉比较好的，因为他之前不是他想学那个音乐，然后他家里就，他妈妈吧，反正我咋记得是，他妈妈是比较支持他。"
+        intervals [9]:
+            xmin = 149.730000
+            xmax = 150.560000
+            text = ""
+        intervals [10]:
+            xmin = 150.560000
+            xmax = 161.580000
+            text = "额比较支持他的，但是，然后他一步一步然后就是达到这个成就嘛，就是，一开始一开始是那样，然后其实我也想走这条路，但是家里确实是。"
+        intervals [11]:
+            xmin = 161.580000
+            xmax = 173.670000
+            text = ""
+        intervals [12]:
+            xmin = 173.670000
+            xmax = 176.400000
+            text = "额但是他家里还是对他比较。"
+        intervals [13]:
+            xmin = 176.400000
+            xmax = 919.450000
+            text = ""
+        intervals [14]:
+            xmin = 919.450000
+            xmax = 925.180000
+            text = "听说他今年是进那个十六强了，你对他今年的世界赛额表现有什么期望。"
+        intervals [15]:
+            xmin = 925.180000
+            xmax = 1428.192667
+            text = ""
+    item [5]:
+        class = "IntervalTier"
+        name = "P035"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 195
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 162.980000
+            text = ""
+        intervals [2]:
+            xmin = 162.980000
+            xmax = 172.050000
+            text = "额记得周杰伦他的音乐仕途其实并不顺利吧，我记得他那个少年时期也是处处碰壁，到处投歌，然后。"
+        intervals [3]:
+            xmin = 172.050000
+            xmax = 172.150000
+            text = ""
+        intervals [4]:
+            xmin = 172.150000
+            xmax = 173.610000
+            text = "额，被人拒绝吗。"
+        intervals [5]:
+            xmin = 173.610000
+            xmax = 176.330000
+            text = ""
+        intervals [6]:
+            xmin = 176.330000
+            xmax = 177.890000
+            text = "额，持支持态度的。"
+        intervals [7]:
+            xmin = 177.890000
+            xmax = 236.100000
+            text = ""
+        intervals [8]:
+            xmin = 236.100000
+            xmax = 245.640000
+            text = "额，我听说过易烊千玺演的那个小小的我，他他那里面的剧情你方便就是简述的概括一下吗。"
+        intervals [9]:
+            xmin = 245.640000
+            xmax = 279.980000
+            text = ""
+        intervals [10]:
+            xmin = 279.980000
+            xmax = 282.970000
+            text = "额，确实是一个比较励志的故事。"
+        intervals [11]:
+            xmin = 282.970000
+            xmax = 283.380000
+            text = ""
+        intervals [12]:
+            xmin = 283.380000
+            xmax = 287.010000
+            text = "其实，我也有比较喜欢的公众人物。"
+        intervals [13]:
+            xmin = 287.010000
+            xmax = 287.400000
+            text = ""
+        intervals [14]:
+            xmin = 287.400000
+            xmax = 295.500000
+            text = "就是，蔡徐坤吗，他，刚出道时确实很多人都在骂，因为他们那个，音乐，就是这样。"
+        intervals [15]:
+            xmin = 295.500000
+            xmax = 295.780000
+            text = ""
+        intervals [16]:
+            xmin = 295.780000
+            xmax = 296.500000
+            text = "然后。"
+        intervals [17]:
+            xmin = 296.500000
+            xmax = 297.050000
+            text = ""
+        intervals [18]:
+            xmin = 297.050000
+            xmax = 301.200000
+            text = "也打了很多官司啥的，最后也是。"
+        intervals [19]:
+            xmin = 301.200000
+            xmax = 301.600000
+            text = ""
+        intervals [20]:
+            xmin = 301.600000
+            xmax = 305.350000
+            text = "嗯，就是苦学吗，去深造他的音乐事业。"
+        intervals [21]:
+            xmin = 305.350000
+            xmax = 305.880000
+            text = ""
+        intervals [22]:
+            xmin = 305.880000
+            xmax = 310.330000
+            text = "然后最后出现很多爆款音乐，然后被人熟知吗。"
+        intervals [23]:
+            xmin = 310.330000
+            xmax = 318.900000
+            text = ""
+        intervals [24]:
+            xmin = 318.900000
+            xmax = 320.680000
+            text = "额，我认为。"
+        intervals [25]:
+            xmin = 320.680000
+            xmax = 320.990000
+            text = ""
+        intervals [26]:
+            xmin = 320.990000
+            xmax = 329.730000
+            text = "他面对网暴这件事吧，其实还是很正常的，你像网络上的公众人物，他多多少少的都会有一些，就是。"
+        intervals [27]:
+            xmin = 329.730000
+            xmax = 330.000000
+            text = ""
+        intervals [28]:
+            xmin = 330.000000
+            xmax = 331.270000
+            text = "嗯，小黑子吗。"
+        intervals [29]:
+            xmin = 331.270000
+            xmax = 331.530000
+            text = ""
+        intervals [30]:
+            xmin = 331.530000
+            xmax = 333.710000
+            text = "但是我认为这是很正常的一件事。"
+        intervals [31]:
+            xmin = 333.710000
+            xmax = 333.940000
+            text = ""
+        intervals [32]:
+            xmin = 333.940000
+            xmax = 337.120000
+            text = "而且他现在这个风评转变也很大，也。"
+        intervals [33]:
+            xmin = 337.120000
+            xmax = 337.690000
+            text = ""
+        intervals [34]:
+            xmin = 337.690000
+            xmax = 340.740000
+            text = "当年所谓的网暴那群人，现在也。"
+        intervals [35]:
+            xmin = 340.740000
+            xmax = 340.990000
+            text = ""
+        intervals [36]:
+            xmin = 340.990000
+            xmax = 343.080000
+            text = "也基本上都路转粉了，黑转粉了。"
+        intervals [37]:
+            xmin = 343.080000
+            xmax = 365.370000
+            text = ""
+        intervals [38]:
+            xmin = 365.370000
+            xmax = 366.870000
+            text = "嗯，我认为。"
+        intervals [39]:
+            xmin = 366.870000
+            xmax = 367.040000
+            text = ""
+        intervals [40]:
+            xmin = 367.040000
+            xmax = 368.670000
+            text = "我认为这件事。"
+        intervals [41]:
+            xmin = 368.670000
+            xmax = 369.500000
+            text = ""
+        intervals [42]:
+            xmin = 369.500000
+            xmax = 371.340000
+            text = "怎么说呢，就是对。"
+        intervals [43]:
+            xmin = 371.340000
+            xmax = 371.630000
+            text = ""
+        intervals [44]:
+            xmin = 371.630000
+            xmax = 373.050000
+            text = "应该是他本人。"
+        intervals [45]:
+            xmin = 373.050000
+            xmax = 373.250000
+            text = ""
+        intervals [46]:
+            xmin = 373.250000
+            xmax = 375.880000
+            text = "后来比较豁达吧，比较想开了也是。"
+        intervals [47]:
+            xmin = 375.880000
+            xmax = 376.030000
+            text = ""
+        intervals [48]:
+            xmin = 376.030000
+            xmax = 377.530000
+            text = "因为，你。"
+        intervals [49]:
+            xmin = 377.530000
+            xmax = 377.910000
+            text = ""
+        intervals [50]:
+            xmin = 377.910000
+            xmax = 387.510000
+            text = "你一个人是没有那么大的力量去和公众做对抗的，就是他黑你也没办法，就是说只能是一个接受的态度。"
+        intervals [51]:
+            xmin = 387.510000
+            xmax = 387.680000
+            text = ""
+        intervals [52]:
+            xmin = 387.680000
+            xmax = 391.560000
+            text = "然后去转变自己的心态，然后慢慢的接受。"
+        intervals [53]:
+            xmin = 391.560000
+            xmax = 481.520000
+            text = ""
+        intervals [54]:
+            xmin = 481.520000
+            xmax = 483.550000
+            text = "嗯，这个说法确实没错。"
+        intervals [55]:
+            xmin = 483.550000
+            xmax = 484.380000
+            text = ""
+        intervals [56]:
+            xmin = 484.380000
+            xmax = 485.730000
+            text = "但是我感觉。"
+        intervals [57]:
+            xmin = 485.730000
+            xmax = 486.010000
+            text = ""
+        intervals [58]:
+            xmin = 486.010000
+            xmax = 493.110000
+            text = "额，就是网友们一起看个乐子吗，就是一起玩，开开玩笑玩一玩。"
+        intervals [59]:
+            xmin = 493.110000
+            xmax = 493.260000
+            text = ""
+        intervals [60]:
+            xmin = 493.260000
+            xmax = 497.350000
+            text = "那我感觉这是一个很正常的事情，毕竟现在网络上的。"
+        intervals [61]:
+            xmin = 497.350000
+            xmax = 497.690000
+            text = ""
+        intervals [62]:
+            xmin = 497.690000
+            xmax = 499.120000
+            text = "基数是很大的。"
+        intervals [63]:
+            xmin = 499.120000
+            xmax = 499.410000
+            text = ""
+        intervals [64]:
+            xmin = 499.410000
+            xmax = 509.470000
+            text = "许多人他并不是一定要去了解他，他可能只是偶然间在视频，视频平台刷到过两个视频觉得很有意思。"
+        intervals [65]:
+            xmin = 509.470000
+            xmax = 509.620000
+            text = ""
+        intervals [66]:
+            xmin = 509.620000
+            xmax = 512.450000
+            text = "我觉得我就去玩一下，我感觉这个。"
+        intervals [67]:
+            xmin = 512.450000
+            xmax = 512.640000
+            text = ""
+        intervals [68]:
+            xmin = 512.640000
+            xmax = 514.270000
+            text = "是非常正常的事情。"
+        intervals [69]:
+            xmin = 514.270000
+            xmax = 514.630000
+            text = ""
+        intervals [70]:
+            xmin = 514.630000
+            xmax = 516.460000
+            text = "然后他那个。"
+        intervals [71]:
+            xmin = 516.460000
+            xmax = 516.950000
+            text = ""
+        intervals [72]:
+            xmin = 516.950000
+            xmax = 518.940000
+            text = "比方说他之前被黑。"
+        intervals [73]:
+            xmin = 518.940000
+            xmax = 519.230000
+            text = ""
+        intervals [74]:
+            xmin = 519.230000
+            xmax = 520.190000
+            text = "我感觉。"
+        intervals [75]:
+            xmin = 520.190000
+            xmax = 521.280000
+            text = ""
+        intervals [76]:
+            xmin = 521.280000
+            xmax = 522.070000
+            text = "也。"
+        intervals [77]:
+            xmin = 522.070000
+            xmax = 522.380000
+            text = ""
+        intervals [78]:
+            xmin = 522.380000
+            xmax = 523.390000
+            text = "也比较正常。"
+        intervals [79]:
+            xmin = 523.390000
+            xmax = 523.890000
+            text = ""
+        intervals [80]:
+            xmin = 523.890000
+            xmax = 528.730000
+            text = "而且，确实大多数黑他的人也是路人，并不了解他。"
+        intervals [81]:
+            xmin = 528.730000
+            xmax = 528.890000
+            text = ""
+        intervals [82]:
+            xmin = 528.890000
+            xmax = 530.890000
+            text = "就是感觉，啊好多人都在骂他。"
+        intervals [83]:
+            xmin = 530.890000
+            xmax = 531.180000
+            text = ""
+        intervals [84]:
+            xmin = 531.180000
+            xmax = 534.420000
+            text = "那这个人一定不是什么好人，然后所以我也跟着骂，我感觉。"
+        intervals [85]:
+            xmin = 534.420000
+            xmax = 535.000000
+            text = ""
+        intervals [86]:
+            xmin = 535.000000
+            xmax = 542.120000
+            text = "可能大部分人也是这种心态吧，而且像你这样说，他这个梗不火了然后又反红。"
+        intervals [87]:
+            xmin = 542.120000
+            xmax = 542.480000
+            text = ""
+        intervals [88]:
+            xmin = 542.480000
+            xmax = 544.340000
+            text = "额应该是。"
+        intervals [89]:
+            xmin = 544.340000
+            xmax = 544.910000
+            text = ""
+        intervals [90]:
+            xmin = 544.910000
+            xmax = 546.990000
+            text = "网友们都在说他那个。"
+        intervals [91]:
+            xmin = 546.990000
+            xmax = 547.310000
+            text = ""
+        intervals [92]:
+            xmin = 547.310000
+            xmax = 552.330000
+            text = "他那个歌么，只因你太美，他那个谐音比较像鸡，放到鸡年。"
+        intervals [93]:
+            xmin = 552.330000
+            xmax = 552.590000
+            text = ""
+        intervals [94]:
+            xmin = 552.590000
+            xmax = 554.810000
+            text = "然后网友又重新提起来，所以。"
+        intervals [95]:
+            xmin = 554.810000
+            xmax = 555.030000
+            text = ""
+        intervals [96]:
+            xmin = 555.030000
+            xmax = 556.340000
+            text = "就翻红一下。"
+        intervals [97]:
+            xmin = 556.340000
+            xmax = 680.080000
+            text = ""
+        intervals [98]:
+            xmin = 680.080000
+            xmax = 682.140000
+            text = "呃呃你有什么喜欢的明星吗。"
+        intervals [99]:
+            xmin = 682.140000
+            xmax = 691.040000
+            text = ""
+        intervals [100]:
+            xmin = 691.040000
+            xmax = 692.920000
+            text = "虞文波？虞文波。"
+        intervals [101]:
+            xmin = 692.920000
+            xmax = 694.560000
+            text = ""
+        intervals [102]:
+            xmin = 694.560000
+            xmax = 695.420000
+            text = "哦。"
+        intervals [103]:
+            xmin = 695.420000
+            xmax = 754.080000
+            text = ""
+        intervals [104]:
+            xmin = 754.080000
+            xmax = 757.370000
+            text = "啊，这其实也是你的，你的期望是吧。"
+        intervals [105]:
+            xmin = 757.370000
+            xmax = 757.780000
+            text = ""
+        intervals [106]:
+            xmin = 757.780000
+            xmax = 763.730000
+            text = "但是，那那个，他有没有什么比较成名的角色呢，就是他的拿手。"
+        intervals [107]:
+            xmin = 763.730000
+            xmax = 764.890000
+            text = ""
+        intervals [108]:
+            xmin = 764.890000
+            xmax = 765.640000
+            text = "知道吗。"
+        intervals [109]:
+            xmin = 765.640000
+            xmax = 780.050000
+            text = ""
+        intervals [110]:
+            xmin = 780.050000
+            xmax = 781.850000
+            text = "嗯，那，他有没有。"
+        intervals [111]:
+            xmin = 781.850000
+            xmax = 782.230000
+            text = ""
+        intervals [112]:
+            xmin = 782.230000
+            xmax = 783.630000
+            text = "什么比较，就是。"
+        intervals [113]:
+            xmin = 783.630000
+            xmax = 784.460000
+            text = ""
+        intervals [114]:
+            xmin = 784.460000
+            xmax = 786.150000
+            text = "额，比较经典的。"
+        intervals [115]:
+            xmin = 786.150000
+            xmax = 786.480000
+            text = ""
+        intervals [116]:
+            xmin = 786.480000
+            xmax = 787.520000
+            text = "高光时刻。"
+        intervals [117]:
+            xmin = 787.520000
+            xmax = 829.930000
+            text = ""
+        intervals [118]:
+            xmin = 829.930000
+            xmax = 832.250000
+            text = "嗯，就是一个比较激进的选手。"
+        intervals [119]:
+            xmin = 832.250000
+            xmax = 973.550000
+            text = ""
+        intervals [120]:
+            xmin = 973.550000
+            xmax = 975.700000
+            text = "那他现在，他现在的。"
+        intervals [121]:
+            xmin = 975.700000
+            xmax = 977.430000
+            text = ""
+        intervals [122]:
+            xmin = 977.430000
+            xmax = 980.540000
+            text = "现在的工作其实还是以直播为主，对吗。"
+        intervals [123]:
+            xmin = 980.540000
+            xmax = 1004.040000
+            text = ""
+        intervals [124]:
+            xmin = 1004.040000
+            xmax = 1005.050000
+            text = "好的谢谢。"
+        intervals [125]:
+            xmin = 1005.050000
+            xmax = 1022.250000
+            text = ""
+        intervals [126]:
+            xmin = 1022.250000
+            xmax = 1023.260000
+            text = "形象大使。"
+        intervals [127]:
+            xmin = 1023.260000
+            xmax = 1085.530000
+            text = ""
+        intervals [128]:
+            xmin = 1085.530000
+            xmax = 1086.170000
+            text = "一诺。"
+        intervals [129]:
+            xmin = 1086.170000
+            xmax = 1090.770000
+            text = ""
+        intervals [130]:
+            xmin = 1090.770000
+            xmax = 1091.700000
+            text = "和梦泪差不多。"
+        intervals [131]:
+            xmin = 1091.700000
+            xmax = 1093.500000
+            text = ""
+        intervals [132]:
+            xmin = 1093.500000
+            xmax = 1100.880000
+            text = "嗯，但是我感觉，但我感觉，我感觉梦泪的名气相比于一诺来说还是更大一点吗。"
+        intervals [133]:
+            xmin = 1100.880000
+            xmax = 1101.320000
+            text = ""
+        intervals [134]:
+            xmin = 1101.320000
+            xmax = 1106.840000
+            text = "毕竟是王者荣耀那个晚会每一次都会邀请。"
+        intervals [135]:
+            xmin = 1106.840000
+            xmax = 1107.140000
+            text = ""
+        intervals [136]:
+            xmin = 1107.140000
+            xmax = 1111.060000
+            text = "梦泪进行一个代言吗，当一个重磅嘉宾。"
+        intervals [137]:
+            xmin = 1111.060000
+            xmax = 1112.640000
+            text = ""
+        intervals [138]:
+            xmin = 1112.640000
+            xmax = 1114.130000
+            text = "现在也是。"
+        intervals [139]:
+            xmin = 1114.130000
+            xmax = 1114.300000
+            text = ""
+        intervals [140]:
+            xmin = 1114.300000
+            xmax = 1119.250000
+            text = "都说什么呢，梦泪的粉丝体量比王者荣耀官方还要多。"
+        intervals [141]:
+            xmin = 1119.250000
+            xmax = 1119.540000
+            text = ""
+        intervals [142]:
+            xmin = 1119.540000
+            xmax = 1121.220000
+            text = "我认为还是比较火的。"
+        intervals [143]:
+            xmin = 1121.220000
+            xmax = 1225.700000
+            text = ""
+        intervals [144]:
+            xmin = 1225.700000
+            xmax = 1230.520000
+            text = "额，对于女生可能是这样，但是相较于男生来说他更。"
+        intervals [145]:
+            xmin = 1230.520000
+            xmax = 1230.780000
+            text = ""
+        intervals [146]:
+            xmin = 1230.780000
+            xmax = 1232.690000
+            text = "他应该更倾向于，就是。"
+        intervals [147]:
+            xmin = 1232.690000
+            xmax = 1233.180000
+            text = ""
+        intervals [148]:
+            xmin = 1233.180000
+            xmax = 1237.000000
+            text = "看他的技术，游戏操作，如果说。"
+        intervals [149]:
+            xmin = 1237.000000
+            xmax = 1237.880000
+            text = ""
+        intervals [150]:
+            xmin = 1237.880000
+            xmax = 1246.580000
+            text = "就是，男生，就是跟女生看男生一样，男生看男生就是没有那种感觉，他可能会女生比较感兴趣，但是他看男生就会。"
+        intervals [151]:
+            xmin = 1246.580000
+            xmax = 1246.840000
+            text = ""
+        intervals [152]:
+            xmin = 1246.840000
+            xmax = 1248.530000
+            text = "比较倾向于他的实力。"
+        intervals [153]:
+            xmin = 1248.530000
+            xmax = 1248.810000
+            text = ""
+        intervals [154]:
+            xmin = 1248.810000
+            xmax = 1250.870000
+            text = "如果说他打的真的。"
+        intervals [155]:
+            xmin = 1250.870000
+            xmax = 1251.100000
+            text = ""
+        intervals [156]:
+            xmin = 1251.100000
+            xmax = 1252.680000
+            text = "不是很好的话，可能。"
+        intervals [157]:
+            xmin = 1252.680000
+            xmax = 1253.030000
+            text = ""
+        intervals [158]:
+            xmin = 1253.030000
+            xmax = 1256.380000
+            text = "可能还会去抵制他，黑一下骂一下。"
+        intervals [159]:
+            xmin = 1256.380000
+            xmax = 1256.830000
+            text = ""
+        intervals [160]:
+            xmin = 1256.830000
+            xmax = 1257.970000
+            text = "我感觉还是看技术。"
+        intervals [161]:
+            xmin = 1257.970000
+            xmax = 1282.130000
+            text = ""
+        intervals [162]:
+            xmin = 1282.130000
+            xmax = 1283.380000
+            text = "额。"
+        intervals [163]:
+            xmin = 1283.380000
+            xmax = 1283.640000
+            text = ""
+        intervals [164]:
+            xmin = 1283.640000
+            xmax = 1284.320000
+            text = "我。"
+        intervals [165]:
+            xmin = 1284.320000
+            xmax = 1284.530000
+            text = ""
+        intervals [166]:
+            xmin = 1284.530000
+            xmax = 1286.500000
+            text = "只是想说我刚才说的。"
+        intervals [167]:
+            xmin = 1286.500000
+            xmax = 1286.810000
+            text = ""
+        intervals [168]:
+            xmin = 1286.810000
+            xmax = 1288.870000
+            text = "比较喜欢蔡徐坤。"
+        intervals [169]:
+            xmin = 1288.870000
+            xmax = 1289.370000
+            text = ""
+        intervals [170]:
+            xmin = 1289.370000
+            xmax = 1290.010000
+            text = "一样。"
+        intervals [171]:
+            xmin = 1290.010000
+            xmax = 1290.220000
+            text = ""
+        intervals [172]:
+            xmin = 1290.220000
+            xmax = 1291.490000
+            text = "我认为他。"
+        intervals [173]:
+            xmin = 1291.490000
+            xmax = 1292.080000
+            text = ""
+        intervals [174]:
+            xmin = 1292.080000
+            xmax = 1299.610000
+            text = "就是怎么说呢，他的心态比较好吧，他的心理比较强大，他毕竟他被黑了五年。"
+        intervals [175]:
+            xmin = 1299.610000
+            xmax = 1300.050000
+            text = ""
+        intervals [176]:
+            xmin = 1300.050000
+            xmax = 1305.520000
+            text = "被黑了五年，还能沉下心来，就是搞好他的音乐作品，也出很多。"
+        intervals [177]:
+            xmin = 1305.520000
+            xmax = 1305.680000
+            text = ""
+        intervals [178]:
+            xmin = 1305.680000
+            xmax = 1306.530000
+            text = "比较。"
+        intervals [179]:
+            xmin = 1306.530000
+            xmax = 1306.890000
+            text = ""
+        intervals [180]:
+            xmin = 1306.890000
+            xmax = 1308.870000
+            text = "出名的音乐作品吧，也被。"
+        intervals [181]:
+            xmin = 1308.870000
+            xmax = 1309.260000
+            text = ""
+        intervals [182]:
+            xmin = 1309.260000
+            xmax = 1316.340000
+            text = "那个，美国的大品牌被选为代言人了，我感觉这是一个很励志的故事。"
+        intervals [183]:
+            xmin = 1316.340000
+            xmax = 1342.740000
+            text = ""
+        intervals [184]:
+            xmin = 1342.740000
+            xmax = 1348.960000
+            text = "其实，你要说喜欢他把，可能还是因为他的梗比较好玩，他，因为他本人也是。"
+        intervals [185]:
+            xmin = 1348.960000
+            xmax = 1349.100000
+            text = ""
+        intervals [186]:
+            xmin = 1349.100000
+            xmax = 1350.300000
+            text = "就是。"
+        intervals [187]:
+            xmin = 1350.300000
+            xmax = 1350.400000
+            text = ""
+        intervals [188]:
+            xmin = 1350.400000
+            xmax = 1357.060000
+            text = "在网络上，公众说过吗，就是说可以让大家，让那个网友一起去玩他的更，我感觉。"
+        intervals [189]:
+            xmin = 1357.060000
+            xmax = 1357.320000
+            text = ""
+        intervals [190]:
+            xmin = 1357.320000
+            xmax = 1359.860000
+            text = "也比较好玩，所以也比较喜欢他。"
+        intervals [191]:
+            xmin = 1359.860000
+            xmax = 1405.950000
+            text = ""
+        intervals [192]:
+            xmin = 1405.950000
+            xmax = 1410.530000
+            text = "那你那你有没有什么比较就是喜欢的明星做出那些事呢。"
+        intervals [193]:
+            xmin = 1410.530000
+            xmax = 1424.970000
+            text = ""
+        intervals [194]:
+            xmin = 1424.970000
+            xmax = 1426.660000
+            text = "啊可以的了解了。"
+        intervals [195]:
+            xmin = 1426.660000
+            xmax = 1428.192667
+            text = ""
+    item [6]:
+        class = "IntervalTier"
+        name = "P031"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 43
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 185.610000
+            text = ""
+        intervals [2]:
+            xmin = 185.610000
+            xmax = 196.780000
+            text = "额，我也说一下我喜欢的，我喜欢那个易烊千玺大家应该也都知道吧，就是也是从小比较刻苦，然后家里人也比较支持。"
+        intervals [3]:
+            xmin = 196.780000
+            xmax = 196.980000
+            text = ""
+        intervals [4]:
+            xmin = 196.980000
+            xmax = 207.240000
+            text = "然后，练舞呀，学习各种才艺呀，技能什么的，然后长大也是被人议论，也是出现了一些阻碍。"
+        intervals [5]:
+            xmin = 207.240000
+            xmax = 207.770000
+            text = ""
+        intervals [6]:
+            xmin = 207.770000
+            xmax = 208.700000
+            text = "然后。"
+        intervals [7]:
+            xmin = 208.700000
+            xmax = 208.840000
+            text = ""
+        intervals [8]:
+            xmin = 208.840000
+            xmax = 211.460000
+            text = "现在也是成功转型。"
+        intervals [9]:
+            xmin = 211.460000
+            xmax = 212.220000
+            text = ""
+        intervals [10]:
+            xmin = 212.220000
+            xmax = 217.750000
+            text = "成为了一个演员么，演了也，影视片也很多，比如说是小小的我呀。"
+        intervals [11]:
+            xmin = 217.750000
+            xmax = 217.830000
+            text = ""
+        intervals [12]:
+            xmin = 217.830000
+            xmax = 223.790000
+            text = "额奇迹呀，这种比较励志的影片，也拿过很多的奖。"
+        intervals [13]:
+            xmin = 223.790000
+            xmax = 224.120000
+            text = ""
+        intervals [14]:
+            xmin = 224.120000
+            xmax = 226.710000
+            text = "我感觉他就是这个人比较。"
+        intervals [15]:
+            xmin = 226.710000
+            xmax = 226.960000
+            text = ""
+        intervals [16]:
+            xmin = 226.960000
+            xmax = 228.360000
+            text = "比较坚韧吧。"
+        intervals [17]:
+            xmin = 228.360000
+            xmax = 228.420000
+            text = ""
+        intervals [18]:
+            xmin = 228.420000
+            xmax = 229.320000
+            text = "然后。"
+        intervals [19]:
+            xmin = 229.320000
+            xmax = 229.440000
+            text = ""
+        intervals [20]:
+            xmin = 229.440000
+            xmax = 234.860000
+            text = "他也不会为自己去辩解，就是用行动来证明自己。"
+        intervals [21]:
+            xmin = 234.860000
+            xmax = 245.730000
+            text = ""
+        intervals [22]:
+            xmin = 245.730000
+            xmax = 248.090000
+            text = "啊可以，就是一个。"
+        intervals [23]:
+            xmin = 248.090000
+            xmax = 249.810000
+            text = ""
+        intervals [24]:
+            xmin = 249.810000
+            xmax = 251.390000
+            text = "身体有。"
+        intervals [25]:
+            xmin = 251.390000
+            xmax = 252.390000
+            text = ""
+        intervals [26]:
+            xmin = 252.390000
+            xmax = 254.340000
+            text = "就是小儿麻痹吗。"
+        intervals [27]:
+            xmin = 254.340000
+            xmax = 256.040000
+            text = ""
+        intervals [28]:
+            xmin = 256.040000
+            xmax = 266.180000
+            text = "对啊，啊不好意，一个有脑瘫的人，然后其实他不是智力有问题，他只是他的身体就是不受控制。"
+        intervals [29]:
+            xmin = 266.180000
+            xmax = 266.470000
+            text = ""
+        intervals [30]:
+            xmin = 266.470000
+            xmax = 278.510000
+            text = "然后他就是，也是通过自己的努力然后考到了一个好的大学，然后也是四处找工作，通过自己的努力来改变自己的生活。"
+        intervals [31]:
+            xmin = 278.510000
+            xmax = 1071.060000
+            text = ""
+        intervals [32]:
+            xmin = 1071.060000
+            xmax = 1076.360000
+            text = "说到这个游戏选手，我之前刷到一个，就是。"
+        intervals [33]:
+            xmin = 1076.360000
+            xmax = 1076.680000
+            text = ""
+        intervals [34]:
+            xmin = 1076.680000
+            xmax = 1079.200000
+            text = "额，他玩关羽，然后把。"
+        intervals [35]:
+            xmin = 1079.200000
+            xmax = 1079.500000
+            text = ""
+        intervals [36]:
+            xmin = 1079.500000
+            xmax = 1085.380000
+            text = "对手全部都送到了自家选手的脸上，那个是？"
+        intervals [37]:
+            xmin = 1085.380000
+            xmax = 1085.960000
+            text = ""
+        intervals [38]:
+            xmin = 1085.960000
+            xmax = 1088.120000
+            text = "啊，那个一诺。我觉得。"
+        intervals [39]:
+            xmin = 1088.120000
+            xmax = 1088.720000
+            text = ""
+        intervals [40]:
+            xmin = 1088.720000
+            xmax = 1089.720000
+            text = "跟。"
+        intervals [41]:
+            xmin = 1089.720000
+            xmax = 1091.480000
+            text = ""
+        intervals [42]:
+            xmin = 1091.480000
+            xmax = 1094.520000
+            text = "啊，对，差不多，对*。"
+        intervals [43]:
+            xmin = 1094.520000
+            xmax = 1428.192667
+            text = ""
+    item [7]:
+        class = "IntervalTier"
+        name = "P029"
+        xmin = 0
+        xmax = 1428.192667
+        intervals: size = 71
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 311.580000
+            text = ""
+        intervals [2]:
+            xmin = 311.580000
+            xmax = 319.280000
+            text = "我听说，额蔡徐坤当年面对了很多很多年的网暴，关于这件事你这么看呢。"
+        intervals [3]:
+            xmin = 319.280000
+            xmax = 558.060000
+            text = ""
+        intervals [4]:
+            xmin = 558.060000
+            xmax = 559.160000
+            text = "额。"
+        intervals [5]:
+            xmin = 559.160000
+            xmax = 559.640000
+            text = ""
+        intervals [6]:
+            xmin = 559.640000
+            xmax = 560.960000
+            text = "并不是说。"
+        intervals [7]:
+            xmin = 560.960000
+            xmax = 561.480000
+            text = ""
+        intervals [8]:
+            xmin = 561.480000
+            xmax = 563.020000
+            text = "黑他是空穴来风。"
+        intervals [9]:
+            xmin = 563.020000
+            xmax = 563.380000
+            text = ""
+        intervals [10]:
+            xmin = 563.380000
+            xmax = 566.740000
+            text = "那当时被选中为N B A的形象大使。"
+        intervals [11]:
+            xmin = 566.740000
+            xmax = 566.890000
+            text = ""
+        intervals [12]:
+            xmin = 566.890000
+            xmax = 568.900000
+            text = "然后表演了一段。"
+        intervals [13]:
+            xmin = 568.900000
+            xmax = 569.470000
+            text = ""
+        intervals [14]:
+            xmin = 569.470000
+            xmax = 571.990000
+            text = "穿背带裤打篮球的视频，然后。"
+        intervals [15]:
+            xmin = 571.990000
+            xmax = 572.190000
+            text = ""
+        intervals [16]:
+            xmin = 572.190000
+            xmax = 574.970000
+            text = "做个两个胯下之后就去跳舞了。"
+        intervals [17]:
+            xmin = 574.970000
+            xmax = 575.180000
+            text = ""
+        intervals [18]:
+            xmin = 575.180000
+            xmax = 577.360000
+            text = "这个视频是引起了很多。"
+        intervals [19]:
+            xmin = 577.360000
+            xmax = 577.620000
+            text = ""
+        intervals [20]:
+            xmin = 577.620000
+            xmax = 580.180000
+            text = "额，篮球爱好者的不满。"
+        intervals [21]:
+            xmin = 580.180000
+            xmax = 580.540000
+            text = ""
+        intervals [22]:
+            xmin = 580.540000
+            xmax = 583.520000
+            text = "因为觉得他的形象包括。"
+        intervals [23]:
+            xmin = 583.520000
+            xmax = 583.690000
+            text = ""
+        intervals [24]:
+            xmin = 583.690000
+            xmax = 585.200000
+            text = "他对于这个。"
+        intervals [25]:
+            xmin = 585.200000
+            xmax = 585.370000
+            text = ""
+        intervals [26]:
+            xmin = 585.370000
+            xmax = 586.340000
+            text = "整体的。"
+        intervals [27]:
+            xmin = 586.340000
+            xmax = 586.700000
+            text = ""
+        intervals [28]:
+            xmin = 586.700000
+            xmax = 590.010000
+            text = "额，这一个表，这一个表演的出现。"
+        intervals [29]:
+            xmin = 590.010000
+            xmax = 590.520000
+            text = ""
+        intervals [30]:
+            xmin = 590.520000
+            xmax = 591.550000
+            text = "觉得。"
+        intervals [31]:
+            xmin = 591.550000
+            xmax = 591.750000
+            text = ""
+        intervals [32]:
+            xmin = 591.750000
+            xmax = 595.140000
+            text = "不符合篮球形象大使的一个形象，才会。"
+        intervals [33]:
+            xmin = 595.140000
+            xmax = 595.510000
+            text = ""
+        intervals [34]:
+            xmin = 595.510000
+            xmax = 598.280000
+            text = "逐渐开始有人黑他，才会。"
+        intervals [35]:
+            xmin = 598.280000
+            xmax = 598.470000
+            text = ""
+        intervals [36]:
+            xmin = 598.470000
+            xmax = 601.090000
+            text = "爆火的那个音乐，然后加上。"
+        intervals [37]:
+            xmin = 601.090000
+            xmax = 601.310000
+            text = ""
+        intervals [38]:
+            xmin = 601.310000
+            xmax = 605.660000
+            text = "一些博主的二创，然后导致这个网暴的舆论越来越大。"
+        intervals [39]:
+            xmin = 605.660000
+            xmax = 786.150000
+            text = ""
+        intervals [40]:
+            xmin = 786.150000
+            xmax = 787.170000
+            text = "高光时刻。"
+        intervals [41]:
+            xmin = 787.170000
+            xmax = 832.610000
+            text = ""
+        intervals [42]:
+            xmin = 832.610000
+            xmax = 834.100000
+            text = "额，他现在。"
+        intervals [43]:
+            xmin = 834.100000
+            xmax = 835.370000
+            text = ""
+        intervals [44]:
+            xmin = 835.370000
+            xmax = 838.490000
+            text = "他上一次退，他上一次复出之后。"
+        intervals [45]:
+            xmin = 838.490000
+            xmax = 838.690000
+            text = ""
+        intervals [46]:
+            xmin = 838.690000
+            xmax = 839.490000
+            text = "打出来。"
+        intervals [47]:
+            xmin = 839.490000
+            xmax = 839.710000
+            text = ""
+        intervals [48]:
+            xmin = 839.710000
+            xmax = 842.390000
+            text = "零击杀，22死亡的这个k d。"
+        intervals [49]:
+            xmin = 842.390000
+            xmax = 843.120000
+            text = ""
+        intervals [50]:
+            xmin = 843.120000
+            xmax = 845.570000
+            text = "你怎么看，你怎么看待他的低谷期。"
+        intervals [51]:
+            xmin = 845.570000
+            xmax = 849.280000
+            text = ""
+        intervals [52]:
+            xmin = 849.280000
+            xmax = 851.880000
+            text = "他，转会复出之后。"
+        intervals [53]:
+            xmin = 851.880000
+            xmax = 852.550000
+            text = ""
+        intervals [54]:
+            xmin = 852.550000
+            xmax = 854.250000
+            text = "打出了，就是。"
+        intervals [55]:
+            xmin = 854.250000
+            xmax = 854.730000
+            text = ""
+        intervals [56]:
+            xmin = 854.730000
+            xmax = 862.720000
+            text = "零击杀，22k d，额22死亡的这个总数据，是几场比赛综合下来的。"
+        intervals [57]:
+            xmin = 862.720000
+            xmax = 863.940000
+            text = ""
+        intervals [58]:
+            xmin = 863.940000
+            xmax = 865.520000
+            text = "你怎么看待他的低谷期。"
+        intervals [59]:
+            xmin = 865.520000
+            xmax = 915.400000
+            text = ""
+        intervals [60]:
+            xmin = 915.400000
+            xmax = 915.900000
+            text = "好。"
+        intervals [61]:
+            xmin = 915.900000
+            xmax = 1122.340000
+            text = ""
+        intervals [62]:
+            xmin = 1122.340000
+            xmax = 1123.560000
+            text = "其实。"
+        intervals [63]:
+            xmin = 1123.560000
+            xmax = 1137.980000
+            text = ""
+        intervals [64]:
+            xmin = 1137.980000
+            xmax = 1139.480000
+            text = "其实，现在。"
+        intervals [65]:
+            xmin = 1139.480000
+            xmax = 1139.780000
+            text = ""
+        intervals [66]:
+            xmin = 1139.780000
+            xmax = 1141.900000
+            text = "k p l饭圈化很严重。"
+        intervals [67]:
+            xmin = 1141.900000
+            xmax = 1142.200000
+            text = ""
+        intervals [68]:
+            xmin = 1142.200000
+            xmax = 1143.520000
+            text = "现在一诺的。"
+        intervals [69]:
+            xmin = 1143.520000
+            xmax = 1143.960000
+            text = ""
+        intervals [70]:
+            xmin = 1143.960000
+            xmax = 1148.280000
+            text = "额，粉丝体量是k p l联盟，联联盟里面的门面。"
+        intervals [71]:
+            xmin = 1148.280000
+            xmax = 1428.192667
+            text = ""

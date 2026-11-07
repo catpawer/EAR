@@ -1,0 +1,5431 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EAR-1 DiariZen 基线 DER 逐 session、时间窗口、说话人与错误区间分析报告">
+  <title>EAR-1 逐分钟 DER 错误来源统计</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f3f6f8;
+  --surface: #ffffff;
+  --surface-alt: #f7fafb;
+  --text: #172126;
+  --muted: #5c6a71;
+  --line: #dce5e8;
+  --brand: #006d77;
+  --brand-dark: #004f57;
+  --brand-soft: #dff4f2;
+  --warn: #b54708;
+  --danger: #b42318;
+  --shadow: 0 16px 44px rgba(27, 44, 52, .09);
+  --radius: 18px;
+  --sidebar: 292px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 88% 0%, rgba(0, 109, 119, .10), transparent 27rem),
+    var(--bg);
+  font-family: Inter, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.78;
+}
+
+a { color: var(--brand); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--brand-dark); }
+code {
+  padding: .12rem .38rem;
+  border-radius: 6px;
+  color: #9b2c2c;
+  background: #fff3f2;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: .88em;
+}
+pre {
+  overflow: auto;
+  padding: 1rem 1.1rem;
+  border: 1px solid #25343a;
+  border-radius: 12px;
+  color: #e7f4f5;
+  background: #142328;
+  box-shadow: inset 0 1px rgba(255,255,255,.04);
+}
+pre code { padding: 0; color: inherit; background: none; }
+
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 20;
+  width: var(--sidebar);
+  padding: 28px 20px 24px;
+  overflow-y: auto;
+  color: #dceff0;
+  background: linear-gradient(180deg, #0e3036 0%, #10262b 100%);
+  border-right: 1px solid rgba(255,255,255,.08);
+}
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 0 4px 24px;
+}
+.brand-mark {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  place-items: center;
+  border-radius: 12px;
+  color: #073a40;
+  background: #82ddd6;
+  font-weight: 900;
+  letter-spacing: -.04em;
+}
+.brand strong { display: block; color: white; font-size: 15px; }
+.brand span { display: block; color: #9ebbc0; font-size: 12px; }
+.toc-title {
+  margin: 0 8px 10px;
+  color: #7fa4aa;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.toc { margin: 0; padding: 0; list-style: none; }
+.toc a {
+  display: block;
+  margin: 2px 0;
+  padding: 8px 10px;
+  border-left: 2px solid transparent;
+  border-radius: 0 9px 9px 0;
+  color: #bbd0d3;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.35;
+  transition: .18s ease;
+}
+.toc a:hover, .toc a.active {
+  border-left-color: #82ddd6;
+  color: white;
+  background: rgba(130, 221, 214, .10);
+}
+.toc .level-3 a { padding-left: 22px; color: #94b0b4; font-size: 12px; }
+.sidebar-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 22px 4px 0;
+}
+.sidebar button, .sidebar .download {
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 9px;
+  padding: 8px 9px;
+  color: #dceff0;
+  background: rgba(255,255,255,.06);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: inherit;
+  font-size: 12px;
+}
+.sidebar button:hover, .sidebar .download:hover { background: rgba(255,255,255,.11); color: white; }
+
+.page { margin-left: var(--sidebar); min-width: 0; }
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 64px clamp(24px, 5vw, 78px) 48px;
+  color: white;
+  background: linear-gradient(120deg, #005d66 0%, #087e84 58%, #289899 100%);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  right: -130px;
+  top: -235px;
+  border: 72px solid rgba(255,255,255,.08);
+  border-radius: 50%;
+}
+.hero-inner { position: relative; z-index: 1; max-width: 1120px; margin: auto; }
+.eyebrow {
+  margin: 0 0 12px;
+  color: #bcece8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  max-width: 860px;
+  margin: 0;
+  font-size: clamp(32px, 4.6vw, 60px);
+  line-height: 1.12;
+  letter-spacing: -.04em;
+}
+.hero-subtitle { max-width: 780px; margin: 18px 0 0; color: #d8f3f1; font-size: 17px; }
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 1120px;
+  margin: 34px auto 0;
+}
+.metric {
+  padding: 17px 18px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 14px;
+  background: rgba(255,255,255,.10);
+  backdrop-filter: blur(5px);
+}
+.metric span { display: block; color: #c6e8e6; font-size: 12px; }
+.metric strong { display: block; margin-top: 2px; font-size: 27px; line-height: 1.15; }
+
+.content-shell { max-width: 1180px; margin: auto; padding: 34px clamp(18px, 4vw, 56px) 80px; }
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 0 0 26px;
+}
+.quick-links a {
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--brand-dark);
+  background: var(--surface);
+  box-shadow: 0 4px 14px rgba(26, 56, 62, .04);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+.quick-links a:hover { border-color: #8fcac6; background: var(--brand-soft); }
+.report {
+  padding: clamp(24px, 4vw, 54px);
+  border: 1px solid rgba(202, 216, 220, .9);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.report > h1:first-child { display: none; }
+.report h2 {
+  margin: 3.3rem 0 1.15rem;
+  padding-top: .4rem;
+  color: #123c43;
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.3;
+  letter-spacing: -.025em;
+}
+.report h2:first-of-type { margin-top: 0; }
+.report h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: #57bdb7;
+}
+.report h3 { margin: 2.1rem 0 .8rem; color: #28545a; font-size: 21px; }
+.report h4 { margin: 1.65rem 0 .55rem; color: #315c62; font-size: 17px; }
+.report p { margin: .7rem 0; }
+.report ul, .report ol { padding-left: 1.55rem; }
+.report li { margin: .35rem 0; }
+.report strong { color: #073f46; }
+.report blockquote {
+  margin: 1.2rem 0;
+  padding: .8rem 1rem;
+  border-left: 4px solid #62c9c2;
+  color: var(--muted);
+  background: var(--brand-soft);
+}
+.table-wrap {
+  margin: 1.25rem 0 1.65rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(25, 50, 58, .04);
+}
+table { width: 100%; min-width: 650px; border-collapse: separate; border-spacing: 0; font-size: 13px; line-height: 1.45; }
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 11px 12px;
+  border-bottom: 1px solid #cddadd;
+  color: #16474e;
+  background: #e9f5f4;
+  text-align: left;
+  white-space: nowrap;
+}
+tbody td { padding: 9px 12px; border-bottom: 1px solid #e7edef; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f9fbfb; }
+tbody tr:hover td { background: #eef8f7; }
+tbody tr:last-child td { border-bottom: 0; }
+
+.footer {
+  max-width: 1120px;
+  margin: 28px auto 0;
+  color: #6b787d;
+  text-align: center;
+  font-size: 12px;
+}
+.back-top {
+  position: fixed;
+  right: 22px;
+  bottom: 20px;
+  z-index: 15;
+  display: none;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  background: var(--brand);
+  box-shadow: 0 8px 24px rgba(0, 80, 88, .25);
+  cursor: pointer;
+}
+.back-top.visible { display: block; }
+.mobile-nav { display: none; }
+
+@media (max-width: 940px) {
+  .sidebar { transform: translateX(-100%); transition: transform .22s ease; }
+  .sidebar.open { transform: translateX(0); box-shadow: 14px 0 36px rgba(0,0,0,.22); }
+  .page { margin-left: 0; }
+  .mobile-nav {
+    position: fixed;
+    top: 14px;
+    left: 14px;
+    z-index: 30;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(255,255,255,.32);
+    border-radius: 11px;
+    color: white;
+    background: rgba(8, 50, 57, .78);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+  }
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  body { font-size: 15px; }
+  .hero { padding-top: 78px; }
+  .metrics { grid-template-columns: 1fr 1fr; }
+  .metric { padding: 13px; }
+  .metric strong { font-size: 22px; }
+  .report { padding: 22px 17px; border-radius: 13px; }
+}
+
+@media print {
+  @page { margin: 14mm; }
+  body { background: white; font-size: 10.5pt; }
+  .sidebar, .mobile-nav, .back-top, .quick-links, .sidebar-actions { display: none !important; }
+  .page { margin: 0; }
+  .hero { padding: 20px 0 24px; color: black; background: white; }
+  .hero h1 { font-size: 28pt; }
+  .hero-subtitle, .eyebrow { color: #455; }
+  .metrics { margin-top: 16px; }
+  .metric { border-color: #aaa; color: black; background: white; break-inside: avoid; }
+  .metric span { color: #555; }
+  .content-shell { max-width: none; padding: 0; }
+  .report { padding: 0; border: 0; box-shadow: none; }
+  .report h2 { break-after: avoid; }
+  .table-wrap { overflow: visible; box-shadow: none; break-inside: avoid; }
+  table { min-width: 0; font-size: 8pt; }
+  thead th { position: static; }
+  pre { white-space: pre-wrap; }
+}
+
+
+        .report table { min-width: 1640px; }
+        .report th:first-child, .report td:first-child { white-space: nowrap; }
+        .report th:nth-child(3), .report td:nth-child(3) { min-width: 145px; }
+        .report th:nth-child(4), .report td:nth-child(4) { min-width: 220px; }
+        .report tbody tr:has(td:first-child strong) td { background: #dff4f2; font-weight: 700; }
+        </style>
+</head>
+<body>
+  <button class="mobile-nav" type="button" aria-label="打开目录">☰</button>
+  <aside class="sidebar" aria-label="报告目录">
+    <div class="brand">
+      <div class="brand-mark">DER</div>
+      <div><strong>EAR-1 分析报告</strong><span>DiariZen baseline</span></div>
+    </div>
+    <p class="toc-title">目录</p>
+    <ol class="toc"><li class="level-2"><a href="#section-0">20260908-1</a></li>
+<li class="level-2"><a href="#section-1">20260908-2</a></li>
+<li class="level-2"><a href="#section-2">20260923-1</a></li>
+<li class="level-2"><a href="#section-3">20260923-2</a></li>
+<li class="level-2"><a href="#section-4">20260923-5</a></li>
+<li class="level-2"><a href="#section-5">20260924-2</a></li>
+<li class="level-2"><a href="#section-6">20260924-5</a></li></ol>
+    <div class="sidebar-actions">
+      <button type="button" data-print>打印 / PDF</button>
+      <a class="download" href="MINUTE_DER_REPORT.md" download>下载 MD</a>
+    </div>
+  </aside>
+
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">EAR-1 Challenge · Detailed Error Analysis</p>
+        <h1>EAR-1 逐分钟 DER 错误来源统计</h1>
+        <p class="hero-subtitle">7 个 session，每分钟同时对照 D1 和 R1 的五类错误贡献。</p>
+        <section class="metrics" aria-label="关键指标">
+          <div class="metric"><span>开发集 session</span><strong>7</strong></div>
+<div class="metric"><span>一分钟轨道窗口</span><strong>360</strong></div>
+<div class="metric"><span>D1 总体 DER</span><strong>31.22%</strong></div>
+<div class="metric"><span>R1 总体 DER</span><strong>33.75%</strong></div>
+        </section>
+      </div>
+    </header>
+
+    <div class="content-shell">
+      <nav class="quick-links" aria-label="分析数据下载"><a href="minute_error_sources.csv" download>下载逐分钟 CSV</a>
+<a href="MINUTE_DER_REPORT.md" download>下载 Markdown</a>
+<a href="DER_ANALYSIS_REPORT.html" download>总体分析报告</a></nav>
+      <article class="report"><h1 id="report-title">EAR-1 开发集逐分钟 DER 错误来源统计</h1>
+<p>每个一分钟窗口分别列出 D1 和 R1 两行。每项数字都是对该分钟整体 DER 的贡献，因此五项相加等于最后一列的整体 DER。</p>
+<p>计算口径：每项错误秒数 ÷ <strong>该分钟参考说话人总时长</strong> × 100%。多人同时讲话时，参考时长按说话人数累加，可能超过一分钟。窗口采用各自音频的 <code>[0,60)、[60,120)…</code>，最后不足一分钟的窗口只计实际音频。全程使用该 session/轨道的<strong>同一套全局说话人映射</strong>，与基线的零容忍边界、保留重叠、整段录音评分设置一致。</p>
+<p><strong>R1 时轴提示：</strong> 20260923-1 的 R1 音频相对 D1 晚约 2.03 秒，当前 TextGrid 未为 R1 补偿该时间差。本表保留原始、未经平移的基线分数；R1 的部分漏检和误报可能是时轴不匹配造成。详见<a href="channel_alignment_diagnostics.csv">通道时间轴诊断 CSV</a>和<a href="MINUTE_DER_REPORT_ALL.html">含时间段的合并报告</a>。</p>
+<p>如果某分钟参考说话人时长为 0，则该分钟 DER 没有定义，表内显示“—”；其中的误报秒数仍记录在 CSV。表格数字独立四舍五入到小数点后两位，显示值相加可能相差 0.01 个百分点。</p>
+<p>“参考说话人编号”列列出该分钟与音频有交集的全部参考说话人；预测编号列以<code>原始聚类编号→全局匹配的参考编号</code>展示该分钟出现的预测说话人。“未匹配”表示该预测聚类没有一一匹配到参考说话人。原始聚类编号只在当前 session/轨道内有意义。编号仅表示该分钟出现过，不代表该说话人在整分钟持续讲话。</p>
+<p>完整精度及五类错误秒数见 <a href="minute_error_sources.csv">逐分钟明细 CSV</a>。</p>
+<h2 id="section-0">20260908-1</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">68.18 s</td>
+<td style="text-align:right">3.27</td>
+<td style="text-align:right">11.45</td>
+<td style="text-align:right">3.03</td>
+<td style="text-align:right">0.91</td>
+<td style="text-align:right">11.00</td>
+<td style="text-align:right"><strong>29.67%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">68.18 s</td>
+<td style="text-align:right">4.76</td>
+<td style="text-align:right">11.25</td>
+<td style="text-align:right">2.28</td>
+<td style="text-align:right">1.15</td>
+<td style="text-align:right">25.20</td>
+<td style="text-align:right"><strong>44.64%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">73.92 s</td>
+<td style="text-align:right">9.35</td>
+<td style="text-align:right">16.67</td>
+<td style="text-align:right">0.28</td>
+<td style="text-align:right">0.87</td>
+<td style="text-align:right">8.29</td>
+<td style="text-align:right"><strong>35.47%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">73.92 s</td>
+<td style="text-align:right">9.68</td>
+<td style="text-align:right">14.71</td>
+<td style="text-align:right">0.26</td>
+<td style="text-align:right">1.80</td>
+<td style="text-align:right">16.45</td>
+<td style="text-align:right"><strong>42.90%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">73.26 s</td>
+<td style="text-align:right">4.43</td>
+<td style="text-align:right">14.42</td>
+<td style="text-align:right">0.11</td>
+<td style="text-align:right">0.63</td>
+<td style="text-align:right">9.20</td>
+<td style="text-align:right"><strong>28.79%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">73.26 s</td>
+<td style="text-align:right">12.62</td>
+<td style="text-align:right">17.04</td>
+<td style="text-align:right">0.42</td>
+<td style="text-align:right">0.78</td>
+<td style="text-align:right">16.75</td>
+<td style="text-align:right"><strong>47.62%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">62.76 s</td>
+<td style="text-align:right">6.07</td>
+<td style="text-align:right">6.71</td>
+<td style="text-align:right">0.77</td>
+<td style="text-align:right">2.82</td>
+<td style="text-align:right">2.49</td>
+<td style="text-align:right"><strong>18.86%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">62.76 s</td>
+<td style="text-align:right">9.00</td>
+<td style="text-align:right">9.21</td>
+<td style="text-align:right">1.22</td>
+<td style="text-align:right">1.84</td>
+<td style="text-align:right">20.79</td>
+<td style="text-align:right"><strong>42.07%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">62.15 s</td>
+<td style="text-align:right">8.14</td>
+<td style="text-align:right">5.98</td>
+<td style="text-align:right">0.74</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.24</td>
+<td style="text-align:right"><strong>17.10%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">62.15 s</td>
+<td style="text-align:right">10.47</td>
+<td style="text-align:right">7.26</td>
+<td style="text-align:right">2.85</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.78</td>
+<td style="text-align:right"><strong>24.36%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">70.16 s</td>
+<td style="text-align:right">5.87</td>
+<td style="text-align:right">11.73</td>
+<td style="text-align:right">0.74</td>
+<td style="text-align:right">0.95</td>
+<td style="text-align:right">6.14</td>
+<td style="text-align:right"><strong>25.43%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">70.16 s</td>
+<td style="text-align:right">4.20</td>
+<td style="text-align:right">11.15</td>
+<td style="text-align:right">1.38</td>
+<td style="text-align:right">0.79</td>
+<td style="text-align:right">4.97</td>
+<td style="text-align:right"><strong>22.48%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">68.69 s</td>
+<td style="text-align:right">5.06</td>
+<td style="text-align:right">7.11</td>
+<td style="text-align:right">1.07</td>
+<td style="text-align:right">1.71</td>
+<td style="text-align:right">5.53</td>
+<td style="text-align:right"><strong>20.48%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">68.69 s</td>
+<td style="text-align:right">9.26</td>
+<td style="text-align:right">8.18</td>
+<td style="text-align:right">1.37</td>
+<td style="text-align:right">1.14</td>
+<td style="text-align:right">9.94</td>
+<td style="text-align:right"><strong>29.88%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 3→P007</td>
+<td style="text-align:right">64.17 s</td>
+<td style="text-align:right">12.47</td>
+<td style="text-align:right">5.95</td>
+<td style="text-align:right">0.12</td>
+<td style="text-align:right">1.11</td>
+<td style="text-align:right">2.70</td>
+<td style="text-align:right"><strong>22.37%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">64.17 s</td>
+<td style="text-align:right">11.08</td>
+<td style="text-align:right">4.47</td>
+<td style="text-align:right">0.37</td>
+<td style="text-align:right">2.70</td>
+<td style="text-align:right">3.35</td>
+<td style="text-align:right"><strong>21.97%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">44.76 s</td>
+<td style="text-align:right">7.69</td>
+<td style="text-align:right">4.19</td>
+<td style="text-align:right">3.03</td>
+<td style="text-align:right">1.17</td>
+<td style="text-align:right">8.48</td>
+<td style="text-align:right"><strong>24.55%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">44.76 s</td>
+<td style="text-align:right">7.06</td>
+<td style="text-align:right">4.76</td>
+<td style="text-align:right">3.11</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.37</td>
+<td style="text-align:right"><strong>21.30%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">64.27 s</td>
+<td style="text-align:right">4.72</td>
+<td style="text-align:right">10.25</td>
+<td style="text-align:right">0.76</td>
+<td style="text-align:right">0.12</td>
+<td style="text-align:right">18.89</td>
+<td style="text-align:right"><strong>34.74%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">64.27 s</td>
+<td style="text-align:right">7.95</td>
+<td style="text-align:right">14.60</td>
+<td style="text-align:right">1.65</td>
+<td style="text-align:right">0.37</td>
+<td style="text-align:right">22.05</td>
+<td style="text-align:right"><strong>46.62%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">42.13 s</td>
+<td style="text-align:right">8.54</td>
+<td style="text-align:right">2.88</td>
+<td style="text-align:right">6.50</td>
+<td style="text-align:right">0.96</td>
+<td style="text-align:right">5.83</td>
+<td style="text-align:right"><strong>24.72%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008</td>
+<td>1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">42.13 s</td>
+<td style="text-align:right">16.37</td>
+<td style="text-align:right">2.74</td>
+<td style="text-align:right">4.46</td>
+<td style="text-align:right">1.10</td>
+<td style="text-align:right">13.77</td>
+<td style="text-align:right"><strong>38.44%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">63.67 s</td>
+<td style="text-align:right">8.27</td>
+<td style="text-align:right">8.12</td>
+<td style="text-align:right">0.64</td>
+<td style="text-align:right">0.64</td>
+<td style="text-align:right">6.06</td>
+<td style="text-align:right"><strong>23.74%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">63.67 s</td>
+<td style="text-align:right">8.71</td>
+<td style="text-align:right">9.05</td>
+<td style="text-align:right">0.39</td>
+<td style="text-align:right">0.38</td>
+<td style="text-align:right">8.31</td>
+<td style="text-align:right"><strong>26.83%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">63.53 s</td>
+<td style="text-align:right">5.80</td>
+<td style="text-align:right">16.46</td>
+<td style="text-align:right">1.61</td>
+<td style="text-align:right">0.37</td>
+<td style="text-align:right">17.46</td>
+<td style="text-align:right"><strong>41.71%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">63.53 s</td>
+<td style="text-align:right">6.27</td>
+<td style="text-align:right">13.91</td>
+<td style="text-align:right">2.42</td>
+<td style="text-align:right">1.74</td>
+<td style="text-align:right">11.27</td>
+<td style="text-align:right"><strong>35.61%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">71.97 s</td>
+<td style="text-align:right">3.54</td>
+<td style="text-align:right">8.81</td>
+<td style="text-align:right">0.42</td>
+<td style="text-align:right">0.27</td>
+<td style="text-align:right">6.00</td>
+<td style="text-align:right"><strong>19.02%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">71.97 s</td>
+<td style="text-align:right">2.77</td>
+<td style="text-align:right">8.31</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">0.56</td>
+<td style="text-align:right">5.00</td>
+<td style="text-align:right"><strong>17.34%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">71.41 s</td>
+<td style="text-align:right">4.54</td>
+<td style="text-align:right">14.52</td>
+<td style="text-align:right">1.77</td>
+<td style="text-align:right">0.55</td>
+<td style="text-align:right">18.09</td>
+<td style="text-align:right"><strong>39.47%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">71.41 s</td>
+<td style="text-align:right">4.68</td>
+<td style="text-align:right">13.74</td>
+<td style="text-align:right">3.45</td>
+<td style="text-align:right">2.86</td>
+<td style="text-align:right">12.83</td>
+<td style="text-align:right"><strong>37.55%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">69.61 s</td>
+<td style="text-align:right">3.24</td>
+<td style="text-align:right">8.13</td>
+<td style="text-align:right">1.76</td>
+<td style="text-align:right">2.73</td>
+<td style="text-align:right">20.53</td>
+<td style="text-align:right"><strong>36.39%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">69.61 s</td>
+<td style="text-align:right">2.66</td>
+<td style="text-align:right">8.53</td>
+<td style="text-align:right">3.40</td>
+<td style="text-align:right">3.98</td>
+<td style="text-align:right">16.25</td>
+<td style="text-align:right"><strong>34.82%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">55.08 s</td>
+<td style="text-align:right">15.98</td>
+<td style="text-align:right">7.04</td>
+<td style="text-align:right">0.91</td>
+<td style="text-align:right">0.21</td>
+<td style="text-align:right">3.62</td>
+<td style="text-align:right"><strong>27.76%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">55.08 s</td>
+<td style="text-align:right">14.52</td>
+<td style="text-align:right">8.18</td>
+<td style="text-align:right">0.42</td>
+<td style="text-align:right">0.02</td>
+<td style="text-align:right">3.22</td>
+<td style="text-align:right"><strong>26.37%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">71.90 s</td>
+<td style="text-align:right">3.40</td>
+<td style="text-align:right">8.74</td>
+<td style="text-align:right">1.53</td>
+<td style="text-align:right">0.90</td>
+<td style="text-align:right">25.48</td>
+<td style="text-align:right"><strong>40.06%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">71.90 s</td>
+<td style="text-align:right">3.59</td>
+<td style="text-align:right">8.61</td>
+<td style="text-align:right">0.47</td>
+<td style="text-align:right">2.64</td>
+<td style="text-align:right">13.33</td>
+<td style="text-align:right"><strong>28.64%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">58.94 s</td>
+<td style="text-align:right">8.86</td>
+<td style="text-align:right">7.08</td>
+<td style="text-align:right">1.99</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">12.02</td>
+<td style="text-align:right"><strong>29.95%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">58.94 s</td>
+<td style="text-align:right">8.74</td>
+<td style="text-align:right">6.82</td>
+<td style="text-align:right">2.45</td>
+<td style="text-align:right">1.23</td>
+<td style="text-align:right">9.67</td>
+<td style="text-align:right"><strong>28.91%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">57.35 s</td>
+<td style="text-align:right">3.16</td>
+<td style="text-align:right">4.54</td>
+<td style="text-align:right">4.74</td>
+<td style="text-align:right">5.66</td>
+<td style="text-align:right">3.64</td>
+<td style="text-align:right"><strong>21.74%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">57.35 s</td>
+<td style="text-align:right">13.60</td>
+<td style="text-align:right">9.22</td>
+<td style="text-align:right">3.17</td>
+<td style="text-align:right">4.29</td>
+<td style="text-align:right">1.26</td>
+<td style="text-align:right"><strong>31.55%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">61.71 s</td>
+<td style="text-align:right">3.11</td>
+<td style="text-align:right">4.11</td>
+<td style="text-align:right">1.94</td>
+<td style="text-align:right">4.40</td>
+<td style="text-align:right">0.51</td>
+<td style="text-align:right"><strong>14.07%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008</td>
+<td>1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">61.71 s</td>
+<td style="text-align:right">3.64</td>
+<td style="text-align:right">5.04</td>
+<td style="text-align:right">1.76</td>
+<td style="text-align:right">1.80</td>
+<td style="text-align:right">4.40</td>
+<td style="text-align:right"><strong>16.65%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">46.01 s</td>
+<td style="text-align:right">6.08</td>
+<td style="text-align:right">3.89</td>
+<td style="text-align:right">3.91</td>
+<td style="text-align:right">1.71</td>
+<td style="text-align:right">7.42</td>
+<td style="text-align:right"><strong>23.01%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">46.01 s</td>
+<td style="text-align:right">34.64</td>
+<td style="text-align:right">8.34</td>
+<td style="text-align:right">1.05</td>
+<td style="text-align:right">1.34</td>
+<td style="text-align:right">0.04</td>
+<td style="text-align:right"><strong>45.41%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">64.02 s</td>
+<td style="text-align:right">7.34</td>
+<td style="text-align:right">8.40</td>
+<td style="text-align:right">1.85</td>
+<td style="text-align:right">2.50</td>
+<td style="text-align:right">19.24</td>
+<td style="text-align:right"><strong>39.34%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">64.02 s</td>
+<td style="text-align:right">22.15</td>
+<td style="text-align:right">12.31</td>
+<td style="text-align:right">0.07</td>
+<td style="text-align:right">1.70</td>
+<td style="text-align:right">6.49</td>
+<td style="text-align:right"><strong>42.71%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right">62.58 s</td>
+<td style="text-align:right">11.08</td>
+<td style="text-align:right">8.88</td>
+<td style="text-align:right">4.27</td>
+<td style="text-align:right">3.17</td>
+<td style="text-align:right">10.41</td>
+<td style="text-align:right"><strong>37.82%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right">62.58 s</td>
+<td style="text-align:right">19.47</td>
+<td style="text-align:right">10.88</td>
+<td style="text-align:right">4.62</td>
+<td style="text-align:right">1.71</td>
+<td style="text-align:right">10.06</td>
+<td style="text-align:right"><strong>46.74%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–24:27.11</td>
+<td style="text-align:center">D1</td>
+<td>P007</td>
+<td>1→P008, 3→P007</td>
+<td style="text-align:right">14.31 s</td>
+<td style="text-align:right">19.27</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">12.72</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>31.99%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–24:33.64</td>
+<td style="text-align:center">R1</td>
+<td>P007</td>
+<td>3→P007</td>
+<td style="text-align:right">14.31 s</td>
+<td style="text-align:right">16.70</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.07</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>17.77%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P006, P007, P008, P009</td>
+<td>0→P009, 1→P008, 2→P006, 3→P007</td>
+<td style="text-align:right"><strong>1526.54 s</strong></td>
+<td style="text-align:right">6.64</td>
+<td style="text-align:right">8.87</td>
+<td style="text-align:right">1.81</td>
+<td style="text-align:right">1.39</td>
+<td style="text-align:right">9.83</td>
+<td style="text-align:right"><strong>28.54%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P009, 2→P008, 3→P007</td>
+<td style="text-align:right"><strong>1526.54 s</strong></td>
+<td style="text-align:right">9.86</td>
+<td style="text-align:right">9.71</td>
+<td style="text-align:right">1.75</td>
+<td style="text-align:right">1.52</td>
+<td style="text-align:right">10.47</td>
+<td style="text-align:right"><strong>33.31%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="section-1">20260908-2</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">62.71 s</td>
+<td style="text-align:right">10.82</td>
+<td style="text-align:right">7.12</td>
+<td style="text-align:right">0.40</td>
+<td style="text-align:right">0.08</td>
+<td style="text-align:right">3.13</td>
+<td style="text-align:right"><strong>21.55%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">62.71 s</td>
+<td style="text-align:right">10.12</td>
+<td style="text-align:right">6.59</td>
+<td style="text-align:right">2.50</td>
+<td style="text-align:right">0.73</td>
+<td style="text-align:right">5.49</td>
+<td style="text-align:right"><strong>25.43%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">56.28 s</td>
+<td style="text-align:right">10.54</td>
+<td style="text-align:right">6.35</td>
+<td style="text-align:right">1.23</td>
+<td style="text-align:right">1.39</td>
+<td style="text-align:right">0.82</td>
+<td style="text-align:right"><strong>20.31%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">56.28 s</td>
+<td style="text-align:right">7.41</td>
+<td style="text-align:right">6.40</td>
+<td style="text-align:right">1.72</td>
+<td style="text-align:right">2.51</td>
+<td style="text-align:right">8.24</td>
+<td style="text-align:right"><strong>26.28%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">65.44 s</td>
+<td style="text-align:right">7.64</td>
+<td style="text-align:right">7.80</td>
+<td style="text-align:right">1.11</td>
+<td style="text-align:right">1.10</td>
+<td style="text-align:right">16.20</td>
+<td style="text-align:right"><strong>33.86%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">65.44 s</td>
+<td style="text-align:right">14.01</td>
+<td style="text-align:right">14.83</td>
+<td style="text-align:right">0.93</td>
+<td style="text-align:right">0.55</td>
+<td style="text-align:right">10.33</td>
+<td style="text-align:right"><strong>40.64%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">68.19 s</td>
+<td style="text-align:right">11.34</td>
+<td style="text-align:right">16.75</td>
+<td style="text-align:right">0.06</td>
+<td style="text-align:right">0.13</td>
+<td style="text-align:right">6.62</td>
+<td style="text-align:right"><strong>34.91%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">68.19 s</td>
+<td style="text-align:right">11.13</td>
+<td style="text-align:right">15.57</td>
+<td style="text-align:right">0.06</td>
+<td style="text-align:right">0.82</td>
+<td style="text-align:right">12.58</td>
+<td style="text-align:right"><strong>40.16%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">84.71 s</td>
+<td style="text-align:right">3.12</td>
+<td style="text-align:right">18.60</td>
+<td style="text-align:right">0.24</td>
+<td style="text-align:right">0.89</td>
+<td style="text-align:right">19.01</td>
+<td style="text-align:right"><strong>41.86%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">84.71 s</td>
+<td style="text-align:right">2.47</td>
+<td style="text-align:right">18.49</td>
+<td style="text-align:right">0.84</td>
+<td style="text-align:right">1.08</td>
+<td style="text-align:right">15.28</td>
+<td style="text-align:right"><strong>38.15%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">66.67 s</td>
+<td style="text-align:right">8.20</td>
+<td style="text-align:right">13.16</td>
+<td style="text-align:right">0.97</td>
+<td style="text-align:right">0.21</td>
+<td style="text-align:right">15.03</td>
+<td style="text-align:right"><strong>37.57%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">66.67 s</td>
+<td style="text-align:right">7.72</td>
+<td style="text-align:right">9.79</td>
+<td style="text-align:right">0.70</td>
+<td style="text-align:right">1.56</td>
+<td style="text-align:right">12.54</td>
+<td style="text-align:right"><strong>32.31%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">74.45 s</td>
+<td style="text-align:right">5.95</td>
+<td style="text-align:right">19.36</td>
+<td style="text-align:right">0.48</td>
+<td style="text-align:right">0.82</td>
+<td style="text-align:right">11.75</td>
+<td style="text-align:right"><strong>38.36%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">74.45 s</td>
+<td style="text-align:right">4.36</td>
+<td style="text-align:right">16.97</td>
+<td style="text-align:right">1.84</td>
+<td style="text-align:right">0.86</td>
+<td style="text-align:right">7.69</td>
+<td style="text-align:right"><strong>31.73%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">67.67 s</td>
+<td style="text-align:right">8.78</td>
+<td style="text-align:right">10.91</td>
+<td style="text-align:right">0.25</td>
+<td style="text-align:right">1.32</td>
+<td style="text-align:right">15.01</td>
+<td style="text-align:right"><strong>36.26%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">67.67 s</td>
+<td style="text-align:right">8.43</td>
+<td style="text-align:right">10.06</td>
+<td style="text-align:right">0.25</td>
+<td style="text-align:right">1.19</td>
+<td style="text-align:right">18.25</td>
+<td style="text-align:right"><strong>38.19%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">76.32 s</td>
+<td style="text-align:right">7.85</td>
+<td style="text-align:right">20.70</td>
+<td style="text-align:right">0.82</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.65</td>
+<td style="text-align:right"><strong>41.01%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">76.32 s</td>
+<td style="text-align:right">19.72</td>
+<td style="text-align:right">23.52</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">19.34</td>
+<td style="text-align:right"><strong>62.58%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">68.13 s</td>
+<td style="text-align:right">4.17</td>
+<td style="text-align:right">9.94</td>
+<td style="text-align:right">0.54</td>
+<td style="text-align:right">1.54</td>
+<td style="text-align:right">6.79</td>
+<td style="text-align:right"><strong>22.99%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">68.13 s</td>
+<td style="text-align:right">5.13</td>
+<td style="text-align:right">11.46</td>
+<td style="text-align:right">0.54</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.49</td>
+<td style="text-align:right"><strong>21.62%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">69.09 s</td>
+<td style="text-align:right">7.86</td>
+<td style="text-align:right">10.99</td>
+<td style="text-align:right">0.34</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">19.86</td>
+<td style="text-align:right"><strong>39.28%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">69.09 s</td>
+<td style="text-align:right">7.24</td>
+<td style="text-align:right">10.49</td>
+<td style="text-align:right">0.49</td>
+<td style="text-align:right">0.43</td>
+<td style="text-align:right">21.19</td>
+<td style="text-align:right"><strong>39.85%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">83.75 s</td>
+<td style="text-align:right">4.17</td>
+<td style="text-align:right">16.94</td>
+<td style="text-align:right">0.10</td>
+<td style="text-align:right">0.20</td>
+<td style="text-align:right">8.95</td>
+<td style="text-align:right"><strong>30.36%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">83.75 s</td>
+<td style="text-align:right">2.42</td>
+<td style="text-align:right">13.60</td>
+<td style="text-align:right">0.64</td>
+<td style="text-align:right">0.75</td>
+<td style="text-align:right">8.05</td>
+<td style="text-align:right"><strong>25.47%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">74.57 s</td>
+<td style="text-align:right">7.97</td>
+<td style="text-align:right">12.10</td>
+<td style="text-align:right">0.17</td>
+<td style="text-align:right">0.58</td>
+<td style="text-align:right">1.19</td>
+<td style="text-align:right"><strong>22.00%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">74.57 s</td>
+<td style="text-align:right">6.28</td>
+<td style="text-align:right">13.02</td>
+<td style="text-align:right">0.87</td>
+<td style="text-align:right">0.63</td>
+<td style="text-align:right">5.31</td>
+<td style="text-align:right"><strong>26.12%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">74.88 s</td>
+<td style="text-align:right">4.83</td>
+<td style="text-align:right">12.44</td>
+<td style="text-align:right">0.02</td>
+<td style="text-align:right">0.39</td>
+<td style="text-align:right">2.77</td>
+<td style="text-align:right"><strong>20.44%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">74.88 s</td>
+<td style="text-align:right">4.07</td>
+<td style="text-align:right">11.15</td>
+<td style="text-align:right">0.18</td>
+<td style="text-align:right">0.31</td>
+<td style="text-align:right">8.09</td>
+<td style="text-align:right"><strong>23.80%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">64.44 s</td>
+<td style="text-align:right">5.04</td>
+<td style="text-align:right">7.55</td>
+<td style="text-align:right">1.44</td>
+<td style="text-align:right">0.96</td>
+<td style="text-align:right">9.28</td>
+<td style="text-align:right"><strong>24.28%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">64.44 s</td>
+<td style="text-align:right">7.29</td>
+<td style="text-align:right">8.25</td>
+<td style="text-align:right">1.12</td>
+<td style="text-align:right">1.51</td>
+<td style="text-align:right">11.47</td>
+<td style="text-align:right"><strong>29.63%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">73.14 s</td>
+<td style="text-align:right">0.70</td>
+<td style="text-align:right">8.51</td>
+<td style="text-align:right">2.98</td>
+<td style="text-align:right">2.60</td>
+<td style="text-align:right">8.31</td>
+<td style="text-align:right"><strong>23.10%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">73.14 s</td>
+<td style="text-align:right">1.35</td>
+<td style="text-align:right">10.04</td>
+<td style="text-align:right">3.12</td>
+<td style="text-align:right">1.09</td>
+<td style="text-align:right">5.06</td>
+<td style="text-align:right"><strong>20.65%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">64.84 s</td>
+<td style="text-align:right">5.83</td>
+<td style="text-align:right">9.85</td>
+<td style="text-align:right">0.57</td>
+<td style="text-align:right">0.46</td>
+<td style="text-align:right">12.70</td>
+<td style="text-align:right"><strong>29.42%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">64.84 s</td>
+<td style="text-align:right">4.39</td>
+<td style="text-align:right">8.45</td>
+<td style="text-align:right">0.75</td>
+<td style="text-align:right">0.95</td>
+<td style="text-align:right">6.19</td>
+<td style="text-align:right"><strong>20.73%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">67.50 s</td>
+<td style="text-align:right">4.06</td>
+<td style="text-align:right">10.40</td>
+<td style="text-align:right">0.50</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">15.56</td>
+<td style="text-align:right"><strong>30.52%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">67.50 s</td>
+<td style="text-align:right">6.02</td>
+<td style="text-align:right">13.73</td>
+<td style="text-align:right">1.97</td>
+<td style="text-align:right">0.03</td>
+<td style="text-align:right">11.22</td>
+<td style="text-align:right"><strong>32.98%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">70.34 s</td>
+<td style="text-align:right">2.83</td>
+<td style="text-align:right">9.75</td>
+<td style="text-align:right">1.77</td>
+<td style="text-align:right">2.16</td>
+<td style="text-align:right">14.95</td>
+<td style="text-align:right"><strong>31.45%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">70.34 s</td>
+<td style="text-align:right">2.21</td>
+<td style="text-align:right">11.87</td>
+<td style="text-align:right">1.42</td>
+<td style="text-align:right">0.27</td>
+<td style="text-align:right">20.34</td>
+<td style="text-align:right"><strong>36.11%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">64.34 s</td>
+<td style="text-align:right">7.95</td>
+<td style="text-align:right">9.34</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">0.37</td>
+<td style="text-align:right">15.06</td>
+<td style="text-align:right"><strong>33.42%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">64.34 s</td>
+<td style="text-align:right">7.32</td>
+<td style="text-align:right">9.61</td>
+<td style="text-align:right">0.63</td>
+<td style="text-align:right">0.30</td>
+<td style="text-align:right">8.14</td>
+<td style="text-align:right"><strong>25.99%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">68.67 s</td>
+<td style="text-align:right">3.70</td>
+<td style="text-align:right">8.48</td>
+<td style="text-align:right">2.06</td>
+<td style="text-align:right">3.09</td>
+<td style="text-align:right">11.30</td>
+<td style="text-align:right"><strong>28.64%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">68.67 s</td>
+<td style="text-align:right">3.47</td>
+<td style="text-align:right">9.57</td>
+<td style="text-align:right">2.70</td>
+<td style="text-align:right">1.44</td>
+<td style="text-align:right">19.14</td>
+<td style="text-align:right"><strong>36.31%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">77.57 s</td>
+<td style="text-align:right">3.88</td>
+<td style="text-align:right">14.84</td>
+<td style="text-align:right">0.10</td>
+<td style="text-align:right">0.19</td>
+<td style="text-align:right">8.94</td>
+<td style="text-align:right"><strong>27.95%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">77.57 s</td>
+<td style="text-align:right">2.48</td>
+<td style="text-align:right">12.32</td>
+<td style="text-align:right">0.19</td>
+<td style="text-align:right">0.52</td>
+<td style="text-align:right">10.58</td>
+<td style="text-align:right"><strong>26.09%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">80.30 s</td>
+<td style="text-align:right">5.57</td>
+<td style="text-align:right">14.00</td>
+<td style="text-align:right">0.11</td>
+<td style="text-align:right">0.56</td>
+<td style="text-align:right">8.83</td>
+<td style="text-align:right"><strong>29.07%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">80.30 s</td>
+<td style="text-align:right">5.50</td>
+<td style="text-align:right">17.18</td>
+<td style="text-align:right">0.11</td>
+<td style="text-align:right">0.68</td>
+<td style="text-align:right">7.61</td>
+<td style="text-align:right"><strong>31.06%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">73.44 s</td>
+<td style="text-align:right">4.63</td>
+<td style="text-align:right">8.55</td>
+<td style="text-align:right">0.84</td>
+<td style="text-align:right">2.21</td>
+<td style="text-align:right">24.24</td>
+<td style="text-align:right"><strong>40.47%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">73.44 s</td>
+<td style="text-align:right">4.78</td>
+<td style="text-align:right">9.79</td>
+<td style="text-align:right">0.45</td>
+<td style="text-align:right">1.84</td>
+<td style="text-align:right">21.28</td>
+<td style="text-align:right"><strong>38.14%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–25:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">71.54 s</td>
+<td style="text-align:right">2.33</td>
+<td style="text-align:right">6.74</td>
+<td style="text-align:right">1.02</td>
+<td style="text-align:right">1.41</td>
+<td style="text-align:right">15.99</td>
+<td style="text-align:right"><strong>27.50%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–25:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">71.54 s</td>
+<td style="text-align:right">2.53</td>
+<td style="text-align:right">8.55</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">0.48</td>
+<td style="text-align:right">16.85</td>
+<td style="text-align:right"><strong>28.64%</strong></td>
+</tr>
+<tr>
+<td>第 26 分钟 25:00.00–26:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">74.02 s</td>
+<td style="text-align:right">9.05</td>
+<td style="text-align:right">11.71</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">0.36</td>
+<td style="text-align:right">7.50</td>
+<td style="text-align:right"><strong>28.86%</strong></td>
+</tr>
+<tr>
+<td>第 26 分钟 25:00.00–26:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">74.02 s</td>
+<td style="text-align:right">11.00</td>
+<td style="text-align:right">11.84</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">0.44</td>
+<td style="text-align:right">4.99</td>
+<td style="text-align:right"><strong>28.51%</strong></td>
+</tr>
+<tr>
+<td>第 27 分钟 26:00.00–27:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">80.47 s</td>
+<td style="text-align:right">4.72</td>
+<td style="text-align:right">12.18</td>
+<td style="text-align:right">0.15</td>
+<td style="text-align:right">0.80</td>
+<td style="text-align:right">10.85</td>
+<td style="text-align:right"><strong>28.69%</strong></td>
+</tr>
+<tr>
+<td>第 27 分钟 26:00.00–27:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">80.47 s</td>
+<td style="text-align:right">4.42</td>
+<td style="text-align:right">13.46</td>
+<td style="text-align:right">0.03</td>
+<td style="text-align:right">0.87</td>
+<td style="text-align:right">14.19</td>
+<td style="text-align:right"><strong>32.96%</strong></td>
+</tr>
+<tr>
+<td>第 28 分钟 27:00.00–28:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">91.02 s</td>
+<td style="text-align:right">4.27</td>
+<td style="text-align:right">19.95</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.30</td>
+<td style="text-align:right">3.38</td>
+<td style="text-align:right"><strong>27.90%</strong></td>
+</tr>
+<tr>
+<td>第 28 分钟 27:00.00–28:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">91.02 s</td>
+<td style="text-align:right">4.00</td>
+<td style="text-align:right">20.41</td>
+<td style="text-align:right">0.05</td>
+<td style="text-align:right">0.74</td>
+<td style="text-align:right">7.91</td>
+<td style="text-align:right"><strong>33.12%</strong></td>
+</tr>
+<tr>
+<td>第 29 分钟 28:00.00–29:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">74.16 s</td>
+<td style="text-align:right">3.46</td>
+<td style="text-align:right">12.97</td>
+<td style="text-align:right">0.30</td>
+<td style="text-align:right">0.11</td>
+<td style="text-align:right">5.89</td>
+<td style="text-align:right"><strong>22.72%</strong></td>
+</tr>
+<tr>
+<td>第 29 分钟 28:00.00–29:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">74.16 s</td>
+<td style="text-align:right">3.23</td>
+<td style="text-align:right">10.88</td>
+<td style="text-align:right">0.32</td>
+<td style="text-align:right">0.59</td>
+<td style="text-align:right">7.28</td>
+<td style="text-align:right"><strong>22.30%</strong></td>
+</tr>
+<tr>
+<td>第 30 分钟 29:00.00–30:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">78.52 s</td>
+<td style="text-align:right">5.04</td>
+<td style="text-align:right">12.92</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.50</td>
+<td style="text-align:right">17.65</td>
+<td style="text-align:right"><strong>36.12%</strong></td>
+</tr>
+<tr>
+<td>第 30 分钟 29:00.00–30:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">78.52 s</td>
+<td style="text-align:right">4.52</td>
+<td style="text-align:right">13.74</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.01</td>
+<td style="text-align:right">11.70</td>
+<td style="text-align:right"><strong>29.97%</strong></td>
+</tr>
+<tr>
+<td>第 31 分钟 30:00.00–30:12.77</td>
+<td style="text-align:center">D1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right">18.02 s</td>
+<td style="text-align:right">3.95</td>
+<td style="text-align:right">20.03</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.37</td>
+<td style="text-align:right">49.78</td>
+<td style="text-align:right"><strong>74.14%</strong></td>
+</tr>
+<tr>
+<td>第 31 分钟 30:00.00–30:27.19</td>
+<td style="text-align:center">R1</td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right">18.02 s</td>
+<td style="text-align:right">4.18</td>
+<td style="text-align:right">20.14</td>
+<td style="text-align:right">88.34</td>
+<td style="text-align:right">0.93</td>
+<td style="text-align:right">48.36</td>
+<td style="text-align:right"><strong>161.95%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P007, 2→P008</td>
+<td style="text-align:right"><strong>2185.19 s</strong></td>
+<td style="text-align:right">5.74</td>
+<td style="text-align:right">12.39</td>
+<td style="text-align:right">0.62</td>
+<td style="text-align:right">0.81</td>
+<td style="text-align:right">11.30</td>
+<td style="text-align:right"><strong>30.85%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P006, P007, P008, P009</td>
+<td>0→P006, 1→P008, 2→P007</td>
+<td style="text-align:right"><strong>2185.19 s</strong></td>
+<td style="text-align:right">6.03</td>
+<td style="text-align:right">12.72</td>
+<td style="text-align:right">1.52</td>
+<td style="text-align:right">0.76</td>
+<td style="text-align:right">11.67</td>
+<td style="text-align:right"><strong>32.69%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="section-2">20260923-1</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 3→P030</td>
+<td style="text-align:right">50.17 s</td>
+<td style="text-align:right">3.54</td>
+<td style="text-align:right">4.19</td>
+<td style="text-align:right">8.15</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.04</td>
+<td style="text-align:right"><strong>15.93%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>1→P029, 3→P032, 4→P030</td>
+<td style="text-align:right">50.17 s</td>
+<td style="text-align:right">23.47</td>
+<td style="text-align:right">5.72</td>
+<td style="text-align:right">15.33</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.98</td>
+<td style="text-align:right"><strong>45.50%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029</td>
+<td>0→P029</td>
+<td style="text-align:right">51.36 s</td>
+<td style="text-align:right">0.74</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.94</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>12.68%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029</td>
+<td>1→P029</td>
+<td style="text-align:right">51.36 s</td>
+<td style="text-align:right">20.09</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.38</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>31.47%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right">62.70 s</td>
+<td style="text-align:right">18.59</td>
+<td style="text-align:right">8.54</td>
+<td style="text-align:right">1.85</td>
+<td style="text-align:right">1.10</td>
+<td style="text-align:right">3.19</td>
+<td style="text-align:right"><strong>33.28%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→未匹配, 1→P029, 2→P031, 4→P030</td>
+<td style="text-align:right">62.70 s</td>
+<td style="text-align:right">17.88</td>
+<td style="text-align:right">17.74</td>
+<td style="text-align:right">6.56</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.02</td>
+<td style="text-align:right"><strong>53.20%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right">68.08 s</td>
+<td style="text-align:right">2.75</td>
+<td style="text-align:right">16.10</td>
+<td style="text-align:right">3.72</td>
+<td style="text-align:right">1.56</td>
+<td style="text-align:right">9.32</td>
+<td style="text-align:right"><strong>33.45%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>1→P029, 2→P031, 3→P032, 4→P030</td>
+<td style="text-align:right">68.08 s</td>
+<td style="text-align:right">10.50</td>
+<td style="text-align:right">26.18</td>
+<td style="text-align:right">7.33</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">16.40</td>
+<td style="text-align:right"><strong>60.41%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P031</td>
+<td>0→P029, 1→P032, 2→P031</td>
+<td style="text-align:right">55.04 s</td>
+<td style="text-align:right">2.53</td>
+<td style="text-align:right">2.80</td>
+<td style="text-align:right">9.54</td>
+<td style="text-align:right">1.38</td>
+<td style="text-align:right">2.03</td>
+<td style="text-align:right"><strong>18.28%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P031</td>
+<td>1→P029, 2→P031, 4→P030</td>
+<td style="text-align:right">55.04 s</td>
+<td style="text-align:right">19.66</td>
+<td style="text-align:right">3.70</td>
+<td style="text-align:right">10.72</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.46</td>
+<td style="text-align:right"><strong>39.54%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P032</td>
+<td>0→P029, 1→P032</td>
+<td style="text-align:right">55.32 s</td>
+<td style="text-align:right">1.43</td>
+<td style="text-align:right">1.41</td>
+<td style="text-align:right">6.91</td>
+<td style="text-align:right">0.67</td>
+<td style="text-align:right">0.49</td>
+<td style="text-align:right"><strong>10.90%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P032</td>
+<td>0→未匹配, 1→P029, 3→P032</td>
+<td style="text-align:right">55.32 s</td>
+<td style="text-align:right">9.62</td>
+<td style="text-align:right">2.28</td>
+<td style="text-align:right">8.83</td>
+<td style="text-align:right">0.04</td>
+<td style="text-align:right">5.40</td>
+<td style="text-align:right"><strong>26.17%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P032</td>
+<td>0→P029, 1→P032, 3→P030</td>
+<td style="text-align:right">48.31 s</td>
+<td style="text-align:right">4.54</td>
+<td style="text-align:right">2.54</td>
+<td style="text-align:right">11.20</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.85</td>
+<td style="text-align:right"><strong>26.12%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P032</td>
+<td>1→P029, 3→P032, 4→P030</td>
+<td style="text-align:right">48.31 s</td>
+<td style="text-align:right">24.64</td>
+<td style="text-align:right">2.62</td>
+<td style="text-align:right">20.42</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.15</td>
+<td style="text-align:right"><strong>58.83%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 2→P031, 3→P030</td>
+<td style="text-align:right">56.50 s</td>
+<td style="text-align:right">1.82</td>
+<td style="text-align:right">4.55</td>
+<td style="text-align:right">9.68</td>
+<td style="text-align:right">0.79</td>
+<td style="text-align:right">0.38</td>
+<td style="text-align:right"><strong>17.22%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P031, 4→P030</td>
+<td style="text-align:right">56.50 s</td>
+<td style="text-align:right">18.48</td>
+<td style="text-align:right">7.49</td>
+<td style="text-align:right">10.78</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">9.74</td>
+<td style="text-align:right"><strong>46.49%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right">57.33 s</td>
+<td style="text-align:right">3.20</td>
+<td style="text-align:right">3.61</td>
+<td style="text-align:right">5.38</td>
+<td style="text-align:right">0.85</td>
+<td style="text-align:right">4.91</td>
+<td style="text-align:right"><strong>17.94%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P031, 4→P030</td>
+<td style="text-align:right">57.33 s</td>
+<td style="text-align:right">18.59</td>
+<td style="text-align:right">6.47</td>
+<td style="text-align:right">9.06</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">9.93</td>
+<td style="text-align:right"><strong>44.04%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right">54.71 s</td>
+<td style="text-align:right">5.79</td>
+<td style="text-align:right">1.36</td>
+<td style="text-align:right">5.13</td>
+<td style="text-align:right">0.17</td>
+<td style="text-align:right">1.54</td>
+<td style="text-align:right"><strong>13.98%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P031, 4→P030</td>
+<td style="text-align:right">54.71 s</td>
+<td style="text-align:right">19.43</td>
+<td style="text-align:right">2.54</td>
+<td style="text-align:right">10.29</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.64</td>
+<td style="text-align:right"><strong>39.91%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P032</td>
+<td style="text-align:right">64.96 s</td>
+<td style="text-align:right">1.86</td>
+<td style="text-align:right">12.75</td>
+<td style="text-align:right">5.06</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.20</td>
+<td style="text-align:right"><strong>26.88%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→未匹配, 1→P029, 2→P031</td>
+<td style="text-align:right">64.96 s</td>
+<td style="text-align:right">9.83</td>
+<td style="text-align:right">21.04</td>
+<td style="text-align:right">8.64</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.42</td>
+<td style="text-align:right"><strong>42.93%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 2→P031</td>
+<td style="text-align:right">58.45 s</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.73</td>
+<td style="text-align:right">10.57</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.01</td>
+<td style="text-align:right"><strong>17.31%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→未匹配, 1→P029, 2→P031</td>
+<td style="text-align:right">58.45 s</td>
+<td style="text-align:right">15.73</td>
+<td style="text-align:right">10.38</td>
+<td style="text-align:right">9.31</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.41</td>
+<td style="text-align:right"><strong>40.83%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 3→P030</td>
+<td style="text-align:right">60.64 s</td>
+<td style="text-align:right">2.15</td>
+<td style="text-align:right">11.33</td>
+<td style="text-align:right">6.39</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">8.36</td>
+<td style="text-align:right"><strong>28.46%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>1→P029, 3→P032, 4→P030</td>
+<td style="text-align:right">60.64 s</td>
+<td style="text-align:right">17.42</td>
+<td style="text-align:right">19.87</td>
+<td style="text-align:right">12.59</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.83</td>
+<td style="text-align:right"><strong>54.70%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 2→P031</td>
+<td style="text-align:right">57.49 s</td>
+<td style="text-align:right">2.09</td>
+<td style="text-align:right">11.45</td>
+<td style="text-align:right">8.01</td>
+<td style="text-align:right">1.82</td>
+<td style="text-align:right">4.41</td>
+<td style="text-align:right"><strong>27.78%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>1→P029, 2→P031, 3→P032</td>
+<td style="text-align:right">57.49 s</td>
+<td style="text-align:right">12.30</td>
+<td style="text-align:right">19.12</td>
+<td style="text-align:right">12.43</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.10</td>
+<td style="text-align:right"><strong>49.94%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P031, P032</td>
+<td>0→P029, 1→P032</td>
+<td style="text-align:right">53.57 s</td>
+<td style="text-align:right">1.71</td>
+<td style="text-align:right">3.75</td>
+<td style="text-align:right">8.88</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.34%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P031, P032</td>
+<td>1→P029, 3→P032</td>
+<td style="text-align:right">53.57 s</td>
+<td style="text-align:right">16.52</td>
+<td style="text-align:right">4.57</td>
+<td style="text-align:right">15.29</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.26</td>
+<td style="text-align:right"><strong>37.63%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 3→P030</td>
+<td style="text-align:right">59.00 s</td>
+<td style="text-align:right">9.38</td>
+<td style="text-align:right">16.17</td>
+<td style="text-align:right">5.08</td>
+<td style="text-align:right">0.66</td>
+<td style="text-align:right">3.67</td>
+<td style="text-align:right"><strong>34.96%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→未匹配, 1→P029, 2→P031, 3→P032, 4→P030</td>
+<td style="text-align:right">59.00 s</td>
+<td style="text-align:right">16.46</td>
+<td style="text-align:right">23.50</td>
+<td style="text-align:right">11.25</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.81</td>
+<td style="text-align:right"><strong>58.01%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 3→P030</td>
+<td style="text-align:right">51.24 s</td>
+<td style="text-align:right">7.81</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.89</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.70%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 4→P030</td>
+<td style="text-align:right">51.24 s</td>
+<td style="text-align:right">22.38</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.30</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.13</td>
+<td style="text-align:right"><strong>37.81%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 3→P030</td>
+<td style="text-align:right">42.89 s</td>
+<td style="text-align:right">3.58</td>
+<td style="text-align:right">5.95</td>
+<td style="text-align:right">13.45</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.86</td>
+<td style="text-align:right"><strong>23.85%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>1→P029, 2→P031, 3→P032</td>
+<td style="text-align:right">42.89 s</td>
+<td style="text-align:right">27.82</td>
+<td style="text-align:right">6.49</td>
+<td style="text-align:right">24.21</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.98</td>
+<td style="text-align:right"><strong>64.49%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right">59.69 s</td>
+<td style="text-align:right">6.42</td>
+<td style="text-align:right">8.46</td>
+<td style="text-align:right">7.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.69</td>
+<td style="text-align:right"><strong>29.57%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P032</td>
+<td>1→P029, 2→P031, 3→P032, 4→P030</td>
+<td style="text-align:right">59.69 s</td>
+<td style="text-align:right">18.96</td>
+<td style="text-align:right">13.59</td>
+<td style="text-align:right">6.60</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">10.96</td>
+<td style="text-align:right"><strong>50.11%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P032, 3→P030</td>
+<td style="text-align:right">61.02 s</td>
+<td style="text-align:right">14.65</td>
+<td style="text-align:right">18.63</td>
+<td style="text-align:right">6.75</td>
+<td style="text-align:right">0.33</td>
+<td style="text-align:right">3.13</td>
+<td style="text-align:right"><strong>43.49%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 3→P032, 4→P030</td>
+<td style="text-align:right">61.02 s</td>
+<td style="text-align:right">15.20</td>
+<td style="text-align:right">13.07</td>
+<td style="text-align:right">6.70</td>
+<td style="text-align:right">0.07</td>
+<td style="text-align:right">10.77</td>
+<td style="text-align:right"><strong>45.80%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P032</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right">45.80 s</td>
+<td style="text-align:right">13.28</td>
+<td style="text-align:right">3.62</td>
+<td style="text-align:right">3.87</td>
+<td style="text-align:right">2.21</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>22.98%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P032</td>
+<td>1→P029, 3→P032, 4→P030</td>
+<td style="text-align:right">45.80 s</td>
+<td style="text-align:right">19.01</td>
+<td style="text-align:right">3.25</td>
+<td style="text-align:right">16.32</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.09</td>
+<td style="text-align:right"><strong>41.68%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–21:44.17</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P032, 2→P031</td>
+<td style="text-align:right">29.83 s</td>
+<td style="text-align:right">13.35</td>
+<td style="text-align:right">3.42</td>
+<td style="text-align:right">6.03</td>
+<td style="text-align:right">0.91</td>
+<td style="text-align:right">13.38</td>
+<td style="text-align:right"><strong>37.09%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–21:35.26</td>
+<td style="text-align:center">R1</td>
+<td>P029, P031</td>
+<td>0→未匹配, 1→P029</td>
+<td style="text-align:right">24.81 s</td>
+<td style="text-align:right">20.33</td>
+<td style="text-align:right">13.90</td>
+<td style="text-align:right">30.77</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">12.05</td>
+<td style="text-align:right"><strong>77.06%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P029, P030, P031, P032</td>
+<td>0→P029, 1→P032, 2→P031, 3→P030</td>
+<td style="text-align:right"><strong>1204.10 s</strong></td>
+<td style="text-align:right">5.37</td>
+<td style="text-align:right">7.11</td>
+<td style="text-align:right">7.19</td>
+<td style="text-align:right">0.58</td>
+<td style="text-align:right">3.60</td>
+<td style="text-align:right"><strong>23.85%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P029, P030, P031, P032</td>
+<td>0→未匹配, 1→P029, 2→P031, 3→P032, 4→P030</td>
+<td style="text-align:right"><strong>1199.08 s</strong></td>
+<td style="text-align:right">17.49</td>
+<td style="text-align:right">10.72</td>
+<td style="text-align:right">11.69</td>
+<td style="text-align:right">0.01</td>
+<td style="text-align:right">7.01</td>
+<td style="text-align:right"><strong>46.92%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="section-3">20260923-2</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">47.80 s</td>
+<td style="text-align:right">9.04</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.25</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">12.66</td>
+<td style="text-align:right"><strong>29.95%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">47.80 s</td>
+<td style="text-align:right">19.52</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">10.29</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.81</td>
+<td style="text-align:right"><strong>31.62%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">52.85 s</td>
+<td style="text-align:right">20.95</td>
+<td style="text-align:right">0.72</td>
+<td style="text-align:right">6.45</td>
+<td style="text-align:right">2.12</td>
+<td style="text-align:right">20.85</td>
+<td style="text-align:right"><strong>51.08%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">52.85 s</td>
+<td style="text-align:right">21.98</td>
+<td style="text-align:right">0.53</td>
+<td style="text-align:right">8.04</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.36</td>
+<td style="text-align:right"><strong>33.91%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">58.67 s</td>
+<td style="text-align:right">1.18</td>
+<td style="text-align:right">9.41</td>
+<td style="text-align:right">8.61</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">7.49</td>
+<td style="text-align:right"><strong>27.38%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">58.67 s</td>
+<td style="text-align:right">12.36</td>
+<td style="text-align:right">7.83</td>
+<td style="text-align:right">9.39</td>
+<td style="text-align:right">2.33</td>
+<td style="text-align:right">3.78</td>
+<td style="text-align:right"><strong>35.69%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">60.63 s</td>
+<td style="text-align:right">22.22</td>
+<td style="text-align:right">2.75</td>
+<td style="text-align:right">3.25</td>
+<td style="text-align:right">1.38</td>
+<td style="text-align:right">11.90</td>
+<td style="text-align:right"><strong>41.49%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">60.63 s</td>
+<td style="text-align:right">11.66</td>
+<td style="text-align:right">6.17</td>
+<td style="text-align:right">6.42</td>
+<td style="text-align:right">1.82</td>
+<td style="text-align:right">4.51</td>
+<td style="text-align:right"><strong>30.59%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">56.47 s</td>
+<td style="text-align:right">11.14</td>
+<td style="text-align:right">7.14</td>
+<td style="text-align:right">4.99</td>
+<td style="text-align:right">0.08</td>
+<td style="text-align:right">2.35</td>
+<td style="text-align:right"><strong>25.70%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 2→P033, 3→P030</td>
+<td style="text-align:right">56.47 s</td>
+<td style="text-align:right">13.35</td>
+<td style="text-align:right">9.05</td>
+<td style="text-align:right">9.32</td>
+<td style="text-align:right">0.40</td>
+<td style="text-align:right">3.42</td>
+<td style="text-align:right"><strong>35.55%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">53.17 s</td>
+<td style="text-align:right">17.43</td>
+<td style="text-align:right">6.79</td>
+<td style="text-align:right">8.42</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.13</td>
+<td style="text-align:right"><strong>33.76%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">53.17 s</td>
+<td style="text-align:right">15.61</td>
+<td style="text-align:right">5.34</td>
+<td style="text-align:right">11.39</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.20</td>
+<td style="text-align:right"><strong>35.55%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029</td>
+<td>1→P029</td>
+<td style="text-align:right">49.04 s</td>
+<td style="text-align:right">2.53</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">12.28</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.80%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029</td>
+<td>0→P029, 3→P030</td>
+<td style="text-align:right">49.04 s</td>
+<td style="text-align:right">15.05</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">14.52</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.34</td>
+<td style="text-align:right"><strong>30.91%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">56.74 s</td>
+<td style="text-align:right">15.75</td>
+<td style="text-align:right">14.24</td>
+<td style="text-align:right">8.09</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.21</td>
+<td style="text-align:right"><strong>41.29%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">56.74 s</td>
+<td style="text-align:right">10.06</td>
+<td style="text-align:right">14.32</td>
+<td style="text-align:right">9.37</td>
+<td style="text-align:right">0.14</td>
+<td style="text-align:right">6.52</td>
+<td style="text-align:right"><strong>40.42%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">59.59 s</td>
+<td style="text-align:right">13.81</td>
+<td style="text-align:right">20.46</td>
+<td style="text-align:right">4.32</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">10.00</td>
+<td style="text-align:right"><strong>48.58%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">59.59 s</td>
+<td style="text-align:right">21.15</td>
+<td style="text-align:right">19.26</td>
+<td style="text-align:right">7.98</td>
+<td style="text-align:right">0.10</td>
+<td style="text-align:right">3.32</td>
+<td style="text-align:right"><strong>51.81%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">54.79 s</td>
+<td style="text-align:right">6.33</td>
+<td style="text-align:right">3.08</td>
+<td style="text-align:right">5.85</td>
+<td style="text-align:right">0.11</td>
+<td style="text-align:right">0.66</td>
+<td style="text-align:right"><strong>16.03%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 3→P030</td>
+<td style="text-align:right">54.79 s</td>
+<td style="text-align:right">16.57</td>
+<td style="text-align:right">3.45</td>
+<td style="text-align:right">7.96</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.77</td>
+<td style="text-align:right"><strong>28.75%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">56.79 s</td>
+<td style="text-align:right">6.48</td>
+<td style="text-align:right">7.20</td>
+<td style="text-align:right">8.06</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.21</td>
+<td style="text-align:right"><strong>29.96%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">56.79 s</td>
+<td style="text-align:right">17.52</td>
+<td style="text-align:right">7.83</td>
+<td style="text-align:right">11.23</td>
+<td style="text-align:right">0.46</td>
+<td style="text-align:right">4.71</td>
+<td style="text-align:right"><strong>41.75%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">61.92 s</td>
+<td style="text-align:right">14.34</td>
+<td style="text-align:right">30.59</td>
+<td style="text-align:right">2.49</td>
+<td style="text-align:right">0.53</td>
+<td style="text-align:right">21.51</td>
+<td style="text-align:right"><strong>69.46%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P033</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">61.92 s</td>
+<td style="text-align:right">9.02</td>
+<td style="text-align:right">27.62</td>
+<td style="text-align:right">8.13</td>
+<td style="text-align:right">1.99</td>
+<td style="text-align:right">3.80</td>
+<td style="text-align:right"><strong>50.57%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">49.65 s</td>
+<td style="text-align:right">32.07</td>
+<td style="text-align:right">7.20</td>
+<td style="text-align:right">5.19</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.86</td>
+<td style="text-align:right"><strong>49.33%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">49.65 s</td>
+<td style="text-align:right">19.32</td>
+<td style="text-align:right">7.12</td>
+<td style="text-align:right">12.08</td>
+<td style="text-align:right">0.25</td>
+<td style="text-align:right">5.16</td>
+<td style="text-align:right"><strong>43.93%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">53.43 s</td>
+<td style="text-align:right">8.57</td>
+<td style="text-align:right">6.10</td>
+<td style="text-align:right">9.63</td>
+<td style="text-align:right">0.75</td>
+<td style="text-align:right">0.33</td>
+<td style="text-align:right"><strong>25.39%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">53.43 s</td>
+<td style="text-align:right">18.81</td>
+<td style="text-align:right">5.88</td>
+<td style="text-align:right">10.27</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.72</td>
+<td style="text-align:right"><strong>39.68%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">56.40 s</td>
+<td style="text-align:right">27.27</td>
+<td style="text-align:right">29.77</td>
+<td style="text-align:right">11.93</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.58</td>
+<td style="text-align:right"><strong>77.54%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">56.40 s</td>
+<td style="text-align:right">8.21</td>
+<td style="text-align:right">25.41</td>
+<td style="text-align:right">16.21</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.57</td>
+<td style="text-align:right"><strong>54.41%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">48.95 s</td>
+<td style="text-align:right">38.03</td>
+<td style="text-align:right">8.24</td>
+<td style="text-align:right">3.99</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.96</td>
+<td style="text-align:right"><strong>58.22%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">48.95 s</td>
+<td style="text-align:right">12.11</td>
+<td style="text-align:right">8.22</td>
+<td style="text-align:right">14.50</td>
+<td style="text-align:right">0.33</td>
+<td style="text-align:right">2.34</td>
+<td style="text-align:right"><strong>37.51%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">52.29 s</td>
+<td style="text-align:right">30.87</td>
+<td style="text-align:right">11.97</td>
+<td style="text-align:right">7.88</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.13</td>
+<td style="text-align:right"><strong>61.85%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">52.29 s</td>
+<td style="text-align:right">16.62</td>
+<td style="text-align:right">8.11</td>
+<td style="text-align:right">9.72</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.61</td>
+<td style="text-align:right"><strong>35.07%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">59.71 s</td>
+<td style="text-align:right">44.84</td>
+<td style="text-align:right">28.81</td>
+<td style="text-align:right">1.54</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.03</td>
+<td style="text-align:right"><strong>80.21%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">59.71 s</td>
+<td style="text-align:right">11.17</td>
+<td style="text-align:right">19.96</td>
+<td style="text-align:right">8.14</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.92</td>
+<td style="text-align:right"><strong>44.19%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">63.41 s</td>
+<td style="text-align:right">10.04</td>
+<td style="text-align:right">19.41</td>
+<td style="text-align:right">2.73</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.86</td>
+<td style="text-align:right"><strong>38.03%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right">63.41 s</td>
+<td style="text-align:right">10.73</td>
+<td style="text-align:right">18.74</td>
+<td style="text-align:right">4.81</td>
+<td style="text-align:right">0.63</td>
+<td style="text-align:right">5.82</td>
+<td style="text-align:right"><strong>40.72%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">65.87 s</td>
+<td style="text-align:right">4.37</td>
+<td style="text-align:right">14.28</td>
+<td style="text-align:right">4.60</td>
+<td style="text-align:right">0.21</td>
+<td style="text-align:right">1.92</td>
+<td style="text-align:right"><strong>25.38%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 2→P033, 3→P030</td>
+<td style="text-align:right">65.87 s</td>
+<td style="text-align:right">6.35</td>
+<td style="text-align:right">19.58</td>
+<td style="text-align:right">5.01</td>
+<td style="text-align:right">0.59</td>
+<td style="text-align:right">7.57</td>
+<td style="text-align:right"><strong>39.10%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">55.98 s</td>
+<td style="text-align:right">11.35</td>
+<td style="text-align:right">23.35</td>
+<td style="text-align:right">5.48</td>
+<td style="text-align:right">3.32</td>
+<td style="text-align:right">5.36</td>
+<td style="text-align:right"><strong>48.87%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">55.98 s</td>
+<td style="text-align:right">8.91</td>
+<td style="text-align:right">25.48</td>
+<td style="text-align:right">9.27</td>
+<td style="text-align:right">2.60</td>
+<td style="text-align:right">12.04</td>
+<td style="text-align:right"><strong>58.30%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">39.97 s</td>
+<td style="text-align:right">13.35</td>
+<td style="text-align:right">10.11</td>
+<td style="text-align:right">11.25</td>
+<td style="text-align:right">2.12</td>
+<td style="text-align:right">6.83</td>
+<td style="text-align:right"><strong>43.66%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">39.97 s</td>
+<td style="text-align:right">18.41</td>
+<td style="text-align:right">7.42</td>
+<td style="text-align:right">13.30</td>
+<td style="text-align:right">2.18</td>
+<td style="text-align:right">2.85</td>
+<td style="text-align:right"><strong>44.18%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">53.00 s</td>
+<td style="text-align:right">25.96</td>
+<td style="text-align:right">11.09</td>
+<td style="text-align:right">6.40</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">16.53</td>
+<td style="text-align:right"><strong>59.99%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">53.00 s</td>
+<td style="text-align:right">17.16</td>
+<td style="text-align:right">11.74</td>
+<td style="text-align:right">9.34</td>
+<td style="text-align:right">1.20</td>
+<td style="text-align:right">4.76</td>
+<td style="text-align:right"><strong>44.21%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031</td>
+<td>1→P029, 2→P030</td>
+<td style="text-align:right">44.85 s</td>
+<td style="text-align:right">13.76</td>
+<td style="text-align:right">1.53</td>
+<td style="text-align:right">14.05</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.63</td>
+<td style="text-align:right"><strong>29.98%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031</td>
+<td>0→P029, 1→P031, 3→P030</td>
+<td style="text-align:right">44.85 s</td>
+<td style="text-align:right">24.64</td>
+<td style="text-align:right">0.91</td>
+<td style="text-align:right">15.57</td>
+<td style="text-align:right">0.67</td>
+<td style="text-align:right">4.81</td>
+<td style="text-align:right"><strong>46.60%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–24:44.23</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right">45.74 s</td>
+<td style="text-align:right">8.75</td>
+<td style="text-align:right">21.51</td>
+<td style="text-align:right">7.15</td>
+<td style="text-align:right">0.35</td>
+<td style="text-align:right">6.97</td>
+<td style="text-align:right"><strong>44.74%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–24:40.54</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030</td>
+<td>0→P029, 2→P033, 3→P030</td>
+<td style="text-align:right">45.60 s</td>
+<td style="text-align:right">7.63</td>
+<td style="text-align:right">16.41</td>
+<td style="text-align:right">7.79</td>
+<td style="text-align:right">1.50</td>
+<td style="text-align:right">5.35</td>
+<td style="text-align:right"><strong>38.68%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P029, P030, P031, P033</td>
+<td>0→P031, 1→P029, 2→P030</td>
+<td style="text-align:right"><strong>1357.71 s</strong></td>
+<td style="text-align:right">16.34</td>
+<td style="text-align:right">12.27</td>
+<td style="text-align:right">6.70</td>
+<td style="text-align:right">0.46</td>
+<td style="text-align:right">7.35</td>
+<td style="text-align:right"><strong>43.11%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P029, P030, P031, P033</td>
+<td>0→P029, 1→P031, 2→P033, 3→P030</td>
+<td style="text-align:right"><strong>1357.57 s</strong></td>
+<td style="text-align:right">14.29</td>
+<td style="text-align:right">11.56</td>
+<td style="text-align:right">9.79</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">4.33</td>
+<td style="text-align:right"><strong>40.65%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="section-4">20260923-5</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">44.88 s</td>
+<td style="text-align:right">44.31</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.35</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>48.66%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 2→P033, 3→P035</td>
+<td style="text-align:right">44.88 s</td>
+<td style="text-align:right">9.19</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">21.50</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>30.69%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">51.02 s</td>
+<td style="text-align:right">1.29</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.29</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>8.58%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">51.02 s</td>
+<td style="text-align:right">8.72</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.27</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>13.98%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P036</td>
+<td>0→P034, 3→P036</td>
+<td style="text-align:right">55.13 s</td>
+<td style="text-align:right">1.43</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.22</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>6.66%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P036</td>
+<td>0→P034, 1→P036</td>
+<td style="text-align:right">55.13 s</td>
+<td style="text-align:right">7.41</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.26</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>10.67%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">54.41 s</td>
+<td style="text-align:right">1.58</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.08</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>8.66%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">54.41 s</td>
+<td style="text-align:right">7.13</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.55</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>10.68%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">54.58 s</td>
+<td style="text-align:right">1.34</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.79</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>7.13%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">54.58 s</td>
+<td style="text-align:right">10.32</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.72</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>13.03%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">52.39 s</td>
+<td style="text-align:right">2.80</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.53</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>9.33%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">52.39 s</td>
+<td style="text-align:right">5.97</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.86</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>10.83%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">50.86 s</td>
+<td style="text-align:right">0.87</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">14.43</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.09</td>
+<td style="text-align:right"><strong>15.39%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">50.86 s</td>
+<td style="text-align:right">7.61</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.06</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.67%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P033, P035, P036</td>
+<td>1→P035, 2→P033, 3→P036</td>
+<td style="text-align:right">53.22 s</td>
+<td style="text-align:right">5.43</td>
+<td style="text-align:right">0.04</td>
+<td style="text-align:right">5.96</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>11.43%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P033, P035, P036</td>
+<td>1→P036, 2→P033, 3→P035</td>
+<td style="text-align:right">53.22 s</td>
+<td style="text-align:right">7.79</td>
+<td style="text-align:right">0.04</td>
+<td style="text-align:right">3.42</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.15</td>
+<td style="text-align:right"><strong>11.40%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P033, P036</td>
+<td>2→P033, 3→P036</td>
+<td style="text-align:right">54.60 s</td>
+<td style="text-align:right">3.75</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.19</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>11.94%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P033, P036</td>
+<td>1→P036, 2→P033</td>
+<td style="text-align:right">54.60 s</td>
+<td style="text-align:right">11.18</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.91</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.09%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">54.29 s</td>
+<td style="text-align:right">1.14</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.61</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>8.75%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">54.29 s</td>
+<td style="text-align:right">6.22</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.09</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>11.31%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">48.95 s</td>
+<td style="text-align:right">0.73</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">12.83</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>13.56%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">48.95 s</td>
+<td style="text-align:right">8.04</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.66</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>16.71%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">50.59 s</td>
+<td style="text-align:right">12.47</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.55</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>21.03%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">50.59 s</td>
+<td style="text-align:right">9.99</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.26</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>16.25%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">51.83 s</td>
+<td style="text-align:right">0.13</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">14.58</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.71%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">51.83 s</td>
+<td style="text-align:right">10.90</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">10.74</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>21.64%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>0→P034, 1→P035, 2→P033, 3→P036</td>
+<td style="text-align:right">52.05 s</td>
+<td style="text-align:right">7.13</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.65</td>
+<td style="text-align:right">1.31</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.09%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">52.05 s</td>
+<td style="text-align:right">10.17</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.43</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.60%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">51.84 s</td>
+<td style="text-align:right">19.02</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">10.61</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>29.63%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">51.84 s</td>
+<td style="text-align:right">11.01</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.62</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>17.63%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">50.92 s</td>
+<td style="text-align:right">0.81</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.53</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>12.34%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">50.92 s</td>
+<td style="text-align:right">13.66</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.93</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>19.59%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">54.11 s</td>
+<td style="text-align:right">0.45</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.79</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>8.24%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">54.11 s</td>
+<td style="text-align:right">4.20</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.11</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>9.31%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P036</td>
+<td>0→P034, 1→P035, 2→P033, 3→P036</td>
+<td style="text-align:right">50.20 s</td>
+<td style="text-align:right">2.41</td>
+<td style="text-align:right">0.64</td>
+<td style="text-align:right">12.39</td>
+<td style="text-align:right">3.20</td>
+<td style="text-align:right">0.17</td>
+<td style="text-align:right"><strong>18.81%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P036</td>
+<td>0→P034, 1→P036</td>
+<td style="text-align:right">50.20 s</td>
+<td style="text-align:right">7.38</td>
+<td style="text-align:right">0.64</td>
+<td style="text-align:right">6.66</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.68%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P036</td>
+<td>3→P036</td>
+<td style="text-align:right">52.49 s</td>
+<td style="text-align:right">1.55</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.70</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>13.25%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P036</td>
+<td>1→P036</td>
+<td style="text-align:right">52.49 s</td>
+<td style="text-align:right">7.72</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.63</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.35%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">53.32 s</td>
+<td style="text-align:right">2.01</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.68</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>10.69%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">53.32 s</td>
+<td style="text-align:right">7.50</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.61</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.12%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">53.22 s</td>
+<td style="text-align:right">0.12</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">10.15</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>10.27%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">53.22 s</td>
+<td style="text-align:right">9.09</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.11</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.20%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">53.46 s</td>
+<td style="text-align:right">10.16</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.55</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>18.71%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">53.46 s</td>
+<td style="text-align:right">10.70</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.09</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.80%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">51.31 s</td>
+<td style="text-align:right">3.21</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">9.38</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>12.59%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">51.31 s</td>
+<td style="text-align:right">8.25</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.93</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.18%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P035, 3→P036</td>
+<td style="text-align:right">47.72 s</td>
+<td style="text-align:right">7.39</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">15.82</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>23.21%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035, P036</td>
+<td>0→P034, 1→P036, 3→P035</td>
+<td style="text-align:right">47.72 s</td>
+<td style="text-align:right">9.92</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.66</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>18.58%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–25:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">51.54 s</td>
+<td style="text-align:right">0.75</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.38</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>12.13%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–25:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">51.54 s</td>
+<td style="text-align:right">10.56</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">9.01</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>19.58%</strong></td>
+</tr>
+<tr>
+<td>第 26 分钟 25:00.00–26:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→P035, 3→P036</td>
+<td style="text-align:right">52.59 s</td>
+<td style="text-align:right">14.22</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">8.58</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>22.80%</strong></td>
+</tr>
+<tr>
+<td>第 26 分钟 25:00.00–26:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→P036, 3→P035</td>
+<td style="text-align:right">52.59 s</td>
+<td style="text-align:right">11.30</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">6.11</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>17.41%</strong></td>
+</tr>
+<tr>
+<td>第 27 分钟 26:00.00–26:24.51</td>
+<td style="text-align:center">D1</td>
+<td>P034, P035</td>
+<td>0→P034, 1→P035</td>
+<td style="text-align:right">16.05 s</td>
+<td style="text-align:right">1.25</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">13.35</td>
+<td style="text-align:right">3.24</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>17.83%</strong></td>
+</tr>
+<tr>
+<td>第 27 分钟 26:00.00–26:20.84</td>
+<td style="text-align:center">R1</td>
+<td>P034, P035</td>
+<td>0→P034, 3→P035</td>
+<td style="text-align:right">16.05 s</td>
+<td style="text-align:right">7.12</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.25</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>18.36%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P033, P034, P035, P036</td>
+<td>0→P034, 1→P035, 2→P033, 3→P036</td>
+<td style="text-align:right"><strong>1367.57 s</strong></td>
+<td style="text-align:right">5.35</td>
+<td style="text-align:right">0.02</td>
+<td style="text-align:right">9.30</td>
+<td style="text-align:right">0.21</td>
+<td style="text-align:right">0.01</td>
+<td style="text-align:right"><strong>14.89%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P033, P034, P035, P036</td>
+<td>0→P034, 1→P036, 2→P033, 3→P035</td>
+<td style="text-align:right"><strong>1367.57 s</strong></td>
+<td style="text-align:right">8.88</td>
+<td style="text-align:right">0.02</td>
+<td style="text-align:right">6.51</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.01</td>
+<td style="text-align:right"><strong>15.43%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="section-5">20260924-2</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P030, P036</td>
+<td>0→P030, 6→P036</td>
+<td style="text-align:right">52.71 s</td>
+<td style="text-align:right">9.28</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.70</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>9.97%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P030, P036</td>
+<td>0→P030, 6→P036</td>
+<td style="text-align:right">52.71 s</td>
+<td style="text-align:right">6.64</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.48</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>7.12%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P030, P032, P034</td>
+<td>0→P030, 4→P032</td>
+<td style="text-align:right">59.17 s</td>
+<td style="text-align:right">10.17</td>
+<td style="text-align:right">9.58</td>
+<td style="text-align:right">0.13</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>19.88%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P030, P032, P034</td>
+<td>0→P030, 3→P032</td>
+<td style="text-align:right">59.17 s</td>
+<td style="text-align:right">5.62</td>
+<td style="text-align:right">9.58</td>
+<td style="text-align:right">0.11</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>15.32%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P030, P032, P034, P035</td>
+<td>0→P030, 3→P035, 4→P032</td>
+<td style="text-align:right">94.77 s</td>
+<td style="text-align:right">1.72</td>
+<td style="text-align:right">41.05</td>
+<td style="text-align:right">0.67</td>
+<td style="text-align:right">0.10</td>
+<td style="text-align:right">0.34</td>
+<td style="text-align:right"><strong>43.89%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P030, P032, P034, P035</td>
+<td>0→P030, 3→P032, 4→P035</td>
+<td style="text-align:right">94.77 s</td>
+<td style="text-align:right">0.86</td>
+<td style="text-align:right">40.38</td>
+<td style="text-align:right">0.37</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.07</td>
+<td style="text-align:right"><strong>41.67%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P031, P032, P035</td>
+<td>2→P031, 3→P035</td>
+<td style="text-align:right">51.14 s</td>
+<td style="text-align:right">3.34</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.19</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>5.53%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P031, P032, P035</td>
+<td>2→P031, 3→P032, 4→P035</td>
+<td style="text-align:right">51.14 s</td>
+<td style="text-align:right">2.42</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.63</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>3.05%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P031, P035</td>
+<td>2→P031, 3→P035, 5→P029</td>
+<td style="text-align:right">52.10 s</td>
+<td style="text-align:right">6.54</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.78</td>
+<td style="text-align:right">0.65</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>9.96%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P031, P035</td>
+<td>1→未匹配, 2→P031, 4→P035</td>
+<td style="text-align:right">52.10 s</td>
+<td style="text-align:right">4.38</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.04</td>
+<td style="text-align:right"><strong>6.10%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P035</td>
+<td>0→P030, 3→P035, 5→P029</td>
+<td style="text-align:right">51.82 s</td>
+<td style="text-align:right">7.78</td>
+<td style="text-align:right">1.28</td>
+<td style="text-align:right">2.56</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>11.62%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P035</td>
+<td>0→P030, 4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">51.82 s</td>
+<td style="text-align:right">5.73</td>
+<td style="text-align:right">1.38</td>
+<td style="text-align:right">3.14</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.44</td>
+<td style="text-align:right"><strong>12.69%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P030, P035, P036</td>
+<td>0→P030, 3→P035, 6→P036</td>
+<td style="text-align:right">51.73 s</td>
+<td style="text-align:right">4.19</td>
+<td style="text-align:right">0.18</td>
+<td style="text-align:right">2.59</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>6.96%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P030, P035, P036</td>
+<td>0→P030, 4→P035, 6→P036</td>
+<td style="text-align:right">51.73 s</td>
+<td style="text-align:right">4.84</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">0.95</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>6.02%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P036</td>
+<td>6→P036</td>
+<td style="text-align:right">57.40 s</td>
+<td style="text-align:right">0.82</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.76</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>2.59%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P036</td>
+<td>6→P036</td>
+<td style="text-align:right">57.40 s</td>
+<td style="text-align:right">1.22</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.94</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>2.16%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>3→P035, 6→P036</td>
+<td style="text-align:right">53.14 s</td>
+<td style="text-align:right">4.34</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.61</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>8.95%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>3→P032, 4→P035, 6→P036</td>
+<td style="text-align:right">53.14 s</td>
+<td style="text-align:right">4.63</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.05</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.34</td>
+<td style="text-align:right"><strong>11.03%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P035</td>
+<td>3→P035, 5→P029</td>
+<td style="text-align:right">51.47 s</td>
+<td style="text-align:right">10.67</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.89</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>14.56%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P035</td>
+<td>4→P035, 5→P029</td>
+<td style="text-align:right">51.47 s</td>
+<td style="text-align:right">4.64</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.75</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>6.39%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P036</td>
+<td>3→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">54.05 s</td>
+<td style="text-align:right">3.27</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.10</td>
+<td style="text-align:right">0.52</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>5.88%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P036</td>
+<td>5→P029, 6→P036</td>
+<td style="text-align:right">54.05 s</td>
+<td style="text-align:right">2.11</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.30</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>3.41%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>3→P035, 6→P036</td>
+<td style="text-align:right">51.04 s</td>
+<td style="text-align:right">4.33</td>
+<td style="text-align:right">1.69</td>
+<td style="text-align:right">1.93</td>
+<td style="text-align:right">0.33</td>
+<td style="text-align:right">0.09</td>
+<td style="text-align:right"><strong>8.38%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>4→P035, 6→P036</td>
+<td style="text-align:right">51.04 s</td>
+<td style="text-align:right">4.54</td>
+<td style="text-align:right">1.69</td>
+<td style="text-align:right">0.91</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>7.14%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>3→P035, 6→P036</td>
+<td style="text-align:right">56.00 s</td>
+<td style="text-align:right">3.22</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.90</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.18</td>
+<td style="text-align:right"><strong>5.29%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">56.00 s</td>
+<td style="text-align:right">2.91</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.41</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.89</td>
+<td style="text-align:right"><strong>8.21%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P035, P036</td>
+<td>3→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">53.59 s</td>
+<td style="text-align:right">4.67</td>
+<td style="text-align:right">1.29</td>
+<td style="text-align:right">3.18</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">7.20</td>
+<td style="text-align:right"><strong>16.34%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P035, P036</td>
+<td>4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">53.59 s</td>
+<td style="text-align:right">2.61</td>
+<td style="text-align:right">0.16</td>
+<td style="text-align:right">0.85</td>
+<td style="text-align:right">0.03</td>
+<td style="text-align:right">1.74</td>
+<td style="text-align:right"><strong>5.40%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P036</td>
+<td>5→P029, 6→P036</td>
+<td style="text-align:right">57.34 s</td>
+<td style="text-align:right">5.50</td>
+<td style="text-align:right">3.20</td>
+<td style="text-align:right">1.10</td>
+<td style="text-align:right">0.07</td>
+<td style="text-align:right">0.10</td>
+<td style="text-align:right"><strong>9.97%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P036</td>
+<td>4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">57.34 s</td>
+<td style="text-align:right">3.83</td>
+<td style="text-align:right">2.96</td>
+<td style="text-align:right">0.07</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.35</td>
+<td style="text-align:right"><strong>7.21%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P032, P034, P036</td>
+<td>4→P032, 6→P036</td>
+<td style="text-align:right">58.00 s</td>
+<td style="text-align:right">3.34</td>
+<td style="text-align:right">10.05</td>
+<td style="text-align:right">1.66</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.83</td>
+<td style="text-align:right"><strong>18.87%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P032, P034, P036</td>
+<td>3→P032, 6→P036</td>
+<td style="text-align:right">58.00 s</td>
+<td style="text-align:right">2.75</td>
+<td style="text-align:right">9.88</td>
+<td style="text-align:right">0.41</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.72</td>
+<td style="text-align:right"><strong>13.77%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→未匹配, 3→P035, 6→P036</td>
+<td style="text-align:right">34.74 s</td>
+<td style="text-align:right">5.37</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">39.62</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.85</td>
+<td style="text-align:right"><strong>46.84%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→未匹配, 4→P035, 6→P036</td>
+<td style="text-align:right">34.74 s</td>
+<td style="text-align:right">4.63</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">37.18</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>41.80%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P031, P035, P036</td>
+<td>1→未匹配, 2→P031, 3→P035, 6→P036</td>
+<td style="text-align:right">38.62 s</td>
+<td style="text-align:right">4.08</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">43.77</td>
+<td style="text-align:right">1.28</td>
+<td style="text-align:right">0.87</td>
+<td style="text-align:right"><strong>49.99%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P031, P035, P036</td>
+<td>1→未匹配, 2→P031, 6→P036</td>
+<td style="text-align:right">38.62 s</td>
+<td style="text-align:right">5.75</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">42.52</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.63</td>
+<td style="text-align:right"><strong>52.90%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P030, P031, P035</td>
+<td>0→P030, 2→P031, 3→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">54.15 s</td>
+<td style="text-align:right">5.31</td>
+<td style="text-align:right">3.25</td>
+<td style="text-align:right">4.91</td>
+<td style="text-align:right">3.04</td>
+<td style="text-align:right">1.44</td>
+<td style="text-align:right"><strong>17.96%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P030, P031, P035</td>
+<td>0→P030, 2→P031, 4→P035, 5→P029</td>
+<td style="text-align:right">54.15 s</td>
+<td style="text-align:right">3.59</td>
+<td style="text-align:right">4.64</td>
+<td style="text-align:right">1.52</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">5.67</td>
+<td style="text-align:right"><strong>15.42%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P029, P036</td>
+<td>5→P029, 6→P036</td>
+<td style="text-align:right">56.15 s</td>
+<td style="text-align:right">3.31</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.62</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>4.92%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P029, P036</td>
+<td>5→P029, 6→P036</td>
+<td style="text-align:right">56.15 s</td>
+<td style="text-align:right">3.37</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.89</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>4.26%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>1→未匹配, 3→P035, 6→P036</td>
+<td style="text-align:right">29.94 s</td>
+<td style="text-align:right">8.54</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">78.15</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>86.69%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>1→未匹配, 3→P032, 4→P035, 6→P036</td>
+<td style="text-align:right">29.94 s</td>
+<td style="text-align:right">4.38</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">70.84</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>75.22%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>3→P035, 6→P036</td>
+<td style="text-align:right">49.50 s</td>
+<td style="text-align:right">5.03</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">4.12</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>9.15%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">49.50 s</td>
+<td style="text-align:right">4.61</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.57</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.64</td>
+<td style="text-align:right"><strong>9.81%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>3→P035, 6→P036</td>
+<td style="text-align:right">53.29 s</td>
+<td style="text-align:right">4.97</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">3.24</td>
+<td style="text-align:right">0.79</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>8.99%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right">53.29 s</td>
+<td style="text-align:right">4.27</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.85</td>
+<td style="text-align:right">0.71</td>
+<td style="text-align:right">2.14</td>
+<td style="text-align:right"><strong>7.98%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–23:49.79</td>
+<td style="text-align:center">D1</td>
+<td>P035, P036</td>
+<td>3→P035, 6→P036</td>
+<td style="text-align:right">38.08 s</td>
+<td style="text-align:right">6.70</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">2.84</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.15</td>
+<td style="text-align:right"><strong>9.69%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–23:48.19</td>
+<td style="text-align:center">R1</td>
+<td>P035, P036</td>
+<td>4→P035, 6→P036</td>
+<td style="text-align:right">38.08 s</td>
+<td style="text-align:right">5.97</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">1.86</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right"><strong>7.83%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P029, P030, P031, P032, P034, P035, P036</td>
+<td>0→P030, 1→未匹配, 2→P031, 3→P035, 4→P032, 5→P029, 6→P036</td>
+<td style="text-align:right"><strong>1259.94 s</strong></td>
+<td style="text-align:right">5.07</td>
+<td style="text-align:right">4.47</td>
+<td style="text-align:right">6.41</td>
+<td style="text-align:right">0.28</td>
+<td style="text-align:right">0.67</td>
+<td style="text-align:right"><strong>16.90%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P029, P030, P031, P032, P034, P035, P036</td>
+<td>0→P030, 1→未匹配, 2→P031, 3→P032, 4→P035, 5→P029, 6→P036</td>
+<td style="text-align:right"><strong>1259.94 s</strong></td>
+<td style="text-align:right">3.83</td>
+<td style="text-align:right">4.42</td>
+<td style="text-align:right">4.87</td>
+<td style="text-align:right">0.03</td>
+<td style="text-align:right">1.33</td>
+<td style="text-align:right"><strong>14.49%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="section-6">20260924-5</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分钟（起止）</th>
+<th style="text-align:center">轨道</th>
+<th>参考说话人编号</th>
+<th>预测编号→参考编号</th>
+<th style="text-align:right">参考说话人时长</th>
+<th style="text-align:right">单人讲话漏检（百分点）</th>
+<th style="text-align:right">多人重叠讲话漏检（百分点）</th>
+<th style="text-align:right">静音时误报有人讲话（百分点）</th>
+<th style="text-align:right">有语音时多报说话人数（百分点）</th>
+<th style="text-align:right">说话人身份混淆（百分点）</th>
+<th style="text-align:right">整体 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P041, P042</td>
+<td>1→P041, 2→P037</td>
+<td style="text-align:right">48.39 s</td>
+<td style="text-align:right">15.76</td>
+<td style="text-align:right">4.45</td>
+<td style="text-align:right">2.14</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">11.07</td>
+<td style="text-align:right"><strong>33.43%</strong></td>
+</tr>
+<tr>
+<td>第 1 分钟 00:00.00–01:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P041, P042</td>
+<td>1→P037, 3→P041</td>
+<td style="text-align:right">48.39 s</td>
+<td style="text-align:right">12.54</td>
+<td style="text-align:right">4.24</td>
+<td style="text-align:right">4.26</td>
+<td style="text-align:right">0.00</td>
+<td style="text-align:right">14.88</td>
+<td style="text-align:right"><strong>35.92%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">59.86 s</td>
+<td style="text-align:right">2.81</td>
+<td style="text-align:right">7.01</td>
+<td style="text-align:right">6.05</td>
+<td style="text-align:right">5.94</td>
+<td style="text-align:right">6.77</td>
+<td style="text-align:right"><strong>28.57%</strong></td>
+</tr>
+<tr>
+<td>第 2 分钟 01:00.00–02:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">59.86 s</td>
+<td style="text-align:right">4.41</td>
+<td style="text-align:right">5.37</td>
+<td style="text-align:right">5.83</td>
+<td style="text-align:right">5.86</td>
+<td style="text-align:right">6.43</td>
+<td style="text-align:right"><strong>27.90%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">84.19 s</td>
+<td style="text-align:right">1.46</td>
+<td style="text-align:right">18.90</td>
+<td style="text-align:right">2.42</td>
+<td style="text-align:right">1.98</td>
+<td style="text-align:right">21.85</td>
+<td style="text-align:right"><strong>46.61%</strong></td>
+</tr>
+<tr>
+<td>第 3 分钟 02:00.00–03:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">84.19 s</td>
+<td style="text-align:right">8.26</td>
+<td style="text-align:right">25.73</td>
+<td style="text-align:right">2.11</td>
+<td style="text-align:right">1.16</td>
+<td style="text-align:right">6.73</td>
+<td style="text-align:right"><strong>43.98%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">100.08 s</td>
+<td style="text-align:right">2.45</td>
+<td style="text-align:right">28.20</td>
+<td style="text-align:right">0.36</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">18.68</td>
+<td style="text-align:right"><strong>50.37%</strong></td>
+</tr>
+<tr>
+<td>第 4 分钟 03:00.00–04:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">100.08 s</td>
+<td style="text-align:right">2.79</td>
+<td style="text-align:right">28.19</td>
+<td style="text-align:right">1.13</td>
+<td style="text-align:right">1.77</td>
+<td style="text-align:right">9.05</td>
+<td style="text-align:right"><strong>42.94%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042, P043, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">68.36 s</td>
+<td style="text-align:right">3.62</td>
+<td style="text-align:right">10.20</td>
+<td style="text-align:right">3.10</td>
+<td style="text-align:right">6.12</td>
+<td style="text-align:right">11.64</td>
+<td style="text-align:right"><strong>34.69%</strong></td>
+</tr>
+<tr>
+<td>第 5 分钟 04:00.00–05:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042, P043, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">68.36 s</td>
+<td style="text-align:right">7.57</td>
+<td style="text-align:right">10.21</td>
+<td style="text-align:right">3.65</td>
+<td style="text-align:right">5.41</td>
+<td style="text-align:right">11.63</td>
+<td style="text-align:right"><strong>38.47%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">62.26 s</td>
+<td style="text-align:right">3.61</td>
+<td style="text-align:right">8.33</td>
+<td style="text-align:right">6.60</td>
+<td style="text-align:right">3.87</td>
+<td style="text-align:right">19.74</td>
+<td style="text-align:right"><strong>42.15%</strong></td>
+</tr>
+<tr>
+<td>第 6 分钟 05:00.00–06:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042, P044</td>
+<td>1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">62.26 s</td>
+<td style="text-align:right">4.02</td>
+<td style="text-align:right">7.59</td>
+<td style="text-align:right">7.79</td>
+<td style="text-align:right">3.79</td>
+<td style="text-align:right">16.99</td>
+<td style="text-align:right"><strong>40.17%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042, P043</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">71.79 s</td>
+<td style="text-align:right">4.15</td>
+<td style="text-align:right">13.32</td>
+<td style="text-align:right">0.43</td>
+<td style="text-align:right">0.47</td>
+<td style="text-align:right">14.54</td>
+<td style="text-align:right"><strong>32.92%</strong></td>
+</tr>
+<tr>
+<td>第 7 分钟 06:00.00–07:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042, P043</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">71.79 s</td>
+<td style="text-align:right">4.61</td>
+<td style="text-align:right">14.38</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">1.06</td>
+<td style="text-align:right">9.45</td>
+<td style="text-align:right"><strong>30.20%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P040, P041, P042, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">86.09 s</td>
+<td style="text-align:right">4.00</td>
+<td style="text-align:right">21.85</td>
+<td style="text-align:right">0.78</td>
+<td style="text-align:right">1.32</td>
+<td style="text-align:right">25.20</td>
+<td style="text-align:right"><strong>53.16%</strong></td>
+</tr>
+<tr>
+<td>第 8 分钟 07:00.00–08:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P040, P041, P042, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">86.09 s</td>
+<td style="text-align:right">8.61</td>
+<td style="text-align:right">28.31</td>
+<td style="text-align:right">1.05</td>
+<td style="text-align:right">0.85</td>
+<td style="text-align:right">11.44</td>
+<td style="text-align:right"><strong>50.27%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P040, P041, P042, P043, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">78.01 s</td>
+<td style="text-align:right">3.73</td>
+<td style="text-align:right">21.05</td>
+<td style="text-align:right">2.30</td>
+<td style="text-align:right">0.90</td>
+<td style="text-align:right">22.61</td>
+<td style="text-align:right"><strong>50.59%</strong></td>
+</tr>
+<tr>
+<td>第 9 分钟 08:00.00–09:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P040, P041, P042, P043, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">78.01 s</td>
+<td style="text-align:right">3.63</td>
+<td style="text-align:right">19.85</td>
+<td style="text-align:right">3.63</td>
+<td style="text-align:right">1.07</td>
+<td style="text-align:right">24.30</td>
+<td style="text-align:right"><strong>52.48%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">80.97 s</td>
+<td style="text-align:right">2.86</td>
+<td style="text-align:right">22.66</td>
+<td style="text-align:right">5.20</td>
+<td style="text-align:right">3.19</td>
+<td style="text-align:right">31.58</td>
+<td style="text-align:right"><strong>65.48%</strong></td>
+</tr>
+<tr>
+<td>第 10 分钟 09:00.00–10:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">80.97 s</td>
+<td style="text-align:right">6.71</td>
+<td style="text-align:right">21.08</td>
+<td style="text-align:right">3.47</td>
+<td style="text-align:right">4.82</td>
+<td style="text-align:right">21.95</td>
+<td style="text-align:right"><strong>58.04%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">98.31 s</td>
+<td style="text-align:right">2.00</td>
+<td style="text-align:right">23.75</td>
+<td style="text-align:right">1.79</td>
+<td style="text-align:right">4.54</td>
+<td style="text-align:right">17.81</td>
+<td style="text-align:right"><strong>49.89%</strong></td>
+</tr>
+<tr>
+<td>第 11 分钟 10:00.00–11:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">98.31 s</td>
+<td style="text-align:right">5.24</td>
+<td style="text-align:right">22.84</td>
+<td style="text-align:right">1.40</td>
+<td style="text-align:right">2.31</td>
+<td style="text-align:right">20.86</td>
+<td style="text-align:right"><strong>52.64%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">53.14 s</td>
+<td style="text-align:right">7.26</td>
+<td style="text-align:right">21.61</td>
+<td style="text-align:right">12.62</td>
+<td style="text-align:right">0.80</td>
+<td style="text-align:right">23.73</td>
+<td style="text-align:right"><strong>66.01%</strong></td>
+</tr>
+<tr>
+<td>第 12 分钟 11:00.00–12:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P040, P041, P042, P043</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">53.14 s</td>
+<td style="text-align:right">13.79</td>
+<td style="text-align:right">28.07</td>
+<td style="text-align:right">8.67</td>
+<td style="text-align:right">0.27</td>
+<td style="text-align:right">15.24</td>
+<td style="text-align:right"><strong>66.04%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P040, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">66.77 s</td>
+<td style="text-align:right">5.19</td>
+<td style="text-align:right">17.90</td>
+<td style="text-align:right">0.09</td>
+<td style="text-align:right">2.21</td>
+<td style="text-align:right">32.96</td>
+<td style="text-align:right"><strong>58.35%</strong></td>
+</tr>
+<tr>
+<td>第 13 分钟 12:00.00–13:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P040, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">66.77 s</td>
+<td style="text-align:right">10.60</td>
+<td style="text-align:right">20.06</td>
+<td style="text-align:right">0.36</td>
+<td style="text-align:right">1.96</td>
+<td style="text-align:right">21.43</td>
+<td style="text-align:right"><strong>54.41%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P040, P041, P042, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">67.93 s</td>
+<td style="text-align:right">8.13</td>
+<td style="text-align:right">18.34</td>
+<td style="text-align:right">2.52</td>
+<td style="text-align:right">1.85</td>
+<td style="text-align:right">11.94</td>
+<td style="text-align:right"><strong>42.78%</strong></td>
+</tr>
+<tr>
+<td>第 14 分钟 13:00.00–14:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P040, P041, P042, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">67.93 s</td>
+<td style="text-align:right">13.49</td>
+<td style="text-align:right">21.67</td>
+<td style="text-align:right">2.43</td>
+<td style="text-align:right">1.61</td>
+<td style="text-align:right">7.79</td>
+<td style="text-align:right"><strong>46.98%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">58.19 s</td>
+<td style="text-align:right">3.17</td>
+<td style="text-align:right">19.66</td>
+<td style="text-align:right">5.76</td>
+<td style="text-align:right">1.33</td>
+<td style="text-align:right">27.05</td>
+<td style="text-align:right"><strong>56.96%</strong></td>
+</tr>
+<tr>
+<td>第 15 分钟 14:00.00–15:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">58.19 s</td>
+<td style="text-align:right">4.79</td>
+<td style="text-align:right">16.82</td>
+<td style="text-align:right">3.41</td>
+<td style="text-align:right">1.13</td>
+<td style="text-align:right">4.15</td>
+<td style="text-align:right"><strong>30.30%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">56.06 s</td>
+<td style="text-align:right">8.33</td>
+<td style="text-align:right">17.65</td>
+<td style="text-align:right">1.86</td>
+<td style="text-align:right">1.28</td>
+<td style="text-align:right">41.50</td>
+<td style="text-align:right"><strong>70.63%</strong></td>
+</tr>
+<tr>
+<td>第 16 分钟 15:00.00–16:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">56.06 s</td>
+<td style="text-align:right">12.13</td>
+<td style="text-align:right">21.03</td>
+<td style="text-align:right">1.82</td>
+<td style="text-align:right">1.28</td>
+<td style="text-align:right">26.94</td>
+<td style="text-align:right"><strong>63.20%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">79.39 s</td>
+<td style="text-align:right">4.42</td>
+<td style="text-align:right">21.21</td>
+<td style="text-align:right">8.46</td>
+<td style="text-align:right">3.44</td>
+<td style="text-align:right">9.71</td>
+<td style="text-align:right"><strong>47.24%</strong></td>
+</tr>
+<tr>
+<td>第 17 分钟 16:00.00–17:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">79.39 s</td>
+<td style="text-align:right">3.99</td>
+<td style="text-align:right">21.79</td>
+<td style="text-align:right">9.64</td>
+<td style="text-align:right">3.45</td>
+<td style="text-align:right">11.89</td>
+<td style="text-align:right"><strong>50.75%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P041, P042, P043</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">95.36 s</td>
+<td style="text-align:right">2.94</td>
+<td style="text-align:right">23.84</td>
+<td style="text-align:right">0.23</td>
+<td style="text-align:right">2.06</td>
+<td style="text-align:right">19.19</td>
+<td style="text-align:right"><strong>48.26%</strong></td>
+</tr>
+<tr>
+<td>第 18 分钟 17:00.00–18:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P041, P042, P043</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">95.36 s</td>
+<td style="text-align:right">2.82</td>
+<td style="text-align:right">24.45</td>
+<td style="text-align:right">0.44</td>
+<td style="text-align:right">2.06</td>
+<td style="text-align:right">19.23</td>
+<td style="text-align:right"><strong>49.01%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">58.74 s</td>
+<td style="text-align:right">4.55</td>
+<td style="text-align:right">12.95</td>
+<td style="text-align:right">6.24</td>
+<td style="text-align:right">3.20</td>
+<td style="text-align:right">22.80</td>
+<td style="text-align:right"><strong>49.74%</strong></td>
+</tr>
+<tr>
+<td>第 19 分钟 18:00.00–19:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">58.74 s</td>
+<td style="text-align:right">13.45</td>
+<td style="text-align:right">12.08</td>
+<td style="text-align:right">5.30</td>
+<td style="text-align:right">4.50</td>
+<td style="text-align:right">7.87</td>
+<td style="text-align:right"><strong>43.20%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">85.29 s</td>
+<td style="text-align:right">2.33</td>
+<td style="text-align:right">24.74</td>
+<td style="text-align:right">4.53</td>
+<td style="text-align:right">4.83</td>
+<td style="text-align:right">26.71</td>
+<td style="text-align:right"><strong>63.15%</strong></td>
+</tr>
+<tr>
+<td>第 20 分钟 19:00.00–20:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">85.29 s</td>
+<td style="text-align:right">6.44</td>
+<td style="text-align:right">29.89</td>
+<td style="text-align:right">3.04</td>
+<td style="text-align:right">2.05</td>
+<td style="text-align:right">12.45</td>
+<td style="text-align:right"><strong>53.88%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">56.72 s</td>
+<td style="text-align:right">5.88</td>
+<td style="text-align:right">17.72</td>
+<td style="text-align:right">14.07</td>
+<td style="text-align:right">2.67</td>
+<td style="text-align:right">20.48</td>
+<td style="text-align:right"><strong>60.82%</strong></td>
+</tr>
+<tr>
+<td>第 21 分钟 20:00.00–21:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">56.72 s</td>
+<td style="text-align:right">15.59</td>
+<td style="text-align:right">21.84</td>
+<td style="text-align:right">12.74</td>
+<td style="text-align:right">2.28</td>
+<td style="text-align:right">8.27</td>
+<td style="text-align:right"><strong>60.73%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">63.63 s</td>
+<td style="text-align:right">3.50</td>
+<td style="text-align:right">13.95</td>
+<td style="text-align:right">6.10</td>
+<td style="text-align:right">3.44</td>
+<td style="text-align:right">3.89</td>
+<td style="text-align:right"><strong>30.88%</strong></td>
+</tr>
+<tr>
+<td>第 22 分钟 21:00.00–22:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">63.63 s</td>
+<td style="text-align:right">3.89</td>
+<td style="text-align:right">12.34</td>
+<td style="text-align:right">8.12</td>
+<td style="text-align:right">2.18</td>
+<td style="text-align:right">5.54</td>
+<td style="text-align:right"><strong>32.07%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042, P043, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">89.89 s</td>
+<td style="text-align:right">1.47</td>
+<td style="text-align:right">22.12</td>
+<td style="text-align:right">2.02</td>
+<td style="text-align:right">7.89</td>
+<td style="text-align:right">23.46</td>
+<td style="text-align:right"><strong>56.96%</strong></td>
+</tr>
+<tr>
+<td>第 23 分钟 22:00.00–23:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042, P043, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">89.89 s</td>
+<td style="text-align:right">2.04</td>
+<td style="text-align:right">19.28</td>
+<td style="text-align:right">2.14</td>
+<td style="text-align:right">9.90</td>
+<td style="text-align:right">18.07</td>
+<td style="text-align:right"><strong>51.42%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">88.33 s</td>
+<td style="text-align:right">1.44</td>
+<td style="text-align:right">17.56</td>
+<td style="text-align:right">5.60</td>
+<td style="text-align:right">15.84</td>
+<td style="text-align:right">30.06</td>
+<td style="text-align:right"><strong>70.51%</strong></td>
+</tr>
+<tr>
+<td>第 24 分钟 23:00.00–24:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">88.33 s</td>
+<td style="text-align:right">1.67</td>
+<td style="text-align:right">20.35</td>
+<td style="text-align:right">6.13</td>
+<td style="text-align:right">15.90</td>
+<td style="text-align:right">19.54</td>
+<td style="text-align:right"><strong>63.59%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–25:00.00</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">92.07 s</td>
+<td style="text-align:right">1.22</td>
+<td style="text-align:right">15.19</td>
+<td style="text-align:right">5.89</td>
+<td style="text-align:right">9.02</td>
+<td style="text-align:right">19.52</td>
+<td style="text-align:right"><strong>50.83%</strong></td>
+</tr>
+<tr>
+<td>第 25 分钟 24:00.00–25:00.00</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P039, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">92.07 s</td>
+<td style="text-align:right">1.46</td>
+<td style="text-align:right">15.16</td>
+<td style="text-align:right">5.51</td>
+<td style="text-align:right">10.27</td>
+<td style="text-align:right">23.52</td>
+<td style="text-align:right"><strong>55.91%</strong></td>
+</tr>
+<tr>
+<td>第 26 分钟 25:00.00–25:52.53</td>
+<td style="text-align:center">D1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right">58.84 s</td>
+<td style="text-align:right">3.21</td>
+<td style="text-align:right">10.96</td>
+<td style="text-align:right">9.79</td>
+<td style="text-align:right">11.73</td>
+<td style="text-align:right">23.51</td>
+<td style="text-align:right"><strong>59.20%</strong></td>
+</tr>
+<tr>
+<td>第 26 分钟 25:00.00–25:48.91</td>
+<td style="text-align:center">R1</td>
+<td>P037, P038, P041, P042</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right">54.29 s</td>
+<td style="text-align:right">2.81</td>
+<td style="text-align:right">9.33</td>
+<td style="text-align:right">9.25</td>
+<td style="text-align:right">9.23</td>
+<td style="text-align:right">6.87</td>
+<td style="text-align:right"><strong>37.48%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>D1</strong></td>
+<td>P037, P038, P039, P040, P041, P042, P043, P044</td>
+<td>0→P038, 1→P041, 2→P037</td>
+<td style="text-align:right"><strong>1908.66 s</strong></td>
+<td style="text-align:right">3.82</td>
+<td style="text-align:right">18.31</td>
+<td style="text-align:right">4.15</td>
+<td style="text-align:right">4.04</td>
+<td style="text-align:right">20.80</td>
+<td style="text-align:right"><strong>51.11%</strong></td>
+</tr>
+<tr>
+<td><strong>本 session 合计</strong></td>
+<td style="text-align:center"><strong>R1</strong></td>
+<td>P037, P038, P039, P040, P041, P042, P043, P044</td>
+<td>0→P042, 1→P037, 2→P038, 3→P041</td>
+<td style="text-align:right"><strong>1904.11 s</strong></td>
+<td style="text-align:right">6.31</td>
+<td style="text-align:right">19.38</td>
+<td style="text-align:right">4.06</td>
+<td style="text-align:right">3.88</td>
+<td style="text-align:right">14.36</td>
+<td style="text-align:right"><strong>47.99%</strong></td>
+</tr>
+</tbody>
+</table></div>
+</article>
+      <footer class="footer">由 DER 分析产物生成 · 2026-11-06 14:35 CST · 单文件离线 HTML</footer>
+    </div>
+  </main>
+  <button class="back-top" type="button" aria-label="返回顶部">↑</button>
+  <script>
+const sidebar = document.querySelector('.sidebar');
+const menu = document.querySelector('.mobile-nav');
+const backTop = document.querySelector('.back-top');
+const navLinks = [...document.querySelectorAll('.toc a')];
+const sections = navLinks.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+
+menu?.addEventListener('click', () => sidebar.classList.toggle('open'));
+navLinks.forEach(link => link.addEventListener('click', () => sidebar.classList.remove('open')));
+document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+backTop?.addEventListener('click', () => window.scrollTo({top: 0, behavior: 'smooth'}));
+window.addEventListener('scroll', () => backTop.classList.toggle('visible', window.scrollY > 700), {passive: true});
+
+const observer = new IntersectionObserver(entries => {
+  const visible = entries.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+  if (!visible) return;
+  navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + visible.target.id));
+}, {rootMargin: '-15% 0px -72% 0px', threshold: 0});
+sections.forEach(section => observer.observe(section));
+</script>
+</body>
+</html>

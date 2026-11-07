@@ -1,0 +1,29 @@
+{
+  "experiment": "EAR-1 dev speech separation, 7 sessions x D1/R1",
+  "source_manifest": "/home/xujunxian/ear1_task1_compare_20261106_1712/config/audio_reference_manifest.csv",
+  "reference_textgrid_root": "/data2/xujunxian/EAR1-Challenge/Dev",
+  "tfgridnet": {
+    "model": "TF-GridNet, WSJ0-2mix, single microphone, two sources, 8 kHz",
+    "code": "ESPnet 202511, espnet2.enh.separator.tfgridnet_separator.TFGridNet",
+    "original_model_url": "https://zenodo.org/records/7565926",
+    "checkpoint": "/home/xujunxian/ear1_separation_20261106_195147/weights/TF-GridNet/exp/enh_train_enh_tfgridnet_tf_lr-patience3_patience5_raw/98epoch.pth",
+    "checkpoint_sha256": "f8ef60995e82d7c0ba3273eef7d837ab2d9be93eea5ab9d75a6eae42f0e51949",
+    "env": "ear1-tfgridnet",
+    "python": "3.11",
+    "inference": "6 s window, 1 s overlap, overlap correlation source alignment and crossfade; global least-squares mixture-consistency output scaling",
+    "reference_used_for_inference": false
+  },
+  "usef_tse": {
+    "model": "USEF-TSE with TF-GridNet backbone, WHAMR! checkpoint, 8 kHz",
+    "code_url": "https://github.com/ZBang/USEF-TSE",
+    "code_revision": "bdaeb3609735b3a9dbedd1b0625343826f2cb5fe",
+    "checkpoint_url": "https://huggingface.co/ZBang/USEF-TSE/tree/main/chkpt/USEF-TFGridNet/whamr!",
+    "checkpoint": "/home/xujunxian/ear1_separation_20261106_195147/weights/USEF-TSE/chkpt/USEF-TFGridNet/whamr!/temp_best.pth.tar",
+    "checkpoint_sha256": "2ef45e026de5248f43ef5c0585c5b94a724ab1b67307e693805d1e35ce7bf99f",
+    "env": "ear1-usef-tse",
+    "python": "3.11",
+    "inference": "6 s window, 1 s overlap, crossfade; enrollment <=8 s selected from corrected reference TextGrid; tracks with PCM16 clipping peaks regenerated with shared track-level peak gain <=0.95",
+    "reference_used_for_inference": true,
+    "comparison_note": "Oracle enrollment: not comparable to audio-only diarization experiments"
+  }
+}

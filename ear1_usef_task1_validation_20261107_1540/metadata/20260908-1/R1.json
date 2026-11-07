@@ -1,0 +1,52 @@
+{
+  "session": "20260908-1",
+  "track": "R1",
+  "audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260908-1/R1.wav",
+  "sample_rate": 8000,
+  "samples": 11789141,
+  "enrollment_source": "diarizen_predictions_only",
+  "shared_gain": 0.5343603408725925,
+  "targets": [
+    {
+      "speaker": "0",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/R1/0.wav",
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 1.1373271942138672,
+      "elapsed_s": 60.66,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/R1/0.wav"
+    },
+    {
+      "speaker": "1",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/R1/1.wav",
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 1.6010676622390747,
+      "elapsed_s": 62.33,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/R1/1.wav"
+    },
+    {
+      "speaker": "2",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/R1/2.wav",
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 1.7451180219650269,
+      "elapsed_s": 63.19,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/R1/2.wav"
+    },
+    {
+      "speaker": "3",
+      "enrollment_status": "predicted_solo",
+      "enrollment_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/enrollments/20260908-1/R1/3.wav",
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "raw_peak": 1.7778265476226807,
+      "elapsed_s": 52.07,
+      "output_path": "/home/xujunxian/ear1_usef_task1_validation_20261107_1540/outputs/20260908-1/R1/3.wav"
+    }
+  ],
+  "elapsed_s": 240.97
+}

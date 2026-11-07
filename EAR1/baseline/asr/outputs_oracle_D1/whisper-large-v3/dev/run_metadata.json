@@ -1,0 +1,18 @@
+{
+  "model": "whisper-large-v3",
+  "model_path": "/home/xujunxian/EAR1/baseline/asr/models/whisper-large-v3",
+  "data_root": "/data2/qiuenduo/EAR1-Challenge/Train&Dev",
+  "manifest_sha256": "1b5ecbcabecd9df2e96be4cba93bf5af49b9b4258abd8789cf1a6a35f1192aad",
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "sample_rate": 16000,
+  "language": "zh",
+  "task": "transcribe",
+  "num_beams": 1,
+  "max_length": 448,
+  "records": 4407,
+  "manifest": "/home/xujunxian/EAR1/baseline/asr/data/dev_D1.jsonl",
+  "success": 4407,
+  "failed": 0,
+  "elapsed_sec": 2030.3071266299812
+}

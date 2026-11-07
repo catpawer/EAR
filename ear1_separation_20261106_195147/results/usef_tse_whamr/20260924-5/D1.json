@@ -1,0 +1,94 @@
+{
+  "model": "USEF-TFGridNet-WHAMR",
+  "session": "20260924-5",
+  "track": "D1",
+  "source_audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260924-5/D1.WAV",
+  "sample_rate": 8000,
+  "original_rate": 48000,
+  "input_samples": 12420201,
+  "enrollment_source": "corrected_textgrid_oracle",
+  "status": "complete",
+  "tracks": [
+    {
+      "speaker": "P037",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P037.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P037.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 68.03
+    },
+    {
+      "speaker": "P038",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P038.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P038.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 68.06
+    },
+    {
+      "speaker": "P039",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P039.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P039.wav",
+      "enrollment_status": "ok_mixed_oracle",
+      "elapsed_s": 68.05
+    },
+    {
+      "speaker": "P040",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P040.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P040.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 63.81
+    },
+    {
+      "speaker": "P041",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P041.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P041.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 66.99
+    },
+    {
+      "speaker": "P042",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P042.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P042.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 66.49
+    },
+    {
+      "speaker": "P043",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P043.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P043.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 66.52
+    },
+    {
+      "speaker": "P044",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260924-5/D1/P044.wav",
+      "samples": 12420201,
+      "chunks": 311,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260924-5/D1/P044.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 64.03
+    }
+  ],
+  "elapsed_s": 534.25
+}

@@ -1,0 +1,24 @@
+{
+  "experiment": "USEF-TSE audio-only enrollment fusion with original DiariZen Task 1 RTTM",
+  "scope": "EAR-1 dev, seven sessions, D1 and R1",
+  "original_audio_root": "/data2/qiuenduo/EAR1-Challenge/Train&Dev",
+  "split": "/data2/qiuenduo/EAR1-Challenge/split_tr56_dev7.lst",
+  "corrected_textgrid_root_for_scoring_only": "/data2/xujunxian/EAR1-Challenge/Dev",
+  "inference_reference_used": false,
+  "enrollment_source": "long predicted-solo regions of original DiariZen RTTM, up to 8 seconds per known speaker",
+  "separation_model": "USEF-TSE with TF-GridNet backbone, WHAMR! checkpoint, 8 kHz",
+  "usef_code_revision": "bdaeb3609735b3a9dbedd1b0625343826f2cb5fe",
+  "usef_checkpoint_sha256": "2ef45e026de5248f43ef5c0585c5b94a724ab1b67307e693805d1e35ce7bf99f",
+  "environment": "ear1-usef-tse for extraction; ear1-funasr for VAD and CAM++ verification; ear1-pyannote for scoring",
+  "target_extraction": "6 s windows with 1 s overlap and crossfade, full original recording, shared track gain to avoid PCM16 clipping",
+  "vad": "FunASR 1.4.22 FSMN-VAD",
+  "speaker_embedding": "FunASR 1.4.22 CAM++",
+  "candidate": "target VAD plus target/mix energy ratio >=0.12, original DiariZen exactly one other speaker, at least 1.2 s",
+  "fusion_thresholds": {
+    "activity": [-1.0, -2.0, 0.12],
+    "voiceprint": [0.35, 0.04, 0.18],
+    "strict": [0.45, 0.10, 0.25]
+  },
+  "threshold_order": ["minimum_target_cosine", "minimum_target_minus_active_cosine", "minimum_target_to_mix_energy_ratio"],
+  "scoring": "full audio UEM including silence, collar 0, overlap scored, fixed full-audio mapping for region breakdown"
+}

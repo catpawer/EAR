@@ -1,0 +1,66 @@
+{
+  "model": "USEF-TFGridNet-WHAMR",
+  "session": "20260908-1",
+  "track": "R1",
+  "source_audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260908-1/R1.wav",
+  "sample_rate": 8000,
+  "original_rate": 48000,
+  "input_samples": 11789141,
+  "enrollment_source": "corrected_textgrid_oracle",
+  "status": "complete",
+  "tracks": [
+    {
+      "speaker": "P006",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/R1/P006.wav",
+      "samples": 11789141,
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/R1/P006.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 68.04,
+      "peak_before_gain": 1.6719238758087158,
+      "output_gain": 0.5682076880088105,
+      "clipping_repaired": true
+    },
+    {
+      "speaker": "P007",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/R1/P007.wav",
+      "samples": 11789141,
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/R1/P007.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 67.74,
+      "peak_before_gain": 1.761087417602539,
+      "output_gain": 0.5394394341271741,
+      "clipping_repaired": true
+    },
+    {
+      "speaker": "P008",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/R1/P008.wav",
+      "samples": 11789141,
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/R1/P008.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 67.79,
+      "peak_before_gain": 1.7869290113449097,
+      "output_gain": 0.5316383549478524,
+      "clipping_repaired": true
+    },
+    {
+      "speaker": "P009",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/R1/P009.wav",
+      "samples": 11789141,
+      "chunks": 295,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/R1/P009.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 65.72,
+      "peak_before_gain": 1.7930608987808228,
+      "output_gain": 0.5298202646914808,
+      "clipping_repaired": true
+    }
+  ],
+  "elapsed_s": 271.83
+}

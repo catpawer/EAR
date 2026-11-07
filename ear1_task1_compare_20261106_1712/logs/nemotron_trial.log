@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/417 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 343/417 [00:00<00:00, 3422.67it/s]Loading weights: 100%|██████████| 417/417 [00:00<00:00, 3357.67it/s]
+INFER 20260924-5 D1 /data2/qiuenduo/EAR1-Challenge/Train&Dev/20260924-5/D1.WAV 48000 16000 1552.525125
+PROGRESS 20260924-5 D1 500
+PROGRESS 20260924-5 D1 1000
+PROGRESS 20260924-5 D1 1500
+PROGRESS 20260924-5 D1 2000
+SAVED /home/xujunxian/ear1_task1_compare_20261106_1712/predictions/nemotron3/D1/20260924-5.rttm 1271 chunks 2156 coverage 1552.52
+INFER 20260923-5 D1 /data2/qiuenduo/EAR1-Challenge/Train&Dev/20260923-5/D1.WAV 48000 16000 1584.5064166666666
+PROGRESS 20260923-5 D1 500
+PROGRESS 20260923-5 D1 1000
+PROGRESS 20260923-5 D1 1500
+PROGRESS 20260923-5 D1 2000
+SAVED /home/xujunxian/ear1_task1_compare_20261106_1712/predictions/nemotron3/D1/20260923-5.rttm 698 chunks 2201 coverage 1584.5

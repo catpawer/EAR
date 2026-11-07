@@ -1,0 +1,5 @@
+Collecting kaldi-native-fbank
+  Downloading kaldi_native_fbank-1.23.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.5 kB)
+Downloading kaldi_native_fbank-1.23.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (512 kB)
+Installing collected packages: kaldi-native-fbank
+Successfully installed kaldi-native-fbank-1.23.0

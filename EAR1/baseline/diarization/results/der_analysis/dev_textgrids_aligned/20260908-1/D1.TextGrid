@@ -1,0 +1,6688 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1467.11 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "P007" 
+        xmin = 0 
+        xmax = 1467.11 
+        intervals: size = 741 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.43 
+            text = "" 
+        intervals [2]:
+            xmin = 0.43 
+            xmax = 2.54 
+            text = "近期都有什么好电影推荐不你们？" 
+        intervals [3]:
+            xmin = 2.54 
+            xmax = 3.90 
+            text = "" 
+        intervals [4]:
+            xmin = 3.90 
+            xmax = 4.98 
+            text = "看过什么电影吗？" 
+        intervals [5]:
+            xmin = 4.98 
+            xmax = 5.18 
+            text = "" 
+        intervals [6]:
+            xmin = 5.18 
+            xmax = 7.1 
+            text = "近期有什么电影好可可看的不？" 
+        intervals [7]:
+            xmin = 7.1 
+            xmax = 15.14 
+            text = "" 
+        intervals [8]:
+            xmin = 15.14 
+            xmax = 22.04 
+            text = "哈哈哈哈，那都之前的之前老久的了，你光你光知道个哪吒。" 
+        intervals [9]:
+            xmin = 22.04 
+            xmax = 23.07 
+            text = "" 
+        intervals [10]:
+            xmin = 23.07 
+            xmax = 24.99 
+            text = "真要命呢，你光知道个哪吒。" 
+        intervals [11]:
+            xmin = 24.99 
+            xmax = 27.62 
+            text = "" 
+        intervals [12]:
+            xmin = 27.62 
+            xmax = 28.60 
+            text = "蜘蛛侠。" 
+        intervals [13]:
+            xmin = 28.60 
+            xmax = 33.31 
+            text = "" 
+        intervals [14]:
+            xmin = 33.31 
+            xmax = 36.60 
+            text = "蜘蛛侠我真不怎么看这个呀。" 
+        intervals [15]:
+            xmin = 36.60 
+            xmax = 37.33 
+            text = "" 
+        intervals [16]:
+            xmin = 37.33 
+            xmax = 41.64 
+            text = "漫威的，这漫威蜘蛛侠出来之后，我就没怎么看过单独的蜘蛛侠了。" 
+        intervals [17]:
+            xmin = 41.64 
+            xmax = 42.82 
+            text = "" 
+        intervals [18]:
+            xmin = 42.82 
+            xmax = 43.94 
+            text = "国产蜘蛛侠？" 
+        intervals [19]:
+            xmin = 43.94 
+            xmax = 49.48 
+            text = "" 
+        intervals [20]:
+            xmin = 49.48 
+            xmax = 51.11 
+            text = "电视剧？啊？" 
+        intervals [21]:
+            xmin = 51.11 
+            xmax = 52.36 
+            text = "" 
+        intervals [22]:
+            xmin = 52.36 
+            xmax = 53.18 
+            text = "彼得帕克。" 
+        intervals [23]:
+            xmin = 53.18 
+            xmax = 53.77 
+            text = "" 
+        intervals [24]:
+            xmin = 53.77 
+            xmax = 54.90 
+            text = "电视剧？" 
+        intervals [25]:
+            xmin = 54.90 
+            xmax = 57.29 
+            text = "" 
+        intervals [26]:
+            xmin = 57.29 
+            xmax = 58.17 
+            text = "美剧。" 
+        intervals [27]:
+            xmin = 58.17 
+            xmax = 58.59 
+            text = "" 
+        intervals [28]:
+            xmin = 58.59 
+            xmax = 61.00 
+            text = "嗯，那你说彼得帕克不是蜘蛛侠？" 
+        intervals [29]:
+            xmin = 61.00 
+            xmax = 63.45 
+            text = "" 
+        intervals [30]:
+            xmin = 63.45 
+            xmax = 64.48 
+            text = "动画蜘蛛侠。" 
+        intervals [31]:
+            xmin = 64.48 
+            xmax = 64.89 
+            text = "" 
+        intervals [32]:
+            xmin = 64.89 
+            xmax = 67.69 
+            text = "动画动画那那那那不是给小孩看的吗？" 
+        intervals [33]:
+            xmin = 67.69 
+            xmax = 71.00 
+            text = "" 
+        intervals [34]:
+            xmin = 71.00 
+            xmax = 78.63 
+            text = "哈哈哈哈，好吧，那动画的动画的可能会表现得更更更更那啥一点哈。" 
+        intervals [35]:
+            xmin = 78.63 
+            xmax = 80.72 
+            text = "" 
+        intervals [36]:
+            xmin = 80.72 
+            xmax = 84.65 
+            text = "呃那个，那人家那投投入，他那，对吧？哈哈。" 
+        intervals [37]:
+            xmin = 84.65 
+            xmax = 85.06 
+            text = "" 
+        intervals [38]:
+            xmin = 85.06 
+            xmax = 87.34 
+            text = "人家那投入那投入多少多少钱呀？我天呐！" 
+        intervals [39]:
+            xmin = 87.34 
+            xmax = 90.48 
+            text = "" 
+        intervals [40]:
+            xmin = 90.48 
+            xmax = 90.95 
+            text = "啊？" 
+        intervals [41]:
+            xmin = 90.95 
+            xmax = 91.83 
+            text = "" 
+        intervals [42]:
+            xmin = 91.83 
+            xmax = 92.32 
+            text = "什么？" 
+        intervals [43]:
+            xmin = 92.32 
+            xmax = 92.82 
+            text = "" 
+        intervals [44]:
+            xmin = 92.82 
+            xmax = 93.61 
+            text = "牛来？" 
+        intervals [45]:
+            xmin = 93.61 
+            xmax = 95.04 
+            text = "" 
+        intervals [46]:
+            xmin = 95.04 
+            xmax = 95.97 
+            text = "牛来是什么鬼？" 
+        intervals [47]:
+            xmin = 95.97 
+            xmax = 100.60 
+            text = "" 
+        intervals [48]:
+            xmin = 100.60 
+            xmax = 101.72 
+            text = "智障电影。" 
+        intervals [49]:
+            xmin = 101.72 
+            xmax = 101.98 
+            text = "" 
+        intervals [50]:
+            xmin = 101.98 
+            xmax = 103.74 
+            text = "那也能那也能上架啊？" 
+        intervals [51]:
+            xmin = 103.74 
+            xmax = 105.93 
+            text = "" 
+        intervals [52]:
+            xmin = 105.93 
+            xmax = 108.02 
+            text = "不是那么多智障？" 
+        intervals [53]:
+            xmin = 108.02 
+            xmax = 111.59 
+            text = "" 
+        intervals [54]:
+            xmin = 111.59 
+            xmax = 112.40 
+            text = "五万块钱。" 
+        intervals [55]:
+            xmin = 112.40 
+            xmax = 113.37 
+            text = "" 
+        intervals [56]:
+            xmin = 113.37 
+            xmax = 114.06 
+            text = "我去。" 
+        intervals [57]:
+            xmin = 114.06 
+            xmax = 115.14 
+            text = "" 
+        intervals [58]:
+            xmin = 115.14 
+            xmax = 116.30 
+            text = "不是，牛来。" 
+        intervals [59]:
+            xmin = 116.30 
+            xmax = 117.33 
+            text = "" 
+        intervals [60]:
+            xmin = 117.33 
+            xmax = 122.61 
+            text = "牛来，不，哦，就是烂到一定一定程度了，反而它知名了是吧？" 
+        intervals [61]:
+            xmin = 122.61 
+            xmax = 123.66 
+            text = "" 
+        intervals [62]:
+            xmin = 123.66 
+            xmax = 125.03 
+            text = "哎呀要命了。" 
+        intervals [63]:
+            xmin = 125.03 
+            xmax = 127.26 
+            text = "" 
+        intervals [64]:
+            xmin = 127.26 
+            xmax = 128.45 
+            text = "牛来。" 
+        intervals [65]:
+            xmin = 128.45 
+            xmax = 131.45 
+            text = "" 
+        intervals [66]:
+            xmin = 131.45 
+            xmax = 135.14 
+            text = "是是，是人啊还是？" 
+        intervals [67]:
+            xmin = 135.14 
+            xmax = 136.93 
+            text = "" 
+        intervals [68]:
+            xmin = 136.93 
+            xmax = 137.91 
+            text = "手搓动画。" 
+        intervals [69]:
+            xmin = 137.91 
+            xmax = 138.74 
+            text = "" 
+        intervals [70]:
+            xmin = 138.74 
+            xmax = 140.18 
+            text = "这烂到什么程度呢？" 
+        intervals [71]:
+            xmin = 140.18 
+            xmax = 145.16 
+            text = "" 
+        intervals [72]:
+            xmin = 145.16 
+            xmax = 149.80 
+            text = "说的话有点好奇，你知道吗？哈哈哈，说的已经有点好奇了，你知道吗？" 
+        intervals [73]:
+            xmin = 149.80 
+            xmax = 153.46 
+            text = "" 
+        intervals [74]:
+            xmin = 153.46 
+            xmax = 154.53 
+            text = "哈哈哈哈。" 
+        intervals [75]:
+            xmin = 154.53 
+            xmax = 155.12 
+            text = "" 
+        intervals [76]:
+            xmin = 155.12 
+            xmax = 155.65 
+            text = "好吧。" 
+        intervals [77]:
+            xmin = 155.65 
+            xmax = 159.00 
+            text = "" 
+        intervals [78]:
+            xmin = 159.00 
+            xmax = 162.48 
+            text = "那你不是，那你那你说那么说说说那么明白。" 
+        intervals [79]:
+            xmin = 162.48 
+            xmax = 163.91 
+            text = "" 
+        intervals [80]:
+            xmin = 163.91 
+            xmax = 164.65 
+            text = "刷到了。" 
+        intervals [81]:
+            xmin = 164.65 
+            xmax = 165.02 
+            text = "" 
+        intervals [82]:
+            xmin = 165.02 
+            xmax = 167.14 
+            text = "好嘛，这玩意小视频是。" 
+        intervals [83]:
+            xmin = 167.14 
+            xmax = 170.74 
+            text = "" 
+        intervals [84]:
+            xmin = 170.74 
+            xmax = 175.43 
+            text = "不是，哎，那那他就说明他没烂到不可救药，他可以当喜剧玩啊。" 
+        intervals [85]:
+            xmin = 175.43 
+            xmax = 178.61 
+            text = "" 
+        intervals [86]:
+            xmin = 178.61 
+            xmax = 180.11 
+            text = "被气笑了。" 
+        intervals [87]:
+            xmin = 180.11 
+            xmax = 180.76 
+            text = "" 
+        intervals [88]:
+            xmin = 180.76 
+            xmax = 183.86 
+            text = "那其实这个经历我感觉它也值个票价，多少钱啊？" 
+        intervals [89]:
+            xmin = 183.86 
+            xmax = 186.58 
+            text = "" 
+        intervals [90]:
+            xmin = 186.58 
+            xmax = 187.51 
+            text = "再看一下啊。" 
+        intervals [91]:
+            xmin = 187.51 
+            xmax = 189.36 
+            text = "" 
+        intervals [92]:
+            xmin = 189.36 
+            xmax = 190.79 
+            text = "他这个，我的天呐。" 
+        intervals [93]:
+            xmin = 190.79 
+            xmax = 193.97 
+            text = "" 
+        intervals [94]:
+            xmin = 193.97 
+            xmax = 195.43 
+            text = "还有第二部？" 
+        intervals [95]:
+            xmin = 195.43 
+            xmax = 201.23 
+            text = "" 
+        intervals [96]:
+            xmin = 201.23 
+            xmax = 201.87 
+            text = "哦。" 
+        intervals [97]:
+            xmin = 201.87 
+            xmax = 202.25 
+            text = "" 
+        intervals [98]:
+            xmin = 202.25 
+            xmax = 203.31 
+            text = "那说白了。" 
+        intervals [99]:
+            xmin = 203.31 
+            xmax = 203.88 
+            text = "" 
+        intervals [100]:
+            xmin = 203.88 
+            xmax = 209.32 
+            text = "二十八块钱，换换能换的能笑抽抽也行。哈哈哈，现在。" 
+        intervals [101]:
+            xmin = 209.32 
+            xmax = 210.14 
+            text = "" 
+        intervals [102]:
+            xmin = 210.14 
+            xmax = 213.14 
+            text = "是吧，差不多差不多，正常正常电影也都也都这个时间了。" 
+        intervals [103]:
+            xmin = 213.14 
+            xmax = 213.57 
+            text = "" 
+        intervals [104]:
+            xmin = 213.57 
+            xmax = 216.82 
+            text = "那些喜剧他都不一定能把人笑抽抽喽。哈哈哈。" 
+        intervals [105]:
+            xmin = 216.82 
+            xmax = 218.99 
+            text = "" 
+        intervals [106]:
+            xmin = 218.99 
+            xmax = 221.94 
+            text = "这玩意比他妈喜剧厉害呀，比喜剧厉害。" 
+        intervals [107]:
+            xmin = 221.94 
+            xmax = 222.43 
+            text = "" 
+        intervals [108]:
+            xmin = 222.43 
+            xmax = 223.02 
+            text = "二十八？" 
+        intervals [109]:
+            xmin = 223.02 
+            xmax = 223.65 
+            text = "" 
+        intervals [110]:
+            xmin = 223.65 
+            xmax = 224.93 
+            text = "你你搜多少钱？" 
+        intervals [111]:
+            xmin = 224.93 
+            xmax = 225.40 
+            text = "" 
+        intervals [112]:
+            xmin = 225.40 
+            xmax = 226.37 
+            text = "你当时搜。" 
+        intervals [113]:
+            xmin = 226.37 
+            xmax = 229.87 
+            text = "" 
+        intervals [114]:
+            xmin = 229.87 
+            xmax = 235.01 
+            text = "是便宜啊，他要不便宜的话谁去看呢？哈哈哈，他敢要六十，你看有人看不？" 
+        intervals [115]:
+            xmin = 235.01 
+            xmax = 235.84 
+            text = "" 
+        intervals [116]:
+            xmin = 235.84 
+            xmax = 236.68 
+            text = "真要命了。" 
+        intervals [117]:
+            xmin = 236.68 
+            xmax = 238.57 
+            text = "" 
+        intervals [118]:
+            xmin = 238.57 
+            xmax = 239.27 
+            text = "汇友。" 
+        intervals [119]:
+            xmin = 239.27 
+            xmax = 241.15 
+            text = "" 
+        intervals [120]:
+            xmin = 241.15 
+            xmax = 242.57 
+            text = "还有海报呢？" 
+        intervals [121]:
+            xmin = 242.57 
+            xmax = 242.71 
+            text = "" 
+        intervals [122]:
+            xmin = 242.71 
+            xmax = 243.21 
+            text = "哎呀。" 
+        intervals [123]:
+            xmin = 243.21 
+            xmax = 244.25 
+            text = "" 
+        intervals [124]:
+            xmin = 244.25 
+            xmax = 245.24 
+            text = "画的海报。" 
+        intervals [125]:
+            xmin = 245.24 
+            xmax = 249.72 
+            text = "" 
+        intervals [126]:
+            xmin = 249.72 
+            xmax = 250.68 
+            text = "杀死比尔。" 
+        intervals [127]:
+            xmin = 250.68 
+            xmax = 253.01 
+            text = "" 
+        intervals [128]:
+            xmin = 253.01 
+            xmax = 255.43 
+            text = "多久了？是不是比我岁数大了？" 
+        intervals [129]:
+            xmin = 255.43 
+            xmax = 258.16 
+            text = "" 
+        intervals [130]:
+            xmin = 258.16 
+            xmax = 260.34 
+            text = "没有删减过，那就是很血腥很暴力喽。" 
+        intervals [131]:
+            xmin = 260.34 
+            xmax = 266.28 
+            text = "" 
+        intervals [132]:
+            xmin = 266.28 
+            xmax = 273.50 
+            text = "课间休息。哈哈哈哈哈，看个电影整上课间休息了，我去，太牛了。" 
+        intervals [133]:
+            xmin = 273.50 
+            xmax = 276.97 
+            text = "" 
+        intervals [134]:
+            xmin = 276.97 
+            xmax = 279.46 
+            text = "看了会蜘蛛侠，就是。" 
+        intervals [135]:
+            xmin = 279.46 
+            xmax = 285.66 
+            text = "" 
+        intervals [136]:
+            xmin = 285.66 
+            xmax = 289.67 
+            text = "它这个是杀死比尔血色全传，它不是说杀死比尔全传。" 
+        intervals [137]:
+            xmin = 289.67 
+            xmax = 290.94 
+            text = "" 
+        intervals [138]:
+            xmin = 290.94 
+            xmax = 293.06 
+            text = "杀死比尔也是个连续的，你知道吧？" 
+        intervals [139]:
+            xmin = 293.06 
+            xmax = 293.70 
+            text = "" 
+        intervals [140]:
+            xmin = 293.70 
+            xmax = 294.97 
+            text = "它就比如说漫威。" 
+        intervals [141]:
+            xmin = 294.97 
+            xmax = 295.46 
+            text = "" 
+        intervals [142]:
+            xmin = 295.46 
+            xmax = 300.27 
+            text = "你要是你你要是他那个漫威，他把他把所有的都给你连在一起，他得有很长时间。" 
+        intervals [143]:
+            xmin = 300.27 
+            xmax = 304.42 
+            text = "" 
+        intervals [144]:
+            xmin = 304.42 
+            xmax = 305.51 
+            text = "很早很早了。" 
+        intervals [145]:
+            xmin = 305.51 
+            xmax = 306.22 
+            text = "" 
+        intervals [146]:
+            xmin = 306.22 
+            xmax = 309.87 
+            text = "杀死比尔这个名字我听过，没看过一点。" 
+        intervals [147]:
+            xmin = 309.87 
+            xmax = 310.07 
+            text = "" 
+        intervals [148]:
+            xmin = 310.07 
+            xmax = 312.90 
+            text = "但是我就知道它很早很早，很老很老。" 
+        intervals [149]:
+            xmin = 312.90 
+            xmax = 314.37 
+            text = "" 
+        intervals [150]:
+            xmin = 314.37 
+            xmax = 314.99 
+            text = "啊。" 
+        intervals [151]:
+            xmin = 314.99 
+            xmax = 318.11 
+            text = "" 
+        intervals [152]:
+            xmin = 318.11 
+            xmax = 319.08 
+            text = "啊啊啊。" 
+        intervals [153]:
+            xmin = 319.08 
+            xmax = 319.63 
+            text = "" 
+        intervals [154]:
+            xmin = 319.63 
+            xmax = 324.38 
+            text = "会片会有点片段，对。但我就说他很老了，有点。" 
+        intervals [155]:
+            xmin = 324.38 
+            xmax = 325.33 
+            text = "" 
+        intervals [156]:
+            xmin = 325.33 
+            xmax = 326.52 
+            text = "太早了有点。" 
+        intervals [157]:
+            xmin = 326.52 
+            xmax = 330.78 
+            text = "" 
+        intervals [158]:
+            xmin = 330.78 
+            xmax = 332.31 
+            text = "这是血色全传。" 
+        intervals [159]:
+            xmin = 332.31 
+            xmax = 334.52 
+            text = "" 
+        intervals [160]:
+            xmin = 334.52 
+            xmax = 337.47 
+            text = "啊对，爱情公寓又出来了。" 
+        intervals [161]:
+            xmin = 337.47 
+            xmax = 339.27 
+            text = "" 
+        intervals [162]:
+            xmin = 339.27 
+            xmax = 342.43 
+            text = "杀死比尔，好像杀死比尔二。哈哈哈。" 
+        intervals [163]:
+            xmin = 342.43 
+            xmax = 342.69 
+            text = "" 
+        intervals [164]:
+            xmin = 342.69 
+            xmax = 344.39 
+            text = "杀不死的比尔，对。" 
+        intervals [165]:
+            xmin = 344.39 
+            xmax = 345.53 
+            text = "" 
+        intervals [166]:
+            xmin = 345.53 
+            xmax = 347.51 
+            text = "啊哈，比尔是被谁杀死的？" 
+        intervals [167]:
+            xmin = 347.51 
+            xmax = 348.21 
+            text = "" 
+        intervals [168]:
+            xmin = 348.21 
+            xmax = 348.97 
+            text = "哈哈哈。" 
+        intervals [169]:
+            xmin = 348.97 
+            xmax = 349.52 
+            text = "" 
+        intervals [170]:
+            xmin = 349.52 
+            xmax = 351.64 
+            text = "真要命了，哎呀妈呀。" 
+        intervals [171]:
+            xmin = 351.64 
+            xmax = 351.77 
+            text = "" 
+        intervals [172]:
+            xmin = 351.77 
+            xmax = 353.95 
+            text = "那爱情公寓我估计应该都看过哈？" 
+        intervals [173]:
+            xmin = 353.95 
+            xmax = 356.45 
+            text = "" 
+        intervals [174]:
+            xmin = 356.45 
+            xmax = 360.73 
+            text = "我我五看了两集之后，我不也不敢看了。" 
+        intervals [175]:
+            xmin = 360.73 
+            xmax = 361.83 
+            text = "" 
+        intervals [176]:
+            xmin = 361.83 
+            xmax = 362.77 
+            text = "我不敢看了。" 
+        intervals [177]:
+            xmin = 362.77 
+            xmax = 364.96 
+            text = "" 
+        intervals [178]:
+            xmin = 364.96 
+            xmax = 367.17 
+            text = "我比较喜欢第三部。" 
+        intervals [179]:
+            xmin = 367.17 
+            xmax = 368.81 
+            text = "" 
+        intervals [180]:
+            xmin = 368.81 
+            xmax = 373.54 
+            text = "一，其实第一部开始的第一部确实那画质确实有点太拉了。" 
+        intervals [181]:
+            xmin = 373.54 
+            xmax = 374.49 
+            text = "" 
+        intervals [182]:
+            xmin = 374.49 
+            xmax = 376.01 
+            text = "第二部第三部就好的多了。" 
+        intervals [183]:
+            xmin = 376.01 
+            xmax = 379.03 
+            text = "" 
+        intervals [184]:
+            xmin = 379.03 
+            xmax = 379.53 
+            text = "对。" 
+        intervals [185]:
+            xmin = 379.53 
+            xmax = 382.07 
+            text = "" 
+        intervals [186]:
+            xmin = 382.07 
+            xmax = 383.42 
+            text = "因为岁数上来了。" 
+        intervals [187]:
+            xmin = 383.42 
+            xmax = 385.87 
+            text = "" 
+        intervals [188]:
+            xmin = 385.87 
+            xmax = 392.25 
+            text = "因为岁数上来了，那家伙他们拍一的时候才多大呀，都是都是好像都不到二十那样子。" 
+        intervals [189]:
+            xmin = 392.25 
+            xmax = 392.35 
+            text = "" 
+        intervals [190]:
+            xmin = 392.35 
+            xmax = 394.72 
+            text = "大学生啊，刚毕业大学生都是。" 
+        intervals [191]:
+            xmin = 394.72 
+            xmax = 394.84 
+            text = "" 
+        intervals [192]:
+            xmin = 394.84 
+            xmax = 397.68 
+            text = "还有还有还还有可能还有，哎，应该都是刚毕业。" 
+        intervals [193]:
+            xmin = 397.68 
+            xmax = 397.99 
+            text = "" 
+        intervals [194]:
+            xmin = 397.99 
+            xmax = 399.53 
+            text = "有没有没毕业的？不知道。" 
+        intervals [195]:
+            xmin = 399.53 
+            xmax = 404.38 
+            text = "" 
+        intervals [196]:
+            xmin = 404.38 
+            xmax = 405.64 
+            text = "对，专业的。" 
+        intervals [197]:
+            xmin = 405.64 
+            xmax = 406.07 
+            text = "" 
+        intervals [198]:
+            xmin = 406.07 
+            xmax = 408.47 
+            text = "胡胡一菲还是还是唱歌的。" 
+        intervals [199]:
+            xmin = 408.47 
+            xmax = 409.30 
+            text = "" 
+        intervals [200]:
+            xmin = 409.30 
+            xmax = 410.42 
+            text = "是同班同学。" 
+        intervals [201]:
+            xmin = 410.42 
+            xmax = 411.38 
+            text = "" 
+        intervals [202]:
+            xmin = 411.38 
+            xmax = 413.19 
+            text = "好好几个同班同学。" 
+        intervals [203]:
+            xmin = 413.19 
+            xmax = 413.81 
+            text = "" 
+        intervals [204]:
+            xmin = 413.81 
+            xmax = 414.20 
+            text = "对。" 
+        intervals [205]:
+            xmin = 414.20 
+            xmax = 414.97 
+            text = "" 
+        intervals [206]:
+            xmin = 414.97 
+            xmax = 422.88 
+            text = "应该说是胡一菲和那个吕子乔，然后陈美嘉，这这几个都是。" 
+        intervals [207]:
+            xmin = 422.88 
+            xmax = 426.22 
+            text = "" 
+        intervals [208]:
+            xmin = 426.22 
+            xmax = 431.35 
+            text = "呃演员名字我想想啊哈哈哈。" 
+        intervals [209]:
+            xmin = 431.35 
+            xmax = 431.38 
+            text = "" 
+        intervals [210]:
+            xmin = 431.38 
+            xmax = 439.74 
+            text = "曾小贤他是那个，哎，不行，完了，曾小贤都忘了他名了。陈赫，咳陈赫什么嘉明？" 
+        intervals [211]:
+            xmin = 439.74 
+            xmax = 441.61 
+            text = "" 
+        intervals [212]:
+            xmin = 441.61 
+            xmax = 442.68 
+            text = "李嘉明对。" 
+        intervals [213]:
+            xmin = 442.68 
+            xmax = 443.00 
+            text = "" 
+        intervals [214]:
+            xmin = 443.00 
+            xmax = 443.72 
+            text = "李金铭。" 
+        intervals [215]:
+            xmin = 443.72 
+            xmax = 445.70 
+            text = "" 
+        intervals [216]:
+            xmin = 445.70 
+            xmax = 450.23 
+            text = "嘉明，李金铭，李金铭，然后，咳。" 
+        intervals [217]:
+            xmin = 450.23 
+            xmax = 451.21 
+            text = "" 
+        intervals [218]:
+            xmin = 451.21 
+            xmax = 453.05 
+            text = "哎呀妈呀，真真不行。" 
+        intervals [219]:
+            xmin = 453.05 
+            xmax = 453.57 
+            text = "" 
+        intervals [220]:
+            xmin = 453.57 
+            xmax = 460.80 
+            text = "他们他们如果说单单拎出来啊，我不说他们剧名啊，还能想一想。完了一说剧名全是那名字。" 
+        intervals [221]:
+            xmin = 460.80 
+            xmax = 461.61 
+            text = "" 
+        intervals [222]:
+            xmin = 461.61 
+            xmax = 462.43 
+            text = "真要命。" 
+        intervals [223]:
+            xmin = 462.43 
+            xmax = 463.50 
+            text = "" 
+        intervals [224]:
+            xmin = 463.50 
+            xmax = 466.02 
+            text = "一点都想不起来他们真正比本名是啥了。" 
+        intervals [225]:
+            xmin = 466.02 
+            xmax = 466.56 
+            text = "" 
+        intervals [226]:
+            xmin = 466.56 
+            xmax = 470.45 
+            text = "要不然那个关谷神奇，嗯哎他叫啥来着？" 
+        intervals [227]:
+            xmin = 470.45 
+            xmax = 470.92 
+            text = "" 
+        intervals [228]:
+            xmin = 470.92 
+            xmax = 474.76 
+            text = "王传君，要不然王传君想想说是单拎出来呢。" 
+        intervals [229]:
+            xmin = 474.76 
+            xmax = 475.50 
+            text = "" 
+        intervals [230]:
+            xmin = 475.50 
+            xmax = 479.20 
+            text = "他不喜他不喜欢不喜欢跟那个爱情公寓一起相提并论。" 
+        intervals [231]:
+            xmin = 479.20 
+            xmax = 480.53 
+            text = "" 
+        intervals [232]:
+            xmin = 480.53 
+            xmax = 482.05 
+            text = "对绑定绑死了。" 
+        intervals [233]:
+            xmin = 482.05 
+            xmax = 483.82 
+            text = "" 
+        intervals [234]:
+            xmin = 483.82 
+            xmax = 493.02 
+            text = "小姨妈她确实是有演技的，而且而且怎么说呢，那小小姨妈她最开始要演别的，也会出戏啊，也会跳戏。" 
+        intervals [235]:
+            xmin = 493.02 
+            xmax = 494.74 
+            text = "" 
+        intervals [236]:
+            xmin = 494.74 
+            xmax = 495.25 
+            text = "对。" 
+        intervals [237]:
+            xmin = 495.25 
+            xmax = 495.74 
+            text = "" 
+        intervals [238]:
+            xmin = 495.74 
+            xmax = 498.41 
+            text = "现在现在能能演的好像也就是。" 
+        intervals [239]:
+            xmin = 498.41 
+            xmax = 499.78 
+            text = "" 
+        intervals [240]:
+            xmin = 499.78 
+            xmax = 500.94 
+            text = "哎，小姨妈叫啥名来着？" 
+        intervals [241]:
+            xmin = 500.94 
+            xmax = 501.84 
+            text = "" 
+        intervals [242]:
+            xmin = 501.84 
+            xmax = 502.75 
+            text = "邓家佳。" 
+        intervals [243]:
+            xmin = 502.75 
+            xmax = 504.90 
+            text = "" 
+        intervals [244]:
+            xmin = 504.90 
+            xmax = 506.50 
+            text = "我真我真我真要命了！" 
+        intervals [245]:
+            xmin = 506.50 
+            xmax = 507.77 
+            text = "" 
+        intervals [246]:
+            xmin = 507.77 
+            xmax = 510.21 
+            text = "邓家佳，然后展博那叫什么名来着？" 
+        intervals [247]:
+            xmin = 510.21 
+            xmax = 512.42 
+            text = "" 
+        intervals [248]:
+            xmin = 512.42 
+            xmax = 513.10 
+            text = "展博啊。" 
+        intervals [249]:
+            xmin = 513.10 
+            xmax = 516.45 
+            text = "" 
+        intervals [250]:
+            xmin = 516.45 
+            xmax = 517.18 
+            text = "嘿嘿。" 
+        intervals [251]:
+            xmin = 517.18 
+            xmax = 518.42 
+            text = "" 
+        intervals [252]:
+            xmin = 518.42 
+            xmax = 520.57 
+            text = "啊，展博叫什么名来着？" 
+        intervals [253]:
+            xmin = 520.57 
+            xmax = 521.40 
+            text = "" 
+        intervals [254]:
+            xmin = 521.40 
+            xmax = 522.99 
+            text = "陆，不是，不，什么。" 
+        intervals [255]:
+            xmin = 522.99 
+            xmax = 526.32 
+            text = "" 
+        intervals [256]:
+            xmin = 526.32 
+            xmax = 528.06 
+            text = "陆展博陆展博叫啥名来着？" 
+        intervals [257]:
+            xmin = 528.06 
+            xmax = 533.58 
+            text = "" 
+        intervals [258]:
+            xmin = 533.58 
+            xmax = 536.54 
+            text = "啊对金世佳对，哎，呦妈呀妈，哎，你想起来了。" 
+        intervals [259]:
+            xmin = 536.54 
+            xmax = 538.65 
+            text = "" 
+        intervals [260]:
+            xmin = 538.65 
+            xmax = 541.61 
+            text = "哎，金世佳还好，然后。" 
+        intervals [261]:
+            xmin = 541.61 
+            xmax = 546.04 
+            text = "" 
+        intervals [262]:
+            xmin = 546.04 
+            xmax = 547.14 
+            text = "你没看过？" 
+        intervals [263]:
+            xmin = 547.14 
+            xmax = 548.38 
+            text = "" 
+        intervals [264]:
+            xmin = 548.38 
+            xmax = 549.38 
+            text = "你小时候看啥呀？" 
+        intervals [265]:
+            xmin = 549.38 
+            xmax = 552.24 
+            text = "" 
+        intervals [266]:
+            xmin = 552.24 
+            xmax = 552.58 
+            text = "对。" 
+        intervals [267]:
+            xmin = 552.58 
+            xmax = 554.30 
+            text = "" 
+        intervals [268]:
+            xmin = 554.30 
+            xmax = 556.85 
+            text = "你你你厉害，爱情公寓可以说。" 
+        intervals [269]:
+            xmin = 556.85 
+            xmax = 558.34 
+            text = "" 
+        intervals [270]:
+            xmin = 558.34 
+            xmax = 559.42 
+            text = "来，熊出没我看。" 
+        intervals [271]:
+            xmin = 559.42 
+            xmax = 561.96 
+            text = "" 
+        intervals [272]:
+            xmin = 561.96 
+            xmax = 564.26 
+            text = "熊出没，熊出没我二十岁我还看呢。" 
+        intervals [273]:
+            xmin = 564.26 
+            xmax = 566.63 
+            text = "" 
+        intervals [274]:
+            xmin = 566.63 
+            xmax = 568.91 
+            text = "小时候没看全，我给它补上，你知道吧？" 
+        intervals [275]:
+            xmin = 568.91 
+            xmax = 570.16 
+            text = "" 
+        intervals [276]:
+            xmin = 570.16 
+            xmax = 573.59 
+            text = "咳，熊出没春夏秋冬全集全看。" 
+        intervals [277]:
+            xmin = 573.59 
+            xmax = 576.94 
+            text = "" 
+        intervals [278]:
+            xmin = 576.94 
+            xmax = 578.84 
+            text = "呃不会去电影院看，但我会看。" 
+        intervals [279]:
+            xmin = 578.84 
+            xmax = 580.57 
+            text = "" 
+        intervals [280]:
+            xmin = 580.57 
+            xmax = 582.59 
+            text = "哎，好像去去过电影院看过一次。" 
+        intervals [281]:
+            xmin = 582.59 
+            xmax = 587.29 
+            text = "" 
+        intervals [282]:
+            xmin = 587.29 
+            xmax = 589.50 
+            text = "那个啊，那个叫什么熊心是吧？" 
+        intervals [283]:
+            xmin = 589.50 
+            xmax = 591.36 
+            text = "" 
+        intervals [284]:
+            xmin = 591.36 
+            xmax = 593.2 
+            text = "那个叫什叫叫叫什么玩意来着？" 
+        intervals [285]:
+            xmin = 593.2 
+            xmax = 594.49 
+            text = "" 
+        intervals [286]:
+            xmin = 594.49 
+            xmax = 596.78 
+            text = "铁胆雄心啊，就叫对对对铁胆雄心。" 
+        intervals [287]:
+            xmin = 596.78 
+            xmax = 597.04 
+            text = "" 
+        intervals [288]:
+            xmin = 597.04 
+            xmax = 598.8 
+            text = "我看的是那个马戏团那个。" 
+        intervals [289]:
+            xmin = 598.8 
+            xmax = 601.84 
+            text = "" 
+        intervals [290]:
+            xmin = 601.84 
+            xmax = 603.2 
+            text = "马戏团那个叫啥名来着？" 
+        intervals [291]:
+            xmin = 603.2 
+            xmax = 605.40 
+            text = "" 
+        intervals [292]:
+            xmin = 605.40 
+            xmax = 606.23 
+            text = "啊，很早了。" 
+        intervals [293]:
+            xmin = 606.23 
+            xmax = 606.84 
+            text = "" 
+        intervals [294]:
+            xmin = 606.84 
+            xmax = 612.31 
+            text = "熊大熊二，然后最最开始那熊大跟那住住住堤坝呢，然后最后那水水水给堤坝冲了。" 
+        intervals [295]:
+            xmin = 612.31 
+            xmax = 615.14 
+            text = "" 
+        intervals [296]:
+            xmin = 615.14 
+            xmax = 618.05 
+            text = "然后被马戏团救了，然后就开始表演马戏去了。" 
+        intervals [297]:
+            xmin = 618.05 
+            xmax = 620.40 
+            text = "" 
+        intervals [298]:
+            xmin = 620.40 
+            xmax = 621.72 
+            text = "都是经典I P嘞。" 
+        intervals [299]:
+            xmin = 621.72 
+            xmax = 622.39 
+            text = "" 
+        intervals [300]:
+            xmin = 622.39 
+            xmax = 624.00 
+            text = "那个叫啥名来着？我去。" 
+        intervals [301]:
+            xmin = 624.00 
+            xmax = 625.59 
+            text = "" 
+        intervals [302]:
+            xmin = 625.59 
+            xmax = 627.70 
+            text = "好像叫什么熊风呢？什么什么玩意的？" 
+        intervals [303]:
+            xmin = 627.70 
+            xmax = 634.36 
+            text = "" 
+        intervals [304]:
+            xmin = 634.36 
+            xmax = 635.03 
+            text = "嗯。" 
+        intervals [305]:
+            xmin = 635.03 
+            xmax = 635.73 
+            text = "" 
+        intervals [306]:
+            xmin = 635.73 
+            xmax = 638.17 
+            text = "重振雄风好像真他妈叫这名啊！" 
+        intervals [307]:
+            xmin = 638.17 
+            xmax = 638.57 
+            text = "" 
+        intervals [308]:
+            xmin = 638.57 
+            xmax = 640.24 
+            text = "好像真叫真叫这名啊！" 
+        intervals [309]:
+            xmin = 640.24 
+            xmax = 641.02 
+            text = "" 
+        intervals [310]:
+            xmin = 641.02 
+            xmax = 641.95 
+            text = "我忘了呢。" 
+        intervals [311]:
+            xmin = 641.95 
+            xmax = 644.65 
+            text = "" 
+        intervals [312]:
+            xmin = 644.65 
+            xmax = 648.66 
+            text = "嘶真有点忘了，那个他那个呃。" 
+        intervals [313]:
+            xmin = 648.66 
+            xmax = 651.08 
+            text = "" 
+        intervals [314]:
+            xmin = 651.08 
+            xmax = 653.82 
+            text = "你直接搜那个熊出没系列电影不好吗？" 
+        intervals [315]:
+            xmin = 653.82 
+            xmax = 655.06 
+            text = "" 
+        intervals [316]:
+            xmin = 655.06 
+            xmax = 655.62 
+            text = "好吧。" 
+        intervals [317]:
+            xmin = 655.62 
+            xmax = 657.53 
+            text = "" 
+        intervals [318]:
+            xmin = 657.53 
+            xmax = 659.22 
+            text = "环球大作战。" 
+        intervals [319]:
+            xmin = 659.22 
+            xmax = 660.04 
+            text = "" 
+        intervals [320]:
+            xmin = 660.04 
+            xmax = 662.22 
+            text = "神奇宝物是什么鬼啊？" 
+        intervals [321]:
+            xmin = 662.22 
+            xmax = 662.41 
+            text = "" 
+        intervals [322]:
+            xmin = 662.41 
+            xmax = 670.38 
+            text = "重启未来、逆转时空、狂野大陆、原始变形，熊出没出那么多了啊！" 
+        intervals [323]:
+            xmin = 670.38 
+            xmax = 670.69 
+            text = "" 
+        intervals [324]:
+            xmin = 670.69 
+            xmax = 671.81 
+            text = "哦，熊心归来也叫。" 
+        intervals [325]:
+            xmin = 671.81 
+            xmax = 673.27 
+            text = "" 
+        intervals [326]:
+            xmin = 673.27 
+            xmax = 674.82 
+            text = "那么多了？" 
+        intervals [327]:
+            xmin = 674.82 
+            xmax = 674.93 
+            text = "" 
+        intervals [328]:
+            xmin = 674.93 
+            xmax = 675.98 
+            text = "一六年的电影。" 
+        intervals [329]:
+            xmin = 675.98 
+            xmax = 676.44 
+            text = "" 
+        intervals [330]:
+            xmin = 676.44 
+            xmax = 676.99 
+            text = "好吧。" 
+        intervals [331]:
+            xmin = 676.99 
+            xmax = 684.25 
+            text = "" 
+        intervals [332]:
+            xmin = 684.25 
+            xmax = 692.41 
+            text = "我是之前熊出没没看全，我就给它补全了。之后看多看了几遍之后看不下去了，开始看爱情公寓。" 
+        intervals [333]:
+            xmin = 692.41 
+            xmax = 692.47 
+            text = "" 
+        intervals [334]:
+            xmin = 692.47 
+            xmax = 694.22 
+            text = "爱情公寓刷了十几遍。" 
+        intervals [335]:
+            xmin = 694.22 
+            xmax = 696.88 
+            text = "" 
+        intervals [336]:
+            xmin = 696.88 
+            xmax = 704.15 
+            text = "啊对对对对对，已经脑补出来画面了，已经，现在现在基本上听声音已经知道他们在他们在干什么了。" 
+        intervals [337]:
+            xmin = 704.15 
+            xmax = 704.75 
+            text = "" 
+        intervals [338]:
+            xmin = 704.75 
+            xmax = 707.83 
+            text = "虽说有有有几个桥段比较尴尬吧，我实在听不下去。" 
+        intervals [339]:
+            xmin = 707.83 
+            xmax = 711.36 
+            text = "" 
+        intervals [340]:
+            xmin = 711.36 
+            xmax = 712.03 
+            text = "对呀。" 
+        intervals [341]:
+            xmin = 712.03 
+            xmax = 713.79 
+            text = "" 
+        intervals [342]:
+            xmin = 713.79 
+            xmax = 716.25 
+            text = "喜剧生活化，对。" 
+        intervals [343]:
+            xmin = 716.25 
+            xmax = 717.43 
+            text = "" 
+        intervals [344]:
+            xmin = 717.43 
+            xmax = 717.87 
+            text = "对。" 
+        intervals [345]:
+            xmin = 717.87 
+            xmax = 718.39 
+            text = "" 
+        intervals [346]:
+            xmin = 718.39 
+            xmax = 720.07 
+            text = "非常自然，你知道吗？" 
+        intervals [347]:
+            xmin = 720.07 
+            xmax = 720.31 
+            text = "" 
+        intervals [348]:
+            xmin = 720.31 
+            xmax = 722.36 
+            text = "比咱们都自然，你知道吗？哈哈哈。" 
+        intervals [349]:
+            xmin = 722.36 
+            xmax = 723.40 
+            text = "" 
+        intervals [350]:
+            xmin = 723.40 
+            xmax = 724.69 
+            text = "哈哈哈对。" 
+        intervals [351]:
+            xmin = 724.69 
+            xmax = 725.84 
+            text = "" 
+        intervals [352]:
+            xmin = 725.84 
+            xmax = 728.08 
+            text = "比咱们自然多了，你知道吗？" 
+        intervals [353]:
+            xmin = 728.08 
+            xmax = 730.19 
+            text = "" 
+        intervals [354]:
+            xmin = 730.19 
+            xmax = 731.11 
+            text = "看不下去？" 
+        intervals [355]:
+            xmin = 731.11 
+            xmax = 731.51 
+            text = "" 
+        intervals [356]:
+            xmin = 731.51 
+            xmax = 733.86 
+            text = "我的妈，你看不下去，你你你你你。" 
+        intervals [357]:
+            xmin = 733.86 
+            xmax = 736.98 
+            text = "" 
+        intervals [358]:
+            xmin = 736.98 
+            xmax = 737.68 
+            text = "啊？" 
+        intervals [359]:
+            xmin = 737.68 
+            xmax = 742.18 
+            text = "" 
+        intervals [360]:
+            xmin = 742.18 
+            xmax = 743.23 
+            text = "你无敌了啊。" 
+        intervals [361]:
+            xmin = 743.23 
+            xmax = 749.89 
+            text = "" 
+        intervals [362]:
+            xmin = 749.89 
+            xmax = 750.99 
+            text = "咳咳。" 
+        intervals [363]:
+            xmin = 750.99 
+            xmax = 753.00 
+            text = "" 
+        intervals [364]:
+            xmin = 753.00 
+            xmax = 755.21 
+            text = "他们说话比咱比咱正常多了，我告诉你。" 
+        intervals [365]:
+            xmin = 755.21 
+            xmax = 761.27 
+            text = "" 
+        intervals [366]:
+            xmin = 761.27 
+            xmax = 762.39 
+            text = "家有儿女我也看过。" 
+        intervals [367]:
+            xmin = 762.39 
+            xmax = 764.78 
+            text = "" 
+        intervals [368]:
+            xmin = 764.78 
+            xmax = 768.36 
+            text = "嘿嘿，夏冰雹，哈哈哈。" 
+        intervals [369]:
+            xmin = 768.36 
+            xmax = 768.86 
+            text = "" 
+        intervals [370]:
+            xmin = 768.86 
+            xmax = 770.55 
+            text = "夏雨、夏雪、夏冰雹。" 
+        intervals [371]:
+            xmin = 770.55 
+            xmax = 771.44 
+            text = "" 
+        intervals [372]:
+            xmin = 771.44 
+            xmax = 772.02 
+            text = "咳。" 
+        intervals [373]:
+            xmin = 772.02 
+            xmax = 772.74 
+            text = "" 
+        intervals [374]:
+            xmin = 772.74 
+            xmax = 776.1 
+            text = "那家伙比较比较有名的几句话。" 
+        intervals [375]:
+            xmin = 776.1 
+            xmax = 777.52 
+            text = "" 
+        intervals [376]:
+            xmin = 777.52 
+            xmax = 778.07 
+            text = "咳。" 
+        intervals [377]:
+            xmin = 778.07 
+            xmax = 781.27 
+            text = "" 
+        intervals [378]:
+            xmin = 781.27 
+            xmax = 783.77 
+            text = "电视剧这玩意怎么说呢？" 
+        intervals [379]:
+            xmin = 783.77 
+            xmax = 783.79 
+            text = "" 
+        intervals [380]:
+            xmin = 783.79 
+            xmax = 785.89 
+            text = "最新的都不是最好看的。" 
+        intervals [381]:
+            xmin = 785.89 
+            xmax = 788.51 
+            text = "" 
+        intervals [382]:
+            xmin = 788.51 
+            xmax = 789.45 
+            text = "老片子对。" 
+        intervals [383]:
+            xmin = 789.45 
+            xmax = 790.14 
+            text = "" 
+        intervals [384]:
+            xmin = 790.14 
+            xmax = 792.27 
+            text = "妈呀，我现在看抗战片，我就看亮剑。" 
+        intervals [385]:
+            xmin = 792.27 
+            xmax = 793.46 
+            text = "" 
+        intervals [386]:
+            xmin = 793.46 
+            xmax = 794.18 
+            text = "啊？" 
+        intervals [387]:
+            xmin = 794.18 
+            xmax = 795.03 
+            text = "" 
+        intervals [388]:
+            xmin = 795.03 
+            xmax = 801.09 
+            text = "没别的看呐，那抗战片真的给我感觉把我脑袋扔出来，踩在脚上面那种感觉似的。" 
+        intervals [389]:
+            xmin = 801.09 
+            xmax = 803.40 
+            text = "" 
+        intervals [390]:
+            xmin = 803.40 
+            xmax = 804.67 
+            text = "雪豹我也看过。" 
+        intervals [391]:
+            xmin = 804.67 
+            xmax = 805.43 
+            text = "" 
+        intervals [392]:
+            xmin = 805.43 
+            xmax = 808.91 
+            text = "雪豹我也看呀，周卫国那个，周卫国那版的雪豹还可以。" 
+        intervals [393]:
+            xmin = 808.91 
+            xmax = 809.07 
+            text = "" 
+        intervals [394]:
+            xmin = 809.07 
+            xmax = 810.87 
+            text = "那个新版雪豹我真看不下去。" 
+        intervals [395]:
+            xmin = 810.87 
+            xmax = 813.32 
+            text = "" 
+        intervals [396]:
+            xmin = 813.32 
+            xmax = 813.97 
+            text = "啊。" 
+        intervals [397]:
+            xmin = 813.97 
+            xmax = 815.78 
+            text = "" 
+        intervals [398]:
+            xmin = 815.78 
+            xmax = 819.81 
+            text = "张若昀又重新，但是其实其实张若昀在那个雪豹里边也出演了。" 
+        intervals [399]:
+            xmin = 819.81 
+            xmax = 821.55 
+            text = "" 
+        intervals [400]:
+            xmin = 821.55 
+            xmax = 822.14 
+            text = "啊。" 
+        intervals [401]:
+            xmin = 822.14 
+            xmax = 822.62 
+            text = "" 
+        intervals [402]:
+            xmin = 822.62 
+            xmax = 823.35 
+            text = "也有他。" 
+        intervals [403]:
+            xmin = 823.35 
+            xmax = 823.93 
+            text = "" 
+        intervals [404]:
+            xmin = 823.93 
+            xmax = 826.46 
+            text = "就是那个主角弟弟。" 
+        intervals [405]:
+            xmin = 826.46 
+            xmax = 827.59 
+            text = "" 
+        intervals [406]:
+            xmin = 827.59 
+            xmax = 829.18 
+            text = "国国国民党军的。" 
+        intervals [407]:
+            xmin = 829.18 
+            xmax = 830.50 
+            text = "" 
+        intervals [408]:
+            xmin = 830.50 
+            xmax = 831.87 
+            text = "第一部好看，对呀，是第一部。" 
+        intervals [409]:
+            xmin = 831.87 
+            xmax = 832.41 
+            text = "" 
+        intervals [410]:
+            xmin = 832.41 
+            xmax = 837.60 
+            text = "对旧版的。但后边为什么拍第二版，可能是因为当时文章这个。" 
+        intervals [411]:
+            xmin = 837.60 
+            xmax = 837.67 
+            text = "" 
+        intervals [412]:
+            xmin = 837.67 
+            xmax = 841.34 
+            text = "人有问题的。哈哈哈，好像是因为这个问题，好像是。" 
+        intervals [413]:
+            xmin = 841.34 
+            xmax = 841.86 
+            text = "" 
+        intervals [414]:
+            xmin = 841.86 
+            xmax = 843.42 
+            text = "但是他最开始那版确实好看。" 
+        intervals [415]:
+            xmin = 843.42 
+            xmax = 846.04 
+            text = "" 
+        intervals [416]:
+            xmin = 846.04 
+            xmax = 847.89 
+            text = "对对，对对对对对。" 
+        intervals [417]:
+            xmin = 847.89 
+            xmax = 850.15 
+            text = "" 
+        intervals [418]:
+            xmin = 850.15 
+            xmax = 851.51 
+            text = "少帅，张作霖。" 
+        intervals [419]:
+            xmin = 851.51 
+            xmax = 856.61 
+            text = "" 
+        intervals [420]:
+            xmin = 856.61 
+            xmax = 858.29 
+            text = "哦，抗战片不喜欢看啊？" 
+        intervals [421]:
+            xmin = 858.29 
+            xmax = 861.22 
+            text = "" 
+        intervals [422]:
+            xmin = 861.22 
+            xmax = 861.94 
+            text = "经典语录？" 
+        intervals [423]:
+            xmin = 861.94 
+            xmax = 865.91 
+            text = "" 
+        intervals [424]:
+            xmin = 865.91 
+            xmax = 871.08 
+            text = "哈哈哈哈，你非得你非得这，哈哈哈哈，你非得这，哈哈哈哈。" 
+        intervals [425]:
+            xmin = 871.08 
+            xmax = 873.23 
+            text = "" 
+        intervals [426]:
+            xmin = 873.23 
+            xmax = 874.00 
+            text = "古偶？" 
+        intervals [427]:
+            xmin = 874.00 
+            xmax = 874.52 
+            text = "" 
+        intervals [428]:
+            xmin = 874.52 
+            xmax = 875.42 
+            text = "古偶是。" 
+        intervals [429]:
+            xmin = 875.42 
+            xmax = 875.89 
+            text = "" 
+        intervals [430]:
+            xmin = 875.89 
+            xmax = 877.03 
+            text = "古偶是什么类型呢？" 
+        intervals [431]:
+            xmin = 877.03 
+            xmax = 877.53 
+            text = "" 
+        intervals [432]:
+            xmin = 877.53 
+            xmax = 879.77 
+            text = "花千骨就是古偶，这不是仙侠吗？" 
+        intervals [433]:
+            xmin = 879.77 
+            xmax = 883.09 
+            text = "" 
+        intervals [434]:
+            xmin = 883.09 
+            xmax = 883.68 
+            text = "对呀。" 
+        intervals [435]:
+            xmin = 883.68 
+            xmax = 884.13 
+            text = "" 
+        intervals [436]:
+            xmin = 884.13 
+            xmax = 887.21 
+            text = "花千骨是仙侠呀，古偶怎么会是它呀？" 
+        intervals [437]:
+            xmin = 887.21 
+            xmax = 887.91 
+            text = "" 
+        intervals [438]:
+            xmin = 887.91 
+            xmax = 891.46 
+            text = "古偶的话，那个，小李飞刀那个是，应该算是古偶。" 
+        intervals [439]:
+            xmin = 891.46 
+            xmax = 891.90 
+            text = "" 
+        intervals [440]:
+            xmin = 891.90 
+            xmax = 895.18 
+            text = "哎是吗？那哎，那个算那个算古偶吗？" 
+        intervals [441]:
+            xmin = 895.18 
+            xmax = 895.90 
+            text = "" 
+        intervals [442]:
+            xmin = 895.90 
+            xmax = 896.90 
+            text = "古代偶像剧。" 
+        intervals [443]:
+            xmin = 896.90 
+            xmax = 898.51 
+            text = "" 
+        intervals [444]:
+            xmin = 898.51 
+            xmax = 899.47 
+            text = "李寻欢啊。" 
+        intervals [445]:
+            xmin = 899.47 
+            xmax = 900.84 
+            text = "" 
+        intervals [446]:
+            xmin = 900.84 
+            xmax = 902.15 
+            text = "哎，那个时候那个那个。" 
+        intervals [447]:
+            xmin = 902.15 
+            xmax = 903.07 
+            text = "" 
+        intervals [448]:
+            xmin = 903.07 
+            xmax = 903.58 
+            text = "啊？" 
+        intervals [449]:
+            xmin = 903.58 
+            xmax = 903.94 
+            text = "" 
+        intervals [450]:
+            xmin = 903.94 
+            xmax = 904.43 
+            text = "啊？" 
+        intervals [451]:
+            xmin = 904.43 
+            xmax = 907.37 
+            text = "" 
+        intervals [452]:
+            xmin = 907.37 
+            xmax = 910.93 
+            text = "又怎么又扯到永劫无间了？永劫无间又是什么鬼呀？我天呐！" 
+        intervals [453]:
+            xmin = 910.93 
+            xmax = 911.91 
+            text = "" 
+        intervals [454]:
+            xmin = 911.91 
+            xmax = 912.85 
+            text = "我真服了。" 
+        intervals [455]:
+            xmin = 912.85 
+            xmax = 914.31 
+            text = "" 
+        intervals [456]:
+            xmin = 914.31 
+            xmax = 918.24 
+            text = "李寻欢他是他是一个电视剧的主角啊。" 
+        intervals [457]:
+            xmin = 918.24 
+            xmax = 921.01 
+            text = "" 
+        intervals [458]:
+            xmin = 921.01 
+            xmax = 921.51 
+            text = "嗯？" 
+        intervals [459]:
+            xmin = 921.51 
+            xmax = 922.99 
+            text = "" 
+        intervals [460]:
+            xmin = 922.99 
+            xmax = 924.03 
+            text = "不是英雄。" 
+        intervals [461]:
+            xmin = 924.03 
+            xmax = 928.66 
+            text = "" 
+        intervals [462]:
+            xmin = 928.66 
+            xmax = 930.20 
+            text = "花千骨我也看了。" 
+        intervals [463]:
+            xmin = 930.20 
+            xmax = 931.50 
+            text = "" 
+        intervals [464]:
+            xmin = 931.50 
+            xmax = 932.34 
+            text = "我也看来着。" 
+        intervals [465]:
+            xmin = 932.34 
+            xmax = 933.22 
+            text = "" 
+        intervals [466]:
+            xmin = 933.22 
+            xmax = 935.67 
+            text = "三生三世十里桃花我都看了一点。" 
+        intervals [467]:
+            xmin = 935.67 
+            xmax = 937.17 
+            text = "" 
+        intervals [468]:
+            xmin = 937.17 
+            xmax = 938.19 
+            text = "那不算。" 
+        intervals [469]:
+            xmin = 938.19 
+            xmax = 938.58 
+            text = "" 
+        intervals [470]:
+            xmin = 938.58 
+            xmax = 940.11 
+            text = "它也是仙侠。" 
+        intervals [471]:
+            xmin = 940.11 
+            xmax = 943.41 
+            text = "" 
+        intervals [472]:
+            xmin = 943.41 
+            xmax = 949.15 
+            text = "哎，那个雪中雪中雪中踏，叫踏刀行，还叫悍刀行来着？" 
+        intervals [473]:
+            xmin = 949.15 
+            xmax = 950.24 
+            text = "" 
+        intervals [474]:
+            xmin = 950.24 
+            xmax = 951.76 
+            text = "琅琊榜肯定算古偶了吧？" 
+        intervals [475]:
+            xmin = 951.76 
+            xmax = 952.52 
+            text = "" 
+        intervals [476]:
+            xmin = 952.52 
+            xmax = 953.04 
+            text = "算不？" 
+        intervals [477]:
+            xmin = 953.04 
+            xmax = 954.76 
+            text = "" 
+        intervals [478]:
+            xmin = 954.76 
+            xmax = 955.76 
+            text = "啊，为什么不算？" 
+        intervals [479]:
+            xmin = 955.76 
+            xmax = 957.69 
+            text = "" 
+        intervals [480]:
+            xmin = 957.69 
+            xmax = 959.18 
+            text = "胡歌还不算偶啊？" 
+        intervals [481]:
+            xmin = 959.18 
+            xmax = 962.13 
+            text = "" 
+        intervals [482]:
+            xmin = 962.13 
+            xmax = 963.73 
+            text = "啊，哈哈哈。" 
+        intervals [483]:
+            xmin = 963.73 
+            xmax = 963.97 
+            text = "" 
+        intervals [484]:
+            xmin = 963.97 
+            xmax = 964.77 
+            text = "不行吗？" 
+        intervals [485]:
+            xmin = 964.77 
+            xmax = 964.81 
+            text = "" 
+        intervals [486]:
+            xmin = 964.81 
+            xmax = 965.58 
+            text = "哈哈哈。" 
+        intervals [487]:
+            xmin = 965.58 
+            xmax = 966.04 
+            text = "" 
+        intervals [488]:
+            xmin = 966.04 
+            xmax = 968.61 
+            text = "嘶怎么了？不行吗？刘涛不行啊？" 
+        intervals [489]:
+            xmin = 968.61 
+            xmax = 978.03 
+            text = "" 
+        intervals [490]:
+            xmin = 978.03 
+            xmax = 978.82 
+            text = "胡歌不行啊？" 
+        intervals [491]:
+            xmin = 978.82 
+            xmax = 981.59 
+            text = "" 
+        intervals [492]:
+            xmin = 981.59 
+            xmax = 983.26 
+            text = "那他为什么不算古偶啊？" 
+        intervals [493]:
+            xmin = 983.26 
+            xmax = 983.58 
+            text = "" 
+        intervals [494]:
+            xmin = 983.58 
+            xmax = 984.56 
+            text = "那他算什么？" 
+        intervals [495]:
+            xmin = 984.56 
+            xmax = 985.66 
+            text = "" 
+        intervals [496]:
+            xmin = 985.66 
+            xmax = 986.70 
+            text = "那算什么古装剧？" 
+        intervals [497]:
+            xmin = 986.70 
+            xmax = 987.42 
+            text = "" 
+        intervals [498]:
+            xmin = 987.42 
+            xmax = 988.38 
+            text = "只能算古装剧。" 
+        intervals [499]:
+            xmin = 988.38 
+            xmax = 989.18 
+            text = "" 
+        intervals [500]:
+            xmin = 989.18 
+            xmax = 989.80 
+            text = "哈。" 
+        intervals [501]:
+            xmin = 989.80 
+            xmax = 990.53 
+            text = "" 
+        intervals [502]:
+            xmin = 990.53 
+            xmax = 992.81 
+            text = "那那个雪中雪中悍刀行是吗？" 
+        intervals [503]:
+            xmin = 992.81 
+            xmax = 994.79 
+            text = "" 
+        intervals [504]:
+            xmin = 994.79 
+            xmax = 995.88 
+            text = "张若昀对。" 
+        intervals [505]:
+            xmin = 995.88 
+            xmax = 996.76 
+            text = "" 
+        intervals [506]:
+            xmin = 996.76 
+            xmax = 997.80 
+            text = "那个女的够多了。" 
+        intervals [507]:
+            xmin = 997.80 
+            xmax = 999.45 
+            text = "" 
+        intervals [508]:
+            xmin = 999.45 
+            xmax = 1002.77 
+            text = "那个女的够多了，哈哈哈哈哈哈哈。" 
+        intervals [509]:
+            xmin = 1002.77 
+            xmax = 1004.59 
+            text = "" 
+        intervals [510]:
+            xmin = 1004.59 
+            xmax = 1005.73 
+            text = "男的也不少了。" 
+        intervals [511]:
+            xmin = 1005.73 
+            xmax = 1006.82 
+            text = "" 
+        intervals [512]:
+            xmin = 1006.82 
+            xmax = 1007.71 
+            text = "那二皇子啊。" 
+        intervals [513]:
+            xmin = 1007.71 
+            xmax = 1009.59 
+            text = "" 
+        intervals [514]:
+            xmin = 1009.59 
+            xmax = 1012.19 
+            text = "哎，不不是二皇子，他就那个二皇子叫叫啥名来着？" 
+        intervals [515]:
+            xmin = 1012.19 
+            xmax = 1013.86 
+            text = "" 
+        intervals [516]:
+            xmin = 1013.86 
+            xmax = 1015.76 
+            text = "忘了，那也是古装剧啊。" 
+        intervals [517]:
+            xmin = 1015.76 
+            xmax = 1018.00 
+            text = "" 
+        intervals [518]:
+            xmin = 1018.00 
+            xmax = 1021.34 
+            text = "他古偶，那他古在你眼里古偶都算什么啊？都什么古偶？" 
+        intervals [519]:
+            xmin = 1021.34 
+            xmax = 1022.65 
+            text = "" 
+        intervals [520]:
+            xmin = 1022.65 
+            xmax = 1024.91 
+            text = "古代偶像剧，我知道古代偶像剧。" 
+        intervals [521]:
+            xmin = 1024.91 
+            xmax = 1025.17 
+            text = "" 
+        intervals [522]:
+            xmin = 1025.17 
+            xmax = 1028.33 
+            text = "就在我眼里边，那那是我说的那俩已经很偶像了。" 
+        intervals [523]:
+            xmin = 1028.33 
+            xmax = 1034.40 
+            text = "" 
+        intervals [524]:
+            xmin = 1034.40 
+            xmax = 1035.98 
+            text = "古代偶像演的电视剧。" 
+        intervals [525]:
+            xmin = 1035.98 
+            xmax = 1037.19 
+            text = "" 
+        intervals [526]:
+            xmin = 1037.19 
+            xmax = 1038.78 
+            text = "那宝莲灯就算了吧，我感觉。" 
+        intervals [527]:
+            xmin = 1038.78 
+            xmax = 1043.87 
+            text = "" 
+        intervals [528]:
+            xmin = 1043.87 
+            xmax = 1046.69 
+            text = "我喜欢看老的，我不喜欢看新的。" 
+        intervals [529]:
+            xmin = 1046.69 
+            xmax = 1047.60 
+            text = "" 
+        intervals [530]:
+            xmin = 1047.60 
+            xmax = 1048.39 
+            text = "苍兰诀。" 
+        intervals [531]:
+            xmin = 1048.39 
+            xmax = 1049.68 
+            text = "" 
+        intervals [532]:
+            xmin = 1049.68 
+            xmax = 1050.51 
+            text = "听过名。" 
+        intervals [533]:
+            xmin = 1050.51 
+            xmax = 1052.26 
+            text = "" 
+        intervals [534]:
+            xmin = 1052.26 
+            xmax = 1052.91 
+            text = "听过名。" 
+        intervals [535]:
+            xmin = 1052.91 
+            xmax = 1055.06 
+            text = "" 
+        intervals [536]:
+            xmin = 1055.06 
+            xmax = 1055.86 
+            text = "刘亦菲。" 
+        intervals [537]:
+            xmin = 1055.86 
+            xmax = 1057.08 
+            text = "" 
+        intervals [538]:
+            xmin = 1057.08 
+            xmax = 1057.96 
+            text = "刘亦菲。" 
+        intervals [539]:
+            xmin = 1057.96 
+            xmax = 1058.43 
+            text = "" 
+        intervals [540]:
+            xmin = 1058.43 
+            xmax = 1060.64 
+            text = "刘亦菲我只看过她的那个小龙女。" 
+        intervals [541]:
+            xmin = 1060.64 
+            xmax = 1063.03 
+            text = "" 
+        intervals [542]:
+            xmin = 1063.03 
+            xmax = 1064.27 
+            text = "我只看过她的小龙女。" 
+        intervals [543]:
+            xmin = 1064.27 
+            xmax = 1064.96 
+            text = "" 
+        intervals [544]:
+            xmin = 1064.96 
+            xmax = 1072.24 
+            text = "哎，还有还有那个还有那个，嘿嘿嘿还有那个刘亦菲演的那个红豆。" 
+        intervals [545]:
+            xmin = 1072.24 
+            xmax = 1073.11 
+            text = "" 
+        intervals [546]:
+            xmin = 1073.11 
+            xmax = 1074.38 
+            text = "哎，那个。" 
+        intervals [547]:
+            xmin = 1074.38 
+            xmax = 1075.08 
+            text = "" 
+        intervals [548]:
+            xmin = 1075.08 
+            xmax = 1075.67 
+            text = "啊。" 
+        intervals [549]:
+            xmin = 1075.67 
+            xmax = 1076.22 
+            text = "" 
+        intervals [550]:
+            xmin = 1076.22 
+            xmax = 1078.35 
+            text = "啊对，去有风的地方，那个看过一点。" 
+        intervals [551]:
+            xmin = 1078.35 
+            xmax = 1079.42 
+            text = "" 
+        intervals [552]:
+            xmin = 1079.42 
+            xmax = 1080.37 
+            text = "对，玫瑰，啊。" 
+        intervals [553]:
+            xmin = 1080.37 
+            xmax = 1080.65 
+            text = "" 
+        intervals [554]:
+            xmin = 1080.65 
+            xmax = 1082.59 
+            text = "啊，是吗？叫玫瑰的故事吗？" 
+        intervals [555]:
+            xmin = 1082.59 
+            xmax = 1082.97 
+            text = "" 
+        intervals [556]:
+            xmin = 1082.97 
+            xmax = 1083.69 
+            text = "啊，好吧。" 
+        intervals [557]:
+            xmin = 1083.69 
+            xmax = 1084.68 
+            text = "" 
+        intervals [558]:
+            xmin = 1084.68 
+            xmax = 1087.69 
+            text = "咳嗯，说白了，怎么说呢？" 
+        intervals [559]:
+            xmin = 1087.69 
+            xmax = 1087.98 
+            text = "" 
+        intervals [560]:
+            xmin = 1087.98 
+            xmax = 1091.26 
+            text = "咳，要不是她刘亦菲的话，我只我只能骂她是个渣女。" 
+        intervals [561]:
+            xmin = 1091.26 
+            xmax = 1094.55 
+            text = "" 
+        intervals [562]:
+            xmin = 1094.55 
+            xmax = 1095.83 
+            text = "对，说的通嘞。" 
+        intervals [563]:
+            xmin = 1095.83 
+            xmax = 1096.67 
+            text = "" 
+        intervals [564]:
+            xmin = 1096.67 
+            xmax = 1100.98 
+            text = "就就像那个胡歌演的那个那蒙蒙蒙恬。" 
+        intervals [565]:
+            xmin = 1100.98 
+            xmax = 1101.95 
+            text = "" 
+        intervals [566]:
+            xmin = 1101.95 
+            xmax = 1103.06 
+            text = "叫神话吗不是。" 
+        intervals [567]:
+            xmin = 1103.06 
+            xmax = 1103.72 
+            text = "" 
+        intervals [568]:
+            xmin = 1103.72 
+            xmax = 1105.25 
+            text = "嘿嘿，更老了是吧？" 
+        intervals [569]:
+            xmin = 1105.25 
+            xmax = 1106.36 
+            text = "" 
+        intervals [570]:
+            xmin = 1106.36 
+            xmax = 1107.46 
+            text = "哈哈哈。" 
+        intervals [571]:
+            xmin = 1107.46 
+            xmax = 1108.33 
+            text = "" 
+        intervals [572]:
+            xmin = 1108.33 
+            xmax = 1109.98 
+            text = "更老了，哎，多什么年代的？" 
+        intervals [573]:
+            xmin = 1109.98 
+            xmax = 1110.11 
+            text = "" 
+        intervals [574]:
+            xmin = 1110.11 
+            xmax = 1111.19 
+            text = "什么年代的我也忘了。" 
+        intervals [575]:
+            xmin = 1111.19 
+            xmax = 1112.89 
+            text = "" 
+        intervals [576]:
+            xmin = 1112.89 
+            xmax = 1113.58 
+            text = "零几年？" 
+        intervals [577]:
+            xmin = 1113.58 
+            xmax = 1115.00 
+            text = "" 
+        intervals [578]:
+            xmin = 1115.00 
+            xmax = 1118.93 
+            text = "那我零零后啊，我零零年的，我能看啊，怎么了？哈哈哈。" 
+        intervals [579]:
+            xmin = 1118.93 
+            xmax = 1125.58 
+            text = "" 
+        intervals [580]:
+            xmin = 1125.58 
+            xmax = 1127.38 
+            text = "嘶哈。" 
+        intervals [581]:
+            xmin = 1127.38 
+            xmax = 1127.86 
+            text = "" 
+        intervals [582]:
+            xmin = 1127.86 
+            xmax = 1129.5 
+            text = "不是就穿越古代的那个吗？" 
+        intervals [583]:
+            xmin = 1129.5 
+            xmax = 1133.71 
+            text = "" 
+        intervals [584]:
+            xmin = 1133.71 
+            xmax = 1139.62 
+            text = "电影成龙，哦，成龙好像我以后我好，成龙我好像也看过，但他地位不一样啊。" 
+        intervals [585]:
+            xmin = 1139.62 
+            xmax = 1139.77 
+            text = "" 
+        intervals [586]:
+            xmin = 1139.77 
+            xmax = 1142.35 
+            text = "成龙回去是个小兵吧，我记得，哎不对，是个将军。" 
+        intervals [587]:
+            xmin = 1142.35 
+            xmax = 1142.81 
+            text = "" 
+        intervals [588]:
+            xmin = 1142.81 
+            xmax = 1143.54 
+            text = "是个将军。" 
+        intervals [589]:
+            xmin = 1143.54 
+            xmax = 1143.85 
+            text = "" 
+        intervals [590]:
+            xmin = 1143.85 
+            xmax = 1146.05 
+            text = "但他不是蒙不是蒙家的将军。" 
+        intervals [591]:
+            xmin = 1146.05 
+            xmax = 1148.22 
+            text = "" 
+        intervals [592]:
+            xmin = 1148.22 
+            xmax = 1149.35 
+            text = "不是吧？" 
+        intervals [593]:
+            xmin = 1149.35 
+            xmax = 1150.68 
+            text = "" 
+        intervals [594]:
+            xmin = 1150.68 
+            xmax = 1156.90 
+            text = "我咋记得那成龙那个是回去，然后护送公主去去嫁人，然后然后。" 
+        intervals [595]:
+            xmin = 1156.90 
+            xmax = 1159.52 
+            text = "" 
+        intervals [596]:
+            xmin = 1159.52 
+            xmax = 1161.72 
+            text = "他是将军啊，我是说他是将军啊。" 
+        intervals [597]:
+            xmin = 1161.72 
+            xmax = 1161.85 
+            text = "" 
+        intervals [598]:
+            xmin = 1161.85 
+            xmax = 1163.08 
+            text = "但是他地位不高啊。" 
+        intervals [599]:
+            xmin = 1163.08 
+            xmax = 1164.52 
+            text = "" 
+        intervals [600]:
+            xmin = 1164.52 
+            xmax = 1167.47 
+            text = "你胡歌回去穿回去那个那那那是蒙家的了。" 
+        intervals [601]:
+            xmin = 1167.47 
+            xmax = 1167.91 
+            text = "" 
+        intervals [602]:
+            xmin = 1167.91 
+            xmax = 1170.37 
+            text = "那蒙家的蒙家的。" 
+        intervals [603]:
+            xmin = 1170.37 
+            xmax = 1171.84 
+            text = "" 
+        intervals [604]:
+            xmin = 1171.84 
+            xmax = 1172.55 
+            text = "啊？" 
+        intervals [605]:
+            xmin = 1172.55 
+            xmax = 1177.81 
+            text = "" 
+        intervals [606]:
+            xmin = 1177.81 
+            xmax = 1178.26 
+            text = "啊。" 
+        intervals [607]:
+            xmin = 1178.26 
+            xmax = 1178.94 
+            text = "" 
+        intervals [608]:
+            xmin = 1178.94 
+            xmax = 1180.11 
+            text = "两个时间线我知道。" 
+        intervals [609]:
+            xmin = 1180.11 
+            xmax = 1180.58 
+            text = "" 
+        intervals [610]:
+            xmin = 1180.58 
+            xmax = 1181.37 
+            text = "然后。" 
+        intervals [611]:
+            xmin = 1181.37 
+            xmax = 1183.24 
+            text = "" 
+        intervals [612]:
+            xmin = 1183.24 
+            xmax = 1185.86 
+            text = "穿越过去了，那个是那。" 
+        intervals [613]:
+            xmin = 1185.86 
+            xmax = 1186.51 
+            text = "" 
+        intervals [614]:
+            xmin = 1186.51 
+            xmax = 1187.95 
+            text = "是穿回去了。" 
+        intervals [615]:
+            xmin = 1187.95 
+            xmax = 1189.56 
+            text = "" 
+        intervals [616]:
+            xmin = 1189.56 
+            xmax = 1190.46 
+            text = "胡歌是穿越。" 
+        intervals [617]:
+            xmin = 1190.46 
+            xmax = 1191.68 
+            text = "" 
+        intervals [618]:
+            xmin = 1191.68 
+            xmax = 1193.32 
+            text = "那胡，那那成龙是什么啊？" 
+        intervals [619]:
+            xmin = 1193.32 
+            xmax = 1197.10 
+            text = "" 
+        intervals [620]:
+            xmin = 1197.10 
+            xmax = 1199.63 
+            text = "吃了长生不老药，好像是。" 
+        intervals [621]:
+            xmin = 1199.63 
+            xmax = 1200.79 
+            text = "" 
+        intervals [622]:
+            xmin = 1200.79 
+            xmax = 1202.73 
+            text = "长，两个人都吃了是吗？" 
+        intervals [623]:
+            xmin = 1202.73 
+            xmax = 1213.80 
+            text = "" 
+        intervals [624]:
+            xmin = 1213.80 
+            xmax = 1214.42 
+            text = "啊。" 
+        intervals [625]:
+            xmin = 1214.42 
+            xmax = 1215.02 
+            text = "" 
+        intervals [626]:
+            xmin = 1215.02 
+            xmax = 1219.85 
+            text = "啊，那个是那个是长生不老药只有一个，然后让那个公公主吃了，然后。" 
+        intervals [627]:
+            xmin = 1219.85 
+            xmax = 1220.02 
+            text = "" 
+        intervals [628]:
+            xmin = 1220.02 
+            xmax = 1225.72 
+            text = "啊，玉漱公主吃了。然后成龙那个演的那个就就一直在轮回转世轮回转世，然后转世那块了。" 
+        intervals [629]:
+            xmin = 1225.72 
+            xmax = 1226.04 
+            text = "" 
+        intervals [630]:
+            xmin = 1226.04 
+            xmax = 1226.56 
+            text = "好吧。" 
+        intervals [631]:
+            xmin = 1226.56 
+            xmax = 1226.91 
+            text = "" 
+        intervals [632]:
+            xmin = 1226.91 
+            xmax = 1227.48 
+            text = "咳。" 
+        intervals [633]:
+            xmin = 1227.48 
+            xmax = 1227.91 
+            text = "" 
+        intervals [634]:
+            xmin = 1227.91 
+            xmax = 1231.51 
+            text = "是，我记我我我是我是我是看过一点，但我有点忘了。" 
+        intervals [635]:
+            xmin = 1231.51 
+            xmax = 1232.06 
+            text = "" 
+        intervals [636]:
+            xmin = 1232.06 
+            xmax = 1232.56 
+            text = "咳。" 
+        intervals [637]:
+            xmin = 1232.56 
+            xmax = 1233.48 
+            text = "" 
+        intervals [638]:
+            xmin = 1233.48 
+            xmax = 1235.21 
+            text = "因为时间太长了，对。" 
+        intervals [639]:
+            xmin = 1235.21 
+            xmax = 1236.96 
+            text = "" 
+        intervals [640]:
+            xmin = 1236.96 
+            xmax = 1242.95 
+            text = "胡歌那个我记得还是比较清楚，其实那个我我记得比较清楚，啊这个就是这个就是那成龙演的那个。" 
+        intervals [641]:
+            xmin = 1242.95 
+            xmax = 1246.99 
+            text = "" 
+        intervals [642]:
+            xmin = 1246.99 
+            xmax = 1247.70 
+            text = "那个是火。" 
+        intervals [643]:
+            xmin = 1247.70 
+            xmax = 1249.47 
+            text = "" 
+        intervals [644]:
+            xmin = 1249.47 
+            xmax = 1253.56 
+            text = "很偶了，他也好像，胡歌是因为啥火的？好像也是。" 
+        intervals [645]:
+            xmin = 1253.56 
+            xmax = 1254.62 
+            text = "" 
+        intervals [646]:
+            xmin = 1254.62 
+            xmax = 1255.78 
+            text = "仙剑奇侠传。" 
+        intervals [647]:
+            xmin = 1255.78 
+            xmax = 1257.18 
+            text = "" 
+        intervals [648]:
+            xmin = 1257.18 
+            xmax = 1261.98 
+            text = "仙剑奇侠传，你你们说的版本是哪一个版本？最早，最，第一部，第三部。" 
+        intervals [649]:
+            xmin = 1261.98 
+            xmax = 1265.01 
+            text = "" 
+        intervals [650]:
+            xmin = 1265.01 
+            xmax = 1266.36 
+            text = "那个好像是。" 
+        intervals [651]:
+            xmin = 1266.36 
+            xmax = 1266.98 
+            text = "" 
+        intervals [652]:
+            xmin = 1266.98 
+            xmax = 1269.23 
+            text = "哎，第一部有有刘亦菲吗？" 
+        intervals [653]:
+            xmin = 1269.23 
+            xmax = 1272.63 
+            text = "" 
+        intervals [654]:
+            xmin = 1272.63 
+            xmax = 1274.80 
+            text = "第一部刘亦菲是那个叫仙灵儿啊。" 
+        intervals [655]:
+            xmin = 1274.80 
+            xmax = 1276.42 
+            text = "" 
+        intervals [656]:
+            xmin = 1276.42 
+            xmax = 1277.09 
+            text = "然后。" 
+        intervals [657]:
+            xmin = 1277.09 
+            xmax = 1277.69 
+            text = "" 
+        intervals [658]:
+            xmin = 1277.69 
+            xmax = 1279.85 
+            text = "哎，第三部刘亦菲没没没出来是吧？" 
+        intervals [659]:
+            xmin = 1279.85 
+            xmax = 1280.10 
+            text = "" 
+        intervals [660]:
+            xmin = 1280.10 
+            xmax = 1281.02 
+            text = "哈哈哈。" 
+        intervals [661]:
+            xmin = 1281.02 
+            xmax = 1285.64 
+            text = "" 
+        intervals [662]:
+            xmin = 1285.64 
+            xmax = 1287.44 
+            text = "我还看过那个轩辕剑。" 
+        intervals [663]:
+            xmin = 1287.44 
+            xmax = 1290.07 
+            text = "" 
+        intervals [664]:
+            xmin = 1290.07 
+            xmax = 1292.07 
+            text = "那个那个能算不，你感觉？" 
+        intervals [665]:
+            xmin = 1292.07 
+            xmax = 1299.96 
+            text = "" 
+        intervals [666]:
+            xmin = 1299.96 
+            xmax = 1302.57 
+            text = "那个主角陈靖仇，那现在叫啥名来着？我操！" 
+        intervals [667]:
+            xmin = 1302.57 
+            xmax = 1303.04 
+            text = "" 
+        intervals [668]:
+            xmin = 1303.04 
+            xmax = 1305.24 
+            text = "蒋劲夫，哎他现在还还还演吗？" 
+        intervals [669]:
+            xmin = 1305.24 
+            xmax = 1311.91 
+            text = "" 
+        intervals [670]:
+            xmin = 1311.91 
+            xmax = 1313.22 
+            text = "女主刘诗诗。" 
+        intervals [671]:
+            xmin = 1313.22 
+            xmax = 1315.29 
+            text = "" 
+        intervals [672]:
+            xmin = 1315.29 
+            xmax = 1317.05 
+            text = "还有那个唐嫣，好像是。" 
+        intervals [673]:
+            xmin = 1317.05 
+            xmax = 1317.77 
+            text = "" 
+        intervals [674]:
+            xmin = 1317.77 
+            xmax = 1318.50 
+            text = "还有唐嫣。" 
+        intervals [675]:
+            xmin = 1318.50 
+            xmax = 1319.99 
+            text = "" 
+        intervals [676]:
+            xmin = 1319.99 
+            xmax = 1322.41 
+            text = "也算女二吧。" 
+        intervals [677]:
+            xmin = 1322.41 
+            xmax = 1322.95 
+            text = "" 
+        intervals [678]:
+            xmin = 1322.95 
+            xmax = 1324.58 
+            text = "算那个。" 
+        intervals [679]:
+            xmin = 1324.58 
+            xmax = 1324.99 
+            text = "" 
+        intervals [680]:
+            xmin = 1324.99 
+            xmax = 1325.49 
+            text = "咳。" 
+        intervals [681]:
+            xmin = 1325.49 
+            xmax = 1325.76 
+            text = "" 
+        intervals [682]:
+            xmin = 1325.76 
+            xmax = 1326.23 
+            text = "咳。" 
+        intervals [683]:
+            xmin = 1326.23 
+            xmax = 1326.28 
+            text = "" 
+        intervals [684]:
+            xmin = 1326.28 
+            xmax = 1331.95 
+            text = "哎，怎么说呢？你说他，你说他是反方的话也不也不能也不能算，相爱相杀的吧。" 
+        intervals [685]:
+            xmin = 1331.95 
+            xmax = 1332.87 
+            text = "" 
+        intervals [686]:
+            xmin = 1332.87 
+            xmax = 1337.87 
+            text = "那胡歌那是，他是演的，他他他他他他再怎么那啥，我都没没感觉他太很那啥。" 
+        intervals [687]:
+            xmin = 1337.87 
+            xmax = 1338.91 
+            text = "" 
+        intervals [688]:
+            xmin = 1338.91 
+            xmax = 1344.75 
+            text = "对对对对，我我没那么迷那个女的，你知道我迷那个男的。" 
+        intervals [689]:
+            xmin = 1344.75 
+            xmax = 1346.71 
+            text = "" 
+        intervals [690]:
+            xmin = 1346.71 
+            xmax = 1350.12 
+            text = "所以说我我我取向正常啊，但是但是胡歌那个确实。" 
+        intervals [691]:
+            xmin = 1350.12 
+            xmax = 1351.73 
+            text = "" 
+        intervals [692]:
+            xmin = 1351.73 
+            xmax = 1352.62 
+            text = "真是。咳。" 
+        intervals [693]:
+            xmin = 1352.62 
+            xmax = 1354.42 
+            text = "" 
+        intervals [694]:
+            xmin = 1354.42 
+            xmax = 1355.62 
+            text = "哥们你看过啥呀？" 
+        intervals [695]:
+            xmin = 1355.62 
+            xmax = 1357.37 
+            text = "" 
+        intervals [696]:
+            xmin = 1357.37 
+            xmax = 1358.71 
+            text = "你什么都没看过？" 
+        intervals [697]:
+            xmin = 1358.71 
+            xmax = 1361.96 
+            text = "" 
+        intervals [698]:
+            xmin = 1361.96 
+            xmax = 1363.35 
+            text = "你就看熊出没是吧？" 
+        intervals [699]:
+            xmin = 1363.35 
+            xmax = 1365.25 
+            text = "" 
+        intervals [700]:
+            xmin = 1365.25 
+            xmax = 1366.25 
+            text = "古装片不看？" 
+        intervals [701]:
+            xmin = 1366.25 
+            xmax = 1367.78 
+            text = "" 
+        intervals [702]:
+            xmin = 1367.78 
+            xmax = 1368.61 
+            text = "张凌赫。" 
+        intervals [703]:
+            xmin = 1368.61 
+            xmax = 1375.07 
+            text = "" 
+        intervals [704]:
+            xmin = 1375.07 
+            xmax = 1378.34 
+            text = "为为什么一个演员火的是拍立得？" 
+        intervals [705]:
+            xmin = 1378.34 
+            xmax = 1382.99 
+            text = "" 
+        intervals [706]:
+            xmin = 1382.99 
+            xmax = 1390.57 
+            text = "脸在江山就在。好的好的，我我只能说蔡徐坤还是太牛逼了。哈哈哈。" 
+        intervals [707]:
+            xmin = 1390.57 
+            xmax = 1396.92 
+            text = "" 
+        intervals [708]:
+            xmin = 1396.92 
+            xmax = 1398.28 
+            text = "那那能叫黑粉吗？" 
+        intervals [709]:
+            xmin = 1398.28 
+            xmax = 1398.49 
+            text = "" 
+        intervals [710]:
+            xmin = 1398.49 
+            xmax = 1400.92 
+            text = "黑他十年那还能叫黑粉吗？哈哈哈。" 
+        intervals [711]:
+            xmin = 1400.92 
+            xmax = 1401.96 
+            text = "" 
+        intervals [712]:
+            xmin = 1401.96 
+            xmax = 1403.56 
+            text = "黑他十年还能叫黑粉吗？" 
+        intervals [713]:
+            xmin = 1403.56 
+            xmax = 1406.23 
+            text = "" 
+        intervals [714]:
+            xmin = 1406.23 
+            xmax = 1410.29 
+            text = "啊，偶像练习生，打篮球，咔咔哈哈，跟他。" 
+        intervals [715]:
+            xmin = 1410.29 
+            xmax = 1410.77 
+            text = "" 
+        intervals [716]:
+            xmin = 1410.77 
+            xmax = 1411.52 
+            text = "咳。" 
+        intervals [717]:
+            xmin = 1411.52 
+            xmax = 1413.38 
+            text = "" 
+        intervals [718]:
+            xmin = 1413.38 
+            xmax = 1414.05 
+            text = "他主要。" 
+        intervals [719]:
+            xmin = 1414.05 
+            xmax = 1416.86 
+            text = "" 
+        intervals [720]:
+            xmin = 1416.86 
+            xmax = 1418.54 
+            text = "是还是有的。" 
+        intervals [721]:
+            xmin = 1418.54 
+            xmax = 1418.61 
+            text = "" 
+        intervals [722]:
+            xmin = 1418.61 
+            xmax = 1423.51 
+            text = "他最开始被诟病的是是被诟病的是这个业务能力，确实那那会没那么行。" 
+        intervals [723]:
+            xmin = 1423.51 
+            xmax = 1423.91 
+            text = "" 
+        intervals [724]:
+            xmin = 1423.91 
+            xmax = 1428.42 
+            text = "但是他现在确实很可以了，他确实也练练。" 
+        intervals [725]:
+            xmin = 1428.42 
+            xmax = 1428.85 
+            text = "" 
+        intervals [726]:
+            xmin = 1428.85 
+            xmax = 1429.40 
+            text = "咳。" 
+        intervals [727]:
+            xmin = 1429.40 
+            xmax = 1429.47 
+            text = "" 
+        intervals [728]:
+            xmin = 1429.47 
+            xmax = 1435.49 
+            text = "最开始是看见他很烦，后边感觉他还在，诶，挺厉害哈哈哈，这人挺厉害。" 
+        intervals [729]:
+            xmin = 1435.49 
+            xmax = 1436.22 
+            text = "" 
+        intervals [730]:
+            xmin = 1436.22 
+            xmax = 1437.26 
+            text = "对，长得也帅。" 
+        intervals [731]:
+            xmin = 1437.26 
+            xmax = 1437.45 
+            text = "" 
+        intervals [732]:
+            xmin = 1437.45 
+            xmax = 1440.86 
+            text = "他他最主要是让让让男人服的是啥？" 
+        intervals [733]:
+            xmin = 1440.86 
+            xmax = 1441.00 
+            text = "" 
+        intervals [734]:
+            xmin = 1441.00 
+            xmax = 1446.10 
+            text = "他能坚持下去，他能弄那网暴坚持下去那么多年，还能继续干，厉害，服他了。" 
+        intervals [735]:
+            xmin = 1446.10 
+            xmax = 1449.76 
+            text = "" 
+        intervals [736]:
+            xmin = 1449.76 
+            xmax = 1453.64 
+            text = "那家伙那家伙那那那会的那会得多少人黑他呀？" 
+        intervals [737]:
+            xmin = 1453.64 
+            xmax = 1453.96 
+            text = "" 
+        intervals [738]:
+            xmin = 1453.96 
+            xmax = 1457.83 
+            text = "那说白了，你路上拉十个人，起码九个人都能黑他一句。" 
+        intervals [739]:
+            xmin = 1457.83 
+            xmax = 1462.96 
+            text = "" 
+        intervals [740]:
+            xmin = 1462.96 
+            xmax = 1463.56 
+            text = "完事。" 
+        intervals [741]:
+            xmin = 1463.56 
+            xmax = 1467.11 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "P008" 
+        xmin = 0 
+        xmax = 1467.11 
+        intervals: size = 535 
+        intervals [1]:
+            xmin = 0 
+            xmax = 7.68 
+            text = "" 
+        intervals [2]:
+            xmin = 7.68 
+            xmax = 8.66 
+            text = "最近。" 
+        intervals [3]:
+            xmin = 8.66 
+            xmax = 11.07 
+            text = "" 
+        intervals [4]:
+            xmin = 11.07 
+            xmax = 13.72 
+            text = "最近现在电影院还有什么好电影啊？" 
+        intervals [5]:
+            xmin = 13.72 
+            xmax = 15.28 
+            text = "" 
+        intervals [6]:
+            xmin = 15.28 
+            xmax = 17.47 
+            text = "哪吒那不是之前的了吗？" 
+        intervals [7]:
+            xmin = 17.47 
+            xmax = 21.71 
+            text = "" 
+        intervals [8]:
+            xmin = 21.71 
+            xmax = 26.99 
+            text = "看看现在还有什么好电影。啊蜘蜘蛛侠还还没有下架。" 
+        intervals [9]:
+            xmin = 26.99 
+            xmax = 29.95 
+            text = "" 
+        intervals [10]:
+            xmin = 29.95 
+            xmax = 30.55 
+            text = "还没有。" 
+        intervals [11]:
+            xmin = 30.55 
+            xmax = 33.41 
+            text = "" 
+        intervals [12]:
+            xmin = 33.41 
+            xmax = 33.95 
+            text = "对。" 
+        intervals [13]:
+            xmin = 33.95 
+            xmax = 36.14 
+            text = "" 
+        intervals [14]:
+            xmin = 36.14 
+            xmax = 36.97 
+            text = "漫威。" 
+        intervals [15]:
+            xmin = 36.97 
+            xmax = 47.98 
+            text = "" 
+        intervals [16]:
+            xmin = 47.98 
+            xmax = 50.12 
+            text = "电视剧的什么？电视剧的蜘蛛侠？" 
+        intervals [17]:
+            xmin = 50.12 
+            xmax = 53.15 
+            text = "" 
+        intervals [18]:
+            xmin = 53.15 
+            xmax = 53.90 
+            text = "啊。" 
+        intervals [19]:
+            xmin = 53.90 
+            xmax = 55.77 
+            text = "" 
+        intervals [20]:
+            xmin = 55.77 
+            xmax = 58.31 
+            text = "美剧美剧美剧美剧。" 
+        intervals [21]:
+            xmin = 58.31 
+            xmax = 61.25 
+            text = "" 
+        intervals [22]:
+            xmin = 61.25 
+            xmax = 63.47 
+            text = "我还看过那种动画的蜘蛛侠。" 
+        intervals [23]:
+            xmin = 63.47 
+            xmax = 63.88 
+            text = "" 
+        intervals [24]:
+            xmin = 63.88 
+            xmax = 64.94 
+            text = "动画蜘蛛侠。" 
+        intervals [25]:
+            xmin = 64.94 
+            xmax = 67.63 
+            text = "" 
+        intervals [26]:
+            xmin = 67.63 
+            xmax = 68.95 
+            text = "不是，有的动。" 
+        intervals [27]:
+            xmin = 68.95 
+            xmax = 69.38 
+            text = "" 
+        intervals [28]:
+            xmin = 69.38 
+            xmax = 71.66 
+            text = "动画不是光给小孩看。" 
+        intervals [29]:
+            xmin = 71.66 
+            xmax = 77.90 
+            text = "" 
+        intervals [30]:
+            xmin = 77.90 
+            xmax = 79.89 
+            text = "你看哪吒就不是光给小孩看的。" 
+        intervals [31]:
+            xmin = 79.89 
+            xmax = 81.19 
+            text = "" 
+        intervals [32]:
+            xmin = 81.19 
+            xmax = 81.89 
+            text = "对吧。" 
+        intervals [33]:
+            xmin = 81.89 
+            xmax = 89.60 
+            text = "" 
+        intervals [34]:
+            xmin = 89.60 
+            xmax = 90.65 
+            text = "牛来。" 
+        intervals [35]:
+            xmin = 90.65 
+            xmax = 92.26 
+            text = "" 
+        intervals [36]:
+            xmin = 92.26 
+            xmax = 94.64 
+            text = "你不会真去电影院看那个牛来了吧？" 
+        intervals [37]:
+            xmin = 94.64 
+            xmax = 96.83 
+            text = "" 
+        intervals [38]:
+            xmin = 96.83 
+            xmax = 100.22 
+            text = "牛牛来是一个非常抽象的一个智障电。" 
+        intervals [39]:
+            xmin = 100.22 
+            xmax = 100.85 
+            text = "" 
+        intervals [40]:
+            xmin = 100.85 
+            xmax = 102.11 
+            text = "智障电影。" 
+        intervals [41]:
+            xmin = 102.11 
+            xmax = 103.36 
+            text = "" 
+        intervals [42]:
+            xmin = 103.36 
+            xmax = 105.42 
+            text = "当然了，而且票房还不低。" 
+        intervals [43]:
+            xmin = 105.42 
+            xmax = 110.72 
+            text = "" 
+        intervals [44]:
+            xmin = 110.72 
+            xmax = 113.00 
+            text = "对，而且他们现在票房很高。" 
+        intervals [45]:
+            xmin = 113.00 
+            xmax = 117.28 
+            text = "" 
+        intervals [46]:
+            xmin = 117.28 
+            xmax = 118.59 
+            text = "哈哈哈哈。" 
+        intervals [47]:
+            xmin = 118.59 
+            xmax = 122.03 
+            text = "" 
+        intervals [48]:
+            xmin = 122.03 
+            xmax = 122.66 
+            text = "对。" 
+        intervals [49]:
+            xmin = 122.66 
+            xmax = 123.64 
+            text = "" 
+        intervals [50]:
+            xmin = 123.64 
+            xmax = 125.88 
+            text = "因为它因为它烂，所以它才有的名。" 
+        intervals [51]:
+            xmin = 125.88 
+            xmax = 130.42 
+            text = "" 
+        intervals [52]:
+            xmin = 130.42 
+            xmax = 134.42 
+            text = "有的电影院都没有海报，都是都是用马克笔在上面写的海报。" 
+        intervals [53]:
+            xmin = 134.42 
+            xmax = 135.28 
+            text = "" 
+        intervals [54]:
+            xmin = 135.28 
+            xmax = 137.13 
+            text = "手搓动动画。" 
+        intervals [55]:
+            xmin = 137.13 
+            xmax = 137.60 
+            text = "" 
+        intervals [56]:
+            xmin = 137.60 
+            xmax = 138.15 
+            text = "嗯。" 
+        intervals [57]:
+            xmin = 138.15 
+            xmax = 146.19 
+            text = "" 
+        intervals [58]:
+            xmin = 146.19 
+            xmax = 147.04 
+            text = "非常烂了。" 
+        intervals [59]:
+            xmin = 147.04 
+            xmax = 151.44 
+            text = "" 
+        intervals [60]:
+            xmin = 151.44 
+            xmax = 153.95 
+            text = "我不会把我的钱放在那上边。" 
+        intervals [61]:
+            xmin = 153.95 
+            xmax = 156.96 
+            text = "" 
+        intervals [62]:
+            xmin = 156.96 
+            xmax = 158.33 
+            text = "你去你去看了？" 
+        intervals [63]:
+            xmin = 158.33 
+            xmax = 161.43 
+            text = "" 
+        intervals [64]:
+            xmin = 161.43 
+            xmax = 163.67 
+            text = "刷到了，但是能能刷到。" 
+        intervals [65]:
+            xmin = 163.67 
+            xmax = 166.25 
+            text = "" 
+        intervals [66]:
+            xmin = 166.25 
+            xmax = 170.60 
+            text = "我刷到有有人在那个电影院里边笑的都喘不上气，看那个电影。" 
+        intervals [67]:
+            xmin = 170.60 
+            xmax = 175.17 
+            text = "" 
+        intervals [68]:
+            xmin = 175.17 
+            xmax = 177.05 
+            text = "不是已经烂到。" 
+        intervals [69]:
+            xmin = 177.05 
+            xmax = 177.50 
+            text = "" 
+        intervals [70]:
+            xmin = 177.50 
+            xmax = 179.06 
+            text = "被气笑了那种感觉。" 
+        intervals [71]:
+            xmin = 179.06 
+            xmax = 179.49 
+            text = "" 
+        intervals [72]:
+            xmin = 179.49 
+            xmax = 180.16 
+            text = "对。" 
+        intervals [73]:
+            xmin = 180.16 
+            xmax = 184.70 
+            text = "" 
+        intervals [74]:
+            xmin = 184.70 
+            xmax = 185.25 
+            text = "哎。" 
+        intervals [75]:
+            xmin = 185.25 
+            xmax = 185.55 
+            text = "" 
+        intervals [76]:
+            xmin = 185.55 
+            xmax = 186.74 
+            text = "我还可以看一下。" 
+        intervals [77]:
+            xmin = 186.74 
+            xmax = 192.77 
+            text = "" 
+        intervals [78]:
+            xmin = 192.77 
+            xmax = 193.82 
+            text = "还有第二部吗？" 
+        intervals [79]:
+            xmin = 193.82 
+            xmax = 198.54 
+            text = "" 
+        intervals [80]:
+            xmin = 198.54 
+            xmax = 201.04 
+            text = "哎，五点半就有一场，二十八块钱。" 
+        intervals [81]:
+            xmin = 201.04 
+            xmax = 208.50 
+            text = "" 
+        intervals [82]:
+            xmin = 208.50 
+            xmax = 210.21 
+            text = "一个多小时，一个半小时。" 
+        intervals [83]:
+            xmin = 210.21 
+            xmax = 213.04 
+            text = "" 
+        intervals [84]:
+            xmin = 213.04 
+            xmax = 213.50 
+            text = "对。" 
+        intervals [85]:
+            xmin = 213.50 
+            xmax = 218.18 
+            text = "" 
+        intervals [86]:
+            xmin = 218.18 
+            xmax = 219.04 
+            text = "这个短。" 
+        intervals [87]:
+            xmin = 219.04 
+            xmax = 222.08 
+            text = "" 
+        intervals [88]:
+            xmin = 222.08 
+            xmax = 223.56 
+            text = "对呀，我搜才二十八。" 
+        intervals [89]:
+            xmin = 223.56 
+            xmax = 225.50 
+            text = "" 
+        intervals [90]:
+            xmin = 225.50 
+            xmax = 228.95 
+            text = "这样的电影你想花多少钱去看？你想花六十块钱去看电影？" 
+        intervals [91]:
+            xmin = 228.95 
+            xmax = 238.87 
+            text = "" 
+        intervals [92]:
+            xmin = 238.87 
+            xmax = 239.79 
+            text = "对呀。" 
+        intervals [93]:
+            xmin = 239.79 
+            xmax = 240.50 
+            text = "" 
+        intervals [94]:
+            xmin = 240.50 
+            xmax = 241.31 
+            text = "对。" 
+        intervals [95]:
+            xmin = 241.31 
+            xmax = 244.11 
+            text = "" 
+        intervals [96]:
+            xmin = 244.11 
+            xmax = 249.59 
+            text = "这个时间，这个时间短，那个杀死比尔不是有引进的吗？完整版那个时间长。" 
+        intervals [97]:
+            xmin = 249.59 
+            xmax = 251.23 
+            text = "" 
+        intervals [98]:
+            xmin = 251.23 
+            xmax = 252.96 
+            text = "对，中间还有课间休息。" 
+        intervals [99]:
+            xmin = 252.96 
+            xmax = 253.70 
+            text = "" 
+        intervals [100]:
+            xmin = 253.70 
+            xmax = 254.41 
+            text = "哈哈。" 
+        intervals [101]:
+            xmin = 254.41 
+            xmax = 255.6 
+            text = "" 
+        intervals [102]:
+            xmin = 255.6 
+            xmax = 257.72 
+            text = "这个是完整版，说是没有删减过。" 
+        intervals [103]:
+            xmin = 257.72 
+            xmax = 258.59 
+            text = "" 
+        intervals [104]:
+            xmin = 258.59 
+            xmax = 259.42 
+            text = "对。" 
+        intervals [105]:
+            xmin = 259.42 
+            xmax = 260.23 
+            text = "" 
+        intervals [106]:
+            xmin = 260.23 
+            xmax = 263.71 
+            text = "从这上边是，这一场是七点到十一点半。" 
+        intervals [107]:
+            xmin = 263.71 
+            xmax = 264.04 
+            text = "" 
+        intervals [108]:
+            xmin = 264.04 
+            xmax = 266.32 
+            text = "中间，课间休息十五分钟。" 
+        intervals [109]:
+            xmin = 266.32 
+            xmax = 270.58 
+            text = "" 
+        intervals [110]:
+            xmin = 270.58 
+            xmax = 271.48 
+            text = "对呀。" 
+        intervals [111]:
+            xmin = 271.48 
+            xmax = 273.6 
+            text = "" 
+        intervals [112]:
+            xmin = 273.6 
+            xmax = 276.96 
+            text = "有的人去，趁着十五分钟去隔壁看了一会蜘蛛侠呢。" 
+        intervals [113]:
+            xmin = 276.96 
+            xmax = 282.14 
+            text = "" 
+        intervals [114]:
+            xmin = 282.14 
+            xmax = 283.79 
+            text = "巨长，时间特别长。" 
+        intervals [115]:
+            xmin = 283.79 
+            xmax = 301.58 
+            text = "" 
+        intervals [116]:
+            xmin = 301.58 
+            xmax = 303.46 
+            text = "但是这个时间确实很早很早了。" 
+        intervals [117]:
+            xmin = 303.46 
+            xmax = 312.51 
+            text = "" 
+        intervals [118]:
+            xmin = 312.51 
+            xmax = 316.05 
+            text = "但是你肯定刷到过那个片段啊，刘玉玲你没刷到过吗？" 
+        intervals [119]:
+            xmin = 316.05 
+            xmax = 316.19 
+            text = "" 
+        intervals [120]:
+            xmin = 316.19 
+            xmax = 318.41 
+            text = "穿着一个和服，拿着一把武士刀那个。" 
+        intervals [121]:
+            xmin = 318.41 
+            xmax = 319.29 
+            text = "" 
+        intervals [122]:
+            xmin = 319.29 
+            xmax = 320.01 
+            text = "砍头。" 
+        intervals [123]:
+            xmin = 320.01 
+            xmax = 323.71 
+            text = "" 
+        intervals [124]:
+            xmin = 323.71 
+            xmax = 325.01 
+            text = "对时间确实特别长。" 
+        intervals [125]:
+            xmin = 325.01 
+            xmax = 330.83 
+            text = "" 
+        intervals [126]:
+            xmin = 330.83 
+            xmax = 331.33 
+            text = "哦。" 
+        intervals [127]:
+            xmin = 331.33 
+            xmax = 332.36 
+            text = "" 
+        intervals [128]:
+            xmin = 332.36 
+            xmax = 333.00 
+            text = "杀死。" 
+        intervals [129]:
+            xmin = 333.00 
+            xmax = 333.29 
+            text = "" 
+        intervals [130]:
+            xmin = 333.29 
+            xmax = 339.24 
+            text = "唐悠悠看的那个电影，对吧？唐悠唐悠悠和关谷，唐悠悠和关谷看的那个电影就是杀死比尔。" 
+        intervals [131]:
+            xmin = 339.24 
+            xmax = 341.68 
+            text = "" 
+        intervals [132]:
+            xmin = 341.68 
+            xmax = 343.59 
+            text = "对，杀不死的比尔。" 
+        intervals [133]:
+            xmin = 343.59 
+            xmax = 347.52 
+            text = "" 
+        intervals [134]:
+            xmin = 347.52 
+            xmax = 348.72 
+            text = "对对对对对对对。" 
+        intervals [135]:
+            xmin = 348.72 
+            xmax = 353.99 
+            text = "" 
+        intervals [136]:
+            xmin = 353.99 
+            xmax = 356.35 
+            text = "爱情公寓我看到四我就没有看五了，反正。" 
+        intervals [137]:
+            xmin = 356.35 
+            xmax = 359.72 
+            text = "" 
+        intervals [138]:
+            xmin = 359.72 
+            xmax = 364.47 
+            text = "我都我在刷到之后，我都没有点开过五，我一直在刷，我最喜欢的是第二部。" 
+        intervals [139]:
+            xmin = 364.47 
+            xmax = 366.86 
+            text = "" 
+        intervals [140]:
+            xmin = 366.86 
+            xmax = 367.82 
+            text = "第二部第三部。" 
+        intervals [141]:
+            xmin = 367.82 
+            xmax = 373.92 
+            text = "" 
+        intervals [142]:
+            xmin = 373.92 
+            xmax = 374.33 
+            text = "对。" 
+        intervals [143]:
+            xmin = 374.33 
+            xmax = 377.32 
+            text = "" 
+        intervals [144]:
+            xmin = 377.32 
+            xmax = 381.4 
+            text = "而且妆造也特别好，第四季我感觉妆造有点敷衍了。" 
+        intervals [145]:
+            xmin = 381.4 
+            xmax = 384.15 
+            text = "" 
+        intervals [146]:
+            xmin = 384.15 
+            xmax = 386.45 
+            text = "也不是没有这个的原因。" 
+        intervals [147]:
+            xmin = 386.45 
+            xmax = 391.42 
+            text = "" 
+        intervals [148]:
+            xmin = 391.42 
+            xmax = 394.68 
+            text = "大学生刚毕业或者是嗯。" 
+        intervals [149]:
+            xmin = 394.68 
+            xmax = 399.92 
+            text = "" 
+        intervals [150]:
+            xmin = 399.92 
+            xmax = 405.01 
+            text = "不知道，而且他们而且他们都是那种戏剧大学里边的专业的学生。" 
+        intervals [151]:
+            xmin = 405.01 
+            xmax = 405.48 
+            text = "" 
+        intervals [152]:
+            xmin = 405.48 
+            xmax = 405.96 
+            text = "嗯。" 
+        intervals [153]:
+            xmin = 405.96 
+            xmax = 408.15 
+            text = "" 
+        intervals [154]:
+            xmin = 408.15 
+            xmax = 408.56 
+            text = "对。" 
+        intervals [155]:
+            xmin = 408.56 
+            xmax = 410.20 
+            text = "" 
+        intervals [156]:
+            xmin = 410.20 
+            xmax = 413.94 
+            text = "好多，好像好几个都都是陈赫拉来的。" 
+        intervals [157]:
+            xmin = 413.94 
+            xmax = 422.46 
+            text = "" 
+        intervals [158]:
+            xmin = 422.46 
+            xmax = 427.07 
+            text = "都知道角色名儿，都不知都不说演员的本人的名字，都是说角色名。" 
+        intervals [159]:
+            xmin = 427.07 
+            xmax = 433.06 
+            text = "" 
+        intervals [160]:
+            xmin = 433.06 
+            xmax = 433.84 
+            text = "陈赫。" 
+        intervals [161]:
+            xmin = 433.84 
+            xmax = 436.30 
+            text = "" 
+        intervals [162]:
+            xmin = 436.30 
+            xmax = 436.88 
+            text = "对。" 
+        intervals [163]:
+            xmin = 436.88 
+            xmax = 441.12 
+            text = "" 
+        intervals [164]:
+            xmin = 441.12 
+            xmax = 443.32 
+            text = "李嘉明，李金铭。" 
+        intervals [165]:
+            xmin = 443.32 
+            xmax = 443.72 
+            text = "" 
+        intervals [166]:
+            xmin = 443.72 
+            xmax = 445.06 
+            text = "李金铭是美嘉。" 
+        intervals [167]:
+            xmin = 445.06 
+            xmax = 446.08 
+            text = "" 
+        intervals [168]:
+            xmin = 446.08 
+            xmax = 447.10 
+            text = "李金铭。" 
+        intervals [169]:
+            xmin = 447.10 
+            xmax = 452.68 
+            text = "" 
+        intervals [170]:
+            xmin = 452.68 
+            xmax = 453.40 
+            text = "孙艺洲。" 
+        intervals [171]:
+            xmin = 453.40 
+            xmax = 455.30 
+            text = "" 
+        intervals [172]:
+            xmin = 455.30 
+            xmax = 456.10 
+            text = "嗯。" 
+        intervals [173]:
+            xmin = 456.10 
+            xmax = 470.24 
+            text = "" 
+        intervals [174]:
+            xmin = 470.24 
+            xmax = 471.41 
+            text = "王传君。" 
+        intervals [175]:
+            xmin = 471.41 
+            xmax = 474.75 
+            text = "" 
+        intervals [176]:
+            xmin = 474.75 
+            xmax = 475.44 
+            text = "对呀。" 
+        intervals [177]:
+            xmin = 475.44 
+            xmax = 478.23 
+            text = "" 
+        intervals [178]:
+            xmin = 478.23 
+            xmax = 481.04 
+            text = "他觉得他跟关谷是太绑定了。" 
+        intervals [179]:
+            xmin = 481.04 
+            xmax = 481.72 
+            text = "" 
+        intervals [180]:
+            xmin = 481.72 
+            xmax = 483.31 
+            text = "嗯，但是小姨妈就没有。" 
+        intervals [181]:
+            xmin = 483.31 
+            xmax = 492.09 
+            text = "" 
+        intervals [182]:
+            xmin = 492.09 
+            xmax = 494.31 
+            text = "她们后来都好几个都去演电影了。" 
+        intervals [183]:
+            xmin = 494.31 
+            xmax = 501.05 
+            text = "" 
+        intervals [184]:
+            xmin = 501.05 
+            xmax = 501.99 
+            text = "邓家佳。" 
+        intervals [185]:
+            xmin = 501.99 
+            xmax = 504.67 
+            text = "" 
+        intervals [186]:
+            xmin = 504.67 
+            xmax = 505.46 
+            text = "邓家佳。" 
+        intervals [187]:
+            xmin = 505.46 
+            xmax = 515.50 
+            text = "" 
+        intervals [188]:
+            xmin = 515.50 
+            xmax = 516.53 
+            text = "这个我也忘记了。" 
+        intervals [189]:
+            xmin = 516.53 
+            xmax = 519.93 
+            text = "" 
+        intervals [190]:
+            xmin = 519.93 
+            xmax = 520.83 
+            text = "陆展博。" 
+        intervals [191]:
+            xmin = 520.83 
+            xmax = 533.59 
+            text = "" 
+        intervals [192]:
+            xmin = 533.59 
+            xmax = 534.31 
+            text = "对。" 
+        intervals [193]:
+            xmin = 534.31 
+            xmax = 534.56 
+            text = "" 
+        intervals [194]:
+            xmin = 534.56 
+            xmax = 535.70 
+            text = "对对对对对。" 
+        intervals [195]:
+            xmin = 535.70 
+            xmax = 543.83 
+            text = "" 
+        intervals [196]:
+            xmin = 543.83 
+            xmax = 545.36 
+            text = "你没看过爱情公寓吗？" 
+        intervals [197]:
+            xmin = 545.36 
+            xmax = 550.35 
+            text = "" 
+        intervals [198]:
+            xmin = 550.35 
+            xmax = 551.33 
+            text = "他看喜羊羊。" 
+        intervals [199]:
+            xmin = 551.33 
+            xmax = 552.88 
+            text = "" 
+        intervals [200]:
+            xmin = 552.88 
+            xmax = 554.11 
+            text = "你是不是看喜羊羊？" 
+        intervals [201]:
+            xmin = 554.11 
+            xmax = 559.6 
+            text = "" 
+        intervals [202]:
+            xmin = 559.6 
+            xmax = 561.48 
+            text = "哎，我小的时候我都不看熊出没了。" 
+        intervals [203]:
+            xmin = 561.48 
+            xmax = 562.43 
+            text = "" 
+        intervals [204]:
+            xmin = 562.43 
+            xmax = 563.21 
+            text = "我小时候就是。" 
+        intervals [205]:
+            xmin = 563.21 
+            xmax = 564.92 
+            text = "" 
+        intervals [206]:
+            xmin = 564.92 
+            xmax = 565.65 
+            text = "天呐。" 
+        intervals [207]:
+            xmin = 565.65 
+            xmax = 574.78 
+            text = "" 
+        intervals [208]:
+            xmin = 574.78 
+            xmax = 576.98 
+            text = "而且熊出没电影你不会也去电影院看吧？" 
+        intervals [209]:
+            xmin = 576.98 
+            xmax = 589.96 
+            text = "" 
+        intervals [210]:
+            xmin = 589.96 
+            xmax = 591.81 
+            text = "我好像一个都没电影院看过。" 
+        intervals [211]:
+            xmin = 591.81 
+            xmax = 593.64 
+            text = "" 
+        intervals [212]:
+            xmin = 593.64 
+            xmax = 594.99 
+            text = "铁胆熊心。" 
+        intervals [213]:
+            xmin = 594.99 
+            xmax = 604.19 
+            text = "" 
+        intervals [214]:
+            xmin = 604.19 
+            xmax = 605.31 
+            text = "不会也很早了吧？" 
+        intervals [215]:
+            xmin = 605.31 
+            xmax = 606.11 
+            text = "" 
+        intervals [216]:
+            xmin = 606.11 
+            xmax = 606.82 
+            text = "我天呐。" 
+        intervals [217]:
+            xmin = 606.82 
+            xmax = 634.94 
+            text = "" 
+        intervals [218]:
+            xmin = 634.94 
+            xmax = 635.64 
+            text = "重振。" 
+        intervals [219]:
+            xmin = 635.64 
+            xmax = 636.22 
+            text = "" 
+        intervals [220]:
+            xmin = 636.22 
+            xmax = 638.32 
+            text = " 呵我瞎说的。" 
+        intervals [221]:
+            xmin = 638.32 
+            xmax = 664.97 
+            text = "" 
+        intervals [222]:
+            xmin = 664.97 
+            xmax = 667.57 
+            text = "神奇宝贝是那个神奇宝贝球那个吗？" 
+        intervals [223]:
+            xmin = 667.57 
+            xmax = 678.99 
+            text = "" 
+        intervals [224]:
+            xmin = 678.99 
+            xmax = 681.39 
+            text = "我希望重新在电影院看到喜羊羊。" 
+        intervals [225]:
+            xmin = 681.39 
+            xmax = 694.37 
+            text = "" 
+        intervals [226]:
+            xmin = 694.37 
+            xmax = 697.40 
+            text = "爱情公寓有的时候什么都不干，放那儿听声音。" 
+        intervals [227]:
+            xmin = 697.40 
+            xmax = 697.73 
+            text = "" 
+        intervals [228]:
+            xmin = 697.73 
+            xmax = 698.30 
+            text = "对吧？" 
+        intervals [229]:
+            xmin = 698.30 
+            xmax = 710.40 
+            text = "" 
+        intervals [230]:
+            xmin = 710.40 
+            xmax = 715.94 
+            text = "非常生活化呀，而且它一点都全是那种现场收音。" 
+        intervals [231]:
+            xmin = 715.94 
+            xmax = 716.30 
+            text = "" 
+        intervals [232]:
+            xmin = 716.30 
+            xmax = 719.01 
+            text = "他不是后来配音的，你你以后可以去给你看。" 
+        intervals [233]:
+            xmin = 719.01 
+            xmax = 719.96 
+            text = "" 
+        intervals [234]:
+            xmin = 719.96 
+            xmax = 720.52 
+            text = "对。" 
+        intervals [235]:
+            xmin = 720.52 
+            xmax = 724.26 
+            text = "" 
+        intervals [236]:
+            xmin = 724.26 
+            xmax = 726.05 
+            text = "你竟然没有看过爱情公寓。" 
+        intervals [237]:
+            xmin = 726.05 
+            xmax = 728.63 
+            text = "" 
+        intervals [238]:
+            xmin = 728.63 
+            xmax = 729.59 
+            text = "太珍贵了。" 
+        intervals [239]:
+            xmin = 729.59 
+            xmax = 733.47 
+            text = "" 
+        intervals [240]:
+            xmin = 733.47 
+            xmax = 734.62 
+            text = "你在家都看什么？" 
+        intervals [241]:
+            xmin = 734.62 
+            xmax = 742.38 
+            text = "" 
+        intervals [242]:
+            xmin = 742.38 
+            xmax = 743.62 
+            text = "那你在家都看什么？" 
+        intervals [243]:
+            xmin = 743.62 
+            xmax = 745.33 
+            text = "" 
+        intervals [244]:
+            xmin = 745.33 
+            xmax = 746.20 
+            text = "除了打游戏。" 
+        intervals [245]:
+            xmin = 746.20 
+            xmax = 748.53 
+            text = "" 
+        intervals [246]:
+            xmin = 748.53 
+            xmax = 749.68 
+            text = "比如说呢？" 
+        intervals [247]:
+            xmin = 749.68 
+            xmax = 750.19 
+            text = "" 
+        intervals [248]:
+            xmin = 750.19 
+            xmax = 750.88 
+            text = "对呀。" 
+        intervals [249]:
+            xmin = 750.88 
+            xmax = 754.91 
+            text = "" 
+        intervals [250]:
+            xmin = 754.91 
+            xmax = 755.78 
+            text = "嗯哼。" 
+        intervals [251]:
+            xmin = 755.78 
+            xmax = 757.77 
+            text = "" 
+        intervals [252]:
+            xmin = 757.77 
+            xmax = 760.86 
+            text = "家有儿女那时代非常非常久远了。" 
+        intervals [253]:
+            xmin = 760.86 
+            xmax = 762.96 
+            text = "" 
+        intervals [254]:
+            xmin = 762.96 
+            xmax = 763.62 
+            text = "小雪。" 
+        intervals [255]:
+            xmin = 763.62 
+            xmax = 764.83 
+            text = "" 
+        intervals [256]:
+            xmin = 764.83 
+            xmax = 767.60 
+            text = "夏雨夏雨、夏雪、夏冰雹。" 
+        intervals [257]:
+            xmin = 767.60 
+            xmax = 778.37 
+            text = "" 
+        intervals [258]:
+            xmin = 778.37 
+            xmax = 781.13 
+            text = "但是最近的好看电视剧没有什么。" 
+        intervals [259]:
+            xmin = 781.13 
+            xmax = 786.29 
+            text = "" 
+        intervals [260]:
+            xmin = 786.29 
+            xmax = 790.16 
+            text = "现在好多人都看老片子，都不看新新新的了。" 
+        intervals [261]:
+            xmin = 790.16 
+            xmax = 790.74 
+            text = "" 
+        intervals [262]:
+            xmin = 790.74 
+            xmax = 791.33 
+            text = "对吧。" 
+        intervals [263]:
+            xmin = 791.33 
+            xmax = 792.58 
+            text = "" 
+        intervals [264]:
+            xmin = 792.58 
+            xmax = 794.09 
+            text = "看亮剑吗？" 
+        intervals [265]:
+            xmin = 794.09 
+            xmax = 800.57 
+            text = "" 
+        intervals [266]:
+            xmin = 800.57 
+            xmax = 801.48 
+            text = "我的天呐。" 
+        intervals [267]:
+            xmin = 801.48 
+            xmax = 803.39 
+            text = "" 
+        intervals [268]:
+            xmin = 803.39 
+            xmax = 808.03 
+            text = "雪豹哎，雪豹好看的，周卫国那个是吧？我喜欢看那个，我看那个。" 
+        intervals [269]:
+            xmin = 808.03 
+            xmax = 812.21 
+            text = "" 
+        intervals [270]:
+            xmin = 812.21 
+            xmax = 813.28 
+            text = "谁？文章。" 
+        intervals [271]:
+            xmin = 813.28 
+            xmax = 813.79 
+            text = "" 
+        intervals [272]:
+            xmin = 813.79 
+            xmax = 814.24 
+            text = "是吧？" 
+        intervals [273]:
+            xmin = 814.24 
+            xmax = 814.31 
+            text = "" 
+        intervals [274]:
+            xmin = 814.31 
+            xmax = 818.78 
+            text = "后来那个谁张若昀又重新拍了一个。但是我感觉文章的好看。" 
+        intervals [275]:
+            xmin = 818.78 
+            xmax = 821.14 
+            text = "" 
+        intervals [276]:
+            xmin = 821.14 
+            xmax = 821.89 
+            text = "第一部吗？" 
+        intervals [277]:
+            xmin = 821.89 
+            xmax = 826.72 
+            text = "" 
+        intervals [278]:
+            xmin = 826.72 
+            xmax = 827.28 
+            text = "哦。" 
+        intervals [279]:
+            xmin = 827.28 
+            xmax = 827.68 
+            text = "" 
+        intervals [280]:
+            xmin = 827.68 
+            xmax = 829.78 
+            text = "但是我感觉还是还还是第一部好看。" 
+        intervals [281]:
+            xmin = 829.78 
+            xmax = 831.39 
+            text = "" 
+        intervals [282]:
+            xmin = 831.39 
+            xmax = 832.46 
+            text = "就文章那个。" 
+        intervals [283]:
+            xmin = 832.46 
+            xmax = 843.45 
+            text = "" 
+        intervals [284]:
+            xmin = 843.45 
+            xmax = 848.15 
+            text = "对，他是有那个什么的，有演技的。还有那个少帅，他那个少帅。" 
+        intervals [285]:
+            xmin = 848.15 
+            xmax = 848.73 
+            text = "" 
+        intervals [286]:
+            xmin = 848.73 
+            xmax = 849.94 
+            text = "你看过那个少帅吗？" 
+        intervals [287]:
+            xmin = 849.94 
+            xmax = 852.42 
+            text = "" 
+        intervals [288]:
+            xmin = 852.42 
+            xmax = 854.80 
+            text = "张作霖、张学良那个你没看过？" 
+        intervals [289]:
+            xmin = 854.80 
+            xmax = 861.36 
+            text = "" 
+        intervals [290]:
+            xmin = 861.36 
+            xmax = 862.80 
+            text = "什么哪个什么经典语录？" 
+        intervals [291]:
+            xmin = 862.80 
+            xmax = 868.22 
+            text = "" 
+        intervals [292]:
+            xmin = 868.22 
+            xmax = 869.97 
+            text = "好了好了好了。" 
+        intervals [293]:
+            xmin = 869.97 
+            xmax = 871.74 
+            text = "" 
+        intervals [294]:
+            xmin = 871.74 
+            xmax = 872.59 
+            text = "古偶吗？" 
+        intervals [295]:
+            xmin = 872.59 
+            xmax = 876.31 
+            text = "" 
+        intervals [296]:
+            xmin = 876.31 
+            xmax = 877.45 
+            text = "花千骨。" 
+        intervals [297]:
+            xmin = 877.45 
+            xmax = 880.39 
+            text = "" 
+        intervals [298]:
+            xmin = 880.39 
+            xmax = 881.35 
+            text = "是不是古吧？" 
+        intervals [299]:
+            xmin = 881.35 
+            xmax = 881.55 
+            text = "" 
+        intervals [300]:
+            xmin = 881.55 
+            xmax = 884.30 
+            text = "那哦对那是仙侠，古偶是那种。" 
+        intervals [301]:
+            xmin = 884.30 
+            xmax = 887.07 
+            text = "" 
+        intervals [302]:
+            xmin = 887.07 
+            xmax = 887.75 
+            text = "是。" 
+        intervals [303]:
+            xmin = 887.75 
+            xmax = 888.66 
+            text = "" 
+        intervals [304]:
+            xmin = 888.66 
+            xmax = 889.55 
+            text = "我不看。" 
+        intervals [305]:
+            xmin = 889.55 
+            xmax = 891.99 
+            text = "" 
+        intervals [306]:
+            xmin = 891.99 
+            xmax = 893.56 
+            text = "小李小李飞刀吗？" 
+        intervals [307]:
+            xmin = 893.56 
+            xmax = 894.56 
+            text = "" 
+        intervals [308]:
+            xmin = 894.56 
+            xmax = 895.95 
+            text = "古代偶像剧。" 
+        intervals [309]:
+            xmin = 895.95 
+            xmax = 896.35 
+            text = "" 
+        intervals [310]:
+            xmin = 896.35 
+            xmax = 897.68 
+            text = "小李飞刀是。" 
+        intervals [311]:
+            xmin = 897.68 
+            xmax = 898.27 
+            text = "" 
+        intervals [312]:
+            xmin = 898.27 
+            xmax = 898.75 
+            text = "是。" 
+        intervals [313]:
+            xmin = 898.75 
+            xmax = 899.70 
+            text = "" 
+        intervals [314]:
+            xmin = 899.70 
+            xmax = 900.36 
+            text = "什么？" 
+        intervals [315]:
+            xmin = 900.36 
+            xmax = 917.40 
+            text = "" 
+        intervals [316]:
+            xmin = 917.40 
+            xmax = 920.82 
+            text = "古偶，虞书欣跟那谁王鹤棣演的那个算古偶吧？" 
+        intervals [317]:
+            xmin = 920.82 
+            xmax = 921.50 
+            text = "" 
+        intervals [318]:
+            xmin = 921.50 
+            xmax = 925.25 
+            text = "那个算古偶吧？虽然虽然也有点那个什么玄幻。" 
+        intervals [319]:
+            xmin = 925.25 
+            xmax = 925.87 
+            text = "" 
+        intervals [320]:
+            xmin = 925.87 
+            xmax = 926.49 
+            text = "对。" 
+        intervals [321]:
+            xmin = 926.49 
+            xmax = 926.81 
+            text = "" 
+        intervals [322]:
+            xmin = 926.81 
+            xmax = 929.08 
+            text = "但是花千骨那时候真的很好看，我感觉。" 
+        intervals [323]:
+            xmin = 929.08 
+            xmax = 930.04 
+            text = "" 
+        intervals [324]:
+            xmin = 930.04 
+            xmax = 931.49 
+            text = "那时候太火了。" 
+        intervals [325]:
+            xmin = 931.49 
+            xmax = 934.94 
+            text = "" 
+        intervals [326]:
+            xmin = 934.94 
+            xmax = 937.21 
+            text = "那个也算，哎，那个算不算古偶？" 
+        intervals [327]:
+            xmin = 937.21 
+            xmax = 938.08 
+            text = "" 
+        intervals [328]:
+            xmin = 938.08 
+            xmax = 939.08 
+            text = "也是仙侠吗？" 
+        intervals [329]:
+            xmin = 939.08 
+            xmax = 944.26 
+            text = "" 
+        intervals [330]:
+            xmin = 944.26 
+            xmax = 947.67 
+            text = "就是两个古代人，古代偶像偶像剧。" 
+        intervals [331]:
+            xmin = 947.67 
+            xmax = 950.23 
+            text = "" 
+        intervals [332]:
+            xmin = 950.23 
+            xmax = 950.91 
+            text = "琅琊。" 
+        intervals [333]:
+            xmin = 950.91 
+            xmax = 955.52 
+            text = "" 
+        intervals [334]:
+            xmin = 955.52 
+            xmax = 956.28 
+            text = "谁是偶啊？" 
+        intervals [335]:
+            xmin = 956.28 
+            xmax = 957.32 
+            text = "" 
+        intervals [336]:
+            xmin = 957.32 
+            xmax = 958.07 
+            text = "那起码。" 
+        intervals [337]:
+            xmin = 958.07 
+            xmax = 959.12 
+            text = "" 
+        intervals [338]:
+            xmin = 959.12 
+            xmax = 960.33 
+            text = "除了胡歌呢？" 
+        intervals [339]:
+            xmin = 960.33 
+            xmax = 960.4 
+            text = "" 
+        intervals [340]:
+            xmin = 960.4 
+            xmax = 961.92 
+            text = "你马上把刘涛说出来了。" 
+        intervals [341]:
+            xmin = 961.92 
+            xmax = 969.11 
+            text = "" 
+        intervals [342]:
+            xmin = 969.11 
+            xmax = 972.09 
+            text = "但是人们对古偶的刻板印象就是两个。" 
+        intervals [343]:
+            xmin = 972.09 
+            xmax = 972.24 
+            text = "" 
+        intervals [344]:
+            xmin = 972.24 
+            xmax = 977.74 
+            text = "长的就是年轻的那种帅哥美女，穿着古代的衣服在那谈情说爱。" 
+        intervals [345]:
+            xmin = 977.74 
+            xmax = 980.12 
+            text = "" 
+        intervals [346]:
+            xmin = 980.12 
+            xmax = 981.61 
+            text = "我没有说不行啊。" 
+        intervals [347]:
+            xmin = 981.61 
+            xmax = 986.88 
+            text = "" 
+        intervals [348]:
+            xmin = 986.88 
+            xmax = 987.41 
+            text = "嗯。" 
+        intervals [349]:
+            xmin = 987.41 
+            xmax = 988.24 
+            text = "" 
+        intervals [350]:
+            xmin = 988.24 
+            xmax = 989.08 
+            text = "我感觉是。" 
+        intervals [351]:
+            xmin = 989.08 
+            xmax = 992.88 
+            text = "" 
+        intervals [352]:
+            xmin = 992.88 
+            xmax = 995.44 
+            text = "那也是张张若昀那个吧。" 
+        intervals [353]:
+            xmin = 995.44 
+            xmax = 998.39 
+            text = "" 
+        intervals [354]:
+            xmin = 998.39 
+            xmax = 999.59 
+            text = "啊，关晓彤是吗？" 
+        intervals [355]:
+            xmin = 999.59 
+            xmax = 1000.38 
+            text = "" 
+        intervals [356]:
+            xmin = 1000.38 
+            xmax = 1001.12 
+            text = "嗯，对对对。" 
+        intervals [357]:
+            xmin = 1001.12 
+            xmax = 1002.82 
+            text = "" 
+        intervals [358]:
+            xmin = 1002.82 
+            xmax = 1004.65 
+            text = "我没看过，但是我刷到过。" 
+        intervals [359]:
+            xmin = 1004.65 
+            xmax = 1006.90 
+            text = "" 
+        intervals [360]:
+            xmin = 1006.90 
+            xmax = 1007.30 
+            text = "啊。" 
+        intervals [361]:
+            xmin = 1007.30 
+            xmax = 1007.70 
+            text = "" 
+        intervals [362]:
+            xmin = 1007.70 
+            xmax = 1010.61 
+            text = "他们的衣服比比较那什么。" 
+        intervals [363]:
+            xmin = 1010.61 
+            xmax = 1015.97 
+            text = "" 
+        intervals [364]:
+            xmin = 1015.97 
+            xmax = 1017.45 
+            text = "对，确实是古装剧。" 
+        intervals [365]:
+            xmin = 1017.45 
+            xmax = 1031.86 
+            text = "" 
+        intervals [366]:
+            xmin = 1031.86 
+            xmax = 1033.08 
+            text = "古代的偶像。" 
+        intervals [367]:
+            xmin = 1033.08 
+            xmax = 1038.42 
+            text = "" 
+        intervals [368]:
+            xmin = 1038.42 
+            xmax = 1039.34 
+            text = "那个叫什么？" 
+        intervals [369]:
+            xmin = 1039.34 
+            xmax = 1040.93 
+            text = "" 
+        intervals [370]:
+            xmin = 1040.93 
+            xmax = 1044.33 
+            text = "哇塞，你说的这个都有点年代年代感啊。" 
+        intervals [371]:
+            xmin = 1044.33 
+            xmax = 1045.49 
+            text = "" 
+        intervals [372]:
+            xmin = 1045.49 
+            xmax = 1047.31 
+            text = "啊，那个叫苍兰诀。" 
+        intervals [373]:
+            xmin = 1047.31 
+            xmax = 1048.12 
+            text = "" 
+        intervals [374]:
+            xmin = 1048.12 
+            xmax = 1048.70 
+            text = "嗯。" 
+        intervals [375]:
+            xmin = 1048.70 
+            xmax = 1050.13 
+            text = "" 
+        intervals [376]:
+            xmin = 1050.13 
+            xmax = 1051.91 
+            text = "梦华录也是古偶吗？" 
+        intervals [377]:
+            xmin = 1051.91 
+            xmax = 1052.94 
+            text = "" 
+        intervals [378]:
+            xmin = 1052.94 
+            xmax = 1055.01 
+            text = "刘亦菲的刘亦菲的。" 
+        intervals [379]:
+            xmin = 1055.01 
+            xmax = 1056.01 
+            text = "" 
+        intervals [380]:
+            xmin = 1056.01 
+            xmax = 1056.68 
+            text = "偶吧。" 
+        intervals [381]:
+            xmin = 1056.68 
+            xmax = 1060.76 
+            text = "" 
+        intervals [382]:
+            xmin = 1060.76 
+            xmax = 1062.83 
+            text = "我天，你这是有点那什么了。" 
+        intervals [383]:
+            xmin = 1062.83 
+            xmax = 1073.13 
+            text = "" 
+        intervals [384]:
+            xmin = 1073.13 
+            xmax = 1073.64 
+            text = "哦。" 
+        intervals [385]:
+            xmin = 1073.64 
+            xmax = 1074.12 
+            text = "" 
+        intervals [386]:
+            xmin = 1074.12 
+            xmax = 1076.66 
+            text = "玫瑰还有还有去有风的地方。" 
+        intervals [387]:
+            xmin = 1076.66 
+            xmax = 1078.17 
+            text = "" 
+        intervals [388]:
+            xmin = 1078.17 
+            xmax = 1079.43 
+            text = "那个玫瑰的故事还有。" 
+        intervals [389]:
+            xmin = 1079.43 
+            xmax = 1081.58 
+            text = "" 
+        intervals [390]:
+            xmin = 1081.58 
+            xmax = 1082.12 
+            text = "对啊。" 
+        intervals [391]:
+            xmin = 1082.12 
+            xmax = 1082.62 
+            text = "" 
+        intervals [392]:
+            xmin = 1082.62 
+            xmax = 1083.02 
+            text = "对啊。" 
+        intervals [393]:
+            xmin = 1083.02 
+            xmax = 1084.14 
+            text = "" 
+        intervals [394]:
+            xmin = 1084.14 
+            xmax = 1085.10 
+            text = "黄亦玫嘛。" 
+        intervals [395]:
+            xmin = 1085.10 
+            xmax = 1093.31 
+            text = "" 
+        intervals [396]:
+            xmin = 1093.31 
+            xmax = 1095.65 
+            text = "是刘亦菲一切都说得过去了，对吧？" 
+        intervals [397]:
+            xmin = 1095.65 
+            xmax = 1095.95 
+            text = "" 
+        intervals [398]:
+            xmin = 1095.95 
+            xmax = 1096.59 
+            text = "都说得通。" 
+        intervals [399]:
+            xmin = 1096.59 
+            xmax = 1102.88 
+            text = "" 
+        intervals [400]:
+            xmin = 1102.88 
+            xmax = 1103.48 
+            text = "妈呀！" 
+        intervals [401]:
+            xmin = 1103.48 
+            xmax = 1111.94 
+            text = "" 
+        intervals [402]:
+            xmin = 1111.94 
+            xmax = 1112.92 
+            text = "零几年吧。" 
+        intervals [403]:
+            xmin = 1112.92 
+            xmax = 1118.57 
+            text = "" 
+        intervals [404]:
+            xmin = 1118.57 
+            xmax = 1122.87 
+            text = "神话我看的是那个什么？那个电影，成龙那个电影，那金喜善。" 
+        intervals [405]:
+            xmin = 1122.87 
+            xmax = 1124.45 
+            text = "" 
+        intervals [406]:
+            xmin = 1124.45 
+            xmax = 1125.33 
+            text = "我也看的那个。" 
+        intervals [407]:
+            xmin = 1125.33 
+            xmax = 1129.53 
+            text = "" 
+        intervals [408]:
+            xmin = 1129.53 
+            xmax = 1132.78 
+            text = "对啊，有，它有电视剧也有电影啊，电影是成龙。" 
+        intervals [409]:
+            xmin = 1132.78 
+            xmax = 1134.55 
+            text = "" 
+        intervals [410]:
+            xmin = 1134.55 
+            xmax = 1135.38 
+            text = "对啊。" 
+        intervals [411]:
+            xmin = 1135.38 
+            xmax = 1142.16 
+            text = "" 
+        intervals [412]:
+            xmin = 1142.16 
+            xmax = 1142.95 
+            text = "将军？哎。" 
+        intervals [413]:
+            xmin = 1142.95 
+            xmax = 1143.46 
+            text = "" 
+        intervals [414]:
+            xmin = 1143.46 
+            xmax = 1143.87 
+            text = "对。" 
+        intervals [415]:
+            xmin = 1143.87 
+            xmax = 1147.32 
+            text = "" 
+        intervals [416]:
+            xmin = 1147.32 
+            xmax = 1148.05 
+            text = "他是。" 
+        intervals [417]:
+            xmin = 1148.05 
+            xmax = 1156.25 
+            text = "" 
+        intervals [418]:
+            xmin = 1156.25 
+            xmax = 1159.23 
+            text = "但也他，但是他也不是无名小卒。" 
+        intervals [419]:
+            xmin = 1159.23 
+            xmax = 1160.58 
+            text = "" 
+        intervals [420]:
+            xmin = 1160.58 
+            xmax = 1161.11 
+            text = "对。" 
+        intervals [421]:
+            xmin = 1161.11 
+            xmax = 1161.38 
+            text = "" 
+        intervals [422]:
+            xmin = 1161.38 
+            xmax = 1162.65 
+            text = "对，他是将军。" 
+        intervals [423]:
+            xmin = 1162.65 
+            xmax = 1163.74 
+            text = "" 
+        intervals [424]:
+            xmin = 1163.74 
+            xmax = 1164.49 
+            text = "他叫。" 
+        intervals [425]:
+            xmin = 1164.49 
+            xmax = 1169.79 
+            text = "" 
+        intervals [426]:
+            xmin = 1169.79 
+            xmax = 1171.41 
+            text = "成龙就是蒙毅啊。" 
+        intervals [427]:
+            xmin = 1171.41 
+            xmax = 1172.38 
+            text = "" 
+        intervals [428]:
+            xmin = 1172.38 
+            xmax = 1174.03 
+            text = "成龙就是蒙毅。" 
+        intervals [429]:
+            xmin = 1174.03 
+            xmax = 1174.43 
+            text = "" 
+        intervals [430]:
+            xmin = 1174.43 
+            xmax = 1177.79 
+            text = "在古代是蒙毅，他现代他不是一两个。" 
+        intervals [431]:
+            xmin = 1177.79 
+            xmax = 1178.35 
+            text = "" 
+        intervals [432]:
+            xmin = 1178.35 
+            xmax = 1179.63 
+            text = "时间线连。" 
+        intervals [433]:
+            xmin = 1179.63 
+            xmax = 1185.06 
+            text = "" 
+        intervals [434]:
+            xmin = 1185.06 
+            xmax = 1186.08 
+            text = "不是穿越。" 
+        intervals [435]:
+            xmin = 1186.08 
+            xmax = 1188.13 
+            text = "" 
+        intervals [436]:
+            xmin = 1188.13 
+            xmax = 1189.19 
+            text = "胡歌是穿越。" 
+        intervals [437]:
+            xmin = 1189.19 
+            xmax = 1189.68 
+            text = "" 
+        intervals [438]:
+            xmin = 1189.68 
+            xmax = 1190.77 
+            text = "成龙不是穿越。" 
+        intervals [439]:
+            xmin = 1190.77 
+            xmax = 1193.29 
+            text = "" 
+        intervals [440]:
+            xmin = 1193.29 
+            xmax = 1194.94 
+            text = "成龙是那个公主。" 
+        intervals [441]:
+            xmin = 1194.94 
+            xmax = 1195.78 
+            text = "" 
+        intervals [442]:
+            xmin = 1195.78 
+            xmax = 1196.40 
+            text = "他们。" 
+        intervals [443]:
+            xmin = 1196.40 
+            xmax = 1197.33 
+            text = "" 
+        intervals [444]:
+            xmin = 1197.33 
+            xmax = 1197.77 
+            text = "跟。" 
+        intervals [445]:
+            xmin = 1197.77 
+            xmax = 1198.99 
+            text = "" 
+        intervals [446]:
+            xmin = 1198.99 
+            xmax = 1199.45 
+            text = "对。" 
+        intervals [447]:
+            xmin = 1199.45 
+            xmax = 1200.01 
+            text = "" 
+        intervals [448]:
+            xmin = 1200.01 
+            xmax = 1201.46 
+            text = "确实是长生不老，然后。" 
+        intervals [449]:
+            xmin = 1201.46 
+            xmax = 1202.01 
+            text = "" 
+        intervals [450]:
+            xmin = 1202.01 
+            xmax = 1207.68 
+            text = "然后成龙是后来是他死掉了，然后后来是什么现代的什么。" 
+        intervals [451]:
+            xmin = 1207.68 
+            xmax = 1208.33 
+            text = "" 
+        intervals [452]:
+            xmin = 1208.33 
+            xmax = 1215.16 
+            text = "考古学家，然后那个公主把成龙认成了那时候那个蒙毅将军，怎么怎么样，后来发现他不是蒙毅将军。" 
+        intervals [453]:
+            xmin = 1215.16 
+            xmax = 1217.45 
+            text = "" 
+        intervals [454]:
+            xmin = 1217.45 
+            xmax = 1218.31 
+            text = "嗯。" 
+        intervals [455]:
+            xmin = 1218.31 
+            xmax = 1219.11 
+            text = "" 
+        intervals [456]:
+            xmin = 1219.11 
+            xmax = 1220.04 
+            text = "玉漱公主嘛。" 
+        intervals [457]:
+            xmin = 1220.04 
+            xmax = 1225.68 
+            text = "" 
+        intervals [458]:
+            xmin = 1225.68 
+            xmax = 1226.07 
+            text = "是。" 
+        intervals [459]:
+            xmin = 1226.07 
+            xmax = 1226.76 
+            text = "" 
+        intervals [460]:
+            xmin = 1226.76 
+            xmax = 1228.46 
+            text = "他那个时间线不一样，跟。" 
+        intervals [461]:
+            xmin = 1228.46 
+            xmax = 1232.64 
+            text = "" 
+        intervals [462]:
+            xmin = 1232.64 
+            xmax = 1233.99 
+            text = "因为时间太长了。" 
+        intervals [463]:
+            xmin = 1233.99 
+            xmax = 1242.93 
+            text = "" 
+        intervals [464]:
+            xmin = 1242.93 
+            xmax = 1246.49 
+            text = "但是胡歌的仙仙剑奇侠传那个可以说是古偶了。" 
+        intervals [465]:
+            xmin = 1246.49 
+            xmax = 1247.73 
+            text = "" 
+        intervals [466]:
+            xmin = 1247.73 
+            xmax = 1249.29 
+            text = "那个是很偶了，我感觉。" 
+        intervals [467]:
+            xmin = 1249.29 
+            xmax = 1253.81 
+            text = "" 
+        intervals [468]:
+            xmin = 1253.81 
+            xmax = 1254.27 
+            text = "对。" 
+        intervals [469]:
+            xmin = 1254.27 
+            xmax = 1259.78 
+            text = "" 
+        intervals [470]:
+            xmin = 1259.78 
+            xmax = 1261.50 
+            text = "第一部还有第三部。" 
+        intervals [471]:
+            xmin = 1261.50 
+            xmax = 1261.69 
+            text = "" 
+        intervals [472]:
+            xmin = 1261.69 
+            xmax = 1262.19 
+            text = "嗯。" 
+        intervals [473]:
+            xmin = 1262.19 
+            xmax = 1269.21 
+            text = "" 
+        intervals [474]:
+            xmin = 1269.21 
+            xmax = 1271.75 
+            text = "第一部就是刘亦菲，第三部是杨幂。" 
+        intervals [475]:
+            xmin = 1271.75 
+            xmax = 1274.50 
+            text = "" 
+        intervals [476]:
+            xmin = 1274.50 
+            xmax = 1275.56 
+            text = "小，对。" 
+        intervals [477]:
+            xmin = 1275.56 
+            xmax = 1280.41 
+            text = "" 
+        intervals [478]:
+            xmin = 1280.41 
+            xmax = 1282.28 
+            text = "第三部没有刘亦菲。" 
+        intervals [479]:
+            xmin = 1282.28 
+            xmax = 1288.54 
+            text = "" 
+        intervals [480]:
+            xmin = 1288.54 
+            xmax = 1289.58 
+            text = "轩辕剑我也看过。" 
+        intervals [481]:
+            xmin = 1289.58 
+            xmax = 1298.98 
+            text = "" 
+        intervals [482]:
+            xmin = 1298.98 
+            xmax = 1300.27 
+            text = "应该也行吧。" 
+        intervals [483]:
+            xmin = 1300.27 
+            xmax = 1302.26 
+            text = "" 
+        intervals [484]:
+            xmin = 1302.26 
+            xmax = 1303.01 
+            text = "蒋劲夫。" 
+        intervals [485]:
+            xmin = 1303.01 
+            xmax = 1309.54 
+            text = "" 
+        intervals [486]:
+            xmin = 1309.54 
+            xmax = 1311.82 
+            text = "女主是那个女主是刘诗诗，我记得。" 
+        intervals [487]:
+            xmin = 1311.82 
+            xmax = 1312.86 
+            text = "" 
+        intervals [488]:
+            xmin = 1312.86 
+            xmax = 1314.90 
+            text = "对那里边还有那谁，古力娜扎。" 
+        intervals [489]:
+            xmin = 1314.90 
+            xmax = 1317.14 
+            text = "" 
+        intervals [490]:
+            xmin = 1317.14 
+            xmax = 1317.84 
+            text = "哦对。" 
+        intervals [491]:
+            xmin = 1317.84 
+            xmax = 1318.10 
+            text = "" 
+        intervals [492]:
+            xmin = 1318.10 
+            xmax = 1320.37 
+            text = "唐嫣在那里边跟胡歌是。" 
+        intervals [493]:
+            xmin = 1320.37 
+            xmax = 1320.51 
+            text = "" 
+        intervals [494]:
+            xmin = 1320.51 
+            xmax = 1321.64 
+            text = "爱恨情仇。" 
+        intervals [495]:
+            xmin = 1321.64 
+            xmax = 1322.02 
+            text = "" 
+        intervals [496]:
+            xmin = 1322.02 
+            xmax = 1322.51 
+            text = "嗯。" 
+        intervals [497]:
+            xmin = 1322.51 
+            xmax = 1327.98 
+            text = "" 
+        intervals [498]:
+            xmin = 1327.98 
+            xmax = 1329.07 
+            text = "相爱相杀。" 
+        intervals [499]:
+            xmin = 1329.07 
+            xmax = 1330.22 
+            text = "" 
+        intervals [500]:
+            xmin = 1330.22 
+            xmax = 1330.96 
+            text = "相爱相杀。" 
+        intervals [501]:
+            xmin = 1330.96 
+            xmax = 1337.88 
+            text = "" 
+        intervals [502]:
+            xmin = 1337.88 
+            xmax = 1339.40 
+            text = "因为脸在那儿是吧？" 
+        intervals [503]:
+            xmin = 1339.40 
+            xmax = 1339.53 
+            text = "" 
+        intervals [504]:
+            xmin = 1339.53 
+            xmax = 1340.59 
+            text = "因为脸在那儿。" 
+        intervals [505]:
+            xmin = 1340.59 
+            xmax = 1360.05 
+            text = "" 
+        intervals [506]:
+            xmin = 1360.05 
+            xmax = 1361.12 
+            text = "你看什么古偶？" 
+        intervals [507]:
+            xmin = 1361.12 
+            xmax = 1361.27 
+            text = "" 
+        intervals [508]:
+            xmin = 1361.27 
+            xmax = 1362.23 
+            text = "你看什么古偶？" 
+        intervals [509]:
+            xmin = 1362.23 
+            xmax = 1364.89 
+            text = "" 
+        intervals [510]:
+            xmin = 1364.89 
+            xmax = 1365.80 
+            text = "看什么电视剧？" 
+        intervals [511]:
+            xmin = 1365.80 
+            xmax = 1367.71 
+            text = "" 
+        intervals [512]:
+            xmin = 1367.71 
+            xmax = 1373.08 
+            text = "张凌赫吗？我，他最之前那个正脸那个拍立得，那不是特别火吗？" 
+        intervals [513]:
+            xmin = 1373.08 
+            xmax = 1378.48 
+            text = "" 
+        intervals [514]:
+            xmin = 1378.48 
+            xmax = 1379.45 
+            text = "因为。" 
+        intervals [515]:
+            xmin = 1379.45 
+            xmax = 1381.63 
+            text = "" 
+        intervals [516]:
+            xmin = 1381.63 
+            xmax = 1383.28 
+            text = "脸在江山在。" 
+        intervals [517]:
+            xmin = 1383.28 
+            xmax = 1384.00 
+            text = "" 
+        intervals [518]:
+            xmin = 1384.00 
+            xmax = 1384.55 
+            text = "嗯。" 
+        intervals [519]:
+            xmin = 1384.55 
+            xmax = 1393.19 
+            text = "" 
+        intervals [520]:
+            xmin = 1393.19 
+            xmax = 1394.22 
+            text = "我第一次。" 
+        intervals [521]:
+            xmin = 1394.22 
+            xmax = 1398.28 
+            text = "" 
+        intervals [522]:
+            xmin = 1398.28 
+            xmax = 1401.10 
+            text = "那是真爱粉，那是真爱粉了。" 
+        intervals [523]:
+            xmin = 1401.10 
+            xmax = 1403.55 
+            text = "" 
+        intervals [524]:
+            xmin = 1403.55 
+            xmax = 1406.39 
+            text = "我第一次看蔡徐坤就是什么偶像练习生那个。" 
+        intervals [525]:
+            xmin = 1406.39 
+            xmax = 1407.15 
+            text = "" 
+        intervals [526]:
+            xmin = 1407.15 
+            xmax = 1407.86 
+            text = "对吧。" 
+        intervals [527]:
+            xmin = 1407.86 
+            xmax = 1413.41 
+            text = "" 
+        intervals [528]:
+            xmin = 1413.41 
+            xmax = 1414.82 
+            text = "但是他确实。" 
+        intervals [529]:
+            xmin = 1414.82 
+            xmax = 1415.02 
+            text = "" 
+        intervals [530]:
+            xmin = 1415.02 
+            xmax = 1416.95 
+            text = "什么业务能力我感觉也很。" 
+        intervals [531]:
+            xmin = 1416.95 
+            xmax = 1417.26 
+            text = "" 
+        intervals [532]:
+            xmin = 1417.26 
+            xmax = 1418.24 
+            text = "很硬。" 
+        intervals [533]:
+            xmin = 1418.24 
+            xmax = 1426.18 
+            text = "" 
+        intervals [534]:
+            xmin = 1426.18 
+            xmax = 1426.79 
+            text = "对。" 
+        intervals [535]:
+            xmin = 1426.79 
+            xmax = 1467.11 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "P009" 
+        xmin = 0 
+        xmax = 1467.11 
+        intervals: size = 151 
+        intervals [1]:
+            xmin = 0 
+            xmax = 13.94 
+            text = "" 
+        intervals [2]:
+            xmin = 13.94 
+            xmax = 14.69 
+            text = "哪吒。" 
+        intervals [3]:
+            xmin = 14.69 
+            xmax = 18.84 
+            text = "" 
+        intervals [4]:
+            xmin = 18.84 
+            xmax = 21.95 
+            text = "但这个电影挺好看的，我就喜欢看这个。" 
+        intervals [5]:
+            xmin = 21.95 
+            xmax = 30.75 
+            text = "" 
+        intervals [6]:
+            xmin = 30.75 
+            xmax = 31.68 
+            text = "还没有。" 
+        intervals [7]:
+            xmin = 31.68 
+            xmax = 32.60 
+            text = "" 
+        intervals [8]:
+            xmin = 32.60 
+            xmax = 33.57 
+            text = "还没看过。" 
+        intervals [9]:
+            xmin = 33.57 
+            xmax = 68.08 
+            text = "" 
+        intervals [10]:
+            xmin = 68.08 
+            xmax = 69.77 
+            text = "我也看得是动画的。" 
+        intervals [11]:
+            xmin = 69.77 
+            xmax = 96.32 
+            text = "" 
+        intervals [12]:
+            xmin = 96.32 
+            xmax = 97.84 
+            text = "牛来是什么？" 
+        intervals [13]:
+            xmin = 97.84 
+            xmax = 101.12 
+            text = "" 
+        intervals [14]:
+            xmin = 101.12 
+            xmax = 102.79 
+            text = "你你爱看这种。" 
+        intervals [15]:
+            xmin = 102.79 
+            xmax = 155.52 
+            text = "" 
+        intervals [16]:
+            xmin = 155.52 
+            xmax = 157.28 
+            text = "你觉得怎么样这个电影？" 
+        intervals [17]:
+            xmin = 157.28 
+            xmax = 158.00 
+            text = "" 
+        intervals [18]:
+            xmin = 158.00 
+            xmax = 159.36 
+            text = "你不是看了？" 
+        intervals [19]:
+            xmin = 159.36 
+            xmax = 249.87 
+            text = "" 
+        intervals [20]:
+            xmin = 249.87 
+            xmax = 251.50 
+            text = "那个不是五个小时吗？" 
+        intervals [21]:
+            xmin = 251.50 
+            xmax = 327.22 
+            text = "" 
+        intervals [22]:
+            xmin = 327.22 
+            xmax = 330.41 
+            text = "这个我在那个爱情公寓里面看到过。" 
+        intervals [23]:
+            xmin = 330.41 
+            xmax = 331.50 
+            text = "" 
+        intervals [24]:
+            xmin = 331.50 
+            xmax = 332.76 
+            text = "杀死比尔。" 
+        intervals [25]:
+            xmin = 332.76 
+            xmax = 334.40 
+            text = "" 
+        intervals [26]:
+            xmin = 334.40 
+            xmax = 335.49 
+            text = "对对。" 
+        intervals [27]:
+            xmin = 335.49 
+            xmax = 400.64 
+            text = "" 
+        intervals [28]:
+            xmin = 400.64 
+            xmax = 401.37 
+            text = "没有吧。" 
+        intervals [29]:
+            xmin = 401.37 
+            xmax = 405.40 
+            text = "" 
+        intervals [30]:
+            xmin = 405.40 
+            xmax = 405.99 
+            text = "嗯。" 
+        intervals [31]:
+            xmin = 405.99 
+            xmax = 454.57 
+            text = "" 
+        intervals [32]:
+            xmin = 454.57 
+            xmax = 455.40 
+            text = "娄艺潇。" 
+        intervals [33]:
+            xmin = 455.40 
+            xmax = 514.84 
+            text = "" 
+        intervals [34]:
+            xmin = 514.84 
+            xmax = 515.49 
+            text = "忘了。" 
+        intervals [35]:
+            xmin = 515.49 
+            xmax = 516.90 
+            text = "" 
+        intervals [36]:
+            xmin = 516.90 
+            xmax = 518.12 
+            text = "好像是两个字。" 
+        intervals [37]:
+            xmin = 518.12 
+            xmax = 532.31 
+            text = "" 
+        intervals [38]:
+            xmin = 532.31 
+            xmax = 533.62 
+            text = "好像叫金世佳。" 
+        intervals [39]:
+            xmin = 533.62 
+            xmax = 543.43 
+            text = "" 
+        intervals [40]:
+            xmin = 543.43 
+            xmax = 545.21 
+            text = "谁没看过爱情公寓？" 
+        intervals [41]:
+            xmin = 545.21 
+            xmax = 555.95 
+            text = "" 
+        intervals [42]:
+            xmin = 555.95 
+            xmax = 557.74 
+            text = "小时候看那个熊出没。" 
+        intervals [43]:
+            xmin = 557.74 
+            xmax = 561.78 
+            text = "" 
+        intervals [44]:
+            xmin = 561.78 
+            xmax = 562.86 
+            text = "我喜欢看喜羊羊。" 
+        intervals [45]:
+            xmin = 562.86 
+            xmax = 588.25 
+            text = "" 
+        intervals [46]:
+            xmin = 588.25 
+            xmax = 590.05 
+            text = "那个我好像也看过。" 
+        intervals [47]:
+            xmin = 590.05 
+            xmax = 663.08 
+            text = "" 
+        intervals [48]:
+            xmin = 663.08 
+            xmax = 664.10 
+            text = "神奇宝贝。" 
+        intervals [49]:
+            xmin = 664.10 
+            xmax = 677.03 
+            text = "" 
+        intervals [50]:
+            xmin = 677.03 
+            xmax = 678.46 
+            text = "赶紧回去补补吧。" 
+        intervals [51]:
+            xmin = 678.46 
+            xmax = 721.68 
+            text = "" 
+        intervals [52]:
+            xmin = 721.68 
+            xmax = 724.01 
+            text = "对，你看一次肯定会爱上。" 
+        intervals [53]:
+            xmin = 724.01 
+            xmax = 737.64 
+            text = "" 
+        intervals [54]:
+            xmin = 737.64 
+            xmax = 739.04 
+            text = "你笑点这么低？" 
+        intervals [55]:
+            xmin = 739.04 
+            xmax = 748.56 
+            text = "" 
+        intervals [56]:
+            xmin = 748.56 
+            xmax = 750.53 
+            text = "你不觉得他们说话很有意思吗？" 
+        intervals [57]:
+            xmin = 750.53 
+            xmax = 789.94 
+            text = "" 
+        intervals [58]:
+            xmin = 789.94 
+            xmax = 790.85 
+            text = "我也是。" 
+        intervals [59]:
+            xmin = 790.85 
+            xmax = 791.39 
+            text = "" 
+        intervals [60]:
+            xmin = 791.39 
+            xmax = 791.91 
+            text = "嗯。" 
+        intervals [61]:
+            xmin = 791.91 
+            xmax = 850.19 
+            text = "" 
+        intervals [62]:
+            xmin = 850.19 
+            xmax = 852.79 
+            text = "没有，你们说这两个我都没看过。" 
+        intervals [63]:
+            xmin = 852.79 
+            xmax = 854.71 
+            text = "" 
+        intervals [64]:
+            xmin = 854.71 
+            xmax = 856.47 
+            text = "没有，我不喜欢看这种。" 
+        intervals [65]:
+            xmin = 856.47 
+            xmax = 858.48 
+            text = "" 
+        intervals [66]:
+            xmin = 858.48 
+            xmax = 859.06 
+            text = "嗯。" 
+        intervals [67]:
+            xmin = 859.06 
+            xmax = 866.53 
+            text = "" 
+        intervals [68]:
+            xmin = 866.53 
+            xmax = 867.41 
+            text = "啊。" 
+        intervals [69]:
+            xmin = 867.41 
+            xmax = 868.11 
+            text = "" 
+        intervals [70]:
+            xmin = 868.11 
+            xmax = 870.29 
+            text = "我喜欢看那种。" 
+        intervals [71]:
+            xmin = 870.29 
+            xmax = 870.86 
+            text = "" 
+        intervals [72]:
+            xmin = 870.86 
+            xmax = 871.61 
+            text = "古偶。" 
+        intervals [73]:
+            xmin = 871.61 
+            xmax = 872.87 
+            text = "" 
+        intervals [74]:
+            xmin = 872.87 
+            xmax = 873.43 
+            text = "对。" 
+        intervals [75]:
+            xmin = 873.43 
+            xmax = 874.39 
+            text = "" 
+        intervals [76]:
+            xmin = 874.39 
+            xmax = 875.02 
+            text = "嗯。" 
+        intervals [77]:
+            xmin = 875.02 
+            xmax = 878.61 
+            text = "" 
+        intervals [78]:
+            xmin = 878.61 
+            xmax = 879.23 
+            text = "对。" 
+        intervals [79]:
+            xmin = 879.23 
+            xmax = 893.18 
+            text = "" 
+        intervals [80]:
+            xmin = 893.18 
+            xmax = 894.30 
+            text = "古代偶像剧。" 
+        intervals [81]:
+            xmin = 894.30 
+            xmax = 920.96 
+            text = "" 
+        intervals [82]:
+            xmin = 920.96 
+            xmax = 921.59 
+            text = "啊。" 
+        intervals [83]:
+            xmin = 921.59 
+            xmax = 922.08 
+            text = "" 
+        intervals [84]:
+            xmin = 922.08 
+            xmax = 923.64 
+            text = "我刚看完那个。" 
+        intervals [85]:
+            xmin = 923.64 
+            xmax = 925.12 
+            text = "" 
+        intervals [86]:
+            xmin = 925.12 
+            xmax = 926.05 
+            text = "仙侠。" 
+        intervals [87]:
+            xmin = 926.05 
+            xmax = 930.08 
+            text = "" 
+        intervals [88]:
+            xmin = 930.08 
+            xmax = 930.70 
+            text = "嗯。" 
+        intervals [89]:
+            xmin = 930.70 
+            xmax = 941.01 
+            text = "" 
+        intervals [90]:
+            xmin = 941.01 
+            xmax = 943.20 
+            text = "我感觉都差不多这俩。" 
+        intervals [91]:
+            xmin = 943.20 
+            xmax = 953.88 
+            text = "" 
+        intervals [92]:
+            xmin = 953.88 
+            xmax = 954.65 
+            text = "不算吧。" 
+        intervals [93]:
+            xmin = 954.65 
+            xmax = 978.03 
+            text = "" 
+        intervals [94]:
+            xmin = 978.03 
+            xmax = 978.70 
+            text = "对啊。" 
+        intervals [95]:
+            xmin = 978.70 
+            xmax = 996.80 
+            text = "" 
+        intervals [96]:
+            xmin = 996.80 
+            xmax = 997.86 
+            text = "没看过。" 
+        intervals [97]:
+            xmin = 997.86 
+            xmax = 1021.39 
+            text = "" 
+        intervals [98]:
+            xmin = 1021.39 
+            xmax = 1022.47 
+            text = "就是。" 
+        intervals [99]:
+            xmin = 1022.47 
+            xmax = 1028.42 
+            text = "" 
+        intervals [100]:
+            xmin = 1028.42 
+            xmax = 1031.80 
+            text = "就是古代的偶像演的电视剧。" 
+        intervals [101]:
+            xmin = 1031.80 
+            xmax = 1039.42 
+            text = "" 
+        intervals [102]:
+            xmin = 1039.42 
+            xmax = 1041.14 
+            text = "啊那个我我还没有看。" 
+        intervals [103]:
+            xmin = 1041.14 
+            xmax = 1048.70 
+            text = "" 
+        intervals [104]:
+            xmin = 1048.70 
+            xmax = 1049.38 
+            text = "看过没？" 
+        intervals [105]:
+            xmin = 1049.38 
+            xmax = 1052.28 
+            text = "" 
+        intervals [106]:
+            xmin = 1052.28 
+            xmax = 1053.95 
+            text = "看过没，梦华录。" 
+        intervals [107]:
+            xmin = 1053.95 
+            xmax = 1055.97 
+            text = "" 
+        intervals [108]:
+            xmin = 1055.97 
+            xmax = 1056.63 
+            text = "嗯。" 
+        intervals [109]:
+            xmin = 1056.63 
+            xmax = 1064.36 
+            text = "" 
+        intervals [110]:
+            xmin = 1064.36 
+            xmax = 1069.62 
+            text = "小龙女，我记得我小时候写作业的时候在那看，我爸爸让我把电视关了。" 
+        intervals [111]:
+            xmin = 1069.62 
+            xmax = 1108.90 
+            text = "" 
+        intervals [112]:
+            xmin = 1108.90 
+            xmax = 1109.80 
+            text = "神话。" 
+        intervals [113]:
+            xmin = 1109.80 
+            xmax = 1111.14 
+            text = "" 
+        intervals [114]:
+            xmin = 1111.14 
+            xmax = 1112.29 
+            text = "小时候。" 
+        intervals [115]:
+            xmin = 1112.29 
+            xmax = 1112.77 
+            text = "" 
+        intervals [116]:
+            xmin = 1112.77 
+            xmax = 1114.25 
+            text = "上小学的时候。" 
+        intervals [117]:
+            xmin = 1114.25 
+            xmax = 1121.89 
+            text = "" 
+        intervals [118]:
+            xmin = 1121.89 
+            xmax = 1122.49 
+            text = "我也是。" 
+        intervals [119]:
+            xmin = 1122.49 
+            xmax = 1123.23 
+            text = "" 
+        intervals [120]:
+            xmin = 1123.23 
+            xmax = 1124.23 
+            text = "我看的是那个。" 
+        intervals [121]:
+            xmin = 1124.23 
+            xmax = 1180.67 
+            text = "" 
+        intervals [122]:
+            xmin = 1180.67 
+            xmax = 1182.59 
+            text = "就是成龙是穿越过去的。" 
+        intervals [123]:
+            xmin = 1182.59 
+            xmax = 1294.30 
+            text = "" 
+        intervals [124]:
+            xmin = 1294.30 
+            xmax = 1295.57 
+            text = "算什么，古偶？" 
+        intervals [125]:
+            xmin = 1295.57 
+            xmax = 1296.97 
+            text = "" 
+        intervals [126]:
+            xmin = 1296.97 
+            xmax = 1297.67 
+            text = "能吧。" 
+        intervals [127]:
+            xmin = 1297.67 
+            xmax = 1315.80 
+            text = "" 
+        intervals [128]:
+            xmin = 1315.80 
+            xmax = 1316.29 
+            text = "嗯。" 
+        intervals [129]:
+            xmin = 1316.29 
+            xmax = 1360.31 
+            text = "" 
+        intervals [130]:
+            xmin = 1360.31 
+            xmax = 1361.75 
+            text = "就看过熊出没。" 
+        intervals [131]:
+            xmin = 1361.75 
+            xmax = 1363.65 
+            text = "" 
+        intervals [132]:
+            xmin = 1363.65 
+            xmax = 1364.77 
+            text = "看什么？" 
+        intervals [133]:
+            xmin = 1364.77 
+            xmax = 1365.22 
+            text = "" 
+        intervals [134]:
+            xmin = 1365.22 
+            xmax = 1367.69 
+            text = "最近特别喜欢张凌赫。" 
+        intervals [135]:
+            xmin = 1367.69 
+            xmax = 1368.83 
+            text = "" 
+        intervals [136]:
+            xmin = 1368.83 
+            xmax = 1369.75 
+            text = "对。" 
+        intervals [137]:
+            xmin = 1369.75 
+            xmax = 1373.36 
+            text = "" 
+        intervals [138]:
+            xmin = 1373.36 
+            xmax = 1376.02 
+            text = "对，我最，前两天拼了一个。" 
+        intervals [139]:
+            xmin = 1376.02 
+            xmax = 1378.64 
+            text = "" 
+        intervals [140]:
+            xmin = 1378.64 
+            xmax = 1380.09 
+            text = "他照片好看呀。" 
+        intervals [141]:
+            xmin = 1380.09 
+            xmax = 1390.68 
+            text = "" 
+        intervals [142]:
+            xmin = 1390.68 
+            xmax = 1392.12 
+            text = "我也喜欢蔡徐坤。" 
+        intervals [143]:
+            xmin = 1392.12 
+            xmax = 1406.15 
+            text = "" 
+        intervals [144]:
+            xmin = 1406.15 
+            xmax = 1408.27 
+            text = "对，他就是在那出道的。" 
+        intervals [145]:
+            xmin = 1408.27 
+            xmax = 1410.75 
+            text = "" 
+        intervals [146]:
+            xmin = 1410.75 
+            xmax = 1412.99 
+            text = "对，这个黑他的人特别多。" 
+        intervals [147]:
+            xmin = 1412.99 
+            xmax = 1434.73 
+            text = "" 
+        intervals [148]:
+            xmin = 1434.73 
+            xmax = 1436.21 
+            text = "主要是长得帅。" 
+        intervals [149]:
+            xmin = 1436.21 
+            xmax = 1437.28 
+            text = "" 
+        intervals [150]:
+            xmin = 1437.28 
+            xmax = 1438.26 
+            text = "特别帅。" 
+        intervals [151]:
+            xmin = 1438.26 
+            xmax = 1467.11 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "P006" 
+        xmin = 0 
+        xmax = 1467.11 
+        intervals: size = 237 
+        intervals [1]:
+            xmin = 0 
+            xmax = 18.48 
+            text = "" 
+        intervals [2]:
+            xmin = 18.48 
+            xmax = 20.21 
+            text = "你别逗我笑行吗？" 
+        intervals [3]:
+            xmin = 20.21 
+            xmax = 28.25 
+            text = "" 
+        intervals [4]:
+            xmin = 28.25 
+            xmax = 29.76 
+            text = "蜘蛛侠你们有看过的？" 
+        intervals [5]:
+            xmin = 29.76 
+            xmax = 40.80 
+            text = "" 
+        intervals [6]:
+            xmin = 40.80 
+            xmax = 42.81 
+            text = "我看过那种国产的那种。" 
+        intervals [7]:
+            xmin = 42.81 
+            xmax = 43.82 
+            text = "" 
+        intervals [8]:
+            xmin = 43.82 
+            xmax = 47.87 
+            text = "就是那个就电电电视剧，电话就是电视剧的那种。" 
+        intervals [9]:
+            xmin = 47.87 
+            xmax = 49.45 
+            text = "" 
+        intervals [10]:
+            xmin = 49.45 
+            xmax = 50.72 
+            text = "就彼得帕克。" 
+        intervals [11]:
+            xmin = 50.72 
+            xmax = 51.32 
+            text = "" 
+        intervals [12]:
+            xmin = 51.32 
+            xmax = 52.23 
+            text = "彼得帕克。" 
+        intervals [13]:
+            xmin = 52.23 
+            xmax = 53.18 
+            text = "" 
+        intervals [14]:
+            xmin = 53.18 
+            xmax = 53.68 
+            text = "啊。" 
+        intervals [15]:
+            xmin = 53.68 
+            xmax = 55.11 
+            text = "" 
+        intervals [16]:
+            xmin = 55.11 
+            xmax = 57.55 
+            text = "就按一集一集播得那种有。" 
+        intervals [17]:
+            xmin = 57.55 
+            xmax = 62.08 
+            text = "" 
+        intervals [18]:
+            xmin = 62.08 
+            xmax = 63.28 
+            text = "是蜘蛛侠吗？" 
+        intervals [19]:
+            xmin = 63.28 
+            xmax = 88.68 
+            text = "" 
+        intervals [20]:
+            xmin = 88.68 
+            xmax = 89.33 
+            text = "牛来。" 
+        intervals [21]:
+            xmin = 89.33 
+            xmax = 91.85 
+            text = "" 
+        intervals [22]:
+            xmin = 91.85 
+            xmax = 92.87 
+            text = "牛，牛来。" 
+        intervals [23]:
+            xmin = 92.87 
+            xmax = 94.40 
+            text = "" 
+        intervals [24]:
+            xmin = 94.40 
+            xmax = 95.11 
+            text = "没看。" 
+        intervals [25]:
+            xmin = 95.11 
+            xmax = 96.36 
+            text = "" 
+        intervals [26]:
+            xmin = 96.36 
+            xmax = 98.02 
+            text = "牛来不也是个电影啊。" 
+        intervals [27]:
+            xmin = 98.02 
+            xmax = 99.65 
+            text = "" 
+        intervals [28]:
+            xmin = 99.65 
+            xmax = 100.42 
+            text = "对。" 
+        intervals [29]:
+            xmin = 100.42 
+            xmax = 102.69 
+            text = "" 
+        intervals [30]:
+            xmin = 102.69 
+            xmax = 103.76 
+            text = "没没看。" 
+        intervals [31]:
+            xmin = 103.76 
+            xmax = 106.04 
+            text = "" 
+        intervals [32]:
+            xmin = 106.04 
+            xmax = 106.55 
+            text = "那。" 
+        intervals [33]:
+            xmin = 106.55 
+            xmax = 108.40 
+            text = "" 
+        intervals [34]:
+            xmin = 108.40 
+            xmax = 111.71 
+            text = "那那个总投入才多少钱呢？也就几万块钱吧，五万吧。" 
+        intervals [35]:
+            xmin = 111.71 
+            xmax = 112.22 
+            text = "" 
+        intervals [36]:
+            xmin = 112.22 
+            xmax = 112.84 
+            text = "对。" 
+        intervals [37]:
+            xmin = 112.84 
+            xmax = 115.49 
+            text = "" 
+        intervals [38]:
+            xmin = 115.49 
+            xmax = 117.35 
+            text = "史上最，史上最烂的片。" 
+        intervals [39]:
+            xmin = 117.35 
+            xmax = 118.16 
+            text = "" 
+        intervals [40]:
+            xmin = 118.16 
+            xmax = 118.87 
+            text = "牛来。" 
+        intervals [41]:
+            xmin = 118.87 
+            xmax = 120.46 
+            text = "" 
+        intervals [42]:
+            xmin = 120.46 
+            xmax = 120.99 
+            text = "对。" 
+        intervals [43]:
+            xmin = 120.99 
+            xmax = 121.84 
+            text = "" 
+        intervals [44]:
+            xmin = 121.84 
+            xmax = 122.59 
+            text = "对对对。" 
+        intervals [45]:
+            xmin = 122.59 
+            xmax = 127.44 
+            text = "" 
+        intervals [46]:
+            xmin = 127.44 
+            xmax = 131.21 
+            text = "就就是都想看看那是什么片儿，烂能烂到何种程度。" 
+        intervals [47]:
+            xmin = 131.21 
+            xmax = 140.53 
+            text = "" 
+        intervals [48]:
+            xmin = 140.53 
+            xmax = 141.47 
+            text = "就特别烂。" 
+        intervals [49]:
+            xmin = 141.47 
+            xmax = 142.05 
+            text = "" 
+        intervals [50]:
+            xmin = 142.05 
+            xmax = 143.91 
+            text = "那种特效什么的基本上没有。" 
+        intervals [51]:
+            xmin = 143.91 
+            xmax = 145.46 
+            text = "" 
+        intervals [52]:
+            xmin = 145.46 
+            xmax = 146.65 
+            text = "很烂很烂。" 
+        intervals [53]:
+            xmin = 146.65 
+            xmax = 148.94 
+            text = "" 
+        intervals [54]:
+            xmin = 148.94 
+            xmax = 150.89 
+            text = "上次我让他去看他没去看。" 
+        intervals [55]:
+            xmin = 150.89 
+            xmax = 156.90 
+            text = "" 
+        intervals [56]:
+            xmin = 156.90 
+            xmax = 158.14 
+            text = "我没看过。" 
+        intervals [57]:
+            xmin = 158.14 
+            xmax = 158.29 
+            text = "" 
+        intervals [58]:
+            xmin = 158.29 
+            xmax = 159.38 
+            text = "我没看过。" 
+        intervals [59]:
+            xmin = 159.38 
+            xmax = 162.50 
+            text = "" 
+        intervals [60]:
+            xmin = 162.50 
+            xmax = 164.28 
+            text = "我刷到了，我没看过。" 
+        intervals [61]:
+            xmin = 164.28 
+            xmax = 164.62 
+            text = "" 
+        intervals [62]:
+            xmin = 164.62 
+            xmax = 165.18 
+            text = "嗯。" 
+        intervals [63]:
+            xmin = 165.18 
+            xmax = 185.63 
+            text = "" 
+        intervals [64]:
+            xmin = 185.63 
+            xmax = 186.71 
+            text = "这个这个不知道。" 
+        intervals [65]:
+            xmin = 186.71 
+            xmax = 190.43 
+            text = "" 
+        intervals [66]:
+            xmin = 190.43 
+            xmax = 192.48 
+            text = "不是这个导演还还要什么吗？" 
+        intervals [67]:
+            xmin = 192.48 
+            xmax = 193.40 
+            text = "" 
+        intervals [68]:
+            xmin = 193.40 
+            xmax = 197.23 
+            text = "对，还有第二部。不知道是什么了，还有第二部呢。" 
+        intervals [69]:
+            xmin = 197.23 
+            xmax = 207.79 
+            text = "" 
+        intervals [70]:
+            xmin = 207.79 
+            xmax = 208.43 
+            text = "对啊。" 
+        intervals [71]:
+            xmin = 208.43 
+            xmax = 220.63 
+            text = "" 
+        intervals [72]:
+            xmin = 220.63 
+            xmax = 222.04 
+            text = "这个电影票才二十八？" 
+        intervals [73]:
+            xmin = 222.04 
+            xmax = 225.56 
+            text = "" 
+        intervals [74]:
+            xmin = 225.56 
+            xmax = 227.22 
+            text = "我我没，我没有搜。" 
+        intervals [75]:
+            xmin = 227.22 
+            xmax = 227.48 
+            text = "" 
+        intervals [76]:
+            xmin = 227.48 
+            xmax = 229.73 
+            text = "对这这这个挺便宜的，这个二十八。" 
+        intervals [77]:
+            xmin = 229.73 
+            xmax = 236.59 
+            text = "" 
+        intervals [78]:
+            xmin = 236.59 
+            xmax = 238.41 
+            text = "那汇友这儿不是有一个吗？" 
+        intervals [79]:
+            xmin = 238.41 
+            xmax = 239.20 
+            text = "" 
+        intervals [80]:
+            xmin = 239.20 
+            xmax = 240.57 
+            text = "有一个他的海报是吧？" 
+        intervals [81]:
+            xmin = 240.57 
+            xmax = 242.07 
+            text = "" 
+        intervals [82]:
+            xmin = 242.07 
+            xmax = 244.03 
+            text = "有，别人画的海报。" 
+        intervals [83]:
+            xmin = 244.03 
+            xmax = 279.32 
+            text = "" 
+        intervals [84]:
+            xmin = 279.32 
+            xmax = 282.05 
+            text = "五个电影，就五个消失这个电影。" 
+        intervals [85]:
+            xmin = 282.05 
+            xmax = 284.32 
+            text = "" 
+        intervals [86]:
+            xmin = 284.32 
+            xmax = 285.57 
+            text = "二百七十六分钟。" 
+        intervals [87]:
+            xmin = 285.57 
+            xmax = 290.39 
+            text = "" 
+        intervals [88]:
+            xmin = 290.39 
+            xmax = 290.93 
+            text = "嗯。" 
+        intervals [89]:
+            xmin = 290.93 
+            xmax = 300.38 
+            text = "" 
+        intervals [90]:
+            xmin = 300.38 
+            xmax = 302.23 
+            text = "嗯我不怎么看动漫。" 
+        intervals [91]:
+            xmin = 302.23 
+            xmax = 303.28 
+            text = "" 
+        intervals [92]:
+            xmin = 303.28 
+            xmax = 303.82 
+            text = "咳。" 
+        intervals [93]:
+            xmin = 303.82 
+            xmax = 326.49 
+            text = "" 
+        intervals [94]:
+            xmin = 326.49 
+            xmax = 327.08 
+            text = "这叫。" 
+        intervals [95]:
+            xmin = 327.08 
+            xmax = 327.22 
+            text = "" 
+        intervals [96]:
+            xmin = 327.22 
+            xmax = 329.89 
+            text = "叫什么滴，我怎么没有刷到过这个呀。" 
+        intervals [97]:
+            xmin = 329.89 
+            xmax = 356.52 
+            text = "" 
+        intervals [98]:
+            xmin = 356.52 
+            xmax = 357.69 
+            text = "我一集都没看过。" 
+        intervals [99]:
+            xmin = 357.69 
+            xmax = 407.02 
+            text = "" 
+        intervals [100]:
+            xmin = 407.02 
+            xmax = 408.54 
+            text = "就就同班同学吧。" 
+        intervals [101]:
+            xmin = 408.54 
+            xmax = 409.24 
+            text = "" 
+        intervals [102]:
+            xmin = 409.24 
+            xmax = 409.75 
+            text = "是吧？" 
+        intervals [103]:
+            xmin = 409.75 
+            xmax = 410.39 
+            text = "" 
+        intervals [104]:
+            xmin = 410.39 
+            xmax = 411.64 
+            text = "对，好多都是。" 
+        intervals [105]:
+            xmin = 411.64 
+            xmax = 413.95 
+            text = "" 
+        intervals [106]:
+            xmin = 413.95 
+            xmax = 414.57 
+            text = "对。" 
+        intervals [107]:
+            xmin = 414.57 
+            xmax = 417.97 
+            text = "" 
+        intervals [108]:
+            xmin = 417.97 
+            xmax = 419.12 
+            text = "和那个吕子乔吧。" 
+        intervals [109]:
+            xmin = 419.12 
+            xmax = 434.92 
+            text = "" 
+        intervals [110]:
+            xmin = 434.92 
+            xmax = 436.05 
+            text = "曾小贤陈赫。" 
+        intervals [111]:
+            xmin = 436.05 
+            xmax = 541.34 
+            text = "" 
+        intervals [112]:
+            xmin = 541.34 
+            xmax = 542.83 
+            text = "你也看过爱情公寓哦？" 
+        intervals [113]:
+            xmin = 542.83 
+            xmax = 545.62 
+            text = "" 
+        intervals [114]:
+            xmin = 545.62 
+            xmax = 546.55 
+            text = "我没有看过。" 
+        intervals [115]:
+            xmin = 546.55 
+            xmax = 547.09 
+            text = "" 
+        intervals [116]:
+            xmin = 547.09 
+            xmax = 548.37 
+            text = "我没看过爱情公寓。" 
+        intervals [117]:
+            xmin = 548.37 
+            xmax = 550.04 
+            text = "" 
+        intervals [118]:
+            xmin = 550.04 
+            xmax = 551.17 
+            text = "反正不看这个。" 
+        intervals [119]:
+            xmin = 551.17 
+            xmax = 552.22 
+            text = "" 
+        intervals [120]:
+            xmin = 552.22 
+            xmax = 553.48 
+            text = "我一集都没看过。" 
+        intervals [121]:
+            xmin = 553.48 
+            xmax = 566.51 
+            text = "" 
+        intervals [122]:
+            xmin = 566.51 
+            xmax = 568.93 
+            text = "熊出没多好看呐。" 
+        intervals [123]:
+            xmin = 568.93 
+            xmax = 581.49 
+            text = "" 
+        intervals [124]:
+            xmin = 581.49 
+            xmax = 584.42 
+            text = "那熊出没熊出没电影院我好像看过一次。" 
+        intervals [125]:
+            xmin = 584.42 
+            xmax = 585.25 
+            text = "" 
+        intervals [126]:
+            xmin = 585.25 
+            xmax = 587.34 
+            text = "就是那个他他妈妈就是机器人的那个。" 
+        intervals [127]:
+            xmin = 587.34 
+            xmax = 589.47 
+            text = "" 
+        intervals [128]:
+            xmin = 589.47 
+            xmax = 590.06 
+            text = "啊。" 
+        intervals [129]:
+            xmin = 590.06 
+            xmax = 592.41 
+            text = "" 
+        intervals [130]:
+            xmin = 592.41 
+            xmax = 595.87 
+            text = "铁胆，什什么铁胆铁胆雄心吧啊。" 
+        intervals [131]:
+            xmin = 595.87 
+            xmax = 613.86 
+            text = "" 
+        intervals [132]:
+            xmin = 613.86 
+            xmax = 615.50 
+            text = "我没看过这个。" 
+        intervals [133]:
+            xmin = 615.50 
+            xmax = 630.16 
+            text = "" 
+        intervals [134]:
+            xmin = 630.16 
+            xmax = 631.61 
+            text = "熊风我好像看过。" 
+        intervals [135]:
+            xmin = 631.61 
+            xmax = 631.72 
+            text = "" 
+        intervals [136]:
+            xmin = 631.72 
+            xmax = 633.12 
+            text = "叫什么熊出没之。" 
+        intervals [137]:
+            xmin = 633.12 
+            xmax = 633.49 
+            text = "" 
+        intervals [138]:
+            xmin = 633.49 
+            xmax = 634.51 
+            text = "什么什么熊风。" 
+        intervals [139]:
+            xmin = 634.51 
+            xmax = 653.89 
+            text = "" 
+        intervals [140]:
+            xmin = 653.89 
+            xmax = 654.71 
+            text = "这不就是吗？" 
+        intervals [141]:
+            xmin = 654.71 
+            xmax = 656.35 
+            text = "" 
+        intervals [142]:
+            xmin = 656.35 
+            xmax = 657.20 
+            text = "这不全是吗？" 
+        intervals [143]:
+            xmin = 657.20 
+            xmax = 669.98 
+            text = "" 
+        intervals [144]:
+            xmin = 669.98 
+            xmax = 670.48 
+            text = "嗯。" 
+        intervals [145]:
+            xmin = 670.48 
+            xmax = 681.55 
+            text = "" 
+        intervals [146]:
+            xmin = 681.55 
+            xmax = 683.15 
+            text = "没事都看看熊出没。" 
+        intervals [147]:
+            xmin = 683.15 
+            xmax = 707.38 
+            text = "" 
+        intervals [148]:
+            xmin = 707.38 
+            xmax = 709.75 
+            text = "为什么都爱情公寓哪吸引住你了？" 
+        intervals [149]:
+            xmin = 709.75 
+            xmax = 724.15 
+            text = "" 
+        intervals [150]:
+            xmin = 724.15 
+            xmax = 725.32 
+            text = "没有看过。" 
+        intervals [151]:
+            xmin = 725.32 
+            xmax = 725.86 
+            text = "" 
+        intervals [152]:
+            xmin = 725.86 
+            xmax = 726.32 
+            text = "没有。" 
+        intervals [153]:
+            xmin = 726.32 
+            xmax = 727.27 
+            text = "" 
+        intervals [154]:
+            xmin = 727.27 
+            xmax = 729.90 
+            text = "看不下去，我看过，看不下去。" 
+        intervals [155]:
+            xmin = 729.90 
+            xmax = 731.08 
+            text = "" 
+        intervals [156]:
+            xmin = 731.08 
+            xmax = 731.59 
+            text = "嗯。" 
+        intervals [157]:
+            xmin = 731.59 
+            xmax = 734.44 
+            text = "" 
+        intervals [158]:
+            xmin = 734.44 
+            xmax = 736.36 
+            text = "就感觉他们老讲冷笑话似的。" 
+        intervals [159]:
+            xmin = 736.36 
+            xmax = 737.48 
+            text = "" 
+        intervals [160]:
+            xmin = 737.48 
+            xmax = 739.55 
+            text = "就说话的感觉特别冷一样。" 
+        intervals [161]:
+            xmin = 739.55 
+            xmax = 744.54 
+            text = "" 
+        intervals [162]:
+            xmin = 744.54 
+            xmax = 745.73 
+            text = "我我在家。" 
+        intervals [163]:
+            xmin = 745.73 
+            xmax = 747.19 
+            text = "" 
+        intervals [164]:
+            xmin = 747.19 
+            xmax = 748.66 
+            text = "我也看电视剧啊。" 
+        intervals [165]:
+            xmin = 748.66 
+            xmax = 751.03 
+            text = "" 
+        intervals [166]:
+            xmin = 751.03 
+            xmax = 752.51 
+            text = "没没有意思我感觉。" 
+        intervals [167]:
+            xmin = 752.51 
+            xmax = 755.42 
+            text = "" 
+        intervals [168]:
+            xmin = 755.42 
+            xmax = 758.10 
+            text = "我感觉相比家有儿女，还没家有儿女好看呢。" 
+        intervals [169]:
+            xmin = 758.10 
+            xmax = 797.44 
+            text = "" 
+        intervals [170]:
+            xmin = 797.44 
+            xmax = 798.36 
+            text = "还有那个。" 
+        intervals [171]:
+            xmin = 798.36 
+            xmax = 799.81 
+            text = "" 
+        intervals [172]:
+            xmin = 799.81 
+            xmax = 800.80 
+            text = "那个啥。" 
+        intervals [173]:
+            xmin = 800.80 
+            xmax = 801.50 
+            text = "" 
+        intervals [174]:
+            xmin = 801.50 
+            xmax = 803.30 
+            text = "那抗战片儿吧还有个叫雪豹啊。" 
+        intervals [175]:
+            xmin = 803.30 
+            xmax = 804.02 
+            text = "" 
+        intervals [176]:
+            xmin = 804.02 
+            xmax = 804.98 
+            text = "那个也挺好看。" 
+        intervals [177]:
+            xmin = 804.98 
+            xmax = 805.04 
+            text = "" 
+        intervals [178]:
+            xmin = 805.04 
+            xmax = 805.49 
+            text = "嗯。" 
+        intervals [179]:
+            xmin = 805.49 
+            xmax = 806.35 
+            text = "" 
+        intervals [180]:
+            xmin = 806.35 
+            xmax = 806.83 
+            text = "对。" 
+        intervals [181]:
+            xmin = 806.83 
+            xmax = 810.50 
+            text = "" 
+        intervals [182]:
+            xmin = 810.50 
+            xmax = 811.37 
+            text = "那个看不了。" 
+        intervals [183]:
+            xmin = 811.37 
+            xmax = 821.92 
+            text = "" 
+        intervals [184]:
+            xmin = 821.92 
+            xmax = 822.86 
+            text = "也也有他。" 
+        intervals [185]:
+            xmin = 822.86 
+            xmax = 849.55 
+            text = "" 
+        intervals [186]:
+            xmin = 849.55 
+            xmax = 850.93 
+            text = "少帅，张作霖的。" 
+        intervals [187]:
+            xmin = 850.93 
+            xmax = 858.52 
+            text = "" 
+        intervals [188]:
+            xmin = 858.52 
+            xmax = 860.63 
+            text = "不是还有个经典经典语录吗？" 
+        intervals [189]:
+            xmin = 860.63 
+            xmax = 863.76 
+            text = "" 
+        intervals [190]:
+            xmin = 863.76 
+            xmax = 864.99 
+            text = "就是就是骂人的那个。" 
+        intervals [191]:
+            xmin = 864.99 
+            xmax = 901.43 
+            text = "" 
+        intervals [192]:
+            xmin = 901.43 
+            xmax = 903.10 
+            text = "李寻欢不是永劫无间的？" 
+        intervals [193]:
+            xmin = 903.10 
+            xmax = 903.98 
+            text = "" 
+        intervals [194]:
+            xmin = 903.98 
+            xmax = 905.35 
+            text = "游游戏里边儿的呀？" 
+        intervals [195]:
+            xmin = 905.35 
+            xmax = 913.08 
+            text = "" 
+        intervals [196]:
+            xmin = 913.08 
+            xmax = 914.22 
+            text = "你不说李寻欢呀？" 
+        intervals [197]:
+            xmin = 914.22 
+            xmax = 918.55 
+            text = "" 
+        intervals [198]:
+            xmin = 918.55 
+            xmax = 920.82 
+            text = "他是他是里边儿的英雄啊。" 
+        intervals [199]:
+            xmin = 920.82 
+            xmax = 921.79 
+            text = "" 
+        intervals [200]:
+            xmin = 921.79 
+            xmax = 923.10 
+            text = "他是里边儿的英雄。" 
+        intervals [201]:
+            xmin = 923.10 
+            xmax = 942.14 
+            text = "" 
+        intervals [202]:
+            xmin = 942.14 
+            xmax = 943.67 
+            text = "古偶是什么样的*？" 
+        intervals [203]:
+            xmin = 943.67 
+            xmax = 948.80 
+            text = "" 
+        intervals [204]:
+            xmin = 948.80 
+            xmax = 949.96 
+            text = "那个琅琊榜算吧？" 
+        intervals [205]:
+            xmin = 949.96 
+            xmax = 955.39 
+            text = "" 
+        intervals [206]:
+            xmin = 955.39 
+            xmax = 956.30 
+            text = "琅琊榜怎么？" 
+        intervals [207]:
+            xmin = 956.30 
+            xmax = 988.12 
+            text = "" 
+        intervals [208]:
+            xmin = 988.12 
+            xmax = 989.10 
+            text = "只能算古装。" 
+        intervals [209]:
+            xmin = 989.10 
+            xmax = 1020.97 
+            text = "" 
+        intervals [210]:
+            xmin = 1020.97 
+            xmax = 1022.26 
+            text = "就是古代。" 
+        intervals [211]:
+            xmin = 1022.26 
+            xmax = 1022.66 
+            text = "" 
+        intervals [212]:
+            xmin = 1022.66 
+            xmax = 1023.80 
+            text = "古代搞对象。" 
+        intervals [213]:
+            xmin = 1023.80 
+            xmax = 1024.77 
+            text = "" 
+        intervals [214]:
+            xmin = 1024.77 
+            xmax = 1025.26 
+            text = "对啊。" 
+        intervals [215]:
+            xmin = 1025.26 
+            xmax = 1042.31 
+            text = "" 
+        intervals [216]:
+            xmin = 1042.31 
+            xmax = 1043.30 
+            text = "宝莲灯。" 
+        intervals [217]:
+            xmin = 1043.30 
+            xmax = 1049.75 
+            text = "" 
+        intervals [218]:
+            xmin = 1049.75 
+            xmax = 1051.71 
+            text = "没，没有看过，听过。" 
+        intervals [219]:
+            xmin = 1051.71 
+            xmax = 1057.03 
+            text = "" 
+        intervals [220]:
+            xmin = 1057.03 
+            xmax = 1057.77 
+            text = "欧巴。" 
+        intervals [221]:
+            xmin = 1057.77 
+            xmax = 1106.45 
+            text = "" 
+        intervals [222]:
+            xmin = 1106.45 
+            xmax = 1108.50 
+            text = "神话都是什么年代的了？" 
+        intervals [223]:
+            xmin = 1108.50 
+            xmax = 1109.77 
+            text = "" 
+        intervals [224]:
+            xmin = 1109.77 
+            xmax = 1110.23 
+            text = "啊。" 
+        intervals [225]:
+            xmin = 1110.23 
+            xmax = 1251.86 
+            text = "" 
+        intervals [226]:
+            xmin = 1251.86 
+            xmax = 1253.81 
+            text = "胡歌的仙剑奇侠传挺好看的。" 
+        intervals [227]:
+            xmin = 1253.81 
+            xmax = 1295.45 
+            text = "" 
+        intervals [228]:
+            xmin = 1295.45 
+            xmax = 1296.27 
+            text = "算古偶。" 
+        intervals [229]:
+            xmin = 1296.27 
+            xmax = 1308.19 
+            text = "" 
+        intervals [230]:
+            xmin = 1308.19 
+            xmax = 1309.53 
+            text = "仙剑奇侠传。" 
+        intervals [231]:
+            xmin = 1309.53 
+            xmax = 1356.57 
+            text = "" 
+        intervals [232]:
+            xmin = 1356.57 
+            xmax = 1357.73 
+            text = "我什么都没看过。" 
+        intervals [233]:
+            xmin = 1357.73 
+            xmax = 1358.52 
+            text = "" 
+        intervals [234]:
+            xmin = 1358.52 
+            xmax = 1358.91 
+            text = "嗯。" 
+        intervals [235]:
+            xmin = 1358.91 
+            xmax = 1363.07 
+            text = "" 
+        intervals [236]:
+            xmin = 1363.07 
+            xmax = 1365.04 
+            text = "我都不怎么看这个古装片。" 
+        intervals [237]:
+            xmin = 1365.04 
+            xmax = 1467.11 
+            text = "" 

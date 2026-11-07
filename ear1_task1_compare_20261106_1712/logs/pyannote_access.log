@@ -1,0 +1,39 @@
+
+Could not download Pipeline from pyannote/speaker-diarization-community-1.
+It might be because the repository is private or gated:
+
+* visit https://hf.co/pyannote/speaker-diarization-community-1 to accept user conditions
+* visit https://hf.co/settings/tokens to create an authentication token
+* load the Pipeline with the `token` argument:
+    >>> Pipeline.from_pretrained('pyannote/speaker-diarization-community-1', token='hf_....')
+
+httpx2.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/pyannote/audio/core/pipeline.py", line 229, in from_pretrained
+    config_yml = download_from_hf_hub(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/pyannote/audio/utils/hf_hub.py", line 80, in download_from_hf_hub
+    return hf_hub_download(
+           ^^^^^^^^^^^^^^^^
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1047, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1194, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1954, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6aed9e23-62aff8cd604827b66805d303;626d2410-0970-4e58-918d-529c89bb6131)
+
+Cannot access gated repo for url https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml.
+Access to model pyannote/speaker-diarization-community-1 is restricted. You must have access to it and be authenticated to access it. Please log in.

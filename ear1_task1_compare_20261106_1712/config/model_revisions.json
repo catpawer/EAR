@@ -1,0 +1,24 @@
+{
+  "nemotron3": {
+    "model": "nvidia/Nemotron-3-Diarization",
+    "hub_revision_observed_2026-11-06": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+    "environment": "Python 3.10; PyTorch 2.14.1+cu130; Transformers 5.20.2; librosa 0.11.0",
+    "pipeline": "Transformers streaming with speaker cache, low_latency",
+    "source": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
+  },
+  "pyannote_community1": {
+    "model": "pyannote/speaker-diarization-community-1",
+    "hub_revision_observed_2026-11-06": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee",
+    "environment": "Python 3.11.18; PyTorch 2.15.0+cu132; pyannote.audio 4.0.7; soundfile 0.14.0",
+    "access": "initially GatedRepoError 401; user accepted conditions and authenticated locally; pipeline load succeeded",
+    "source": "https://huggingface.co/pyannote/speaker-diarization-community-1"
+  },
+  "funasr": {
+    "toolkit": "FunASR 1.4.22",
+    "git_commit": "d8e676649df42801ceb1486c562428e82fd37540",
+    "environment": "Python 3.10; PyTorch 2.14.1+cu130; ModelScope 1.40.2; kaldi-native-fbank 1.23.0",
+    "components": ["iic/SenseVoiceSmall ASR", "iic/speech_fsmn_vad_zh-cn-16k-common-pytorch segmentation", "iic/speech_campplus_sv_zh-cn_16k-common speaker embeddings", "FunASR ClusterBackend spectral/UMAP-HDBSCAN clustering; default merge_thr=0.78; max_num_spks=15; no oracle count"],
+    "modelscope_weight_revision": "master snapshots, verified by SHA-256 in funasr_weight_sha256.txt",
+    "source": "https://github.com/modelscope/FunASR"
+  }
+}

@@ -1,0 +1,4184 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1584.51 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "P036" 
+        xmin = 0 
+        xmax = 1584.51 
+        intervals: size = 485 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28 
+            xmax = 5.26 
+            text = "我问一下我问一下兄弟们能不能接受用现实的人民币或者。" 
+        intervals [3]:
+            xmin = 5.26 
+            xmax = 5.47 
+            text = "" 
+        intervals [4]:
+            xmin = 5.47 
+            xmax = 7.26 
+            text = "就是自己一些个能。" 
+        intervals [5]:
+            xmin = 7.26 
+            xmax = 7.62 
+            text = "" 
+        intervals [6]:
+            xmin = 7.62 
+            xmax = 10.58 
+            text = "有对自己有价值东西去换一些个虚拟的。" 
+        intervals [7]:
+            xmin = 10.58 
+            xmax = 10.75 
+            text = "" 
+        intervals [8]:
+            xmin = 10.75 
+            xmax = 17.49 
+            text = "比如说看演唱会啊充游戏啊什么炒股啊就是投，投入到网络上或者一些个。" 
+        intervals [9]:
+            xmin = 17.49 
+            xmax = 17.91 
+            text = "" 
+        intervals [10]:
+            xmin = 17.91 
+            xmax = 20.24 
+            text = "触碰不到的东西你们能不能接受。" 
+        intervals [11]:
+            xmin = 20.24 
+            xmax = 93.11 
+            text = "" 
+        intervals [12]:
+            xmin = 93.11 
+            xmax = 94.25 
+            text = "你们都说。" 
+        intervals [13]:
+            xmin = 94.25 
+            xmax = 94.39 
+            text = "" 
+        intervals [14]:
+            xmin = 94.39 
+            xmax = 97.13 
+            text = "你们能接受，但是不能接受这么重度啊，或者。" 
+        intervals [15]:
+            xmin = 97.13 
+            xmax = 97.22 
+            text = "" 
+        intervals [16]:
+            xmin = 97.22 
+            xmax = 99.51 
+            text = "太过的，那怎么算重度怎么算过呢？那。" 
+        intervals [17]:
+            xmin = 99.51 
+            xmax = 99.59 
+            text = "" 
+        intervals [18]:
+            xmin = 99.59 
+            xmax = 101.76 
+            text = "对我来说可能二三百。" 
+        intervals [19]:
+            xmin = 101.76 
+            xmax = 101.93 
+            text = "" 
+        intervals [20]:
+            xmin = 101.93 
+            xmax = 105.83 
+            text = "我有的能接受，但是两三千我接受不了，但是对于有的钱，有钱人来说，人家。" 
+        intervals [21]:
+            xmin = 105.83 
+            xmax = 105.92 
+            text = "" 
+        intervals [22]:
+            xmin = 105.92 
+            xmax = 110.65 
+            text = "两三千几万人家刷刷礼物分分钟跟女主播流水直接就刷完了，那怎么算。" 
+        intervals [23]:
+            xmin = 110.65 
+            xmax = 110.83 
+            text = "" 
+        intervals [24]:
+            xmin = 110.83 
+            xmax = 112.79 
+            text = "重度，怎办算，不算重度呢。" 
+        intervals [25]:
+            xmin = 112.79 
+            xmax = 149.78 
+            text = "" 
+        intervals [26]:
+            xmin = 149.78 
+            xmax = 150.57 
+            text = "那。" 
+        intervals [27]:
+            xmin = 150.57 
+            xmax = 150.69 
+            text = "" 
+        intervals [28]:
+            xmin = 150.69 
+            xmax = 153.69 
+            text = "说白了就是花钱买这个情绪价值，但是。" 
+        intervals [29]:
+            xmin = 153.69 
+            xmax = 153.77 
+            text = "" 
+        intervals [30]:
+            xmin = 153.77 
+            xmax = 159.06 
+            text = "你这个情绪价值可能值多少钱都有啊，可能你买个游戏，你如果游戏充个皮肤几百块。" 
+        intervals [31]:
+            xmin = 159.06 
+            xmax = 159.16 
+            text = "" 
+        intervals [32]:
+            xmin = 159.16 
+            xmax = 159.85 
+            text = "你觉得。" 
+        intervals [33]:
+            xmin = 159.85 
+            xmax = 160.04 
+            text = "" 
+        intervals [34]:
+            xmin = 160.04 
+            xmax = 166.42 
+            text = "能用，我买的我能用一段时间，或者我再不再不济像CS一样，我这个皮肤能出出去，我能换回，还能换回一点。" 
+        intervals [35]:
+            xmin = 166.42 
+            xmax = 166.48 
+            text = "" 
+        intervals [36]:
+            xmin = 166.48 
+            xmax = 167.64 
+            text = "钱，但是。" 
+        intervals [37]:
+            xmin = 167.64 
+            xmax = 168.24 
+            text = "" 
+        intervals [38]:
+            xmin = 168.24 
+            xmax = 171.60 
+            text = "你，总有喜欢的明星，比如说演唱会，看演唱会。" 
+        intervals [39]:
+            xmin = 171.60 
+            xmax = 171.68 
+            text = "" 
+        intervals [40]:
+            xmin = 171.68 
+            xmax = 174.60 
+            text = "哪怕是炒股，炒股也得算虚拟啊，你可以。" 
+        intervals [41]:
+            xmin = 174.60 
+            xmax = 174.76 
+            text = "" 
+        intervals [42]:
+            xmin = 174.76 
+            xmax = 177.12 
+            text = "就像赌博一样，可以把钱扔出去，可能。" 
+        intervals [43]:
+            xmin = 177.12 
+            xmax = 177.17 
+            text = "" 
+        intervals [44]:
+            xmin = 177.17 
+            xmax = 178.96 
+            text = "亏得更多，那演唱会可能。" 
+        intervals [45]:
+            xmin = 178.96 
+            xmax = 179.04 
+            text = "" 
+        intervals [46]:
+            xmin = 179.04 
+            xmax = 182.29 
+            text = "会比充游戏更多，而且，一一场一两个小时，然后。" 
+        intervals [47]:
+            xmin = 182.29 
+            xmax = 182.36 
+            text = "" 
+        intervals [48]:
+            xmin = 182.36 
+            xmax = 186.76 
+            text = "大几百甚至几千没了，那你这个能接受吗？我感觉你们肯定都有追星或者。" 
+        intervals [49]:
+            xmin = 186.76 
+            xmax = 187.05 
+            text = "" 
+        intervals [50]:
+            xmin = 187.05 
+            xmax = 191.66 
+            text = "一些个喜欢的歌手啊，选手，什么看脱口秀啊民谣啊我觉得这这都可以算" 
+        intervals [51]:
+            xmin = 191.66 
+            xmax = 227.67 
+            text = "" 
+        intervals [52]:
+            xmin = 227.67 
+            xmax = 231.94 
+            text = "我觉得你这个话就没有价值，人家去看演唱会就是。" 
+        intervals [53]:
+            xmin = 231.94 
+            xmax = 232.00 
+            text = "" 
+        intervals [54]:
+            xmin = 232.00 
+            xmax = 234.92 
+            text = "为了要现场能听到能看到能感受到。" 
+        intervals [55]:
+            xmin = 234.92 
+            xmax = 235.00 
+            text = "" 
+        intervals [56]:
+            xmin = 235.00 
+            xmax = 238.55 
+            text = "我这个明星我很喜欢，我喜欢了很多年，我能亲亲眼。" 
+        intervals [57]:
+            xmin = 238.55 
+            xmax = 238.61 
+            text = "" 
+        intervals [58]:
+            xmin = 238.61 
+            xmax = 239.66 
+            text = "亲眼见到他。" 
+        intervals [59]:
+            xmin = 239.66 
+            xmax = 239.72 
+            text = "" 
+        intervals [60]:
+            xmin = 239.72 
+            xmax = 240.71 
+            text = "那种感觉，然后。" 
+        intervals [61]:
+            xmin = 240.71 
+            xmax = 240.78 
+            text = "" 
+        intervals [62]:
+            xmin = 240.78 
+            xmax = 244.51 
+            text = "很多跟我一样喜欢这个明星的人，跟我一起唱啊，一起。" 
+        intervals [63]:
+            xmin = 244.51 
+            xmax = 244.60 
+            text = "" 
+        intervals [64]:
+            xmin = 244.60 
+            xmax = 248.44 
+            text = "跳啊，感觉这种心理价值，这种情绪是你看。" 
+        intervals [65]:
+            xmin = 248.44 
+            xmax = 248.54 
+            text = "" 
+        intervals [66]:
+            xmin = 248.54 
+            xmax = 250.52 
+            text = "看视频是无法替代的你知道吗。" 
+        intervals [67]:
+            xmin = 250.52 
+            xmax = 250.67 
+            text = "" 
+        intervals [68]:
+            xmin = 250.67 
+            xmax = 251.61 
+            text = "你看视频。" 
+        intervals [69]:
+            xmin = 251.61 
+            xmax = 251.77 
+            text = "" 
+        intervals [70]:
+            xmin = 251.77 
+            xmax = 259.72 
+            text = "那你如果这么说的话，那我们任何虚拟的视频啊，网络啊，游戏，这种那我们都不需要啊，只要一个手机一搜，一个视频我们都可以看到，我们。" 
+        intervals [71]:
+            xmin = 259.72 
+            xmax = 259.78 
+            text = "" 
+        intervals [72]:
+            xmin = 259.78 
+            xmax = 262.37 
+            text = "明星还开什么演唱会啊，还办什么直播啊，什么都不用了。" 
+        intervals [73]:
+            xmin = 262.37 
+            xmax = 336.23 
+            text = "" 
+        intervals [74]:
+            xmin = 336.23 
+            xmax = 338.24 
+            text = "我觉得这个有问题啊，我们。" 
+        intervals [75]:
+            xmin = 338.24 
+            xmax = 338.32 
+            text = "" 
+        intervals [76]:
+            xmin = 338.32 
+            xmax = 343.09 
+            text = "其实，就是因为抢到票我们才花钱，如如果没抢到票，你根本不用花钱，你为什么要在乎。" 
+        intervals [77]:
+            xmin = 343.09 
+            xmax = 343.20 
+            text = "" 
+        intervals [78]:
+            xmin = 343.20 
+            xmax = 345.96 
+            text = "在乎那那些，就是什么虚拟换现实的，因为。" 
+        intervals [79]:
+            xmin = 345.96 
+            xmax = 346.54 
+            text = "" 
+        intervals [80]:
+            xmin = 346.54 
+            xmax = 347.40 
+            text = "就是。" 
+        intervals [81]:
+            xmin = 347.40 
+            xmax = 347.48 
+            text = "" 
+        intervals [82]:
+            xmin = 347.48 
+            xmax = 352.44 
+            text = "我们这个说的是基于你抢到票的能去现场看的这个原理来讨论。" 
+        intervals [83]:
+            xmin = 352.44 
+            xmax = 352.80 
+            text = "" 
+        intervals [84]:
+            xmin = 352.80 
+            xmax = 354.12 
+            text = "而且，你看弹幕。" 
+        intervals [85]:
+            xmin = 354.12 
+            xmax = 354.55 
+            text = "" 
+        intervals [86]:
+            xmin = 354.55 
+            xmax = 357.16 
+            text = "说实话，弹幕的环境。" 
+        intervals [87]:
+            xmin = 357.16 
+            xmax = 357.35 
+            text = "" 
+        intervals [88]:
+            xmin = 357.35 
+            xmax = 361.30 
+            text = "不评价，串子黑子是吧，我我不评价，我刷到过，我不会。" 
+        intervals [89]:
+            xmin = 361.30 
+            xmax = 361.43 
+            text = "" 
+        intervals [90]:
+            xmin = 361.43 
+            xmax = 365.11 
+            text = "去说，但是你看到肯定会你的心里有些影响，会。" 
+        intervals [91]:
+            xmin = 365.11 
+            xmax = 365.55 
+            text = "" 
+        intervals [92]:
+            xmin = 365.55 
+            xmax = 369.94 
+            text = "心理就会不自在，你看那个视频，那怕他他在场，那个明星发挥的很好。" 
+        intervals [93]:
+            xmin = 369.94 
+            xmax = 370.05 
+            text = "" 
+        intervals [94]:
+            xmin = 370.05 
+            xmax = 371.75 
+            text = "你心里，就是感觉。" 
+        intervals [95]:
+            xmin = 371.75 
+            xmax = 371.96 
+            text = "" 
+        intervals [96]:
+            xmin = 371.96 
+            xmax = 372.66 
+            text = "不太行。" 
+        intervals [97]:
+            xmin = 372.66 
+            xmax = 428.62 
+            text = "" 
+        intervals [98]:
+            xmin = 428.62 
+            xmax = 433.93 
+            text = "首先，你买这个票肯定是能自己选在哪儿 ，其次。" 
+        intervals [99]:
+            xmin = 433.93 
+            xmax = 434.81 
+            text = "" 
+        intervals [100]:
+            xmin = 434.81 
+            xmax = 442.35 
+            text = "你，唉，我们要的是这个情绪价值，你在网上再怎么看隔着屏幕你跟真人见到肯定是不一样的而且你旁边的人也是喜欢这个人的你可以去。" 
+        intervals [101]:
+            xmin = 442.35 
+            xmax = 442.74 
+            text = "" 
+        intervals [102]:
+            xmin = 442.74 
+            xmax = 446.92 
+            text = "哪怕你看不到，能感受到那种感觉不是说你隔着屏幕就能。" 
+        intervals [103]:
+            xmin = 446.92 
+            xmax = 447.08 
+            text = "" 
+        intervals [104]:
+            xmin = 447.08 
+            xmax = 452.56 
+            text = "他唱的很好你觉得怎么样那你隔着屏幕搁这坐着你就很开心就跳起来了，你跟他一起跳，那肯定不行啊。" 
+        intervals [105]:
+            xmin = 452.56 
+            xmax = 453.37 
+            text = "" 
+        intervals [106]:
+            xmin = 453.37 
+            xmax = 455.80 
+            text = "而且，唉，我们只说这个明星。" 
+        intervals [107]:
+            xmin = 455.80 
+            xmax = 455.99 
+            text = "" 
+        intervals [108]:
+            xmin = 455.99 
+            xmax = 460.84 
+            text = "我觉得你们看看直播吧，兄弟你也看直播吧，你有没有跟主播，就是。" 
+        intervals [109]:
+            xmin = 460.84 
+            xmax = 461.04 
+            text = "" 
+        intervals [110]:
+            xmin = 461.04 
+            xmax = 463.79 
+            text = "想，有想过给他们刷礼物或者说。" 
+        intervals [111]:
+            xmin = 463.79 
+            xmax = 464.05 
+            text = "" 
+        intervals [112]:
+            xmin = 464.05 
+            xmax = 469.01 
+            text = "互动啊或者说一些什么左上角福袋抢一抢这种感觉你有没有。" 
+        intervals [113]:
+            xmin = 469.01 
+            xmax = 497.97 
+            text = "" 
+        intervals [114]:
+            xmin = 497.97 
+            xmax = 503.38 
+            text = "嗯，你说的这个买皮肤这个我说实话以前我是可以接受但是现在，我觉得。" 
+        intervals [115]:
+            xmin = 503.38 
+            xmax = 503.65 
+            text = "" 
+        intervals [116]:
+            xmin = 503.65 
+            xmax = 507.42 
+            text = "皮肤你确实是买了你当时觉得哎呀就是很简单一句话会用腻。" 
+        intervals [117]:
+            xmin = 507.42 
+            xmax = 507.55 
+            text = "" 
+        intervals [118]:
+            xmin = 507.55 
+            xmax = 510.51 
+            text = "你就觉得很很我当时觉得很好用我用这个皮肤我。" 
+        intervals [119]:
+            xmin = 510.51 
+            xmax = 510.57 
+            text = "" 
+        intervals [120]:
+            xmin = 510.57 
+            xmax = 513.83 
+            text = "我怎么样我大杀四方我把他们都打死了都都都打过来我。" 
+        intervals [121]:
+            xmin = 513.83 
+            xmax = 513.91 
+            text = "" 
+        intervals [122]:
+            xmin = 513.91 
+            xmax = 516.14 
+            text = "虐他们了，但是过一段时间。" 
+        intervals [123]:
+            xmin = 516.14 
+            xmax = 516.40 
+            text = "" 
+        intervals [124]:
+            xmin = 516.40 
+            xmax = 517.10 
+            text = "首先。" 
+        intervals [125]:
+            xmin = 517.10 
+            xmax = 517.38 
+            text = "" 
+        intervals [126]:
+            xmin = 517.38 
+            xmax = 520.55 
+            text = "这个就是最最以我们游戏最。" 
+        intervals [127]:
+            xmin = 520.55 
+            xmax = 520.65 
+            text = "" 
+        intervals [128]:
+            xmin = 520.65 
+            xmax = 522.91 
+            text = "终极的一个原因它保不保值它肯定是。" 
+        intervals [129]:
+            xmin = 522.91 
+            xmax = 523.05 
+            text = "" 
+        intervals [130]:
+            xmin = 523.05 
+            xmax = 525.79 
+            text = "百分之九十九的游戏都不保值的你再怎么充它最后。" 
+        intervals [131]:
+            xmin = 525.79 
+            xmax = 525.96 
+            text = "" 
+        intervals [132]:
+            xmin = 525.96 
+            xmax = 530.46 
+            text = "好几百好几好几万充着一个游戏号可能就卖几百块。" 
+        intervals [133]:
+            xmin = 530.46 
+            xmax = 530.64 
+            text = "" 
+        intervals [134]:
+            xmin = 530.64 
+            xmax = 531.56 
+            text = "你去。" 
+        intervals [135]:
+            xmin = 531.56 
+            xmax = 531.82 
+            text = "" 
+        intervals [136]:
+            xmin = 531.82 
+            xmax = 534.23 
+            text = "就是你买这种虚拟的东西。" 
+        intervals [137]:
+            xmin = 534.23 
+            xmax = 534.44 
+            text = "" 
+        intervals [138]:
+            xmin = 534.44 
+            xmax = 539.63 
+            text = "它只能给你的这种快感是暂时的它不是说你可能以后我想起来。" 
+        intervals [139]:
+            xmin = 539.63 
+            xmax = 539.69 
+            text = "" 
+        intervals [140]:
+            xmin = 539.69 
+            xmax = 542.36 
+            text = "就好像我看演唱会，我们刚说的看演唱会。" 
+        intervals [141]:
+            xmin = 542.36 
+            xmax = 542.44 
+            text = "" 
+        intervals [142]:
+            xmin = 542.44 
+            xmax = 545.08 
+            text = "我看到他我现场去看他，可能我过了十年。" 
+        intervals [143]:
+            xmin = 545.08 
+            xmax = 545.15 
+            text = "" 
+        intervals [144]:
+            xmin = 545.15 
+            xmax = 546.98 
+            text = "二十年我当时我。" 
+        intervals [145]:
+            xmin = 546.98 
+            xmax = 547.11 
+            text = "" 
+        intervals [146]:
+            xmin = 547.11 
+            xmax = 549.26 
+            text = "坐着自己待着我可以想到当时那个场景我觉得。" 
+        intervals [147]:
+            xmin = 549.26 
+            xmax = 549.40 
+            text = "" 
+        intervals [148]:
+            xmin = 549.40 
+            xmax = 551.96 
+            text = "会很开心但是游戏你就不会啊，你就觉得。" 
+        intervals [149]:
+            xmin = 551.96 
+            xmax = 552.13 
+            text = "" 
+        intervals [150]:
+            xmin = 552.13 
+            xmax = 558.92 
+            text = "哎呀这么一想，我给那皮肤真是白买了我过了十年二十年我这游戏都不玩了游戏都过都没人玩了我买这皮肤干什么用呢是不是。" 
+        intervals [151]:
+            xmin = 558.92 
+            xmax = 614.90 
+            text = "" 
+        intervals [152]:
+            xmin = 614.90 
+            xmax = 616.16 
+            text = "就像那个。" 
+        intervals [153]:
+            xmin = 616.16 
+            xmax = 616.23 
+            text = "" 
+        intervals [154]:
+            xmin = 616.23 
+            xmax = 622.58 
+            text = "唉，这么说充游戏这个，我最近玩的那种游戏，玩过一个游戏吧，就是那种S L G的游戏，知道吧。就是。" 
+        intervals [155]:
+            xmin = 622.58 
+            xmax = 622.80 
+            text = "" 
+        intervals [156]:
+            xmin = 622.80 
+            xmax = 625.42 
+            text = "三国类型，三国这种来回就是攻城。" 
+        intervals [157]:
+            xmin = 625.42 
+            xmax = 625.51 
+            text = "" 
+        intervals [158]:
+            xmin = 625.51 
+            xmax = 627.33 
+            text = "几个盟，攻它城，攻它城。" 
+        intervals [159]:
+            xmin = 627.33 
+            xmax = 627.53 
+            text = "" 
+        intervals [160]:
+            xmin = 627.53 
+            xmax = 632.30 
+            text = "这个游戏，我，我里面那个盟主玩了这游戏一个月，充了几万块，甚至上十万。" 
+        intervals [161]:
+            xmin = 632.30 
+            xmax = 632.43 
+            text = "" 
+        intervals [162]:
+            xmin = 632.43 
+            xmax = 633.36 
+            text = "结果。" 
+        intervals [163]:
+            xmin = 633.36 
+            xmax = 633.73 
+            text = "" 
+        intervals [164]:
+            xmin = 633.73 
+            xmax = 636.79 
+            text = "还是在我们那个服里面，连。" 
+        intervals [165]:
+            xmin = 636.79 
+            xmax = 637.43 
+            text = "" 
+        intervals [166]:
+            xmin = 637.43 
+            xmax = 641.02 
+            text = "就是进个前前三吧，就是第三名，连第二第一都拿不到，因为。" 
+        intervals [167]:
+            xmin = 641.02 
+            xmax = 641.17 
+            text = "" 
+        intervals [168]:
+            xmin = 641.17 
+            xmax = 643.88 
+            text = "这种游戏第一可能是会有托，第二。" 
+        intervals [169]:
+            xmin = 643.88 
+            xmax = 644.43 
+            text = "" 
+        intervals [170]:
+            xmin = 644.43 
+            xmax = 645.86 
+            text = "你怎么充。" 
+        intervals [171]:
+            xmin = 645.86 
+            xmax = 645.97 
+            text = "" 
+        intervals [172]:
+            xmin = 645.97 
+            xmax = 650.03 
+            text = "它都会变强，你怎么充都没用，到最后你这个钱都白充了，而且这个游戏。" 
+        intervals [173]:
+            xmin = 650.03 
+            xmax = 652.33 
+            text = "" 
+        intervals [174]:
+            xmin = 652.33 
+            xmax = 653.38 
+            text = "就不会再玩了。" 
+        intervals [175]:
+            xmin = 653.38 
+            xmax = 653.70 
+            text = "" 
+        intervals [176]:
+            xmin = 653.70 
+            xmax = 657.34 
+            text = "纯说白一句话就是钱真是就烧了就没用了。" 
+        intervals [177]:
+            xmin = 657.34 
+            xmax = 698.82 
+            text = "" 
+        intervals [178]:
+            xmin = 698.82 
+            xmax = 700.93 
+            text = "说实话刚刚这个。" 
+        intervals [179]:
+            xmin = 700.93 
+            xmax = 701.07 
+            text = "" 
+        intervals [180]:
+            xmin = 701.07 
+            xmax = 704.02 
+            text = "怎么说呢可能我也想了一下这个钱对于。" 
+        intervals [181]:
+            xmin = 704.02 
+            xmax = 704.36 
+            text = "" 
+        intervals [182]:
+            xmin = 704.36 
+            xmax = 707.66 
+            text = "我认识那个人他来说他可能都不算什么人家可能一个月挣。" 
+        intervals [183]:
+            xmin = 707.66 
+            xmax = 707.82 
+            text = "" 
+        intervals [184]:
+            xmin = 707.82 
+            xmax = 709.14 
+            text = "几百个几千个人家这。" 
+        intervals [185]:
+            xmin = 709.14 
+            xmax = 709.17 
+            text = "" 
+        intervals [186]:
+            xmin = 709.17 
+            xmax = 710.49 
+            text = "点钱对人家来说不算什么。" 
+        intervals [187]:
+            xmin = 710.49 
+            xmax = 710.62 
+            text = "" 
+        intervals [188]:
+            xmin = 710.62 
+            xmax = 711.07 
+            text = "他能。" 
+        intervals [189]:
+            xmin = 711.07 
+            xmax = 711.35 
+            text = "" 
+        intervals [190]:
+            xmin = 711.35 
+            xmax = 714.37 
+            text = "感受到当时的挺吓人，就是我充刚充这个钱的时候。" 
+        intervals [191]:
+            xmin = 714.37 
+            xmax = 714.46 
+            text = "" 
+        intervals [192]:
+            xmin = 714.46 
+            xmax = 716.46 
+            text = "把所有人打服了，我攻城我一个人。" 
+        intervals [193]:
+            xmin = 716.46 
+            xmax = 716.56 
+            text = "" 
+        intervals [194]:
+            xmin = 716.56 
+            xmax = 718.90 
+            text = "打他们好几对，他可能觉得很值。" 
+        intervals [195]:
+            xmin = 718.90 
+            xmax = 719.17 
+            text = "" 
+        intervals [196]:
+            xmin = 719.17 
+            xmax = 720.19 
+            text = "而且。" 
+        intervals [197]:
+            xmin = 720.19 
+            xmax = 720.36 
+            text = "" 
+        intervals [198]:
+            xmin = 720.36 
+            xmax = 724.15 
+            text = "我们就说，不说这个充钱吧，就说您能不能接受。" 
+        intervals [199]:
+            xmin = 724.15 
+            xmax = 724.32 
+            text = "" 
+        intervals [200]:
+            xmin = 724.32 
+            xmax = 726.65 
+            text = "就是，给一个游戏充钱。" 
+        intervals [201]:
+            xmin = 726.65 
+            xmax = 726.79 
+            text = "" 
+        intervals [202]:
+            xmin = 726.79 
+            xmax = 728.80 
+            text = "厉害或者买皮肤或者是。" 
+        intervals [203]:
+            xmin = 728.80 
+            xmax = 729.09 
+            text = "" 
+        intervals [204]:
+            xmin = 729.09 
+            xmax = 730.70 
+            text = "呃，和。" 
+        intervals [205]:
+            xmin = 730.70 
+            xmax = 730.92 
+            text = "" 
+        intervals [206]:
+            xmin = 730.92 
+            xmax = 733.52 
+            text = "花钱买断一个游戏去买一个。" 
+        intervals [207]:
+            xmin = 733.52 
+            xmax = 733.67 
+            text = "" 
+        intervals [208]:
+            xmin = 733.67 
+            xmax = 736.11 
+            text = " D L C 啊买断一个游戏然后会有什么。" 
+        intervals [209]:
+            xmin = 736.11 
+            xmax = 736.24 
+            text = "" 
+        intervals [210]:
+            xmin = 736.24 
+            xmax = 737.10 
+            text = "这种。" 
+        intervals [211]:
+            xmin = 737.10 
+            xmax = 737.47 
+            text = "" 
+        intervals [212]:
+            xmin = 737.47 
+            xmax = 740.82 
+            text = "这种就是这种平台的你会不会你更能接受哪一个吧。" 
+        intervals [213]:
+            xmin = 740.82 
+            xmax = 789.28 
+            text = "" 
+        intervals [214]:
+            xmin = 789.28 
+            xmax = 792.30 
+            text = "我，我觉得，怎么说呢。" 
+        intervals [215]:
+            xmin = 792.30 
+            xmax = 793.20 
+            text = "" 
+        intervals [216]:
+            xmin = 793.20 
+            xmax = 797.12 
+            text = "也不算更友好吧，但是买断制的。" 
+        intervals [217]:
+            xmin = 797.12 
+            xmax = 797.40 
+            text = "" 
+        intervals [218]:
+            xmin = 797.40 
+            xmax = 799.45 
+            text = "你这游戏你花几百块买了以后你。" 
+        intervals [219]:
+            xmin = 799.45 
+            xmax = 799.54 
+            text = "" 
+        intervals [220]:
+            xmin = 799.54 
+            xmax = 807.35 
+            text = "后终究会玩完就是过关结束了可能你打 DLC 可能打打二周目三周目你可能打很多次但是它终究会结束。" 
+        intervals [221]:
+            xmin = 807.35 
+            xmax = 807.52 
+            text = "" 
+        intervals [222]:
+            xmin = 807.52 
+            xmax = 811.86 
+            text = "但是结束之后你这游戏你可能就想不起来就不想玩觉得没意思就不玩了。" 
+        intervals [223]:
+            xmin = 811.86 
+            xmax = 812.08 
+            text = "" 
+        intervals [224]:
+            xmin = 812.08 
+            xmax = 815.87 
+            text = "如果你玩那种能多人对战的游戏虽然就是。" 
+        intervals [225]:
+            xmin = 815.87 
+            xmax = 816.23 
+            text = "" 
+        intervals [226]:
+            xmin = 816.23 
+            xmax = 821.84 
+            text = "他不不是买他玩 儿 这个游戏没有门槛 儿 虽然他要充但是有但我觉得现在大多数游戏。" 
+        intervals [227]:
+            xmin = 821.84 
+            xmax = 821.98 
+            text = "" 
+        intervals [228]:
+            xmin = 821.98 
+            xmax = 823.36 
+            text = "钱是。" 
+        intervals [229]:
+            xmin = 823.36 
+            xmax = 823.65 
+            text = "" 
+        intervals [230]:
+            xmin = 823.65 
+            xmax = 829.41 
+            text = "我，对战力应该是没有什么太大提升一般都是对你的外观啊皮就是说的皮肤啊或者武器。" 
+        intervals [231]:
+            xmin = 829.41 
+            xmax = 829.56 
+            text = "" 
+        intervals [232]:
+            xmin = 829.56 
+            xmax = 831.68 
+            text = "这种外观会有些提升但是对你的战力。" 
+        intervals [233]:
+            xmin = 831.68 
+            xmax = 831.83 
+            text = "" 
+        intervals [234]:
+            xmin = 831.83 
+            xmax = 833.66 
+            text = "它会不会有太大影响而且这种游戏。" 
+        intervals [235]:
+            xmin = 833.66 
+            xmax = 834.01 
+            text = "" 
+        intervals [236]:
+            xmin = 834.01 
+            xmax = 835.09 
+            text = "我说实话。" 
+        intervals [237]:
+            xmin = 835.09 
+            xmax = 835.60 
+            text = "" 
+        intervals [238]:
+            xmin = 835.60 
+            xmax = 839.04 
+            text = "都能持续最起码比你那种买断制的游戏这个。" 
+        intervals [239]:
+            xmin = 839.04 
+            xmax = 839.08 
+            text = "" 
+        intervals [240]:
+            xmin = 839.08 
+            xmax = 841.62 
+            text = "热热度吧会持续很长一段时间。" 
+        intervals [241]:
+            xmin = 841.62 
+            xmax = 885.94 
+            text = "" 
+        intervals [242]:
+            xmin = 885.94 
+            xmax = 889.34 
+            text = "但但是你说的我觉得你说那个游戏。" 
+        intervals [243]:
+            xmin = 889.34 
+            xmax = 890.01 
+            text = "" 
+        intervals [244]:
+            xmin = 890.01 
+            xmax = 896.13 
+            text = "最还是要看技术你那那个游戏就典型的技术游戏像我们说的这种现在这种网游一样。" 
+        intervals [245]:
+            xmin = 896.13 
+            xmax = 896.38 
+            text = "" 
+        intervals [246]:
+            xmin = 896.38 
+            xmax = 897.82 
+            text = "就是看技术现在。" 
+        intervals [247]:
+            xmin = 897.82 
+            xmax = 898.19 
+            text = "" 
+        intervals [248]:
+            xmin = 898.19 
+            xmax = 903.25 
+            text = "很有名的能就比如说有比赛的那种游戏吧基本上都是看技术而你充钱。" 
+        intervals [249]:
+            xmin = 903.25 
+            xmax = 903.56 
+            text = "" 
+        intervals [250]:
+            xmin = 903.56 
+            xmax = 908.41 
+            text = "能，会真的对你的手感啊有什么影响但是我觉得不会太大而且。" 
+        intervals [251]:
+            xmin = 908.41 
+            xmax = 908.79 
+            text = "" 
+        intervals [252]:
+            xmin = 908.79 
+            xmax = 911.25 
+            text = "你你的你说的那个就是你说的那个。" 
+        intervals [253]:
+            xmin = 911.25 
+            xmax = 911.84 
+            text = "" 
+        intervals [254]:
+            xmin = 911.84 
+            xmax = 917.58 
+            text = "就是你说的那个游戏玩家我觉得这个群体真的会比如说我刷短视频刷到。" 
+        intervals [255]:
+            xmin = 917.58 
+            xmax = 918.44 
+            text = "" 
+        intervals [256]:
+            xmin = 918.44 
+            xmax = 922.95 
+            text = "第五人格然后什么火影忍者还有什么这种游戏吧他的玩家真的。" 
+        intervals [257]:
+            xmin = 922.95 
+            xmax = 923.28 
+            text = "" 
+        intervals [258]:
+            xmin = 923.28 
+            xmax = 924.99 
+            text = "很恶心说实话我看到就。" 
+        intervals [259]:
+            xmin = 924.99 
+            xmax = 925.02 
+            text = "" 
+        intervals [260]:
+            xmin = 925.02 
+            xmax = 926.76 
+            text = "是很恶心我无法他。" 
+        intervals [261]:
+            xmin = 926.76 
+            xmax = 926.97 
+            text = "" 
+        intervals [262]:
+            xmin = 926.97 
+            xmax = 928.85 
+            text = "怎么说呢不是跟风。" 
+        intervals [263]:
+            xmin = 928.85 
+            xmax = 928.98 
+            text = "" 
+        intervals [264]:
+            xmin = 928.98 
+            xmax = 930.37 
+            text = "他们的评论评价就感觉，" 
+        intervals [265]:
+            xmin = 930.37 
+            xmax = 930.71 
+            text = "" 
+        intervals [266]:
+            xmin = 930.71 
+            xmax = 933.47 
+            text = "让我感觉在很装你知道吗。" 
+        intervals [267]:
+            xmin = 933.47 
+            xmax = 934.68 
+            text = "" 
+        intervals [268]:
+            xmin = 934.68 
+            xmax = 936.11 
+            text = "这个游戏真的会能。" 
+        intervals [269]:
+            xmin = 936.11 
+            xmax = 936.46 
+            text = "" 
+        intervals [270]:
+            xmin = 936.46 
+            xmax = 943.41 
+            text = "让这些个就是他本来就不会玩游戏不玩那个游戏的玩家他会觉得跟风我去玩这个游戏可能有的会充钱有的不会充。" 
+        intervals [271]:
+            xmin = 943.41 
+            xmax = 943.93 
+            text = "" 
+        intervals [272]:
+            xmin = 943.93 
+            xmax = 946.27 
+            text = "我觉得对这种游戏也是有影响的。" 
+        intervals [273]:
+            xmin = 946.27 
+            xmax = 973.87 
+            text = "" 
+        intervals [274]:
+            xmin = 973.87 
+            xmax = 975.25 
+            text = "不，我觉得。" 
+        intervals [275]:
+            xmin = 975.25 
+            xmax = 975.61 
+            text = "" 
+        intervals [276]:
+            xmin = 975.61 
+            xmax = 982.43 
+            text = "也不对吧我觉得是确实它会有一个手感提升就好像你看游戏的评论那个。" 
+        intervals [277]:
+            xmin = 982.43 
+            xmax = 982.56 
+            text = "" 
+        intervals [278]:
+            xmin = 982.56 
+            xmax = 988.30 
+            text = "皮肤每每个就是那个皮肤刚发布的时候肯定有一堆人在下面评价的皮肤又烂了又抄哪个了又什么光污染了。" 
+        intervals [279]:
+            xmin = 988.30 
+            xmax = 988.59 
+            text = "" 
+        intervals [280]:
+            xmin = 988.59 
+            xmax = 990.74 
+            text = "冉后有的人也会说他好这个皮肤比如说。" 
+        intervals [281]:
+            xmin = 990.74 
+            xmax = 991.12 
+            text = "" 
+        intervals [282]:
+            xmin = 991.12 
+            xmax = 994.05 
+            text = "一个人人一个人物有十个皮肤然后他。" 
+        intervals [283]:
+            xmin = 994.05 
+            xmax = 994.15 
+            text = "" 
+        intervals [284]:
+            xmin = 994.15 
+            xmax = 997.68 
+            text = "会比如说出一个盘点说哪个皮肤神中神他肯定有一个皮肤。" 
+        intervals [285]:
+            xmin = 997.68 
+            xmax = 997.87 
+            text = "" 
+        intervals [286]:
+            xmin = 997.87 
+            xmax = 1003.62 
+            text = "到了皮肤的一堆人会说神中神什么好好然后一个皮肤又说很很很不好很怎么样就是他。" 
+        intervals [287]:
+            xmin = 1003.62 
+            xmax = 1004.15 
+            text = "" 
+        intervals [288]:
+            xmin = 1004.15 
+            xmax = 1005.17 
+            text = "他说了。" 
+        intervals [289]:
+            xmin = 1005.17 
+            xmax = 1005.37 
+            text = "" 
+        intervals [290]:
+            xmin = 1005.37 
+            xmax = 1009.54 
+            text = "一般说这个人他肯定是买过这个皮肤而且用过的人家也是。" 
+        intervals [291]:
+            xmin = 1009.54 
+            xmax = 1009.57 
+            text = "" 
+        intervals [292]:
+            xmin = 1009.57 
+            xmax = 1012.04 
+            text = "也是真心会觉得这个皮肤会对你这个英雄的。" 
+        intervals [293]:
+            xmin = 1012.04 
+            xmax = 1012.24 
+            text = "" 
+        intervals [294]:
+            xmin = 1012.24 
+            xmax = 1013.88 
+            text = "手感有一些优化就好像。" 
+        intervals [295]:
+            xmin = 1013.88 
+            xmax = 1014.25 
+            text = "" 
+        intervals [296]:
+            xmin = 1014.25 
+            xmax = 1017.06 
+            text = "就是完全就是两个英雄你这个皮肤。" 
+        intervals [297]:
+            xmin = 1017.06 
+            xmax = 1017.19 
+            text = "" 
+        intervals [298]:
+            xmin = 1017.19 
+            xmax = 1020.29 
+            text = "你这个人物没有这个皮肤和有这皮肤就是两个英雄他就会让你。" 
+        intervals [299]:
+            xmin = 1020.29 
+            xmax = 1020.32 
+            text = "" 
+        intervals [300]:
+            xmin = 1020.32 
+            xmax = 1022.84 
+            text = "的体这种实力感觉就提升一点 儿。" 
+        intervals [301]:
+            xmin = 1022.84 
+            xmax = 1061.93 
+            text = "" 
+        intervals [302]:
+            xmin = 1061.93 
+            xmax = 1063.65 
+            text = "嗯，说实话。" 
+        intervals [303]:
+            xmin = 1063.65 
+            xmax = 1064.00 
+            text = "" 
+        intervals [304]:
+            xmin = 1064.00 
+            xmax = 1067.01 
+            text = "这个话题，卖皮肤这个，很，第一。" 
+        intervals [305]:
+            xmin = 1067.01 
+            xmax = 1067.31 
+            text = "" 
+        intervals [306]:
+            xmin = 1067.31 
+            xmax = 1070.42 
+            text = "看游戏，就比如说 CS 这种游戏它。" 
+        intervals [307]:
+            xmin = 1070.42 
+            xmax = 1070.87 
+            text = "" 
+        intervals [308]:
+            xmin = 1070.87 
+            xmax = 1074.38 
+            text = "可能还能涨就和炒股一样你几十块可能那几百块还能卖出但是。" 
+        intervals [309]:
+            xmin = 1074.38 
+            xmax = 1074.63 
+            text = "" 
+        intervals [310]:
+            xmin = 1074.63 
+            xmax = 1077.51 
+            text = "百分之九十的游戏九十五的游戏。" 
+        intervals [311]:
+            xmin = 1077.51 
+            xmax = 1077.75 
+            text = "" 
+        intervals [312]:
+            xmin = 1077.75 
+            xmax = 1079.78 
+            text = "你买你买了就等于亏了。" 
+        intervals [313]:
+            xmin = 1079.78 
+            xmax = 1079.84 
+            text = "" 
+        intervals [314]:
+            xmin = 1079.84 
+            xmax = 1081.09 
+            text = "如果你买了就是亏了。" 
+        intervals [315]:
+            xmin = 1081.09 
+            xmax = 1081.31 
+            text = "" 
+        intervals [316]:
+            xmin = 1081.31 
+            xmax = 1083.62 
+            text = "他就是卖不出去而且或者说没人买。" 
+        intervals [317]:
+            xmin = 1083.62 
+            xmax = 1084.08 
+            text = "" 
+        intervals [318]:
+            xmin = 1084.08 
+            xmax = 1085.22 
+            text = "嗯，第二。" 
+        intervals [319]:
+            xmin = 1085.22 
+            xmax = 1085.40 
+            text = "" 
+        intervals [320]:
+            xmin = 1085.40 
+            xmax = 1086.58 
+            text = "你说的这个。" 
+        intervals [321]:
+            xmin = 1086.58 
+            xmax = 1087.07 
+            text = "" 
+        intervals [322]:
+            xmin = 1087.07 
+            xmax = 1088.53 
+            text = "情绪价值，我觉得。" 
+        intervals [323]:
+            xmin = 1088.53 
+            xmax = 1088.64 
+            text = "" 
+        intervals [324]:
+            xmin = 1088.64 
+            xmax = 1089.55 
+            text = "这个游戏。" 
+        intervals [325]:
+            xmin = 1089.55 
+            xmax = 1089.93 
+            text = "" 
+        intervals [326]:
+            xmin = 1089.93 
+            xmax = 1095.46 
+            text = "它最后终究会，我们不说关服吧，有关服这种情况，可能，但很少有这种，不说那种太少的情况。" 
+        intervals [327]:
+            xmin = 1095.46 
+            xmax = 1095.63 
+            text = "" 
+        intervals [328]:
+            xmin = 1095.63 
+            xmax = 1096.77 
+            text = "就是一个游戏。" 
+        intervals [329]:
+            xmin = 1096.77 
+            xmax = 1097.12 
+            text = "" 
+        intervals [330]:
+            xmin = 1097.12 
+            xmax = 1098.06 
+            text = "就是会。" 
+        intervals [331]:
+            xmin = 1098.06 
+            xmax = 1098.33 
+            text = "" 
+        intervals [332]:
+            xmin = 1098.33 
+            xmax = 1102.47 
+            text = "这种东西会迭代会更新好像就像我们二十年三十年前。" 
+        intervals [333]:
+            xmin = 1102.47 
+            xmax = 1102.57 
+            text = "" 
+        intervals [334]:
+            xmin = 1102.57 
+            xmax = 1105.10 
+            text = "小霸王是 PS 二是那种 switch 就是。" 
+        intervals [335]:
+            xmin = 1105.10 
+            xmax = 1105.21 
+            text = "" 
+        intervals [336]:
+            xmin = 1105.21 
+            xmax = 1107.67 
+            text = "种游戏现在是 PS 四啊 PS 五啊 。" 
+        intervals [337]:
+            xmin = 1107.67 
+            xmax = 1108.62 
+            text = "" 
+        intervals [338]:
+            xmin = 1108.62 
+            xmax = 1112.09 
+            text = "会是一些个主机它会一直更新一直换代。" 
+        intervals [339]:
+            xmin = 1112.09 
+            xmax = 1112.22 
+            text = "" 
+        intervals [340]:
+            xmin = 1112.22 
+            xmax = 1114.54 
+            text = "以后会有 V 二或者会有其他东西。" 
+        intervals [341]:
+            xmin = 1114.54 
+            xmax = 1114.84 
+            text = "" 
+        intervals [342]:
+            xmin = 1114.84 
+            xmax = 1116.94 
+            text = " V 二可能你都不用充了你就是。" 
+        intervals [343]:
+            xmin = 1116.94 
+            xmax = 1117.05 
+            text = "" 
+        intervals [344]:
+            xmin = 1117.05 
+            xmax = 1119.66 
+            text = "就是或者说你买了皮肤你就是真的可以给自己的。" 
+        intervals [345]:
+            xmin = 1119.66 
+            xmax = 1119.87 
+            text = "" 
+        intervals [346]:
+            xmin = 1119.87 
+            xmax = 1122.28 
+            text = "角色，你能看到他换，你能看到自己的换了皮肤。" 
+        intervals [347]:
+            xmin = 1122.28 
+            xmax = 1122.71 
+            text = "" 
+        intervals [348]:
+            xmin = 1122.71 
+            xmax = 1124.19 
+            text = "但是现在你充了。" 
+        intervals [349]:
+            xmin = 1124.19 
+            xmax = 1124.73 
+            text = "" 
+        intervals [350]:
+            xmin = 1124.73 
+            xmax = 1128.63 
+            text = "我觉得是不值得而且你你最后的情绪价值。" 
+        intervals [351]:
+            xmin = 1128.63 
+            xmax = 1129.25 
+            text = "" 
+        intervals [352]:
+            xmin = 1129.25 
+            xmax = 1132.74 
+            text = "我反正我觉得我以我以前买过的皮肤十年前。" 
+        intervals [353]:
+            xmin = 1132.74 
+            xmax = 1133.09 
+            text = "" 
+        intervals [354]:
+            xmin = 1133.09 
+            xmax = 1135.59 
+            text = "或者是很多年前买皮肤你现在让我想起来。" 
+        intervals [355]:
+            xmin = 1135.59 
+            xmax = 1135.82 
+            text = "" 
+        intervals [356]:
+            xmin = 1135.82 
+            xmax = 1138.31 
+            text = "我只会觉得亏了我不会觉得有什么情绪。" 
+        intervals [357]:
+            xmin = 1138.31 
+            xmax = 1139.11 
+            text = "" 
+        intervals [358]:
+            xmin = 1139.11 
+            xmax = 1142.62 
+            text = "你让我当时现在穿穿越回去的话我一定一定是不会买这个皮肤的。" 
+        intervals [359]:
+            xmin = 1142.62 
+            xmax = 1142.80 
+            text = "" 
+        intervals [360]:
+            xmin = 1142.80 
+            xmax = 1144.25 
+            text = "而且，他会。" 
+        intervals [361]:
+            xmin = 1144.25 
+            xmax = 1144.56 
+            text = "" 
+        intervals [362]:
+            xmin = 1144.56 
+            xmax = 1146.17 
+            text = "你买这个皮肤的原因第一。" 
+        intervals [363]:
+            xmin = 1146.17 
+            xmax = 1146.31 
+            text = "" 
+        intervals [364]:
+            xmin = 1146.31 
+            xmax = 1148.42 
+            text = "两点 儿 可能是因为帅可能是因为。" 
+        intervals [365]:
+            xmin = 1148.42 
+            xmax = 1148.62 
+            text = "" 
+        intervals [366]:
+            xmin = 1148.62 
+            xmax = 1149.73 
+            text = "是那点 儿 手感好。" 
+        intervals [367]:
+            xmin = 1149.73 
+            xmax = 1149.89 
+            text = "" 
+        intervals [368]:
+            xmin = 1149.89 
+            xmax = 1153.17 
+            text = "你觉得你能用这皮肤你能打过别人了但是你买了之后你一玩 儿。" 
+        intervals [369]:
+            xmin = 1153.17 
+            xmax = 1153.24 
+            text = "" 
+        intervals [370]:
+            xmin = 1153.24 
+            xmax = 1154.98 
+            text = "结果又让人抽陀螺又打不过。" 
+        intervals [371]:
+            xmin = 1154.98 
+            xmax = 1155.46 
+            text = "" 
+        intervals [372]:
+            xmin = 1155.46 
+            xmax = 1157.36 
+            text = "反倒会给对你的。" 
+        intervals [373]:
+            xmin = 1157.36 
+            xmax = 1157.57 
+            text = "" 
+        intervals [374]:
+            xmin = 1157.57 
+            xmax = 1162.52 
+            text = "就是你的心里会造成双倍的那种落差觉得我又花了钱我又没打过这人我心里又。" 
+        intervals [375]:
+            xmin = 1162.52 
+            xmax = 1162.89 
+            text = "" 
+        intervals [376]:
+            xmin = 1162.89 
+            xmax = 1165.81 
+            text = "这种心理 是你还不如不去买这个皮肤。" 
+        intervals [377]:
+            xmin = 1165.81 
+            xmax = 1208.73 
+            text = "" 
+        intervals [378]:
+            xmin = 1208.73 
+            xmax = 1214.10 
+            text = "所以说我觉得虚拟这种用真钱去买这种虚拟的就是很不值。" 
+        intervals [379]:
+            xmin = 1214.10 
+            xmax = 1214.32 
+            text = "" 
+        intervals [380]:
+            xmin = 1214.32 
+            xmax = 1220.50 
+            text = "因为你的，你用真钱哪怕你买吃这我们最常说一句话买排骨买吃的买喝的。" 
+        intervals [381]:
+            xmin = 1220.50 
+            xmax = 1220.68 
+            text = "" 
+        intervals [382]:
+            xmin = 1220.68 
+            xmax = 1225.03 
+            text = "它就是能提升到自己能让你觉得哎我吃饭了我不饿了但是买游戏。" 
+        intervals [383]:
+            xmin = 1225.03 
+            xmax = 1225.22 
+            text = "" 
+        intervals [384]:
+            xmin = 1225.22 
+            xmax = 1228.05 
+            text = "呃可能有的人会说什么。" 
+        intervals [385]:
+            xmin = 1228.05 
+            xmax = 1228.31 
+            text = "" 
+        intervals [386]:
+            xmin = 1228.31 
+            xmax = 1230.94 
+            text = "安抚了我的情绪价值我的心里很那个但是。" 
+        intervals [387]:
+            xmin = 1230.94 
+            xmax = 1231.14 
+            text = "" 
+        intervals [388]:
+            xmin = 1231.14 
+            xmax = 1232.99 
+            text = "只是我觉得只是暂时的。" 
+        intervals [389]:
+            xmin = 1232.99 
+            xmax = 1233.29 
+            text = "" 
+        intervals [390]:
+            xmin = 1233.29 
+            xmax = 1234.65 
+            text = "而且，你。" 
+        intervals [391]:
+            xmin = 1234.65 
+            xmax = 1234.81 
+            text = "" 
+        intervals [392]:
+            xmin = 1234.81 
+            xmax = 1239.94 
+            text = "我觉得不会有人买皮肤就是我这辈子我只玩 儿 这游戏我只买这一个皮肤不会他。" 
+        intervals [393]:
+            xmin = 1239.94 
+            xmax = 1240.03 
+            text = "" 
+        intervals [394]:
+            xmin = 1240.03 
+            xmax = 1244.37 
+            text = "只这个东西就是一个口子你只要开了他就很难去停止你肯定。" 
+        intervals [395]:
+            xmin = 1244.37 
+            xmax = 1244.42 
+            text = "" 
+        intervals [396]:
+            xmin = 1244.42 
+            xmax = 1247.44 
+            text = "我这个皮肤反正我买都买了那我一会 儿 下次打折了。" 
+        intervals [397]:
+            xmin = 1247.44 
+            xmax = 1247.47 
+            text = "" 
+        intervals [398]:
+            xmin = 1247.47 
+            xmax = 1248.74 
+            text = "这个皮肤打折不买不行。" 
+        intervals [399]:
+            xmin = 1248.74 
+            xmax = 1248.84 
+            text = "" 
+        intervals [400]:
+            xmin = 1248.84 
+            xmax = 1251.09 
+            text = "哎再下一个皮肤我靠这么帅必须得买。" 
+        intervals [401]:
+            xmin = 1251.09 
+            xmax = 1251.50 
+            text = "" 
+        intervals [402]:
+            xmin = 1251.50 
+            xmax = 1253.33 
+            text = "嗯他是一直会有的。" 
+        intervals [403]:
+            xmin = 1253.33 
+            xmax = 1253.96 
+            text = "" 
+        intervals [404]:
+            xmin = 1253.96 
+            xmax = 1256.77 
+            text = "但是你最后的结局就是。" 
+        intervals [405]:
+            xmin = 1256.77 
+            xmax = 1257.29 
+            text = "" 
+        intervals [406]:
+            xmin = 1257.29 
+            xmax = 1260.89 
+            text = "你很长时间不玩 儿 这游戏了这个皮肤也不值钱了。" 
+        intervals [407]:
+            xmin = 1260.89 
+            xmax = 1261.04 
+            text = "" 
+        intervals [408]:
+            xmin = 1261.04 
+            xmax = 1264.52 
+            text = "那你那到时候拿着你的游戏账号去。" 
+        intervals [409]:
+            xmin = 1264.52 
+            xmax = 1264.66 
+            text = "" 
+        intervals [410]:
+            xmin = 1264.66 
+            xmax = 1268.96 
+            text = "哎我我儿子我说哎我我有这个皮肤帅不帅，我皮肤限定的帅不帅。" 
+        intervals [411]:
+            xmin = 1268.96 
+            xmax = 1269.49 
+            text = "" 
+        intervals [412]:
+            xmin = 1269.49 
+            xmax = 1272.50 
+            text = "那你如果当时你去买一些个比如说用这个些钱买一些个比如说。" 
+        intervals [413]:
+            xmin = 1272.50 
+            xmax = 1272.70 
+            text = "" 
+        intervals [414]:
+            xmin = 1272.70 
+            xmax = 1276.86 
+            text = "纪念品啊出去旅游啊或者是吃一些吃的喝的或者是。" 
+        intervals [415]:
+            xmin = 1276.86 
+            xmax = 1277.26 
+            text = "" 
+        intervals [416]:
+            xmin = 1277.26 
+            xmax = 1280.38 
+            text = "吃一些吃的喝的，或者是。" 
+        intervals [417]:
+            xmin = 1280.38 
+            xmax = 1280.69 
+            text = "" 
+        intervals [418]:
+            xmin = 1280.69 
+            xmax = 1283.37 
+            text = "或者是哪怕是送礼物吧我觉得。" 
+        intervals [419]:
+            xmin = 1283.37 
+            xmax = 1283.72 
+            text = "" 
+        intervals [420]:
+            xmin = 1283.72 
+            xmax = 1288.41 
+            text = "你是能给自己留下一个纪念，而且不说美好吧，你是肯定能记得这个事情的。" 
+        intervals [421]:
+            xmin = 1288.41 
+            xmax = 1335.82 
+            text = "" 
+        intervals [422]:
+            xmin = 1335.82 
+            xmax = 1336.69 
+            text = "那我们。" 
+        intervals [423]:
+            xmin = 1336.69 
+            xmax = 1337.17 
+            text = "" 
+        intervals [424]:
+            xmin = 1337.17 
+            xmax = 1341.86 
+            text = "话说回来就是我们说的这个虚拟的用现金的去换网络上的东西我们。" 
+        intervals [425]:
+            xmin = 1341.86 
+            xmax = 1341.92 
+            text = "" 
+        intervals [426]:
+            xmin = 1341.92 
+            xmax = 1344.37 
+            text = "可能我们都知道不止有游戏啊我们。" 
+        intervals [427]:
+            xmin = 1344.37 
+            xmax = 1345.04 
+            text = "" 
+        intervals [428]:
+            xmin = 1345.04 
+            xmax = 1351.12 
+            text = "我们刚说了演唱会看演唱会或者看一些个线下的表演啊比赛啊或者是。" 
+        intervals [429]:
+            xmin = 1351.12 
+            xmax = 1351.37 
+            text = "" 
+        intervals [430]:
+            xmin = 1351.37 
+            xmax = 1352.15 
+            text = "去。" 
+        intervals [431]:
+            xmin = 1352.15 
+            xmax = 1352.54 
+            text = "" 
+        intervals [432]:
+            xmin = 1352.54 
+            xmax = 1359.10 
+            text = "去炒股或者是刷礼物你们有没有对这些个主播，或者，我很想，这些主播，你们有没有给他们刷过礼物，或者是。" 
+        intervals [433]:
+            xmin = 1359.10 
+            xmax = 1359.29 
+            text = "" 
+        intervals [434]:
+            xmin = 1359.29 
+            xmax = 1360.43 
+            text = "没有给他。" 
+        intervals [435]:
+            xmin = 1360.43 
+            xmax = 1361.08 
+            text = "" 
+        intervals [436]:
+            xmin = 1361.08 
+            xmax = 1362.75 
+            text = "真的付出过自己。" 
+        intervals [437]:
+            xmin = 1362.75 
+            xmax = 1362.98 
+            text = "" 
+        intervals [438]:
+            xmin = 1362.98 
+            xmax = 1366.04 
+            text = "现金或者是一些个真实自己身上的东西。" 
+        intervals [439]:
+            xmin = 1366.04 
+            xmax = 1400.86 
+            text = "" 
+        intervals [440]:
+            xmin = 1400.86 
+            xmax = 1405.08 
+            text = "那我想问你们两个有没有就是支不支持或者说。" 
+        intervals [441]:
+            xmin = 1405.08 
+            xmax = 1405.32 
+            text = "" 
+        intervals [442]:
+            xmin = 1405.32 
+            xmax = 1410.02 
+            text = "对这种行为的看法是什么就是对给给自己喜欢的主播刷一点东西或者是。" 
+        intervals [443]:
+            xmin = 1410.02 
+            xmax = 1410.37 
+            text = "" 
+        intervals [444]:
+            xmin = 1410.37 
+            xmax = 1415.27 
+            text = "哪怕是给他点点赞评论啊不说点就是付出自己现实的一些东西你们两个的看法是什么呢。" 
+        intervals [445]:
+            xmin = 1415.27 
+            xmax = 1428.74 
+            text = "" 
+        intervals [446]:
+            xmin = 1428.74 
+            xmax = 1432.45 
+            text = "那就像你说的那个亮粉丝灯牌 儿 我觉得。" 
+        intervals [447]:
+            xmin = 1432.45 
+            xmax = 1434.19 
+            text = "" 
+        intervals [448]:
+            xmin = 1434.19 
+            xmax = 1436.51 
+            text = "可能这个东西对你不是一种。" 
+        intervals [449]:
+            xmin = 1436.51 
+            xmax = 1437.75 
+            text = "" 
+        intervals [450]:
+            xmin = 1437.75 
+            xmax = 1441.40 
+            text = "牵挂吧就像你每天签到一样但是你却他我觉得他会。" 
+        intervals [451]:
+            xmin = 1441.40 
+            xmax = 1441.61 
+            text = "" 
+        intervals [452]:
+            xmin = 1441.61 
+            xmax = 1445.67 
+            text = "你每天会想着这个事比如说我续灯牌比如说我看他直一会直播我保存这个。" 
+        intervals [453]:
+            xmin = 1445.67 
+            xmax = 1446.69 
+            text = "" 
+        intervals [454]:
+            xmin = 1446.69 
+            xmax = 1449.49 
+            text = "什么经验值怎么样的我觉得这会浪费你的时间。" 
+        intervals [455]:
+            xmin = 1449.49 
+            xmax = 1450.23 
+            text = "" 
+        intervals [456]:
+            xmin = 1450.23 
+            xmax = 1452.33 
+            text = "他你去你上了这个灯牌。" 
+        intervals [457]:
+            xmin = 1452.33 
+            xmax = 1452.37 
+            text = "" 
+        intervals [458]:
+            xmin = 1452.37 
+            xmax = 1457.67 
+            text = "你花了钱然后你还要一直关心他的直播又浪费了你的时间我觉得这个非常不值啊反正。" 
+        intervals [459]:
+            xmin = 1457.67 
+            xmax = 1457.93 
+            text = "" 
+        intervals [460]:
+            xmin = 1457.93 
+            xmax = 1463.74 
+            text = "我是不太赞同给这些个主播或者一些个网红这些人去刷礼物的觉得非常不值。" 
+        intervals [461]:
+            xmin = 1463.74 
+            xmax = 1502.00 
+            text = "" 
+        intervals [462]:
+            xmin = 1502.00 
+            xmax = 1503.98 
+            text = "咱们中奖这个就不说。" 
+        intervals [463]:
+            xmin = 1503.98 
+            xmax = 1503.98 
+            text = "" 
+        intervals [464]:
+            xmin = 1503.98 
+            xmax = 1505.38 
+            text = "不可能，但是。" 
+        intervals [465]:
+            xmin = 1505.38 
+            xmax = 1505.99 
+            text = "" 
+        intervals [466]:
+            xmin = 1505.99 
+            xmax = 1509.70 
+            text = "你给他给他刷礼物或者刷灯牌 儿 这种东西。" 
+        intervals [467]:
+            xmin = 1509.70 
+            xmax = 1510.55 
+            text = "" 
+        intervals [468]:
+            xmin = 1510.55 
+            xmax = 1513.30 
+            text = "就首先你就说明你喜欢这个主播。" 
+        intervals [469]:
+            xmin = 1513.30 
+            xmax = 1513.44 
+            text = "" 
+        intervals [470]:
+            xmin = 1513.44 
+            xmax = 1517.47 
+            text = "那你喜欢这主播你肯定会看他直播会看他的弹幕啊或者一些个人。" 
+        intervals [471]:
+            xmin = 1517.47 
+            xmax = 1517.90 
+            text = "" 
+        intervals [472]:
+            xmin = 1517.90 
+            xmax = 1520.91 
+            text = "与人他与别人沟通这种人可能。" 
+        intervals [473]:
+            xmin = 1520.91 
+            xmax = 1521.07 
+            text = "" 
+        intervals [474]:
+            xmin = 1521.07 
+            xmax = 1523.12 
+            text = "一个主播不可能全是所有人都喜欢他肯定有。" 
+        intervals [475]:
+            xmin = 1523.12 
+            xmax = 1523.15 
+            text = "" 
+        intervals [476]:
+            xmin = 1523.15 
+            xmax = 1524.01 
+            text = "骂他的或者怎么样。" 
+        intervals [477]:
+            xmin = 1524.01 
+            xmax = 1524.23 
+            text = "" 
+        intervals [478]:
+            xmin = 1524.23 
+            xmax = 1526.69 
+            text = "或者说你呃我的意思就是。" 
+        intervals [479]:
+            xmin = 1526.69 
+            xmax = 1527.01 
+            text = "" 
+        intervals [480]:
+            xmin = 1527.01 
+            xmax = 1532.63 
+            text = "你这是不是真的喜欢这个主播给他刷的礼物是不是代表你真的去喜欢他有人" 
+        intervals [481]:
+            xmin = 1532.63 
+            xmax = 1532.89 
+            text = "" 
+        intervals [482]:
+            xmin = 1532.89 
+            xmax = 1536.95 
+            text = "黑他或者怎么样你会不会就是为他说话或者是。" 
+        intervals [483]:
+            xmin = 1536.95 
+            xmax = 1537.19 
+            text = "" 
+        intervals [484]:
+            xmin = 1537.19 
+            xmax = 1539.18 
+            text = "对你的心情造成一些影响。" 
+        intervals [485]:
+            xmin = 1539.18 
+            xmax = 1584.51 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "P034" 
+        xmin = 0 
+        xmax = 1584.51 
+        intervals: size = 109 
+        intervals [1]:
+            xmin = 0 
+            xmax = 29.54 
+            text = "" 
+        intervals [2]:
+            xmin = 29.54 
+            xmax = 30.48 
+            text = "嗯。" 
+        intervals [3]:
+            xmin = 30.48 
+            xmax = 30.74 
+            text = "" 
+        intervals [4]:
+            xmin = 30.74 
+            xmax = 33.38 
+            text = "可以接受，但是不能过。" 
+        intervals [5]:
+            xmin = 33.38 
+            xmax = 115.43 
+            text = "" 
+        intervals [6]:
+            xmin = 115.43 
+            xmax = 118.22 
+            text = "就根据自己的那个。" 
+        intervals [7]:
+            xmin = 118.22 
+            xmax = 118.49 
+            text = "" 
+        intervals [8]:
+            xmin = 118.49 
+            xmax = 120.75 
+            text = "经济实，情况吧。" 
+        intervals [9]:
+            xmin = 120.75 
+            xmax = 120.92 
+            text = "" 
+        intervals [10]:
+            xmin = 120.92 
+            xmax = 123.27 
+            text = "挣得多你可能你就觉得。" 
+        intervals [11]:
+            xmin = 123.27 
+            xmax = 123.58 
+            text = "" 
+        intervals [12]:
+            xmin = 123.58 
+            xmax = 127.39 
+            text = "你花得多你觉得其实没什么，如果你就是。" 
+        intervals [13]:
+            xmin = 127.39 
+            xmax = 127.81 
+            text = "" 
+        intervals [14]:
+            xmin = 127.81 
+            xmax = 133.05 
+            text = "挣得没有那么的多，然后你就只能适量，比如说你要挣个。" 
+        intervals [15]:
+            xmin = 133.05 
+            xmax = 133.23 
+            text = "" 
+        intervals [16]:
+            xmin = 133.23 
+            xmax = 135.30 
+            text = "两三千，然后你花个。" 
+        intervals [17]:
+            xmin = 135.30 
+            xmax = 135.41 
+            text = "" 
+        intervals [18]:
+            xmin = 135.41 
+            xmax = 137.12 
+            text = "两百，二三百。" 
+        intervals [19]:
+            xmin = 137.12 
+            xmax = 138.15 
+            text = "" 
+        intervals [20]:
+            xmin = 138.15 
+            xmax = 139.19 
+            text = "就是。" 
+        intervals [21]:
+            xmin = 139.19 
+            xmax = 139.59 
+            text = "" 
+        intervals [22]:
+            xmin = 139.59 
+            xmax = 143.35 
+            text = "这样，如果再多的话，你就挣个一两千然后你就。" 
+        intervals [23]:
+            xmin = 143.35 
+            xmax = 143.54 
+            text = "" 
+        intervals [24]:
+            xmin = 143.54 
+            xmax = 149.24 
+            text = "花掉一半或者一半多，那肯定有点太过了，你得优先自己的生活是吧。" 
+        intervals [25]:
+            xmin = 149.24 
+            xmax = 300.28 
+            text = "" 
+        intervals [26]:
+            xmin = 300.28 
+            xmax = 303.79 
+            text = "但是那一刻的情绪价值是不一样的啊。" 
+        intervals [27]:
+            xmin = 303.79 
+            xmax = 304.94 
+            text = "" 
+        intervals [28]:
+            xmin = 304.94 
+            xmax = 307.44 
+            text = "那种震撼，然后，还有那种。" 
+        intervals [29]:
+            xmin = 307.44 
+            xmax = 307.51 
+            text = "" 
+        intervals [30]:
+            xmin = 307.51 
+            xmax = 308.59 
+            text = "感官啊。" 
+        intervals [31]:
+            xmin = 308.59 
+            xmax = 308.73 
+            text = "" 
+        intervals [32]:
+            xmin = 308.73 
+            xmax = 312.84 
+            text = "不是，跟网络，不一样的，没办法替代的。" 
+        intervals [33]:
+            xmin = 312.84 
+            xmax = 323.41 
+            text = "" 
+        intervals [34]:
+            xmin = 323.41 
+            xmax = 328.06 
+            text = "抢不到票，但是至少那一刻我进行了他的参与。" 
+        intervals [35]:
+            xmin = 328.06 
+            xmax = 328.22 
+            text = "" 
+        intervals [36]:
+            xmin = 328.22 
+            xmax = 330.04 
+            text = "我参与了他的那个。" 
+        intervals [37]:
+            xmin = 330.04 
+            xmax = 330.79 
+            text = "" 
+        intervals [38]:
+            xmin = 330.79 
+            xmax = 331.96 
+            text = "演唱会。" 
+        intervals [39]:
+            xmin = 331.96 
+            xmax = 332.10 
+            text = "" 
+        intervals [40]:
+            xmin = 332.10 
+            xmax = 333.52 
+            text = "是一部分吧。" 
+        intervals [41]:
+            xmin = 333.52 
+            xmax = 333.67 
+            text = "" 
+        intervals [42]:
+            xmin = 333.67 
+            xmax = 335.57 
+            text = "有遗憾才能圆满嘛。" 
+        intervals [43]:
+            xmin = 335.57 
+            xmax = 374.02 
+            text = "" 
+        intervals [44]:
+            xmin = 374.02 
+            xmax = 375.18 
+            text = "而且你。" 
+        intervals [45]:
+            xmin = 375.18 
+            xmax = 375.31 
+            text = "" 
+        intervals [46]:
+            xmin = 375.31 
+            xmax = 378.12 
+            text = "在哪个网上看他的直播。" 
+        intervals [47]:
+            xmin = 378.12 
+            xmax = 378.72 
+            text = "" 
+        intervals [48]:
+            xmin = 378.72 
+            xmax = 380.33 
+            text = "就是看他现场直播。" 
+        intervals [49]:
+            xmin = 380.33 
+            xmax = 380.51 
+            text = "" 
+        intervals [50]:
+            xmin = 380.51 
+            xmax = 383.33 
+            text = "你也不会有很好的感官，因为他。" 
+        intervals [51]:
+            xmin = 383.33 
+            xmax = 383.79 
+            text = "" 
+        intervals [52]:
+            xmin = 383.79 
+            xmax = 387.17 
+            text = "不让你直播，如，其他人直播的话，这个直播间。" 
+        intervals [53]:
+            xmin = 387.17 
+            xmax = 387.29 
+            text = "" 
+        intervals [54]:
+            xmin = 387.29 
+            xmax = 389.42 
+            text = "存在的时间也不会很长，就是。" 
+        intervals [55]:
+            xmin = 389.42 
+            xmax = 389.70 
+            text = "" 
+        intervals [56]:
+            xmin = 389.70 
+            xmax = 394.28 
+            text = "可能只能看一小段然后就封了，你只能去找其他人的直播。" 
+        intervals [57]:
+            xmin = 394.28 
+            xmax = 394.83 
+            text = "" 
+        intervals [58]:
+            xmin = 394.83 
+            xmax = 396.49 
+            text = "就是你得来回的找。" 
+        intervals [59]:
+            xmin = 396.49 
+            xmax = 1026.08 
+            text = "" 
+        intervals [60]:
+            xmin = 1026.08 
+            xmax = 1027.78 
+            text = "嗯，我感觉。" 
+        intervals [61]:
+            xmin = 1027.78 
+            xmax = 1028.20 
+            text = "" 
+        intervals [62]:
+            xmin = 1028.20 
+            xmax = 1032.74 
+            text = "最主要的也是那一瞬间的情绪价值吧，就他刚。" 
+        intervals [63]:
+            xmin = 1032.74 
+            xmax = 1032.94 
+            text = "" 
+        intervals [64]:
+            xmin = 1032.94 
+            xmax = 1034.84 
+            text = "比如说皮肤这个就是。" 
+        intervals [65]:
+            xmin = 1034.84 
+            xmax = 1035.17 
+            text = "" 
+        intervals [66]:
+            xmin = 1035.17 
+            xmax = 1039.28 
+            text = "就是他刚吃的那一刻的情绪价值，就算以后你不喜欢了。" 
+        intervals [67]:
+            xmin = 1039.28 
+            xmax = 1039.65 
+            text = "" 
+        intervals [68]:
+            xmin = 1039.65 
+            xmax = 1041.97 
+            text = "或者是这个游戏我不想玩了。" 
+        intervals [69]:
+            xmin = 1041.97 
+            xmax = 1042.40 
+            text = "" 
+        intervals [70]:
+            xmin = 1042.40 
+            xmax = 1044.19 
+            text = "他应该也不是，就是。" 
+        intervals [71]:
+            xmin = 1044.19 
+            xmax = 1044.44 
+            text = "" 
+        intervals [72]:
+            xmin = 1044.44 
+            xmax = 1049.10 
+            text = "如果你真的很喜欢这个游戏的话，你想一直玩，你应该不会有。" 
+        intervals [73]:
+            xmin = 1049.10 
+            xmax = 1049.54 
+            text = "" 
+        intervals [74]:
+            xmin = 1049.54 
+            xmax = 1056.02 
+            text = "你觉得不值这个想法，因为你买了你肯定觉得值啊，然后你觉得不值的时候。" 
+        intervals [75]:
+            xmin = 1056.02 
+            xmax = 1056.88 
+            text = "" 
+        intervals [76]:
+            xmin = 1056.88 
+            xmax = 1058.46 
+            text = "就可以把它卖掉。" 
+        intervals [77]:
+            xmin = 1058.46 
+            xmax = 1060.20 
+            text = "" 
+        intervals [78]:
+            xmin = 1060.20 
+            xmax = 1062.09 
+            text = "然后给其他人玩。" 
+        intervals [79]:
+            xmin = 1062.09 
+            xmax = 1317.97 
+            text = "" 
+        intervals [80]:
+            xmin = 1317.97 
+            xmax = 1319.78 
+            text = "嗯，他就像。" 
+        intervals [81]:
+            xmin = 1319.78 
+            xmax = 1319.96 
+            text = "" 
+        intervals [82]:
+            xmin = 1319.96 
+            xmax = 1321.32 
+            text = "那句话。" 
+        intervals [83]:
+            xmin = 1321.32 
+            xmax = 1321.47 
+            text = "" 
+        intervals [84]:
+            xmin = 1321.47 
+            xmax = 1324.87 
+            text = "人永远无法共情过去的自己，如果让。" 
+        intervals [85]:
+            xmin = 1324.87 
+            xmax = 1324.91 
+            text = "" 
+        intervals [86]:
+            xmin = 1324.91 
+            xmax = 1327.90 
+            text = "过去的你，也无法共情现在的你。" 
+        intervals [87]:
+            xmin = 1327.90 
+            xmax = 1328.14 
+            text = "" 
+        intervals [88]:
+            xmin = 1328.14 
+            xmax = 1329.68 
+            text = "每个人的想法都。" 
+        intervals [89]:
+            xmin = 1329.68 
+            xmax = 1330.33 
+            text = "" 
+        intervals [90]:
+            xmin = 1330.33 
+            xmax = 1332.57 
+            text = "唉，随着年龄也会。" 
+        intervals [91]:
+            xmin = 1332.57 
+            xmax = 1332.67 
+            text = "" 
+        intervals [92]:
+            xmin = 1332.67 
+            xmax = 1334.11 
+            text = "逐渐改变吧也是。" 
+        intervals [93]:
+            xmin = 1334.11 
+            xmax = 1416.05 
+            text = "" 
+        intervals [94]:
+            xmin = 1416.05 
+            xmax = 1420.89 
+            text = "嗯我跟他一样就是给那个主播亮一个粉丝灯牌吧。" 
+        intervals [95]:
+            xmin = 1420.89 
+            xmax = 1421.51 
+            text = "" 
+        intervals [96]:
+            xmin = 1421.51 
+            xmax = 1424.56 
+            text = "然后看看他，我的喜欢也就到这了。" 
+        intervals [97]:
+            xmin = 1424.56 
+            xmax = 1425.22 
+            text = "" 
+        intervals [98]:
+            xmin = 1425.22 
+            xmax = 1428.50 
+            text = "再多的我也无法付出了。" 
+        intervals [99]:
+            xmin = 1428.50 
+            xmax = 1565.92 
+            text = "" 
+        intervals [100]:
+            xmin = 1565.92 
+            xmax = 1568.01 
+            text = "嗯，就比如说像是那种。" 
+        intervals [101]:
+            xmin = 1568.01 
+            xmax = 1568.16 
+            text = "" 
+        intervals [102]:
+            xmin = 1568.16 
+            xmax = 1569.96 
+            text = "游戏主播，你就可以。" 
+        intervals [103]:
+            xmin = 1569.96 
+            xmax = 1570.27 
+            text = "" 
+        intervals [104]:
+            xmin = 1570.27 
+            xmax = 1573.09 
+            text = "给他一个粉丝灯牌，然后你就可以看。" 
+        intervals [105]:
+            xmin = 1573.09 
+            xmax = 1573.35 
+            text = "" 
+        intervals [106]:
+            xmin = 1573.35 
+            xmax = 1575.73 
+            text = "他的那种，他。" 
+        intervals [107]:
+            xmin = 1575.73 
+            xmax = 1575.96 
+            text = "" 
+        intervals [108]:
+            xmin = 1575.96 
+            xmax = 1579.38 
+            text = "他的游戏，他的技术，你就可以学习一下。" 
+        intervals [109]:
+            xmin = 1579.38 
+            xmax = 1584.51 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "P035" 
+        xmin = 0 
+        xmax = 1584.51 
+        intervals: size = 425 
+        intervals [1]:
+            xmin = 0 
+            xmax = 35.58 
+            text = "" 
+        intervals [2]:
+            xmin = 35.58 
+            xmax = 37.76 
+            text = "呃，我不是很能接受啊，你像。" 
+        intervals [3]:
+            xmin = 37.76 
+            xmax = 37.97 
+            text = "" 
+        intervals [4]:
+            xmin = 37.97 
+            xmax = 39.49 
+            text = "我的人民币吧。" 
+        intervals [5]:
+            xmin = 39.49 
+            xmax = 39.75 
+            text = "" 
+        intervals [6]:
+            xmin = 39.75 
+            xmax = 41.78 
+            text = "赚的话还是比较不容易的。" 
+        intervals [7]:
+            xmin = 41.78 
+            xmax = 41.81 
+            text = "" 
+        intervals [8]:
+            xmin = 41.81 
+            xmax = 44.27 
+            text = "像，如果说你让我投入比如说。" 
+        intervals [9]:
+            xmin = 44.27 
+            xmax = 44.45 
+            text = "" 
+        intervals [10]:
+            xmin = 44.45 
+            xmax = 45.83 
+            text = "三五百块去。" 
+        intervals [11]:
+            xmin = 45.83 
+            xmax = 45.93 
+            text = "" 
+        intervals [12]:
+            xmin = 45.93 
+            xmax = 47.82 
+            text = "买一个游戏物品，比如说。" 
+        intervals [13]:
+            xmin = 47.82 
+            xmax = 47.92 
+            text = "" 
+        intervals [14]:
+            xmin = 47.92 
+            xmax = 50.26 
+            text = "危区里的枪皮呀，刀皮呀。" 
+        intervals [15]:
+            xmin = 50.26 
+            xmax = 50.38 
+            text = "" 
+        intervals [16]:
+            xmin = 50.38 
+            xmax = 52.55 
+            text = "我就感觉，哇好吃亏，你知道吧。" 
+        intervals [17]:
+            xmin = 52.55 
+            xmax = 52.70 
+            text = "" 
+        intervals [18]:
+            xmin = 52.70 
+            xmax = 53.96 
+            text = "你像我。" 
+        intervals [19]:
+            xmin = 53.96 
+            xmax = 54.13 
+            text = "" 
+        intervals [20]:
+            xmin = 54.13 
+            xmax = 56.13 
+            text = "一个月辛辛苦苦赚。" 
+        intervals [21]:
+            xmin = 56.13 
+            xmax = 56.32 
+            text = "" 
+        intervals [22]:
+            xmin = 56.32 
+            xmax = 57.52 
+            text = "到两。" 
+        intervals [23]:
+            xmin = 57.52 
+            xmax = 57.57 
+            text = "" 
+        intervals [24]:
+            xmin = 57.57 
+            xmax = 59.28 
+            text = "三千块，然后。" 
+        intervals [25]:
+            xmin = 59.28 
+            xmax = 59.64 
+            text = "" 
+        intervals [26]:
+            xmin = 59.64 
+            xmax = 61.33 
+            text = "它这个游戏一个。" 
+        intervals [27]:
+            xmin = 61.33 
+            xmax = 61.39 
+            text = "" 
+        intervals [28]:
+            xmin = 61.39 
+            xmax = 64.48 
+            text = "单一个刀皮就需要我花。" 
+        intervals [29]:
+            xmin = 64.48 
+            xmax = 64.60 
+            text = "" 
+        intervals [30]:
+            xmin = 64.60 
+            xmax = 66.11 
+            text = "四百块，去。" 
+        intervals [31]:
+            xmin = 66.11 
+            xmax = 66.37 
+            text = "" 
+        intervals [32]:
+            xmin = 66.37 
+            xmax = 67.16 
+            text = "购买。" 
+        intervals [33]:
+            xmin = 67.16 
+            xmax = 67.37 
+            text = "" 
+        intervals [34]:
+            xmin = 67.37 
+            xmax = 68.30 
+            text = "我就感觉。" 
+        intervals [35]:
+            xmin = 68.30 
+            xmax = 68.37 
+            text = "" 
+        intervals [36]:
+            xmin = 68.37 
+            xmax = 70.42 
+            text = "四百不如去买一些。" 
+        intervals [37]:
+            xmin = 70.42 
+            xmax = 70.56 
+            text = "" 
+        intervals [38]:
+            xmin = 70.56 
+            xmax = 73.22 
+            text = "零食啊或者是一些书啊啥的。" 
+        intervals [39]:
+            xmin = 73.22 
+            xmax = 73.28 
+            text = "" 
+        intervals [40]:
+            xmin = 73.28 
+            xmax = 74.53 
+            text = "就充实一下我自己。" 
+        intervals [41]:
+            xmin = 74.53 
+            xmax = 74.67 
+            text = "" 
+        intervals [42]:
+            xmin = 74.67 
+            xmax = 75.79 
+            text = "或者买一点。" 
+        intervals [43]:
+            xmin = 75.79 
+            xmax = 75.94 
+            text = "" 
+        intervals [44]:
+            xmin = 75.94 
+            xmax = 77.60 
+            text = "零食犒劳一下自己。" 
+        intervals [45]:
+            xmin = 77.60 
+            xmax = 78.23 
+            text = "" 
+        intervals [46]:
+            xmin = 78.23 
+            xmax = 79.22 
+            text = "或者是。" 
+        intervals [47]:
+            xmin = 79.22 
+            xmax = 79.37 
+            text = "" 
+        intervals [48]:
+            xmin = 79.37 
+            xmax = 81.78 
+            text = "或者是把这个钱攒下来去。" 
+        intervals [49]:
+            xmin = 81.78 
+            xmax = 81.93 
+            text = "" 
+        intervals [50]:
+            xmin = 81.93 
+            xmax = 84.80 
+            text = "像是买车或者是买房。" 
+        intervals [51]:
+            xmin = 84.80 
+            xmax = 85.33 
+            text = "" 
+        intervals [52]:
+            xmin = 85.33 
+            xmax = 88.76 
+            text = "要么就是攒到未来的那个彩礼上。" 
+        intervals [53]:
+            xmin = 88.76 
+            xmax = 89.13 
+            text = "" 
+        intervals [54]:
+            xmin = 89.13 
+            xmax = 90.83 
+            text = "我感觉比较值一点" 
+        intervals [55]:
+            xmin = 90.83 
+            xmax = 192.45 
+            text = "" 
+        intervals [56]:
+            xmin = 192.45 
+            xmax = 195.11 
+            text = "呃，对于这个问题吧，我感觉。" 
+        intervals [57]:
+            xmin = 195.11 
+            xmax = 195.42 
+            text = "" 
+        intervals [58]:
+            xmin = 195.42 
+            xmax = 197.84 
+            text = "还是有办法处理，你像我。" 
+        intervals [59]:
+            xmin = 197.84 
+            xmax = 198.50 
+            text = "" 
+        intervals [60]:
+            xmin = 198.50 
+            xmax = 203.06 
+            text = "可能以前喜欢看一些那个明星演唱会，比如说薛之谦的演唱会。" 
+        intervals [61]:
+            xmin = 203.06 
+            xmax = 203.28 
+            text = "" 
+        intervals [62]:
+            xmin = 203.28 
+            xmax = 205.09 
+            text = "可能我会觉得说。" 
+        intervals [63]:
+            xmin = 205.09 
+            xmax = 205.22 
+            text = "" 
+        intervals [64]:
+            xmin = 205.22 
+            xmax = 207.24 
+            text = "花几百块去买一个门票。" 
+        intervals [65]:
+            xmin = 207.24 
+            xmax = 207.32 
+            text = "" 
+        intervals [66]:
+            xmin = 207.32 
+            xmax = 209.50 
+            text = "有一些不值，你像，如果说。" 
+        intervals [67]:
+            xmin = 209.50 
+            xmax = 209.65 
+            text = "" 
+        intervals [68]:
+            xmin = 209.65 
+            xmax = 211.06 
+            text = "就演唱会结束之后。" 
+        intervals [69]:
+            xmin = 211.06 
+            xmax = 211.30 
+            text = "" 
+        intervals [70]:
+            xmin = 211.30 
+            xmax = 215.02 
+            text = "会有一些回放啊可以去网络上进行观看。" 
+        intervals [71]:
+            xmin = 215.02 
+            xmax = 215.35 
+            text = "" 
+        intervals [72]:
+            xmin = 215.35 
+            xmax = 217.06 
+            text = "然后，而且。" 
+        intervals [73]:
+            xmin = 217.06 
+            xmax = 217.19 
+            text = "" 
+        intervals [74]:
+            xmin = 217.19 
+            xmax = 217.96 
+            text = "那个。" 
+        intervals [75]:
+            xmin = 217.96 
+            xmax = 218.20 
+            text = "" 
+        intervals [76]:
+            xmin = 218.20 
+            xmax = 220.60 
+            text = "这个网络上的视频，它不会去。" 
+        intervals [77]:
+            xmin = 220.60 
+            xmax = 220.79 
+            text = "" 
+        intervals [78]:
+            xmin = 220.79 
+            xmax = 222.83 
+            text = "挑你的时间，去占用你。" 
+        intervals [79]:
+            xmin = 222.83 
+            xmax = 222.96 
+            text = "" 
+        intervals [80]:
+            xmin = 222.96 
+            xmax = 224.91 
+            text = "你个人的去时间去看。" 
+        intervals [81]:
+            xmin = 224.91 
+            xmax = 225.33 
+            text = "" 
+        intervals [82]:
+            xmin = 225.33 
+            xmax = 226.72 
+            text = "会比较方便一些。" 
+        intervals [83]:
+            xmin = 226.72 
+            xmax = 263.24 
+            text = "" 
+        intervals [84]:
+            xmin = 263.24 
+            xmax = 264.54 
+            text = "嗯。" 
+        intervals [85]:
+            xmin = 264.54 
+            xmax = 264.59 
+            text = "" 
+        intervals [86]:
+            xmin = 264.59 
+            xmax = 267.33 
+            text = "你这个观点吧我其实也认可，但是。" 
+        intervals [87]:
+            xmin = 267.33 
+            xmax = 267.80 
+            text = "" 
+        intervals [88]:
+            xmin = 267.80 
+            xmax = 268.99 
+            text = "像你说。" 
+        intervals [89]:
+            xmin = 268.99 
+            xmax = 269.27 
+            text = "" 
+        intervals [90]:
+            xmin = 269.27 
+            xmax = 273.98 
+            text = "可以和志同道合的人一起去到现场啊，去一些合唱啊，一起欢呼。" 
+        intervals [91]:
+            xmin = 273.98 
+            xmax = 274.66 
+            text = "" 
+        intervals [92]:
+            xmin = 274.66 
+            xmax = 276.93 
+            text = "但是在网络上，你像那种。" 
+        intervals [93]:
+            xmin = 276.93 
+            xmax = 276.98 
+            text = "" 
+        intervals [94]:
+            xmin = 276.98 
+            xmax = 279.29 
+            text = "网络直播，其实也可以啊，也是。" 
+        intervals [95]:
+            xmin = 279.29 
+            xmax = 279.50 
+            text = "" 
+        intervals [96]:
+            xmin = 279.50 
+            xmax = 284.47 
+            text = "几千几万，甚至上千万的人一起去看一趟直播，共同发弹幕。" 
+        intervals [97]:
+            xmin = 284.47 
+            xmax = 284.62 
+            text = "" 
+        intervals [98]:
+            xmin = 284.62 
+            xmax = 285.68 
+            text = "甚至说。" 
+        intervals [99]:
+            xmin = 285.68 
+            xmax = 285.78 
+            text = "" 
+        intervals [100]:
+            xmin = 285.78 
+            xmax = 287.59 
+            text = "可以去进行一些。" 
+        intervals [101]:
+            xmin = 287.59 
+            xmax = 287.68 
+            text = "" 
+        intervals [102]:
+            xmin = 287.68 
+            xmax = 289.86 
+            text = "呃，现场的互动，就是。" 
+        intervals [103]:
+            xmin = 289.86 
+            xmax = 290.00 
+            text = "" 
+        intervals [104]:
+            xmin = 290.00 
+            xmax = 293.74 
+            text = "你，在上面发弹幕，或者是参与那些活动嘛。" 
+        intervals [105]:
+            xmin = 293.74 
+            xmax = 293.89 
+            text = "" 
+        intervals [106]:
+            xmin = 293.89 
+            xmax = 294.81 
+            text = "也可以。" 
+        intervals [107]:
+            xmin = 294.81 
+            xmax = 295.02 
+            text = "" 
+        intervals [108]:
+            xmin = 295.02 
+            xmax = 297.17 
+            text = "进行一些就是你说的。" 
+        intervals [109]:
+            xmin = 297.17 
+            xmax = 297.75 
+            text = "" 
+        intervals [110]:
+            xmin = 297.75 
+            xmax = 299.24 
+            text = "呃，现场活动。" 
+        intervals [111]:
+            xmin = 299.24 
+            xmax = 313.42 
+            text = "" 
+        intervals [112]:
+            xmin = 313.42 
+            xmax = 314.98 
+            text = "嗯，但是这个问题。" 
+        intervals [113]:
+            xmin = 314.98 
+            xmax = 315.20 
+            text = "" 
+        intervals [114]:
+            xmin = 315.20 
+            xmax = 316.36 
+            text = "像，如果。" 
+        intervals [115]:
+            xmin = 316.36 
+            xmax = 316.63 
+            text = "" 
+        intervals [116]:
+            xmin = 316.63 
+            xmax = 318.03 
+            text = "如果说你抢不到票呢。" 
+        intervals [117]:
+            xmin = 318.03 
+            xmax = 318.12 
+            text = "" 
+        intervals [118]:
+            xmin = 318.12 
+            xmax = 319.27 
+            text = "这不也，这不。" 
+        intervals [119]:
+            xmin = 319.27 
+            xmax = 319.38 
+            text = "" 
+        intervals [120]:
+            xmin = 319.38 
+            xmax = 322.40 
+            text = "还是去不了吗？你就在网络上也是一样可以观看。" 
+        intervals [121]:
+            xmin = 322.40 
+            xmax = 398.29 
+            text = "" 
+        intervals [122]:
+            xmin = 398.29 
+            xmax = 400.04 
+            text = "但是像你说的。" 
+        intervals [123]:
+            xmin = 400.04 
+            xmax = 400.25 
+            text = "" 
+        intervals [124]:
+            xmin = 400.25 
+            xmax = 401.97 
+            text = "你抢到票了，然后你去看。" 
+        intervals [125]:
+            xmin = 401.97 
+            xmax = 402.55 
+            text = "" 
+        intervals [126]:
+            xmin = 402.55 
+            xmax = 403.37 
+            text = "但是。" 
+        intervals [127]:
+            xmin = 403.37 
+            xmax = 403.52 
+            text = "" 
+        intervals [128]:
+            xmin = 403.52 
+            xmax = 407.94 
+            text = "有，这个票的位置也有说是前排和后排的区分。" 
+        intervals [129]:
+            xmin = 407.94 
+            xmax = 408.18 
+            text = "" 
+        intervals [130]:
+            xmin = 408.18 
+            xmax = 409.31 
+            text = "你在后排。" 
+        intervals [131]:
+            xmin = 409.31 
+            xmax = 409.58 
+            text = "" 
+        intervals [132]:
+            xmin = 409.58 
+            xmax = 411.83 
+            text = "那个观感实际上也是。" 
+        intervals [133]:
+            xmin = 411.83 
+            xmax = 411.92 
+            text = "" 
+        intervals [134]:
+            xmin = 411.92 
+            xmax = 412.76 
+            text = "不是很好。" 
+        intervals [135]:
+            xmin = 412.76 
+            xmax = 413.11 
+            text = "" 
+        intervals [136]:
+            xmin = 413.11 
+            xmax = 414.02 
+            text = "就像你。" 
+        intervals [137]:
+            xmin = 414.02 
+            xmax = 414.25 
+            text = "" 
+        intervals [138]:
+            xmin = 414.25 
+            xmax = 416.36 
+            text = "如果说你在网络上进行。" 
+        intervals [139]:
+            xmin = 416.36 
+            xmax = 416.80 
+            text = "" 
+        intervals [140]:
+            xmin = 416.80 
+            xmax = 418.28 
+            text = "网络直播观看的话。" 
+        intervals [141]:
+            xmin = 418.28 
+            xmax = 418.49 
+            text = "" 
+        intervals [142]:
+            xmin = 418.49 
+            xmax = 421.76 
+            text = "它一定是一个可以观看到全局的位置。" 
+        intervals [143]:
+            xmin = 421.76 
+            xmax = 421.98 
+            text = "" 
+        intervals [144]:
+            xmin = 421.98 
+            xmax = 423.03 
+            text = "一个比较。" 
+        intervals [145]:
+            xmin = 423.03 
+            xmax = 423.53 
+            text = "" 
+        intervals [146]:
+            xmin = 423.53 
+            xmax = 425.01 
+            text = "优秀的位置，可以让你。" 
+        intervals [147]:
+            xmin = 425.01 
+            xmax = 425.44 
+            text = "" 
+        intervals [148]:
+            xmin = 425.44 
+            xmax = 427.50 
+            text = "呃，各种细节啊都收入囊中。" 
+        intervals [149]:
+            xmin = 427.50 
+            xmax = 560.50 
+            text = "" 
+        intervals [150]:
+            xmin = 560.50 
+            xmax = 562.42 
+            text = "你这个观点非常好。" 
+        intervals [151]:
+            xmin = 562.42 
+            xmax = 562.65 
+            text = "" 
+        intervals [152]:
+            xmin = 562.65 
+            xmax = 563.28 
+            text = "像。" 
+        intervals [153]:
+            xmin = 563.28 
+            xmax = 563.42 
+            text = "" 
+        intervals [154]:
+            xmin = 563.42 
+            xmax = 565.88 
+            text = "尤其是现在这些主流的一些游戏啊。" 
+        intervals [155]:
+            xmin = 565.88 
+            xmax = 566.16 
+            text = "" 
+        intervals [156]:
+            xmin = 566.16 
+            xmax = 567.19 
+            text = "他那个。" 
+        intervals [157]:
+            xmin = 567.19 
+            xmax = 567.27 
+            text = "" 
+        intervals [158]:
+            xmin = 567.27 
+            xmax = 568.65 
+            text = "游戏的皮肤和道具。" 
+        intervals [159]:
+            xmin = 568.65 
+            xmax = 568.73 
+            text = "" 
+        intervals [160]:
+            xmin = 568.73 
+            xmax = 570.84 
+            text = "会相应的绑到。" 
+        intervals [161]:
+            xmin = 570.84 
+            xmax = 570.98 
+            text = "" 
+        intervals [162]:
+            xmin = 570.98 
+            xmax = 572.10 
+            text = "单一个东西上。" 
+        intervals [163]:
+            xmin = 572.10 
+            xmax = 572.28 
+            text = "" 
+        intervals [164]:
+            xmin = 572.28 
+            xmax = 573.16 
+            text = "但是这个。" 
+        intervals [165]:
+            xmin = 573.16 
+            xmax = 573.25 
+            text = "" 
+        intervals [166]:
+            xmin = 573.25 
+            xmax = 576.23 
+            text = "单独的一个东西，它永远是会更新迭代的。" 
+        intervals [167]:
+            xmin = 576.23 
+            xmax = 576.58 
+            text = "" 
+        intervals [168]:
+            xmin = 576.58 
+            xmax = 579.68 
+            text = "你像这个版本它比较厉害，然后你买个这个皮肤。" 
+        intervals [169]:
+            xmin = 579.68 
+            xmax = 579.87 
+            text = "" 
+        intervals [170]:
+            xmin = 579.87 
+            xmax = 581.55 
+            text = "然后下个版本他又不强了。" 
+        intervals [171]:
+            xmin = 581.55 
+            xmax = 581.70 
+            text = "" 
+        intervals [172]:
+            xmin = 581.70 
+            xmax = 584.78 
+            text = "换另一个比较强的，你又去买另一个皮肤，这样你得钱。" 
+        intervals [173]:
+            xmin = 584.78 
+            xmax = 584.91 
+            text = "" 
+        intervals [174]:
+            xmin = 584.91 
+            xmax = 586.73 
+            text = "去换这个虚拟物品，我感觉就。" 
+        intervals [175]:
+            xmin = 586.73 
+            xmax = 586.92 
+            text = "" 
+        intervals [176]:
+            xmin = 586.92 
+            xmax = 588.64 
+            text = "非常不值，而且。" 
+        intervals [177]:
+            xmin = 588.64 
+            xmax = 588.79 
+            text = "" 
+        intervals [178]:
+            xmin = 588.79 
+            xmax = 589.59 
+            text = "这种。" 
+        intervals [179]:
+            xmin = 589.59 
+            xmax = 589.67 
+            text = "" 
+        intervals [180]:
+            xmin = 589.67 
+            xmax = 593.69 
+            text = "虚拟道具，其实你想说白了，出售出去，回点血。" 
+        intervals [181]:
+            xmin = 593.69 
+            xmax = 594.33 
+            text = "" 
+        intervals [182]:
+            xmin = 594.33 
+            xmax = 596.55 
+            text = "其实还是要看买家。" 
+        intervals [183]:
+            xmin = 596.55 
+            xmax = 596.81 
+            text = "" 
+        intervals [184]:
+            xmin = 596.81 
+            xmax = 598.92 
+            text = "像这种买家还是比较少的，因为他。" 
+        intervals [185]:
+            xmin = 598.92 
+            xmax = 599.10 
+            text = "" 
+        intervals [186]:
+            xmin = 599.10 
+            xmax = 601.95 
+            text = "是绑到你的账号嘛，你不总不能说。" 
+        intervals [187]:
+            xmin = 601.95 
+            xmax = 602.23 
+            text = "" 
+        intervals [188]:
+            xmin = 602.23 
+            xmax = 604.79 
+            text = "你喜欢这一个道具，你把它买了。" 
+        intervals [189]:
+            xmin = 604.79 
+            xmax = 605.03 
+            text = "" 
+        intervals [190]:
+            xmin = 605.03 
+            xmax = 605.81 
+            text = "然后。" 
+        intervals [191]:
+            xmin = 605.81 
+            xmax = 606.06 
+            text = "" 
+        intervals [192]:
+            xmin = 606.06 
+            xmax = 609.99 
+            text = "玩了很长时间。这个等级都挺高的，然后你再去。" 
+        intervals [193]:
+            xmin = 609.99 
+            xmax = 610.21 
+            text = "" 
+        intervals [194]:
+            xmin = 610.21 
+            xmax = 611.40 
+            text = "把它卖掉，这样。" 
+        intervals [195]:
+            xmin = 611.40 
+            xmax = 611.54 
+            text = "" 
+        intervals [196]:
+            xmin = 611.54 
+            xmax = 612.79 
+            text = "感觉非常不值。" 
+        intervals [197]:
+            xmin = 612.79 
+            xmax = 663.00 
+            text = "" 
+        intervals [198]:
+            xmin = 663.00 
+            xmax = 664.30 
+            text = "呃，你像。" 
+        intervals [199]:
+            xmin = 664.30 
+            xmax = 664.43 
+            text = "" 
+        intervals [200]:
+            xmin = 664.43 
+            xmax = 665.32 
+            text = "他说这种。" 
+        intervals [201]:
+            xmin = 665.32 
+            xmax = 665.47 
+            text = "" 
+        intervals [202]:
+            xmin = 665.47 
+            xmax = 666.78 
+            text = "这种我感觉吧。" 
+        intervals [203]:
+            xmin = 666.78 
+            xmax = 667.01 
+            text = "" 
+        intervals [204]:
+            xmin = 667.01 
+            xmax = 669.44 
+            text = "他那个钱充到里面之后。" 
+        intervals [205]:
+            xmin = 669.44 
+            xmax = 669.60 
+            text = "" 
+        intervals [206]:
+            xmin = 669.60 
+            xmax = 670.30 
+            text = "他。" 
+        intervals [207]:
+            xmin = 670.30 
+            xmax = 670.64 
+            text = "" 
+        intervals [208]:
+            xmin = 670.64 
+            xmax = 672.12 
+            text = "享受这一时的快乐。" 
+        intervals [209]:
+            xmin = 672.12 
+            xmax = 672.29 
+            text = "" 
+        intervals [210]:
+            xmin = 672.29 
+            xmax = 673.16 
+            text = "我感觉。" 
+        intervals [211]:
+            xmin = 673.16 
+            xmax = 673.36 
+            text = "" 
+        intervals [212]:
+            xmin = 673.36 
+            xmax = 676.40 
+            text = "不是，不如说把钱用的别的用途上。" 
+        intervals [213]:
+            xmin = 676.40 
+            xmax = 676.73 
+            text = "" 
+        intervals [214]:
+            xmin = 676.73 
+            xmax = 679.03 
+            text = "像，可以。" 
+        intervals [215]:
+            xmin = 679.03 
+            xmax = 679.18 
+            text = "" 
+        intervals [216]:
+            xmin = 679.18 
+            xmax = 681.45 
+            text = "买一些补品，买一些衣服。" 
+        intervals [217]:
+            xmin = 681.45 
+            xmax = 681.72 
+            text = "" 
+        intervals [218]:
+            xmin = 681.72 
+            xmax = 685.22 
+            text = "就是提升一些自己，满足一下自己，我感觉这样会比较。" 
+        intervals [219]:
+            xmin = 685.22 
+            xmax = 685.69 
+            text = "" 
+        intervals [220]:
+            xmin = 685.69 
+            xmax = 687.09 
+            text = "务实一下嘛。" 
+        intervals [221]:
+            xmin = 687.09 
+            xmax = 687.37 
+            text = "" 
+        intervals [222]:
+            xmin = 687.37 
+            xmax = 689.13 
+            text = "买到虚拟道具里面。" 
+        intervals [223]:
+            xmin = 689.13 
+            xmax = 689.33 
+            text = "" 
+        intervals [224]:
+            xmin = 689.33 
+            xmax = 690.46 
+            text = "就是。" 
+        intervals [225]:
+            xmin = 690.46 
+            xmax = 690.69 
+            text = "" 
+        intervals [226]:
+            xmin = 690.69 
+            xmax = 695.17 
+            text = "可以说就是把钱充到充到游戏里，然后直接放着了，然后也取不出来。" 
+        intervals [227]:
+            xmin = 695.17 
+            xmax = 695.33 
+            text = "" 
+        intervals [228]:
+            xmin = 695.33 
+            xmax = 697.42 
+            text = "就是，纯，纯粹的浪费掉。" 
+        intervals [229]:
+            xmin = 697.42 
+            xmax = 742.35 
+            text = "" 
+        intervals [230]:
+            xmin = 742.35 
+            xmax = 746.44 
+            text = "如果说是我的话我比较偏向于买断制的游戏。" 
+        intervals [231]:
+            xmin = 746.44 
+            xmax = 746.63 
+            text = "" 
+        intervals [232]:
+            xmin = 746.63 
+            xmax = 747.31 
+            text = "就像。" 
+        intervals [233]:
+            xmin = 747.31 
+            xmax = 747.55 
+            text = "" 
+        intervals [234]:
+            xmin = 747.55 
+            xmax = 749.09 
+            text = "如果你这种。" 
+        intervals [235]:
+            xmin = 749.09 
+            xmax = 749.19 
+            text = "" 
+        intervals [236]:
+            xmin = 749.19 
+            xmax = 750.54 
+            text = "内置的。" 
+        intervals [237]:
+            xmin = 750.54 
+            xmax = 750.96 
+            text = "" 
+        intervals [238]:
+            xmin = 750.96 
+            xmax = 752.60 
+            text = "一直充值的游戏。" 
+        intervals [239]:
+            xmin = 752.60 
+            xmax = 753.71 
+            text = "" 
+        intervals [240]:
+            xmin = 753.71 
+            xmax = 757.62 
+            text = "今天一个，今天一个很强，所有人都在买，然后。" 
+        intervals [241]:
+            xmin = 757.62 
+            xmax = 757.85 
+            text = "" 
+        intervals [242]:
+            xmin = 757.85 
+            xmax = 761.08 
+            text = "今天这个道具削弱了，所有人都不买了，都去买另一个道具。" 
+        intervals [243]:
+            xmin = 761.08 
+            xmax = 761.35 
+            text = "" 
+        intervals [244]:
+            xmin = 761.35 
+            xmax = 763.77 
+            text = "源源不断的投入你的。" 
+        intervals [245]:
+            xmin = 763.77 
+            xmax = 764.14 
+            text = "" 
+        intervals [246]:
+            xmin = 764.14 
+            xmax = 767.97 
+            text = "你的人民币。" 
+        intervals [247]:
+            xmin = 767.97 
+            xmax = 768.19 
+            text = "" 
+        intervals [248]:
+            xmin = 768.19 
+            xmax = 768.94 
+            text = "他的。" 
+        intervals [249]:
+            xmin = 768.94 
+            xmax = 769.29 
+            text = "" 
+        intervals [250]:
+            xmin = 769.29 
+            xmax = 772.95 
+            text = "有很多种的，固定好了，你只需要。" 
+        intervals [251]:
+            xmin = 772.95 
+            xmax = 773.17 
+            text = "" 
+        intervals [252]:
+            xmin = 773.17 
+            xmax = 776.33 
+            text = "磨炼你的游戏技巧，游戏技术啊。" 
+        intervals [253]:
+            xmin = 776.33 
+            xmax = 777.61 
+            text = "" 
+        intervals [254]:
+            xmin = 777.61 
+            xmax = 780.80 
+            text = "去看一些攻略啊，就可以。" 
+        intervals [255]:
+            xmin = 780.80 
+            xmax = 781.08 
+            text = "" 
+        intervals [256]:
+            xmin = 781.08 
+            xmax = 785.26 
+            text = "很圆满得去完成这个游戏的体验，就是体验感会很好。" 
+        intervals [257]:
+            xmin = 785.26 
+            xmax = 842.91 
+            text = "" 
+        intervals [258]:
+            xmin = 842.91 
+            xmax = 845.14 
+            text = "嗯像你说的这个。" 
+        intervals [259]:
+            xmin = 845.14 
+            xmax = 845.39 
+            text = "" 
+        intervals [260]:
+            xmin = 845.39 
+            xmax = 847.83 
+            text = "有有的游戏确实是这种的但是。" 
+        intervals [261]:
+            xmin = 847.83 
+            xmax = 848.05 
+            text = "" 
+        intervals [262]:
+            xmin = 848.05 
+            xmax = 852.00 
+            text = "像我像我之前玩过一个游戏就是火影忍者嘛。" 
+        intervals [263]:
+            xmin = 852.00 
+            xmax = 852.28 
+            text = "" 
+        intervals [264]:
+            xmin = 852.28 
+            xmax = 853.79 
+            text = "它里面那个忍者。" 
+        intervals [265]:
+            xmin = 853.79 
+            xmax = 854.18 
+            text = "" 
+        intervals [266]:
+            xmin = 854.18 
+            xmax = 856.64 
+            text = "需要你去花钱购买。" 
+        intervals [267]:
+            xmin = 856.64 
+            xmax = 856.95 
+            text = "" 
+        intervals [268]:
+            xmin = 856.95 
+            xmax = 860.87 
+            text = "就是像198,298，398，让你去进行直购。" 
+        intervals [269]:
+            xmin = 860.87 
+            xmax = 861.31 
+            text = "" 
+        intervals [270]:
+            xmin = 861.31 
+            xmax = 863.26 
+            text = "这种忍者的强度。" 
+        intervals [271]:
+            xmin = 863.26 
+            xmax = 863.41 
+            text = "" 
+        intervals [272]:
+            xmin = 863.41 
+            xmax = 866.88 
+            text = "相对于那种普通的，可以免费获取的。" 
+        intervals [273]:
+            xmin = 866.88 
+            xmax = 867.38 
+            text = "" 
+        intervals [274]:
+            xmin = 867.38 
+            xmax = 868.58 
+            text = "来说的话，他会。" 
+        intervals [275]:
+            xmin = 868.58 
+            xmax = 868.92 
+            text = "" 
+        intervals [276]:
+            xmin = 868.92 
+            xmax = 872.70 
+            text = "强力很多，而且会有一些保值的作用" 
+        intervals [277]:
+            xmin = 872.70 
+            xmax = 873.48 
+            text = "" 
+        intervals [278]:
+            xmin = 873.48 
+            xmax = 876.06 
+            text = "但是，终于还是真没说呢。" 
+        intervals [279]:
+            xmin = 876.06 
+            xmax = 876.62 
+            text = "" 
+        intervals [280]:
+            xmin = 876.62 
+            xmax = 878.84 
+            text = "就是，你越充的话还是越强" 
+        intervals [281]:
+            xmin = 878.84 
+            xmax = 879.18 
+            text = "" 
+        intervals [282]:
+            xmin = 879.18 
+            xmax = 879.76 
+            text = "就是。" 
+        intervals [283]:
+            xmin = 879.76 
+            xmax = 880.08 
+            text = "" 
+        intervals [284]:
+            xmin = 880.08 
+            xmax = 882.98 
+            text = "强也只是强那一时，你的钱充进去，就是。" 
+        intervals [285]:
+            xmin = 882.98 
+            xmax = 883.22 
+            text = "" 
+        intervals [286]:
+            xmin = 883.22 
+            xmax = 885.48 
+            text = "可能过一段时间就是白充了。" 
+        intervals [287]:
+            xmin = 885.48 
+            xmax = 948.64 
+            text = "" 
+        intervals [288]:
+            xmin = 948.64 
+            xmax = 951.91 
+            text = "但是，还是说，根据你一开始的主题嘛。" 
+        intervals [289]:
+            xmin = 951.91 
+            xmax = 952.14 
+            text = "" 
+        intervals [290]:
+            xmin = 952.14 
+            xmax = 953.23 
+            text = "就是用。" 
+        intervals [291]:
+            xmin = 953.23 
+            xmax = 953.36 
+            text = "" 
+        intervals [292]:
+            xmin = 953.36 
+            xmax = 955.90 
+            text = "现实的钱去买这个虚拟物品。" 
+        intervals [293]:
+            xmin = 955.90 
+            xmax = 956.16 
+            text = "" 
+        intervals [294]:
+            xmin = 956.16 
+            xmax = 956.85 
+            text = "你像。" 
+        intervals [295]:
+            xmin = 956.85 
+            xmax = 957.51 
+            text = "" 
+        intervals [296]:
+            xmin = 957.51 
+            xmax = 959.57 
+            text = "你像，你说的那种。" 
+        intervals [297]:
+            xmin = 959.57 
+            xmax = 959.74 
+            text = "" 
+        intervals [298]:
+            xmin = 959.74 
+            xmax = 962.67 
+            text = "就是需要纯技术去比拼的话。" 
+        intervals [299]:
+            xmin = 962.67 
+            xmax = 962.97 
+            text = "" 
+        intervals [300]:
+            xmin = 962.97 
+            xmax = 964.34 
+            text = "那种游戏我感觉你。" 
+        intervals [301]:
+            xmin = 964.34 
+            xmax = 964.53 
+            text = "" 
+        intervals [302]:
+            xmin = 964.53 
+            xmax = 966.17 
+            text = "花钱去买皮肤。" 
+        intervals [303]:
+            xmin = 966.17 
+            xmax = 966.37 
+            text = "" 
+        intervals [304]:
+            xmin = 966.37 
+            xmax = 967.41 
+            text = "不是真的。" 
+        intervals [305]:
+            xmin = 967.41 
+            xmax = 968.10 
+            text = "" 
+        intervals [306]:
+            xmin = 968.10 
+            xmax = 970.52 
+            text = "真的就是改变外观，没有什么。" 
+        intervals [307]:
+            xmin = 970.52 
+            xmax = 970.70 
+            text = "" 
+        intervals [308]:
+            xmin = 970.70 
+            xmax = 972.45 
+            text = "没啥作用，我就是感觉很不值啊。" 
+        intervals [309]:
+            xmin = 972.45 
+            xmax = 1166.86 
+            text = "" 
+        intervals [310]:
+            xmin = 1166.86 
+            xmax = 1169.13 
+            text = "嗯 就对于你这个问题来说 。" 
+        intervals [311]:
+            xmin = 1169.13 
+            xmax = 1169.37 
+            text = "" 
+        intervals [312]:
+            xmin = 1169.37 
+            xmax = 1170.74 
+            text = "就是相当于。" 
+        intervals [313]:
+            xmin = 1170.74 
+            xmax = 1171.26 
+            text = "" 
+        intervals [314]:
+            xmin = 1171.26 
+            xmax = 1174.59 
+            text = "你充的钱也是打不过，这是你技术上的问题，是。" 
+        intervals [315]:
+            xmin = 1174.59 
+            xmax = 1174.74 
+            text = "" 
+        intervals [316]:
+            xmin = 1174.74 
+            xmax = 1177.63 
+            text = "规矩到你的人品，你的钱也是白花了。" 
+        intervals [317]:
+            xmin = 1177.63 
+            xmax = 1177.82 
+            text = "" 
+        intervals [318]:
+            xmin = 1177.82 
+            xmax = 1180.06 
+            text = "如果说 ，你去买一个。" 
+        intervals [319]:
+            xmin = 1180.06 
+            xmax = 1180.40 
+            text = "" 
+        intervals [320]:
+            xmin = 1180.40 
+            xmax = 1181.54 
+            text = "实体的。" 
+        intervals [321]:
+            xmin = 1181.54 
+            xmax = 1181.85 
+            text = "" 
+        intervals [322]:
+            xmin = 1181.85 
+            xmax = 1184.38 
+            text = "那种光盘，玩具光盘，游戏光盘。" 
+        intervals [323]:
+            xmin = 1184.38 
+            xmax = 1184.61 
+            text = "" 
+        intervals [324]:
+            xmin = 1184.61 
+            xmax = 1186.61 
+            text = "你可以一直玩，然后。" 
+        intervals [325]:
+            xmin = 1186.61 
+            xmax = 1186.81 
+            text = "" 
+        intervals [326]:
+            xmin = 1186.81 
+            xmax = 1190.46 
+            text = "如果说遇到了你打不过的关卡呀，啥的，你可以去。" 
+        intervals [327]:
+            xmin = 1190.46 
+            xmax = 1190.60 
+            text = "" 
+        intervals [328]:
+            xmin = 1190.60 
+            xmax = 1192.22 
+            text = "看看他们那些。" 
+        intervals [329]:
+            xmin = 1192.22 
+            xmax = 1192.31 
+            text = "" 
+        intervals [330]:
+            xmin = 1192.31 
+            xmax = 1194.50 
+            text = "攻略啊，然后你可以去跟着。" 
+        intervals [331]:
+            xmin = 1194.50 
+            xmax = 1195.05 
+            text = "" 
+        intervals [332]:
+            xmin = 1195.05 
+            xmax = 1196.96 
+            text = "去进行一些破解。" 
+        intervals [333]:
+            xmin = 1196.96 
+            xmax = 1197.33 
+            text = "" 
+        intervals [334]:
+            xmin = 1197.33 
+            xmax = 1199.82 
+            text = "然后，进行一些装备更新，变强。" 
+        intervals [335]:
+            xmin = 1199.82 
+            xmax = 1200.03 
+            text = "" 
+        intervals [336]:
+            xmin = 1200.03 
+            xmax = 1201.12 
+            text = "最终可以。" 
+        intervals [337]:
+            xmin = 1201.12 
+            xmax = 1201.74 
+            text = "" 
+        intervals [338]:
+            xmin = 1201.74 
+            xmax = 1203.74 
+            text = "完美的结束你这个游戏结局。" 
+        intervals [339]:
+            xmin = 1203.74 
+            xmax = 1203.78 
+            text = "" 
+        intervals [340]:
+            xmin = 1203.78 
+            xmax = 1205.98 
+            text = "达到完美结局，这样的话我感觉。" 
+        intervals [341]:
+            xmin = 1205.98 
+            xmax = 1288.80 
+            text = "" 
+        intervals [342]:
+            xmin = 1288.80 
+            xmax = 1291.27 
+            text = "这个我非常认同你的观点啊。" 
+        intervals [343]:
+            xmin = 1291.27 
+            xmax = 1291.59 
+            text = "" 
+        intervals [344]:
+            xmin = 1291.59 
+            xmax = 1293.92 
+            text = "和我的认知是相同的。" 
+        intervals [345]:
+            xmin = 1293.92 
+            xmax = 1294.25 
+            text = "" 
+        intervals [346]:
+            xmin = 1294.25 
+            xmax = 1295.00 
+            text = "你像。" 
+        intervals [347]:
+            xmin = 1295.00 
+            xmax = 1295.25 
+            text = "" 
+        intervals [348]:
+            xmin = 1295.25 
+            xmax = 1299.69 
+            text = "这些真实得钱，去买的虚拟物品，他只是图一时的快乐。" 
+        intervals [349]:
+            xmin = 1299.69 
+            xmax = 1299.89 
+            text = "" 
+        intervals [350]:
+            xmin = 1299.89 
+            xmax = 1304.33 
+            text = "单纯是，填补你的精神空虚，但是你的精神空虚完全可以通过。" 
+        intervals [351]:
+            xmin = 1304.33 
+            xmax = 1304.73 
+            text = "" 
+        intervals [352]:
+            xmin = 1304.73 
+            xmax = 1307.56 
+            text = "提升自己啊，去。" 
+        intervals [353]:
+            xmin = 1307.56 
+            xmax = 1308.12 
+            text = "" 
+        intervals [354]:
+            xmin = 1308.12 
+            xmax = 1309.97 
+            text = "亲朋好友的关系啊。" 
+        intervals [355]:
+            xmin = 1309.97 
+            xmax = 1310.35 
+            text = "" 
+        intervals [356]:
+            xmin = 1310.35 
+            xmax = 1313.25 
+            text = "然后来填补你的精神空虚。" 
+        intervals [357]:
+            xmin = 1313.25 
+            xmax = 1313.79 
+            text = "" 
+        intervals [358]:
+            xmin = 1313.79 
+            xmax = 1317.06 
+            text = "感觉还是把钱花到实物上要好一点。" 
+        intervals [359]:
+            xmin = 1317.06 
+            xmax = 1366.89 
+            text = "" 
+        intervals [360]:
+            xmin = 1366.89 
+            xmax = 1370.53 
+            text = "嗯，这个，其实这个其实真的有过。" 
+        intervals [361]:
+            xmin = 1370.53 
+            xmax = 1371.53 
+            text = "" 
+        intervals [362]:
+            xmin = 1371.53 
+            xmax = 1372.66 
+            text = "只是。" 
+        intervals [363]:
+            xmin = 1372.66 
+            xmax = 1372.89 
+            text = "" 
+        intervals [364]:
+            xmin = 1372.89 
+            xmax = 1376.13 
+            text = "只是，给那些个主播刷一个那种。" 
+        intervals [365]:
+            xmin = 1376.13 
+            xmax = 1376.35 
+            text = "" 
+        intervals [366]:
+            xmin = 1376.35 
+            xmax = 1376.82 
+            text = "就是。" 
+        intervals [367]:
+            xmin = 1376.82 
+            xmax = 1377.17 
+            text = "" 
+        intervals [368]:
+            xmin = 1377.17 
+            xmax = 1379.59 
+            text = "粉丝灯牌嘛，就是单纯留一个徽章，然后。" 
+        intervals [369]:
+            xmin = 1379.59 
+            xmax = 1379.82 
+            text = "" 
+        intervals [370]:
+            xmin = 1379.82 
+            xmax = 1381.71 
+            text = "直播间里面挂着。" 
+        intervals [371]:
+            xmin = 1381.71 
+            xmax = 1381.95 
+            text = "" 
+        intervals [372]:
+            xmin = 1381.95 
+            xmax = 1383.50 
+            text = "很普通的观看。" 
+        intervals [373]:
+            xmin = 1383.50 
+            xmax = 1384.56 
+            text = "" 
+        intervals [374]:
+            xmin = 1384.56 
+            xmax = 1386.17 
+            text = "你因为。" 
+        intervals [375]:
+            xmin = 1386.17 
+            xmax = 1387.12 
+            text = "" 
+        intervals [376]:
+            xmin = 1387.12 
+            xmax = 1389.44 
+            text = "咱们这种就是工资阶层。" 
+        intervals [377]:
+            xmin = 1389.44 
+            xmax = 1389.51 
+            text = "" 
+        intervals [378]:
+            xmin = 1389.51 
+            xmax = 1391.21 
+            text = "可能，没有他们那么。" 
+        intervals [379]:
+            xmin = 1391.21 
+            xmax = 1392.83 
+            text = "" 
+        intervals [380]:
+            xmin = 1392.83 
+            xmax = 1395.63 
+            text = "它们比较有钱人可以随便刷像咱们这种。" 
+        intervals [381]:
+            xmin = 1395.63 
+            xmax = 1395.92 
+            text = "" 
+        intervals [382]:
+            xmin = 1395.92 
+            xmax = 1398.68 
+            text = "就是钱比较少的就是看一看就得了我感觉。" 
+        intervals [383]:
+            xmin = 1398.68 
+            xmax = 1464.82 
+            text = "" 
+        intervals [384]:
+            xmin = 1464.82 
+            xmax = 1467.55 
+            text = "嗯刷礼物确实是但是。" 
+        intervals [385]:
+            xmin = 1467.55 
+            xmax = 1467.77 
+            text = "" 
+        intervals [386]:
+            xmin = 1467.77 
+            xmax = 1469.94 
+            text = "嗯你像那种粉丝灯牌。" 
+        intervals [387]:
+            xmin = 1469.94 
+            xmax = 1470.09 
+            text = "" 
+        intervals [388]:
+            xmin = 1470.09 
+            xmax = 1472.20 
+            text = "他刷一个只需要一分钱嘛。" 
+        intervals [389]:
+            xmin = 1472.20 
+            xmax = 1472.39 
+            text = "" 
+        intervals [390]:
+            xmin = 1472.39 
+            xmax = 1476.56 
+            text = "一分钱，挂个灯牌之后，你在里面你的徽章。" 
+        intervals [391]:
+            xmin = 1476.56 
+            xmax = 1476.80 
+            text = "" 
+        intervals [392]:
+            xmin = 1476.80 
+            xmax = 1480.00 
+            text = "你在看直播的过程中你的徽章还会升级，就是。" 
+        intervals [393]:
+            xmin = 1480.00 
+            xmax = 1480.36 
+            text = "" 
+        intervals [394]:
+            xmin = 1480.36 
+            xmax = 1481.54 
+            text = "相当于。" 
+        intervals [395]:
+            xmin = 1481.54 
+            xmax = 1482.40 
+            text = "" 
+        intervals [396]:
+            xmin = 1482.40 
+            xmax = 1484.53 
+            text = "填补你的精神空虚。" 
+        intervals [397]:
+            xmin = 1484.53 
+            xmax = 1484.88 
+            text = "" 
+        intervals [398]:
+            xmin = 1484.88 
+            xmax = 1488.20 
+            text = "找一个精神寄托，让你的生活多一点乐子。" 
+        intervals [399]:
+            xmin = 1488.20 
+            xmax = 1489.91 
+            text = "" 
+        intervals [400]:
+            xmin = 1489.91 
+            xmax = 1492.30 
+            text = "无聊了，打开他的直播看一看。" 
+        intervals [401]:
+            xmin = 1492.30 
+            xmax = 1492.56 
+            text = "" 
+        intervals [402]:
+            xmin = 1492.56 
+            xmax = 1493.45 
+            text = "然后。" 
+        intervals [403]:
+            xmin = 1493.45 
+            xmax = 1494.16 
+            text = "" 
+        intervals [404]:
+            xmin = 1494.16 
+            xmax = 1496.10 
+            text = "就是说参与一下他那个。" 
+        intervals [405]:
+            xmin = 1496.10 
+            xmax = 1496.16 
+            text = "" 
+        intervals [406]:
+            xmin = 1496.16 
+            xmax = 1500.95 
+            text = "福袋啊之类的还可以抽抽奖如果是真中奖的话可以得到一些东西。" 
+        intervals [407]:
+            xmin = 1500.95 
+            xmax = 1539.38 
+            text = "" 
+        intervals [408]:
+            xmin = 1539.38 
+            xmax = 1541.95 
+            text = "呃这个其实这个其实不会啊。" 
+        intervals [409]:
+            xmin = 1541.95 
+            xmax = 1542.48 
+            text = "" 
+        intervals [410]:
+            xmin = 1542.48 
+            xmax = 1543.45 
+            text = "你像说。" 
+        intervals [411]:
+            xmin = 1543.45 
+            xmax = 1543.66 
+            text = "" 
+        intervals [412]:
+            xmin = 1543.66 
+            xmax = 1544.46 
+            text = "是。" 
+        intervals [413]:
+            xmin = 1544.46 
+            xmax = 1544.84 
+            text = "" 
+        intervals [414]:
+            xmin = 1544.84 
+            xmax = 1548.22 
+            text = "有人骂他啥的，有人给他刷礼物 ，其实我都是。" 
+        intervals [415]:
+            xmin = 1548.22 
+            xmax = 1548.36 
+            text = "" 
+        intervals [416]:
+            xmin = 1548.36 
+            xmax = 1551.63 
+            text = "旁观，以一个旁观者的心态去看。" 
+        intervals [417]:
+            xmin = 1551.63 
+            xmax = 1551.95 
+            text = "" 
+        intervals [418]:
+            xmin = 1551.95 
+            xmax = 1554.60 
+            text = "像如果，我给他花，花那个。" 
+        intervals [419]:
+            xmin = 1554.60 
+            xmax = 1554.63 
+            text = "" 
+        intervals [420]:
+            xmin = 1554.63 
+            xmax = 1556.42 
+            text = "粉丝灯牌，实际上。" 
+        intervals [421]:
+            xmin = 1556.42 
+            xmax = 1556.65 
+            text = "" 
+        intervals [422]:
+            xmin = 1556.65 
+            xmax = 1558.91 
+            text = "并没有影响到我的现实生活。" 
+        intervals [423]:
+            xmin = 1558.91 
+            xmax = 1559.97 
+            text = "" 
+        intervals [424]:
+            xmin = 1559.97 
+            xmax = 1563.54 
+            text = "我只要付出一些极小代价就能满足我的心理。" 
+        intervals [425]:
+            xmin = 1563.54 
+            xmax = 1584.51 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "P033" 
+        xmin = 0 
+        xmax = 1584.51 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 468.99 
+            text = "" 
+        intervals [2]:
+            xmin = 468.99 
+            xmax = 470.77 
+            text = "有，有过，有过，有过。" 
+        intervals [3]:
+            xmin = 470.77 
+            xmax = 472.18 
+            text = "" 
+        intervals [4]:
+            xmin = 472.18 
+            xmax = 477.77 
+            text = "咱不说那个买不买票，抢不抢票的事吧，就比如说我们追剧，听歌开个会员。" 
+        intervals [5]:
+            xmin = 477.77 
+            xmax = 478.00 
+            text = "" 
+        intervals [6]:
+            xmin = 478.00 
+            xmax = 480.35 
+            text = "可以免除广告，提升那个画质。" 
+        intervals [7]:
+            xmin = 480.35 
+            xmax = 480.90 
+            text = "" 
+        intervals [8]:
+            xmin = 480.90 
+            xmax = 482.61 
+            text = "享受更多那个权限。" 
+        intervals [9]:
+            xmin = 482.61 
+            xmax = 482.90 
+            text = "" 
+        intervals [10]:
+            xmin = 482.90 
+            xmax = 484.24 
+            text = "这个让我们。" 
+        intervals [11]:
+            xmin = 484.24 
+            xmax = 484.51 
+            text = "" 
+        intervals [12]:
+            xmin = 484.51 
+            xmax = 486.28 
+            text = "体验会变得更好。" 
+        intervals [13]:
+            xmin = 486.28 
+            xmax = 486.37 
+            text = "" 
+        intervals [14]:
+            xmin = 486.37 
+            xmax = 489.69 
+            text = "再比如说，咱们买个皮肤，游戏皮肤。" 
+        intervals [15]:
+            xmin = 489.69 
+            xmax = 490.04 
+            text = "" 
+        intervals [16]:
+            xmin = 490.04 
+            xmax = 494.40 
+            text = "可能让我们，让我们玩游戏玩的很开心，更有成就感。" 
+        intervals [17]:
+            xmin = 494.40 
+            xmax = 495.12 
+            text = "" 
+        intervals [18]:
+            xmin = 495.12 
+            xmax = 497.04 
+            text = "这种情绪价值就很好。" 
+        intervals [19]:
+            xmin = 497.04 
+            xmax = 1584.51 
+            text = "" 

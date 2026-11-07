@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EAR-1 DiariZen 基线 DER 逐 session、时间窗口、说话人与错误区间分析报告">
+  <title>EAR-1 DiariZen 基线 DER 详细分析报告</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f3f6f8;
+  --surface: #ffffff;
+  --surface-alt: #f7fafb;
+  --text: #172126;
+  --muted: #5c6a71;
+  --line: #dce5e8;
+  --brand: #006d77;
+  --brand-dark: #004f57;
+  --brand-soft: #dff4f2;
+  --warn: #b54708;
+  --danger: #b42318;
+  --shadow: 0 16px 44px rgba(27, 44, 52, .09);
+  --radius: 18px;
+  --sidebar: 292px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 88% 0%, rgba(0, 109, 119, .10), transparent 27rem),
+    var(--bg);
+  font-family: Inter, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.78;
+}
+
+a { color: var(--brand); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--brand-dark); }
+code {
+  padding: .12rem .38rem;
+  border-radius: 6px;
+  color: #9b2c2c;
+  background: #fff3f2;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: .88em;
+}
+pre {
+  overflow: auto;
+  padding: 1rem 1.1rem;
+  border: 1px solid #25343a;
+  border-radius: 12px;
+  color: #e7f4f5;
+  background: #142328;
+  box-shadow: inset 0 1px rgba(255,255,255,.04);
+}
+pre code { padding: 0; color: inherit; background: none; }
+
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 20;
+  width: var(--sidebar);
+  padding: 28px 20px 24px;
+  overflow-y: auto;
+  color: #dceff0;
+  background: linear-gradient(180deg, #0e3036 0%, #10262b 100%);
+  border-right: 1px solid rgba(255,255,255,.08);
+}
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 0 4px 24px;
+}
+.brand-mark {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  place-items: center;
+  border-radius: 12px;
+  color: #073a40;
+  background: #82ddd6;
+  font-weight: 900;
+  letter-spacing: -.04em;
+}
+.brand strong { display: block; color: white; font-size: 15px; }
+.brand span { display: block; color: #9ebbc0; font-size: 12px; }
+.toc-title {
+  margin: 0 8px 10px;
+  color: #7fa4aa;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.toc { margin: 0; padding: 0; list-style: none; }
+.toc a {
+  display: block;
+  margin: 2px 0;
+  padding: 8px 10px;
+  border-left: 2px solid transparent;
+  border-radius: 0 9px 9px 0;
+  color: #bbd0d3;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.35;
+  transition: .18s ease;
+}
+.toc a:hover, .toc a.active {
+  border-left-color: #82ddd6;
+  color: white;
+  background: rgba(130, 221, 214, .10);
+}
+.toc .level-3 a { padding-left: 22px; color: #94b0b4; font-size: 12px; }
+.sidebar-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 22px 4px 0;
+}
+.sidebar button, .sidebar .download {
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 9px;
+  padding: 8px 9px;
+  color: #dceff0;
+  background: rgba(255,255,255,.06);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: inherit;
+  font-size: 12px;
+}
+.sidebar button:hover, .sidebar .download:hover { background: rgba(255,255,255,.11); color: white; }
+
+.page { margin-left: var(--sidebar); min-width: 0; }
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 64px clamp(24px, 5vw, 78px) 48px;
+  color: white;
+  background: linear-gradient(120deg, #005d66 0%, #087e84 58%, #289899 100%);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  right: -130px;
+  top: -235px;
+  border: 72px solid rgba(255,255,255,.08);
+  border-radius: 50%;
+}
+.hero-inner { position: relative; z-index: 1; max-width: 1120px; margin: auto; }
+.eyebrow {
+  margin: 0 0 12px;
+  color: #bcece8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  max-width: 860px;
+  margin: 0;
+  font-size: clamp(32px, 4.6vw, 60px);
+  line-height: 1.12;
+  letter-spacing: -.04em;
+}
+.hero-subtitle { max-width: 780px; margin: 18px 0 0; color: #d8f3f1; font-size: 17px; }
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 1120px;
+  margin: 34px auto 0;
+}
+.metric {
+  padding: 17px 18px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 14px;
+  background: rgba(255,255,255,.10);
+  backdrop-filter: blur(5px);
+}
+.metric span { display: block; color: #c6e8e6; font-size: 12px; }
+.metric strong { display: block; margin-top: 2px; font-size: 27px; line-height: 1.15; }
+
+.content-shell { max-width: 1180px; margin: auto; padding: 34px clamp(18px, 4vw, 56px) 80px; }
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 0 0 26px;
+}
+.quick-links a {
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--brand-dark);
+  background: var(--surface);
+  box-shadow: 0 4px 14px rgba(26, 56, 62, .04);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+.quick-links a:hover { border-color: #8fcac6; background: var(--brand-soft); }
+.report {
+  padding: clamp(24px, 4vw, 54px);
+  border: 1px solid rgba(202, 216, 220, .9);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.report > h1:first-child { display: none; }
+.report h2 {
+  margin: 3.3rem 0 1.15rem;
+  padding-top: .4rem;
+  color: #123c43;
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.3;
+  letter-spacing: -.025em;
+}
+.report h2:first-of-type { margin-top: 0; }
+.report h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: #57bdb7;
+}
+.report h3 { margin: 2.1rem 0 .8rem; color: #28545a; font-size: 21px; }
+.report h4 { margin: 1.65rem 0 .55rem; color: #315c62; font-size: 17px; }
+.report p { margin: .7rem 0; }
+.report ul, .report ol { padding-left: 1.55rem; }
+.report li { margin: .35rem 0; }
+.report strong { color: #073f46; }
+.report blockquote {
+  margin: 1.2rem 0;
+  padding: .8rem 1rem;
+  border-left: 4px solid #62c9c2;
+  color: var(--muted);
+  background: var(--brand-soft);
+}
+.table-wrap {
+  margin: 1.25rem 0 1.65rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(25, 50, 58, .04);
+}
+table { width: 100%; min-width: 650px; border-collapse: separate; border-spacing: 0; font-size: 13px; line-height: 1.45; }
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 11px 12px;
+  border-bottom: 1px solid #cddadd;
+  color: #16474e;
+  background: #e9f5f4;
+  text-align: left;
+  white-space: nowrap;
+}
+tbody td { padding: 9px 12px; border-bottom: 1px solid #e7edef; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f9fbfb; }
+tbody tr:hover td { background: #eef8f7; }
+tbody tr:last-child td { border-bottom: 0; }
+
+.footer {
+  max-width: 1120px;
+  margin: 28px auto 0;
+  color: #6b787d;
+  text-align: center;
+  font-size: 12px;
+}
+.back-top {
+  position: fixed;
+  right: 22px;
+  bottom: 20px;
+  z-index: 15;
+  display: none;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  background: var(--brand);
+  box-shadow: 0 8px 24px rgba(0, 80, 88, .25);
+  cursor: pointer;
+}
+.back-top.visible { display: block; }
+.mobile-nav { display: none; }
+
+@media (max-width: 940px) {
+  .sidebar { transform: translateX(-100%); transition: transform .22s ease; }
+  .sidebar.open { transform: translateX(0); box-shadow: 14px 0 36px rgba(0,0,0,.22); }
+  .page { margin-left: 0; }
+  .mobile-nav {
+    position: fixed;
+    top: 14px;
+    left: 14px;
+    z-index: 30;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(255,255,255,.32);
+    border-radius: 11px;
+    color: white;
+    background: rgba(8, 50, 57, .78);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+  }
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  body { font-size: 15px; }
+  .hero { padding-top: 78px; }
+  .metrics { grid-template-columns: 1fr 1fr; }
+  .metric { padding: 13px; }
+  .metric strong { font-size: 22px; }
+  .report { padding: 22px 17px; border-radius: 13px; }
+}
+
+@media print {
+  @page { margin: 14mm; }
+  body { background: white; font-size: 10.5pt; }
+  .sidebar, .mobile-nav, .back-top, .quick-links, .sidebar-actions { display: none !important; }
+  .page { margin: 0; }
+  .hero { padding: 20px 0 24px; color: black; background: white; }
+  .hero h1 { font-size: 28pt; }
+  .hero-subtitle, .eyebrow { color: #455; }
+  .metrics { margin-top: 16px; }
+  .metric { border-color: #aaa; color: black; background: white; break-inside: avoid; }
+  .metric span { color: #555; }
+  .content-shell { max-width: none; padding: 0; }
+  .report { padding: 0; border: 0; box-shadow: none; }
+  .report h2 { break-after: avoid; }
+  .table-wrap { overflow: visible; box-shadow: none; break-inside: avoid; }
+  table { min-width: 0; font-size: 8pt; }
+  thead th { position: static; }
+  pre { white-space: pre-wrap; }
+}
+
+</style>
+</head>
+<body>
+  <button class="mobile-nav" type="button" aria-label="打开目录">☰</button>
+  <aside class="sidebar" aria-label="报告目录">
+    <div class="brand">
+      <div class="brand-mark">DER</div>
+      <div><strong>EAR-1 分析报告</strong><span>DiariZen baseline</span></div>
+    </div>
+    <p class="toc-title">目录</p>
+    <ol class="toc"><li class="level-2"><a href="#section-0">1. 结论摘要</a></li>
+<li class="level-2"><a href="#section-1">2. 评分口径</a></li>
+<li class="level-2"><a href="#section-2">3. 总体误差分解</a></li>
+<li class="level-3"><a href="#section-3">DER 百分点贡献汇总</a></li>
+<li class="level-2"><a href="#section-4">4. Collar 与重叠语音的敏感性</a></li>
+<li class="level-2"><a href="#section-5">5. 错误发生在哪类区域</a></li>
+<li class="level-2"><a href="#section-6">6. 每个 session 的完整分解</a></li>
+<li class="level-3"><a href="#section-7">Session 诊断</a></li>
+<li class="level-2"><a href="#section-15">7. 语音段时长与目标说话人覆盖率</a></li>
+<li class="level-2"><a href="#section-16">8. 最差的一分钟区间</a></li>
+<li class="level-2"><a href="#section-17">9. 音频通道诊断</a></li>
+<li class="level-2"><a href="#section-18">10. 可能原因与置信度</a></li>
+<li class="level-3"><a href="#section-19">高置信度</a></li>
+<li class="level-3"><a href="#section-20">中等置信度</a></li>
+<li class="level-3"><a href="#section-21">较低置信度或尚未证实</a></li>
+<li class="level-2"><a href="#section-22">11. 建议的验证实验顺序</a></li>
+<li class="level-2"><a href="#section-23">12. 明细文件说明</a></li>
+<li class="level-3"><a href="#section-24">`reference_turns.csv` 使用注意</a></li>
+<li class="level-2"><a href="#section-25">13. 复现命令</a></li></ol>
+    <div class="sidebar-actions">
+      <button type="button" data-print>打印 / PDF</button>
+      <a class="download" href="DER_ANALYSIS_REPORT.md" download>下载 MD</a>
+    </div>
+  </aside>
+
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">EAR-1 Challenge · Detailed Error Analysis</p>
+        <h1>EAR-1 DiariZen 基线 DER 详细分析报告</h1>
+        <p class="hero-subtitle">从总体 DER 下钻到 session、分钟窗口、参考说话人、逐条语音和连续错误区间。</p>
+        <section class="metrics" aria-label="关键指标">
+          <div class="metric"><span>D1 DER</span><strong>31.22%</strong></div>
+<div class="metric"><span>R1 DER</span><strong>33.75%</strong></div>
+<div class="metric"><span>重叠区错误贡献</span><strong>42–46%</strong></div>
+<div class="metric"><span>参考语音段</span><strong>8,813</strong></div>
+        </section>
+      </div>
+    </header>
+
+    <div class="content-shell">
+      <nav class="quick-links" aria-label="分析数据下载"><a href="sessions.csv" download>Session 汇总</a>
+<a href="time_windows.csv" download>分钟窗口</a>
+<a href="MINUTE_DER_REPORT_ALL.html" download>逐分钟详细报告</a>
+<a href="channel_alignment_diagnostics.csv" download>通道对齐诊断</a>
+<a href="reference_turns.csv" download>逐语音段</a>
+<a href="error_regions.csv" download>错误区间</a>
+<a href="reference_speakers.csv" download>说话人覆盖</a>
+<a href="audio_diagnostics.csv" download>音频诊断</a>
+<a href="DER_ANALYSIS_REPORT.md" download>原始 Markdown</a></nav>
+      <article class="report"><h1 id="report-title">EAR-1 DiariZen 基线 DER 详细分析报告</h1>
+<blockquote>
+<p><strong>对齐诊断修订：</strong> 本报告原始 DER 和下方错误分解均使用未经时间平移的参考标注。
+进一步检查发现，开发集 R1 与 D1 音频在若干 session 有系统性时移。
+尤其 20260923-1 的 R1 比 D1 晚约 2.03 秒，而两份 TextGrid 使用相同时间戳。
+因此该 session 的 R1 46.92% 不能直接解释为模型性能。
+仅平移参考时间 +2.03 秒、不改变模型输出的诊断 DER 为 20.93%。
+这是对齐实验，不是组织方公布的正式修正分数。</p>
+</blockquote>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Session</th>
+<th style="text-align:right">R1 参考建议平移</th>
+<th style="text-align:right">音频包络对齐相关系数（开头 / 结尾）</th>
+<th style="text-align:right">原始 R1 DER</th>
+<th style="text-align:right">平移后诊断 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20260908-1</td>
+<td style="text-align:right">-0.03 s</td>
+<td style="text-align:right">0.91 / 0.91</td>
+<td style="text-align:right">33.31%</td>
+<td style="text-align:right">33.35%</td>
+</tr>
+<tr>
+<td>20260908-2</td>
+<td style="text-align:right">-0.05 s</td>
+<td style="text-align:right">0.88 / 0.91</td>
+<td style="text-align:right">32.69%</td>
+<td style="text-align:right">32.83%</td>
+</tr>
+<tr>
+<td>20260923-1</td>
+<td style="text-align:right">+2.03 s</td>
+<td style="text-align:right">0.81 / 0.83</td>
+<td style="text-align:right">46.92%</td>
+<td style="text-align:right">20.93%</td>
+</tr>
+<tr>
+<td>20260923-2</td>
+<td style="text-align:right">-0.54 s</td>
+<td style="text-align:right">0.80 / 0.82</td>
+<td style="text-align:right">40.65%</td>
+<td style="text-align:right">26.15%</td>
+</tr>
+<tr>
+<td>20260923-5</td>
+<td style="text-align:right">-0.27 s</td>
+<td style="text-align:right">0.83 / 0.84</td>
+<td style="text-align:right">15.43%</td>
+<td style="text-align:right">9.64%</td>
+</tr>
+<tr>
+<td>20260924-2</td>
+<td style="text-align:right">+0.15 s</td>
+<td style="text-align:right">0.91 / 0.87</td>
+<td style="text-align:right">14.49%</td>
+<td style="text-align:right">17.07%</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td style="text-align:right">+0.11 s</td>
+<td style="text-align:right">0.88 / 0.92</td>
+<td style="text-align:right">47.99%</td>
+<td style="text-align:right">47.37%</td>
+</tr>
+</tbody>
+</table></div>
+<p>平移量通过比较 D1/R1 在录音开头和结尾各 120 秒的 20 毫秒 RMS 包络得到；
+正数表示将参考标注向后移动以匹配 R1。完整数值见
+<a href="channel_alignment_diagnostics.csv">通道时间轴诊断 CSV</a>。时移并不能解释所有 R1 错误；
+某些 session 平移后的 DER 反而升高。下面的原始分解表仍可复现基线评分，
+但不应将其中的 R1 错误直接归因于模型。</p>
+<h2 id="section-0">1. 结论摘要</h2>
+<p>本次分析复现并逐项分解了开发集<strong>未经时间平移</strong>的严格 DER：D1 为 <strong>31.22%</strong>，
+R1 为 <strong>33.75%</strong>。R1 的部分错误包含参考与音频的时间轴不匹配；
+其余原始错误还涉及以下问题：</p>
+<ol>
+<li><strong>原始分数中重叠语音错误占比较高。</strong> 重叠区贡献 D1 全部错误的 45.5%、R1
+的 42.3%；重叠区自身 DER 约 47%。R1 数值需在对齐后重新评估。</li>
+<li><strong>部分 session 严重低估说话人数。</strong> 最典型的是 <code>20260924-5</code>：参考有 8
+位说话人，D1 只输出 3 个聚类、R1 只输出 4 个聚类，多个次要说话人的覆盖率为
+0%，直接产生大量漏检和说话人身份混淆。</li>
+<li><strong>短语音和密集边界很难。</strong> 0.5--1 秒语音段的目标说话人覆盖率只有 D1
+54.7%、R1 48.6%，而大于等于 5 秒的语音段覆盖率达到 87.0% 和 85.7%。
+将评分 collar 从 0 秒改为 0.25 秒后，D1/R1 DER 分别下降 7.01/6.53 个百分点。</li>
+<li><strong>原始评分中漏检最大。</strong> 漏检对总 DER 的贡献为 D1 16.53%、R1 19.56%。
+R1 中有一部分漏检由时间轴不匹配造成，不能全部归因于 VAD 或通道噪声。</li>
+<li><strong>整段录音 UEM 会惩罚静音区误报。</strong> 静音区误报占全部错误约 15%。</li>
+<li><strong><code>20260923-1/R1</code> 存在约 2.03 秒系统性时移。</strong> 开头和结尾的音频包络均
+指向相同延迟；平移参考时间后的诊断 DER 从 46.92% 降至 20.93%。</li>
+</ol>
+<p>应先核实并校正 R1 与参考标注的时间轴，再评估调整聚类阈值、加入重叠检测、
+改善短语音和边界处理的效果。</p>
+<h2 id="section-1">2. 评分口径</h2>
+<ul>
+<li>指标：<code>pyannote.metrics.DiarizationErrorRate</code></li>
+<li>Collar：0 秒</li>
+<li>重叠：保留并计分</li>
+<li>UEM：从 0 秒到音频结尾的整段录音，包括静音区</li>
+<li>推理：没有使用 oracle VAD</li>
+<li>说话人映射：每个 session/track 使用一次全局 Hungarian 最优一一映射</li>
+</ul>
+<p>本文统一使用以下中文名称，并在首次出现时保留 CSV/评分工具中的英文缩写：</p>
+<ul>
+<li><strong>漏检（MISS）</strong>：参考中有人讲话，但系统少检出了说话人。</li>
+<li><strong>误报（FA，False Alarm）</strong>：系统多报了说话人，包括静音时误报有人讲话，以及有
+语音时多报说话人数。</li>
+<li><strong>说话人身份混淆（CONF，Confusion）</strong>：检测到了讲话，但归属到了错误的说话人。</li>
+</ul>
+<p>所有局部窗口、参考语音段和错误区间都固定使用同一套 session 全局映射。局部统计没有
+重新优化说话人映射，因此不会人为隐藏 speaker confusion。</p>
+<h2 id="section-2">3. 总体误差分解</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>轨道</th>
+<th style="text-align:right">参考说话人时间</th>
+<th style="text-align:right">漏检（MISS）</th>
+<th style="text-align:right">误报（FA）</th>
+<th style="text-align:right">身份混淆（CONF）</th>
+<th style="text-align:right">DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td style="text-align:right">10809.71 s</td>
+<td style="text-align:right">1787.30 s / 16.53%</td>
+<td style="text-align:right">641.34 s / 5.93%</td>
+<td style="text-align:right">945.70 s / 8.75%</td>
+<td style="text-align:right"><strong>31.22%</strong></td>
+</tr>
+<tr>
+<td>R1</td>
+<td style="text-align:right">10799.99 s</td>
+<td style="text-align:right">2112.58 s / 19.56%</td>
+<td style="text-align:right">684.15 s / 6.33%</td>
+<td style="text-align:right">847.94 s / 7.85%</td>
+<td style="text-align:right"><strong>33.75%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>R1 相比 D1：</p>
+<ul>
+<li>漏检增加 325.28 秒；</li>
+<li>误报增加 42.81 秒；</li>
+<li>说话人身份混淆反而减少 97.76 秒；</li>
+<li>净增约 270.3 秒错误。</li>
+</ul>
+<p>原始分数里 R1 增加的主要是漏检，但时间轴错位会把正确预测转成漏检和误报，
+不能据此认定 R1 模型的 VAD 一定更差。</p>
+<h3 id="section-3">DER 百分点贡献汇总</h3>
+<p>下表把 DER 完整拆成五个互不重复的来源；每列相加等于该轨道的总体 DER。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>错误来源</th>
+<th style="text-align:right">D1 对 DER 的贡献</th>
+<th style="text-align:right">R1 对 DER 的贡献</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单人讲话时漏检</td>
+<td style="text-align:right">6.69 个百分点</td>
+<td style="text-align:right">9.04 个百分点</td>
+</tr>
+<tr>
+<td><strong>多人重叠讲话时漏检</strong></td>
+<td style="text-align:right"><strong>9.85 个百分点</strong></td>
+<td style="text-align:right"><strong>10.52 个百分点</strong></td>
+</tr>
+<tr>
+<td>静音时误报有人讲话</td>
+<td style="text-align:right">4.68 个百分点</td>
+<td style="text-align:right">5.19 个百分点</td>
+</tr>
+<tr>
+<td>有语音时多报说话人数</td>
+<td style="text-align:right">1.25 个百分点</td>
+<td style="text-align:right">1.14 个百分点</td>
+</tr>
+<tr>
+<td>说话人身份混淆</td>
+<td style="text-align:right">8.75 个百分点</td>
+<td style="text-align:right">7.85 个百分点</td>
+</tr>
+<tr>
+<td><strong>总体 DER</strong></td>
+<td style="text-align:right"><strong>31.22%</strong></td>
+<td style="text-align:right"><strong>33.75%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>从未经时间平移的分解可以看到：两条轨道最大的单项来源都是
+<strong>多人重叠讲话时漏检</strong>；R1 比 D1 多出的单人讲话时漏检为 2.35 个百分点，
+其中部分可能是时间轴错位造成的评分假象。</p>
+<h2 id="section-4">4. Collar 与重叠语音的敏感性</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Track</th>
+<th style="text-align:right">严格：0 collar + overlap</th>
+<th style="text-align:right">跳过 overlap</th>
+<th style="text-align:right">0.25 s collar</th>
+<th style="text-align:right">0.25 s collar + 跳过 overlap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td style="text-align:right">31.22%</td>
+<td style="text-align:right">24.42%</td>
+<td style="text-align:right">24.21%</td>
+<td style="text-align:right">17.80%</td>
+</tr>
+<tr>
+<td>R1</td>
+<td style="text-align:right">33.75%</td>
+<td style="text-align:right">27.91%</td>
+<td style="text-align:right">27.22%</td>
+<td style="text-align:right">21.63%</td>
+</tr>
+</tbody>
+</table></div>
+<p>解释：</p>
+<ul>
+<li>只忽略重叠区域，D1/R1 分别下降 6.79/5.84 个百分点。</li>
+<li>只使用 0.25 秒 collar，D1/R1 分别下降 7.01/6.53 个百分点。</li>
+<li>两者同时使用后仍有 17.80%/21.63%；R1 残余错误中也可能包含尚未校正的时轴误差。</li>
+<li>0.25 秒 collar 会从大量短语音边界周围移除相当多的参考时间，所以它是诊断指标，
+不能替代比赛规定的严格分数。</li>
+</ul>
+<h2 id="section-5">5. 错误发生在哪类区域</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Track</th>
+<th>区域</th>
+<th style="text-align:right">错误秒数</th>
+<th style="text-align:right">占该 Track 全部错误</th>
+<th style="text-align:right">区域 DER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>参考静音区</td>
+<td style="text-align:right">505.7</td>
+<td style="text-align:right">15.0%</td>
+<td style="text-align:right">不适用，全部为误报</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>单人语音区</td>
+<td style="text-align:right">1334.8</td>
+<td style="text-align:right">39.6%</td>
+<td style="text-align:right">17.7%</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>重叠语音区</td>
+<td style="text-align:right">1533.8</td>
+<td style="text-align:right"><strong>45.5%</strong></td>
+<td style="text-align:right"><strong>46.9%</strong></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>参考静音区</td>
+<td style="text-align:right">560.7</td>
+<td style="text-align:right">15.4%</td>
+<td style="text-align:right">不适用，全部为误报</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>单人语音区</td>
+<td style="text-align:right">1540.7</td>
+<td style="text-align:right">42.3%</td>
+<td style="text-align:right">20.5%</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>重叠语音区</td>
+<td style="text-align:right">1543.3</td>
+<td style="text-align:right"><strong>42.3%</strong></td>
+<td style="text-align:right"><strong>47.2%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>重叠区域虽然不是全部音频，却贡献了约四成半错误。另一方面，单人区和静音区合计也占
+约 55%--58%，所以仅加入 overlap detector 不能完全解决问题。</p>
+<h2 id="section-6">6. 每个 session 的完整分解</h2>
+<p><code>Ref/Hyp</code> 是参考说话人数/预测聚类数；<code>Overlap</code> 是参考语音墙钟时间中含两位及以上
+说话人的比例；最后三列用于诊断不同评分条件。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Session</th>
+<th>轨道</th>
+<th style="text-align:right">DER</th>
+<th style="text-align:right">漏检</th>
+<th style="text-align:right">误报</th>
+<th style="text-align:right">身份混淆</th>
+<th style="text-align:right">参考/预测人数</th>
+<th style="text-align:right">重叠比例</th>
+<th style="text-align:right">忽略重叠 DER</th>
+<th style="text-align:right">0.25 秒 collar DER</th>
+<th style="text-align:right">两者同时</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20260908-1</td>
+<td>D1</td>
+<td style="text-align:right">28.54</td>
+<td style="text-align:right">15.51</td>
+<td style="text-align:right">3.20</td>
+<td style="text-align:right">9.83</td>
+<td style="text-align:right">4/4</td>
+<td style="text-align:right">22.5</td>
+<td style="text-align:right">23.84</td>
+<td style="text-align:right">21.07</td>
+<td style="text-align:right">16.54</td>
+</tr>
+<tr>
+<td>20260908-1</td>
+<td>R1</td>
+<td style="text-align:right">33.31</td>
+<td style="text-align:right">19.58</td>
+<td style="text-align:right">3.26</td>
+<td style="text-align:right">10.47</td>
+<td style="text-align:right">4/4</td>
+<td style="text-align:right">22.5</td>
+<td style="text-align:right">29.47</td>
+<td style="text-align:right">26.25</td>
+<td style="text-align:right">22.44</td>
+</tr>
+<tr>
+<td>20260908-2</td>
+<td>D1</td>
+<td style="text-align:right">30.85</td>
+<td style="text-align:right">18.12</td>
+<td style="text-align:right">1.43</td>
+<td style="text-align:right">11.30</td>
+<td style="text-align:right">4/3</td>
+<td style="text-align:right">27.1</td>
+<td style="text-align:right">23.02</td>
+<td style="text-align:right">22.86</td>
+<td style="text-align:right">16.79</td>
+</tr>
+<tr>
+<td>20260908-2</td>
+<td>R1</td>
+<td style="text-align:right">32.69</td>
+<td style="text-align:right">18.75</td>
+<td style="text-align:right">2.27</td>
+<td style="text-align:right">11.67</td>
+<td style="text-align:right">4/3</td>
+<td style="text-align:right">27.1</td>
+<td style="text-align:right">25.19</td>
+<td style="text-align:right">25.48</td>
+<td style="text-align:right">19.40</td>
+</tr>
+<tr>
+<td>20260923-1</td>
+<td>D1</td>
+<td style="text-align:right">23.85</td>
+<td style="text-align:right">12.48</td>
+<td style="text-align:right">7.77</td>
+<td style="text-align:right">3.60</td>
+<td style="text-align:right">4/4</td>
+<td style="text-align:right">8.7</td>
+<td style="text-align:right">18.24</td>
+<td style="text-align:right">15.72</td>
+<td style="text-align:right">10.51</td>
+</tr>
+<tr>
+<td>20260923-1</td>
+<td>R1</td>
+<td style="text-align:right"><strong>46.92</strong></td>
+<td style="text-align:right"><strong>28.22</strong></td>
+<td style="text-align:right"><strong>11.69</strong></td>
+<td style="text-align:right">7.01</td>
+<td style="text-align:right">4/5</td>
+<td style="text-align:right">8.7</td>
+<td style="text-align:right">42.65</td>
+<td style="text-align:right">41.28</td>
+<td style="text-align:right">37.08</td>
+</tr>
+<tr>
+<td>20260923-2</td>
+<td>D1</td>
+<td style="text-align:right"><strong>43.11</strong></td>
+<td style="text-align:right"><strong>28.60</strong></td>
+<td style="text-align:right">7.15</td>
+<td style="text-align:right">7.35</td>
+<td style="text-align:right">4/3</td>
+<td style="text-align:right">12.8</td>
+<td style="text-align:right">38.87</td>
+<td style="text-align:right">36.95</td>
+<td style="text-align:right">32.16</td>
+</tr>
+<tr>
+<td>20260923-2</td>
+<td>R1</td>
+<td style="text-align:right"><strong>40.65</strong></td>
+<td style="text-align:right"><strong>25.85</strong></td>
+<td style="text-align:right"><strong>10.48</strong></td>
+<td style="text-align:right">4.33</td>
+<td style="text-align:right">4/4</td>
+<td style="text-align:right">12.8</td>
+<td style="text-align:right">36.72</td>
+<td style="text-align:right">33.83</td>
+<td style="text-align:right">28.97</td>
+</tr>
+<tr>
+<td>20260923-5</td>
+<td>D1</td>
+<td style="text-align:right">14.89</td>
+<td style="text-align:right">5.38</td>
+<td style="text-align:right">9.50</td>
+<td style="text-align:right">0.01</td>
+<td style="text-align:right">4/4</td>
+<td style="text-align:right">0.0</td>
+<td style="text-align:right">14.87</td>
+<td style="text-align:right">8.41</td>
+<td style="text-align:right">8.41</td>
+</tr>
+<tr>
+<td>20260923-5</td>
+<td>R1</td>
+<td style="text-align:right">15.43</td>
+<td style="text-align:right">8.91</td>
+<td style="text-align:right">6.51</td>
+<td style="text-align:right">0.01</td>
+<td style="text-align:right">4/4</td>
+<td style="text-align:right">0.0</td>
+<td style="text-align:right">15.41</td>
+<td style="text-align:right">8.65</td>
+<td style="text-align:right">8.65</td>
+</tr>
+<tr>
+<td>20260924-2</td>
+<td>D1</td>
+<td style="text-align:right">16.90</td>
+<td style="text-align:right">9.54</td>
+<td style="text-align:right">6.68</td>
+<td style="text-align:right">0.67</td>
+<td style="text-align:right">7/7</td>
+<td style="text-align:right">4.8</td>
+<td style="text-align:right">13.39</td>
+<td style="text-align:right">12.92</td>
+<td style="text-align:right">9.19</td>
+</tr>
+<tr>
+<td>20260924-2</td>
+<td>R1</td>
+<td style="text-align:right">14.49</td>
+<td style="text-align:right">8.25</td>
+<td style="text-align:right">4.91</td>
+<td style="text-align:right">1.33</td>
+<td style="text-align:right">7/7</td>
+<td style="text-align:right">4.8</td>
+<td style="text-align:right">10.98</td>
+<td style="text-align:right">11.46</td>
+<td style="text-align:right">7.82</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>D1</td>
+<td style="text-align:right"><strong>51.11</strong></td>
+<td style="text-align:right">22.12</td>
+<td style="text-align:right">8.19</td>
+<td style="text-align:right"><strong>20.80</strong></td>
+<td style="text-align:right"><strong>8/3</strong></td>
+<td style="text-align:right"><strong>37.1</strong></td>
+<td style="text-align:right">47.95</td>
+<td style="text-align:right">46.47</td>
+<td style="text-align:right">41.90</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>R1</td>
+<td style="text-align:right"><strong>47.99</strong></td>
+<td style="text-align:right"><strong>25.69</strong></td>
+<td style="text-align:right">7.94</td>
+<td style="text-align:right"><strong>14.36</strong></td>
+<td style="text-align:right"><strong>8/4</strong></td>
+<td style="text-align:right"><strong>37.1</strong></td>
+<td style="text-align:right">45.70</td>
+<td style="text-align:right">43.32</td>
+<td style="text-align:right">39.71</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="section-7">Session 诊断</h3>
+<h4 id="section-8">20260908-1</h4>
+<ul>
+<li>预测说话人数正确，但重叠比例达到 22.5%。</li>
+<li>D1 的 P006/P009 覆盖率仅 49.3%/3.7%；R1 的 P006/P009 为 13.2%/51.9%。</li>
+<li>说明次要说话人在重叠区被主说话人聚类吞并，而不是简单的聚类数量错误。</li>
+</ul>
+<h4 id="section-9">20260908-2</h4>
+<ul>
+<li>参考 4 人，D1/R1 都只输出 3 个聚类。</li>
+<li>P009 有 181.6 秒参考语音，但两个轨道的独立目标覆盖率都为 0%；其 73.2% 时间
+位于重叠区。</li>
+<li>这是典型的聚类不足（under-clustering），表现为较高漏检和说话人身份混淆。</li>
+</ul>
+<h4 id="section-10">20260923-1</h4>
+<ul>
+<li>D1 原始 DER 为 23.85%，R1 为 46.92%。D1/R1 音频包络在开头和结尾都显示
+R1 约晚 2.03 秒，但参考 TextGrid 未作相应平移。</li>
+<li>仅把 R1 参考时间后移 2.03 秒的诊断 DER 为 20.93%，说明原始漏检和误报中有
+大量时间轴误差。该结果不是官方分数，也未改动模型输出。</li>
+<li>原先用于推断持续背景声的 1.00 dB 语音/静音能量差受错位影响，不能作为噪声证据。</li>
+<li>R1 输出 5 个聚类而参考为 4 人；对齐后仍需单独分析聚类。</li>
+</ul>
+<h4 id="section-11">20260923-2</h4>
+<ul>
+<li>D1 只输出 3 个聚类；P031/P033 覆盖率分别只有 3.1%/0%，导致漏检达到 28.60%。</li>
+<li>R1 输出 4 个聚类；未平移评分的 DER 为 40.65%。音频包络显示 R1 相对 D1
+约早 0.54 秒，平移参考后的诊断 DER 为 26.15%，所以原始 VAD/误报归因不可靠。</li>
+</ul>
+<h4 id="section-12">20260923-5</h4>
+<ul>
+<li>几乎没有重叠，预测人数正确，说话人身份混淆接近 0。</li>
+<li>错误主要是边界/VAD：使用 0.25 秒 collar 后 D1/R1 从 14.89%/15.43% 降至
+8.41%/8.65%。</li>
+<li>该 session 适合用于单独调 VAD 与边界平滑参数。</li>
+</ul>
+<h4 id="section-13">20260924-2</h4>
+<ul>
+<li>参考和预测均为 7 个说话人，整体 DER 最低一档。</li>
+<li>P034 的 48.8 秒语音几乎全部位于重叠区，独立目标覆盖率为 0%；但其总时长较小，
+因此没有把整体 DER 大幅拉高。</li>
+<li>D1/R1 各有一个几乎不与参考说话人重合的额外聚类，说明仍存在少量噪声聚类。</li>
+</ul>
+<h4 id="section-14">20260924-5</h4>
+<ul>
+<li>最严重的 session：参考 8 人，D1 只有 3 个聚类，R1 只有 4 个聚类。</li>
+<li>D1 的 P039、P040、P042、P043、P044 都没有全局映射聚类；R1 的 P039、P040、
+P043、P044 仍没有独立聚类。</li>
+<li>P039/P040/P042/P043 的重叠占比分别很高，说明少数说话人经常与主说话人同时讲话，
+聚类系统将其合并到了主说话人。</li>
+<li>这同时解释了 D1 高达 20.80% 的身份混淆和 22.12% 的漏检。</li>
+</ul>
+<h2 id="section-15">7. 语音段时长与目标说话人覆盖率</h2>
+<p>这里的“覆盖率”表示：在该参考说话人发言期间，全局映射后的 hypothesis 中存在同一
+说话人的时间比例。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Track</th>
+<th>语音段长度</th>
+<th style="text-align:right">段数</th>
+<th style="text-align:right">总时长</th>
+<th style="text-align:right">目标覆盖率</th>
+<th style="text-align:right">完全漏掉</th>
+<th style="text-align:right">覆盖率低于 50%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>&lt;0.5 s</td>
+<td style="text-align:right">40</td>
+<td style="text-align:right">17.5 s</td>
+<td style="text-align:right">62.4%</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">14</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>0.5--1 s</td>
+<td style="text-align:right">718</td>
+<td style="text-align:right">550.2 s</td>
+<td style="text-align:right"><strong>54.7%</strong></td>
+<td style="text-align:right">228</td>
+<td style="text-align:right">276</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>1--2 s</td>
+<td style="text-align:right">1410</td>
+<td style="text-align:right">2088.2 s</td>
+<td style="text-align:right">65.5%</td>
+<td style="text-align:right">307</td>
+<td style="text-align:right">413</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>2--5 s</td>
+<td style="text-align:right">1896</td>
+<td style="text-align:right">5740.0 s</td>
+<td style="text-align:right">74.9%</td>
+<td style="text-align:right">280</td>
+<td style="text-align:right">404</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>&gt;=5 s</td>
+<td style="text-align:right">344</td>
+<td style="text-align:right">2413.8 s</td>
+<td style="text-align:right"><strong>87.0%</strong></td>
+<td style="text-align:right">17</td>
+<td style="text-align:right">24</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>&lt;0.5 s</td>
+<td style="text-align:right">40</td>
+<td style="text-align:right">17.5 s</td>
+<td style="text-align:right">39.6%</td>
+<td style="text-align:right">17</td>
+<td style="text-align:right">23</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>0.5--1 s</td>
+<td style="text-align:right">718</td>
+<td style="text-align:right">550.2 s</td>
+<td style="text-align:right"><strong>48.6%</strong></td>
+<td style="text-align:right">240</td>
+<td style="text-align:right">321</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>1--2 s</td>
+<td style="text-align:right">1409</td>
+<td style="text-align:right">2086.7 s</td>
+<td style="text-align:right">59.6%</td>
+<td style="text-align:right">311</td>
+<td style="text-align:right">467</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>2--5 s</td>
+<td style="text-align:right">1895</td>
+<td style="text-align:right">5737.2 s</td>
+<td style="text-align:right">74.2%</td>
+<td style="text-align:right">178</td>
+<td style="text-align:right">360</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>&gt;=5 s</td>
+<td style="text-align:right">343</td>
+<td style="text-align:right">2408.4 s</td>
+<td style="text-align:right"><strong>85.7%</strong></td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">26</td>
+</tr>
+</tbody>
+</table></div>
+<p>近一半参考 turn 小于 2 秒。短 turn 的低覆盖率和 0 秒 collar 共同放大了 DER。</p>
+<h2 id="section-16">8. 最差的一分钟区间</h2>
+<p>下表只保留参考 speaker-time 至少 30 秒的窗口，避免静音窗口得到无意义的极端比例。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Session</th>
+<th>轨道</th>
+<th style="text-align:right">时间</th>
+<th style="text-align:right">窗口 DER</th>
+<th style="text-align:right">漏检/误报/身份混淆（秒）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20260923-2</td>
+<td>D1</td>
+<td style="text-align:right">1020--1080</td>
+<td style="text-align:right">80.2%</td>
+<td style="text-align:right">44.0 / 0.9 / 3.0</td>
+</tr>
+<tr>
+<td>20260923-2</td>
+<td>D1</td>
+<td style="text-align:right">840--900</td>
+<td style="text-align:right">77.5%</td>
+<td style="text-align:right">32.2 / 6.7 / 4.8</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>D1</td>
+<td style="text-align:right">900--960</td>
+<td style="text-align:right">70.6%</td>
+<td style="text-align:right">14.6 / 1.8 / 23.3</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>D1</td>
+<td style="text-align:right">1380--1440</td>
+<td style="text-align:right">70.5%</td>
+<td style="text-align:right">16.8 / 18.9 / 26.6</td>
+</tr>
+<tr>
+<td>20260923-2</td>
+<td>D1</td>
+<td style="text-align:right">660--720</td>
+<td style="text-align:right">69.5%</td>
+<td style="text-align:right">27.8 / 1.9 / 13.3</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>D1</td>
+<td style="text-align:right">660--720</td>
+<td style="text-align:right">66.0%</td>
+<td style="text-align:right">15.3 / 7.1 / 12.6</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>R1</td>
+<td style="text-align:right">660--720</td>
+<td style="text-align:right">66.0%</td>
+<td style="text-align:right">22.2 / 4.8 / 8.1</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>D1</td>
+<td style="text-align:right">540--600</td>
+<td style="text-align:right">65.5%</td>
+<td style="text-align:right">20.7 / 6.8 / 25.6</td>
+</tr>
+<tr>
+<td>20260923-1</td>
+<td>R1</td>
+<td style="text-align:right">1020--1080</td>
+<td style="text-align:right">64.5%</td>
+<td style="text-align:right">14.7 / 10.4 / 2.6</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>R1</td>
+<td style="text-align:right">1380--1440</td>
+<td style="text-align:right">63.6%</td>
+<td style="text-align:right">19.4 / 19.5 / 17.3</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>R1</td>
+<td style="text-align:right">900--960</td>
+<td style="text-align:right">63.2%</td>
+<td style="text-align:right">18.6 / 1.7 / 15.1</td>
+</tr>
+<tr>
+<td>20260924-5</td>
+<td>D1</td>
+<td style="text-align:right">1140--1200</td>
+<td style="text-align:right">63.1%</td>
+<td style="text-align:right">23.1 / 8.0 / 22.8</td>
+</tr>
+<tr>
+<td>20260908-2</td>
+<td>R1</td>
+<td style="text-align:right">480--540</td>
+<td style="text-align:right">62.6%</td>
+<td style="text-align:right">33.0 / 0.0 / 14.8</td>
+</tr>
+</tbody>
+</table></div>
+<p>进一步的所有 360 个窗口都保存在 <code>time_windows.csv</code>。</p>
+<p>逐分钟五类 DER 错误贡献，以及该分钟内出现的参考说话人编号、预测聚类编号和全局映射，
+见<a href="MINUTE_DER_REPORT.html">逐分钟 D1/R1 对照报告</a>；完整数值与错误秒数见
+<a href="minute_error_sources.csv">逐分钟 CSV</a>。</p>
+<h2 id="section-17">9. 音频通道诊断</h2>
+<ul>
+<li>所有 D1/R1 文件的削波样本比例均为 0%。</li>
+<li>绝对 RMS 与 DER 的 Pearson 相关系数约为 -0.33，不能支持“音量越低 DER 越高”这一
+简单解释。</li>
+<li><code>20260924-2/D1</code> 的整体 RMS 很低（-56.96 dBFS），但 DER 只有 16.90%，说明模型
+并非仅因低增益失败。</li>
+<li><code>20260923-2/R1</code> 比 D1 低约 8.6 dB，但 DER 反而稍低，也说明绝对增益不是主因。</li>
+<li><code>20260923-1/R1</code> 以<strong>未经时间平移的参考标注</strong>计算出的语音与静音能量差为
+1.00 dB。时间轴错位会把真实语音划进“参考静音”块，因此该值不能作为
+R1 噪声严重或 VAD 崩溃的证据。</li>
+</ul>
+<h2 id="section-18">10. 可能原因与置信度</h2>
+<h3 id="section-19">高置信度</h3>
+<ol>
+<li><strong>说话人数估计不足/聚类阈值过保守。</strong> <code>20260924-5</code>、<code>20260908-2</code>、
+<code>20260923-2/D1</code> 有直接的 Ref/Hyp 数量和说话人覆盖证据。</li>
+<li><strong>重叠语音处理不足。</strong> 重叠区贡献 42%--46% 全部错误，多个零覆盖说话人的发言
+高度集中在重叠区。</li>
+<li><strong>短语音和边界量化误差。</strong> 短 turn 覆盖率显著低，0.25 秒 collar 能降低约 6--7
+个百分点。</li>
+<li><strong>R1 时间轴不匹配。</strong> 20260923-1 的开头和结尾都测得约 2.03 秒延迟；
+平移参考时间使该 session R1 DER 降低约 26 个百分点。</li>
+</ol>
+<h3 id="section-20">中等置信度</h3>
+<ol start="5">
+<li><strong>非 oracle VAD 漏检。</strong> 在先排除时间轴错位后，仍可能存在 VAD 漏检；
+原始 R1 漏检秒数不能直接用来估计模型本身的 VAD 缺陷。</li>
+<li><strong>长尾说话人和类别不平衡。</strong> 主说话人通常覆盖较好，时长短、重叠多的次要说话人
+容易没有独立聚类。</li>
+<li><strong>静音区过分割。</strong> 整段 UEM 下，静音区误报贡献约 15% 错误；<code>20260923-5</code> 的
+错误尤其以误报和边界偏差为主。</li>
+</ol>
+<h3 id="section-21">较低置信度或尚未证实</h3>
+<ol start="8">
+<li><strong>单纯整体音量过低。</strong> 数据不支持它作为总体主因。</li>
+<li><strong>部分 R1 通道持续背景声/串音。</strong> 原先支持此判断的
+<code>20260923-1/R1</code> 能量对比受时间错位污染，需要重新对齐后再分析。</li>
+<li><strong>模型/依赖版本差异。</strong> 它可能解释本次结果与 README 贡献者数字的少量差异，但
+无法解释当前 session 内部已经观察到的具体漏检、误报和身份混淆模式。</li>
+</ol>
+<h2 id="section-22">11. 建议的验证实验顺序</h2>
+<ol>
+<li><strong>R1 时间轴核查</strong>：先核实每个 session 的通道同步方式，按确认的时间偏移
+重评分；保留原始分数作为对照，不把诊断分数当作官方结果。</li>
+<li><strong>Oracle speaker count 实验</strong>：对每个 session 固定参考说话人数，只重跑聚类。
+如果 <code>20260924-5</code> 和 <code>20260908-2</code> 大幅下降，就能确认人数估计是主要瓶颈。</li>
+<li><strong>Oracle VAD 实验</strong>：保持 embedding/聚类不变，仅用参考 speech regions。
+它能定量分离 VAD 错误与 speaker clustering 错误。</li>
+<li><strong>重叠检测实验</strong>：加入 overlap-aware segmentation，优先检查 <code>20260924-5</code>、
+<code>20260908-2</code> 和 P034/P039/P040/P042 等高重叠说话人。</li>
+<li><strong>边界平滑/短段合并实验</strong>：在 <code>20260923-5</code> 上调 VAD onset/offset、min-duration、
+padding；该 session 几乎没有聚类混淆，最适合隔离 VAD 效果。</li>
+<li><strong>R1 降噪/VAD 实验</strong>：完成时间对齐后，再针对剩余错误做频谱和回听，
+判断降噪或更稳健的 VAD 是否有帮助。</li>
+<li><strong>逐窗口回听</strong>：从本报告列出的最差一分钟开始，再使用 <code>error_regions.csv</code> 下钻到
+秒级区间；同时对照原始 WAV、参考 RTTM 和预测 RTTM。</li>
+</ol>
+<h2 id="section-23">12. 明细文件说明</h2>
+<ul>
+<li><code>sessions.csv</code>：14 个 session-track 的总体分解、说话人数、四种评分条件。</li>
+<li><code>time_windows.csv</code>：每 60 秒的漏检、误报、身份混淆和 DER，共 360 行。</li>
+<li><code>contexts.csv</code>：静音、单人、重叠三种区域的误差分解。</li>
+<li><code>reference_speakers.csv</code>：每位参考说话人的时长、覆盖率、重叠比例、聚类碎片情况。</li>
+<li><code>speaker_mappings.csv</code>：预测聚类到参考说话人的全局映射与 purity。</li>
+<li><code>speaker_cooccurrence.csv</code>：所有预测/参考说话人组合的共现矩阵长表。</li>
+<li><code>reference_turns.csv</code>：每个参考语音段的目标覆盖率和区间内错误，共 8813 行。</li>
+<li><code>turn_duration_buckets.csv</code>：语音段时长桶的覆盖率统计。</li>
+<li><code>error_regions.csv</code>：所有连续错误区间，共 21666 行，可直接定位 WAV 时间戳。</li>
+<li><code>audio_diagnostics.csv</code>：每轨电平分位数、语音/静音能量差和削波比例。</li>
+<li><code>metadata.json</code>：输入路径、评分政策、窗口长度和各文件行数。</li>
+</ul>
+<h3 id="section-24"><code>reference_turns.csv</code> 使用注意</h3>
+<p><code>target_coverage_pct</code> 是该条参考说话人的独立覆盖率。<code>interval_miss_s</code>、
+<code>interval_fa_s</code>、<code>interval_conf_s</code> 则是在该时间范围内对所有同时活跃说话人计算的标准
+DER 分量。因此重叠语音段之间不能简单相加，否则会重复统计同一时间区间。</p>
+<h2 id="section-25">13. 复现命令</h2>
+<pre><code class="language-bash">cd /home/xujunxian/EAR1/baseline/diarization
+
+conda run --no-capture-output -n diarizen python analyze_der.py \
+  --data-root '/data2/qiuenduo/EAR1-Challenge/Train&amp;Dev' \
+  --results-root results \
+  --output-dir results/der_analysis \
+  --window-seconds 60
+
+conda run --no-capture-output -n diarizen python analyze_audio.py \
+  --data-root '/data2/qiuenduo/EAR1-Challenge/Train&amp;Dev' \
+  --reference-root results/prepare/dev \
+  --output results/der_analysis/audio_diagnostics.csv
+</code></pre>
+</article>
+      <footer class="footer">由 DER 分析产物生成 · 2026-11-06 14:34 CST · 单文件离线 HTML</footer>
+    </div>
+  </main>
+  <button class="back-top" type="button" aria-label="返回顶部">↑</button>
+  <script>
+const sidebar = document.querySelector('.sidebar');
+const menu = document.querySelector('.mobile-nav');
+const backTop = document.querySelector('.back-top');
+const navLinks = [...document.querySelectorAll('.toc a')];
+const sections = navLinks.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+
+menu?.addEventListener('click', () => sidebar.classList.toggle('open'));
+navLinks.forEach(link => link.addEventListener('click', () => sidebar.classList.remove('open')));
+document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+backTop?.addEventListener('click', () => window.scrollTo({top: 0, behavior: 'smooth'}));
+window.addEventListener('scroll', () => backTop.classList.toggle('visible', window.scrollY > 700), {passive: true});
+
+const observer = new IntersectionObserver(entries => {
+  const visible = entries.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+  if (!visible) return;
+  navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + visible.target.id));
+}, {rootMargin: '-15% 0px -72% 0px', threshold: 0});
+sections.forEach(section => observer.observe(section));
+</script>
+</body>
+</html>

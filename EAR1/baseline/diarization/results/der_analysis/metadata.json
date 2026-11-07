@@ -1,0 +1,42 @@
+{
+  "data_root": "/data2/qiuenduo/EAR1-Challenge/Train&Dev",
+  "results_root": "/home/xujunxian/EAR1/baseline/diarization/results",
+  "tracks": [
+    "D1",
+    "R1"
+  ],
+  "sessions": [
+    "20260908-1",
+    "20260908-2",
+    "20260923-1",
+    "20260923-2",
+    "20260923-5",
+    "20260924-2",
+    "20260924-5"
+  ],
+  "window_seconds": 60.0,
+  "mapping_policy": "one global Hungarian mapping per session/track, fixed for all drill-down tables",
+  "scoring_policy": "zero collar, overlap included, full-recording UEM unless diagnostic column says otherwise",
+  "files": {
+    "sessions": "sessions.csv",
+    "time_windows": "time_windows.csv",
+    "contexts": "contexts.csv",
+    "speaker_mappings": "speaker_mappings.csv",
+    "speaker_cooccurrence": "speaker_cooccurrence.csv",
+    "reference_speakers": "reference_speakers.csv",
+    "reference_turns": "reference_turns.csv",
+    "turn_duration_buckets": "turn_duration_buckets.csv",
+    "error_regions": "error_regions.csv"
+  },
+  "row_counts": {
+    "sessions": 14,
+    "time_windows": 360,
+    "contexts": 42,
+    "speaker_mappings": 59,
+    "speaker_cooccurrence": 235,
+    "reference_speakers": 70,
+    "reference_turns": 8813,
+    "turn_duration_buckets": 70,
+    "error_regions": 21666
+  }
+}

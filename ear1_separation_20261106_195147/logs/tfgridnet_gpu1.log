@@ -1,0 +1,6 @@
+/home/xujunxian/miniconda3/envs/ear1-tfgridnet/lib/python3.11/site-packages/espnet2/enh/encoder/stft_encoder.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+20260908-1 R1 chunks 295 seconds 287.93
+20260923-1 R1 chunks 260 seconds 253.33
+20260923-5 R1 chunks 317 seconds 311.26
+20260924-5 R1 chunks 310 seconds 174.95

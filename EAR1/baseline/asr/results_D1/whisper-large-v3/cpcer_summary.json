@@ -1,0 +1,75 @@
+{
+  "metric": "cpCER",
+  "model": "Whisper large-v3",
+  "diarization": "DiariZen predicted RTTM",
+  "overall": {
+    "errors": 29981,
+    "reference_characters": 48637,
+    "cpcer": 0.6164237103439768,
+    "session_device_pairs": 7,
+    "session_device_average_cpcer": 0.5960240838362745
+  },
+  "by_device": {
+    "D1": {
+      "errors": 29981,
+      "reference_characters": 48637,
+      "cpcer": 0.6164237103439768,
+      "session_device_pairs": 7,
+      "session_device_average_cpcer": 0.5960240838362745
+    }
+  },
+  "normalization": "NFKC; lowercase; remove whitespace and Unicode punctuation",
+  "reference_policy": "Personal A/P*.TextGrid, nonempty normalized intervals fully within device duration (+10ms tolerance); outside intervals explicitly reported; no 30s reference filter",
+  "recognition_policy": "Predicted RTTM boundaries/speaker IDs only, intersected with available device audio; split >30s; retain speaker overlaps; no source separation",
+  "rttm_time_policy": "Intersect predicted intervals with [0, device audio duration]; audit clipped/wholly outside segments; original RTTM unchanged; no tail tolerance threshold",
+  "rttm_clamped_segments": 1,
+  "rttm_outside_segments": 0,
+  "inference_identity": {
+    "manifest_sha256": "d58ef11a25a66c4a1146f80225e80238438b06885911525492e5ccaa8faba4cf",
+    "model": {
+      "path": "/home/xujunxian/EAR1/baseline/asr/models/whisper-large-v3",
+      "config_sha256": {
+        "added_tokens.json": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0",
+        "config.json": "ad0e8d1e46f4d01f7861a21509e5d0f977d6cc1f367a370603c92541d819807b",
+        "generation_config.json": "fbdfa70135de9b1d31553393f14e80aaeb1936ea36576b2ba864055943c09d23",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors.index.fp32.json": "bccecde4044933c7f3cbea731a5a4eb1e2dcbef1b9bc5f603d510b8361c45835",
+        "normalizer.json": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+        "preprocessor_config.json": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+        "pytorch_model.bin.index.fp32.json": "321c26ca640af6ad1f00a0cb3a53cb47265a41e66399ae713d7dbbf0cd923b69",
+        "special_tokens_map.json": "1c70773c078cb2ca96e0fcff113102f1d3e2b1504272c3bb63b035d4a6700d87",
+        "tokenizer.json": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca",
+        "tokenizer_config.json": "844b642c73a91359722f47b35705f7174686df33d252695d8572cf9ac03a6389",
+        "vocab.json": "e2aa043ef015641d363d8288e7c241c85e36a5c761fb303598e0710233344387"
+      },
+      "weight_files": {
+        "model.safetensors": {
+          "bytes": 3087130976,
+          "mtime_ns": 1793794470828096977
+        }
+      }
+    },
+    "asr_policy": "whisper_large_v3_rttm_windows_v1",
+    "normalization": "NFKC; lowercase; remove whitespace and Unicode punctuation",
+    "inference_script_sha256": "aee33ebc22d85a678979c879c4d52283e8731c370cf577b3f33b424d0e5a588b",
+    "environment": {
+      "torch": "2.14.1",
+      "transformers": "5.20.2",
+      "numpy": "2.2.6",
+      "soundfile": "0.14.0",
+      "scipy": "1.15.3"
+    },
+    "decoding": {
+      "language": "zh",
+      "task": "transcribe",
+      "sample_rate": 16000,
+      "num_beams": 1,
+      "max_length": 448,
+      "dtype": "float16",
+      "device": "cuda"
+    }
+  },
+  "reference_excluded_intervals": 0,
+  "hit_token_limit_segments": 0,
+  "note": "Preliminary cpCER, not official challenge scoring; per-session/device optimal speaker assignment. Overall sums errors/reference characters; no time collar. Error-operation breakdown not computed."
+}

@@ -1,0 +1,5876 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1548.907000
+tiers? <exists>
+size = 8
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "P042"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 233
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 2.490000
+            text = ""
+        intervals [2]:
+            xmin = 2.490000
+            xmax = 3.610000
+            text = "开始吧，浩哥。"
+        intervals [3]:
+            xmin = 3.610000
+            xmax = 6.250000
+            text = ""
+        intervals [4]:
+            xmin = 6.250000
+            xmax = 7.790000
+            text = "可以的可以的。"
+        intervals [5]:
+            xmin = 7.790000
+            xmax = 48.470000
+            text = ""
+        intervals [6]:
+            xmin = 48.470000
+            xmax = 50.010000
+            text = "河间的肉是凉的是吧。"
+        intervals [7]:
+            xmin = 50.010000
+            xmax = 50.830000
+            text = ""
+        intervals [8]:
+            xmin = 50.830000
+            xmax = 52.060000
+            text = "保定的是热的。"
+        intervals [9]:
+            xmin = 52.060000
+            xmax = 53.420000
+            text = ""
+        intervals [10]:
+            xmin = 53.420000
+            xmax = 54.630000
+            text = "而且焖子也不一样。"
+        intervals [11]:
+            xmin = 54.630000
+            xmax = 58.190000
+            text = ""
+        intervals [12]:
+            xmin = 58.190000
+            xmax = 59.900000
+            text = "然后呢，哈。"
+        intervals [13]:
+            xmin = 59.900000
+            xmax = 78.910000
+            text = ""
+        intervals [14]:
+            xmin = 78.910000
+            xmax = 80.510000
+            text = "那那不是网红吗那不是。"
+        intervals [15]:
+            xmin = 80.510000
+            xmax = 107.610000
+            text = ""
+        intervals [16]:
+            xmin = 107.610000
+            xmax = 108.530000
+            text = "就是荣成的。"
+        intervals [17]:
+            xmin = 108.530000
+            xmax = 117.290000
+            text = ""
+        intervals [18]:
+            xmin = 117.290000
+            xmax = 120.040000
+            text = "炖的炖的，没刺还没什么刺。"
+        intervals [19]:
+            xmin = 120.040000
+            xmax = 121.160000
+            text = ""
+        intervals [20]:
+            xmin = 121.160000
+            xmax = 122.610000
+            text = "嗯，反正能吃。"
+        intervals [21]:
+            xmin = 122.610000
+            xmax = 127.110000
+            text = ""
+        intervals [22]:
+            xmin = 127.110000
+            xmax = 131.310000
+            text = "啥啥的都有他这还加菜呢，什么蒜味呃风味茄子啥的。"
+        intervals [23]:
+            xmin = 131.310000
+            xmax = 131.880000
+            text = ""
+        intervals [24]:
+            xmin = 131.880000
+            xmax = 135.140000
+            text = "对，加啥的都有他晚上凌晨。"
+        intervals [25]:
+            xmin = 135.140000
+            xmax = 135.730000
+            text = ""
+        intervals [26]:
+            xmin = 135.730000
+            xmax = 138.910000
+            text = "三点还营业呢三点就开始营业了。"
+        intervals [27]:
+            xmin = 138.910000
+            xmax = 142.550000
+            text = ""
+        intervals [28]:
+            xmin = 142.550000
+            xmax = 143.390000
+            text = "那鱼呀。"
+        intervals [29]:
+            xmin = 143.390000
+            xmax = 144.610000
+            text = ""
+        intervals [30]:
+            xmin = 144.610000
+            xmax = 147.370000
+            text = "一小条就就这么大就这么大。"
+        intervals [31]:
+            xmin = 147.370000
+            xmax = 150.400000
+            text = ""
+        intervals [32]:
+            xmin = 150.400000
+            xmax = 152.700000
+            text = " 加两加满。"
+        intervals [33]:
+            xmin = 152.700000
+            xmax = 154.830000
+            text = ""
+        intervals [34]:
+            xmin = 154.830000
+            xmax = 157.990000
+            text = "加个，一点。"
+        intervals [35]:
+            xmin = 157.990000
+            xmax = 170.920000
+            text = ""
+        intervals [36]:
+            xmin = 170.920000
+            xmax = 174.970000
+            text = "不是他谁吃过就他就他吃过你看我没吃没吃过."
+        intervals [37]:
+            xmin = 174.970000
+            xmax = 195.170000
+            text = ""
+        intervals [38]:
+            xmin = 195.170000
+            xmax = 197.240000
+            text = "哈哈，多少钱一个。"
+        intervals [39]:
+            xmin = 197.240000
+            xmax = 200.580000
+            text = ""
+        intervals [40]:
+            xmin = 200.580000
+            xmax = 202.090000
+            text = "也不贵应该。"
+        intervals [41]:
+            xmin = 202.090000
+            xmax = 205.330000
+            text = ""
+        intervals [42]:
+            xmin = 205.330000
+            xmax = 206.080000
+            text = "火烧。"
+        intervals [43]:
+            xmin = 206.080000
+            xmax = 209.060000
+            text = ""
+        intervals [44]:
+            xmin = 209.060000
+            xmax = 211.740000
+            text = "嗯，太小了太小了。"
+        intervals [45]:
+            xmin = 211.740000
+            xmax = 212.810000
+            text = ""
+        intervals [46]:
+            xmin = 212.810000
+            xmax = 214.950000
+            text = "汉堡包儿的。"
+        intervals [47]:
+            xmin = 214.950000
+            xmax = 215.050000
+            text = ""
+        intervals [48]:
+            xmin = 215.050000
+            xmax = 219.000000
+            text = "嗯就这么大点火烧火烧。"
+        intervals [49]:
+            xmin = 219.000000
+            xmax = 220.300000
+            text = ""
+        intervals [50]:
+            xmin = 220.300000
+            xmax = 222.390000
+            text = "你一看你就没见过。"
+        intervals [51]:
+            xmin = 222.390000
+            xmax = 225.160000
+            text = ""
+        intervals [52]:
+            xmin = 225.160000
+            xmax = 227.320000
+            text = "一口一个你能吃不饱啊，哼。"
+        intervals [53]:
+            xmin = 227.320000
+            xmax = 229.180000
+            text = ""
+        intervals [54]:
+            xmin = 229.180000
+            xmax = 231.170000
+            text = "那不知道在哪。"
+        intervals [55]:
+            xmin = 231.170000
+            xmax = 238.670000
+            text = ""
+        intervals [56]:
+            xmin = 238.670000
+            xmax = 241.950000
+            text = "不赚钱很哼太小了."
+        intervals [57]:
+            xmin = 241.950000
+            xmax = 259.890000
+            text = ""
+        intervals [58]:
+            xmin = 259.890000
+            xmax = 261.630000
+            text = "会友后边？"
+        intervals [59]:
+            xmin = 261.630000
+            xmax = 286.050000
+            text = ""
+        intervals [60]:
+            xmin = 286.050000
+            xmax = 287.030000
+            text = "重庆吗？"
+        intervals [61]:
+            xmin = 287.030000
+            xmax = 289.240000
+            text = ""
+        intervals [62]:
+            xmin = 289.240000
+            xmax = 291.410000
+            text = "不是会有后边那个院子里边儿，是吗？"
+        intervals [63]:
+            xmin = 291.410000
+            xmax = 309.880000
+            text = ""
+        intervals [64]:
+            xmin = 309.880000
+            xmax = 312.450000
+            text = "他那只有，只有辣锅。"
+        intervals [65]:
+            xmin = 312.450000
+            xmax = 313.390000
+            text = ""
+        intervals [66]:
+            xmin = 313.390000
+            xmax = 314.600000
+            text = "呃，有番茄锅。"
+        intervals [67]:
+            xmin = 314.600000
+            xmax = 350.110000
+            text = ""
+        intervals [68]:
+            xmin = 350.110000
+            xmax = 351.710000
+            text = "7分钟吧。"
+        intervals [69]:
+            xmin = 351.710000
+            xmax = 353.030000
+            text = ""
+        intervals [70]:
+            xmin = 353.030000
+            xmax = 354.950000
+            text = "反正鸭血不好熟鸭血。"
+        intervals [71]:
+            xmin = 354.950000
+            xmax = 370.470000
+            text = ""
+        intervals [72]:
+            xmin = 370.470000
+            xmax = 371.450000
+            text = "多嫩呐。"
+        intervals [73]:
+            xmin = 371.450000
+            xmax = 379.660000
+            text = ""
+        intervals [74]:
+            xmin = 379.660000
+            xmax = 381.300000
+            text = "嫩乎的。"
+        intervals [75]:
+            xmin = 381.300000
+            xmax = 405.490000
+            text = ""
+        intervals [76]:
+            xmin = 405.490000
+            xmax = 408.930000
+            text = "云贵川是啥啊，也是火锅吗？"
+        intervals [77]:
+            xmin = 408.930000
+            xmax = 425.070000
+            text = ""
+        intervals [78]:
+            xmin = 425.070000
+            xmax = 426.220000
+            text = "什么呀火锅啊。"
+        intervals [79]:
+            xmin = 426.220000
+            xmax = 427.620000
+            text = ""
+        intervals [80]:
+            xmin = 427.620000
+            xmax = 428.550000
+            text = "炒菜啊。"
+        intervals [81]:
+            xmin = 428.550000
+            xmax = 437.340000
+            text = ""
+        intervals [82]:
+            xmin = 437.340000
+            xmax = 439.720000
+            text = "上锁上锁是啥呀？"
+        intervals [83]:
+            xmin = 439.720000
+            xmax = 443.870000
+            text = ""
+        intervals [84]:
+            xmin = 443.870000
+            xmax = 447.090000
+            text = "啊，怕怕你吃了那啥呀。"
+        intervals [85]:
+            xmin = 447.090000
+            xmax = 448.230000
+            text = ""
+        intervals [86]:
+            xmin = 448.230000
+            xmax = 450.350000
+            text = "怕你吃了看看见你太奶。"
+        intervals [87]:
+            xmin = 450.350000
+            xmax = 455.420000
+            text = ""
+        intervals [88]:
+            xmin = 455.420000
+            xmax = 457.330000
+            text = "当地人还没熟那就吃是吗。"
+        intervals [89]:
+            xmin = 457.330000
+            xmax = 457.890000
+            text = ""
+        intervals [90]:
+            xmin = 457.890000
+            xmax = 459.880000
+            text = "就爱那个感受感觉。"
+        intervals [91]:
+            xmin = 459.880000
+            xmax = 491.210000
+            text = ""
+        intervals [92]:
+            xmin = 491.210000
+            xmax = 494.520000
+            text = "探店吗哈哈哈哈哈哈哈哈哈。"
+        intervals [93]:
+            xmin = 494.520000
+            xmax = 502.780000
+            text = ""
+        intervals [94]:
+            xmin = 502.780000
+            xmax = 505.160000
+            text = "行，哪好吃先问问你，后边。"
+        intervals [95]:
+            xmin = 505.160000
+            xmax = 517.560000
+            text = ""
+        intervals [96]:
+            xmin = 517.560000
+            xmax = 518.780000
+            text = "不知道。"
+        intervals [97]:
+            xmin = 518.780000
+            xmax = 597.890000
+            text = ""
+        intervals [98]:
+            xmin = 597.890000
+            xmax = 599.580000
+            text = "挂壁呢还。"
+        intervals [99]:
+            xmin = 599.580000
+            xmax = 614.690000
+            text = ""
+        intervals [100]:
+            xmin = 614.690000
+            xmax = 616.990000
+            text = "最多喝点茶百道。"
+        intervals [101]:
+            xmin = 616.990000
+            xmax = 648.840000
+            text = ""
+        intervals [102]:
+            xmin = 648.840000
+            xmax = 651.550000
+            text = "不是杨仔不是喜欢愿意喝点小啤啤呀。"
+        intervals [103]:
+            xmin = 651.550000
+            xmax = 652.350000
+            text = ""
+        intervals [104]:
+            xmin = 652.350000
+            xmax = 653.650000
+            text = "小啤啤啊。"
+        intervals [105]:
+            xmin = 653.650000
+            xmax = 654.600000
+            text = ""
+        intervals [106]:
+            xmin = 654.600000
+            xmax = 657.060000
+            text = "小麦什么牌子的小麦果汁？"
+        intervals [107]:
+            xmin = 657.060000
+            xmax = 682.380000
+            text = ""
+        intervals [108]:
+            xmin = 682.380000
+            xmax = 683.190000
+            text = "精酿。"
+        intervals [109]:
+            xmin = 683.190000
+            xmax = 703.080000
+            text = ""
+        intervals [110]:
+            xmin = 703.080000
+            xmax = 706.080000
+            text = "你就多喝就甜了多喝就变甜了。"
+        intervals [111]:
+            xmin = 706.080000
+            xmax = 737.130000
+            text = ""
+        intervals [112]:
+            xmin = 737.130000
+            xmax = 738.360000
+            text = "喝一杯，喝一。"
+        intervals [113]:
+            xmin = 738.360000
+            xmax = 738.920000
+            text = ""
+        intervals [114]:
+            xmin = 738.920000
+            xmax = 740.070000
+            text = "喝一杯就到了。"
+        intervals [115]:
+            xmin = 740.070000
+            xmax = 761.600000
+            text = ""
+        intervals [116]:
+            xmin = 761.600000
+            xmax = 763.140000
+            text = "踩着箱喝。"
+        intervals [117]:
+            xmin = 763.140000
+            xmax = 831.930000
+            text = ""
+        intervals [118]:
+            xmin = 831.930000
+            xmax = 834.980000
+            text = "你自己去啊，嗯嗯。"
+        intervals [119]:
+            xmin = 834.980000
+            xmax = 839.410000
+            text = ""
+        intervals [120]:
+            xmin = 839.410000
+            xmax = 843.250000
+            text = "这荣成这还有酒吧呢？不知道啊。"
+        intervals [121]:
+            xmin = 843.250000
+            xmax = 893.910000
+            text = ""
+        intervals [122]:
+            xmin = 893.910000
+            xmax = 894.910000
+            text = "白色儿那个。"
+        intervals [123]:
+            xmin = 894.910000
+            xmax = 897.390000
+            text = ""
+        intervals [124]:
+            xmin = 897.390000
+            xmax = 898.930000
+            text = "是白白色儿的那个呗。"
+        intervals [125]:
+            xmin = 898.930000
+            xmax = 902.150000
+            text = ""
+        intervals [126]:
+            xmin = 902.150000
+            xmax = 905.760000
+            text = "就那个就那个那个那个兰州拉面的那儿的那个呗。"
+        intervals [127]:
+            xmin = 905.760000
+            xmax = 907.520000
+            text = ""
+        intervals [128]:
+            xmin = 907.520000
+            xmax = 908.960000
+            text = "啊清真那个。"
+        intervals [129]:
+            xmin = 908.960000
+            xmax = 909.910000
+            text = ""
+        intervals [130]:
+            xmin = 909.910000
+            xmax = 913.940000
+            text = "你吃过？我以为你我以为你吃过呢。"
+        intervals [131]:
+            xmin = 913.940000
+            xmax = 916.000000
+            text = ""
+        intervals [132]:
+            xmin = 916.000000
+            xmax = 917.350000
+            text = "没没去过。"
+        intervals [133]:
+            xmin = 917.350000
+            xmax = 922.500000
+            text = ""
+        intervals [134]:
+            xmin = 922.500000
+            xmax = 925.740000
+            text = "对那那不是就只有肉吗？有别的东西吗？"
+        intervals [135]:
+            xmin = 925.740000
+            xmax = 929.250000
+            text = ""
+        intervals [136]:
+            xmin = 929.250000
+            xmax = 935.320000
+            text = "没有我看他们拍网上面都只有白色的肉，没有别的。嗯。"
+        intervals [137]:
+            xmin = 935.320000
+            xmax = 947.820000
+            text = ""
+        intervals [138]:
+            xmin = 947.820000
+            xmax = 952.620000
+            text = "不喜欢，甜品指的是啥呀？甜品蛋糕啊？"
+        intervals [139]:
+            xmin = 952.620000
+            xmax = 981.960000
+            text = ""
+        intervals [140]:
+            xmin = 981.960000
+            xmax = 983.400000
+            text = "不是能点外卖吗？"
+        intervals [141]:
+            xmin = 983.400000
+            xmax = 992.970000
+            text = ""
+        intervals [142]:
+            xmin = 992.970000
+            xmax = 997.510000
+            text = "可这么长这么长这么长你这一个人吃都吃饱了。"
+        intervals [143]:
+            xmin = 997.510000
+            xmax = 998.440000
+            text = ""
+        intervals [144]:
+            xmin = 998.440000
+            xmax = 999.430000
+            text = "太腻了。"
+        intervals [145]:
+            xmin = 999.430000
+            xmax = 1008.680000
+            text = ""
+        intervals [146]:
+            xmin = 1008.680000
+            xmax = 1010.330000
+            text = "都吃不下去太腻了。"
+        intervals [147]:
+            xmin = 1010.330000
+            xmax = 1010.570000
+            text = ""
+        intervals [148]:
+            xmin = 1010.570000
+            xmax = 1011.830000
+            text = "吃一半不吃不了了。"
+        intervals [149]:
+            xmin = 1011.830000
+            xmax = 1014.560000
+            text = ""
+        intervals [150]:
+            xmin = 1014.560000
+            xmax = 1016.570000
+            text = "他吃不了，不让吃。"
+        intervals [151]:
+            xmin = 1016.570000
+            xmax = 1030.250000
+            text = ""
+        intervals [152]:
+            xmin = 1030.250000
+            xmax = 1032.960000
+            text = "你这都是老吃家的，你别管，你就跟着吃就行了。"
+        intervals [153]:
+            xmin = 1032.960000
+            xmax = 1036.080000
+            text = ""
+        intervals [154]:
+            xmin = 1036.080000
+            xmax = 1038.430000
+            text = "就是我感觉吃的也是一个味儿，哈哈。"
+        intervals [155]:
+            xmin = 1038.430000
+            xmax = 1039.820000
+            text = ""
+        intervals [156]:
+            xmin = 1039.820000
+            xmax = 1043.240000
+            text = "主要是蘸上那个番茄酱之后就更是一个味儿了。"
+        intervals [157]:
+            xmin = 1043.240000
+            xmax = 1057.860000
+            text = ""
+        intervals [158]:
+            xmin = 1057.860000
+            xmax = 1059.260000
+            text = "荣西没有麦当劳吗？"
+        intervals [159]:
+            xmin = 1059.260000
+            xmax = 1061.100000
+            text = ""
+        intervals [160]:
+            xmin = 1061.100000
+            xmax = 1063.370000
+            text = "荣东那是肯德基是吗？嗯。"
+        intervals [161]:
+            xmin = 1063.370000
+            xmax = 1096.360000
+            text = ""
+        intervals [162]:
+            xmin = 1096.360000
+            xmax = 1099.750000
+            text = "知识盲区了，呵呵。"
+        intervals [163]:
+            xmin = 1099.750000
+            xmax = 1177.930000
+            text = ""
+        intervals [164]:
+            xmin = 1177.930000
+            xmax = 1181.420000
+            text = "会，会，之前一直点华莱士。"
+        intervals [165]:
+            xmin = 1181.420000
+            xmax = 1182.020000
+            text = ""
+        intervals [166]:
+            xmin = 1182.020000
+            xmax = 1184.780000
+            text = "真的，真的真的。"
+        intervals [167]:
+            xmin = 1184.780000
+            xmax = 1187.690000
+            text = ""
+        intervals [168]:
+            xmin = 1187.690000
+            xmax = 1190.260000
+            text = "但是华莱士是真便宜。"
+        intervals [169]:
+            xmin = 1190.260000
+            xmax = 1190.670000
+            text = ""
+        intervals [170]:
+            xmin = 1190.670000
+            xmax = 1192.570000
+            text = "没有行，他就是不太。"
+        intervals [171]:
+            xmin = 1192.570000
+            xmax = 1192.810000
+            text = ""
+        intervals [172]:
+            xmin = 1192.810000
+            xmax = 1194.220000
+            text = "不太那啥？"
+        intervals [173]:
+            xmin = 1194.220000
+            xmax = 1195.540000
+            text = ""
+        intervals [174]:
+            xmin = 1195.540000
+            xmax = 1197.340000
+            text = "不太健康哈哈哈。"
+        intervals [175]:
+            xmin = 1197.340000
+            xmax = 1198.340000
+            text = ""
+        intervals [176]:
+            xmin = 1198.340000
+            xmax = 1199.720000
+            text = "不太卫生。"
+        intervals [177]:
+            xmin = 1199.720000
+            xmax = 1200.490000
+            text = ""
+        intervals [178]:
+            xmin = 1200.490000
+            xmax = 1201.880000
+            text = "因为他便宜。"
+        intervals [179]:
+            xmin = 1201.880000
+            xmax = 1206.160000
+            text = ""
+        intervals [180]:
+            xmin = 1206.160000
+            xmax = 1209.360000
+            text = "嗯，想那啥你可以吃塔斯汀。"
+        intervals [181]:
+            xmin = 1209.360000
+            xmax = 1319.550000
+            text = ""
+        intervals [182]:
+            xmin = 1319.550000
+            xmax = 1321.590000
+            text = "啊，那菜里边的蒜呢？"
+        intervals [183]:
+            xmin = 1321.590000
+            xmax = 1322.350000
+            text = ""
+        intervals [184]:
+            xmin = 1322.350000
+            xmax = 1324.120000
+            text = "熟的那种没事啊。"
+        intervals [185]:
+            xmin = 1324.120000
+            xmax = 1324.980000
+            text = ""
+        intervals [186]:
+            xmin = 1324.980000
+            xmax = 1327.630000
+            text = "熟的也不，那你那好多菜里面都有蒜呀。"
+        intervals [187]:
+            xmin = 1327.630000
+            xmax = 1330.500000
+            text = ""
+        intervals [188]:
+            xmin = 1330.500000
+            xmax = 1333.460000
+            text = "有，有。"
+        intervals [189]:
+            xmin = 1333.460000
+            xmax = 1354.150000
+            text = ""
+        intervals [190]:
+            xmin = 1354.150000
+            xmax = 1356.320000
+            text = "那你吃火锅也不放蒜啊。"
+        intervals [191]:
+            xmin = 1356.320000
+            xmax = 1357.330000
+            text = ""
+        intervals [192]:
+            xmin = 1357.330000
+            xmax = 1359.900000
+            text = "那你那弄那个油碟不放蒜。"
+        intervals [193]:
+            xmin = 1359.900000
+            xmax = 1361.060000
+            text = ""
+        intervals [194]:
+            xmin = 1361.060000
+            xmax = 1362.760000
+            text = "我的天哈哈哈。"
+        intervals [195]:
+            xmin = 1362.760000
+            xmax = 1365.080000
+            text = ""
+        intervals [196]:
+            xmin = 1365.080000
+            xmax = 1366.240000
+            text = "啊。"
+        intervals [197]:
+            xmin = 1366.240000
+            xmax = 1367.270000
+            text = ""
+        intervals [198]:
+            xmin = 1367.270000
+            xmax = 1369.340000
+            text = "那油碟不放蒜。"
+        intervals [199]:
+            xmin = 1369.340000
+            xmax = 1370.360000
+            text = ""
+        intervals [200]:
+            xmin = 1370.360000
+            xmax = 1374.230000
+            text = "那就没了呀就只有小米辣了，小米辣葱花香菜。"
+        intervals [201]:
+            xmin = 1374.230000
+            xmax = 1395.110000
+            text = ""
+        intervals [202]:
+            xmin = 1395.110000
+            xmax = 1397.650000
+            text = "那有爱吃的有不爱吃的。"
+        intervals [203]:
+            xmin = 1397.650000
+            xmax = 1401.750000
+            text = ""
+        intervals [204]:
+            xmin = 1401.750000
+            xmax = 1403.770000
+            text = "有的菜你不放香菜就。"
+        intervals [205]:
+            xmin = 1403.770000
+            xmax = 1403.910000
+            text = ""
+        intervals [206]:
+            xmin = 1403.910000
+            xmax = 1406.630000
+            text = "不是那个菜了，就不是那个味儿了。"
+        intervals [207]:
+            xmin = 1406.630000
+            xmax = 1407.960000
+            text = ""
+        intervals [208]:
+            xmin = 1407.960000
+            xmax = 1409.680000
+            text = "不那你你能吃茴香吗？"
+        intervals [209]:
+            xmin = 1409.680000
+            xmax = 1420.450000
+            text = ""
+        intervals [210]:
+            xmin = 1420.450000
+            xmax = 1421.670000
+            text = "我。"
+        intervals [211]:
+            xmin = 1421.670000
+            xmax = 1422.650000
+            text = ""
+        intervals [212]:
+            xmin = 1422.650000
+            xmax = 1425.380000
+            text = "我小我小时候吃不了，我长大了能吃了。"
+        intervals [213]:
+            xmin = 1425.380000
+            xmax = 1425.830000
+            text = ""
+        intervals [214]:
+            xmin = 1425.830000
+            xmax = 1426.810000
+            text = "这就是。"
+        intervals [215]:
+            xmin = 1426.810000
+            xmax = 1428.810000
+            text = ""
+        intervals [216]:
+            xmin = 1428.810000
+            xmax = 1429.730000
+            text = "不能。"
+        intervals [217]:
+            xmin = 1429.730000
+            xmax = 1432.640000
+            text = ""
+        intervals [218]:
+            xmin = 1432.640000
+            xmax = 1436.030000
+            text = "不是啊，我一我一我闻着就很难受了。"
+        intervals [219]:
+            xmin = 1436.030000
+            xmax = 1469.960000
+            text = ""
+        intervals [220]:
+            xmin = 1469.960000
+            xmax = 1472.560000
+            text = "我也吃不了我不吃。"
+        intervals [221]:
+            xmin = 1472.560000
+            xmax = 1485.810000
+            text = ""
+        intervals [222]:
+            xmin = 1485.810000
+            xmax = 1488.990000
+            text = "粉，炸蛋还有那个酸笋。"
+        intervals [223]:
+            xmin = 1488.990000
+            xmax = 1489.290000
+            text = ""
+        intervals [224]:
+            xmin = 1489.290000
+            xmax = 1490.950000
+            text = "就是酸笋味大其实。"
+        intervals [225]:
+            xmin = 1490.950000
+            xmax = 1491.570000
+            text = ""
+        intervals [226]:
+            xmin = 1491.570000
+            xmax = 1493.130000
+            text = "还有那个汤味味大。"
+        intervals [227]:
+            xmin = 1493.130000
+            xmax = 1519.590000
+            text = ""
+        intervals [228]:
+            xmin = 1519.590000
+            xmax = 1521.620000
+            text = "你得吃个炸蛋更长肉。"
+        intervals [229]:
+            xmin = 1521.620000
+            xmax = 1525.000000
+            text = ""
+        intervals [230]:
+            xmin = 1525.000000
+            xmax = 1527.100000
+            text = "麻酱啥呀麻酱。"
+        intervals [231]:
+            xmin = 1527.100000
+            xmax = 1528.760000
+            text = ""
+        intervals [232]:
+            xmin = 1528.760000
+            xmax = 1531.070000
+            text = "我以为你麻酱螺蛳粉呢。"
+        intervals [233]:
+            xmin = 1531.070000
+            xmax = 1548.907000
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "P041"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 373
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 3.580000
+            text = ""
+        intervals [2]:
+            xmin = 3.580000
+            xmax = 6.390000
+            text = "嗯,我开始吗?"
+        intervals [3]:
+            xmin = 6.390000
+            xmax = 7.480000
+            text = ""
+        intervals [4]:
+            xmin = 7.480000
+            xmax = 10.690000
+            text = "我先开始啊嗯今天我们说那个。"
+        intervals [5]:
+            xmin = 10.690000
+            xmax = 10.810000
+            text = ""
+        intervals [6]:
+            xmin = 10.810000
+            xmax = 12.830000
+            text = "各地的美食首先就是。"
+        intervals [7]:
+            xmin = 12.830000
+            xmax = 12.970000
+            text = ""
+        intervals [8]:
+            xmin = 12.970000
+            xmax = 15.960000
+            text = "我想说保定的驴肉火烧。"
+        intervals [9]:
+            xmin = 15.960000
+            xmax = 16.090000
+            text = ""
+        intervals [10]:
+            xmin = 16.090000
+            xmax = 19.250000
+            text = "圆的肯定是最好吃的，因为为什么呢？因为。"
+        intervals [11]:
+            xmin = 19.250000
+            xmax = 19.400000
+            text = ""
+        intervals [12]:
+            xmin = 19.400000
+            xmax = 22.970000
+            text = "因为保定驴肉火烧圆的是用的是卤肉它比较。"
+        intervals [13]:
+            xmin = 22.970000
+            xmax = 23.190000
+            text = ""
+        intervals [14]:
+            xmin = 23.190000
+            xmax = 25.070000
+            text = "呃吃起来比较。"
+        intervals [15]:
+            xmin = 25.070000
+            xmax = 25.600000
+            text = ""
+        intervals [16]:
+            xmin = 25.600000
+            xmax = 27.610000
+            text = "油腻，然后。"
+        intervals [17]:
+            xmin = 27.610000
+            xmax = 27.950000
+            text = ""
+        intervals [18]:
+            xmin = 27.950000
+            xmax = 30.170000
+            text = "呃，河间的驴肉火烧。"
+        intervals [19]:
+            xmin = 30.170000
+            xmax = 30.690000
+            text = ""
+        intervals [20]:
+            xmin = 30.690000
+            xmax = 33.480000
+            text = "河间的驴肉火烧他的用的是酱的。"
+        intervals [21]:
+            xmin = 33.480000
+            xmax = 33.560000
+            text = ""
+        intervals [22]:
+            xmin = 33.560000
+            xmax = 35.340000
+            text = "然后吃起来发干，然后。"
+        intervals [23]:
+            xmin = 35.340000
+            xmax = 35.730000
+            text = ""
+        intervals [24]:
+            xmin = 35.730000
+            xmax = 36.740000
+            text = "呃。"
+        intervals [25]:
+            xmin = 36.740000
+            xmax = 37.970000
+            text = ""
+        intervals [26]:
+            xmin = 37.970000
+            xmax = 39.560000
+            text = "他是用的是。"
+        intervals [27]:
+            xmin = 39.560000
+            xmax = 40.630000
+            text = ""
+        intervals [28]:
+            xmin = 40.630000
+            xmax = 42.720000
+            text = "它的皮比较脆。"
+        intervals [29]:
+            xmin = 42.720000
+            xmax = 43.360000
+            text = ""
+        intervals [30]:
+            xmin = 43.360000
+            xmax = 47.200000
+            text = "但是，我不不是特别喜欢吃这种类型。"
+        intervals [31]:
+            xmin = 47.200000
+            xmax = 49.630000
+            text = ""
+        intervals [32]:
+            xmin = 49.630000
+            xmax = 50.890000
+            text = "嗯对。"
+        intervals [33]:
+            xmin = 50.890000
+            xmax = 54.860000
+            text = ""
+        intervals [34]:
+            xmin = 54.860000
+            xmax = 55.510000
+            text = "对。"
+        intervals [35]:
+            xmin = 55.510000
+            xmax = 58.950000
+            text = ""
+        intervals [36]:
+            xmin = 58.950000
+            xmax = 60.930000
+            text = "如果加如果。"
+        intervals [37]:
+            xmin = 60.930000
+            xmax = 61.130000
+            text = ""
+        intervals [38]:
+            xmin = 61.130000
+            xmax = 63.000000
+            text = "吃的话我推荐是。"
+        intervals [39]:
+            xmin = 63.000000
+            xmax = 63.180000
+            text = ""
+        intervals [40]:
+            xmin = 63.180000
+            xmax = 67.360000
+            text = "嗯加一点青椒这样的话也可以解腻，也可以。"
+        intervals [41]:
+            xmin = 67.360000
+            xmax = 67.500000
+            text = ""
+        intervals [42]:
+            xmin = 67.500000
+            xmax = 68.640000
+            text = "呃，有一个辣味。"
+        intervals [43]:
+            xmin = 68.640000
+            xmax = 118.010000
+            text = ""
+        intervals [44]:
+            xmin = 118.010000
+            xmax = 122.250000
+            text = "炖的，炖的，没刺，呃。"
+        intervals [45]:
+            xmin = 122.250000
+            xmax = 137.540000
+            text = ""
+        intervals [46]:
+            xmin = 137.540000
+            xmax = 140.080000
+            text = "它是整它是整只的，还是说炖。"
+        intervals [47]:
+            xmin = 140.080000
+            xmax = 140.250000
+            text = ""
+        intervals [48]:
+            xmin = 140.250000
+            xmax = 143.750000
+            text = "那个切切好的还是，啊。"
+        intervals [49]:
+            xmin = 143.750000
+            xmax = 144.860000
+            text = ""
+        intervals [50]:
+            xmin = 144.860000
+            xmax = 148.830000
+            text = "一小一小条一小条一小条一一个加一个火烧吗？"
+        intervals [51]:
+            xmin = 148.830000
+            xmax = 151.790000
+            text = ""
+        intervals [52]:
+            xmin = 151.790000
+            xmax = 153.510000
+            text = "呃，加满是吧。 "
+        intervals [53]:
+            xmin = 153.510000
+            xmax = 171.190000
+            text = ""
+        intervals [54]:
+            xmin = 171.190000
+            xmax = 174.040000
+            text = "嗯，这个。"
+        intervals [55]:
+            xmin = 174.040000
+            xmax = 177.150000
+            text = ""
+        intervals [56]:
+            xmin = 177.150000
+            xmax = 178.620000
+            text = "嗯，也算是网红。"
+        intervals [57]:
+            xmin = 178.620000
+            xmax = 195.400000
+            text = ""
+        intervals [58]:
+            xmin = 195.400000
+            xmax = 198.420000
+            text = "你看看团购价是吧。"
+        intervals [59]:
+            xmin = 198.420000
+            xmax = 201.590000
+            text = ""
+        intervals [60]:
+            xmin = 201.590000
+            xmax = 203.590000
+            text = "嗯，就之前也火过那种。"
+        intervals [61]:
+            xmin = 203.590000
+            xmax = 203.700000
+            text = ""
+        intervals [62]:
+            xmin = 203.700000
+            xmax = 207.720000
+            text = "小驴形状的那种那种小火烧皮是驴形状那种。"
+        intervals [63]:
+            xmin = 207.720000
+            xmax = 208.170000
+            text = ""
+        intervals [64]:
+            xmin = 208.170000
+            xmax = 211.590000
+            text = "嗯，哈哈，嗯。"
+        intervals [65]:
+            xmin = 211.590000
+            xmax = 212.180000
+            text = ""
+        intervals [66]:
+            xmin = 212.180000
+            xmax = 215.450000
+            text = "嗯，还有那种驴肉火烧马卡龙是吧。"
+        intervals [67]:
+            xmin = 215.450000
+            xmax = 216.350000
+            text = ""
+        intervals [68]:
+            xmin = 216.350000
+            xmax = 220.630000
+            text = "嗯嗯嗯嗯嗯嗯，对。"
+        intervals [69]:
+            xmin = 220.630000
+            xmax = 221.820000
+            text = ""
+        intervals [70]:
+            xmin = 221.820000
+            xmax = 225.050000
+            text = "那就是外形比较好看吃起来应该味道。"
+        intervals [71]:
+            xmin = 225.050000
+            xmax = 225.370000
+            text = ""
+        intervals [72]:
+            xmin = 225.370000
+            xmax = 227.590000
+            text = "嗯，也就那样。"
+        intervals [73]:
+            xmin = 227.590000
+            xmax = 229.830000
+            text = ""
+        intervals [74]:
+            xmin = 229.830000
+            xmax = 234.130000
+            text = "那个好像是在西大街那，嗯。"
+        intervals [75]:
+            xmin = 234.130000
+            xmax = 262.820000
+            text = ""
+        intervals [76]:
+            xmin = 262.820000
+            xmax = 264.200000
+            text = "就是为什么喜欢。"
+        intervals [77]:
+            xmin = 264.200000
+            xmax = 346.780000
+            text = ""
+        intervals [78]:
+            xmin = 346.780000
+            xmax = 349.040000
+            text = "鸭血一般煮多久比较好啊？"
+        intervals [79]:
+            xmin = 349.040000
+            xmax = 364.130000
+            text = ""
+        intervals [80]:
+            xmin = 364.130000
+            xmax = 365.800000
+            text = "我我不爱吃我只是好奇。"
+        intervals [81]:
+            xmin = 365.800000
+            xmax = 367.740000
+            text = ""
+        intervals [82]:
+            xmin = 367.740000
+            xmax = 370.050000
+            text = "我感觉，呃你像。"
+        intervals [83]:
+            xmin = 370.050000
+            xmax = 371.480000
+            text = ""
+        intervals [84]:
+            xmin = 371.480000
+            xmax = 376.270000
+            text = "呃，鸭血还有猪血。呃我也不是特别喜欢吃感。"
+        intervals [85]:
+            xmin = 376.270000
+            xmax = 385.410000
+            text = ""
+        intervals [86]:
+            xmin = 385.410000
+            xmax = 387.890000
+            text = "嗯，我比较喜欢吃虾滑要是涮火锅。"
+        intervals [87]:
+            xmin = 387.890000
+            xmax = 406.290000
+            text = ""
+        intervals [88]:
+            xmin = 406.290000
+            xmax = 408.210000
+            text = "也是也是是也是火锅吗？"
+        intervals [89]:
+            xmin = 408.210000
+            xmax = 428.090000
+            text = ""
+        intervals [90]:
+            xmin = 428.090000
+            xmax = 430.210000
+            text = "云南菜，菌吗？"
+        intervals [91]:
+            xmin = 430.210000
+            xmax = 433.250000
+            text = ""
+        intervals [92]:
+            xmin = 433.250000
+            xmax = 435.940000
+            text = "是吃，是必须上锁那种吗？"
+        intervals [93]:
+            xmin = 435.940000
+            xmax = 437.270000
+            text = ""
+        intervals [94]:
+            xmin = 437.270000
+            xmax = 438.130000
+            text = "啊。"
+        intervals [95]:
+            xmin = 438.130000
+            xmax = 443.610000
+            text = ""
+        intervals [96]:
+            xmin = 443.610000
+            xmax = 447.600000
+            text = "对，见手青之类的那种，不对那个。"
+        intervals [97]:
+            xmin = 447.600000
+            xmax = 448.760000
+            text = ""
+        intervals [98]:
+            xmin = 448.760000
+            xmax = 449.950000
+            text = "那种一般。"
+        intervals [99]:
+            xmin = 449.950000
+            xmax = 450.390000
+            text = ""
+        intervals [100]:
+            xmin = 450.390000
+            xmax = 454.460000
+            text = "那种情况一般都是防当地人的当地人不是比较那个什么吗？"
+        intervals [101]:
+            xmin = 454.460000
+            xmax = 463.200000
+            text = ""
+        intervals [102]:
+            xmin = 463.200000
+            xmax = 466.870000
+            text = "啊，呵呵，听说听说。"
+        intervals [103]:
+            xmin = 466.870000
+            xmax = 483.010000
+            text = ""
+        intervals [104]:
+            xmin = 483.010000
+            xmax = 484.130000
+            text = "我不喜欢吃蘑菇。"
+        intervals [105]:
+            xmin = 484.130000
+            xmax = 490.350000
+            text = ""
+        intervals [106]:
+            xmin = 490.350000
+            xmax = 493.600000
+            text = "你是属于那种探探店类型的是吗？"
+        intervals [107]:
+            xmin = 493.600000
+            xmax = 515.410000
+            text = ""
+        intervals [108]:
+            xmin = 515.410000
+            xmax = 517.040000
+            text = "八路社八路社是吗？"
+        intervals [109]:
+            xmin = 517.040000
+            xmax = 520.970000
+            text = ""
+        intervals [110]:
+            xmin = 520.970000
+            xmax = 523.320000
+            text = "没有差，没有没有差异性是吗？"
+        intervals [111]:
+            xmin = 523.320000
+            xmax = 531.900000
+            text = ""
+        intervals [112]:
+            xmin = 531.900000
+            xmax = 535.790000
+            text = "嗯那你们喜欢喝什么呀要是要是吃吃。"
+        intervals [113]:
+            xmin = 535.790000
+            xmax = 539.280000
+            text = ""
+        intervals [114]:
+            xmin = 539.280000
+            xmax = 541.930000
+            text = "你为什么喜欢你为什么喜欢可喝可乐呀。"
+        intervals [115]:
+            xmin = 541.930000
+            xmax = 542.650000
+            text = ""
+        intervals [116]:
+            xmin = 542.650000
+            xmax = 544.370000
+            text = "为什么比较好喝呀你感觉。"
+        intervals [117]:
+            xmin = 544.370000
+            xmax = 555.780000
+            text = ""
+        intervals [118]:
+            xmin = 555.780000
+            xmax = 558.800000
+            text = "那那你喜欢喝可口可乐还是百事可乐？"
+        intervals [119]:
+            xmin = 558.800000
+            xmax = 565.370000
+            text = ""
+        intervals [120]:
+            xmin = 565.370000
+            xmax = 567.460000
+            text = "为为什么喜欢喝可可口可乐呀？"
+        intervals [121]:
+            xmin = 567.460000
+            xmax = 575.450000
+            text = ""
+        intervals [122]:
+            xmin = 575.450000
+            xmax = 579.010000
+            text = "嗯，这有一点其实这是有一点科学依据的，可。"
+        intervals [123]:
+            xmin = 579.010000
+            xmax = 579.440000
+            text = ""
+        intervals [124]:
+            xmin = 579.440000
+            xmax = 584.040000
+            text = "然后，百事可乐主要是气我也是喜欢喝可口可乐，但是百感觉百事。"
+        intervals [125]:
+            xmin = 584.040000
+            xmax = 584.210000
+            text = ""
+        intervals [126]:
+            xmin = 584.210000
+            xmax = 589.240000
+            text = "气特别大特别足，但是口感上来说的话比可口可乐的后劲。"
+        intervals [127]:
+            xmin = 589.240000
+            xmax = 590.550000
+            text = ""
+        intervals [128]:
+            xmin = 590.550000
+            xmax = 592.010000
+            text = "稍微淡一些。"
+        intervals [129]:
+            xmin = 592.010000
+            xmax = 593.300000
+            text = ""
+        intervals [130]:
+            xmin = 593.300000
+            xmax = 597.100000
+            text = "嗯，是。"
+        intervals [131]:
+            xmin = 597.100000
+            xmax = 598.590000
+            text = ""
+        intervals [132]:
+            xmin = 598.590000
+            xmax = 600.730000
+            text = "尤其是什么，你。"
+        intervals [133]:
+            xmin = 600.730000
+            xmax = 600.910000
+            text = ""
+        intervals [134]:
+            xmin = 600.910000
+            xmax = 604.350000
+            text = "尤其是那个瓶装的那种是最好喝的应该。"
+        intervals [135]:
+            xmin = 604.350000
+            xmax = 605.130000
+            text = ""
+        intervals [136]:
+            xmin = 605.130000
+            xmax = 606.460000
+            text = "瓶装的可口可乐。"
+        intervals [137]:
+            xmin = 606.460000
+            xmax = 617.900000
+            text = ""
+        intervals [138]:
+            xmin = 617.900000
+            xmax = 623.460000
+            text = "我之前喝过一一款瑞幸的那个云铁云铁咖啡，那什么哎？"
+        intervals [139]:
+            xmin = 623.460000
+            xmax = 624.230000
+            text = ""
+        intervals [140]:
+            xmin = 624.230000
+            xmax = 629.180000
+            text = "是叫陨石咖啡还是叫云铁，嗯嗯，是吗？"
+        intervals [141]:
+            xmin = 629.180000
+            xmax = 633.860000
+            text = ""
+        intervals [142]:
+            xmin = 633.860000
+            xmax = 636.830000
+            text = "你就比较喜欢那种比较苦苦一点的。"
+        intervals [143]:
+            xmin = 636.830000
+            xmax = 638.540000
+            text = ""
+        intervals [144]:
+            xmin = 638.540000
+            xmax = 639.710000
+            text = "酸涩。"
+        intervals [145]:
+            xmin = 639.710000
+            xmax = 642.870000
+            text = ""
+        intervals [146]:
+            xmin = 642.870000
+            xmax = 645.310000
+            text = "就是有一点苦的发涩的那种。"
+        intervals [147]:
+            xmin = 645.310000
+            xmax = 650.330000
+            text = ""
+        intervals [148]:
+            xmin = 650.330000
+            xmax = 654.610000
+            text = "拿铁拿铁是放了牛奶的，对是它是牛奶 。"
+        intervals [149]:
+            xmin = 654.610000
+            xmax = 674.510000
+            text = ""
+        intervals [150]:
+            xmin = 674.510000
+            xmax = 675.910000
+            text = "喝的是黑啤吧。"
+        intervals [151]:
+            xmin = 675.910000
+            xmax = 686.370000
+            text = ""
+        intervals [152]:
+            xmin = 686.370000
+            xmax = 689.540000
+            text = "啊，我觉得还是鲜啤比较好喝。"
+        intervals [153]:
+            xmin = 689.540000
+            xmax = 693.630000
+            text = ""
+        intervals [154]:
+            xmin = 693.630000
+            xmax = 694.490000
+            text = "啊。"
+        intervals [155]:
+            xmin = 694.490000
+            xmax = 704.180000
+            text = ""
+        intervals [156]:
+            xmin = 704.180000
+            xmax = 707.800000
+            text = "那你们女生女生喝鸡尾酒之类的吗？"
+        intervals [157]:
+            xmin = 707.800000
+            xmax = 738.880000
+            text = ""
+        intervals [158]:
+            xmin = 738.880000
+            xmax = 740.060000
+            text = "微醺。"
+        intervals [159]:
+            xmin = 740.060000
+            xmax = 744.870000
+            text = ""
+        intervals [160]:
+            xmin = 744.870000
+            xmax = 749.330000
+            text = "我觉得啤啤酒喝啤酒，还是主要是看氛氛围，喝多少。"
+        intervals [161]:
+            xmin = 749.330000
+            xmax = 750.570000
+            text = ""
+        intervals [162]:
+            xmin = 750.570000
+            xmax = 754.420000
+            text = "平常你自己喝的话你能喝能喝多少，微醺。"
+        intervals [163]:
+            xmin = 754.420000
+            xmax = 755.060000
+            text = ""
+        intervals [164]:
+            xmin = 755.060000
+            xmax = 759.700000
+            text = "那你就看氛围了氛围情情绪到那里了，喝多少，基本上都。"
+        intervals [165]:
+            xmin = 759.700000
+            xmax = 762.800000
+            text = ""
+        intervals [166]:
+            xmin = 762.800000
+            xmax = 764.120000
+            text = "嗯差不多。"
+        intervals [167]:
+            xmin = 764.120000
+            xmax = 765.060000
+            text = ""
+        intervals [168]:
+            xmin = 765.060000
+            xmax = 768.670000
+            text = "我也是，我也，我酒量其实也不是特别好。"
+        intervals [169]:
+            xmin = 768.670000
+            xmax = 771.620000
+            text = ""
+        intervals [170]:
+            xmin = 771.620000
+            xmax = 773.980000
+            text = "之前喝过那个威士忌。"
+        intervals [171]:
+            xmin = 773.980000
+            xmax = 776.330000
+            text = ""
+        intervals [172]:
+            xmin = 776.330000
+            xmax = 777.170000
+            text = "那种。"
+        intervals [173]:
+            xmin = 777.170000
+            xmax = 780.360000
+            text = ""
+        intervals [174]:
+            xmin = 780.360000
+            xmax = 783.660000
+            text = "对，单喝不是特别好，你要是配可乐桶之类的还行。"
+        intervals [175]:
+            xmin = 783.660000
+            xmax = 783.910000
+            text = ""
+        intervals [176]:
+            xmin = 783.910000
+            xmax = 785.480000
+            text = "但是它后劲比较大。"
+        intervals [177]:
+            xmin = 785.480000
+            xmax = 787.750000
+            text = ""
+        intervals [178]:
+            xmin = 787.750000
+            xmax = 790.210000
+            text = "因为它那个酒精含量比较高。"
+        intervals [179]:
+            xmin = 790.210000
+            xmax = 793.230000
+            text = ""
+        intervals [180]:
+            xmin = 793.230000
+            xmax = 794.380000
+            text = "对。"
+        intervals [181]:
+            xmin = 794.380000
+            xmax = 809.240000
+            text = ""
+        intervals [182]:
+            xmin = 809.240000
+            xmax = 813.490000
+            text = "民谣就是，呃唱歌一边唱歌一边卖酒那种，是吗？"
+        intervals [183]:
+            xmin = 813.490000
+            xmax = 815.180000
+            text = ""
+        intervals [184]:
+            xmin = 815.180000
+            xmax = 818.060000
+            text = "那，江南地区比较多这种类型的。"
+        intervals [185]:
+            xmin = 818.060000
+            xmax = 819.610000
+            text = ""
+        intervals [186]:
+            xmin = 819.610000
+            xmax = 822.270000
+            text = "我说江南地区比较多这种类型的。"
+        intervals [187]:
+            xmin = 822.270000
+            xmax = 822.460000
+            text = ""
+        intervals [188]:
+            xmin = 822.460000
+            xmax = 826.000000
+            text = "我之前去过一个酒吧然后是点了一杯教父。"
+        intervals [189]:
+            xmin = 826.000000
+            xmax = 827.500000
+            text = ""
+        intervals [190]:
+            xmin = 827.500000
+            xmax = 829.820000
+            text = "教父啊，啊。"
+        intervals [191]:
+            xmin = 829.820000
+            xmax = 832.810000
+            text = ""
+        intervals [192]:
+            xmin = 832.810000
+            xmax = 834.090000
+            text = "不是跟朋友。"
+        intervals [193]:
+            xmin = 834.090000
+            xmax = 835.170000
+            text = ""
+        intervals [194]:
+            xmin = 835.170000
+            xmax = 839.190000
+            text = "啊，呃喝起来反正也是比较苦。"
+        intervals [195]:
+            xmin = 839.190000
+            xmax = 841.680000
+            text = ""
+        intervals [196]:
+            xmin = 841.680000
+            xmax = 844.690000
+            text = "嗯，就是主要是为了打卡吗？是吧，嗯。"
+        intervals [197]:
+            xmin = 844.690000
+            xmax = 886.620000
+            text = ""
+        intervals [198]:
+            xmin = 886.620000
+            xmax = 888.600000
+            text = "你们吃过那个什么吗？那个。"
+        intervals [199]:
+            xmin = 888.600000
+            xmax = 888.910000
+            text = ""
+        intervals [200]:
+            xmin = 888.910000
+            xmax = 891.910000
+            text = "纯素颜的纯素颜的那个鱼香肉丝。"
+        intervals [201]:
+            xmin = 891.910000
+            xmax = 893.040000
+            text = ""
+        intervals [202]:
+            xmin = 893.040000
+            xmax = 894.950000
+            text = "嗯，咳咳。"
+        intervals [203]:
+            xmin = 894.950000
+            xmax = 896.110000
+            text = ""
+        intervals [204]:
+            xmin = 896.110000
+            xmax = 899.540000
+            text = "是吗？哦，对，对。"
+        intervals [205]:
+            xmin = 899.540000
+            xmax = 907.910000
+            text = ""
+        intervals [206]:
+            xmin = 907.910000
+            xmax = 911.440000
+            text = "对，清真的那种纯纯素颜的那种，没有。"
+        intervals [207]:
+            xmin = 911.440000
+            xmax = 911.900000
+            text = ""
+        intervals [208]:
+            xmin = 911.900000
+            xmax = 914.360000
+            text = "我说尝试一下，好不好吃。"
+        intervals [209]:
+            xmin = 914.360000
+            xmax = 915.000000
+            text = ""
+        intervals [210]:
+            xmin = 915.000000
+            xmax = 918.750000
+            text = "是吗？它是什么也是也是也是甜味甜口的吗？"
+        intervals [211]:
+            xmin = 918.750000
+            xmax = 925.230000
+            text = ""
+        intervals [212]:
+            xmin = 925.230000
+            xmax = 926.600000
+            text = "也有一点菜吧。"
+        intervals [213]:
+            xmin = 926.600000
+            xmax = 928.310000
+            text = ""
+        intervals [214]:
+            xmin = 928.310000
+            xmax = 931.880000
+            text = "啊，没有没有没有没有，就是说勾芡。"
+        intervals [215]:
+            xmin = 931.880000
+            xmax = 932.600000
+            text = ""
+        intervals [216]:
+            xmin = 932.600000
+            xmax = 934.990000
+            text = "嗯，然后勾了一层芡是吗？"
+        intervals [217]:
+            xmin = 934.990000
+            xmax = 947.890000
+            text = ""
+        intervals [218]:
+            xmin = 947.890000
+            xmax = 948.610000
+            text = "还行。"
+        intervals [219]:
+            xmin = 948.610000
+            xmax = 964.710000
+            text = ""
+        intervals [220]:
+            xmin = 964.710000
+            xmax = 968.610000
+            text = "哼，最近比较火的那个是吗？"
+        intervals [221]:
+            xmin = 968.610000
+            xmax = 979.170000
+            text = ""
+        intervals [222]:
+            xmin = 979.170000
+            xmax = 981.820000
+            text = "所有的甜品店都有这个吗？现在。"
+        intervals [223]:
+            xmin = 981.820000
+            xmax = 985.180000
+            text = ""
+        intervals [224]:
+            xmin = 985.180000
+            xmax = 989.180000
+            text = "那个那个跟普通蛋挞有什么区别吗？就是除了特别长。"
+        intervals [225]:
+            xmin = 989.180000
+            xmax = 990.980000
+            text = ""
+        intervals [226]:
+            xmin = 990.980000
+            xmax = 994.970000
+            text = "啊一口一口能吞一半，是吧，嗯。"
+        intervals [227]:
+            xmin = 994.970000
+            xmax = 1009.520000
+            text = ""
+        intervals [228]:
+            xmin = 1009.520000
+            xmax = 1010.220000
+            text = "嗯。"
+        intervals [229]:
+            xmin = 1010.220000
+            xmax = 1012.750000
+            text = ""
+        intervals [230]:
+            xmin = 1012.750000
+            xmax = 1014.170000
+            text = "你不给你闺女买一下。"
+        intervals [231]:
+            xmin = 1014.170000
+            xmax = 1015.730000
+            text = ""
+        intervals [232]:
+            xmin = 1015.730000
+            xmax = 1016.440000
+            text = "啊？"
+        intervals [233]:
+            xmin = 1016.440000
+            xmax = 1019.490000
+            text = ""
+        intervals [234]:
+            xmin = 1019.490000
+            xmax = 1023.930000
+            text = "呃，我也觉得也是，而且是刚刚做出来那种饼。"
+        intervals [235]:
+            xmin = 1023.930000
+            xmax = 1024.820000
+            text = ""
+        intervals [236]:
+            xmin = 1024.820000
+            xmax = 1026.490000
+            text = "对那种比较好吃。"
+        intervals [237]:
+            xmin = 1026.490000
+            xmax = 1028.260000
+            text = ""
+        intervals [238]:
+            xmin = 1028.260000
+            xmax = 1028.970000
+            text = "为什么呀？"
+        intervals [239]:
+            xmin = 1028.970000
+            xmax = 1031.990000
+            text = ""
+        intervals [240]:
+            xmin = 1031.990000
+            xmax = 1035.860000
+            text = "我要说汉堡我还知道，薯条我我不爱吃。"
+        intervals [241]:
+            xmin = 1035.860000
+            xmax = 1042.720000
+            text = ""
+        intervals [242]:
+            xmin = 1042.720000
+            xmax = 1045.060000
+            text = "嗯，必须得蘸番茄酱。"
+        intervals [243]:
+            xmin = 1045.060000
+            xmax = 1055.900000
+            text = ""
+        intervals [244]:
+            xmin = 1055.900000
+            xmax = 1058.860000
+            text = "对，麦当劳没啊，没有。"
+        intervals [245]:
+            xmin = 1058.860000
+            xmax = 1059.200000
+            text = ""
+        intervals [246]:
+            xmin = 1059.200000
+            xmax = 1060.760000
+            text = "没有，荣东有。"
+        intervals [247]:
+            xmin = 1060.760000
+            xmax = 1061.950000
+            text = ""
+        intervals [248]:
+            xmin = 1061.950000
+            xmax = 1065.350000
+            text = "那是肯德基，肯德基，也没有汉堡王。"
+        intervals [249]:
+            xmin = 1065.350000
+            xmax = 1070.430000
+            text = ""
+        intervals [250]:
+            xmin = 1070.430000
+            xmax = 1073.500000
+            text = "汉堡王的汉堡，可还可以。"
+        intervals [251]:
+            xmin = 1073.500000
+            xmax = 1074.190000
+            text = ""
+        intervals [252]:
+            xmin = 1074.190000
+            xmax = 1077.740000
+            text = "啊，汉堡王主要是那个汉堡比较好。"
+        intervals [253]:
+            xmin = 1077.740000
+            xmax = 1080.920000
+            text = ""
+        intervals [254]:
+            xmin = 1080.920000
+            xmax = 1083.110000
+            text = "啊，嗯不是有一那那叫什么来着。"
+        intervals [255]:
+            xmin = 1083.110000
+            xmax = 1083.980000
+            text = ""
+        intervals [256]:
+            xmin = 1083.980000
+            xmax = 1087.600000
+            text = "那个块块的那种薯也是薯条，那那叫什么来着。"
+        intervals [257]:
+            xmin = 1087.600000
+            xmax = 1089.720000
+            text = ""
+        intervals [258]:
+            xmin = 1089.720000
+            xmax = 1093.520000
+            text = "是类似于薯片薯片，那锅巴那种样样式的。"
+        intervals [259]:
+            xmin = 1093.520000
+            xmax = 1093.770000
+            text = ""
+        intervals [260]:
+            xmin = 1093.770000
+            xmax = 1095.020000
+            text = "是薯饼吗？"
+        intervals [261]:
+            xmin = 1095.020000
+            xmax = 1096.530000
+            text = ""
+        intervals [262]:
+            xmin = 1096.530000
+            xmax = 1100.020000
+            text = "我我我也不知道是是叫什么了，我。"
+        intervals [263]:
+            xmin = 1100.020000
+            xmax = 1100.070000
+            text = ""
+        intervals [264]:
+            xmin = 1100.070000
+            xmax = 1101.880000
+            text = "那个吃起来怎么样我也不知道。"
+        intervals [265]:
+            xmin = 1101.880000
+            xmax = 1120.050000
+            text = ""
+        intervals [266]:
+            xmin = 1120.050000
+            xmax = 1122.600000
+            text = "你们不觉得麦当劳的汉堡越来越小了吗？"
+        intervals [267]:
+            xmin = 1122.600000
+            xmax = 1132.750000
+            text = ""
+        intervals [268]:
+            xmin = 1132.750000
+            xmax = 1136.710000
+            text = "大象踩过的我之前还做过做过这种。"
+        intervals [269]:
+            xmin = 1136.710000
+            xmax = 1140.530000
+            text = ""
+        intervals [270]:
+            xmin = 1140.530000
+            xmax = 1142.250000
+            text = "饼皮还行但是有.。"
+        intervals [271]:
+            xmin = 1142.250000
+            xmax = 1169.120000
+            text = ""
+        intervals [272]:
+            xmin = 1169.120000
+            xmax = 1172.670000
+            text = "为我就不爱吃翅尖我上次点了一次翅尖。"
+        intervals [273]:
+            xmin = 1172.670000
+            xmax = 1172.950000
+            text = ""
+        intervals [274]:
+            xmin = 1172.950000
+            xmax = 1175.370000
+            text = "我就再也不点了因为它没给我炸熟。"
+        intervals [275]:
+            xmin = 1175.370000
+            xmax = 1177.910000
+            text = ""
+        intervals [276]:
+            xmin = 1177.910000
+            xmax = 1181.850000
+            text = "不会，我一点都不会，我。"
+        intervals [277]:
+            xmin = 1181.850000
+            xmax = 1188.540000
+            text = ""
+        intervals [278]:
+            xmin = 1188.540000
+            xmax = 1192.320000
+            text = "但是我吃什么我吃什么我都不不拉肚子吃华莱士的。"
+        intervals [279]:
+            xmin = 1192.320000
+            xmax = 1192.950000
+            text = ""
+        intervals [280]:
+            xmin = 1192.950000
+            xmax = 1193.940000
+            text = "华莱士。"
+        intervals [281]:
+            xmin = 1193.940000
+            xmax = 1198.720000
+            text = ""
+        intervals [282]:
+            xmin = 1198.720000
+            xmax = 1199.460000
+            text = "是吗？"
+        intervals [283]:
+            xmin = 1199.460000
+            xmax = 1200.540000
+            text = ""
+        intervals [284]:
+            xmin = 1200.540000
+            xmax = 1203.670000
+            text = "那可，那那我可能是练出来了我的胃。"
+        intervals [285]:
+            xmin = 1203.670000
+            xmax = 1212.790000
+            text = ""
+        intervals [286]:
+            xmin = 1212.790000
+            xmax = 1214.890000
+            text = "你不经常吃达斯汀吗你？"
+        intervals [287]:
+            xmin = 1214.890000
+            xmax = 1216.910000
+            text = ""
+        intervals [288]:
+            xmin = 1216.910000
+            xmax = 1219.260000
+            text = "啊，你吃什么呀你。"
+        intervals [289]:
+            xmin = 1219.260000
+            xmax = 1226.330000
+            text = ""
+        intervals [290]:
+            xmin = 1226.330000
+            xmax = 1228.640000
+            text = "嗯那饸饹面挺好吃的。"
+        intervals [291]:
+            xmin = 1228.640000
+            xmax = 1231.250000
+            text = ""
+        intervals [292]:
+            xmin = 1231.250000
+            xmax = 1231.930000
+            text = "哪？"
+        intervals [293]:
+            xmin = 1231.930000
+            xmax = 1233.540000
+            text = ""
+        intervals [294]:
+            xmin = 1233.540000
+            xmax = 1235.900000
+            text = "那基本上都叫皖徽牛肉板面。"
+        intervals [295]:
+            xmin = 1235.900000
+            xmax = 1265.950000
+            text = ""
+        intervals [296]:
+            xmin = 1265.950000
+            xmax = 1270.850000
+            text = "那你们吃板面是喜欢吃宽的，还是吃细的，细的是吧？"
+        intervals [297]:
+            xmin = 1270.850000
+            xmax = 1274.250000
+            text = ""
+        intervals [298]:
+            xmin = 1274.250000
+            xmax = 1277.070000
+            text = "以前我觉得宽的好吃，现在我觉得细的好吃。"
+        intervals [299]:
+            xmin = 1277.070000
+            xmax = 1277.170000
+            text = ""
+        intervals [300]:
+            xmin = 1277.170000
+            xmax = 1280.730000
+            text = "宽的主要是你一夹掉下去之后，啪叽。"
+        intervals [301]:
+            xmin = 1280.730000
+            xmax = 1281.760000
+            text = ""
+        intervals [302]:
+            xmin = 1281.760000
+            xmax = 1284.890000
+            text = "啊，啊，啊。"
+        intervals [303]:
+            xmin = 1284.890000
+            xmax = 1286.140000
+            text = ""
+        intervals [304]:
+            xmin = 1286.140000
+            xmax = 1289.430000
+            text = "我吃面从来不穿白的衣服。"
+        intervals [305]:
+            xmin = 1289.430000
+            xmax = 1290.720000
+            text = ""
+        intervals [306]:
+            xmin = 1290.720000
+            xmax = 1292.820000
+            text = "啊，对，细的比较入味。"
+        intervals [307]:
+            xmin = 1292.820000
+            xmax = 1293.760000
+            text = ""
+        intervals [308]:
+            xmin = 1293.760000
+            xmax = 1297.980000
+            text = "然后吃面的话，必须得配三件套，豆皮丸子鸡蛋。"
+        intervals [309]:
+            xmin = 1297.980000
+            xmax = 1303.480000
+            text = ""
+        intervals [310]:
+            xmin = 1303.480000
+            xmax = 1304.780000
+            text = "我真不吃蒜。"
+        intervals [311]:
+            xmin = 1304.780000
+            xmax = 1306.630000
+            text = ""
+        intervals [312]:
+            xmin = 1306.630000
+            xmax = 1310.160000
+            text = "尤其是你中午要上班的时候，你吃蒜我感觉嘴里边。"
+        intervals [313]:
+            xmin = 1310.160000
+            xmax = 1310.390000
+            text = ""
+        intervals [314]:
+            xmin = 1310.390000
+            xmax = 1311.340000
+            text = "特别难受。"
+        intervals [315]:
+            xmin = 1311.340000
+            xmax = 1323.520000
+            text = ""
+        intervals [316]:
+            xmin = 1323.520000
+            xmax = 1325.470000
+            text = "熟的那种我挺。"
+        intervals [317]:
+            xmin = 1325.470000
+            xmax = 1328.430000
+            text = ""
+        intervals [318]:
+            xmin = 1328.430000
+            xmax = 1330.340000
+            text = "熟的蒜没有蒜味了就。"
+        intervals [319]:
+            xmin = 1330.340000
+            xmax = 1331.300000
+            text = ""
+        intervals [320]:
+            xmin = 1331.300000
+            xmax = 1332.510000
+            text = "啊很少。"
+        intervals [321]:
+            xmin = 1332.510000
+            xmax = 1341.020000
+            text = ""
+        intervals [322]:
+            xmin = 1341.020000
+            xmax = 1343.270000
+            text = "那是吃药片那是。"
+        intervals [323]:
+            xmin = 1343.270000
+            xmax = 1346.440000
+            text = ""
+        intervals [324]:
+            xmin = 1346.440000
+            xmax = 1348.570000
+            text = "蒜蓉蒜蓉粉丝。"
+        intervals [325]:
+            xmin = 1348.570000
+            xmax = 1352.650000
+            text = ""
+        intervals [326]:
+            xmin = 1352.650000
+            xmax = 1355.410000
+            text = "那那个什么那个扇是扇。"
+        intervals [327]:
+            xmin = 1355.410000
+            xmax = 1355.540000
+            text = ""
+        intervals [328]:
+            xmin = 1355.540000
+            xmax = 1358.200000
+            text = "扇贝扇贝之类的不都是那种吗？"
+        intervals [329]:
+            xmin = 1358.200000
+            xmax = 1369.410000
+            text = ""
+        intervals [330]:
+            xmin = 1369.410000
+            xmax = 1371.070000
+            text = "必须得放小米辣。"
+        intervals [331]:
+            xmin = 1371.070000
+            xmax = 1372.440000
+            text = ""
+        intervals [332]:
+            xmin = 1372.440000
+            xmax = 1374.800000
+            text = "嗯，盐碎。"
+        intervals [333]:
+            xmin = 1374.800000
+            xmax = 1385.510000
+            text = ""
+        intervals [334]:
+            xmin = 1385.510000
+            xmax = 1390.250000
+            text = "嗯，是他也不不喜欢吃香菜的，感觉那个味道有点像臭大姐，那味道。"
+        intervals [335]:
+            xmin = 1390.250000
+            xmax = 1391.020000
+            text = ""
+        intervals [336]:
+            xmin = 1391.020000
+            xmax = 1391.670000
+            text = "啊。"
+        intervals [337]:
+            xmin = 1391.670000
+            xmax = 1397.350000
+            text = ""
+        intervals [338]:
+            xmin = 1397.350000
+            xmax = 1401.540000
+            text = "你比如说那种孜然羊肉之类的，那不都是放那香菜吗？"
+        intervals [339]:
+            xmin = 1401.540000
+            xmax = 1402.210000
+            text = ""
+        intervals [340]:
+            xmin = 1402.210000
+            xmax = 1402.860000
+            text = "对吧。"
+        intervals [341]:
+            xmin = 1402.860000
+            xmax = 1404.220000
+            text = ""
+        intervals [342]:
+            xmin = 1404.220000
+            xmax = 1406.710000
+            text = "就缺少点感觉的是吧。"
+        intervals [343]:
+            xmin = 1406.710000
+            xmax = 1410.630000
+            text = ""
+        intervals [344]:
+            xmin = 1410.630000
+            xmax = 1414.720000
+            text = "茴香，茴香我不爱吃。"
+        intervals [345]:
+            xmin = 1414.720000
+            xmax = 1418.280000
+            text = ""
+        intervals [346]:
+            xmin = 1418.280000
+            xmax = 1420.750000
+            text = "对，我也觉得是茴香有股怪味。"
+        intervals [347]:
+            xmin = 1420.750000
+            xmax = 1427.470000
+            text = ""
+        intervals [348]:
+            xmin = 1427.470000
+            xmax = 1428.340000
+            text = "是。"
+        intervals [349]:
+            xmin = 1428.340000
+            xmax = 1429.180000
+            text = ""
+        intervals [350]:
+            xmin = 1429.180000
+            xmax = 1432.610000
+            text = "榴莲可以，你是对榴莲过敏吗？"
+        intervals [351]:
+            xmin = 1432.610000
+            xmax = 1435.980000
+            text = ""
+        intervals [352]:
+            xmin = 1435.980000
+            xmax = 1438.070000
+            text = "榴莲是闻着臭吃着香。"
+        intervals [353]:
+            xmin = 1438.070000
+            xmax = 1439.540000
+            text = ""
+        intervals [354]:
+            xmin = 1439.540000
+            xmax = 1443.060000
+            text = "它不是那种臭，它是果果臭那种臭你知道吧。"
+        intervals [355]:
+            xmin = 1443.060000
+            xmax = 1445.630000
+            text = ""
+        intervals [356]:
+            xmin = 1445.630000
+            xmax = 1446.830000
+            text = "呃。"
+        intervals [357]:
+            xmin = 1446.830000
+            xmax = 1449.400000
+            text = ""
+        intervals [358]:
+            xmin = 1449.400000
+            xmax = 1452.840000
+            text = "我不爱吃粉，我不我不爱吃粉。"
+        intervals [359]:
+            xmin = 1452.840000
+            xmax = 1476.060000
+            text = ""
+        intervals [360]:
+            xmin = 1476.060000
+            xmax = 1478.940000
+            text = "那女的，女生特别爱吃螺蛳粉啊。"
+        intervals [361]:
+            xmin = 1478.940000
+            xmax = 1482.590000
+            text = ""
+        intervals [362]:
+            xmin = 1482.590000
+            xmax = 1484.470000
+            text = "那螺蛳粉里边一般都放啥呀？"
+        intervals [363]:
+            xmin = 1484.470000
+            xmax = 1492.610000
+            text = ""
+        intervals [364]:
+            xmin = 1492.610000
+            xmax = 1494.840000
+            text = "我不吃螺狮粉，我不爱吃粉。"
+        intervals [365]:
+            xmin = 1494.840000
+            xmax = 1507.490000
+            text = ""
+        intervals [366]:
+            xmin = 1507.490000
+            xmax = 1509.910000
+            text = "也就那样，也就满足了。"
+        intervals [367]:
+            xmin = 1509.910000
+            xmax = 1522.630000
+            text = ""
+        intervals [368]:
+            xmin = 1522.630000
+            xmax = 1524.480000
+            text = "我喜欢吃那种麻酱的。"
+        intervals [369]:
+            xmin = 1524.480000
+            xmax = 1526.170000
+            text = ""
+        intervals [370]:
+            xmin = 1526.170000
+            xmax = 1528.190000
+            text = "麻酱麻酱蘸一切。"
+        intervals [371]:
+            xmin = 1528.190000
+            xmax = 1533.530000
+            text = ""
+        intervals [372]:
+            xmin = 1533.530000
+            xmax = 1535.060000
+            text = "还比如说土豆粉。"
+        intervals [373]:
+            xmin = 1535.060000
+            xmax = 1548.907000
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "P037"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 490
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 72.760000
+            text = ""
+        intervals [2]:
+            xmin = 72.760000
+            xmax = 74.890000
+            text = "在本地好像还有一家。"
+        intervals [3]:
+            xmin = 74.890000
+            xmax = 74.930000
+            text = ""
+        intervals [4]:
+            xmin = 74.930000
+            xmax = 78.290000
+            text = "比较火的火烧好像是什么铁炙火烧烧夹鱼那个。"
+        intervals [5]:
+            xmin = 78.290000
+            xmax = 78.930000
+            text = ""
+        intervals [6]:
+            xmin = 78.930000
+            xmax = 80.850000
+            text = "我觉得那个，对。"
+        intervals [7]:
+            xmin = 80.850000
+            xmax = 81.740000
+            text = ""
+        intervals [8]:
+            xmin = 81.740000
+            xmax = 83.170000
+            text = "那就是那一个店儿吗？"
+        intervals [9]:
+            xmin = 83.170000
+            xmax = 83.340000
+            text = ""
+        intervals [10]:
+            xmin = 83.340000
+            xmax = 85.070000
+            text = "那是个店儿，然后呢我觉得那个。"
+        intervals [11]:
+            xmin = 85.070000
+            xmax = 85.240000
+            text = ""
+        intervals [12]:
+            xmin = 85.240000
+            xmax = 90.150000
+            text = "火烧夹鱼也是热的比较好吃我因为我去他店里吃过也让别人帮我打包回来过。"
+        intervals [13]:
+            xmin = 90.150000
+            xmax = 90.620000
+            text = ""
+        intervals [14]:
+            xmin = 90.620000
+            xmax = 94.840000
+            text = "我觉得就是在店儿里吃比较好吃，拿回来的话它。"
+        intervals [15]:
+            xmin = 94.840000
+            xmax = 95.030000
+            text = ""
+        intervals [16]:
+            xmin = 95.030000
+            xmax = 98.740000
+            text = "它那皮儿也不是那么脆了，然后它那个肉也凉了，我就觉得比较。"
+        intervals [17]:
+            xmin = 98.740000
+            xmax = 99.200000
+            text = ""
+        intervals [18]:
+            xmin = 99.200000
+            xmax = 100.300000
+            text = "比较一般。"
+        intervals [19]:
+            xmin = 100.300000
+            xmax = 102.320000
+            text = ""
+        intervals [20]:
+            xmin = 102.320000
+            xmax = 105.440000
+            text = "那个店儿在一个村儿里。"
+        intervals [21]:
+            xmin = 105.440000
+            xmax = 106.520000
+            text = ""
+        intervals [22]:
+            xmin = 106.520000
+            xmax = 108.280000
+            text = "是咱们这儿好像在那个。"
+        intervals [23]:
+            xmin = 108.280000
+            xmax = 108.400000
+            text = ""
+        intervals [24]:
+            xmin = 108.400000
+            xmax = 110.210000
+            text = "对，荣成贾贾光。"
+        intervals [25]:
+            xmin = 110.210000
+            xmax = 110.610000
+            text = ""
+        intervals [26]:
+            xmin = 110.610000
+            xmax = 112.960000
+            text = "对王王家庄那边儿吧，好像是。"
+        intervals [27]:
+            xmin = 112.960000
+            xmax = 114.260000
+            text = ""
+        intervals [28]:
+            xmin = 114.260000
+            xmax = 115.950000
+            text = "对就是夹鱼，那个鱼。"
+        intervals [29]:
+            xmin = 115.950000
+            xmax = 116.130000
+            text = ""
+        intervals [30]:
+            xmin = 116.130000
+            xmax = 118.180000
+            text = "不是那个鱼，是炖的。"
+        intervals [31]:
+            xmin = 118.180000
+            xmax = 118.610000
+            text = ""
+        intervals [32]:
+            xmin = 118.610000
+            xmax = 121.050000
+            text = "炖的，那个刺是软的。"
+        intervals [33]:
+            xmin = 121.050000
+            xmax = 121.270000
+            text = ""
+        intervals [34]:
+            xmin = 121.270000
+            xmax = 124.870000
+            text = "油也是软的，对我觉得还不错，热的还不错。"
+        intervals [35]:
+            xmin = 124.870000
+            xmax = 126.480000
+            text = ""
+        intervals [36]:
+            xmin = 126.480000
+            xmax = 129.660000
+            text = "就是甜就甜咸我觉得。"
+        intervals [37]:
+            xmin = 129.660000
+            xmax = 132.300000
+            text = ""
+        intervals [38]:
+            xmin = 132.300000
+            xmax = 134.070000
+            text = "加啥都有，对。"
+        intervals [39]:
+            xmin = 134.070000
+            xmax = 135.460000
+            text = ""
+        intervals [40]:
+            xmin = 135.460000
+            xmax = 138.160000
+            text = "三点好像，对三点就可，就那个。"
+        intervals [41]:
+            xmin = 138.160000
+            xmax = 149.320000
+            text = ""
+        intervals [42]:
+            xmin = 149.320000
+            xmax = 151.520000
+            text = "不是吧我觉得它怎么是分。"
+        intervals [43]:
+            xmin = 151.520000
+            xmax = 151.930000
+            text = ""
+        intervals [44]:
+            xmin = 151.930000
+            xmax = 157.300000
+            text = "分对它你那一个火，对，它只能给你加满，但是我觉得不是一条鱼，是一一点。"
+        intervals [45]:
+            xmin = 157.300000
+            xmax = 157.820000
+            text = ""
+        intervals [46]:
+            xmin = 157.820000
+            xmax = 159.760000
+            text = "对，反正就是一部分吧。"
+        intervals [47]:
+            xmin = 159.760000
+            xmax = 161.870000
+            text = ""
+        intervals [48]:
+            xmin = 161.870000
+            xmax = 167.680000
+            text = "就是那比较火嘛，他凌晨三点就开始营业了。就是凌晨三点就去有人排队，然后一直到早上。"
+        intervals [49]:
+            xmin = 167.680000
+            xmax = 170.240000
+            text = ""
+        intervals [50]:
+            xmin = 170.240000
+            xmax = 172.160000
+            text = "哎呀我怎么说呀，我感觉就是。"
+        intervals [51]:
+            xmin = 172.160000
+            xmax = 172.990000
+            text = ""
+        intervals [52]:
+            xmin = 172.990000
+            xmax = 175.220000
+            text = "我感觉就是网上。"
+        intervals [53]:
+            xmin = 175.220000
+            xmax = 175.260000
+            text = ""
+        intervals [54]:
+            xmin = 175.260000
+            xmax = 177.690000
+            text = "我就觉得网上吹捧起来的吧，就是。"
+        intervals [55]:
+            xmin = 177.690000
+            xmax = 177.910000
+            text = ""
+        intervals [56]:
+            xmin = 177.910000
+            xmax = 179.810000
+            text = "很多人都去排那排队。"
+        intervals [57]:
+            xmin = 179.810000
+            xmax = 180.600000
+            text = ""
+        intervals [58]:
+            xmin = 180.600000
+            xmax = 184.520000
+            text = "我去的时候基本上都是早早上七点，然后我去吃。"
+        intervals [59]:
+            xmin = 184.520000
+            xmax = 184.640000
+            text = ""
+        intervals [60]:
+            xmin = 184.640000
+            xmax = 188.310000
+            text = "那时候就排队的人不多了，但是如果你凌晨三点去肯定是要排队的。"
+        intervals [61]:
+            xmin = 188.310000
+            xmax = 191.000000
+            text = ""
+        intervals [62]:
+            xmin = 191.000000
+            xmax = 191.980000
+            text = "对，可能大。"
+        intervals [63]:
+            xmin = 191.980000
+            xmax = 192.840000
+            text = ""
+        intervals [64]:
+            xmin = 192.840000
+            xmax = 195.330000
+            text = "这个多少钱一个我还真。"
+        intervals [65]:
+            xmin = 195.330000
+            xmax = 195.400000
+            text = ""
+        intervals [66]:
+            xmin = 195.400000
+            xmax = 199.150000
+            text = "因为不是我付款，我真没，我真没，我真没看见过，我真没。"
+        intervals [67]:
+            xmin = 199.150000
+            xmax = 199.190000
+            text = ""
+        intervals [68]:
+            xmin = 199.190000
+            xmax = 200.080000
+            text = "就是记过。"
+        intervals [69]:
+            xmin = 200.080000
+            xmax = 208.630000
+            text = ""
+        intervals [70]:
+            xmin = 208.630000
+            xmax = 215.020000
+            text = "那种小的是特别小，那种特别小的是不是，我没吃过那个，我我只刷到。"
+        intervals [71]:
+            xmin = 215.020000
+            xmax = 216.490000
+            text = ""
+        intervals [72]:
+            xmin = 216.490000
+            xmax = 220.340000
+            text = "对，是一个驴驴然后里面加加驴肉对对对。"
+        intervals [73]:
+            xmin = 220.340000
+            xmax = 224.230000
+            text = ""
+        intervals [74]:
+            xmin = 224.230000
+            xmax = 228.450000
+            text = "一口一个。嗯对呀，呃呃。"
+        intervals [75]:
+            xmin = 228.450000
+            xmax = 232.440000
+            text = ""
+        intervals [76]:
+            xmin = 232.440000
+            xmax = 234.100000
+            text = "呃。"
+        intervals [77]:
+            xmin = 234.100000
+            xmax = 234.490000
+            text = ""
+        intervals [78]:
+            xmin = 234.490000
+            xmax = 239.340000
+            text = "咱们这好像也有过但是只出了一阵就没有了我我没有吃过。"
+        intervals [79]:
+            xmin = 239.340000
+            xmax = 241.990000
+            text = ""
+        intervals [80]:
+            xmin = 241.990000
+            xmax = 245.900000
+            text = "咱们这儿好吃的小店儿，我觉得。"
+        intervals [81]:
+            xmin = 245.900000
+            xmax = 248.170000
+            text = ""
+        intervals [82]:
+            xmin = 248.170000
+            xmax = 250.090000
+            text = "我特别喜欢吃一家火锅。"
+        intervals [83]:
+            xmin = 250.090000
+            xmax = 250.150000
+            text = ""
+        intervals [84]:
+            xmin = 250.150000
+            xmax = 254.540000
+            text = "是重庆是类似重庆的火，它在那个。"
+        intervals [85]:
+            xmin = 254.540000
+            xmax = 255.380000
+            text = ""
+        intervals [86]:
+            xmin = 255.380000
+            xmax = 258.510000
+            text = "对，就是它。辣英雄是不是。"
+        intervals [87]:
+            xmin = 258.510000
+            xmax = 260.140000
+            text = ""
+        intervals [88]:
+            xmin = 260.140000
+            xmax = 263.190000
+            text = "不那哦不是哦会乐喜是不是。"
+        intervals [89]:
+            xmin = 263.190000
+            xmax = 263.540000
+            text = ""
+        intervals [90]:
+            xmin = 263.540000
+            xmax = 266.220000
+            text = "乐喜我也吃过辣英雄我也吃过但是我。"
+        intervals [91]:
+            xmin = 266.220000
+            xmax = 266.240000
+            text = ""
+        intervals [92]:
+            xmin = 266.240000
+            xmax = 269.410000
+            text = "个人口味，我觉得以前的辣英雄很好吃，因为它的蟹柳是那种。"
+        intervals [93]:
+            xmin = 269.410000
+            xmax = 269.680000
+            text = ""
+        intervals [94]:
+            xmin = 269.680000
+            xmax = 272.070000
+            text = "可以拉丝的就是窗帘我觉得那个比较好吃。"
+        intervals [95]:
+            xmin = 272.070000
+            xmax = 272.320000
+            text = ""
+        intervals [96]:
+            xmin = 272.320000
+            xmax = 275.240000
+            text = "但是它现在换了一种蟹柳我觉得就一般了。"
+        intervals [97]:
+            xmin = 275.240000
+            xmax = 275.260000
+            text = ""
+        intervals [98]:
+            xmin = 275.260000
+            xmax = 279.300000
+            text = "那个蟹柳就一块一块的不好吃，但是乐喜那边那个火锅。"
+        intervals [99]:
+            xmin = 279.300000
+            xmax = 279.700000
+            text = ""
+        intervals [100]:
+            xmin = 279.700000
+            xmax = 284.470000
+            text = "那个蟹柳还是那种可以拉丝那就是那种类似窗。"
+        intervals [101]:
+            xmin = 284.470000
+            xmax = 286.870000
+            text = ""
+        intervals [102]:
+            xmin = 286.870000
+            xmax = 288.930000
+            text = "重庆都是重庆这两个都是。"
+        intervals [103]:
+            xmin = 288.930000
+            xmax = 289.130000
+            text = ""
+        intervals [104]:
+            xmin = 289.130000
+            xmax = 291.840000
+            text = "重庆口味儿的，对对对。"
+        intervals [105]:
+            xmin = 291.840000
+            xmax = 292.370000
+            text = ""
+        intervals [106]:
+            xmin = 292.370000
+            xmax = 294.740000
+            text = "我昨天刚去吃了，我觉得他身上。"
+        intervals [107]:
+            xmin = 294.740000
+            xmax = 294.810000
+            text = ""
+        intervals [108]:
+            xmin = 294.810000
+            xmax = 298.170000
+            text = "他味儿比较大，我昨天去了回来一身火锅味儿。"
+        intervals [109]:
+            xmin = 298.170000
+            xmax = 299.700000
+            text = ""
+        intervals [110]:
+            xmin = 299.700000
+            xmax = 305.630000
+            text = "他那个味儿比对那个火锅味儿比辣英雄味儿大多了，我这是我现在身上都有火锅味儿。"
+        intervals [111]:
+            xmin = 305.630000
+            xmax = 306.150000
+            text = ""
+        intervals [112]:
+            xmin = 306.150000
+            xmax = 306.530000
+            text = "因为。"
+        intervals [113]:
+            xmin = 306.530000
+            xmax = 306.620000
+            text = ""
+        intervals [114]:
+            xmin = 306.620000
+            xmax = 308.520000
+            text = "太懒了没洗没洗澡。"
+        intervals [115]:
+            xmin = 308.520000
+            xmax = 309.330000
+            text = ""
+        intervals [116]:
+            xmin = 309.330000
+            xmax = 311.980000
+            text = "这当然是重辣锅底啊。"
+        intervals [117]:
+            xmin = 311.980000
+            xmax = 312.300000
+            text = ""
+        intervals [118]:
+            xmin = 312.300000
+            xmax = 314.850000
+            text = "不还有番茄锅就是鸳鸯锅，对。"
+        intervals [119]:
+            xmin = 314.850000
+            xmax = 315.330000
+            text = ""
+        intervals [120]:
+            xmin = 315.330000
+            xmax = 317.160000
+            text = "这两个地方都是可以鸳鸯锅的。"
+        intervals [121]:
+            xmin = 317.160000
+            xmax = 317.640000
+            text = ""
+        intervals [122]:
+            xmin = 317.640000
+            xmax = 322.460000
+            text = "他们他们那的鸭血，也是那种冷锅鸭血在锅里就给你放好了，然后。"
+        intervals [123]:
+            xmin = 322.460000
+            xmax = 322.620000
+            text = ""
+        intervals [124]:
+            xmin = 322.620000
+            xmax = 324.530000
+            text = "开锅了那个鸭血也就熟了。"
+        intervals [125]:
+            xmin = 324.530000
+            xmax = 324.930000
+            text = ""
+        intervals [126]:
+            xmin = 324.930000
+            xmax = 327.080000
+            text = "但是我觉得比较来说的话我还是。"
+        intervals [127]:
+            xmin = 327.080000
+            xmax = 327.130000
+            text = ""
+        intervals [128]:
+            xmin = 327.130000
+            xmax = 329.290000
+            text = "比较喜欢吃辣英雄那个鸭血。"
+        intervals [129]:
+            xmin = 329.290000
+            xmax = 333.280000
+            text = ""
+        intervals [130]:
+            xmin = 333.280000
+            xmax = 335.730000
+            text = "那个，是那种鲜鸭血吗？"
+        intervals [131]:
+            xmin = 335.730000
+            xmax = 339.370000
+            text = ""
+        intervals [132]:
+            xmin = 339.370000
+            xmax = 345.700000
+            text = "好吧好吧，那我吃的时候都是给我放在锅里的，他会问你句那鸭血给你放锅里，我说可以。"
+        intervals [133]:
+            xmin = 345.700000
+            xmax = 346.250000
+            text = ""
+        intervals [134]:
+            xmin = 346.250000
+            xmax = 348.270000
+            text = "好吧我他那个都是过。"
+        intervals [135]:
+            xmin = 348.270000
+            xmax = 349.790000
+            text = ""
+        intervals [136]:
+            xmin = 349.790000
+            xmax = 353.270000
+            text = "十到十五分钟吧。"
+        intervals [137]:
+            xmin = 353.270000
+            xmax = 354.080000
+            text = ""
+        intervals [138]:
+            xmin = 354.080000
+            xmax = 358.900000
+            text = "我是等着那个开开锅我就再等会我才加因为我怕它没熟。"
+        intervals [139]:
+            xmin = 358.900000
+            xmax = 366.150000
+            text = ""
+        intervals [140]:
+            xmin = 366.150000
+            xmax = 371.150000
+            text = "以前我也不爱吃鸭血，我巨讨厌这种东西，我感觉它是它是。"
+        intervals [141]:
+            xmin = 371.150000
+            xmax = 371.540000
+            text = ""
+        intervals [142]:
+            xmin = 371.540000
+            xmax = 375.340000
+            text = "它是脏的，反正我就以前觉得也是。"
+        intervals [143]:
+            xmin = 375.340000
+            xmax = 375.460000
+            text = ""
+        intervals [144]:
+            xmin = 375.460000
+            xmax = 378.260000
+            text = "我以前觉得它是脏的我就不喜欢吃，然后。"
+        intervals [145]:
+            xmin = 378.260000
+            xmax = 378.570000
+            text = ""
+        intervals [146]:
+            xmin = 378.570000
+            xmax = 383.460000
+            text = "到后来吧我就还可以接受，我就能接受了，我感觉也非常好吃。"
+        intervals [147]:
+            xmin = 383.460000
+            xmax = 388.720000
+            text = ""
+        intervals [148]:
+            xmin = 388.720000
+            xmax = 391.240000
+            text = "虾滑的话也还好吧，我"
+        intervals [149]:
+            xmin = 391.240000
+            xmax = 392.450000
+            text = ""
+        intervals [150]:
+            xmin = 392.450000
+            xmax = 394.820000
+            text = "一般，我对虾滑的感觉。"
+        intervals [151]:
+            xmin = 394.820000
+            xmax = 397.010000
+            text = ""
+        intervals [152]:
+            xmin = 397.010000
+            xmax = 400.470000
+            text = "还有还有一些就是比较适合打卡的店吧。"
+        intervals [153]:
+            xmin = 400.470000
+            xmax = 400.670000
+            text = ""
+        intervals [154]:
+            xmin = 400.670000
+            xmax = 404.390000
+            text = "云贵川你们吃过吗？也是那个会有后院那个。"
+        intervals [155]:
+            xmin = 404.390000
+            xmax = 408.310000
+            text = ""
+        intervals [156]:
+            xmin = 408.310000
+            xmax = 409.620000
+            text = "对，提兰。"
+        intervals [157]:
+            xmin = 409.620000
+            xmax = 410.220000
+            text = ""
+        intervals [158]:
+            xmin = 410.220000
+            xmax = 415.030000
+            text = "也开了一家云贵川菜叫提兰，这两个我都吃过，我觉得比较来说的话我还是比。"
+        intervals [159]:
+            xmin = 415.030000
+            xmax = 415.500000
+            text = ""
+        intervals [160]:
+            xmin = 415.500000
+            xmax = 418.610000
+            text = "我觉得提兰好吃一点，我觉得提兰比云。"
+        intervals [161]:
+            xmin = 418.610000
+            xmax = 419.680000
+            text = ""
+        intervals [162]:
+            xmin = 419.680000
+            xmax = 423.670000
+            text = "对，我去过一次就是它刚开业的时候我就去了，我觉得那。"
+        intervals [163]:
+            xmin = 423.670000
+            xmax = 424.100000
+            text = ""
+        intervals [164]:
+            xmin = 424.100000
+            xmax = 428.620000
+            text = "我觉得那时候还行，不是，那云贵对云南菜。"
+        intervals [165]:
+            xmin = 428.620000
+            xmax = 428.920000
+            text = ""
+        intervals [166]:
+            xmin = 428.920000
+            xmax = 430.710000
+            text = "对炒类似炒菜。"
+        intervals [167]:
+            xmin = 430.710000
+            xmax = 431.150000
+            text = ""
+        intervals [168]:
+            xmin = 431.150000
+            xmax = 434.980000
+            text = "对差不多吧但是我我觉得提篮还是比较好吃的。"
+        intervals [169]:
+            xmin = 434.980000
+            xmax = 463.380000
+            text = ""
+        intervals [170]:
+            xmin = 463.380000
+            xmax = 464.420000
+            text = "我去。"
+        intervals [171]:
+            xmin = 464.420000
+            xmax = 464.930000
+            text = ""
+        intervals [172]:
+            xmin = 464.930000
+            xmax = 472.020000
+            text = "比如果说，云南的馍菌类的话就是那个你们知道会有旁边有一个叫什么喜明山那个虾滑。"
+        intervals [173]:
+            xmin = 472.020000
+            xmax = 472.490000
+            text = ""
+        intervals [174]:
+            xmin = 472.490000
+            xmax = 474.480000
+            text = "那里边云南的菌类比较多。"
+        intervals [175]:
+            xmin = 474.480000
+            xmax = 476.100000
+            text = ""
+        intervals [176]:
+            xmin = 476.100000
+            xmax = 479.900000
+            text = "对那个自助我觉得那个菌类比较好吃。"
+        intervals [177]:
+            xmin = 479.900000
+            xmax = 482.910000
+            text = ""
+        intervals [178]:
+            xmin = 482.910000
+            xmax = 485.070000
+            text = "哎呦我是。"
+        intervals [179]:
+            xmin = 485.070000
+            xmax = 485.630000
+            text = ""
+        intervals [180]:
+            xmin = 485.630000
+            xmax = 489.540000
+            text = "我是就是开了新店我都喜欢去尝一尝。"
+        intervals [181]:
+            xmin = 489.540000
+            xmax = 489.740000
+            text = ""
+        intervals [182]:
+            xmin = 489.740000
+            xmax = 491.890000
+            text = "然后我就我就去吃了一回。"
+        intervals [183]:
+            xmin = 491.890000
+            xmax = 492.170000
+            text = ""
+        intervals [184]:
+            xmin = 492.170000
+            xmax = 496.140000
+            text = "也不是探店，我就是纯我就是纯贪吃。"
+        intervals [185]:
+            xmin = 496.140000
+            xmax = 497.450000
+            text = ""
+        intervals [186]:
+            xmin = 497.450000
+            xmax = 501.760000
+            text = "我现在就是纯贪吃我就觉得新开的店我就想尝尝我就去。"
+        intervals [187]:
+            xmin = 501.760000
+            xmax = 501.960000
+            text = ""
+        intervals [188]:
+            xmin = 501.960000
+            xmax = 504.980000
+            text = "哎呦。"
+        intervals [189]:
+            xmin = 504.980000
+            xmax = 508.580000
+            text = ""
+        intervals [190]:
+            xmin = 508.580000
+            xmax = 509.970000
+            text = "巴仿是不是。"
+        intervals [191]:
+            xmin = 509.970000
+            xmax = 511.140000
+            text = ""
+        intervals [192]:
+            xmin = 511.140000
+            xmax = 514.200000
+            text = "我没尝，我觉得它是巴奴的仿版。"
+        intervals [193]:
+            xmin = 514.200000
+            xmax = 515.410000
+            text = ""
+        intervals [194]:
+            xmin = 515.410000
+            xmax = 518.630000
+            text = "因为我就我就觉得它叫巴仿，我我觉得它是。"
+        intervals [195]:
+            xmin = 518.630000
+            xmax = 518.970000
+            text = ""
+        intervals [196]:
+            xmin = 518.970000
+            xmax = 522.440000
+            text = "嗯，巴奴的仿版所以我就我还没尝我我看见过那个。"
+        intervals [197]:
+            xmin = 522.440000
+            xmax = 523.160000
+            text = ""
+        intervals [198]:
+            xmin = 523.160000
+            xmax = 524.410000
+            text = "我看见过那个。"
+        intervals [199]:
+            xmin = 524.410000
+            xmax = 536.390000
+            text = ""
+        intervals [200]:
+            xmin = 536.390000
+            xmax = 540.580000
+            text = "我喜欢我喜欢喝瑞幸咖啡的那个苹果 C 美式."
+        intervals [201]:
+            xmin = 540.580000
+            xmax = 562.910000
+            text = ""
+        intervals [202]:
+            xmin = 562.910000
+            xmax = 565.550000
+            text = "我也是喝可口可乐。"
+        intervals [203]:
+            xmin = 565.550000
+            xmax = 577.040000
+            text = ""
+        intervals [204]:
+            xmin = 577.040000
+            xmax = 580.300000
+            text = "但是我觉得可口的劲比较大就是."
+        intervals [205]:
+            xmin = 580.300000
+            xmax = 590.800000
+            text = ""
+        intervals [206]:
+            xmin = 590.800000
+            xmax = 593.790000
+            text = "我倒是我倒是没品过这么细我去我倒是没尝没品过这么细."
+        intervals [207]:
+            xmin = 593.790000
+            xmax = 595.150000
+            text = ""
+        intervals [208]:
+            xmin = 595.150000
+            xmax = 599.010000
+            text = "我去我倒是没尝没品过这么细。"
+        intervals [209]:
+            xmin = 599.010000
+            xmax = 608.830000
+            text = ""
+        intervals [210]:
+            xmin = 608.830000
+            xmax = 611.740000
+            text = "没人喜欢喝瑞幸咖啡的美式吗。"
+        intervals [211]:
+            xmin = 611.740000
+            xmax = 613.700000
+            text = ""
+        intervals [212]:
+            xmin = 613.700000
+            xmax = 615.570000
+            text = "都不喝，好吧。"
+        intervals [213]:
+            xmin = 615.570000
+            xmax = 616.920000
+            text = ""
+        intervals [214]:
+            xmin = 616.920000
+            xmax = 620.890000
+            text = "我觉得美式还好吧，我不喜欢喝。"
+        intervals [215]:
+            xmin = 620.890000
+            xmax = 624.810000
+            text = ""
+        intervals [216]:
+            xmin = 624.810000
+            xmax = 627.570000
+            text = "我觉得那都太甜了。"
+        intervals [217]:
+            xmin = 627.570000
+            xmax = 629.950000
+            text = ""
+        intervals [218]:
+            xmin = 629.950000
+            xmax = 632.190000
+            text = "我总感觉这些太甜了。"
+        intervals [219]:
+            xmin = 632.190000
+            xmax = 635.830000
+            text = ""
+        intervals [220]:
+            xmin = 635.830000
+            xmax = 639.140000
+            text = "就是酸苦，我喜欢那种酸苦酸苦的。"
+        intervals [221]:
+            xmin = 639.140000
+            xmax = 640.420000
+            text = ""
+        intervals [222]:
+            xmin = 640.420000
+            xmax = 643.680000
+            text = "那那倒也没有那么苦没有那么苦倒是也。"
+        intervals [223]:
+            xmin = 643.680000
+            xmax = 645.390000
+            text = ""
+        intervals [224]:
+            xmin = 645.390000
+            xmax = 649.040000
+            text = "对我感觉美式还是比拿铁我觉得啊，我。"
+        intervals [225]:
+            xmin = 649.040000
+            xmax = 649.240000
+            text = ""
+        intervals [226]:
+            xmin = 649.240000
+            xmax = 651.560000
+            text = "因为我的口味，还是觉得。"
+        intervals [227]:
+            xmin = 651.560000
+            xmax = 652.190000
+            text = ""
+        intervals [228]:
+            xmin = 652.190000
+            xmax = 655.840000
+            text = "奶，对，他放奶了，所以我会觉得他甜一些。"
+        intervals [229]:
+            xmin = 655.840000
+            xmax = 690.590000
+            text = ""
+        intervals [230]:
+            xmin = 690.590000
+            xmax = 694.390000
+            text = " 我觉得啤酒有一个青岛白啤比较好喝你们可以尝一尝。"
+        intervals [231]:
+            xmin = 694.390000
+            xmax = 695.110000
+            text = ""
+        intervals [232]:
+            xmin = 695.110000
+            xmax = 698.730000
+            text = "是那种白色罐子的，那个白啤好喝。"
+        intervals [233]:
+            xmin = 698.730000
+            xmax = 702.310000
+            text = ""
+        intervals [234]:
+            xmin = 702.310000
+            xmax = 705.710000
+            text = "那个还比较顺顺口一点。"
+        intervals [235]:
+            xmin = 705.710000
+            xmax = 707.660000
+            text = ""
+        intervals [236]:
+            xmin = 707.660000
+            xmax = 710.470000
+            text = "啊，我我喝。   "
+        intervals [237]:
+            xmin = 710.470000
+            xmax = 711.480000
+            text = ""
+        intervals [238]:
+            xmin = 711.480000
+            xmax = 713.330000
+            text = "啤酒和红酒。"
+        intervals [239]:
+            xmin = 713.330000
+            xmax = 715.310000
+            text = ""
+        intervals [240]:
+            xmin = 715.310000
+            xmax = 717.330000
+            text = "对我红酒。"
+        intervals [241]:
+            xmin = 717.330000
+            xmax = 717.930000
+            text = ""
+        intervals [242]:
+            xmin = 717.930000
+            xmax = 720.340000
+            text = "对，我感觉这个比较好喝。"
+        intervals [243]:
+            xmin = 720.340000
+            xmax = 721.130000
+            text = ""
+        intervals [244]:
+            xmin = 721.130000
+            xmax = 726.270000
+            text = "但是我日常基本上还是喝啤酒的如果跟家里人出去吃饭啥的话。"
+        intervals [245]:
+            xmin = 726.270000
+            xmax = 736.940000
+            text = ""
+        intervals [246]:
+            xmin = 736.940000
+            xmax = 742.530000
+            text = "这个啤酒应该是，我感觉男生应该都是就一直喝吧没有。"
+        intervals [247]:
+            xmin = 742.530000
+            xmax = 743.620000
+            text = ""
+        intervals [248]:
+            xmin = 743.620000
+            xmax = 746.780000
+            text = "对呀，我感觉男生应该是一直喝吧。"
+        intervals [249]:
+            xmin = 746.780000
+            xmax = 755.120000
+            text = ""
+        intervals [250]:
+            xmin = 755.120000
+            xmax = 756.940000
+            text = "对呀，你肯定就是。"
+        intervals [251]:
+            xmin = 756.940000
+            xmax = 763.030000
+            text = ""
+        intervals [252]:
+            xmin = 763.030000
+            xmax = 767.170000
+            text = "哼，基本上应该都是那样。"
+        intervals [253]:
+            xmin = 767.170000
+            xmax = 777.370000
+            text = ""
+        intervals [254]:
+            xmin = 777.370000
+            xmax = 782.390000
+            text = "我感觉那种洋酒应该调酒比较好喝，如果单喝的话，它会度度数会有点儿大。"
+        intervals [255]:
+            xmin = 782.390000
+            xmax = 783.210000
+            text = ""
+        intervals [256]:
+            xmin = 783.210000
+            xmax = 784.750000
+            text = "对对对要要不单喝。"
+        intervals [257]:
+            xmin = 784.750000
+            xmax = 785.140000
+            text = ""
+        intervals [258]:
+            xmin = 785.140000
+            xmax = 788.110000
+            text = "对它单喝的话就是味儿特别冲，比较大"
+        intervals [259]:
+            xmin = 788.110000
+            xmax = 791.100000
+            text = ""
+        intervals [260]:
+            xmin = 791.100000
+            xmax = 792.090000
+            text = "我。"
+        intervals [261]:
+            xmin = 792.090000
+            xmax = 793.330000
+            text = ""
+        intervals [262]:
+            xmin = 793.330000
+            xmax = 798.310000
+            text = "我就我我对我也觉得它酒精味太重了，所以我就是就调酒喝那个还还好。"
+        intervals [263]:
+            xmin = 798.310000
+            xmax = 802.820000
+            text = ""
+        intervals [264]:
+            xmin = 802.820000
+            xmax = 804.930000
+            text = "没去过但是我去过石家庄一个民谣。"
+        intervals [265]:
+            xmin = 804.930000
+            xmax = 805.810000
+            text = ""
+        intervals [266]:
+            xmin = 805.810000
+            xmax = 809.350000
+            text = "就是咱们这也有一个吗？不是酒有酒有民谣民民谣。"
+        intervals [267]:
+            xmin = 809.350000
+            xmax = 810.080000
+            text = ""
+        intervals [268]:
+            xmin = 810.080000
+            xmax = 812.130000
+            text = "对，但是基本上好像都在荣东。"
+        intervals [269]:
+            xmin = 812.130000
+            xmax = 812.970000
+            text = ""
+        intervals [270]:
+            xmin = 812.970000
+            xmax = 816.620000
+            text = "对，我去的石家庄那民谣也是我。"
+        intervals [271]:
+            xmin = 816.620000
+            xmax = 819.020000
+            text = ""
+        intervals [272]:
+            xmin = 819.020000
+            xmax = 819.610000
+            text = "什么？"
+        intervals [273]:
+            xmin = 819.610000
+            xmax = 839.520000
+            text = ""
+        intervals [274]:
+            xmin = 839.520000
+            xmax = 841.910000
+            text = "我是会点那种颜色漂亮的。"
+        intervals [275]:
+            xmin = 841.910000
+            xmax = 842.060000
+            text = ""
+        intervals [276]:
+            xmin = 842.060000
+            xmax = 845.410000
+            text = "颜色漂亮的我觉得还好喝，因为有一股甜味。"
+        intervals [277]:
+            xmin = 845.410000
+            xmax = 847.050000
+            text = ""
+        intervals [278]:
+            xmin = 847.050000
+            xmax = 850.700000
+            text = "它应该是加果酒了，我觉得颜色漂亮的好喝好喝一点。"
+        intervals [279]:
+            xmin = 850.700000
+            xmax = 857.230000
+            text = ""
+        intervals [280]:
+            xmin = 857.230000
+            xmax = 859.650000
+            text = "你说那些酒吧在荣东是不是比较多。"
+        intervals [281]:
+            xmin = 859.650000
+            xmax = 862.310000
+            text = ""
+        intervals [282]:
+            xmin = 862.310000
+            xmax = 866.690000
+            text = "我也没有去过荣东，很多荣直县城就都很少。"
+        intervals [283]:
+            xmin = 866.690000
+            xmax = 867.890000
+            text = ""
+        intervals [284]:
+            xmin = 867.890000
+            xmax = 869.800000
+            text = " 对，我比较喜欢那的氛围。"
+        intervals [285]:
+            xmin = 869.800000
+            xmax = 870.460000
+            text = ""
+        intervals [286]:
+            xmin = 870.460000
+            xmax = 872.890000
+            text = "我感觉会哎很有感觉很有 feel 。"
+        intervals [287]:
+            xmin = 872.890000
+            xmax = 874.790000
+            text = ""
+        intervals [288]:
+            xmin = 874.790000
+            xmax = 875.910000
+            text = "对对对。"
+        intervals [289]:
+            xmin = 875.910000
+            xmax = 891.920000
+            text = ""
+        intervals [290]:
+            xmin = 891.920000
+            xmax = 894.660000
+            text = "没有我看着就不好吃。"
+        intervals [291]:
+            xmin = 894.660000
+            xmax = 899.600000
+            text = ""
+        intervals [292]:
+            xmin = 899.600000
+            xmax = 902.920000
+            text = "我我我也就我看着就没有食欲。"
+        intervals [293]:
+            xmin = 902.920000
+            xmax = 944.070000
+            text = ""
+        intervals [294]:
+            xmin = 944.070000
+            xmax = 946.510000
+            text = "你们喜欢吃甜品吗？"
+        intervals [295]:
+            xmin = 946.510000
+            xmax = 952.740000
+            text = ""
+        intervals [296]:
+            xmin = 952.740000
+            xmax = 959.260000
+            text = "不是，就是那种小蛋糕，就是那种类似会有上面开了一个麦吉牛奶吗，那种糖水。"
+        intervals [297]:
+            xmin = 959.260000
+            xmax = 960.390000
+            text = ""
+        intervals [298]:
+            xmin = 960.390000
+            xmax = 961.430000
+            text = "甜品啥的。"
+        intervals [299]:
+            xmin = 961.430000
+            xmax = 964.290000
+            text = ""
+        intervals [300]:
+            xmin = 964.290000
+            xmax = 968.220000
+            text = "对，那个超长蛋挞，我都我都不想说那超长蛋挞。"
+        intervals [301]:
+            xmin = 968.220000
+            xmax = 968.570000
+            text = ""
+        intervals [302]:
+            xmin = 968.570000
+            xmax = 971.950000
+            text = "我去了三次都告诉我要排队还有一次去了。"
+        intervals [303]:
+            xmin = 971.950000
+            xmax = 972.160000
+            text = ""
+        intervals [304]:
+            xmin = 972.160000
+            xmax = 974.410000
+            text = "去了告诉我没有了过了一会告。"
+        intervals [305]:
+            xmin = 974.410000
+            xmax = 974.420000
+            text = ""
+        intervals [306]:
+            xmin = 974.420000
+            xmax = 976.020000
+            text = "我正在挑别的东西他。"
+        intervals [307]:
+            xmin = 976.020000
+            xmax = 976.090000
+            text = ""
+        intervals [308]:
+            xmin = 976.090000
+            xmax = 979.970000
+            text = "告诉我有，但是你要等三十分钟，我说算了吧，我等不了"
+        intervals [309]:
+            xmin = 979.970000
+            xmax = 982.060000
+            text = ""
+        intervals [310]:
+            xmin = 982.060000
+            xmax = 983.660000
+            text = "是的。"
+        intervals [311]:
+            xmin = 983.660000
+            xmax = 986.000000
+            text = ""
+        intervals [312]:
+            xmin = 986.000000
+            xmax = 987.540000
+            text = "对，曾记。"
+        intervals [313]:
+            xmin = 987.540000
+            xmax = 992.800000
+            text = ""
+        intervals [314]:
+            xmin = 992.800000
+            xmax = 994.680000
+            text = "对。"
+        intervals [315]:
+            xmin = 994.680000
+            xmax = 994.920000
+            text = ""
+        intervals [316]:
+            xmin = 994.920000
+            xmax = 995.930000
+            text = "我也不知道。"
+        intervals [317]:
+            xmin = 995.930000
+            xmax = 995.990000
+            text = ""
+        intervals [318]:
+            xmin = 995.990000
+            xmax = 1000.310000
+            text = "那个甜品小师傅你们知道的吗？他他有那更更长的那个。"
+        intervals [319]:
+            xmin = 1000.310000
+            xmax = 1006.280000
+            text = ""
+        intervals [320]:
+            xmin = 1006.280000
+            xmax = 1010.540000
+            text = "对，加各种水果的那个超人蛋挞，嗯甜品小师傅就是那个。"
+        intervals [321]:
+            xmin = 1010.540000
+            xmax = 1015.790000
+            text = ""
+        intervals [322]:
+            xmin = 1015.790000
+            xmax = 1019.340000
+            text = "但是我感觉蛋挞的话应该还是肯德基的比较好吃吧。"
+        intervals [323]:
+            xmin = 1019.340000
+            xmax = 1021.220000
+            text = ""
+        intervals [324]:
+            xmin = 1021.220000
+            xmax = 1026.500000
+            text = " 我觉得肯德基的对刚做出那种烫烫的酥酥的，我觉得肯德基的蛋挞是最好吃。"
+        intervals [325]:
+            xmin = 1026.500000
+            xmax = 1026.630000
+            text = ""
+        intervals [326]:
+            xmin = 1026.630000
+            xmax = 1029.160000
+            text = "是麦当劳我也觉得。"
+        intervals [327]:
+            xmin = 1029.160000
+            xmax = 1038.070000
+            text = ""
+        intervals [328]:
+            xmin = 1038.070000
+            xmax = 1041.720000
+            text = "又脆还有味，我觉得很好吃，对。"
+        intervals [329]:
+            xmin = 1041.720000
+            xmax = 1044.500000
+            text = ""
+        intervals [330]:
+            xmin = 1044.500000
+            xmax = 1045.890000
+            text = "汉堡。"
+        intervals [331]:
+            xmin = 1045.890000
+            xmax = 1049.030000
+            text = ""
+        intervals [332]:
+            xmin = 1049.030000
+            xmax = 1050.750000
+            text = " 对，八重奏。"
+        intervals [333]:
+            xmin = 1050.750000
+            xmax = 1051.040000
+            text = ""
+        intervals [334]:
+            xmin = 1051.040000
+            xmax = 1054.300000
+            text = "吃很多薯条，我恨我恨荣兴，没有麦当劳。"
+        intervals [335]:
+            xmin = 1054.300000
+            xmax = 1054.520000
+            text = ""
+        intervals [336]:
+            xmin = 1054.520000
+            xmax = 1057.910000
+            text = "都在荣东，要不就在商就是服务中心那边。"
+        intervals [337]:
+            xmin = 1057.910000
+            xmax = 1059.930000
+            text = ""
+        intervals [338]:
+            xmin = 1059.930000
+            xmax = 1063.310000
+            text = "只有肯德基，肯德基，对。"
+        intervals [339]:
+            xmin = 1063.310000
+            xmax = 1066.690000
+            text = ""
+        intervals [340]:
+            xmin = 1066.690000
+            xmax = 1068.980000
+            text = "没有汉堡王，汉堡王整个荣成都没有。"
+        intervals [341]:
+            xmin = 1068.980000
+            xmax = 1070.460000
+            text = ""
+        intervals [342]:
+            xmin = 1070.460000
+            xmax = 1075.370000
+            text = "汉堡王有一个加牛肉的巨好吃超大的那个我感觉很好吃。"
+        intervals [343]:
+            xmin = 1075.370000
+            xmax = 1076.640000
+            text = ""
+        intervals [344]:
+            xmin = 1076.640000
+            xmax = 1079.260000
+            text = "汉堡，对，汉堡王的汉堡比较好吃。"
+        intervals [345]:
+            xmin = 1079.260000
+            xmax = 1092.620000
+            text = ""
+        intervals [346]:
+            xmin = 1092.620000
+            xmax = 1093.610000
+            text = "薯饼。"
+        intervals [347]:
+            xmin = 1093.610000
+            xmax = 1105.690000
+            text = ""
+        intervals [348]:
+            xmin = 1105.690000
+            xmax = 1108.340000
+            text = "我感觉麦当劳的那个鸡块也还行。"
+        intervals [349]:
+            xmin = 1108.340000
+            xmax = 1109.080000
+            text = ""
+        intervals [350]:
+            xmin = 1109.080000
+            xmax = 1110.850000
+            text = "主要是配的那个酱比较好吃。"
+        intervals [351]:
+            xmin = 1110.850000
+            xmax = 1118.700000
+            text = ""
+        intervals [352]:
+            xmin = 1118.700000
+            xmax = 1121.420000
+            text = "我觉得那个板烧，板烧。"
+        intervals [353]:
+            xmin = 1121.420000
+            xmax = 1126.500000
+            text = ""
+        intervals [354]:
+            xmin = 1126.500000
+            xmax = 1129.070000
+            text = "它本来就很小，后来越做越小。"
+        intervals [355]:
+            xmin = 1129.070000
+            xmax = 1129.380000
+            text = ""
+        intervals [356]:
+            xmin = 1129.380000
+            xmax = 1132.400000
+            text = "还有那个啥塔斯汀都大家都说不要。"
+        intervals [357]:
+            xmin = 1132.400000
+            xmax = 1132.680000
+            text = ""
+        intervals [358]:
+            xmin = 1132.680000
+            xmax = 1135.870000
+            text = "不要被那个大象踩过的汉堡吗扁扁的。"
+        intervals [359]:
+            xmin = 1135.870000
+            xmax = 1139.320000
+            text = ""
+        intervals [360]:
+            xmin = 1139.320000
+            xmax = 1143.420000
+            text = "那个饼皮还行，但是塔斯汀只有汉堡也好吃，别的。"
+        intervals [361]:
+            xmin = 1143.420000
+            xmax = 1143.650000
+            text = ""
+        intervals [362]:
+            xmin = 1143.650000
+            xmax = 1145.340000
+            text = "都不好吃，粗薯也不好吃。"
+        intervals [363]:
+            xmin = 1145.340000
+            xmax = 1146.830000
+            text = ""
+        intervals [364]:
+            xmin = 1146.830000
+            xmax = 1148.840000
+            text = "是啊，我觉得他。"
+        intervals [365]:
+            xmin = 1148.840000
+            xmax = 1149.900000
+            text = ""
+        intervals [366]:
+            xmin = 1149.900000
+            xmax = 1151.580000
+            text = "我不喜欢他的可乐。"
+        intervals [367]:
+            xmin = 1151.580000
+            xmax = 1153.450000
+            text = ""
+        intervals [368]:
+            xmin = 1153.450000
+            xmax = 1155.220000
+            text = "我也觉得可乐不太好喝。"
+        intervals [369]:
+            xmin = 1155.220000
+            xmax = 1163.380000
+            text = ""
+        intervals [370]:
+            xmin = 1163.380000
+            xmax = 1166.600000
+            text = "没人喜欢吃华莱士的那个翅尖跟那个。"
+        intervals [371]:
+            xmin = 1166.600000
+            xmax = 1166.820000
+            text = ""
+        intervals [372]:
+            xmin = 1166.820000
+            xmax = 1170.500000
+            text = "蘑菇蘑菇吗？对呀。"
+        intervals [373]:
+            xmin = 1170.500000
+            xmax = 1177.840000
+            text = ""
+        intervals [374]:
+            xmin = 1177.840000
+            xmax = 1179.210000
+            text = "会呀，会。"
+        intervals [375]:
+            xmin = 1179.210000
+            xmax = 1181.670000
+            text = ""
+        intervals [376]:
+            xmin = 1181.670000
+            xmax = 1187.750000
+            text = "但是要分吃什么，如果你单点小吃的话，小吃是不会的，你只有吃了汉堡之后才会拉肚子。"
+        intervals [377]:
+            xmin = 1187.750000
+            xmax = 1188.530000
+            text = ""
+        intervals [378]:
+            xmin = 1188.530000
+            xmax = 1189.800000
+            text = "或者鸡肉卷。"
+        intervals [379]:
+            xmin = 1189.800000
+            xmax = 1194.230000
+            text = ""
+        intervals [380]:
+            xmin = 1194.230000
+            xmax = 1197.130000
+            text = " 不太，不太敢。对。"
+        intervals [381]:
+            xmin = 1197.130000
+            xmax = 1226.980000
+            text = ""
+        intervals [382]:
+            xmin = 1226.980000
+            xmax = 1230.660000
+            text = "荣成有一家，荣成有一家特别好吃的牛肉板面。"
+        intervals [383]:
+            xmin = 1230.660000
+            xmax = 1231.310000
+            text = ""
+        intervals [384]:
+            xmin = 1231.310000
+            xmax = 1233.230000
+            text = "安徽牛肉板面，在。"
+        intervals [385]:
+            xmin = 1233.230000
+            xmax = 1233.680000
+            text = ""
+        intervals [386]:
+            xmin = 1233.680000
+            xmax = 1237.430000
+            text = "不是，在在在哪来着。"
+        intervals [387]:
+            xmin = 1237.430000
+            xmax = 1240.350000
+            text = ""
+        intervals [388]:
+            xmin = 1240.350000
+            xmax = 1244.480000
+            text = "不是保府对面吧，是保府对面那条街，但是在。"
+        intervals [389]:
+            xmin = 1244.480000
+            xmax = 1244.770000
+            text = ""
+        intervals [390]:
+            xmin = 1244.770000
+            xmax = 1248.740000
+            text = "河北荣城河北荣城中学那块儿，那是一个很老很老的。"
+        intervals [391]:
+            xmin = 1248.740000
+            xmax = 1249.120000
+            text = ""
+        intervals [392]:
+            xmin = 1249.120000
+            xmax = 1251.750000
+            text = "板儿面了，我感觉那个好吃。"
+        intervals [393]:
+            xmin = 1251.750000
+            xmax = 1253.270000
+            text = ""
+        intervals [394]:
+            xmin = 1253.270000
+            xmax = 1254.790000
+            text = "是不是他那个。"
+        intervals [395]:
+            xmin = 1254.790000
+            xmax = 1255.170000
+            text = ""
+        intervals [396]:
+            xmin = 1255.170000
+            xmax = 1259.000000
+            text = "面对双龙的左边儿，左手边儿，哦，那个也还行。"
+        intervals [397]:
+            xmin = 1259.000000
+            xmax = 1262.160000
+            text = ""
+        intervals [398]:
+            xmin = 1262.160000
+            xmax = 1267.210000
+            text = "对，那个河北融创中学旁边儿那家也是很多年了，那个也还行。"
+        intervals [399]:
+            xmin = 1267.210000
+            xmax = 1268.560000
+            text = ""
+        intervals [400]:
+            xmin = 1268.560000
+            xmax = 1270.930000
+            text = "我也喜欢吃细的。"
+        intervals [401]:
+            xmin = 1270.930000
+            xmax = 1281.010000
+            text = ""
+        intervals [402]:
+            xmin = 1281.010000
+            xmax = 1285.030000
+            text = "对，蹭医生，我也是我也是因为这个，我才后来才。"
+        intervals [403]:
+            xmin = 1285.030000
+            xmax = 1285.070000
+            text = ""
+        intervals [404]:
+            xmin = 1285.070000
+            xmax = 1288.180000
+            text = "逐渐不吃宽的我后来觉得细的。"
+        intervals [405]:
+            xmin = 1288.180000
+            xmax = 1289.320000
+            text = ""
+        intervals [406]:
+            xmin = 1289.320000
+            xmax = 1291.520000
+            text = "细的比较入味我后来觉得。"
+        intervals [407]:
+            xmin = 1291.520000
+            xmax = 1302.310000
+            text = ""
+        intervals [408]:
+            xmin = 1302.310000
+            xmax = 1306.030000
+            text = "我我真不吃蒜，我也不吃蒜。"
+        intervals [409]:
+            xmin = 1306.030000
+            xmax = 1306.740000
+            text = ""
+        intervals [410]:
+            xmin = 1306.740000
+            xmax = 1308.610000
+            text = "对，对对对。"
+        intervals [411]:
+            xmin = 1308.610000
+            xmax = 1311.260000
+            text = ""
+        intervals [412]:
+            xmin = 1311.260000
+            xmax = 1315.970000
+            text = "我是纯受不了那个蒜味，你现在你让我吃一口蒜我能我能立马吐了。"
+        intervals [413]:
+            xmin = 1315.970000
+            xmax = 1316.400000
+            text = ""
+        intervals [414]:
+            xmin = 1316.400000
+            xmax = 1319.720000
+            text = "我就是，那种我就是真的反胃那种。"
+        intervals [415]:
+            xmin = 1319.720000
+            xmax = 1323.290000
+            text = ""
+        intervals [416]:
+            xmin = 1323.290000
+            xmax = 1326.780000
+            text = "熟的那种也不行，熟的熟的也不吃。"
+        intervals [417]:
+            xmin = 1326.780000
+            xmax = 1327.280000
+            text = ""
+        intervals [418]:
+            xmin = 1327.280000
+            xmax = 1330.750000
+            text = "但是我会挑出来，如果是那种，如果是。"
+        intervals [419]:
+            xmin = 1330.750000
+            xmax = 1330.990000
+            text = ""
+        intervals [420]:
+            xmin = 1330.990000
+            xmax = 1333.510000
+            text = "如果是那种炒的硬炒的蒜的话。"
+        intervals [421]:
+            xmin = 1333.510000
+            xmax = 1333.640000
+            text = ""
+        intervals [422]:
+            xmin = 1333.640000
+            xmax = 1335.500000
+            text = "就是那种蒜末类似于蒜末的。"
+        intervals [423]:
+            xmin = 1335.500000
+            xmax = 1336.940000
+            text = ""
+        intervals [424]:
+            xmin = 1336.940000
+            xmax = 1341.160000
+            text = "我吃我吃一口，我会就口饮料把它咽下去。"
+        intervals [425]:
+            xmin = 1341.160000
+            xmax = 1343.040000
+            text = ""
+        intervals [426]:
+            xmin = 1343.040000
+            xmax = 1347.880000
+            text = "蒜蓉的还行吧，因那种蒜蓉的味很小我还我还可以接受。"
+        intervals [427]:
+            xmin = 1347.880000
+            xmax = 1348.630000
+            text = ""
+        intervals [428]:
+            xmin = 1348.630000
+            xmax = 1352.480000
+            text = "对，有的做的它就味大我就吃不了它的味小我就能吃。"
+        intervals [429]:
+            xmin = 1352.480000
+            xmax = 1355.680000
+            text = ""
+        intervals [430]:
+            xmin = 1355.680000
+            xmax = 1358.900000
+            text = "不放，我吃火锅那个蘸料。"
+        intervals [431]:
+            xmin = 1358.900000
+            xmax = 1359.360000
+            text = ""
+        intervals [432]:
+            xmin = 1359.360000
+            xmax = 1361.410000
+            text = "我不吃油碟我只吃麻酱碟。"
+        intervals [433]:
+            xmin = 1361.410000
+            xmax = 1365.350000
+            text = ""
+        intervals [434]:
+            xmin = 1365.350000
+            xmax = 1367.260000
+            text = "但是我真受不了那个蒜味。"
+        intervals [435]:
+            xmin = 1367.260000
+            xmax = 1372.910000
+            text = ""
+        intervals [436]:
+            xmin = 1372.910000
+            xmax = 1374.590000
+            text = "对，嗯。"
+        intervals [437]:
+            xmin = 1374.590000
+            xmax = 1376.500000
+            text = ""
+        intervals [438]:
+            xmin = 1376.500000
+            xmax = 1379.470000
+            text = "我觉得香菜很好吃啊，全世界。"
+        intervals [439]:
+            xmin = 1379.470000
+            xmax = 1381.270000
+            text = ""
+        intervals [440]:
+            xmin = 1381.270000
+            xmax = 1384.970000
+            text = "全世界都种满香菜好不好。"
+        intervals [441]:
+            xmin = 1384.970000
+            xmax = 1385.740000
+            text = ""
+        intervals [442]:
+            xmin = 1385.740000
+            xmax = 1387.330000
+            text = "我也不喜欢吃葱。"
+        intervals [443]:
+            xmin = 1387.330000
+            xmax = 1394.430000
+            text = ""
+        intervals [444]:
+            xmin = 1394.430000
+            xmax = 1396.420000
+            text = "我感觉还好吧。"
+        intervals [445]:
+            xmin = 1396.420000
+            xmax = 1397.060000
+            text = ""
+        intervals [446]:
+            xmin = 1397.060000
+            xmax = 1399.200000
+            text = "我觉得很好吃啊。"
+        intervals [447]:
+            xmin = 1399.200000
+            xmax = 1400.150000
+            text = ""
+        intervals [448]:
+            xmin = 1400.150000
+            xmax = 1403.700000
+            text = "是，我也不吃葱我也很讨厌葱。"
+        intervals [449]:
+            xmin = 1403.700000
+            xmax = 1411.270000
+            text = ""
+        intervals [450]:
+            xmin = 1411.270000
+            xmax = 1417.070000
+            text = "茴香也好吃啊，茴香馅饺子超级香啊。"
+        intervals [451]:
+            xmin = 1417.070000
+            xmax = 1419.870000
+            text = ""
+        intervals [452]:
+            xmin = 1419.870000
+            xmax = 1421.770000
+            text = "不臭啊。"
+        intervals [453]:
+            xmin = 1421.770000
+            xmax = 1427.420000
+            text = ""
+        intervals [454]:
+            xmin = 1427.420000
+            xmax = 1429.180000
+            text = "那你们能吃榴莲吗？"
+        intervals [455]:
+            xmin = 1429.180000
+            xmax = 1432.360000
+            text = ""
+        intervals [456]:
+            xmin = 1432.360000
+            xmax = 1435.320000
+            text = "我螺蛳粉也很香啊。"
+        intervals [457]:
+            xmin = 1435.320000
+            xmax = 1441.720000
+            text = ""
+        intervals [458]:
+            xmin = 1441.720000
+            xmax = 1444.370000
+            text = "它香啊，我觉得很香。"
+        intervals [459]:
+            xmin = 1444.370000
+            xmax = 1444.510000
+            text = ""
+        intervals [460]:
+            xmin = 1444.510000
+            xmax = 1446.260000
+            text = "它一点也不臭。"
+        intervals [461]:
+            xmin = 1446.260000
+            xmax = 1446.580000
+            text = ""
+        intervals [462]:
+            xmin = 1446.580000
+            xmax = 1448.900000
+            text = "那那那你们吃螺蛳粉儿吗？"
+        intervals [463]:
+            xmin = 1448.900000
+            xmax = 1451.110000
+            text = ""
+        intervals [464]:
+            xmin = 1451.110000
+            xmax = 1453.670000
+            text = "螺蛳粉儿也不臭。"
+        intervals [465]:
+            xmin = 1453.670000
+            xmax = 1455.320000
+            text = ""
+        intervals [466]:
+            xmin = 1455.320000
+            xmax = 1460.280000
+            text = "螺蛳粉儿必须吃汇友旁边那家儿老街螺蛳粉儿，只有那家好吃，别的都不好吃。"
+        intervals [467]:
+            xmin = 1460.280000
+            xmax = 1461.590000
+            text = ""
+        intervals [468]:
+            xmin = 1461.590000
+            xmax = 1463.270000
+            text = "我觉得老街老街好。"
+        intervals [469]:
+            xmin = 1463.270000
+            xmax = 1466.560000
+            text = ""
+        intervals [470]:
+            xmin = 1466.560000
+            xmax = 1472.190000
+            text = " 对，新开的这个肥姨妈一点也不好吃，我去吃了，我感觉它超级难吃啊。"
+        intervals [471]:
+            xmin = 1472.190000
+            xmax = 1472.890000
+            text = ""
+        intervals [472]:
+            xmin = 1472.890000
+            xmax = 1474.240000
+            text = "双龙那边。"
+        intervals [473]:
+            xmin = 1474.240000
+            xmax = 1475.270000
+            text = ""
+        intervals [474]:
+            xmin = 1475.270000
+            xmax = 1478.390000
+            text = "不好吃，我觉得也是。"
+        intervals [475]:
+            xmin = 1478.390000
+            xmax = 1480.760000
+            text = ""
+        intervals [476]:
+            xmin = 1480.760000
+            xmax = 1485.070000
+            text = "荣成这家飞姨妈真的，荣成这家飞姨妈真的不好吃."
+        intervals [477]:
+            xmin = 1485.070000
+            xmax = 1486.730000
+            text = ""
+        intervals [478]:
+            xmin = 1486.730000
+            xmax = 1489.950000
+            text = "嗯还有木耳酸笋我感觉木耳好吃."
+        intervals [479]:
+            xmin = 1489.950000
+            xmax = 1496.690000
+            text = ""
+        intervals [480]:
+            xmin = 1496.690000
+            xmax = 1503.090000
+            text = "我去螺蛳粉，我我我我吃螺蛳粉我半年想，一半年吃一次，吃完半年不想。"
+        intervals [481]:
+            xmin = 1503.090000
+            xmax = 1503.190000
+            text = ""
+        intervals [482]:
+            xmin = 1503.190000
+            xmax = 1507.580000
+            text = "就是我很想去吃，我不吃的时候我超级想吃吃了，我感觉就。"
+        intervals [483]:
+            xmin = 1507.580000
+            xmax = 1512.280000
+            text = ""
+        intervals [484]:
+            xmin = 1512.280000
+            xmax = 1517.270000
+            text = "我靠，热量炸弹呢，有的时候我吃我都得想着。"
+        intervals [485]:
+            xmin = 1517.270000
+            xmax = 1517.520000
+            text = ""
+        intervals [486]:
+            xmin = 1517.520000
+            xmax = 1522.430000
+            text = "它，它太长肉了这你吃一个你吃一碗得长两斤。"
+        intervals [487]:
+            xmin = 1522.430000
+            xmax = 1541.160000
+            text = ""
+        intervals [488]:
+            xmin = 1541.160000
+            xmax = 1544.880000
+            text = "我也是我今天中午吃的。"
+        intervals [489]:
+            xmin = 1544.880000
+            xmax = 1545.210000
+            text = ""
+        intervals [490]:
+            xmin = 1545.210000
+            xmax = 1548.907000
+            text = "那个鸡柳大人，对，鸡柳大人的鸡柳很好吃还有薯条。"
+    item [4]:
+        class = "IntervalTier"
+        name = "P038"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 193
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 101.030000
+            text = ""
+        intervals [2]:
+            xmin = 101.030000
+            xmax = 102.230000
+            text = "那个店在哪啊？"
+        intervals [3]:
+            xmin = 102.230000
+            xmax = 105.580000
+            text = ""
+        intervals [4]:
+            xmin = 105.580000
+            xmax = 107.100000
+            text = "是咱这的吗？"
+        intervals [5]:
+            xmin = 107.100000
+            xmax = 113.220000
+            text = ""
+        intervals [6]:
+            xmin = 113.220000
+            xmax = 114.410000
+            text = "夹鱼吗？"
+        intervals [7]:
+            xmin = 114.410000
+            xmax = 115.310000
+            text = ""
+        intervals [8]:
+            xmin = 115.310000
+            xmax = 117.090000
+            text = "烤鱼还是煎鱼啊？"
+        intervals [9]:
+            xmin = 117.090000
+            xmax = 123.980000
+            text = ""
+        intervals [10]:
+            xmin = 123.980000
+            xmax = 125.560000
+            text = "那是什么口味啊？"
+        intervals [11]:
+            xmin = 125.560000
+            xmax = 158.890000
+            text = ""
+        intervals [12]:
+            xmin = 158.890000
+            xmax = 160.900000
+            text = "他半夜才开门吗？"
+        intervals [13]:
+            xmin = 160.900000
+            xmax = 167.730000
+            text = ""
+        intervals [14]:
+            xmin = 167.730000
+            xmax = 168.950000
+            text = "真特别好吃吗？"
+        intervals [15]:
+            xmin = 168.950000
+            xmax = 199.200000
+            text = ""
+        intervals [16]:
+            xmin = 199.200000
+            xmax = 202.520000
+            text = "那咱们还有什么好吃的店啊。"
+        intervals [17]:
+            xmin = 202.520000
+            xmax = 230.690000
+            text = ""
+        intervals [18]:
+            xmin = 230.690000
+            xmax = 232.170000
+            text = "在，在抖音上。"
+        intervals [19]:
+            xmin = 232.170000
+            xmax = 244.880000
+            text = ""
+        intervals [20]:
+            xmin = 244.880000
+            xmax = 248.590000
+            text = "本地有没有别的好吃的。"
+        intervals [21]:
+            xmin = 248.590000
+            xmax = 260.740000
+            text = ""
+        intervals [22]:
+            xmin = 260.740000
+            xmax = 262.580000
+            text = "哪一家啊，我也想去吃。"
+        intervals [23]:
+            xmin = 262.580000
+            xmax = 283.810000
+            text = ""
+        intervals [24]:
+            xmin = 283.810000
+            xmax = 285.930000
+            text = "乐喜是四川口味儿的吗？"
+        intervals [25]:
+            xmin = 285.930000
+            xmax = 350.500000
+            text = ""
+        intervals [26]:
+            xmin = 350.500000
+            xmax = 351.970000
+            text = "收了就吃。"
+        intervals [27]:
+            xmin = 351.970000
+            xmax = 402.000000
+            text = ""
+        intervals [28]:
+            xmin = 402.000000
+            xmax = 403.350000
+            text = "吃过。"
+        intervals [29]:
+            xmin = 403.350000
+            xmax = 405.180000
+            text = ""
+        intervals [30]:
+            xmin = 405.180000
+            xmax = 406.270000
+            text = "那个。"
+        intervals [31]:
+            xmin = 406.270000
+            xmax = 406.440000
+            text = ""
+        intervals [32]:
+            xmin = 406.440000
+            xmax = 410.600000
+            text = "好像也有新开了一个单独的店儿，对对对。"
+        intervals [33]:
+            xmin = 410.600000
+            xmax = 414.050000
+            text = ""
+        intervals [34]:
+            xmin = 414.050000
+            xmax = 416.160000
+            text = "我觉得都不好吃。"
+        intervals [35]:
+            xmin = 416.160000
+            xmax = 418.040000
+            text = ""
+        intervals [36]:
+            xmin = 418.040000
+            xmax = 420.980000
+            text = "环境比较好，但是不好吃。"
+        intervals [37]:
+            xmin = 420.980000
+            xmax = 422.960000
+            text = ""
+        intervals [38]:
+            xmin = 422.960000
+            xmax = 424.130000
+            text = "我也是。"
+        intervals [39]:
+            xmin = 424.130000
+            xmax = 426.590000
+            text = ""
+        intervals [40]:
+            xmin = 426.590000
+            xmax = 428.110000
+            text = "云南菜。"
+        intervals [41]:
+            xmin = 428.110000
+            xmax = 436.440000
+            text = ""
+        intervals [42]:
+            xmin = 436.440000
+            xmax = 437.950000
+            text = "那没有吧。"
+        intervals [43]:
+            xmin = 437.950000
+            xmax = 439.850000
+            text = ""
+        intervals [44]:
+            xmin = 439.850000
+            xmax = 444.380000
+            text = "就是把筷子给你拿掉等蘑菇熟了才能给你吃。"
+        intervals [45]:
+            xmin = 444.380000
+            xmax = 459.410000
+            text = ""
+        intervals [46]:
+            xmin = 459.410000
+            xmax = 463.280000
+            text = "当，当地人喜欢吃生的。"
+        intervals [47]:
+            xmin = 463.280000
+            xmax = 475.160000
+            text = ""
+        intervals [48]:
+            xmin = 475.160000
+            xmax = 476.840000
+            text = "是那个自助吗？"
+        intervals [49]:
+            xmin = 476.840000
+            xmax = 480.840000
+            text = ""
+        intervals [50]:
+            xmin = 480.840000
+            xmax = 483.550000
+            text = "没吃过，感觉不太好吃，自助。"
+        intervals [51]:
+            xmin = 483.550000
+            xmax = 500.190000
+            text = ""
+        intervals [52]:
+            xmin = 500.190000
+            xmax = 502.120000
+            text = "我知道，老吃家。"
+        intervals [53]:
+            xmin = 502.120000
+            xmax = 561.190000
+            text = ""
+        intervals [54]:
+            xmin = 561.190000
+            xmax = 564.600000
+            text = "必须支持可口可乐。"
+        intervals [55]:
+            xmin = 564.600000
+            xmax = 567.960000
+            text = ""
+        intervals [56]:
+            xmin = 567.960000
+            xmax = 570.210000
+            text = "因为它因为它可口。"
+        intervals [57]:
+            xmin = 570.210000
+            xmax = 573.400000
+            text = ""
+        intervals [58]:
+            xmin = 573.400000
+            xmax = 575.220000
+            text = "好像可口更甜一点。"
+        intervals [59]:
+            xmin = 575.220000
+            xmax = 592.900000
+            text = ""
+        intervals [60]:
+            xmin = 592.900000
+            xmax = 595.880000
+            text = "都都已经尝出前调后调了是吗？"
+        intervals [61]:
+            xmin = 595.880000
+            xmax = 601.920000
+            text = ""
+        intervals [62]:
+            xmin = 601.920000
+            xmax = 604.910000
+            text = "不知道以为在讨论葡萄酒哈哈哈。"
+        intervals [63]:
+            xmin = 604.910000
+            xmax = 625.370000
+            text = ""
+        intervals [64]:
+            xmin = 625.370000
+            xmax = 630.520000
+            text = "小小黄油的好喝，对对。"
+        intervals [65]:
+            xmin = 630.520000
+            xmax = 631.550000
+            text = ""
+        intervals [66]:
+            xmin = 631.550000
+            xmax = 634.170000
+            text = "青青青青茉莉也好喝。"
+        intervals [67]:
+            xmin = 634.170000
+            xmax = 638.750000
+            text = ""
+        intervals [68]:
+            xmin = 638.750000
+            xmax = 640.710000
+            text = "我知道你喜欢中药味是吧。"
+        intervals [69]:
+            xmin = 640.710000
+            xmax = 700.210000
+            text = ""
+        intervals [70]:
+            xmin = 700.210000
+            xmax = 702.070000
+            text = "我觉得啤酒都苦苦的。"
+        intervals [71]:
+            xmin = 702.070000
+            xmax = 707.880000
+            text = ""
+        intervals [72]:
+            xmin = 707.880000
+            xmax = 709.730000
+            text = "鸡尾酒更难喝了。"
+        intervals [73]:
+            xmin = 709.730000
+            xmax = 714.210000
+            text = ""
+        intervals [74]:
+            xmin = 714.210000
+            xmax = 718.490000
+            text = "红酒好喝红酒和葡萄酒好喝。"
+        intervals [75]:
+            xmin = 718.490000
+            xmax = 719.620000
+            text = ""
+        intervals [76]:
+            xmin = 719.620000
+            xmax = 721.180000
+            text = "会带一点儿甜。"
+        intervals [77]:
+            xmin = 721.180000
+            xmax = 730.920000
+            text = ""
+        intervals [78]:
+            xmin = 730.920000
+            xmax = 732.650000
+            text = "那你们喝多少啊？"
+        intervals [79]:
+            xmin = 732.650000
+            xmax = 798.800000
+            text = ""
+        intervals [80]:
+            xmin = 798.800000
+            xmax = 800.540000
+            text = "嗯，咱这的酒吧。"
+        intervals [81]:
+            xmin = 800.540000
+            xmax = 806.950000
+            text = ""
+        intervals [82]:
+            xmin = 806.950000
+            xmax = 809.330000
+            text = "这好像挺多的，新开的。"
+        intervals [83]:
+            xmin = 809.330000
+            xmax = 859.700000
+            text = ""
+        intervals [84]:
+            xmin = 859.700000
+            xmax = 862.500000
+            text = "对我看到开了很多但是我没有去过。"
+        intervals [85]:
+            xmin = 862.500000
+            xmax = 866.040000
+            text = ""
+        intervals [86]:
+            xmin = 866.040000
+            xmax = 868.380000
+            text = "大概都是清吧之类的。"
+        intervals [87]:
+            xmin = 868.380000
+            xmax = 872.120000
+            text = ""
+        intervals [88]:
+            xmin = 872.120000
+            xmax = 875.530000
+            text = "嗯就唱着歌点点小吃喝点酒。"
+        intervals [89]:
+            xmin = 875.530000
+            xmax = 890.910000
+            text = ""
+        intervals [90]:
+            xmin = 890.910000
+            xmax = 892.500000
+            text = "鱼香肉丝。"
+        intervals [91]:
+            xmin = 892.500000
+            xmax = 892.770000
+            text = ""
+        intervals [92]:
+            xmin = 892.770000
+            xmax = 896.250000
+            text = "吃过，好吃。"
+        intervals [93]:
+            xmin = 896.250000
+            xmax = 896.620000
+            text = ""
+        intervals [94]:
+            xmin = 896.620000
+            xmax = 897.870000
+            text = "好吃。"
+        intervals [95]:
+            xmin = 897.870000
+            xmax = 906.030000
+            text = ""
+        intervals [96]:
+            xmin = 906.030000
+            xmax = 907.990000
+            text = "就是清真的。"
+        intervals [97]:
+            xmin = 907.990000
+            xmax = 981.870000
+            text = ""
+        intervals [98]:
+            xmin = 981.870000
+            xmax = 986.770000
+            text = "不是，曾记好像有。"
+        intervals [99]:
+            xmin = 986.770000
+            xmax = 987.900000
+            text = ""
+        intervals [100]:
+            xmin = 987.900000
+            xmax = 989.780000
+            text = "桃酥大王也有。"
+        intervals [101]:
+            xmin = 989.780000
+            xmax = 992.180000
+            text = ""
+        intervals [102]:
+            xmin = 992.180000
+            xmax = 995.490000
+            text = "但是我不知道他这个是咋火起来的。"
+        intervals [103]:
+            xmin = 995.490000
+            xmax = 1001.370000
+            text = ""
+        intervals [104]:
+            xmin = 1001.370000
+            xmax = 1003.810000
+            text = "吃下去一万大卡不得。"
+        intervals [105]:
+            xmin = 1003.810000
+            xmax = 1019.490000
+            text = ""
+        intervals [106]:
+            xmin = 1019.490000
+            xmax = 1020.900000
+            text = "恩。"
+        intervals [107]:
+            xmin = 1020.900000
+            xmax = 1025.520000
+            text = ""
+        intervals [108]:
+            xmin = 1025.520000
+            xmax = 1028.140000
+            text = "薯条必须是麦当劳。"
+        intervals [109]:
+            xmin = 1028.140000
+            xmax = 1037.500000
+            text = ""
+        intervals [110]:
+            xmin = 1037.500000
+            xmax = 1040.010000
+            text = "对对对，很好吃。"
+        intervals [111]:
+            xmin = 1040.010000
+            xmax = 1045.100000
+            text = ""
+        intervals [112]:
+            xmin = 1045.100000
+            xmax = 1050.460000
+            text = "之前前段时间麦当劳不是出了一个什么六重奏八重奏."
+        intervals [113]:
+            xmin = 1050.460000
+            xmax = 1059.310000
+            text = ""
+        intervals [114]:
+            xmin = 1059.310000
+            xmax = 1060.230000
+            text = "没有。"
+        intervals [115]:
+            xmin = 1060.230000
+            xmax = 1068.850000
+            text = ""
+        intervals [116]:
+            xmin = 1068.850000
+            xmax = 1070.910000
+            text = "汉堡王好吃吗？没有吃过。"
+        intervals [117]:
+            xmin = 1070.910000
+            xmax = 1111.570000
+            text = ""
+        intervals [118]:
+            xmin = 1111.570000
+            xmax = 1113.440000
+            text = "麦当劳的板烧最好吃了。"
+        intervals [119]:
+            xmin = 1113.440000
+            xmax = 1114.030000
+            text = ""
+        intervals [120]:
+            xmin = 1114.030000
+            xmax = 1116.960000
+            text = "是的，最好吃了，还有麦旋风。"
+        intervals [121]:
+            xmin = 1116.960000
+            xmax = 1119.680000
+            text = ""
+        intervals [122]:
+            xmin = 1119.680000
+            xmax = 1121.610000
+            text = "最喜欢吃脆脆的。"
+        intervals [123]:
+            xmin = 1121.610000
+            xmax = 1123.870000
+            text = ""
+        intervals [124]:
+            xmin = 1123.870000
+            xmax = 1125.560000
+            text = "这不是事实吗？"
+        intervals [125]:
+            xmin = 1125.560000
+            xmax = 1127.270000
+            text = ""
+        intervals [126]:
+            xmin = 1127.270000
+            xmax = 1128.360000
+            text = "对。"
+        intervals [127]:
+            xmin = 1128.360000
+            xmax = 1135.650000
+            text = ""
+        intervals [128]:
+            xmin = 1135.650000
+            xmax = 1139.350000
+            text = "可是我觉得塔斯汀也特超级好吃，那个饼皮很好吃。"
+        intervals [129]:
+            xmin = 1139.350000
+            xmax = 1144.210000
+            text = ""
+        intervals [130]:
+            xmin = 1144.210000
+            xmax = 1146.830000
+            text = "我买我买塔斯汀只买汉堡。"
+        intervals [131]:
+            xmin = 1146.830000
+            xmax = 1175.460000
+            text = ""
+        intervals [132]:
+            xmin = 1175.460000
+            xmax = 1177.460000
+            text = "你们吃华莱士会闹肚子吗？"
+        intervals [133]:
+            xmin = 1177.460000
+            xmax = 1194.790000
+            text = ""
+        intervals [134]:
+            xmin = 1194.790000
+            xmax = 1198.980000
+            text = "可是我吃了真会拉肚子，不太卫生吧。"
+        intervals [135]:
+            xmin = 1198.980000
+            xmax = 1201.400000
+            text = ""
+        intervals [136]:
+            xmin = 1201.400000
+            xmax = 1206.030000
+            text = "已经，这是人民的汉堡便宜点就便宜点。"
+        intervals [137]:
+            xmin = 1206.030000
+            xmax = 1233.600000
+            text = ""
+        intervals [138]:
+            xmin = 1233.600000
+            xmax = 1235.380000
+            text = "双龙就有一家。"
+        intervals [139]:
+            xmin = 1235.380000
+            xmax = 1249.310000
+            text = ""
+        intervals [140]:
+            xmin = 1249.310000
+            xmax = 1253.650000
+            text = "就是双龙那个太和板面也特别老也是个挺正宗的。"
+        intervals [141]:
+            xmin = 1253.650000
+            xmax = 1257.090000
+            text = ""
+        intervals [142]:
+            xmin = 1257.090000
+            xmax = 1261.920000
+            text = "嗯，对，那个那个挺正宗好多年了。"
+        intervals [143]:
+            xmin = 1261.920000
+            xmax = 1268.350000
+            text = ""
+        intervals [144]:
+            xmin = 1268.350000
+            xmax = 1269.440000
+            text = "细的。"
+        intervals [145]:
+            xmin = 1269.440000
+            xmax = 1350.500000
+            text = ""
+        intervals [146]:
+            xmin = 1350.500000
+            xmax = 1352.210000
+            text = "蒜蓉粉丝馅。"
+        intervals [147]:
+            xmin = 1352.210000
+            xmax = 1362.030000
+            text = ""
+        intervals [148]:
+            xmin = 1362.030000
+            xmax = 1365.310000
+            text = " 我去吃重庆四川火锅必须吃油碟。"
+        intervals [149]:
+            xmin = 1365.310000
+            xmax = 1375.430000
+            text = ""
+        intervals [150]:
+            xmin = 1375.430000
+            xmax = 1379.420000
+            text = "咦最讨厌了，香菜是世界上。"
+        intervals [151]:
+            xmin = 1379.420000
+            xmax = 1379.680000
+            text = ""
+        intervals [152]:
+            xmin = 1379.680000
+            xmax = 1382.820000
+            text = "等我有钱了我要踩烂这个世界上所有的香菜。"
+        intervals [153]:
+            xmin = 1382.820000
+            xmax = 1389.500000
+            text = ""
+        intervals [154]:
+            xmin = 1389.500000
+            xmax = 1392.500000
+            text = "它就是臭大姐味儿和喜洁灵的味道。"
+        intervals [155]:
+            xmin = 1392.500000
+            xmax = 1395.420000
+            text = ""
+        intervals [156]:
+            xmin = 1395.420000
+            xmax = 1397.670000
+            text = "明明是臭菜为什么叫香菜。"
+        intervals [157]:
+            xmin = 1397.670000
+            xmax = 1420.390000
+            text = ""
+        intervals [158]:
+            xmin = 1420.390000
+            xmax = 1422.870000
+            text = "带香的东西都臭的。"
+        intervals [159]:
+            xmin = 1422.870000
+            xmax = 1429.690000
+            text = ""
+        intervals [160]:
+            xmin = 1429.690000
+            xmax = 1431.450000
+            text = "榴莲超级好吃啊。"
+        intervals [161]:
+            xmin = 1431.450000
+            xmax = 1432.590000
+            text = ""
+        intervals [162]:
+            xmin = 1432.590000
+            xmax = 1435.140000
+            text = "螺蛳螺蛳粉也超级好吃啊。"
+        intervals [163]:
+            xmin = 1435.140000
+            xmax = 1443.380000
+            text = ""
+        intervals [164]:
+            xmin = 1443.380000
+            xmax = 1447.950000
+            text = "它不臭它就闻着有点臭而已它吃着一点点都不臭。"
+        intervals [165]:
+            xmin = 1447.950000
+            xmax = 1462.250000
+            text = ""
+        intervals [166]:
+            xmin = 1462.250000
+            xmax = 1463.780000
+            text = "肥姨妈好吃。"
+        intervals [167]:
+            xmin = 1463.780000
+            xmax = 1464.230000
+            text = ""
+        intervals [168]:
+            xmin = 1464.230000
+            xmax = 1466.380000
+            text = "新开了一个肥仔也好吃。"
+        intervals [169]:
+            xmin = 1466.380000
+            xmax = 1470.260000
+            text = ""
+        intervals [170]:
+            xmin = 1470.260000
+            xmax = 1475.130000
+            text = "不是是会有那不是那个双龙那边的肥姨妈好吃。"
+        intervals [171]:
+            xmin = 1475.130000
+            xmax = 1480.560000
+            text = ""
+        intervals [172]:
+            xmin = 1480.560000
+            xmax = 1482.470000
+            text = "那不都一个味吗？"
+        intervals [173]:
+            xmin = 1482.470000
+            xmax = 1484.810000
+            text = ""
+        intervals [174]:
+            xmin = 1484.810000
+            xmax = 1486.040000
+            text = "放粉呗。"
+        intervals [175]:
+            xmin = 1486.040000
+            xmax = 1488.880000
+            text = ""
+        intervals [176]:
+            xmin = 1488.880000
+            xmax = 1492.460000
+            text = "你们竟然不吃螺蛳粉吗？"
+        intervals [177]:
+            xmin = 1492.460000
+            xmax = 1493.630000
+            text = ""
+        intervals [178]:
+            xmin = 1493.630000
+            xmax = 1496.880000
+            text = "那你们都吃啥呀？我一天三顿都想吃螺蛳粉。"
+        intervals [179]:
+            xmin = 1496.880000
+            xmax = 1502.890000
+            text = ""
+        intervals [180]:
+            xmin = 1502.890000
+            xmax = 1503.910000
+            text = "真的？"
+        intervals [181]:
+            xmin = 1503.910000
+            xmax = 1507.330000
+            text = ""
+        intervals [182]:
+            xmin = 1507.330000
+            xmax = 1509.450000
+            text = "我一周至少要吃两次的。"
+        intervals [183]:
+            xmin = 1509.450000
+            xmax = 1510.910000
+            text = ""
+        intervals [184]:
+            xmin = 1510.910000
+            xmax = 1513.540000
+            text = "每天就是螺蛳粉麻辣烫。"
+        intervals [185]:
+            xmin = 1513.540000
+            xmax = 1516.400000
+            text = ""
+        intervals [186]:
+            xmin = 1516.400000
+            xmax = 1517.880000
+            text = "对它超级长肉。"
+        intervals [187]:
+            xmin = 1517.880000
+            xmax = 1529.640000
+            text = ""
+        intervals [188]:
+            xmin = 1529.640000
+            xmax = 1531.240000
+            text = "吃麻辣烫呗。"
+        intervals [189]:
+            xmin = 1531.240000
+            xmax = 1534.750000
+            text = ""
+        intervals [190]:
+            xmin = 1534.750000
+            xmax = 1536.930000
+            text = "那你们点外卖都点什么好吃的啊？"
+        intervals [191]:
+            xmin = 1536.930000
+            xmax = 1543.170000
+            text = ""
+        intervals [192]:
+            xmin = 1543.170000
+            xmax = 1547.370000
+            text = "就这几家麻辣烫都不好吃，这这几家外卖不好吃，大人。"
+        intervals [193]:
+            xmin = 1547.370000
+            xmax = 1548.907000
+            text = ""
+    item [5]:
+        class = "IntervalTier"
+        name = "P040"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 47
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 189.620000
+            text = ""
+        intervals [2]:
+            xmin = 189.620000
+            xmax = 190.850000
+            text = "夜宵呗，算是。"
+        intervals [3]:
+            xmin = 190.850000
+            xmax = 207.660000
+            text = ""
+        intervals [4]:
+            xmin = 207.660000
+            xmax = 209.810000
+            text = "那才真正驴肉火烧。"
+        intervals [5]:
+            xmin = 209.810000
+            xmax = 218.060000
+            text = ""
+        intervals [6]:
+            xmin = 218.060000
+            xmax = 219.920000
+            text = "驴的形状。"
+        intervals [7]:
+            xmin = 219.920000
+            xmax = 443.940000
+            text = ""
+        intervals [8]:
+            xmin = 443.940000
+            xmax = 445.030000
+            text = "啊。"
+        intervals [9]:
+            xmin = 445.030000
+            xmax = 448.440000
+            text = ""
+        intervals [10]:
+            xmin = 448.440000
+            xmax = 450.400000
+            text = "吃了中毒。"
+        intervals [11]:
+            xmin = 450.400000
+            xmax = 492.150000
+            text = ""
+        intervals [12]:
+            xmin = 492.150000
+            xmax = 497.610000
+            text = "探店，对，你可以当一个探店博主。"
+        intervals [13]:
+            xmin = 497.610000
+            xmax = 597.700000
+            text = ""
+        intervals [14]:
+            xmin = 597.700000
+            xmax = 598.890000
+            text = "品尝一样。"
+        intervals [15]:
+            xmin = 598.890000
+            xmax = 617.720000
+            text = ""
+        intervals [16]:
+            xmin = 617.720000
+            xmax = 619.950000
+            text = "喝，喝拿铁比较。"
+        intervals [17]:
+            xmin = 619.950000
+            xmax = 622.470000
+            text = ""
+        intervals [18]:
+            xmin = 622.470000
+            xmax = 624.390000
+            text = "云铁。"
+        intervals [19]:
+            xmin = 624.390000
+            xmax = 627.400000
+            text = ""
+        intervals [20]:
+            xmin = 627.400000
+            xmax = 629.890000
+            text = "啊，我也喜欢，小黄油拿铁好喝。"
+        intervals [21]:
+            xmin = 629.890000
+            xmax = 631.620000
+            text = ""
+        intervals [22]:
+            xmin = 631.620000
+            xmax = 635.340000
+            text = "不放，不放糖，不放糖也有点甜其实。"
+        intervals [23]:
+            xmin = 635.340000
+            xmax = 654.000000
+            text = ""
+        intervals [24]:
+            xmin = 654.000000
+            xmax = 656.020000
+            text = "不放牛奶真接受不了。"
+        intervals [25]:
+            xmin = 656.020000
+            xmax = 696.460000
+            text = ""
+        intervals [26]:
+            xmin = 696.460000
+            xmax = 698.990000
+            text = "哦，我好像喝过。"
+        intervals [27]:
+            xmin = 698.990000
+            xmax = 715.590000
+            text = ""
+        intervals [28]:
+            xmin = 715.590000
+            xmax = 716.460000
+            text = "红酒。"
+        intervals [29]:
+            xmin = 716.460000
+            xmax = 733.650000
+            text = ""
+        intervals [30]:
+            xmin = 733.650000
+            xmax = 734.340000
+            text = "一杯。"
+        intervals [31]:
+            xmin = 734.340000
+            xmax = 734.930000
+            text = ""
+        intervals [32]:
+            xmin = 734.930000
+            xmax = 736.370000
+            text = "喝一杯就喝不了了。"
+        intervals [33]:
+            xmin = 736.370000
+            xmax = 739.360000
+            text = ""
+        intervals [34]:
+            xmin = 739.360000
+            xmax = 740.780000
+            text = "不好喝。"
+        intervals [35]:
+            xmin = 740.780000
+            xmax = 741.020000
+            text = ""
+        intervals [36]:
+            xmin = 741.020000
+            xmax = 743.560000
+            text = "呃，喝一打直接。"
+        intervals [37]:
+            xmin = 743.560000
+            xmax = 749.280000
+            text = ""
+        intervals [38]:
+            xmin = 749.280000
+            xmax = 751.700000
+            text = "那平常呢，平常一般都喝多少？"
+        intervals [39]:
+            xmin = 751.700000
+            xmax = 752.790000
+            text = ""
+        intervals [40]:
+            xmin = 752.790000
+            xmax = 755.130000
+            text = "跟朋友呗跟朋友一块出去喝。"
+        intervals [41]:
+            xmin = 755.130000
+            xmax = 758.640000
+            text = ""
+        intervals [42]:
+            xmin = 758.640000
+            xmax = 760.410000
+            text = "那最多能喝多少啊？"
+        intervals [43]:
+            xmin = 760.410000
+            xmax = 762.780000
+            text = ""
+        intervals [44]:
+            xmin = 762.780000
+            xmax = 765.130000
+            text = "喝，抬一箱。"
+        intervals [45]:
+            xmin = 765.130000
+            xmax = 802.180000
+            text = ""
+        intervals [46]:
+            xmin = 802.180000
+            xmax = 804.460000
+            text = "没去过，哈。"
+        intervals [47]:
+            xmin = 804.460000
+            xmax = 1548.907000
+            text = ""
+    item [6]:
+        class = "IntervalTier"
+        name = "P043"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 47
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 191.320000
+            text = ""
+        intervals [2]:
+            xmin = 191.320000
+            xmax = 192.590000
+            text = "多少钱一个？"
+        intervals [3]:
+            xmin = 192.590000
+            xmax = 259.410000
+            text = ""
+        intervals [4]:
+            xmin = 259.410000
+            xmax = 260.190000
+            text = "不对。"
+        intervals [5]:
+            xmin = 260.190000
+            xmax = 362.000000
+            text = ""
+        intervals [6]:
+            xmin = 362.000000
+            xmax = 363.430000
+            text = "张浩你爱吃鸭血吗？"
+        intervals [7]:
+            xmin = 363.430000
+            xmax = 408.590000
+            text = ""
+        intervals [8]:
+            xmin = 408.590000
+            xmax = 410.720000
+            text = "这怎么我一个都没吃过啊。"
+        intervals [9]:
+            xmin = 410.720000
+            xmax = 496.530000
+            text = ""
+        intervals [10]:
+            xmin = 496.530000
+            xmax = 497.600000
+            text = "马上开播。"
+        intervals [11]:
+            xmin = 497.600000
+            xmax = 527.030000
+            text = ""
+        intervals [12]:
+            xmin = 527.030000
+            xmax = 528.880000
+            text = "她说没有差异性是吧。"
+        intervals [13]:
+            xmin = 528.880000
+            xmax = 534.280000
+            text = ""
+        intervals [14]:
+            xmin = 534.280000
+            xmax = 536.020000
+            text = "喝，喝可乐。"
+        intervals [15]:
+            xmin = 536.020000
+            xmax = 541.030000
+            text = ""
+        intervals [16]:
+            xmin = 541.030000
+            xmax = 542.440000
+            text = "可乐比较好喝。"
+        intervals [17]:
+            xmin = 542.440000
+            xmax = 543.840000
+            text = ""
+        intervals [18]:
+            xmin = 543.840000
+            xmax = 546.630000
+            text = "因为这东西比较上瘾。"
+        intervals [19]:
+            xmin = 546.630000
+            xmax = 547.130000
+            text = ""
+        intervals [20]:
+            xmin = 547.130000
+            xmax = 550.410000
+            text = "一喝就感觉拉嗓子，一拉嗓子就感觉特别舒服。"
+        intervals [21]:
+            xmin = 550.410000
+            xmax = 555.690000
+            text = ""
+        intervals [22]:
+            xmin = 555.690000
+            xmax = 557.240000
+            text = "你没喝过可乐啊？"
+        intervals [23]:
+            xmin = 557.240000
+            xmax = 558.530000
+            text = ""
+        intervals [24]:
+            xmin = 558.530000
+            xmax = 560.440000
+            text = "肯定是可口可乐啊。"
+        intervals [25]:
+            xmin = 560.440000
+            xmax = 562.640000
+            text = ""
+        intervals [26]:
+            xmin = 562.640000
+            xmax = 564.560000
+            text = "那是筷子说的。"
+        intervals [27]:
+            xmin = 564.560000
+            xmax = 570.100000
+            text = ""
+        intervals [28]:
+            xmin = 570.100000
+            xmax = 575.020000
+            text = "因为，因为可口可乐的包装比百事的好看。"
+        intervals [29]:
+            xmin = 575.020000
+            xmax = 595.870000
+            text = ""
+        intervals [30]:
+            xmin = 595.870000
+            xmax = 597.600000
+            text = "我尝不出来。"
+        intervals [31]:
+            xmin = 597.600000
+            xmax = 598.000000
+            text = ""
+        intervals [32]:
+            xmin = 598.000000
+            xmax = 599.970000
+            text = "我都。"
+        intervals [33]:
+            xmin = 599.970000
+            xmax = 651.450000
+            text = ""
+        intervals [34]:
+            xmin = 651.450000
+            xmax = 653.460000
+            text = "你不是愿意喝点啤酒吗？"
+        intervals [35]:
+            xmin = 653.460000
+            xmax = 667.520000
+            text = ""
+        intervals [36]:
+            xmin = 667.520000
+            xmax = 671.300000
+            text = "那那天我和王强去那家喝的什么酒来着，我忘了。"
+        intervals [37]:
+            xmin = 671.300000
+            xmax = 676.510000
+            text = ""
+        intervals [38]:
+            xmin = 676.510000
+            xmax = 677.960000
+            text = "是黑啤吧。"
+        intervals [39]:
+            xmin = 677.960000
+            xmax = 694.470000
+            text = ""
+        intervals [40]:
+            xmin = 694.470000
+            xmax = 695.430000
+            text = "你喝过吗？"
+        intervals [41]:
+            xmin = 695.430000
+            xmax = 1042.200000
+            text = ""
+        intervals [42]:
+            xmin = 1042.200000
+            xmax = 1043.040000
+            text = "对。"
+        intervals [43]:
+            xmin = 1043.040000
+            xmax = 1045.380000
+            text = ""
+        intervals [44]:
+            xmin = 1045.380000
+            xmax = 1046.760000
+            text = "我都不蘸番茄酱。"
+        intervals [45]:
+            xmin = 1046.760000
+            xmax = 1320.560000
+            text = ""
+        intervals [46]:
+            xmin = 1320.560000
+            xmax = 1322.490000
+            text = "什么什么。"
+        intervals [47]:
+            xmin = 1322.490000
+            xmax = 1548.907000
+            text = ""
+    item [7]:
+        class = "IntervalTier"
+        name = "P039"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 47
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 219.240000
+            text = ""
+        intervals [2]:
+            xmin = 219.240000
+            xmax = 220.800000
+            text = "我刷到过。"
+        intervals [3]:
+            xmin = 220.800000
+            xmax = 465.310000
+            text = ""
+        intervals [4]:
+            xmin = 465.310000
+            xmax = 467.420000
+            text = "当地人扛毒。"
+        intervals [5]:
+            xmin = 467.420000
+            xmax = 494.420000
+            text = ""
+        intervals [6]:
+            xmin = 494.420000
+            xmax = 496.130000
+            text = "探店博主。"
+        intervals [7]:
+            xmin = 496.130000
+            xmax = 570.270000
+            text = ""
+        intervals [8]:
+            xmin = 570.270000
+            xmax = 573.680000
+            text = "是可口甜还是百事甜。"
+        intervals [9]:
+            xmin = 573.680000
+            xmax = 579.490000
+            text = ""
+        intervals [10]:
+            xmin = 579.490000
+            xmax = 580.390000
+            text = "嗯。"
+        intervals [11]:
+            xmin = 580.390000
+            xmax = 601.020000
+            text = ""
+        intervals [12]:
+            xmin = 601.020000
+            xmax = 602.370000
+            text = "他品尝可乐。"
+        intervals [13]:
+            xmin = 602.370000
+            xmax = 614.850000
+            text = ""
+        intervals [14]:
+            xmin = 614.850000
+            xmax = 615.760000
+            text = "太苦了。"
+        intervals [15]:
+            xmin = 615.760000
+            xmax = 652.260000
+            text = ""
+        intervals [16]:
+            xmin = 652.260000
+            xmax = 654.820000
+            text = "能接受最苦的就是生椰。"
+        intervals [17]:
+            xmin = 654.820000
+            xmax = 656.200000
+            text = ""
+        intervals [18]:
+            xmin = 656.200000
+            xmax = 657.110000
+            text = "呃，对对对。"
+        intervals [19]:
+            xmin = 657.110000
+            xmax = 708.260000
+            text = ""
+        intervals [20]:
+            xmin = 708.260000
+            xmax = 710.790000
+            text = "是的。"
+        intervals [21]:
+            xmin = 710.790000
+            xmax = 1035.980000
+            text = ""
+        intervals [22]:
+            xmin = 1035.980000
+            xmax = 1041.340000
+            text = "薯条是不是麦当劳的比较脆呀，我喜欢吃脆的。"
+        intervals [23]:
+            xmin = 1041.340000
+            xmax = 1138.340000
+            text = ""
+        intervals [24]:
+            xmin = 1138.340000
+            xmax = 1141.270000
+            text = "哎我也喜欢吃那个皮儿。"
+        intervals [25]:
+            xmin = 1141.270000
+            xmax = 1146.780000
+            text = ""
+        intervals [26]:
+            xmin = 1146.780000
+            xmax = 1149.580000
+            text = "它可乐也好喝它要加那个柠檬片。"
+        intervals [27]:
+            xmin = 1149.580000
+            xmax = 1150.880000
+            text = ""
+        intervals [28]:
+            xmin = 1150.880000
+            xmax = 1152.170000
+            text = "特别好喝。"
+        intervals [29]:
+            xmin = 1152.170000
+            xmax = 1166.950000
+            text = ""
+        intervals [30]:
+            xmin = 1166.950000
+            xmax = 1169.620000
+            text = ".我喜欢吃那个杏鲍菇。"
+        intervals [31]:
+            xmin = 1169.620000
+            xmax = 1186.090000
+            text = ""
+        intervals [32]:
+            xmin = 1186.090000
+            xmax = 1188.120000
+            text = "对对，其实我还好。"
+        intervals [33]:
+            xmin = 1188.120000
+            xmax = 1191.360000
+            text = ""
+        intervals [34]:
+            xmin = 1191.360000
+            xmax = 1192.780000
+            text = "好像是。"
+        intervals [35]:
+            xmin = 1192.780000
+            xmax = 1192.850000
+            text = ""
+        intervals [36]:
+            xmin = 1192.850000
+            xmax = 1196.530000
+            text = "他们说加，配可乐吃才会闹肚子。"
+        intervals [37]:
+            xmin = 1196.530000
+            xmax = 1432.540000
+            text = ""
+        intervals [38]:
+            xmin = 1432.540000
+            xmax = 1436.250000
+            text = "啊，我也喜欢吃。"
+        intervals [39]:
+            xmin = 1436.250000
+            xmax = 1449.660000
+            text = ""
+        intervals [40]:
+            xmin = 1449.660000
+            xmax = 1451.240000
+            text = "当然吃。"
+        intervals [41]:
+            xmin = 1451.240000
+            xmax = 1470.210000
+            text = ""
+        intervals [42]:
+            xmin = 1470.210000
+            xmax = 1472.840000
+            text = "是商楼那边吗？"
+        intervals [43]:
+            xmin = 1472.840000
+            xmax = 1475.760000
+            text = ""
+        intervals [44]:
+            xmin = 1475.760000
+            xmax = 1477.100000
+            text = "我又不爱吃。"
+        intervals [45]:
+            xmin = 1477.100000
+            xmax = 1484.900000
+            text = ""
+        intervals [46]:
+            xmin = 1484.900000
+            xmax = 1487.780000
+            text = "对，必须放炸蛋。"
+        intervals [47]:
+            xmin = 1487.780000
+            xmax = 1548.907000
+            text = ""
+    item [8]:
+        class = "IntervalTier"
+        name = "P044"
+        xmin = 0
+        xmax = 1548.907000
+        intervals: size = 25
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 253.530000
+            text = ""
+        intervals [2]:
+            xmin = 253.530000
+            xmax = 256.490000
+            text = "不会是后会有后边儿，那个吧 。"
+        intervals [3]:
+            xmin = 256.490000
+            xmax = 298.550000
+            text = ""
+        intervals [4]:
+            xmin = 298.550000
+            xmax = 301.010000
+            text = "确实他那火锅味儿特别大。"
+        intervals [5]:
+            xmin = 301.010000
+            xmax = 330.220000
+            text = ""
+        intervals [6]:
+            xmin = 330.220000
+            xmax = 332.550000
+            text = "那我在吃的时候他怎么没给我放里边？"
+        intervals [7]:
+            xmin = 332.550000
+            xmax = 336.020000
+            text = ""
+        intervals [8]:
+            xmin = 336.020000
+            xmax = 338.310000
+            text = "他那还有不一样的鸭血啊。"
+        intervals [9]:
+            xmin = 338.310000
+            xmax = 338.380000
+            text = ""
+        intervals [10]:
+            xmin = 338.380000
+            xmax = 339.120000
+            text = "不就一种吗？"
+        intervals [11]:
+            xmin = 339.120000
+            xmax = 428.990000
+            text = ""
+        intervals [12]:
+            xmin = 428.990000
+            xmax = 430.960000
+            text = "不是，那是漂亮饭老铁。"
+        intervals [13]:
+            xmin = 430.960000
+            xmax = 443.490000
+            text = ""
+        intervals [14]:
+            xmin = 443.490000
+            xmax = 447.390000
+            text = "不是，那是吃真菌的老铁。"
+        intervals [15]:
+            xmin = 447.390000
+            xmax = 504.950000
+            text = ""
+        intervals [16]:
+            xmin = 504.950000
+            xmax = 508.940000
+            text = "王小策旁边儿今天最近刚开了一个毛肚火锅儿店。"
+        intervals [17]:
+            xmin = 508.940000
+            xmax = 509.550000
+            text = ""
+        intervals [18]:
+            xmin = 509.550000
+            xmax = 511.490000
+            text = "你去尝尝，你尝了吗？"
+        intervals [19]:
+            xmin = 511.490000
+            xmax = 791.450000
+            text = ""
+        intervals [20]:
+            xmin = 791.450000
+            xmax = 794.510000
+            text = "主要是他酒精味比较大。"
+        intervals [21]:
+            xmin = 794.510000
+            xmax = 980.900000
+            text = ""
+        intervals [22]:
+            xmin = 980.900000
+            xmax = 983.020000
+            text = " 嗯，不会是逃速大王吧。"
+        intervals [23]:
+            xmin = 983.020000
+            xmax = 1346.140000
+            text = ""
+        intervals [24]:
+            xmin = 1346.140000
+            xmax = 1347.320000
+            text = "别看我。"
+        intervals [25]:
+            xmin = 1347.320000
+            xmax = 1548.907000
+            text = ""

@@ -1,0 +1,298 @@
+Collecting git+https://github.com/modelscope/FunASR.git
+  Cloning https://github.com/modelscope/FunASR.git to /tmp/pip-req-build-7u042qse
+  Running command git clone --filter=blob:none --quiet https://github.com/modelscope/FunASR.git /tmp/pip-req-build-7u042qse
+  Resolved https://github.com/modelscope/FunASR.git to commit d8e676649df42801ceb1486c562428e82fd37540
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting scipy>=1.4.1 (from funasr==1.4.22)
+  Using cached scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting threadpoolctl>=3.0.0 (from funasr==1.4.22)
+  Using cached threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+Collecting librosa (from funasr==1.4.22)
+  Using cached librosa-0.11.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting soundfile>=0.12.1 (from funasr==1.4.22)
+  Using cached soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl.metadata (18 kB)
+Collecting numpy (from funasr==1.4.22)
+  Using cached numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting PyYAML>=5.1.2 (from funasr==1.4.22)
+  Using cached pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting tqdm (from funasr==1.4.22)
+  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting requests (from funasr==1.4.22)
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting regex (from funasr==1.4.22)
+  Downloading regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting websockets>=10.4 (from funasr==1.4.22)
+  Downloading websockets-17.4-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.3 kB)
+Collecting omegaconf>=2.0 (from funasr==1.4.22)
+  Using cached omegaconf-2.4.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting hydra-core>=1.3.2 (from funasr==1.4.22)
+  Downloading hydra_core-1.3.8-py3-none-any.whl.metadata (5.7 kB)
+Collecting modelscope (from funasr==1.4.22)
+  Downloading modelscope-1.40.2-py3-none-any.whl.metadata (43 kB)
+Collecting huggingface_hub (from funasr==1.4.22)
+  Using cached huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+Collecting safetensors (from funasr==1.4.22)
+  Using cached safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting transformers (from funasr==1.4.22)
+  Downloading transformers-5.22.1-py3-none-any.whl.metadata (31 kB)
+Collecting tiktoken (from funasr==1.4.22)
+  Downloading tiktoken-0.14.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (6.7 kB)
+Collecting sentencepiece (from funasr==1.4.22)
+  Downloading sentencepiece-0.2.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (34 kB)
+Collecting kaldiio>=2.17.0 (from funasr==1.4.22)
+  Downloading kaldiio-2.18.1-py3-none-any.whl.metadata (13 kB)
+Collecting jieba (from funasr==1.4.22)
+  Using cached jieba-0.42.1.tar.gz (19.2 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting jamo (from funasr==1.4.22)
+  Downloading jamo-0.4.1-py3-none-any.whl.metadata (2.3 kB)
+Collecting jaconv (from funasr==1.4.22)
+  Downloading jaconv-0.5.0-py3-none-any.whl.metadata (8.9 kB)
+Collecting umap_learn (from funasr==1.4.22)
+  Downloading umap_learn-0.5.12-py3-none-any.whl.metadata (24 kB)
+Collecting rapidfuzz>=3.0.0 (from funasr==1.4.22)
+  Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+Collecting torch_complex (from funasr==1.4.22)
+  Downloading torch_complex-0.4.4-py3-none-any.whl.metadata (3.1 kB)
+Collecting tensorboardX (from funasr==1.4.22)
+  Using cached tensorboardx-2.6.5-py3-none-any.whl.metadata (6.6 kB)
+Collecting oss2 (from funasr==1.4.22)
+  Downloading oss2-2.19.1.tar.gz (298 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting omegaconf>=2.0 (from funasr==1.4.22)
+  Downloading omegaconf-2.3.1-py3-none-any.whl.metadata (4.5 kB)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core>=1.3.2->funasr==1.4.22)
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: packaging in ./miniconda3/envs/ear1-funasr/lib/python3.11/site-packages (from hydra-core>=1.3.2->funasr==1.4.22) (26.3)
+Collecting cffi>=1.0 (from soundfile>=0.12.1->funasr==1.4.22)
+  Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Collecting typing-extensions (from soundfile>=0.12.1->funasr==1.4.22)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pycparser (from cffi>=1.0->soundfile>=0.12.1->funasr==1.4.22)
+  Using cached pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub->funasr==1.4.22)
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting filelock>=3.10.0 (from huggingface_hub->funasr==1.4.22)
+  Using cached filelock-4.2.9-py3-none-any.whl.metadata (2.3 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub->funasr==1.4.22)
+  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface_hub->funasr==1.4.22)
+  Using cached hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting httpx2<3,>=2.0.0 (from huggingface_hub->funasr==1.4.22)
+  Using cached httpx2-2.16.0-py3-none-any.whl.metadata (10 kB)
+Collecting anyio>=4.10 (from httpx2<3,>=2.0.0->huggingface_hub->funasr==1.4.22)
+  Using cached anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting httpcore2==2.16.0 (from httpx2<3,>=2.0.0->huggingface_hub->funasr==1.4.22)
+  Using cached httpcore2-2.16.0-py3-none-any.whl.metadata (27 kB)
+Collecting idna>=3.18 (from httpx2<3,>=2.0.0->huggingface_hub->funasr==1.4.22)
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface_hub->funasr==1.4.22)
+  Using cached truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting h11>=0.16 (from httpcore2==2.16.0->httpx2<3,>=2.0.0->huggingface_hub->funasr==1.4.22)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting audioread>=2.1.9 (from librosa->funasr==1.4.22)
+  Using cached audioread-3.1.0-py3-none-any.whl.metadata (9.0 kB)
+Collecting numba>=0.51.0 (from librosa->funasr==1.4.22)
+  Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.8 kB)
+Collecting scikit-learn>=1.1.0 (from librosa->funasr==1.4.22)
+  Using cached scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.3 kB)
+Collecting joblib>=1.0 (from librosa->funasr==1.4.22)
+  Using cached joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting decorator>=4.3.0 (from librosa->funasr==1.4.22)
+  Using cached decorator-5.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting pooch>=1.1 (from librosa->funasr==1.4.22)
+  Using cached pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting soxr>=0.3.2 (from librosa->funasr==1.4.22)
+  Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.8 kB)
+Collecting lazy_loader>=0.1 (from librosa->funasr==1.4.22)
+  Using cached lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+Collecting msgpack>=1.0 (from librosa->funasr==1.4.22)
+  Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.0->librosa->funasr==1.4.22)
+  Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.51.0->librosa->funasr==1.4.22)
+  Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.1 kB)
+Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa->funasr==1.4.22)
+  Downloading platformdirs-4.14.5-py3-none-any.whl.metadata (5.7 kB)
+Collecting charset_normalizer<4,>=2 (from requests->funasr==1.4.22)
+  Using cached charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+Collecting urllib3<3,>=1.26 (from requests->funasr==1.4.22)
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests->funasr==1.4.22)
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.1.0->librosa->funasr==1.4.22)
+  Using cached narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting modelscope-hub>=0.4.6 (from modelscope->funasr==1.4.22)
+  Downloading modelscope_hub-0.6.1-py3-none-any.whl.metadata (63 kB)
+Requirement already satisfied: setuptools in ./miniconda3/envs/ear1-funasr/lib/python3.11/site-packages (from modelscope->funasr==1.4.22) (84.2.1)
+Collecting cryptography>=41 (from modelscope-hub>=0.4.6->modelscope->funasr==1.4.22)
+  Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+Collecting crcmod>=1.7 (from oss2->funasr==1.4.22)
+  Downloading crcmod-1.7.tar.gz (89 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pycryptodome>=3.4.7 (from oss2->funasr==1.4.22)
+  Downloading pycryptodome-4.3.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+Collecting aliyun-python-sdk-kms>=2.4.1 (from oss2->funasr==1.4.22)
+  Downloading aliyun_python_sdk_kms-2.16.5-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting aliyun-python-sdk-core>=2.13.12 (from oss2->funasr==1.4.22)
+  Downloading aliyun_python_sdk_core-2.16.1-py3-none-any.whl.metadata (1.5 kB)
+Collecting six (from oss2->funasr==1.4.22)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting jmespath<2.0.0,>=0.9.3 (from aliyun-python-sdk-core>=2.13.12->oss2->funasr==1.4.22)
+  Downloading jmespath-1.1.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting protobuf>=3.20 (from tensorboardX->funasr==1.4.22)
+  Using cached protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+Collecting tokenizers<0.24.0,>=0.23.1 (from transformers->funasr==1.4.22)
+  Using cached tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.8 kB)
+Collecting typer (from transformers->funasr==1.4.22)
+  Using cached typer-0.28.0-py3-none-any.whl.metadata (16 kB)
+Collecting shellingham>=1.3.0 (from typer->transformers->funasr==1.4.22)
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer->transformers->funasr==1.4.22)
+  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer->transformers->funasr==1.4.22)
+  Using cached annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer->transformers->funasr==1.4.22)
+  Using cached markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer->transformers->funasr==1.4.22)
+  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer->transformers->funasr==1.4.22)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting pynndescent>=0.5 (from umap_learn->funasr==1.4.22)
+  Downloading pynndescent-0.7.0-py3-none-any.whl.metadata (6.9 kB)
+Downloading hydra_core-1.3.8-py3-none-any.whl (168 kB)
+Downloading omegaconf-2.3.1-py3-none-any.whl (79 kB)
+Downloading kaldiio-2.18.1-py3-none-any.whl (29 kB)
+Using cached pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 2.6 MB/s  0:00:01
+Downloading scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 2.7 MB/s  0:00:13
+Using cached numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+Using cached soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl (1.3 MB)
+Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+Downloading threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Downloading websockets-17.4-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (226 kB)
+Using cached huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Using cached hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.3 MB)
+Using cached httpx2-2.16.0-py3-none-any.whl (97 kB)
+Using cached httpcore2-2.16.0-py3-none-any.whl (85 kB)
+Using cached anyio-4.16.0-py3-none-any.whl (134 kB)
+Using cached filelock-4.2.9-py3-none-any.whl (164 kB)
+Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Using cached truststore-0.10.5-py3-none-any.whl (19 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading jaconv-0.5.0-py3-none-any.whl (16 kB)
+Downloading jamo-0.4.1-py3-none-any.whl (9.5 kB)
+Using cached librosa-0.11.0-py3-none-any.whl (260 kB)
+Using cached audioread-3.1.0-py3-none-any.whl (23 kB)
+Using cached decorator-5.3.1-py3-none-any.whl (10 kB)
+Using cached joblib-1.6.0-py3-none-any.whl (306 kB)
+Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Using cached lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (480 kB)
+Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 2.8 MB/s  0:00:01
+Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (59.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 2.3 MB/s  0:00:26
+Using cached pooch-1.9.0-py3-none-any.whl (67 kB)
+Downloading platformdirs-4.14.5-py3-none-any.whl (35 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 1.6 MB/s  0:00:05
+Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (245 kB)
+Downloading modelscope-1.40.2-py3-none-any.whl (6.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 2.6 MB/s  0:00:02
+Downloading modelscope_hub-0.6.1-py3-none-any.whl (289 kB)
+Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 2.3 MB/s  0:00:02
+Downloading aliyun_python_sdk_core-2.16.1-py3-none-any.whl (521 kB)
+Downloading jmespath-1.1.0-py3-none-any.whl (20 kB)
+Downloading aliyun_python_sdk_kms-2.16.5-py2.py3-none-any.whl (99 kB)
+Downloading pycryptodome-4.3.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 3.0 MB/s  0:00:01
+Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+Downloading regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (804 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 805.0/805.0 kB 5.2 MB/s  0:00:00
+Using cached safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Downloading sentencepiece-0.2.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 6.4 MB/s  0:00:00
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached tensorboardx-2.6.5-py3-none-any.whl (87 kB)
+Using cached protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+Downloading tiktoken-0.14.0-cp311-cp311-manylinux_2_28_x86_64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 3.3 MB/s  0:00:00
+Downloading torch_complex-0.4.4-py3-none-any.whl (9.1 kB)
+Downloading transformers-5.22.1-py3-none-any.whl (13.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 2.5 MB/s  0:00:05
+Using cached tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+Downloading typer-0.28.0-py3-none-any.whl (123 kB)
+Using cached annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Using cached rich-15.0.0-py3-none-any.whl (310 kB)
+Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Using cached markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading umap_learn-0.5.12-py3-none-any.whl (91 kB)
+Downloading pynndescent-0.7.0-py3-none-any.whl (112 kB)
+Building wheels for collected packages: funasr, antlr4-python3-runtime, jieba, oss2, crcmod
+  Building wheel for funasr (pyproject.toml): started
+  Building wheel for funasr (pyproject.toml): finished with status 'done'
+  Created wheel for funasr: filename=funasr-1.4.22-py3-none-any.whl size=1014534 sha256=4081163b01dc381790c5fb38b18d2490698878f5b26d406246565eb25ca354ff
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_i7j4nr9/wheels/a1/33/99/1a0cd29b6ada7b0430bbb8d86e00cfea6ca8d2638cc1d4c380
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144590 sha256=9371bee16256390a6a423debd78a9810f9bd5bd82f5f2c8ceaabca4137851502
+  Stored in directory: /home/xujunxian/.cache/pip/wheels/1a/97/32/461f837398029ad76911109f07047fde1d7b661a147c7c56d1
+  Building wheel for jieba (pyproject.toml): started
+  Building wheel for jieba (pyproject.toml): finished with status 'done'
+  Created wheel for jieba: filename=jieba-0.42.1-py3-none-any.whl size=19314509 sha256=65966e2f1b2959fb7342126a45492c4518161a518f40f757ed1fb2909acf429c
+  Stored in directory: /home/xujunxian/.cache/pip/wheels/ac/60/cf/538a1f183409caf1fc136b5d2c2dee329001ef6da2c5084bef
+  Building wheel for oss2 (pyproject.toml): started
+  Building wheel for oss2 (pyproject.toml): finished with status 'done'
+  Created wheel for oss2: filename=oss2-2.19.1-py3-none-any.whl size=124034 sha256=346635bd611363ce874d53172f5f75286294b1dfb0f39f9cc8e2d036c416ecc3
+  Stored in directory: /home/xujunxian/.cache/pip/wheels/56/27/a3/50e7db0dd68810d9d4e383a547b88b4a5b1eaae58e63c1d64a
+  Building wheel for crcmod (pyproject.toml): started
+  Building wheel for crcmod (pyproject.toml): finished with status 'done'
+  Created wheel for crcmod: filename=crcmod-1.7-cp311-cp311-linux_x86_64.whl size=23637 sha256=a8818d61615f5fcf8697bdf6ed781e1e3e15abd9de9bff819064b52f8d8891e2
+  Stored in directory: /home/xujunxian/.cache/pip/wheels/23/94/7a/8cb7d14597e6395ce969933f01aed9ea8fa5f5b4d4c8a61e99
+Successfully built funasr antlr4-python3-runtime jieba oss2 crcmod
+Installing collected packages: jieba, jamo, jaconv, crcmod, antlr4-python3-runtime, websockets, urllib3, typing-extensions, truststore, tqdm, threadpoolctl, six, shellingham, sentencepiece, safetensors, regex, rapidfuzz, PyYAML, pygments, pycryptodome, pycparser, protobuf, platformdirs, numpy, narwhals, msgpack, mdurl, llvmlite, lazy_loader, jmespath, idna, hf-xet, h11, fsspec, filelock, decorator, cloudpickle, click, charset_normalizer, certifi, audioread, annotated-doc, torch_complex, tensorboardX, soxr, scipy, requests, omegaconf, numba, markdown-it-py, kaldiio, joblib, httpcore2, cffi, anyio, tiktoken, soundfile, scikit-learn, rich, pooch, hydra-core, httpx2, cryptography, typer, pynndescent, modelscope-hub, librosa, huggingface_hub, aliyun-python-sdk-core, umap_learn, tokenizers, modelscope, aliyun-python-sdk-kms, transformers, oss2, funasr
+
+Successfully installed PyYAML-6.0.3 aliyun-python-sdk-core-2.16.1 aliyun-python-sdk-kms-2.16.5 annotated-doc-0.0.5 antlr4-python3-runtime-4.9.3 anyio-4.16.0 audioread-3.1.0 certifi-2026.10.23 cffi-2.1.1 charset_normalizer-3.5.2 click-8.5.0 cloudpickle-3.1.2 crcmod-1.7 cryptography-50.0.2 decorator-5.3.1 filelock-4.2.9 fsspec-2026.9.0 funasr-1.4.22 h11-0.16.0 hf-xet-1.8.0 httpcore2-2.16.0 httpx2-2.16.0 huggingface_hub-2.4.0 hydra-core-1.3.8 idna-3.20 jaconv-0.5.0 jamo-0.4.1 jieba-0.42.1 jmespath-1.1.0 joblib-1.6.0 kaldiio-2.18.1 lazy_loader-0.6 librosa-0.11.0 llvmlite-0.50.0 markdown-it-py-4.2.0 mdurl-0.1.2 modelscope-1.40.2 modelscope-hub-0.6.1 msgpack-1.2.4 narwhals-2.28.0 numba-0.68.1 numpy-2.4.6 omegaconf-2.3.1 oss2-2.19.1 platformdirs-4.14.5 pooch-1.9.0 protobuf-7.36.2 pycparser-3.12 pycryptodome-4.3.0 pygments-2.21.0 pynndescent-0.7.0 rapidfuzz-3.14.6 regex-2026.9.29 requests-2.34.2 rich-15.0.0 safetensors-0.8.0 scikit-learn-1.9.1 scipy-1.17.1 sentencepiece-0.2.3 shellingham-1.5.4 six-1.17.0 soundfile-0.14.0 soxr-1.1.0 tensorboardX-2.6.5 threadpoolctl-3.8.0 tiktoken-0.14.0 tokenizers-0.23.3 torch_complex-0.4.4 tqdm-4.70.1 transformers-5.22.1 truststore-0.10.5 typer-0.28.0 typing-extensions-4.16.0 umap_learn-0.5.12 urllib3-2.8.0 websockets-17.4

@@ -1,0 +1,3 @@
+833ca2dcfdf8ec91bd4f31cfac36d6124e0c459074d5e909aec9cabe6204a3ea  /home/xujunxian/.cache/modelscope/models/iic--SenseVoiceSmall/snapshots/master/model.pt
+b3be75be477f0780277f3bae0fe489f48718f585f3a6e45d7dd1fbb1a4255fc5  /home/xujunxian/.cache/modelscope/models/iic--speech_fsmn_vad_zh-cn-16k-common-pytorch/snapshots/master/model.pt
+3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8  /home/xujunxian/.cache/modelscope/models/iic--speech_campplus_sv_zh-cn_16k-common/snapshots/master/campplus_cn_common.bin

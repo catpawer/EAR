@@ -1,0 +1,54 @@
+{
+  "model": "USEF-TFGridNet-WHAMR",
+  "session": "20260908-1",
+  "track": "D1",
+  "source_audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260908-1/D1.WAV",
+  "sample_rate": 8000,
+  "original_rate": 48000,
+  "input_samples": 11736847,
+  "enrollment_source": "corrected_textgrid_oracle",
+  "status": "complete",
+  "tracks": [
+    {
+      "speaker": "P006",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/D1/P006.wav",
+      "samples": 11736847,
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/D1/P006.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 64.6
+    },
+    {
+      "speaker": "P007",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/D1/P007.wav",
+      "samples": 11736847,
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/D1/P007.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 64.3
+    },
+    {
+      "speaker": "P008",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/D1/P008.wav",
+      "samples": 11736847,
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/D1/P008.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 64.32
+    },
+    {
+      "speaker": "P009",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260908-1/D1/P009.wav",
+      "samples": 11736847,
+      "chunks": 294,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260908-1/D1/P009.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 64.29
+    }
+  ],
+  "elapsed_s": 259.65
+}

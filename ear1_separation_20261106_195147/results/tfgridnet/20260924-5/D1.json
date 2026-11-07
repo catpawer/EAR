@@ -1,0 +1,26 @@
+{
+  "model": "TF-GridNet-WSJ0-2mix",
+  "session": "20260924-5",
+  "track": "D1",
+  "source_audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260924-5/D1.WAV",
+  "source_textgrid": "/data2/xujunxian/EAR1-Challenge/Dev/20260924-5/D1.TextGrid",
+  "sample_rate": 8000,
+  "original_rate": 48000,
+  "input_samples": 12420201,
+  "output_samples": [
+    12420201,
+    12420201
+  ],
+  "outputs": [
+    "/home/xujunxian/ear1_separation_20261106_195147/outputs/tfgridnet/20260924-5/D1/source1.wav",
+    "/home/xujunxian/ear1_separation_20261106_195147/outputs/tfgridnet/20260924-5/D1/source2.wav"
+  ],
+  "chunks": 311,
+  "swaps": 64,
+  "ambiguous_alignments": 27,
+  "silent_chunks_skipped": 0,
+  "output_scale": 0.033269377142330546,
+  "mixture_reconstruction_corr": 0.9993817384685008,
+  "elapsed_s": 142.42,
+  "note": "source lanes are not guaranteed to be persistent speaker identities"
+}

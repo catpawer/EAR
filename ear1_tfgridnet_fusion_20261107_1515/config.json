@@ -1,0 +1,23 @@
+{
+  "experiment": "TF-GridNet separated audio overlap addition to original DiariZen",
+  "scope": "EAR-1 Task 1 dev, seven sessions, D1 and R1",
+  "inference_reference_used": false,
+  "original_audio_root": "/data2/qiuenduo/EAR1-Challenge/Train&Dev",
+  "split": "/data2/qiuenduo/EAR1-Challenge/split_tr56_dev7.lst",
+  "corrected_textgrid_root_for_scoring_only": "/data2/xujunxian/EAR1-Challenge/Dev",
+  "baseline_prediction_root": "/home/xujunxian/ear1_task1_compare_20261106_1712/predictions/diarizen_baseline",
+  "separated_audio_root": "/home/xujunxian/ear1_separation_20261106_195147/outputs/tfgridnet",
+  "tfgridnet_checkpoint_sha256": "f8ef60995e82d7c0ba3273eef7d837ab2d9be93eea5ab9d75a6eae42f0e51949",
+  "vad": "FunASR 1.4.22, FSMN-VAD, ModelScope master snapshot",
+  "speaker_embedding": "FunASR 1.4.22, CAM++, ModelScope master snapshot",
+  "environment": "ear1-funasr",
+  "frame_step_seconds": 0.1,
+  "min_candidate_seconds": 1.2,
+  "thresholds": {
+    "conservative": [0.48, 0.48, 0.08, 0.78],
+    "moderate": [0.35, 0.30, 0.04, 0.75],
+    "permissive": [0.28, 0.26, 0.02, 0.80]
+  },
+  "threshold_order": ["active_min_cosine", "new_min_cosine", "new_minus_active_min_margin", "max_cross_stem_cosine"],
+  "scoring": "Full-audio UEM including silence, collar 0, overlap scored, fixed full-audio optimal mapping for regional decomposition"
+}

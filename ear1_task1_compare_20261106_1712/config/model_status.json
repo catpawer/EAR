@@ -1,0 +1,6 @@
+{
+  "diarizen_baseline": "原始预测已按指定参考复核：14/14",
+  "nemotron3": "14/14 完成并已评分",
+  "pyannote_community1": "14/14 完成并已评分",
+  "funasr": "14/14 完成并已评分"
+}

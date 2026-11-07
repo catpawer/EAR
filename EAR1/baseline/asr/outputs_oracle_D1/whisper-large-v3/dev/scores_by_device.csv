@@ -1,0 +1,2 @@
+Device,# Utterances,CER (%),# Reference Characters,Substitutions,Deletions,Insertions,Errors
+D1,4407,61.50050373172687,48637,15001,11964,2947,29912

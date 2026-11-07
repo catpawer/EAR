@@ -1,0 +1,4032 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1304.17 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "P029" 
+        xmin = 0 
+        xmax = 1304.17 
+        intervals: size = 551 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.64 
+            text = "" 
+        intervals [2]:
+            xmin = 1.64 
+            xmax = 4.89 
+            text = "大家都说一说之前去哪儿。" 
+        intervals [3]:
+            xmin = 4.89 
+            xmax = 5.14 
+            text = "" 
+        intervals [4]:
+            xmin = 5.14 
+            xmax = 6.41 
+            text = "旅行的经历吧。" 
+        intervals [5]:
+            xmin = 6.41 
+            xmax = 59.14 
+            text = "" 
+        intervals [6]:
+            xmin = 59.14 
+            xmax = 60.02 
+            text = "好。" 
+        intervals [7]:
+            xmin = 60.02 
+            xmax = 61.63 
+            text = "" 
+        intervals [8]:
+            xmin = 61.63 
+            xmax = 63.68 
+            text = "呃我之前是。" 
+        intervals [9]:
+            xmin = 63.68 
+            xmax = 63.84 
+            text = "" 
+        intervals [10]:
+            xmin = 63.84 
+            xmax = 68.53 
+            text = "有过天津一日一日游的经历我自己自己早上起来之后坐高铁到了天津。" 
+        intervals [11]:
+            xmin = 68.53 
+            xmax = 69.09 
+            text = "" 
+        intervals [12]:
+            xmin = 69.09 
+            xmax = 71.65 
+            text = "然后我先去了西北角儿吃了个早点。" 
+        intervals [13]:
+            xmin = 71.65 
+            xmax = 71.91 
+            text = "" 
+        intervals [14]:
+            xmin = 71.91 
+            xmax = 74.45 
+            text = "特色呃天津特色早点吧嘎巴儿菜和。" 
+        intervals [15]:
+            xmin = 74.45 
+            xmax = 74.93 
+            text = "" 
+        intervals [16]:
+            xmin = 74.93 
+            xmax = 76.02 
+            text = "呃煎饼果子。" 
+        intervals [17]:
+            xmin = 76.02 
+            xmax = 76.34 
+            text = "" 
+        intervals [18]:
+            xmin = 76.34 
+            xmax = 77.50 
+            text = "吃完之后。" 
+        intervals [19]:
+            xmin = 77.50 
+            xmax = 77.66 
+            text = "" 
+        intervals [20]:
+            xmin = 77.66 
+            xmax = 83.63 
+            text = "呃其实挺挺顶饱的但是嘎巴儿菜我说实话不太符合我的口味。" 
+        intervals [21]:
+            xmin = 83.63 
+            xmax = 84.19 
+            text = "" 
+        intervals [22]:
+            xmin = 84.19 
+            xmax = 86.83 
+            text = "后来去了五大道那边儿然后。" 
+        intervals [23]:
+            xmin = 86.83 
+            xmax = 87.11 
+            text = "" 
+        intervals [24]:
+            xmin = 87.11 
+            xmax = 87.98 
+            text = "呃。" 
+        intervals [25]:
+            xmin = 87.98 
+            xmax = 88.49 
+            text = "" 
+        intervals [26]:
+            xmin = 88.49 
+            xmax = 91.24 
+            text = "吃了，中午的话吃吃了。" 
+        intervals [27]:
+            xmin = 91.24 
+            xmax = 91.27 
+            text = "" 
+        intervals [28]:
+            xmin = 91.27 
+            xmax = 92.18 
+            text = "八珍豆腐。" 
+        intervals [29]:
+            xmin = 92.18 
+            xmax = 92.49 
+            text = "" 
+        intervals [30]:
+            xmin = 92.49 
+            xmax = 96.11 
+            text = "然后晚上在海河边儿，在那个解放桥。" 
+        intervals [31]:
+            xmin = 96.11 
+            xmax = 96.31 
+            text = "" 
+        intervals [32]:
+            xmin = 96.31 
+            xmax = 97.11 
+            text = "那边儿。" 
+        intervals [33]:
+            xmin = 97.11 
+            xmax = 97.59 
+            text = "" 
+        intervals [34]:
+            xmin = 97.59 
+            xmax = 99.91 
+            text = "呃，看了看夜景听了听。" 
+        intervals [35]:
+            xmin = 99.91 
+            xmax = 100.12 
+            text = "" 
+        intervals [36]:
+            xmin = 100.12 
+            xmax = 103.95 
+            text = "呃，网红歌手的民谣 就是街街街头表演。" 
+        intervals [37]:
+            xmin = 103.95 
+            xmax = 104.85 
+            text = "" 
+        intervals [38]:
+            xmin = 104.85 
+            xmax = 105.96 
+            text = "之后。" 
+        intervals [39]:
+            xmin = 105.96 
+            xmax = 106.51 
+            text = "" 
+        intervals [40]:
+            xmin = 106.51 
+            xmax = 108.21 
+            text = "晚上我坐。" 
+        intervals [41]:
+            xmin = 108.21 
+            xmax = 108.73 
+            text = "" 
+        intervals [42]:
+            xmin = 108.73 
+            xmax = 114.56 
+            text = "火车到了滨海新区，然后在滨海新区住了一晚，第二天早上在滨海新区看了日出。" 
+        intervals [43]:
+            xmin = 114.56 
+            xmax = 114.80 
+            text = "" 
+        intervals [44]:
+            xmin = 114.80 
+            xmax = 117.17 
+            text = "总体来说这一天的经历。" 
+        intervals [45]:
+            xmin = 117.17 
+            xmax = 117.47 
+            text = "" 
+        intervals [46]:
+            xmin = 117.47 
+            xmax = 123.49 
+            text = "还是比较丰富的，嗯，具体有什么细节就是细节上的大家有好奇的可以问问我。" 
+        intervals [47]:
+            xmin = 123.49 
+            xmax = 130.24 
+            text = "" 
+        intervals [48]:
+            xmin = 130.24 
+            xmax = 132.26 
+            text = "呃，嘎巴菜。" 
+        intervals [49]:
+            xmin = 132.26 
+            xmax = 132.49 
+            text = "" 
+        intervals [50]:
+            xmin = 132.49 
+            xmax = 134.10 
+            text = "我觉得味道很怪。" 
+        intervals [51]:
+            xmin = 134.10 
+            xmax = 134.36 
+            text = "" 
+        intervals [52]:
+            xmin = 134.36 
+            xmax = 135.08 
+            text = "就是。" 
+        intervals [53]:
+            xmin = 135.08 
+            xmax = 135.63 
+            text = "" 
+        intervals [54]:
+            xmin = 135.63 
+            xmax = 136.93 
+            text = "对然后就是。" 
+        intervals [55]:
+            xmin = 136.93 
+            xmax = 137.32 
+            text = "" 
+        intervals [56]:
+            xmin = 137.32 
+            xmax = 141.40 
+            text = "可能我当时先吃了一个，就是进了西北角之后先买了一个煎饼果子。" 
+        intervals [57]:
+            xmin = 141.40 
+            xmax = 141.43 
+            text = "" 
+        intervals [58]:
+            xmin = 141.43 
+            xmax = 147.77 
+            text = "就吃一边吃一边一边溜达对然后吃完那个煎饼果子就已经很饱了然后再吃嘎巴菜的时候就觉得。" 
+        intervals [59]:
+            xmin = 147.77 
+            xmax = 147.96 
+            text = "" 
+        intervals [60]:
+            xmin = 147.96 
+            xmax = 149.01 
+            text = "嗯一般。" 
+        intervals [61]:
+            xmin = 149.01 
+            xmax = 154.23 
+            text = "" 
+        intervals [62]:
+            xmin = 154.23 
+            xmax = 161.84 
+            text = "我当然去天津因为就一天嘛，然后早点的话我就选了两个比较特色的，他们都说嘎巴菜比较特色嘛，但是我吃的真的很一般嗯。" 
+        intervals [63]:
+            xmin = 161.84 
+            xmax = 162.92 
+            text = "" 
+        intervals [64]:
+            xmin = 162.92 
+            xmax = 164.13 
+            text = "呃。" 
+        intervals [65]:
+            xmin = 164.13 
+            xmax = 172.72 
+            text = "" 
+        intervals [66]:
+            xmin = 172.72 
+            xmax = 174.61 
+            text = "对面皮儿，对。" 
+        intervals [67]:
+            xmin = 174.61 
+            xmax = 175.58 
+            text = "" 
+        intervals [68]:
+            xmin = 175.58 
+            xmax = 177.36 
+            text = "对很稠很粘稠。" 
+        intervals [69]:
+            xmin = 177.36 
+            xmax = 179.50 
+            text = "" 
+        intervals [70]:
+            xmin = 179.50 
+            xmax = 180.21 
+            text = "嗯。" 
+        intervals [71]:
+            xmin = 180.21 
+            xmax = 181.42 
+            text = "" 
+        intervals [72]:
+            xmin = 181.42 
+            xmax = 182.89 
+            text = "*特别粘稠。" 
+        intervals [73]:
+            xmin = 182.89 
+            xmax = 184.42 
+            text = "" 
+        intervals [74]:
+            xmin = 184.42 
+            xmax = 187.50 
+            text = "嗯，也不是那么个感觉就是。" 
+        intervals [75]:
+            xmin = 187.50 
+            xmax = 189.04 
+            text = "" 
+        intervals [76]:
+            xmin = 189.04 
+            xmax = 189.74 
+            text = "他很。" 
+        intervals [77]:
+            xmin = 189.74 
+            xmax = 189.94 
+            text = "" 
+        intervals [78]:
+            xmin = 189.94 
+            xmax = 193.81 
+            text = "对它有面皮儿，而他他是他*入口非常。" 
+        intervals [79]:
+            xmin = 193.81 
+            xmax = 194.01 
+            text = "" 
+        intervals [80]:
+            xmin = 194.01 
+            xmax = 196.38 
+            text = "它比较黏它不是那种麻辣拌的感觉。" 
+        intervals [81]:
+            xmin = 196.38 
+            xmax = 196.88 
+            text = "" 
+        intervals [82]:
+            xmin = 196.88 
+            xmax = 200.65 
+            text = "它不是那种咱们这边吃的那种干麻酱，对，它是那种勾的芡的感觉。" 
+        intervals [83]:
+            xmin = 200.65 
+            xmax = 200.82 
+            text = "" 
+        intervals [84]:
+            xmin = 200.82 
+            xmax = 202.96 
+            text = "天津菜都勾芡吗很多菜都勾芡。" 
+        intervals [85]:
+            xmin = 202.96 
+            xmax = 206.84 
+            text = "" 
+        intervals [86]:
+            xmin = 206.84 
+            xmax = 208.08 
+            text = "嗯对。" 
+        intervals [87]:
+            xmin = 208.08 
+            xmax = 233.05 
+            text = "" 
+        intervals [88]:
+            xmin = 233.05 
+            xmax = 233.93 
+            text = "其实。" 
+        intervals [89]:
+            xmin = 233.93 
+            xmax = 233.98 
+            text = "" 
+        intervals [90]:
+            xmin = 233.98 
+            xmax = 238.39 
+            text = "我觉得这一天下来的经历，最让我感觉动容的就是。" 
+        intervals [91]:
+            xmin = 238.39 
+            xmax = 238.52 
+            text = "" 
+        intervals [92]:
+            xmin = 238.52 
+            xmax = 239.72 
+            text = "第二天早上的日出。" 
+        intervals [93]:
+            xmin = 239.72 
+            xmax = 240.18 
+            text = "" 
+        intervals [94]:
+            xmin = 240.18 
+            xmax = 242.85 
+            text = "然后第二天早上因为到了滨海新区那边儿吧。" 
+        intervals [95]:
+            xmin = 242.85 
+            xmax = 242.94 
+            text = "" 
+        intervals [96]:
+            xmin = 242.94 
+            xmax = 244.76 
+            text = "那边儿人特别少。" 
+        intervals [97]:
+            xmin = 244.76 
+            xmax = 245.09 
+            text = "" 
+        intervals [98]:
+            xmin = 245.09 
+            xmax = 246.15 
+            text = "然后基本上。" 
+        intervals [99]:
+            xmin = 246.15 
+            xmax = 246.29 
+            text = "" 
+        intervals [100]:
+            xmin = 246.29 
+            xmax = 249.13 
+            text = "就是你放眼望去不会像别的那种。" 
+        intervals [101]:
+            xmin = 249.13 
+            xmax = 249.20 
+            text = "" 
+        intervals [102]:
+            xmin = 249.20 
+            xmax = 252.08 
+            text = "呃，日出打卡地一样，就是人挤人。" 
+        intervals [103]:
+            xmin = 252.08 
+            xmax = 252.36 
+            text = "" 
+        intervals [104]:
+            xmin = 252.36 
+            xmax = 255.28 
+            text = "人很少，然后东江公园也可以，还有一个。" 
+        intervals [105]:
+            xmin = 255.28 
+            xmax = 255.52 
+            text = "" 
+        intervals [106]:
+            xmin = 255.52 
+            xmax = 256.53 
+            text = "是。" 
+        intervals [107]:
+            xmin = 256.53 
+            xmax = 256.78 
+            text = "" 
+        intervals [108]:
+            xmin = 256.78 
+            xmax = 258.75 
+            text = "一个风车的路。但是，具体。" 
+        intervals [109]:
+            xmin = 258.75 
+            xmax = 258.88 
+            text = "" 
+        intervals [110]:
+            xmin = 258.88 
+            xmax = 261.39 
+            text = "那个路，叫什么名儿我忘记了但是。" 
+        intervals [111]:
+            xmin = 261.39 
+            xmax = 261.65 
+            text = "" 
+        intervals [112]:
+            xmin = 261.65 
+            xmax = 264.07 
+            text = "进去的时候真的很狼狈因为那个是。" 
+        intervals [113]:
+            xmin = 264.07 
+            xmax = 264.64 
+            text = "" 
+        intervals [114]:
+            xmin = 264.64 
+            xmax = 265.50 
+            text = "就是。" 
+        intervals [115]:
+            xmin = 265.50 
+            xmax = 265.74 
+            text = "" 
+        intervals [116]:
+            xmin = 265.74 
+            xmax = 268.98 
+            text = "不不开放的，你得钻进去就是就是很。" 
+        intervals [117]:
+            xmin = 268.98 
+            xmax = 269.82 
+            text = "" 
+        intervals [118]:
+            xmin = 269.82 
+            xmax = 271.53 
+            text = "很，进去的时候很狼狈。" 
+        intervals [119]:
+            xmin = 271.53 
+            xmax = 271.73 
+            text = "" 
+        intervals [120]:
+            xmin = 271.73 
+            xmax = 274.20 
+            text = "然后，但是里边儿风景相当美了。" 
+        intervals [121]:
+            xmin = 274.20 
+            xmax = 283.63 
+            text = "" 
+        intervals [122]:
+            xmin = 283.63 
+            xmax = 284.98 
+            text = "其实我一直。" 
+        intervals [123]:
+            xmin = 284.98 
+            xmax = 285.15 
+            text = "" 
+        intervals [124]:
+            xmin = 285.15 
+            xmax = 286.60 
+            text = "挺想去南京的。" 
+        intervals [125]:
+            xmin = 286.60 
+            xmax = 286.69 
+            text = "" 
+        intervals [126]:
+            xmin = 286.69 
+            xmax = 291.14 
+            text = "但是，嗯一直没有机会嘛，本来上大学的时候挺想去南京的，但是。" 
+        intervals [127]:
+            xmin = 291.14 
+            xmax = 291.32 
+            text = "" 
+        intervals [128]:
+            xmin = 291.32 
+            xmax = 293.96 
+            text = "嗯，一方面离得比较远然后。" 
+        intervals [129]:
+            xmin = 293.96 
+            xmax = 294.12 
+            text = "" 
+        intervals [130]:
+            xmin = 294.12 
+            xmax = 296.24 
+            text = "假期又比较短就没有时间去嘛。" 
+        intervals [131]:
+            xmin = 296.24 
+            xmax = 296.26 
+            text = "" 
+        intervals [132]:
+            xmin = 296.26 
+            xmax = 297.75 
+            text = "那南京那边儿。" 
+        intervals [133]:
+            xmin = 297.75 
+            xmax = 297.82 
+            text = "" 
+        intervals [134]:
+            xmin = 297.82 
+            xmax = 304.55 
+            text = "就是如果让你给我出一个一天，我如果一两天的那个旅游攻略的话你会怎么推荐我。" 
+        intervals [135]:
+            xmin = 304.55 
+            xmax = 304.67 
+            text = "" 
+        intervals [136]:
+            xmin = 304.67 
+            xmax = 306.06 
+            text = "你最推荐的地方是哪儿。" 
+        intervals [137]:
+            xmin = 306.06 
+            xmax = 352.78 
+            text = "" 
+        intervals [138]:
+            xmin = 352.78 
+            xmax = 353.87 
+            text = "音乐台吧。" 
+        intervals [139]:
+            xmin = 353.87 
+            xmax = 354.27 
+            text = "" 
+        intervals [140]:
+            xmin = 354.27 
+            xmax = 355.05 
+            text = "哦对。" 
+        intervals [141]:
+            xmin = 355.05 
+            xmax = 409.03 
+            text = "" 
+        intervals [142]:
+            xmin = 409.03 
+            xmax = 410.84 
+            text = "呃，我也去过一趟五台山。" 
+        intervals [143]:
+            xmin = 410.84 
+            xmax = 411.10 
+            text = "" 
+        intervals [144]:
+            xmin = 411.10 
+            xmax = 411.97 
+            text = "就是。" 
+        intervals [145]:
+            xmin = 411.97 
+            xmax = 412.34 
+            text = "" 
+        intervals [146]:
+            xmin = 412.34 
+            xmax = 414.11 
+            text = "呃，我是我是从。" 
+        intervals [147]:
+            xmin = 414.11 
+            xmax = 414.15 
+            text = "" 
+        intervals [148]:
+            xmin = 414.15 
+            xmax = 415.35 
+            text = "县城抱团去的。" 
+        intervals [149]:
+            xmin = 415.35 
+            xmax = 415.43 
+            text = "" 
+        intervals [150]:
+            xmin = 415.43 
+            xmax = 417.17 
+            text = "直接坐大巴车坐到那边。" 
+        intervals [151]:
+            xmin = 417.17 
+            xmax = 417.42 
+            text = "" 
+        intervals [152]:
+            xmin = 417.42 
+            xmax = 418.42 
+            text = "然后。" 
+        intervals [153]:
+            xmin = 418.42 
+            xmax = 418.74 
+            text = "" 
+        intervals [154]:
+            xmin = 418.74 
+            xmax = 420.82 
+            text = "就逛了逛寺庙然后。" 
+        intervals [155]:
+            xmin = 420.82 
+            xmax = 421.15 
+            text = "" 
+        intervals [156]:
+            xmin = 421.15 
+            xmax = 426.18 
+            text = "没有像你说的体验那些斋饭呀啥的，因为确实，一天往返太赶了。" 
+        intervals [157]:
+            xmin = 426.18 
+            xmax = 426.52 
+            text = "" 
+        intervals [158]:
+            xmin = 426.52 
+            xmax = 429.57 
+            text = "呃，逛了几个主庙峰然后。" 
+        intervals [159]:
+            xmin = 429.57 
+            xmax = 430.10 
+            text = "" 
+        intervals [160]:
+            xmin = 430.10 
+            xmax = 437.67 
+            text = "整体来说它的山都不是很高，就是它如果你逛寺庙的话，其实不需要怎么去爬台阶。" 
+        intervals [161]:
+            xmin = 437.67 
+            xmax = 438.06 
+            text = "" 
+        intervals [162]:
+            xmin = 438.06 
+            xmax = 439.07 
+            text = "然后。" 
+        intervals [163]:
+            xmin = 439.07 
+            xmax = 439.32 
+            text = "" 
+        intervals [164]:
+            xmin = 439.32 
+            xmax = 440.55 
+            text = "呃。" 
+        intervals [165]:
+            xmin = 440.55 
+            xmax = 441.06 
+            text = "" 
+        intervals [166]:
+            xmin = 441.06 
+            xmax = 442.05 
+            text = "但是我。" 
+        intervals [167]:
+            xmin = 442.05 
+            xmax = 442.46 
+            text = "" 
+        intervals [168]:
+            xmin = 442.46 
+            xmax = 444.16 
+            text = "五台山那边我上次去。" 
+        intervals [169]:
+            xmin = 444.16 
+            xmax = 444.21 
+            text = "" 
+        intervals [170]:
+            xmin = 444.21 
+            xmax = 445.06 
+            text = "因为是。" 
+        intervals [171]:
+            xmin = 445.06 
+            xmax = 445.19 
+            text = "" 
+        intervals [172]:
+            xmin = 445.19 
+            xmax = 447.34 
+            text = "跟团去嘛，然后没有怎么吃到。" 
+        intervals [173]:
+            xmin = 447.34 
+            xmax = 447.82 
+            text = "" 
+        intervals [174]:
+            xmin = 447.82 
+            xmax = 450.89 
+            text = "好吃的，你觉得，五台山那边儿有什么好吃的吗。" 
+        intervals [175]:
+            xmin = 450.89 
+            xmax = 474.93 
+            text = "" 
+        intervals [176]:
+            xmin = 474.93 
+            xmax = 475.62 
+            text = "对。" 
+        intervals [177]:
+            xmin = 475.62 
+            xmax = 476.16 
+            text = "" 
+        intervals [178]:
+            xmin = 476.16 
+            xmax = 478.25 
+            text = "那边儿，他们的醋特别酸。" 
+        intervals [179]:
+            xmin = 478.25 
+            xmax = 478.45 
+            text = "" 
+        intervals [180]:
+            xmin = 478.45 
+            xmax = 479.19 
+            text = "就是。" 
+        intervals [181]:
+            xmin = 479.19 
+            xmax = 482.80 
+            text = "" 
+        intervals [182]:
+            xmin = 482.80 
+            xmax = 483.88 
+            text = "他们那边儿。" 
+        intervals [183]:
+            xmin = 483.88 
+            xmax = 484.18 
+            text = "" 
+        intervals [184]:
+            xmin = 484.18 
+            xmax = 484.97 
+            text = "呃。" 
+        intervals [185]:
+            xmin = 484.97 
+            xmax = 485.26 
+            text = "" 
+        intervals [186]:
+            xmin = 485.26 
+            xmax = 490.36 
+            text = "他们那个醋都是陈醋，跟平时咱们吃惯的米醋还不一样它特别特别的酸。" 
+        intervals [187]:
+            xmin = 490.36 
+            xmax = 490.42 
+            text = "" 
+        intervals [188]:
+            xmin = 490.42 
+            xmax = 491.16 
+            text = "就是。" 
+        intervals [189]:
+            xmin = 491.16 
+            xmax = 491.57 
+            text = "" 
+        intervals [190]:
+            xmin = 491.57 
+            xmax = 493.13 
+            text = "你甚至感觉到酸牙。" 
+        intervals [191]:
+            xmin = 493.13 
+            xmax = 493.81 
+            text = "" 
+        intervals [192]:
+            xmin = 493.81 
+            xmax = 494.86 
+            text = "就是那种感觉。" 
+        intervals [193]:
+            xmin = 494.86 
+            xmax = 498.18 
+            text = "" 
+        intervals [194]:
+            xmin = 498.18 
+            xmax = 499.00 
+            text = "对对对。" 
+        intervals [195]:
+            xmin = 499.00 
+            xmax = 504.37 
+            text = "" 
+        intervals [196]:
+            xmin = 504.37 
+            xmax = 506.67 
+            text = "那你呢，那你去哪里旅过游。" 
+        intervals [197]:
+            xmin = 506.67 
+            xmax = 509.33 
+            text = "" 
+        intervals [198]:
+            xmin = 509.33 
+            xmax = 510.06 
+            text = "哦。" 
+        intervals [199]:
+            xmin = 510.06 
+            xmax = 590.29 
+            text = "" 
+        intervals [200]:
+            xmin = 590.29 
+            xmax = 592.45 
+            text = "二三年我上大二的时候。" 
+        intervals [201]:
+            xmin = 592.45 
+            xmax = 592.75 
+            text = "" 
+        intervals [202]:
+            xmin = 592.75 
+            xmax = 594.89 
+            text = "然后当时也是。" 
+        intervals [203]:
+            xmin = 594.89 
+            xmax = 595.34 
+            text = "" 
+        intervals [204]:
+            xmin = 595.34 
+            xmax = 598.76 
+            text = "是国庆当时准备放国庆假了然后我几个。" 
+        intervals [205]:
+            xmin = 598.76 
+            xmax = 598.99 
+            text = "" 
+        intervals [206]:
+            xmin = 598.99 
+            xmax = 601.30 
+            text = "室友，约着一起去爬泰山。" 
+        intervals [207]:
+            xmin = 601.30 
+            xmax = 601.34 
+            text = "" 
+        intervals [208]:
+            xmin = 601.34 
+            xmax = 607.44 
+            text = "但是我有事儿我没去，所以我，这个这个事儿对我来说也算是一种遗憾吧，因为我有事儿我需要回家。" 
+        intervals [209]:
+            xmin = 607.44 
+            xmax = 607.82 
+            text = "" 
+        intervals [210]:
+            xmin = 607.82 
+            xmax = 609.53 
+            text = "然后他们几个去爬的泰山。" 
+        intervals [211]:
+            xmin = 609.53 
+            xmax = 609.70 
+            text = "" 
+        intervals [212]:
+            xmin = 609.70 
+            xmax = 612.83 
+            text = "然后他们也在山顶，登顶之后拍了照片儿。" 
+        intervals [213]:
+            xmin = 612.83 
+            xmax = 613.02 
+            text = "" 
+        intervals [214]:
+            xmin = 613.02 
+            xmax = 614.89 
+            text = "然后写我到此一游。" 
+        intervals [215]:
+            xmin = 614.89 
+            xmax = 614.99 
+            text = "" 
+        intervals [216]:
+            xmin = 614.99 
+            xmax = 616.44 
+            text = "带着我到此一游了。" 
+        intervals [217]:
+            xmin = 616.44 
+            xmax = 616.65 
+            text = "" 
+        intervals [218]:
+            xmin = 616.65 
+            xmax = 621.77 
+            text = "也算是，四舍五入也算是我爬过了，对四四舍五入也算是我爬过了。" 
+        intervals [219]:
+            xmin = 621.77 
+            xmax = 622.42 
+            text = "" 
+        intervals [220]:
+            xmin = 622.42 
+            xmax = 623.21 
+            text = "然后。" 
+        intervals [221]:
+            xmin = 623.21 
+            xmax = 623.59 
+            text = "" 
+        intervals [222]:
+            xmin = 623.59 
+            xmax = 625.05 
+            text = "我大二。" 
+        intervals [223]:
+            xmin = 625.05 
+            xmax = 625.26 
+            text = "" 
+        intervals [224]:
+            xmin = 625.26 
+            xmax = 627.46 
+            text = "升大三，就是大二寒假。" 
+        intervals [225]:
+            xmin = 627.46 
+            xmax = 627.67 
+            text = "" 
+        intervals [226]:
+            xmin = 627.67 
+            xmax = 631.34 
+            text = "刚放假的时候，我是去青岛玩儿了一个礼拜。" 
+        intervals [227]:
+            xmin = 631.34 
+            xmax = 632.48 
+            text = "" 
+        intervals [228]:
+            xmin = 632.48 
+            xmax = 633.25 
+            text = "吃了。" 
+        intervals [229]:
+            xmin = 633.25 
+            xmax = 634.10 
+            text = "" 
+        intervals [230]:
+            xmin = 634.10 
+            xmax = 637.07 
+            text = "而且而且冬天的话青岛是淡季。" 
+        intervals [231]:
+            xmin = 637.07 
+            xmax = 637.19 
+            text = "" 
+        intervals [232]:
+            xmin = 637.19 
+            xmax = 639.54 
+            text = "就是海滨海滨城市嘛，旅游淡季。" 
+        intervals [233]:
+            xmin = 639.54 
+            xmax = 639.73 
+            text = "" 
+        intervals [234]:
+            xmin = 639.73 
+            xmax = 641.05 
+            text = "然后那会儿的话。" 
+        intervals [235]:
+            xmin = 641.05 
+            xmax = 641.25 
+            text = "" 
+        intervals [236]:
+            xmin = 641.25 
+            xmax = 642.46 
+            text = "不过也还行。" 
+        intervals [237]:
+            xmin = 642.46 
+            xmax = 642.65 
+            text = "" 
+        intervals [238]:
+            xmin = 642.65 
+            xmax = 645.77 
+            text = "嗯，我们当时去的时候是正好。" 
+        intervals [239]:
+            xmin = 645.77 
+            xmax = 645.89 
+            text = "" 
+        intervals [240]:
+            xmin = 645.89 
+            xmax = 649.99 
+            text = "早上到，那个栈桥那边去喂海鸥的时候，看到了范思琪。" 
+        intervals [241]:
+            xmin = 649.99 
+            xmax = 651.95 
+            text = "" 
+        intervals [242]:
+            xmin = 651.95 
+            xmax = 652.93 
+            text = "一个。" 
+        intervals [243]:
+            xmin = 652.93 
+            xmax = 652.99 
+            text = "" 
+        intervals [244]:
+            xmin = 652.99 
+            xmax = 656.27 
+            text = "明星，然后他们当时在那拍，应该是拍完电影之后在那。" 
+        intervals [245]:
+            xmin = 656.27 
+            xmax = 656.29 
+            text = "" 
+        intervals [246]:
+            xmin = 656.29 
+            xmax = 658.03 
+            text = "在那边儿逛然后碰上了。" 
+        intervals [247]:
+            xmin = 658.03 
+            xmax = 658.53 
+            text = "" 
+        intervals [248]:
+            xmin = 658.53 
+            xmax = 659.36 
+            text = "然后。" 
+        intervals [249]:
+            xmin = 659.36 
+            xmax = 659.56 
+            text = "" 
+        intervals [250]:
+            xmin = 659.56 
+            xmax = 660.10 
+            text = "对。" 
+        intervals [251]:
+            xmin = 660.10 
+            xmax = 660.52 
+            text = "" 
+        intervals [252]:
+            xmin = 660.52 
+            xmax = 662.52 
+            text = "天，嗯，青岛那边儿。" 
+        intervals [253]:
+            xmin = 662.52 
+            xmax = 662.94 
+            text = "" 
+        intervals [254]:
+            xmin = 662.94 
+            xmax = 665.32 
+            text = "我们住的是我们住在那个。" 
+        intervals [255]:
+            xmin = 665.32 
+            xmax = 665.81 
+            text = "" 
+        intervals [256]:
+            xmin = 665.81 
+            xmax = 668.43 
+            text = "八大峡那边儿，不是八大关那边儿，八大峡那边儿。" 
+        intervals [257]:
+            xmin = 668.43 
+            xmax = 668.52 
+            text = "" 
+        intervals [258]:
+            xmin = 668.52 
+            xmax = 671.17 
+            text = "呃，有有有一些比较平价的民宿" 
+        intervals [259]:
+            xmin = 671.17 
+            xmax = 671.40 
+            text = "" 
+        intervals [260]:
+            xmin = 671.40 
+            xmax = 673.92 
+            text = "呃，复式啊，然后啥的也挺便宜。" 
+        intervals [261]:
+            xmin = 673.92 
+            xmax = 674.10 
+            text = "" 
+        intervals [262]:
+            xmin = 674.10 
+            xmax = 675.70 
+            text = "然后看海也方便。" 
+        intervals [263]:
+            xmin = 675.70 
+            xmax = 676.21 
+            text = "" 
+        intervals [264]:
+            xmin = 676.21 
+            xmax = 677.42 
+            text = "嗯。" 
+        intervals [265]:
+            xmin = 677.42 
+            xmax = 677.65 
+            text = "" 
+        intervals [266]:
+            xmin = 677.65 
+            xmax = 678.84 
+            text = "青岛那边儿。" 
+        intervals [267]:
+            xmin = 678.84 
+            xmax = 679.22 
+            text = "" 
+        intervals [268]:
+            xmin = 679.22 
+            xmax = 681.11 
+            text = "特色就是海鲜嘛然后。" 
+        intervals [269]:
+            xmin = 681.11 
+            xmax = 682.68 
+            text = "" 
+        intervals [270]:
+            xmin = 682.68 
+            xmax = 683.55 
+            text = "很近。" 
+        intervals [271]:
+            xmin = 683.55 
+            xmax = 683.66 
+            text = "" 
+        intervals [272]:
+            xmin = 683.66 
+            xmax = 684.35 
+            text = "就是。" 
+        intervals [273]:
+            xmin = 684.35 
+            xmax = 685.04 
+            text = "" 
+        intervals [274]:
+            xmin = 685.04 
+            xmax = 689.15 
+            text = "对，很近，但是也不是特别临海，但是能，一眼能看到海。" 
+        intervals [275]:
+            xmin = 689.15 
+            xmax = 689.23 
+            text = "" 
+        intervals [276]:
+            xmin = 689.23 
+            xmax = 691.16 
+            text = "前边有几有有几个。" 
+        intervals [277]:
+            xmin = 691.16 
+            xmax = 691.48 
+            text = "" 
+        intervals [278]:
+            xmin = 691.48 
+            xmax = 692.84 
+            text = "低一点的建筑物。" 
+        intervals [279]:
+            xmin = 692.84 
+            xmax = 693.26 
+            text = "" 
+        intervals [280]:
+            xmin = 693.26 
+            xmax = 695.71 
+            text = "对，有一点距离，但是离着也挺近的。" 
+        intervals [281]:
+            xmin = 695.71 
+            xmax = 695.85 
+            text = "" 
+        intervals [282]:
+            xmin = 695.85 
+            xmax = 696.49 
+            text = "就是。" 
+        intervals [283]:
+            xmin = 696.49 
+            xmax = 696.70 
+            text = "" 
+        intervals [284]:
+            xmin = 696.70 
+            xmax = 699.18 
+            text = "最好的我们那个电电视剧里边。" 
+        intervals [285]:
+            xmin = 699.18 
+            xmax = 699.36 
+            text = "" 
+        intervals [286]:
+            xmin = 699.36 
+            xmax = 700.17 
+            text = "他们" 
+        intervals [287]:
+            xmin = 700.17 
+            xmax = 700.66 
+            text = "" 
+        intervals [288]:
+            xmin = 700.66 
+            xmax = 702.92 
+            text = "那个海琴，那个那个钢琴键。" 
+        intervals [289]:
+            xmin = 702.92 
+            xmax = 702.96 
+            text = "" 
+        intervals [290]:
+            xmin = 702.96 
+            xmax = 703.87 
+            text = "在那个。" 
+        intervals [291]:
+            xmin = 703.87 
+            xmax = 704.32 
+            text = "" 
+        intervals [292]:
+            xmin = 704.32 
+            xmax = 705.20 
+            text = "取景地。" 
+        intervals [293]:
+            xmin = 705.20 
+            xmax = 705.29 
+            text = "" 
+        intervals [294]:
+            xmin = 705.29 
+            xmax = 705.98 
+            text = "就是那。" 
+        intervals [295]:
+            xmin = 705.98 
+            xmax = 706.14 
+            text = "" 
+        intervals [296]:
+            xmin = 706.14 
+            xmax = 707.30 
+            text = "我们去那看了看。" 
+        intervals [297]:
+            xmin = 707.30 
+            xmax = 707.55 
+            text = "" 
+        intervals [298]:
+            xmin = 707.55 
+            xmax = 708.46 
+            text = "就是。" 
+        intervals [299]:
+            xmin = 708.46 
+            xmax = 708.56 
+            text = "" 
+        intervals [300]:
+            xmin = 708.56 
+            xmax = 710.53 
+            text = "沿海嘛，然后取景地，然后。" 
+        intervals [301]:
+            xmin = 710.53 
+            xmax = 710.60 
+            text = "" 
+        intervals [302]:
+            xmin = 710.60 
+            xmax = 712.93 
+            text = "也挺好但是已经封住了下不去。" 
+        intervals [303]:
+            xmin = 712.93 
+            xmax = 713.13 
+            text = "" 
+        intervals [304]:
+            xmin = 713.13 
+            xmax = 713.88 
+            text = "他。" 
+        intervals [305]:
+            xmin = 713.88 
+            xmax = 714.39 
+            text = "" 
+        intervals [306]:
+            xmin = 714.39 
+            xmax = 721.29 
+            text = "不知道是什么原因，前段时间，我之我去之前做攻略的时候还能下去，然后我们到了那之后，就已经封上了，不能下了。" 
+        intervals [307]:
+            xmin = 721.29 
+            xmax = 721.95 
+            text = "" 
+        intervals [308]:
+            xmin = 721.95 
+            xmax = 722.51 
+            text = "呃。" 
+        intervals [309]:
+            xmin = 722.51 
+            xmax = 723.00 
+            text = "" 
+        intervals [310]:
+            xmin = 723.00 
+            xmax = 726.00 
+            text = "然后在青岛也逛了逛。" 
+        intervals [311]:
+            xmin = 726.00 
+            xmax = 726.74 
+            text = "" 
+        intervals [312]:
+            xmin = 726.74 
+            xmax = 729.30 
+            text = "嗯，找了点，地标建筑打了打卡。" 
+        intervals [313]:
+            xmin = 729.30 
+            xmax = 729.73 
+            text = "" 
+        intervals [314]:
+            xmin = 729.73 
+            xmax = 731.97 
+            text = "吃了点海鲜然后。" 
+        intervals [315]:
+            xmin = 731.97 
+            xmax = 732.13 
+            text = "" 
+        intervals [316]:
+            xmin = 732.13 
+            xmax = 734.12 
+            text = "返程，当时返程是。" 
+        intervals [317]:
+            xmin = 734.12 
+            xmax = 734.56 
+            text = "" 
+        intervals [318]:
+            xmin = 734.56 
+            xmax = 736.70 
+            text = "我人生中第一次坐。" 
+        intervals [319]:
+            xmin = 736.70 
+            xmax = 736.92 
+            text = "" 
+        intervals [320]:
+            xmin = 736.92 
+            xmax = 737.77 
+            text = "火车。" 
+        intervals [321]:
+            xmin = 737.77 
+            xmax = 738.08 
+            text = "" 
+        intervals [322]:
+            xmin = 738.08 
+            xmax = 741.87 
+            text = "然后，从青岛北坐到了邯郸站。" 
+        intervals [323]:
+            xmin = 741.87 
+            xmax = 742.24 
+            text = "" 
+        intervals [324]:
+            xmin = 742.24 
+            xmax = 743.90 
+            text = "一共十个多小时。" 
+        intervals [325]:
+            xmin = 743.90 
+            xmax = 744.33 
+            text = "" 
+        intervals [326]:
+            xmin = 744.33 
+            xmax = 748.57 
+            text = "坐完这趟火车之后，我决定，以后再也不坐火车了。" 
+        intervals [327]:
+            xmin = 748.57 
+            xmax = 748.84 
+            text = "" 
+        intervals [328]:
+            xmin = 748.84 
+            xmax = 752.76 
+            text = "坐了十个十个多小时的硬座，还是第一次坐火车真的有点儿。" 
+        intervals [329]:
+            xmin = 752.76 
+            xmax = 753.03 
+            text = "" 
+        intervals [330]:
+            xmin = 753.03 
+            xmax = 753.85 
+            text = "扛不住了。" 
+        intervals [331]:
+            xmin = 753.85 
+            xmax = 754.58 
+            text = "" 
+        intervals [332]:
+            xmin = 754.58 
+            xmax = 755.19 
+            text = "呃。" 
+        intervals [333]:
+            xmin = 755.19 
+            xmax = 755.72 
+            text = "" 
+        intervals [334]:
+            xmin = 755.72 
+            xmax = 759.15 
+            text = "去旅行的话其实火车是一个比较。" 
+        intervals [335]:
+            xmin = 759.15 
+            xmax = 759.44 
+            text = "" 
+        intervals [336]:
+            xmin = 759.44 
+            xmax = 760.14 
+            text = "呃。" 
+        intervals [337]:
+            xmin = 760.14 
+            xmax = 761.31 
+            text = "" 
+        intervals [338]:
+            xmin = 761.31 
+            xmax = 763.43 
+            text = "对经济类的一个通行方式。" 
+        intervals [339]:
+            xmin = 763.43 
+            xmax = 763.65 
+            text = "" 
+        intervals [340]:
+            xmin = 763.65 
+            xmax = 764.59 
+            text = "然后。" 
+        intervals [341]:
+            xmin = 764.59 
+            xmax = 765.34 
+            text = "" 
+        intervals [342]:
+            xmin = 765.34 
+            xmax = 770.01 
+            text = "就是看遭不遭得住了，因为他那个太煎熬了真的那个火车。" 
+        intervals [343]:
+            xmin = 770.01 
+            xmax = 779.10 
+            text = "" 
+        intervals [344]:
+            xmin = 779.10 
+            xmax = 779.67 
+            text = "对。" 
+        intervals [345]:
+            xmin = 779.67 
+            xmax = 783.98 
+            text = "" 
+        intervals [346]:
+            xmin = 783.98 
+            xmax = 784.73 
+            text = "当时。" 
+        intervals [347]:
+            xmin = 784.73 
+            xmax = 784.97 
+            text = "" 
+        intervals [348]:
+            xmin = 784.97 
+            xmax = 786.99 
+            text = "还是太年轻了就觉得。" 
+        intervals [349]:
+            xmin = 786.99 
+            xmax = 787.56 
+            text = "" 
+        intervals [350]:
+            xmin = 787.56 
+            xmax = 794.77 
+            text = "坐硬坐有啥呀，是吧，然后硬坐是真的难受，他那个椅子有点不符合人体工学。" 
+        intervals [351]:
+            xmin = 794.77 
+            xmax = 800.68 
+            text = "" 
+        intervals [352]:
+            xmin = 800.68 
+            xmax = 801.47 
+            text = "呃。" 
+        intervals [353]:
+            xmin = 801.47 
+            xmax = 801.64 
+            text = "" 
+        intervals [354]:
+            xmin = 801.64 
+            xmax = 802.90 
+            text = "你说，您说，您说。" 
+        intervals [355]:
+            xmin = 802.90 
+            xmax = 809.57 
+            text = "" 
+        intervals [356]:
+            xmin = 809.57 
+            xmax = 810.69 
+            text = "啊啊啊啊，对。" 
+        intervals [357]:
+            xmin = 810.69 
+            xmax = 856.74 
+            text = "" 
+        intervals [358]:
+            xmin = 856.74 
+            xmax = 860.44 
+            text = "我倒是没有赶上淄博烧烤的这个风气，因为我。" 
+        intervals [359]:
+            xmin = 860.44 
+            xmax = 860.54 
+            text = "" 
+        intervals [360]:
+            xmin = 860.54 
+            xmax = 863.90 
+            text = "我上大学的地儿离山东很近，挨着山东，我在沧州上的大学。" 
+        intervals [361]:
+            xmin = 863.90 
+            xmax = 864.18 
+            text = "" 
+        intervals [362]:
+            xmin = 864.18 
+            xmax = 865.03 
+            text = "然后。" 
+        intervals [363]:
+            xmin = 865.03 
+            xmax = 865.23 
+            text = "" 
+        intervals [364]:
+            xmin = 865.23 
+            xmax = 867.94 
+            text = "山东很多城市都玩儿过了，然后。" 
+        intervals [365]:
+            xmin = 867.94 
+            xmax = 868.78 
+            text = "" 
+        intervals [366]:
+            xmin = 868.78 
+            xmax = 870.87 
+            text = "淄博还真没去。" 
+        intervals [367]:
+            xmin = 870.87 
+            xmax = 871.08 
+            text = "" 
+        intervals [368]:
+            xmin = 871.08 
+            xmax = 875.73 
+            text = "可能当时，大家伙儿说去淄博烧烤，然后，我不太感冒。" 
+        intervals [369]:
+            xmin = 875.73 
+            xmax = 875.87 
+            text = "" 
+        intervals [370]:
+            xmin = 875.87 
+            xmax = 877.32 
+            text = "我觉得肯定人挤人。" 
+        intervals [371]:
+            xmin = 877.32 
+            xmax = 877.49 
+            text = "" 
+        intervals [372]:
+            xmin = 877.49 
+            xmax = 881.57 
+            text = "我为了一口吃的我还不至于到这种程度，然后，我去过济南。" 
+        intervals [373]:
+            xmin = 881.57 
+            xmax = 882.88 
+            text = "" 
+        intervals [374]:
+            xmin = 882.88 
+            xmax = 885.36 
+            text = "我当时是住在大明湖边儿，但是。" 
+        intervals [375]:
+            xmin = 885.36 
+            xmax = 886.10 
+            text = "" 
+        intervals [376]:
+            xmin = 886.10 
+            xmax = 888.51 
+            text = "呃，整体逛下来的话。" 
+        intervals [377]:
+            xmin = 888.51 
+            xmax = 889.19 
+            text = "" 
+        intervals [378]:
+            xmin = 889.19 
+            xmax = 890.43 
+            text = "最让我。" 
+        intervals [379]:
+            xmin = 890.43 
+            xmax = 890.61 
+            text = "" 
+        intervals [380]:
+            xmin = 890.61 
+            xmax = 894.33 
+            text = "流连忘返的，我前段时间还一直跟我朋友说，我说我一定要再去一次济南。" 
+        intervals [381]:
+            xmin = 894.33 
+            xmax = 894.54 
+            text = "" 
+        intervals [382]:
+            xmin = 894.54 
+            xmax = 896.17 
+            text = "我那个民我那个。" 
+        intervals [383]:
+            xmin = 896.17 
+            xmax = 896.84 
+            text = "" 
+        intervals [384]:
+            xmin = 896.84 
+            xmax = 901.92 
+            text = "住的酒店楼下有一家把子肉，太香了我靠，真的太香了。" 
+        intervals [385]:
+            xmin = 901.92 
+            xmax = 902.30 
+            text = "" 
+        intervals [386]:
+            xmin = 902.30 
+            xmax = 903.09 
+            text = "就是。" 
+        intervals [387]:
+            xmin = 903.09 
+            xmax = 903.77 
+            text = "" 
+        intervals [388]:
+            xmin = 903.77 
+            xmax = 905.19 
+            text = "吃了一次还想吃。" 
+        intervals [389]:
+            xmin = 905.19 
+            xmax = 907.31 
+            text = "" 
+        intervals [390]:
+            xmin = 907.31 
+            xmax = 910.46 
+            text = "我推荐你们也去尝尝那个把子肉。" 
+        intervals [391]:
+            xmin = 910.46 
+            xmax = 911.16 
+            text = "" 
+        intervals [392]:
+            xmin = 911.16 
+            xmax = 912.71 
+            text = "加青椒特别香。" 
+        intervals [393]:
+            xmin = 912.71 
+            xmax = 916.97 
+            text = "" 
+        intervals [394]:
+            xmin = 916.97 
+            xmax = 919.19 
+            text = "有，区别很大就是。" 
+        intervals [395]:
+            xmin = 919.19 
+            xmax = 919.32 
+            text = "" 
+        intervals [396]:
+            xmin = 919.32 
+            xmax = 920.18 
+            text = "呃。" 
+        intervals [397]:
+            xmin = 920.18 
+            xmax = 920.58 
+            text = "" 
+        intervals [398]:
+            xmin = 920.58 
+            xmax = 923.57 
+            text = "你到了济南去吃把子肉的时候，你会感觉到那个。" 
+        intervals [399]:
+            xmin = 923.57 
+            xmax = 923.78 
+            text = "" 
+        intervals [400]:
+            xmin = 923.78 
+            xmax = 927.17 
+            text = "把子肉你就是吃到嘴里边儿它就化开了。" 
+        intervals [401]:
+            xmin = 927.17 
+            xmax = 927.83 
+            text = "" 
+        intervals [402]:
+            xmin = 927.83 
+            xmax = 930.14 
+            text = "它有肉香，它就化开了它不是那种。" 
+        intervals [403]:
+            xmin = 930.14 
+            xmax = 930.28 
+            text = "" 
+        intervals [404]:
+            xmin = 930.28 
+            xmax = 931.67 
+            text = "对，它比。" 
+        intervals [405]:
+            xmin = 931.67 
+            xmax = 931.82 
+            text = "" 
+        intervals [406]:
+            xmin = 931.82 
+            xmax = 935.86 
+            text = "咱平时吃板儿面加的那个把子肉要软要香。" 
+        intervals [407]:
+            xmin = 935.86 
+            xmax = 937.01 
+            text = "" 
+        intervals [408]:
+            xmin = 937.01 
+            xmax = 939.25 
+            text = "入口即化的那种感觉就是可以。" 
+        intervals [409]:
+            xmin = 939.25 
+            xmax = 939.42 
+            text = "" 
+        intervals [410]:
+            xmin = 939.42 
+            xmax = 946.30 
+            text = "那块儿肉你放到米饭上面儿，然后你把米饭搅匀，就是它就基本上跟米饭融到一块 儿 了，不会有肉，甚至连肉丝儿都。" 
+        intervals [411]:
+            xmin = 946.30 
+            xmax = 946.57 
+            text = "" 
+        intervals [412]:
+            xmin = 946.57 
+            xmax = 947.22 
+            text = "很少。" 
+        intervals [413]:
+            xmin = 947.22 
+            xmax = 947.51 
+            text = "" 
+        intervals [414]:
+            xmin = 947.51 
+            xmax = 948.83 
+            text = "很香很香。" 
+        intervals [415]:
+            xmin = 948.83 
+            xmax = 995.82 
+            text = "" 
+        intervals [416]:
+            xmin = 995.82 
+            xmax = 999.36 
+            text = "一直有想去的想法儿，但是没有实行。" 
+        intervals [417]:
+            xmin = 999.36 
+            xmax = 1000.04 
+            text = "" 
+        intervals [418]:
+            xmin = 1000.04 
+            xmax = 1001.78 
+            text = "嗯，可能。" 
+        intervals [419]:
+            xmin = 1001.78 
+            xmax = 1002.12 
+            text = "" 
+        intervals [420]:
+            xmin = 1002.12 
+            xmax = 1006.20 
+            text = "确实冰城大世界那边儿，经常刷到嘛，然后就是。" 
+        intervals [421]:
+            xmin = 1006.20 
+            xmax = 1006.50 
+            text = "" 
+        intervals [422]:
+            xmin = 1006.50 
+            xmax = 1007.41 
+            text = "很热闹。" 
+        intervals [423]:
+            xmin = 1007.41 
+            xmax = 1007.75 
+            text = "" 
+        intervals [424]:
+            xmin = 1007.75 
+            xmax = 1009.12 
+            text = "然后，而且。" 
+        intervals [425]:
+            xmin = 1009.12 
+            xmax = 1009.78 
+            text = "" 
+        intervals [426]:
+            xmin = 1009.78 
+            xmax = 1016.51 
+            text = "嗯，东北那边儿的话，他们的其实，他们的冬冬天的氛围，就是尤其尤其临近年关，他们的氛围更浓郁。" 
+        intervals [427]:
+            xmin = 1016.51 
+            xmax = 1016.66 
+            text = "" 
+        intervals [428]:
+            xmin = 1016.66 
+            xmax = 1020.35 
+            text = "就是我还挺想去感受一下东北那边儿的年味儿。" 
+        intervals [429]:
+            xmin = 1020.35 
+            xmax = 1021.25 
+            text = "" 
+        intervals [430]:
+            xmin = 1021.25 
+            xmax = 1023.24 
+            text = "对，那边儿的年味儿很足." 
+        intervals [431]:
+            xmin = 1023.24 
+            xmax = 1024.70 
+            text = "" 
+        intervals [432]:
+            xmin = 1024.70 
+            xmax = 1025.60 
+            text = "呃。" 
+        intervals [433]:
+            xmin = 1025.60 
+            xmax = 1027.82 
+            text = "" 
+        intervals [434]:
+            xmin = 1027.82 
+            xmax = 1029.35 
+            text = "东北那边儿。" 
+        intervals [435]:
+            xmin = 1029.35 
+            xmax = 1029.97 
+            text = "" 
+        intervals [436]:
+            xmin = 1029.97 
+            xmax = 1030.84 
+            text = "其实。" 
+        intervals [437]:
+            xmin = 1030.84 
+            xmax = 1031.35 
+            text = "" 
+        intervals [438]:
+            xmin = 1031.35 
+            xmax = 1034.97 
+            text = "如果我去的话，我还真想去东北那边儿滑滑冰啊啥的。" 
+        intervals [439]:
+            xmin = 1034.97 
+            xmax = 1035.25 
+            text = "" 
+        intervals [440]:
+            xmin = 1035.25 
+            xmax = 1036.25 
+            text = "然后。" 
+        intervals [441]:
+            xmin = 1036.25 
+            xmax = 1037.48 
+            text = "" 
+        intervals [442]:
+            xmin = 1037.48 
+            xmax = 1041.07 
+            text = "我记得我的朋友们去过东北的跟我讲说。" 
+        intervals [443]:
+            xmin = 1041.07 
+            xmax = 1041.78 
+            text = "" 
+        intervals [444]:
+            xmin = 1041.78 
+            xmax = 1043.16 
+            text = "东北菜。" 
+        intervals [445]:
+            xmin = 1043.16 
+            xmax = 1043.64 
+            text = "" 
+        intervals [446]:
+            xmin = 1043.64 
+            xmax = 1045.25 
+            text = "果然名不虚传。" 
+        intervals [447]:
+            xmin = 1045.25 
+            xmax = 1046.34 
+            text = "" 
+        intervals [448]:
+            xmin = 1046.34 
+            xmax = 1051.28 
+            text = "就是它特别香，因为他们那边油水放的很足，就是他们炒菜是重油的。" 
+        intervals [449]:
+            xmin = 1051.28 
+            xmax = 1051.70 
+            text = "" 
+        intervals [450]:
+            xmin = 1051.70 
+            xmax = 1054.23 
+            text = "如果你平时吃的清淡的话你可能去了还吃不习惯。" 
+        intervals [451]:
+            xmin = 1054.23 
+            xmax = 1054.50 
+            text = "" 
+        intervals [452]:
+            xmin = 1054.50 
+            xmax = 1055.64 
+            text = "但是那个菜。" 
+        intervals [453]:
+            xmin = 1055.64 
+            xmax = 1055.80 
+            text = "" 
+        intervals [454]:
+            xmin = 1055.80 
+            xmax = 1058.44 
+            text = "确实是油重它肯定香啊这些菜。" 
+        intervals [455]:
+            xmin = 1058.44 
+            xmax = 1080.51 
+            text = "" 
+        intervals [456]:
+            xmin = 1080.51 
+            xmax = 1081.82 
+            text = "说了这么多。" 
+        intervals [457]:
+            xmin = 1081.82 
+            xmax = 1082.22 
+            text = "" 
+        intervals [458]:
+            xmin = 1082.22 
+            xmax = 1084.30 
+            text = "大家伙儿没有去过咱们的首都吗？" 
+        intervals [459]:
+            xmin = 1084.30 
+            xmax = 1102.67 
+            text = "" 
+        intervals [460]:
+            xmin = 1102.67 
+            xmax = 1103.23 
+            text = "对。" 
+        intervals [461]:
+            xmin = 1103.23 
+            xmax = 1105.27 
+            text = "" 
+        intervals [462]:
+            xmin = 1105.27 
+            xmax = 1106.92 
+            text = "那天，那天。" 
+        intervals [463]:
+            xmin = 1106.92 
+            xmax = 1107.25 
+            text = "" 
+        intervals [464]:
+            xmin = 1107.25 
+            xmax = 1108.42 
+            text = "夏天的时候。" 
+        intervals [465]:
+            xmin = 1108.42 
+            xmax = 1108.69 
+            text = "" 
+        intervals [466]:
+            xmin = 1108.69 
+            xmax = 1112.86 
+            text = "是九月份，也不也不算夏天了，九月份的时候，去年的九，去年的九月份。" 
+        intervals [467]:
+            xmin = 1112.86 
+            xmax = 1113.28 
+            text = "" 
+        intervals [468]:
+            xmin = 1113.28 
+            xmax = 1115.09 
+            text = "我去看的升旗。" 
+        intervals [469]:
+            xmin = 1115.09 
+            xmax = 1115.61 
+            text = "" 
+        intervals [470]:
+            xmin = 1115.61 
+            xmax = 1117.74 
+            text = "然后当时在天安门广场。" 
+        intervals [471]:
+            xmin = 1117.74 
+            xmax = 1117.93 
+            text = "" 
+        intervals [472]:
+            xmin = 1117.93 
+            xmax = 1120.55 
+            text = "是我们当时凌晨三点就。" 
+        intervals [473]:
+            xmin = 1120.55 
+            xmax = 1120.70 
+            text = "" 
+        intervals [474]:
+            xmin = 1120.70 
+            xmax = 1124.03 
+            text = "到了那个长安街那边，去排队嘛。" 
+        intervals [475]:
+            xmin = 1124.03 
+            xmax = 1124.39 
+            text = "" 
+        intervals [476]:
+            xmin = 1124.39 
+            xmax = 1132.31 
+            text = "然后，然后过安检，前一天晚上刚看完演唱会，结果发现荧光棒不能带带进场，然后我们就把荧光棒后来又存起来了。" 
+        intervals [477]:
+            xmin = 1132.31 
+            xmax = 1132.92 
+            text = "" 
+        intervals [478]:
+            xmin = 1132.92 
+            xmax = 1133.92 
+            text = "呃。" 
+        intervals [479]:
+            xmin = 1133.92 
+            xmax = 1134.00 
+            text = "" 
+        intervals [480]:
+            xmin = 1134.00 
+            xmax = 1137.35 
+            text = "整体来说还是非常壮观的，然后看着仪仗队从。" 
+        intervals [481]:
+            xmin = 1137.35 
+            xmax = 1137.52 
+            text = "" 
+        intervals [482]:
+            xmin = 1137.52 
+            xmax = 1139.43 
+            text = "那个天安门里边儿走出来。" 
+        intervals [483]:
+            xmin = 1139.43 
+            xmax = 1139.70 
+            text = "" 
+        intervals [484]:
+            xmin = 1139.70 
+            xmax = 1142.22 
+            text = "整个场景相当震撼了。" 
+        intervals [485]:
+            xmin = 1142.22 
+            xmax = 1142.55 
+            text = "" 
+        intervals [486]:
+            xmin = 1142.55 
+            xmax = 1143.39 
+            text = "就是。" 
+        intervals [487]:
+            xmin = 1143.39 
+            xmax = 1144.67 
+            text = "" 
+        intervals [488]:
+            xmin = 1144.67 
+            xmax = 1148.10 
+            text = "到了那儿就是，你那那种自豪感就有了。" 
+        intervals [489]:
+            xmin = 1148.10 
+            xmax = 1148.27 
+            text = "" 
+        intervals [490]:
+            xmin = 1148.27 
+            xmax = 1149.07 
+            text = "对对对。" 
+        intervals [491]:
+            xmin = 1149.07 
+            xmax = 1150.61 
+            text = "" 
+        intervals [492]:
+            xmin = 1150.61 
+            xmax = 1155.40 
+            text = "然后著名景点儿也逛了一逛，但是北京真的太大了，一天你逛不完。" 
+        intervals [493]:
+            xmin = 1155.40 
+            xmax = 1155.60 
+            text = "" 
+        intervals [494]:
+            xmin = 1155.60 
+            xmax = 1157.24 
+            text = "我当时在北京。" 
+        intervals [495]:
+            xmin = 1157.24 
+            xmax = 1157.39 
+            text = "" 
+        intervals [496]:
+            xmin = 1157.39 
+            xmax = 1158.73 
+            text = "住，住了。" 
+        intervals [497]:
+            xmin = 1158.73 
+            xmax = 1158.98 
+            text = "" 
+        intervals [498]:
+            xmin = 1158.98 
+            xmax = 1160.75 
+            text = "三个月左右，然后。" 
+        intervals [499]:
+            xmin = 1160.75 
+            xmax = 1161.09 
+            text = "" 
+        intervals [500]:
+            xmin = 1161.09 
+            xmax = 1162.54 
+            text = "也玩的。" 
+        intervals [501]:
+            xmin = 1162.54 
+            xmax = 1162.66 
+            text = "" 
+        intervals [502]:
+            xmin = 1162.66 
+            xmax = 1165.10 
+            text = "很多地儿就是，周末的时候也会去逛一逛。" 
+        intervals [503]:
+            xmin = 1165.10 
+            xmax = 1165.24 
+            text = "" 
+        intervals [504]:
+            xmin = 1165.24 
+            xmax = 1167.21 
+            text = "然后北海公园儿这些也都。" 
+        intervals [505]:
+            xmin = 1167.21 
+            xmax = 1167.40 
+            text = "" 
+        intervals [506]:
+            xmin = 1167.40 
+            xmax = 1168.21 
+            text = "转了转。" 
+        intervals [507]:
+            xmin = 1168.21 
+            xmax = 1168.30 
+            text = "" 
+        intervals [508]:
+            xmin = 1168.30 
+            xmax = 1169.21 
+            text = "其实。" 
+        intervals [509]:
+            xmin = 1169.21 
+            xmax = 1169.85 
+            text = "" 
+        intervals [510]:
+            xmin = 1169.85 
+            xmax = 1174.03 
+            text = "还是挺，就是你周末的时候，如果你找一个公园儿坐一会儿的话，其实挺。" 
+        intervals [511]:
+            xmin = 1174.03 
+            xmax = 1174.26 
+            text = "" 
+        intervals [512]:
+            xmin = 1174.26 
+            xmax = 1176.17 
+            text = "放松心情的，觉得。" 
+        intervals [513]:
+            xmin = 1176.17 
+            xmax = 1176.91 
+            text = "" 
+        intervals [514]:
+            xmin = 1176.91 
+            xmax = 1178.62 
+            text = "你可以去尝试一下就是。" 
+        intervals [515]:
+            xmin = 1178.62 
+            xmax = 1179.07 
+            text = "" 
+        intervals [516]:
+            xmin = 1179.07 
+            xmax = 1182.42 
+            text = "不不用一下子把北京逛完你就可以。" 
+        intervals [517]:
+            xmin = 1182.42 
+            xmax = 1182.47 
+            text = "" 
+        intervals [518]:
+            xmin = 1182.47 
+            xmax = 1186.68 
+            text = "选一两个景点，对，然后你去抱着一个放松的心态，你去公园里边转一转。" 
+        intervals [519]:
+            xmin = 1186.68 
+            xmax = 1187.05 
+            text = "" 
+        intervals [520]:
+            xmin = 1187.05 
+            xmax = 1188.76 
+            text = "也，挺舒坦的。" 
+        intervals [521]:
+            xmin = 1188.76 
+            xmax = 1191.70 
+            text = "" 
+        intervals [522]:
+            xmin = 1191.70 
+            xmax = 1192.41 
+            text = "没有。" 
+        intervals [523]:
+            xmin = 1192.41 
+            xmax = 1195.20 
+            text = "" 
+        intervals [524]:
+            xmin = 1195.20 
+            xmax = 1198.80 
+            text = "对对对，它太有名了有名到我不敢喝。" 
+        intervals [525]:
+            xmin = 1198.80 
+            xmax = 1199.08 
+            text = "" 
+        intervals [526]:
+            xmin = 1199.08 
+            xmax = 1200.07 
+            text = "口碑，这。" 
+        intervals [527]:
+            xmin = 1200.07 
+            xmax = 1202.94 
+            text = "" 
+        intervals [528]:
+            xmin = 1202.94 
+            xmax = 1204.36 
+            text = "嗯，这就是口碑。" 
+        intervals [529]:
+            xmin = 1204.36 
+            xmax = 1248.30 
+            text = "" 
+        intervals [530]:
+            xmin = 1248.30 
+            xmax = 1251.01 
+            text = "北京的好吃的，我觉得。" 
+        intervals [531]:
+            xmin = 1251.01 
+            xmax = 1251.30 
+            text = "" 
+        intervals [532]:
+            xmin = 1251.30 
+            xmax = 1253.47 
+            text = "那个叫门钉肉饼。" 
+        intervals [533]:
+            xmin = 1253.47 
+            xmax = 1253.99 
+            text = "" 
+        intervals [534]:
+            xmin = 1253.99 
+            xmax = 1257.26 
+            text = "我挺，我特别喜欢吃那门钉肉饼，我当时我记得我买了多少个。" 
+        intervals [535]:
+            xmin = 1257.26 
+            xmax = 1257.90 
+            text = "" 
+        intervals [536]:
+            xmin = 1257.90 
+            xmax = 1263.55 
+            text = "就是那一天基本上没有吃什么都别的东西，一直在吃门钉肉饼，看见店铺就买，看见店铺就买。" 
+        intervals [537]:
+            xmin = 1263.55 
+            xmax = 1265.47 
+            text = "" 
+        intervals [538]:
+            xmin = 1265.47 
+            xmax = 1266.26 
+            text = "就是。" 
+        intervals [539]:
+            xmin = 1266.26 
+            xmax = 1268.36 
+            text = "" 
+        intervals [540]:
+            xmin = 1268.36 
+            xmax = 1273.44 
+            text = "我我感觉，有点像，那种月饼式儿的那种形状。" 
+        intervals [541]:
+            xmin = 1273.44 
+            xmax = 1275.13 
+            text = "" 
+        intervals [542]:
+            xmin = 1275.13 
+            xmax = 1276.98 
+            text = "对，那么个圆形然后。" 
+        intervals [543]:
+            xmin = 1276.98 
+            xmax = 1277.07 
+            text = "" 
+        intervals [544]:
+            xmin = 1277.07 
+            xmax = 1280.49 
+            text = "嗯，也很厚，然后里边儿肉很瓷实。" 
+        intervals [545]:
+            xmin = 1280.49 
+            xmax = 1281.13 
+            text = "" 
+        intervals [546]:
+            xmin = 1281.13 
+            xmax = 1282.74 
+            text = "这个。" 
+        intervals [547]:
+            xmin = 1282.74 
+            xmax = 1282.92 
+            text = "" 
+        intervals [548]:
+            xmin = 1282.92 
+            xmax = 1283.66 
+            text = "嗯。" 
+        intervals [549]:
+            xmin = 1283.66 
+            xmax = 1284.47 
+            text = "" 
+        intervals [550]:
+            xmin = 1284.47 
+            xmax = 1288.45 
+            text = "可能刚出锅儿的爆汁儿吧，反正我吃那些，可能都不是刚出锅儿的。" 
+        intervals [551]:
+            xmin = 1288.45 
+            xmax = 1304.17 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "P032" 
+        xmin = 0 
+        xmax = 1304.17 
+        intervals: size = 149 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.00 
+            text = "" 
+        intervals [2]:
+            xmin = 8.00 
+            xmax = 9.36 
+            text = "行，那我。" 
+        intervals [3]:
+            xmin = 9.36 
+            xmax = 9.98 
+            text = "" 
+        intervals [4]:
+            xmin = 9.98 
+            xmax = 15.25 
+            text = "那那我先来吧，我之前去过南京嘛，南京景点儿还是比较多的，有那个。" 
+        intervals [5]:
+            xmin = 15.25 
+            xmax = 15.62 
+            text = "" 
+        intervals [6]:
+            xmin = 15.62 
+            xmax = 18.64 
+            text = "呃，夫子庙，当时是晚上，搁那儿转了一转。" 
+        intervals [7]:
+            xmin = 18.64 
+            xmax = 18.96 
+            text = "" 
+        intervals [8]:
+            xmin = 18.96 
+            xmax = 19.82 
+            text = "然后。" 
+        intervals [9]:
+            xmin = 19.82 
+            xmax = 19.92 
+            text = "" 
+        intervals [10]:
+            xmin = 19.92 
+            xmax = 27.18 
+            text = "吃的的话，没*没吃多少东西，一般都是光搁那儿转嘛，然后晚上的话，人也比较多。" 
+        intervals [11]:
+            xmin = 27.18 
+            xmax = 27.54 
+            text = "" 
+        intervals [12]:
+            xmin = 27.54 
+            xmax = 30.67 
+            text = "所以说，也没有特别细逛一些景点儿。" 
+        intervals [13]:
+            xmin = 30.67 
+            xmax = 182.65 
+            text = "" 
+        intervals [14]:
+            xmin = 182.65 
+            xmax = 184.38 
+            text = "类似于麻辣拌儿呗。" 
+        intervals [15]:
+            xmin = 184.38 
+            xmax = 190.15 
+            text = "" 
+        intervals [16]:
+            xmin = 190.15 
+            xmax = 191.19 
+            text = "啊哦。" 
+        intervals [17]:
+            xmin = 191.19 
+            xmax = 199.72 
+            text = "" 
+        intervals [18]:
+            xmin = 199.72 
+            xmax = 201.06 
+            text = "哦。" 
+        intervals [19]:
+            xmin = 201.06 
+            xmax = 306.71 
+            text = "" 
+        intervals [20]:
+            xmin = 306.71 
+            xmax = 310.39 
+            text = "嗯，我就先说下我的吧，之前我们是。" 
+        intervals [21]:
+            xmin = 310.39 
+            xmax = 310.69 
+            text = "" 
+        intervals [22]:
+            xmin = 310.69 
+            xmax = 315.11 
+            text = "坐高铁硬座儿嘛，好像是*六六六七个小时。" 
+        intervals [23]:
+            xmin = 315.11 
+            xmax = 315.28 
+            text = "" 
+        intervals [24]:
+            xmin = 315.28 
+            xmax = 317.46 
+            text = "然后坐过去的，然后是刚好。" 
+        intervals [25]:
+            xmin = 317.46 
+            xmax = 317.50 
+            text = "" 
+        intervals [26]:
+            xmin = 317.50 
+            xmax = 320.80 
+            text = "到那边是刚好看的日出是在玄武湖那边。" 
+        intervals [27]:
+            xmin = 320.80 
+            xmax = 321.59 
+            text = "" 
+        intervals [28]:
+            xmin = 321.59 
+            xmax = 323.22 
+            text = "对，所以我建议，如果。" 
+        intervals [29]:
+            xmin = 323.22 
+            xmax = 323.53 
+            text = "" 
+        intervals [30]:
+            xmin = 323.53 
+            xmax = 326.26 
+            text = "空闲时间的话，你可以先去那个玄武湖转一转。" 
+        intervals [31]:
+            xmin = 326.26 
+            xmax = 326.35 
+            text = "" 
+        intervals [32]:
+            xmin = 326.35 
+            xmax = 330.65 
+            text = "尤其是早上，那边的风景还是，而且那边的风景还是挺不错得。" 
+        intervals [33]:
+            xmin = 330.65 
+            xmax = 331.23 
+            text = "" 
+        intervals [34]:
+            xmin = 331.23 
+            xmax = 332.54 
+            text = "然后就是。" 
+        intervals [35]:
+            xmin = 332.54 
+            xmax = 333.03 
+            text = "" 
+        intervals [36]:
+            xmin = 333.03 
+            xmax = 335.47 
+            text = "中山陵也是也是在那边。" 
+        intervals [37]:
+            xmin = 335.47 
+            xmax = 336.44 
+            text = "" 
+        intervals [38]:
+            xmin = 336.44 
+            xmax = 339.33 
+            text = "当时我们是下午去逛的中山陵。" 
+        intervals [39]:
+            xmin = 339.33 
+            xmax = 339.46 
+            text = "" 
+        intervals [40]:
+            xmin = 339.46 
+            xmax = 343.57 
+            text = "然后人儿也挺多的，还有，还有那一个，网红的那个，那是。" 
+        intervals [41]:
+            xmin = 343.57 
+            xmax = 344.12 
+            text = "" 
+        intervals [42]:
+            xmin = 344.12 
+            xmax = 350.35 
+            text = "呃，类似，类似于那种演唱会式级别的，那是，有一堆白鸽，然后下面是那个。" 
+        intervals [43]:
+            xmin = 350.35 
+            xmax = 350.76 
+            text = "" 
+        intervals [44]:
+            xmin = 350.76 
+            xmax = 353.18 
+            text = "那个那个阶梯型的那个坐儿啥的。" 
+        intervals [45]:
+            xmin = 353.18 
+            xmax = 353.55 
+            text = "" 
+        intervals [46]:
+            xmin = 353.55 
+            xmax = 354.72 
+            text = "对对，那音乐台。" 
+        intervals [47]:
+            xmin = 354.72 
+            xmax = 354.99 
+            text = "" 
+        intervals [48]:
+            xmin = 354.99 
+            xmax = 356.88 
+            text = "对那个，那个其实也挺不错的。" 
+        intervals [49]:
+            xmin = 356.88 
+            xmax = 357.19 
+            text = "" 
+        intervals [50]:
+            xmin = 357.19 
+            xmax = 361.17 
+            text = "然后晚上的话，我们就是去那个夫子庙，然后那边儿吃的的话。" 
+        intervals [51]:
+            xmin = 361.17 
+            xmax = 361.63 
+            text = "" 
+        intervals [52]:
+            xmin = 361.63 
+            xmax = 364.03 
+            text = "那鸭血粉丝汤还有那小烧饼确实不错。" 
+        intervals [53]:
+            xmin = 364.03 
+            xmax = 364.33 
+            text = "" 
+        intervals [54]:
+            xmin = 364.33 
+            xmax = 367.76 
+            text = "就所以说，如果去的话，我建议您可以去尝一尝。" 
+        intervals [55]:
+            xmin = 367.76 
+            xmax = 384.52 
+            text = "" 
+        intervals [56]:
+            xmin = 384.52 
+            xmax = 387.62 
+            text = "而且他们那边儿烧饼和咱这边儿烧饼它确实是。" 
+        intervals [57]:
+            xmin = 387.62 
+            xmax = 387.67 
+            text = "" 
+        intervals [58]:
+            xmin = 387.67 
+            xmax = 388.42 
+            text = "不太一样。" 
+        intervals [59]:
+            xmin = 388.42 
+            xmax = 388.77 
+            text = "" 
+        intervals [60]:
+            xmin = 388.77 
+            xmax = 391.37 
+            text = "那边儿烧饼就是做的不太一样。" 
+        intervals [61]:
+            xmin = 391.37 
+            xmax = 392.04 
+            text = "" 
+        intervals [62]:
+            xmin = 392.04 
+            xmax = 392.99 
+            text = "嗯，不太一样。" 
+        intervals [63]:
+            xmin = 392.99 
+            xmax = 393.03 
+            text = "" 
+        intervals [64]:
+            xmin = 393.03 
+            xmax = 396.37 
+            text = "咱这边儿一般都是那种稍微厚一点儿可以夹菜的，他们那个。" 
+        intervals [65]:
+            xmin = 396.37 
+            xmax = 396.58 
+            text = "" 
+        intervals [66]:
+            xmin = 396.58 
+            xmax = 398.19 
+            text = "还是比较薄的我感觉。" 
+        intervals [67]:
+            xmin = 398.19 
+            xmax = 398.25 
+            text = "" 
+        intervals [68]:
+            xmin = 398.25 
+            xmax = 399.92 
+            text = "呃，不太好夹菜。" 
+        intervals [69]:
+            xmin = 399.92 
+            xmax = 403.08 
+            text = "" 
+        intervals [70]:
+            xmin = 403.08 
+            xmax = 405.89 
+            text = "对对，主要是就是用来泡泡的那里边儿。" 
+        intervals [71]:
+            xmin = 405.89 
+            xmax = 772.49 
+            text = "" 
+        intervals [72]:
+            xmin = 772.49 
+            xmax = 775.94 
+            text = "对，我们当时去南京的时候还是短途先是。" 
+        intervals [73]:
+            xmin = 775.94 
+            xmax = 775.97 
+            text = "" 
+        intervals [74]:
+            xmin = 775.97 
+            xmax = 779.27 
+            text = "用用高铁倒了几站然后才坐那长途火车去的。" 
+        intervals [75]:
+            xmin = 779.27 
+            xmax = 779.36 
+            text = "" 
+        intervals [76]:
+            xmin = 779.36 
+            xmax = 782.49 
+            text = "要不一下坐十来个小时确实是遭不住。" 
+        intervals [77]:
+            xmin = 782.49 
+            xmax = 802.80 
+            text = "" 
+        intervals [78]:
+            xmin = 802.80 
+            xmax = 806.37 
+            text = "就是我之前去的山东是去淄博。" 
+        intervals [79]:
+            xmin = 806.37 
+            xmax = 806.76 
+            text = "" 
+        intervals [80]:
+            xmin = 806.76 
+            xmax = 810.79 
+            text = "当时那一，那一那一段儿时间，那个进淄赶烤还是比较。" 
+        intervals [81]:
+            xmin = 810.79 
+            xmax = 810.98 
+            text = "" 
+        intervals [82]:
+            xmin = 810.98 
+            xmax = 811.91 
+            text = "对对对。" 
+        intervals [83]:
+            xmin = 811.91 
+            xmax = 812.29 
+            text = "" 
+        intervals [84]:
+            xmin = 812.29 
+            xmax = 814.05 
+            text = "*就是奔着那烧烤去的。" 
+        intervals [85]:
+            xmin = 814.05 
+            xmax = 814.41 
+            text = "" 
+        intervals [86]:
+            xmin = 814.41 
+            xmax = 815.14 
+            text = "然后。" 
+        intervals [87]:
+            xmin = 815.14 
+            xmax = 815.29 
+            text = "" 
+        intervals [88]:
+            xmin = 815.29 
+            xmax = 817.28 
+            text = "大店，一般都是那种小店。" 
+        intervals [89]:
+            xmin = 817.28 
+            xmax = 817.65 
+            text = "" 
+        intervals [90]:
+            xmin = 817.65 
+            xmax = 819.94 
+            text = "跟咱们这边*店差不多，不过。" 
+        intervals [91]:
+            xmin = 819.94 
+            xmax = 820.89 
+            text = "" 
+        intervals [92]:
+            xmin = 820.89 
+            xmax = 822.56 
+            text = "对，然后，就是。" 
+        intervals [93]:
+            xmin = 822.56 
+            xmax = 822.72 
+            text = "" 
+        intervals [94]:
+            xmin = 822.72 
+            xmax = 825.92 
+            text = "你来选食物，然后自己烤。" 
+        intervals [95]:
+            xmin = 825.92 
+            xmax = 826.43 
+            text = "" 
+        intervals [96]:
+            xmin = 826.43 
+            xmax = 827.46 
+            text = "然后他，对。" 
+        intervals [97]:
+            xmin = 827.46 
+            xmax = 827.48 
+            text = "" 
+        intervals [98]:
+            xmin = 827.48 
+            xmax = 829.93 
+            text = "对，然后他就是给那个，小面饼。" 
+        intervals [99]:
+            xmin = 829.93 
+            xmax = 829.96 
+            text = "" 
+        intervals [100]:
+            xmin = 829.96 
+            xmax = 831.92 
+            text = "小饼，然后还有一些蘸料啥的。" 
+        intervals [101]:
+            xmin = 831.92 
+            xmax = 832.15 
+            text = "" 
+        intervals [102]:
+            xmin = 832.15 
+            xmax = 834.35 
+            text = "蘸料的话估计得是自己调。" 
+        intervals [103]:
+            xmin = 834.35 
+            xmax = 835.02 
+            text = "" 
+        intervals [104]:
+            xmin = 835.02 
+            xmax = 836.25 
+            text = "当时是自己调的。" 
+        intervals [105]:
+            xmin = 836.25 
+            xmax = 836.52 
+            text = "" 
+        intervals [106]:
+            xmin = 836.52 
+            xmax = 837.91 
+            text = "然后就是。" 
+        intervals [107]:
+            xmin = 837.91 
+            xmax = 838.31 
+            text = "" 
+        intervals [108]:
+            xmin = 838.31 
+            xmax = 839.53 
+            text = "按网上那说法儿。" 
+        intervals [109]:
+            xmin = 839.53 
+            xmax = 839.56 
+            text = "" 
+        intervals [110]:
+            xmin = 839.56 
+            xmax = 841.63 
+            text = "然后，*确实还不错。" 
+        intervals [111]:
+            xmin = 841.63 
+            xmax = 841.97 
+            text = "" 
+        intervals [112]:
+            xmin = 841.97 
+            xmax = 847.75 
+            text = "但是，人儿，人儿特多，然后你，点的那个东西要不就是一下点太多。" 
+        intervals [113]:
+            xmin = 847.75 
+            xmax = 848.32 
+            text = "" 
+        intervals [114]:
+            xmin = 848.32 
+            xmax = 850.66 
+            text = "点多点儿，要不你要点少了你下次。" 
+        intervals [115]:
+            xmin = 850.66 
+            xmax = 850.73 
+            text = "" 
+        intervals [116]:
+            xmin = 850.73 
+            xmax = 855.01 
+            text = "要是还想，呃就是没吃饱，还想再点点儿的话，那估计要等很长时间了。" 
+        intervals [117]:
+            xmin = 855.01 
+            xmax = 912.95 
+            text = "" 
+        intervals [118]:
+            xmin = 912.95 
+            xmax = 915.95 
+            text = "那下，那下次去济南的时候*试一试。" 
+        intervals [119]:
+            xmin = 915.95 
+            xmax = 1065.79 
+            text = "" 
+        intervals [120]:
+            xmin = 1065.79 
+            xmax = 1068.90 
+            text = "我要是有时间去东北的话，我肯定是奔着吃去的。" 
+        intervals [121]:
+            xmin = 1068.90 
+            xmax = 1070.30 
+            text = "" 
+        intervals [122]:
+            xmin = 1070.30 
+            xmax = 1073.45 
+            text = "我也我也想体验体验那边儿的早市儿。" 
+        intervals [123]:
+            xmin = 1073.45 
+            xmax = 1073.59 
+            text = "" 
+        intervals [124]:
+            xmin = 1073.59 
+            xmax = 1076.07 
+            text = "听说那边儿早市儿，那吃的确实是。" 
+        intervals [125]:
+            xmin = 1076.07 
+            xmax = 1076.36 
+            text = "" 
+        intervals [126]:
+            xmin = 1076.36 
+            xmax = 1077.12 
+            text = "不少。" 
+        intervals [127]:
+            xmin = 1077.12 
+            xmax = 1077.44 
+            text = "" 
+        intervals [128]:
+            xmin = 1077.44 
+            xmax = 1078.77 
+            text = "而且反正看着还。" 
+        intervals [129]:
+            xmin = 1078.77 
+            xmax = 1078.83 
+            text = "" 
+        intervals [130]:
+            xmin = 1078.83 
+            xmax = 1079.57 
+            text = "不错。" 
+        intervals [131]:
+            xmin = 1079.57 
+            xmax = 1087.12 
+            text = "" 
+        intervals [132]:
+            xmin = 1087.12 
+            xmax = 1087.98 
+            text = "去过。" 
+        intervals [133]:
+            xmin = 1087.98 
+            xmax = 1211.68 
+            text = "" 
+        intervals [134]:
+            xmin = 1211.68 
+            xmax = 1215.13 
+            text = "我之前去北京，当时也去，在那个颐和园逛了一圈。" 
+        intervals [135]:
+            xmin = 1215.13 
+            xmax = 1215.49 
+            text = "" 
+        intervals [136]:
+            xmin = 1215.49 
+            xmax = 1217.37 
+            text = "当时是刚好赶上下雪。" 
+        intervals [137]:
+            xmin = 1217.37 
+            xmax = 1217.38 
+            text = "" 
+        intervals [138]:
+            xmin = 1217.38 
+            xmax = 1220.83 
+            text = "它要不下雪的话，当时冬天是可以搁搁那上边儿滑冰的。" 
+        intervals [139]:
+            xmin = 1220.83 
+            xmax = 1221.00 
+            text = "" 
+        intervals [140]:
+            xmin = 1221.00 
+            xmax = 1224.98 
+            text = "但是下雪雪太大了，公，那个，那边人在清。" 
+        intervals [141]:
+            xmin = 1224.98 
+            xmax = 1225.41 
+            text = "" 
+        intervals [142]:
+            xmin = 1225.41 
+            xmax = 1228.46 
+            text = "呃，当当，对，清积雪当天儿也是滑不上了" 
+        intervals [143]:
+            xmin = 1228.46 
+            xmax = 1228.52 
+            text = "" 
+        intervals [144]:
+            xmin = 1228.52 
+            xmax = 1233.09 
+            text = "所以我就是搁那边儿逛了一逛，几乎没咋歇，人也特别多。" 
+        intervals [145]:
+            xmin = 1233.09 
+            xmax = 1233.72 
+            text = "" 
+        intervals [146]:
+            xmin = 1233.72 
+            xmax = 1236.45 
+            text = "而且而且当时下雪的话那地挺滑的。" 
+        intervals [147]:
+            xmin = 1236.45 
+            xmax = 1237.42 
+            text = "" 
+        intervals [148]:
+            xmin = 1237.42 
+            xmax = 1242.39 
+            text = "那边儿一一结冰反正差点也是好几次，栽一下。" 
+        intervals [149]:
+            xmin = 1242.39 
+            xmax = 1304.17 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "P030" 
+        xmin = 0 
+        xmax = 1304.17 
+        intervals: size = 159 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.16 
+            text = "" 
+        intervals [2]:
+            xmin = 8.16 
+            xmax = 9.38 
+            text = "啊，可。" 
+        intervals [3]:
+            xmin = 9.38 
+            xmax = 33.67 
+            text = "" 
+        intervals [4]:
+            xmin = 33.67 
+            xmax = 36.17 
+            text = "我再来讲讲我之前的经历吧。" 
+        intervals [5]:
+            xmin = 36.17 
+            xmax = 36.31 
+            text = "" 
+        intervals [6]:
+            xmin = 36.31 
+            xmax = 38.98 
+            text = "在之前我去过。" 
+        intervals [7]:
+            xmin = 38.98 
+            xmax = 39.09 
+            text = "" 
+        intervals [8]:
+            xmin = 39.09 
+            xmax = 41.45 
+            text = "山西的五台山。" 
+        intervals [9]:
+            xmin = 41.45 
+            xmax = 41.76 
+            text = "" 
+        intervals [10]:
+            xmin = 41.76 
+            xmax = 44.99 
+            text = "啊那里佛教文化比较盛行吧。" 
+        intervals [11]:
+            xmin = 44.99 
+            xmax = 45.65 
+            text = "" 
+        intervals [12]:
+            xmin = 45.65 
+            xmax = 48.79 
+            text = "呃，也有很多的寺庙和著名的景点。" 
+        intervals [13]:
+            xmin = 48.79 
+            xmax = 48.93 
+            text = "" 
+        intervals [14]:
+            xmin = 48.93 
+            xmax = 50.97 
+            text = "我在那里也吃过比较好吃的斋饭。" 
+        intervals [15]:
+            xmin = 50.97 
+            xmax = 51.17 
+            text = "" 
+        intervals [16]:
+            xmin = 51.17 
+            xmax = 53.45 
+            text = "我的个人感觉还是挺不错的。" 
+        intervals [17]:
+            xmin = 53.45 
+            xmax = 53.47 
+            text = "" 
+        intervals [18]:
+            xmin = 53.47 
+            xmax = 54.58 
+            text = "推荐你们都去。" 
+        intervals [19]:
+            xmin = 54.58 
+            xmax = 54.71 
+            text = "" 
+        intervals [20]:
+            xmin = 54.71 
+            xmax = 57.26 
+            text = "之后可以尝试去试一试。" 
+        intervals [21]:
+            xmin = 57.26 
+            xmax = 165.80 
+            text = "" 
+        intervals [22]:
+            xmin = 165.80 
+            xmax = 170.04 
+            text = "像嘎巴菜这种，我之前倒是没有听说过，具体是什么样子的。" 
+        intervals [23]:
+            xmin = 170.04 
+            xmax = 174.63 
+            text = "" 
+        intervals [24]:
+            xmin = 174.63 
+            xmax = 175.59 
+            text = "绿豆面皮吗？" 
+        intervals [25]:
+            xmin = 175.59 
+            xmax = 181.13 
+            text = "" 
+        intervals [26]:
+            xmin = 181.13 
+            xmax = 182.51 
+            text = "哦，是这样。" 
+        intervals [27]:
+            xmin = 182.51 
+            xmax = 203.78 
+            text = "" 
+        intervals [28]:
+            xmin = 203.78 
+            xmax = 207.53 
+            text = "*天津那边是习惯做菜勾芡。" 
+        intervals [29]:
+            xmin = 207.53 
+            xmax = 208.52 
+            text = "" 
+        intervals [30]:
+            xmin = 208.52 
+            xmax = 210.29 
+            text = "那确实可以试一试哦。" 
+        intervals [31]:
+            xmin = 210.29 
+            xmax = 210.48 
+            text = "" 
+        intervals [32]:
+            xmin = 210.48 
+            xmax = 215.18 
+            text = "我觉得天津那里可玩的东西还挺多的，像是天津欢乐谷。" 
+        intervals [33]:
+            xmin = 215.18 
+            xmax = 215.43 
+            text = "" 
+        intervals [34]:
+            xmin = 215.43 
+            xmax = 218.28 
+            text = "也挺知名的，我之前就像去来着。" 
+        intervals [35]:
+            xmin = 218.28 
+            xmax = 218.30 
+            text = "" 
+        intervals [36]:
+            xmin = 218.30 
+            xmax = 219.92 
+            text = "但是，可惜。" 
+        intervals [37]:
+            xmin = 219.92 
+            xmax = 220.21 
+            text = "" 
+        intervals [38]:
+            xmin = 220.21 
+            xmax = 220.85 
+            text = "呃。" 
+        intervals [39]:
+            xmin = 220.85 
+            xmax = 221.37 
+            text = "" 
+        intervals [40]:
+            xmin = 221.37 
+            xmax = 223.47 
+            text = "对对对对对。哈哈哈。" 
+        intervals [41]:
+            xmin = 223.47 
+            xmax = 226.51 
+            text = "" 
+        intervals [42]:
+            xmin = 226.51 
+            xmax = 230.23 
+            text = "就可惜嘛，之前有其他事情耽误了，之后。" 
+        intervals [43]:
+            xmin = 230.23 
+            xmax = 230.34 
+            text = "" 
+        intervals [44]:
+            xmin = 230.34 
+            xmax = 231.87 
+            text = "听你这么说我更想去了。" 
+        intervals [45]:
+            xmin = 231.87 
+            xmax = 370.41 
+            text = "" 
+        intervals [46]:
+            xmin = 370.41 
+            xmax = 372.88 
+            text = "*听您这规划还挺不赖的。" 
+        intervals [47]:
+            xmin = 372.88 
+            xmax = 373.28 
+            text = "" 
+        intervals [48]:
+            xmin = 373.28 
+            xmax = 376.53 
+            text = "鸭血粉丝汤我记得还挺出名的，很多。" 
+        intervals [49]:
+            xmin = 376.53 
+            xmax = 377.12 
+            text = "" 
+        intervals [50]:
+            xmin = 377.12 
+            xmax = 380.36 
+            text = "呃，去南京旅游的都有人推荐过。" 
+        intervals [51]:
+            xmin = 380.36 
+            xmax = 381.23 
+            text = "" 
+        intervals [52]:
+            xmin = 381.23 
+            xmax = 382.33 
+            text = "嗯。" 
+        intervals [53]:
+            xmin = 382.33 
+            xmax = 400.47 
+            text = "" 
+        intervals [54]:
+            xmin = 400.47 
+            xmax = 403.23 
+            text = "偏薄的主要是用来泡东西那种嘛。" 
+        intervals [55]:
+            xmin = 403.23 
+            xmax = 404.89 
+            text = "" 
+        intervals [56]:
+            xmin = 404.89 
+            xmax = 406.90 
+            text = "额，饮食文化是有差异的。" 
+        intervals [57]:
+            xmin = 406.90 
+            xmax = 425.93 
+            text = "" 
+        intervals [58]:
+            xmin = 425.93 
+            xmax = 427.98 
+            text = "是，那里人也很多的。" 
+        intervals [59]:
+            xmin = 427.98 
+            xmax = 451.35 
+            text = "" 
+        intervals [60]:
+            xmin = 451.35 
+            xmax = 455.92 
+            text = "啊，以我个人来说那里就是面食比较出名嘛" 
+        intervals [61]:
+            xmin = 455.92 
+            xmax = 456.28 
+            text = "" 
+        intervals [62]:
+            xmin = 456.28 
+            xmax = 459.94 
+            text = "我自己就是，尝过那里的*面，然后。" 
+        intervals [63]:
+            xmin = 459.94 
+            xmax = 460.25 
+            text = "" 
+        intervals [64]:
+            xmin = 460.25 
+            xmax = 462.63 
+            text = "其他的，我也就去了一天。" 
+        intervals [65]:
+            xmin = 462.63 
+            xmax = 463.59 
+            text = "" 
+        intervals [66]:
+            xmin = 463.59 
+            xmax = 465.30 
+            text = "主要是体验了一下嘛。" 
+        intervals [67]:
+            xmin = 465.30 
+            xmax = 465.78 
+            text = "" 
+        intervals [68]:
+            xmin = 465.78 
+            xmax = 472.96 
+            text = "其他的也没有太体验到，但是有一点，印象比较深刻，就是，他那里小吃街什么的加醋特别多，就，不合口味。" 
+        intervals [69]:
+            xmin = 472.96 
+            xmax = 474.92 
+            text = "" 
+        intervals [70]:
+            xmin = 474.92 
+            xmax = 475.64 
+            text = "对的。" 
+        intervals [71]:
+            xmin = 475.64 
+            xmax = 501.34 
+            text = "" 
+        intervals [72]:
+            xmin = 501.34 
+            xmax = 503.63 
+            text = "咱们家的醋，偏甜嘛。" 
+        intervals [73]:
+            xmin = 503.63 
+            xmax = 517.68 
+            text = "" 
+        intervals [74]:
+            xmin = 517.68 
+            xmax = 518.90 
+            text = "那很*了。" 
+        intervals [75]:
+            xmin = 518.90 
+            xmax = 553.67 
+            text = "" 
+        intervals [76]:
+            xmin = 553.67 
+            xmax = 554.84 
+            text = "最后还是走下来的。" 
+        intervals [77]:
+            xmin = 554.84 
+            xmax = 561.75 
+            text = "" 
+        intervals [78]:
+            xmin = 561.75 
+            xmax = 564.40 
+            text = "你这甚至堪称特种兵旅行啊。" 
+        intervals [79]:
+            xmin = 564.40 
+            xmax = 587.56 
+            text = "" 
+        intervals [80]:
+            xmin = 587.56 
+            xmax = 589.01 
+            text = "太累了，太累了。" 
+        intervals [81]:
+            xmin = 589.01 
+            xmax = 605.22 
+            text = "" 
+        intervals [82]:
+            xmin = 605.22 
+            xmax = 606.55 
+            text = "算是个遗憾了。" 
+        intervals [83]:
+            xmin = 606.55 
+            xmax = 618.70 
+            text = "" 
+        intervals [84]:
+            xmin = 618.70 
+            xmax = 620.22 
+            text = "算是一块儿去吧*。" 
+        intervals [85]:
+            xmin = 620.22 
+            xmax = 692.71 
+            text = "" 
+        intervals [86]:
+            xmin = 692.71 
+            xmax = 693.88 
+            text = "有一点距离吗。" 
+        intervals [87]:
+            xmin = 693.88 
+            xmax = 720.38 
+            text = "" 
+        intervals [88]:
+            xmin = 720.38 
+            xmax = 722.66 
+            text = "哦，那是有点遗憾了。" 
+        intervals [89]:
+            xmin = 722.66 
+            xmax = 753.50 
+            text = "" 
+        intervals [90]:
+            xmin = 753.50 
+            xmax = 754.96 
+            text = "嗯，太累了。" 
+        intervals [91]:
+            xmin = 754.96 
+            xmax = 755.67 
+            text = "" 
+        intervals [92]:
+            xmin = 755.67 
+            xmax = 758.05 
+            text = "中途在火车上可能都睡不到。" 
+        intervals [93]:
+            xmin = 758.05 
+            xmax = 788.27 
+            text = "" 
+        intervals [94]:
+            xmin = 788.27 
+            xmax = 789.77 
+            text = "觉得自己抗得住。" 
+        intervals [95]:
+            xmin = 789.77 
+            xmax = 818.63 
+            text = "" 
+        intervals [96]:
+            xmin = 818.63 
+            xmax = 820.43 
+            text = "类似于大排挡那种吗？" 
+        intervals [97]:
+            xmin = 820.43 
+            xmax = 906.33 
+            text = "" 
+        intervals [98]:
+            xmin = 906.33 
+            xmax = 909.26 
+            text = "嗯，那里的巴子肉也算是。" 
+        intervals [99]:
+            xmin = 909.26 
+            xmax = 913.96 
+            text = "" 
+        intervals [100]:
+            xmin = 913.96 
+            xmax = 915.25 
+            text = "但确实不错啊。" 
+        intervals [101]:
+            xmin = 915.25 
+            xmax = 929.43 
+            text = "" 
+        intervals [102]:
+            xmin = 929.43 
+            xmax = 930.93 
+            text = "入口即化那种。" 
+        intervals [103]:
+            xmin = 930.93 
+            xmax = 952.96 
+            text = "" 
+        intervals [104]:
+            xmin = 952.96 
+            xmax = 954.05 
+            text = "嗯。" 
+        intervals [105]:
+            xmin = 954.05 
+            xmax = 954.60 
+            text = "" 
+        intervals [106]:
+            xmin = 954.60 
+            xmax = 960.07 
+            text = "说到淄博烧烤，那一段时间东北哈尔滨的冰城也挺出名的。" 
+        intervals [107]:
+            xmin = 960.07 
+            xmax = 960.60 
+            text = "" 
+        intervals [108]:
+            xmin = 960.60 
+            xmax = 964.00 
+            text = "呃，正赶上冬天，我虽然没有去，但是。" 
+        intervals [109]:
+            xmin = 964.00 
+            xmax = 964.12 
+            text = "" 
+        intervals [110]:
+            xmin = 964.12 
+            xmax = 968.20 
+            text = "当时冬天是属于一个适合滑雪的季节嘛。" 
+        intervals [111]:
+            xmin = 968.20 
+            xmax = 968.38 
+            text = "" 
+        intervals [112]:
+            xmin = 968.38 
+            xmax = 970.93 
+            text = "我当时是去北京。" 
+        intervals [113]:
+            xmin = 970.93 
+            xmax = 970.95 
+            text = "" 
+        intervals [114]:
+            xmin = 970.95 
+            xmax = 972.37 
+            text = "*去滑雪来着。" 
+        intervals [115]:
+            xmin = 972.37 
+            xmax = 973.03 
+            text = "" 
+        intervals [116]:
+            xmin = 973.03 
+            xmax = 978.86 
+            text = "也是第一次在那里学习，呃，怎样双板和单板的滑行。" 
+        intervals [117]:
+            xmin = 978.86 
+            xmax = 979.56 
+            text = "" 
+        intervals [118]:
+            xmin = 979.56 
+            xmax = 980.40 
+            text = "呃。" 
+        intervals [119]:
+            xmin = 980.40 
+            xmax = 981.05 
+            text = "" 
+        intervals [120]:
+            xmin = 981.05 
+            xmax = 982.94 
+            text = "哦，我是打算。" 
+        intervals [121]:
+            xmin = 982.94 
+            xmax = 983.40 
+            text = "" 
+        intervals [122]:
+            xmin = 983.40 
+            xmax = 985.39 
+            text = "今年有机会再去一下的。" 
+        intervals [123]:
+            xmin = 985.39 
+            xmax = 985.66 
+            text = "" 
+        intervals [124]:
+            xmin = 985.66 
+            xmax = 986.50 
+            text = "呃。" 
+        intervals [125]:
+            xmin = 986.50 
+            xmax = 986.86 
+            text = "" 
+        intervals [126]:
+            xmin = 986.86 
+            xmax = 991.00 
+            text = "哈尔滨那里，你们之前有人去过吗？我还挺想听听，那里介绍的。" 
+        intervals [127]:
+            xmin = 991.00 
+            xmax = 994.27 
+            text = "" 
+        intervals [128]:
+            xmin = 994.27 
+            xmax = 995.21 
+            text = "那也没办法。" 
+        intervals [129]:
+            xmin = 995.21 
+            xmax = 1020.69 
+            text = "" 
+        intervals [130]:
+            xmin = 1020.69 
+            xmax = 1022.15 
+            text = "东北的乡土人情。" 
+        intervals [131]:
+            xmin = 1022.15 
+            xmax = 1085.34 
+            text = "" 
+        intervals [132]:
+            xmin = 1085.34 
+            xmax = 1086.48 
+            text = "北京。" 
+        intervals [133]:
+            xmin = 1086.48 
+            xmax = 1086.66 
+            text = "" 
+        intervals [134]:
+            xmin = 1086.66 
+            xmax = 1088.49 
+            text = "去过但是没有。" 
+        intervals [135]:
+            xmin = 1088.49 
+            xmax = 1088.57 
+            text = "" 
+        intervals [136]:
+            xmin = 1088.57 
+            xmax = 1093.69 
+            text = "哈哈，对，但是，这种这种地方就没有去过标志性的建筑那里。" 
+        intervals [137]:
+            xmin = 1093.69 
+            xmax = 1093.72 
+            text = "" 
+        intervals [138]:
+            xmin = 1093.72 
+            xmax = 1097.05 
+            text = "其实还挺遗憾的，想着之后有机会去看看。" 
+        intervals [139]:
+            xmin = 1097.05 
+            xmax = 1097.52 
+            text = "" 
+        intervals [140]:
+            xmin = 1097.52 
+            xmax = 1100.46 
+            text = "呃，天安门那里，看看升旗*的。" 
+        intervals [141]:
+            xmin = 1100.46 
+            xmax = 1139.22 
+            text = "" 
+        intervals [142]:
+            xmin = 1139.22 
+            xmax = 1140.57 
+            text = "很有感触。" 
+        intervals [143]:
+            xmin = 1140.57 
+            xmax = 1147.54 
+            text = "" 
+        intervals [144]:
+            xmin = 1147.54 
+            xmax = 1150.77 
+            text = "就自然而然的生出了那种心里面的自豪。" 
+        intervals [145]:
+            xmin = 1150.77 
+            xmax = 1189.20 
+            text = "" 
+        intervals [146]:
+            xmin = 1189.20 
+            xmax = 1190.51 
+            text = "有一番感受。" 
+        intervals [147]:
+            xmin = 1190.51 
+            xmax = 1191.76 
+            text = "" 
+        intervals [148]:
+            xmin = 1191.76 
+            xmax = 1196.73 
+            text = "哈哈哈，哈豆汁也是一个很有名的食品了。" 
+        intervals [149]:
+            xmin = 1196.73 
+            xmax = 1197.60 
+            text = "" 
+        intervals [150]:
+            xmin = 1197.60 
+            xmax = 1198.81 
+            text = "对对对。" 
+        intervals [151]:
+            xmin = 1198.81 
+            xmax = 1199.20 
+            text = "" 
+        intervals [152]:
+            xmin = 1199.20 
+            xmax = 1204.81 
+            text = "这个，很多，很多在北京生活的人也不喜欢喝的。嗯。" 
+        intervals [153]:
+            xmin = 1204.81 
+            xmax = 1204.85 
+            text = "" 
+        intervals [154]:
+            xmin = 1204.85 
+            xmax = 1206.02 
+            text = "有口皆碑。" 
+        intervals [155]:
+            xmin = 1206.02 
+            xmax = 1295.60 
+            text = "" 
+        intervals [156]:
+            xmin = 1295.60 
+            xmax = 1299.06 
+            text = "结束语吗？，我直接暂停了应该没事儿吧，我直接就停." 
+        intervals [157]:
+            xmin = 1299.06 
+            xmax = 1301.46 
+            text = "" 
+        intervals [158]:
+            xmin = 1301.46 
+            xmax = 1303.02 
+            text = "可以关了是吗？" 
+        intervals [159]:
+            xmin = 1303.02 
+            xmax = 1304.17 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "P031" 
+        xmin = 0 
+        xmax = 1304.17 
+        intervals: size = 141 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.58 
+            text = "" 
+        intervals [2]:
+            xmin = 8.58 
+            xmax = 9.37 
+            text = "行。" 
+        intervals [3]:
+            xmin = 9.37 
+            xmax = 126.90 
+            text = "" 
+        intervals [4]:
+            xmin = 126.90 
+            xmax = 130.07 
+            text = "你为啥吃不惯那个，嘎巴菜。" 
+        intervals [5]:
+            xmin = 130.07 
+            xmax = 134.25 
+            text = "" 
+        intervals [6]:
+            xmin = 134.25 
+            xmax = 137.38 
+            text = "是因为有那个麻酱吗？阿哈。" 
+        intervals [7]:
+            xmin = 137.38 
+            xmax = 142.55 
+            text = "" 
+        intervals [8]:
+            xmin = 142.55 
+            xmax = 144.48 
+            text = "有点顶饱了是吗？" 
+        intervals [9]:
+            xmin = 144.48 
+            xmax = 149.13 
+            text = "" 
+        intervals [10]:
+            xmin = 149.13 
+            xmax = 153.03 
+            text = "我觉得你没有尝过那个豆腐脑那个豆腐脑更一般。哈哈。" 
+        intervals [11]:
+            xmin = 153.03 
+            xmax = 161.91 
+            text = "" 
+        intervals [12]:
+            xmin = 161.91 
+            xmax = 163.93 
+            text = "外地人就是吃不惯.。" 
+        intervals [13]:
+            xmin = 163.93 
+            xmax = 170.11 
+            text = "" 
+        intervals [14]:
+            xmin = 170.11 
+            xmax = 176.18 
+            text = "里边儿就是那个绿豆，绿豆做的那个面皮儿，对，然后放点儿卤子。" 
+        intervals [15]:
+            xmin = 176.18 
+            xmax = 176.32 
+            text = "" 
+        intervals [16]:
+            xmin = 176.32 
+            xmax = 181.58 
+            text = "嗯，对对对，就跟咱们，吃的那个豆腐脑儿那个卤差不多，但是它是放麻酱的。" 
+        intervals [17]:
+            xmin = 181.58 
+            xmax = 184.91 
+            text = "" 
+        intervals [18]:
+            xmin = 184.91 
+            xmax = 186.62 
+            text = "*不是。" 
+        intervals [19]:
+            xmin = 186.62 
+            xmax = 187.47 
+            text = "" 
+        intervals [20]:
+            xmin = 187.47 
+            xmax = 190.87 
+            text = "只有它里面儿那个主食，只有那个面皮儿。" 
+        intervals [21]:
+            xmin = 190.87 
+            xmax = 194.72 
+            text = "" 
+        intervals [22]:
+            xmin = 194.72 
+            xmax = 196.25 
+            text = "对对对对对。" 
+        intervals [23]:
+            xmin = 196.25 
+            xmax = 197.72 
+            text = "" 
+        intervals [24]:
+            xmin = 197.72 
+            xmax = 199.48 
+            text = "就是勾芡儿了的那种。" 
+        intervals [25]:
+            xmin = 199.48 
+            xmax = 199.88 
+            text = "" 
+        intervals [26]:
+            xmin = 199.88 
+            xmax = 200.87 
+            text = "嗯。" 
+        intervals [27]:
+            xmin = 200.87 
+            xmax = 219.77 
+            text = "" 
+        intervals [28]:
+            xmin = 219.77 
+            xmax = 221.58 
+            text = "嗯，都是刺激的项目。" 
+        intervals [29]:
+            xmin = 221.58 
+            xmax = 221.63 
+            text = "" 
+        intervals [30]:
+            xmin = 221.63 
+            xmax = 223.42 
+            text = "劝你别去，哈哈哈。" 
+        intervals [31]:
+            xmin = 223.42 
+            xmax = 270.07 
+            text = "" 
+        intervals [32]:
+            xmin = 270.07 
+            xmax = 271.45 
+            text = "不好走。" 
+        intervals [33]:
+            xmin = 271.45 
+            xmax = 274.12 
+            text = "" 
+        intervals [34]:
+            xmin = 274.12 
+            xmax = 276.77 
+            text = "为什么我去的时候没看到日出。" 
+        intervals [35]:
+            xmin = 276.77 
+            xmax = 277.83 
+            text = "" 
+        intervals [36]:
+            xmin = 277.83 
+            xmax = 281.11 
+            text = "我呃自己的原因吧，起晚了，哈哈。" 
+        intervals [37]:
+            xmin = 281.11 
+            xmax = 281.63 
+            text = "" 
+        intervals [38]:
+            xmin = 281.63 
+            xmax = 283.30 
+            text = "对，起晚了。" 
+        intervals [39]:
+            xmin = 283.30 
+            xmax = 473.70 
+            text = "" 
+        intervals [40]:
+            xmin = 473.70 
+            xmax = 475.31 
+            text = "山西那边儿吗？" 
+        intervals [41]:
+            xmin = 475.31 
+            xmax = 478.37 
+            text = "" 
+        intervals [42]:
+            xmin = 478.37 
+            xmax = 481.30 
+            text = "吃完中午饭不会晕炭吗？啊哈哈哈。" 
+        intervals [43]:
+            xmin = 481.30 
+            xmax = 493.29 
+            text = "" 
+        intervals [44]:
+            xmin = 493.29 
+            xmax = 499.21 
+            text = "对，我有一个山西的大学同学，他就是自己带醋，因为吃不惯咱们这边的醋。" 
+        intervals [45]:
+            xmin = 499.21 
+            xmax = 499.34 
+            text = "" 
+        intervals [46]:
+            xmin = 499.34 
+            xmax = 500.87 
+            text = "咱这边醋他嫌没味。" 
+        intervals [47]:
+            xmin = 500.87 
+            xmax = 506.18 
+            text = "" 
+        intervals [48]:
+            xmin = 506.18 
+            xmax = 509.69 
+            text = "嗯，我爬过，夜爬过泰山。" 
+        intervals [49]:
+            xmin = 509.69 
+            xmax = 510.03 
+            text = "" 
+        intervals [50]:
+            xmin = 510.03 
+            xmax = 514.15 
+            text = "然后就是大二的时候我们几个同学一起。" 
+        intervals [51]:
+            xmin = 514.15 
+            xmax = 514.35 
+            text = "" 
+        intervals [52]:
+            xmin = 514.35 
+            xmax = 516.80 
+            text = "铁腚坐六个小时火车。" 
+        intervals [53]:
+            xmin = 516.80 
+            xmax = 517.78 
+            text = "" 
+        intervals [54]:
+            xmin = 517.78 
+            xmax = 518.46 
+            text = "然后。" 
+        intervals [55]:
+            xmin = 518.46 
+            xmax = 518.63 
+            text = "" 
+        intervals [56]:
+            xmin = 518.63 
+            xmax = 525.18 
+            text = "对然后晚上十点多开始爬，然后爬到了第二天早上五点多，看的日出。" 
+        intervals [57]:
+            xmin = 525.18 
+            xmax = 526.06 
+            text = "" 
+        intervals [58]:
+            xmin = 526.06 
+            xmax = 532.05 
+            text = "然后就是我到山顶儿其实特别害怕，但是我那个同学是个女生儿。" 
+        intervals [59]:
+            xmin = 532.05 
+            xmax = 532.40 
+            text = "" 
+        intervals [60]:
+            xmin = 532.40 
+            xmax = 540.94 
+            text = "然后她就要去爬到那个没有护栏的山边儿上，她要她要拍她要站到那儿拍照儿，我就一直拽着她，哈。" 
+        intervals [61]:
+            xmin = 540.94 
+            xmax = 542.43 
+            text = "" 
+        intervals [62]:
+            xmin = 542.43 
+            xmax = 546.44 
+            text = "然后我们下下山的时候儿，本来计划好的是坐。" 
+        intervals [63]:
+            xmin = 546.44 
+            xmax = 546.70 
+            text = "" 
+        intervals [64]:
+            xmin = 546.70 
+            xmax = 548.17 
+            text = "坐那个缆车下来。" 
+        intervals [65]:
+            xmin = 548.17 
+            xmax = 548.51 
+            text = "" 
+        intervals [66]:
+            xmin = 548.51 
+            xmax = 553.91 
+            text = "然后一打听一百块钱，我说拉倒吧，我说还是用自个儿命爬吧。" 
+        intervals [67]:
+            xmin = 553.91 
+            xmax = 554.93 
+            text = "" 
+        intervals [68]:
+            xmin = 554.93 
+            xmax = 558.18 
+            text = "对，走下来之后坐的大巴，然后下山。" 
+        intervals [69]:
+            xmin = 558.18 
+            xmax = 558.36 
+            text = "" 
+        intervals [70]:
+            xmin = 558.36 
+            xmax = 561.82 
+            text = "然后又坐六个小时火车回天津。" 
+        intervals [71]:
+            xmin = 561.82 
+            xmax = 563.99 
+            text = "" 
+        intervals [72]:
+            xmin = 563.99 
+            xmax = 567.03 
+            text = "对对，然后我们第二天还要上课。" 
+        intervals [73]:
+            xmin = 567.03 
+            xmax = 567.48 
+            text = "" 
+        intervals [74]:
+            xmin = 567.48 
+            xmax = 568.94 
+            text = "然后，就是。" 
+        intervals [75]:
+            xmin = 568.94 
+            xmax = 569.17 
+            text = "" 
+        intervals [76]:
+            xmin = 569.17 
+            xmax = 574.46 
+            text = "回到宿舍之后就，嗯没来得及洗澡，因为那那会儿都已经关门儿了就。" 
+        intervals [77]:
+            xmin = 574.46 
+            xmax = 574.71 
+            text = "" 
+        intervals [78]:
+            xmin = 574.71 
+            xmax = 578.56 
+            text = "呃嗯洗就随便洗了洗然后我就上床睡觉了。" 
+        intervals [79]:
+            xmin = 578.56 
+            xmax = 578.72 
+            text = "" 
+        intervals [80]:
+            xmin = 578.72 
+            xmax = 585.32 
+            text = "第二天下床的时候，呃，舍友问我，呃你好像刚生完孩子一样那个腿。" 
+        intervals [81]:
+            xmin = 585.32 
+            xmax = 585.75 
+            text = "" 
+        intervals [82]:
+            xmin = 585.75 
+            xmax = 587.69 
+            text = "根本走不了道儿。" 
+        intervals [83]:
+            xmin = 587.69 
+            xmax = 604.62 
+            text = "" 
+        intervals [84]:
+            xmin = 604.62 
+            xmax = 606.55 
+            text = "挺遗憾的，嗯。" 
+        intervals [85]:
+            xmin = 606.55 
+            xmax = 616.89 
+            text = "" 
+        intervals [86]:
+            xmin = 616.89 
+            xmax = 620.03 
+            text = "也算是一种去过了。哈哈。" 
+        intervals [87]:
+            xmin = 620.03 
+            xmax = 631.41 
+            text = "" 
+        intervals [88]:
+            xmin = 631.41 
+            xmax = 632.73 
+            text = "吃海鲜了吗？" 
+        intervals [89]:
+            xmin = 632.73 
+            xmax = 633.87 
+            text = "" 
+        intervals [90]:
+            xmin = 633.87 
+            xmax = 635.30 
+            text = "怎么样。" 
+        intervals [91]:
+            xmin = 635.30 
+            xmax = 653.17 
+            text = "" 
+        intervals [92]:
+            xmin = 653.17 
+            xmax = 654.46 
+            text = "明星，嗯。" 
+        intervals [93]:
+            xmin = 654.46 
+            xmax = 658.91 
+            text = "" 
+        intervals [94]:
+            xmin = 658.91 
+            xmax = 660.25 
+            text = "偶遇了。" 
+        intervals [95]:
+            xmin = 660.25 
+            xmax = 680.46 
+            text = "" 
+        intervals [96]:
+            xmin = 680.46 
+            xmax = 683.10 
+            text = "他离着你住的那个地儿，离着海近吗。" 
+        intervals [97]:
+            xmin = 683.10 
+            xmax = 683.64 
+            text = "" 
+        intervals [98]:
+            xmin = 683.64 
+            xmax = 686.18 
+            text = "那也算是住上海景房了哈哈。" 
+        intervals [99]:
+            xmin = 686.18 
+            xmax = 719.12 
+            text = "" 
+        intervals [100]:
+            xmin = 719.12 
+            xmax = 720.98 
+            text = "去晚了哈哈。" 
+        intervals [101]:
+            xmin = 720.98 
+            xmax = 748.54 
+            text = "" 
+        intervals [102]:
+            xmin = 748.54 
+            xmax = 750.45 
+            text = "祛魅了哈哈。" 
+        intervals [103]:
+            xmin = 750.45 
+            xmax = 766.80 
+            text = "" 
+        intervals [104]:
+            xmin = 766.80 
+            xmax = 768.94 
+            text = "嗯，看身体素质了。" 
+        intervals [105]:
+            xmin = 768.94 
+            xmax = 810.03 
+            text = "" 
+        intervals [106]:
+            xmin = 810.03 
+            xmax = 811.73 
+            text = "去吃烧烤啦。" 
+        intervals [107]:
+            xmin = 811.73 
+            xmax = 819.38 
+            text = "" 
+        intervals [108]:
+            xmin = 819.38 
+            xmax = 822.76 
+            text = "他出名儿的不就是那种小店儿嘛。" 
+        intervals [109]:
+            xmin = 822.76 
+            xmax = 826.29 
+            text = "" 
+        intervals [110]:
+            xmin = 826.29 
+            xmax = 827.67 
+            text = "在那个炉子上。" 
+        intervals [111]:
+            xmin = 827.67 
+            xmax = 842.08 
+            text = "" 
+        intervals [112]:
+            xmin = 842.08 
+            xmax = 844.09 
+            text = "他那个。" 
+        intervals [113]:
+            xmin = 844.09 
+            xmax = 912.92 
+            text = "" 
+        intervals [114]:
+            xmin = 912.92 
+            xmax = 916.81 
+            text = "它跟咱们那个板儿面的那个把子肉有区别吗。" 
+        intervals [115]:
+            xmin = 916.81 
+            xmax = 917.66 
+            text = "" 
+        intervals [116]:
+            xmin = 917.66 
+            xmax = 918.76 
+            text = "有区别。" 
+        intervals [117]:
+            xmin = 918.76 
+            xmax = 946.67 
+            text = "" 
+        intervals [118]:
+            xmin = 946.67 
+            xmax = 948.35 
+            text = "馋了已经，哈哈哈。" 
+        intervals [119]:
+            xmin = 948.35 
+            xmax = 991.83 
+            text = "" 
+        intervals [120]:
+            xmin = 991.83 
+            xmax = 993.37 
+            text = "没有，嫌冷。" 
+        intervals [121]:
+            xmin = 993.37 
+            xmax = 1043.82 
+            text = "" 
+        intervals [122]:
+            xmin = 1043.82 
+            xmax = 1044.72 
+            text = "量大。" 
+        intervals [123]:
+            xmin = 1044.72 
+            xmax = 1046.24 
+            text = "" 
+        intervals [124]:
+            xmin = 1046.24 
+            xmax = 1047.11 
+            text = "嗯。" 
+        intervals [125]:
+            xmin = 1047.11 
+            xmax = 1084.45 
+            text = "" 
+        intervals [126]:
+            xmin = 1084.45 
+            xmax = 1086.48 
+            text = "北京没有呢。" 
+        intervals [127]:
+            xmin = 1086.48 
+            xmax = 1087.01 
+            text = "" 
+        intervals [128]:
+            xmin = 1087.01 
+            xmax = 1089.41 
+            text = "你你不是去滑雪了吗哈哈。" 
+        intervals [129]:
+            xmin = 1089.41 
+            xmax = 1100.74 
+            text = "" 
+        intervals [130]:
+            xmin = 1100.74 
+            xmax = 1102.78 
+            text = "不是地铁快开通了吗。" 
+        intervals [131]:
+            xmin = 1102.78 
+            xmax = 1102.79 
+            text = "" 
+        intervals [132]:
+            xmin = 1102.79 
+            xmax = 1104.70 
+            text = "开通了之后就方便多了。" 
+        intervals [133]:
+            xmin = 1104.70 
+            xmax = 1190.39 
+            text = "" 
+        intervals [134]:
+            xmin = 1190.39 
+            xmax = 1191.79 
+            text = "喝豆汁儿了吗？" 
+        intervals [135]:
+            xmin = 1191.79 
+            xmax = 1196.16 
+            text = "" 
+        intervals [136]:
+            xmin = 1196.16 
+            xmax = 1196.98 
+            text = "嗯。" 
+        intervals [137]:
+            xmin = 1196.98 
+            xmax = 1264 
+            text = "" 
+        intervals [138]:
+            xmin = 1264 
+            xmax = 1266.36 
+            text = "它真跟门钉儿一样吗长得。" 
+        intervals [139]:
+            xmin = 1266.36 
+            xmax = 1281.87 
+            text = "" 
+        intervals [140]:
+            xmin = 1281.87 
+            xmax = 1283.30 
+            text = "爆汁儿吗？" 
+        intervals [141]:
+            xmin = 1283.30 
+            xmax = 1304.17 
+            text = "" 

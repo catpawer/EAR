@@ -1,0 +1,63 @@
+{
+  "model": "USEF-TFGridNet-WHAMR",
+  "session": "20260923-1",
+  "track": "R1",
+  "source_audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260923-1/R1.wav",
+  "sample_rate": 8000,
+  "original_rate": 48000,
+  "input_samples": 10362080,
+  "enrollment_source": "corrected_textgrid_oracle",
+  "status": "complete",
+  "tracks": [
+    {
+      "speaker": "P029",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-1/R1/P029.wav",
+      "samples": 10362080,
+      "chunks": 260,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-1/R1/P029.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 61.17,
+      "peak_before_gain": 1.0538135766983032,
+      "output_gain": 0.90148772136381,
+      "clipping_repaired": true
+    },
+    {
+      "speaker": "P030",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-1/R1/P030.wav",
+      "samples": 10362080,
+      "chunks": 260,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-1/R1/P030.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 44.57,
+      "peak_before_gain": 1.0272858142852783,
+      "output_gain": 0.9247669799285129,
+      "clipping_repaired": true
+    },
+    {
+      "speaker": "P031",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-1/R1/P031.wav",
+      "samples": 10362080,
+      "chunks": 260,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-1/R1/P031.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 31.19
+    },
+    {
+      "speaker": "P032",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-1/R1/P032.wav",
+      "samples": 10362080,
+      "chunks": 260,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-1/R1/P032.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 59.74,
+      "peak_before_gain": 1.0314266681671143,
+      "output_gain": 0.9210543311704237,
+      "clipping_repaired": true
+    }
+  ],
+  "elapsed_s": 199.04
+}

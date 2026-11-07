@@ -1,0 +1,14 @@
+INFER 20260924-5 D1 /data2/qiuenduo/EAR1-Challenge/Train&Dev/20260924-5/D1.WAV
+/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/pyannote/audio/utils/reproducibility.py:74: ReproducibilityWarning: TensorFloat-32 (TF32) has been disabled as it might lead to reproducibility issues and lower accuracy.
+It can be re-enabled by calling
+   >>> import torch
+   >>> torch.backends.cuda.matmul.allow_tf32 = True
+   >>> torch.backends.cudnn.allow_tf32 = True
+See https://github.com/pyannote/pyannote-audio/issues/1370 for more details.
+
+  warnings.warn(
+/home/xujunxian/miniconda3/envs/ear1-pyannote/lib/python3.11/site-packages/pyannote/audio/models/blocks/pooling.py:103: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/ReduceOps.cpp:1927.)
+  std = sequences.std(dim=-1, correction=1)
+SAVED /home/xujunxian/ear1_task1_compare_20261106_1712/predictions/pyannote_community1/D1/20260924-5.rttm 704 1552.96971875
+INFER 20260923-5 D1 /data2/qiuenduo/EAR1-Challenge/Train&Dev/20260923-5/D1.WAV
+SAVED /home/xujunxian/ear1_task1_compare_20261106_1712/predictions/pyannote_community1/D1/20260923-5.rttm 137 1579.3284687500002

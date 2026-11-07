@@ -1,0 +1,60 @@
+{
+  "model": "USEF-TFGridNet-WHAMR",
+  "session": "20260923-5",
+  "track": "R1",
+  "source_audio": "/data2/qiuenduo/EAR1-Challenge/Train&Dev/20260923-5/R1.wav",
+  "sample_rate": 8000,
+  "original_rate": 48000,
+  "input_samples": 12646758,
+  "enrollment_source": "corrected_textgrid_oracle",
+  "status": "complete",
+  "tracks": [
+    {
+      "speaker": "P033",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-5/R1/P033.wav",
+      "samples": 12646758,
+      "chunks": 317,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-5/R1/P033.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 72.87
+    },
+    {
+      "speaker": "P034",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-5/R1/P034.wav",
+      "samples": 12646758,
+      "chunks": 317,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-5/R1/P034.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 72.81
+    },
+    {
+      "speaker": "P035",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-5/R1/P035.wav",
+      "samples": 12646758,
+      "chunks": 317,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-5/R1/P035.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 72.84,
+      "peak_before_gain": 1.0697251558303833,
+      "output_gain": 0.8880785824491099,
+      "clipping_repaired": true
+    },
+    {
+      "speaker": "P036",
+      "output": "/home/xujunxian/ear1_separation_20261106_195147/outputs/usef_tse_whamr/20260923-5/R1/P036.wav",
+      "samples": 12646758,
+      "chunks": 317,
+      "silent_chunks_skipped": 0,
+      "enrollment": "/home/xujunxian/ear1_separation_20261106_195147/config/enrollments/20260923-5/R1/P036.wav",
+      "enrollment_status": "ok_exclusive_oracle",
+      "elapsed_s": 69.87,
+      "peak_before_gain": 1.0649033784866333,
+      "output_gain": 0.8920997145769919,
+      "clipping_repaired": true
+    }
+  ],
+  "elapsed_s": 290.81
+}
